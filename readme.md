@@ -14,3 +14,9 @@ Icons are extracted from the sc2 game files using a CASC editor such as Zezula's
 
 ## Script configuration
 The scripts use path information pulled from a workspace.json file in the root of the directory tree. This information is user-specific, and is thus not checked in.
+
+| key                 | value        |
+| ------------------- | ------------ |
+| dds_files           | a path to a directory containing .dds files extracted from the game files |
+| mod_files           | a path to the root of a clone of `archipelago-sc2-data` |
+| liberty_game_data   | a path to a directory containing the extracted ButtonData.xml from the base game's liberty mod |
