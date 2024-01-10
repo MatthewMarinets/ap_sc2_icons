@@ -346,7 +346,7 @@ def main():
     for item_name, item in item_numbers.items():
         icon_path = resolve_item_icon(item, id_to_unlocks, unit_to_ability, ability_to_button, button_to_icon, upgrade_to_icon)
         if icon_path: found += 1
-        locations[item_name] = icon_path
+        locations[item_name] = icon_path.replace('&apos;', "'")
     result = {
         'meta': {
             'timestamp': datetime.now().strftime('%Y-%m-%d'),

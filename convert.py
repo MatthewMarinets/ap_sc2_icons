@@ -8,6 +8,7 @@ import os
 import subprocess
 
 if __name__ == '__main__':
+    verbose = False
     with open('workspace.json', 'r') as fp:
         config: dict[str, str] = json.load(fp)
     with open('data/locations.json', 'r') as fp:
@@ -15,11 +16,17 @@ if __name__ == '__main__':
     dds_dir = config['dds_files']
     mod_dir = config['mod_files']
     failures = 0
+    successes = 0
+    skipped = 0
+    no_information = 0
     locations = location_info['locations']
     num_images = location_info["meta"]["located"]
     info = {}
-    for item, location in locations.items():
+    items = sorted(locations)
+    for item in items:
+        location = locations[item]
         if not location:
+            no_information += 1
             continue
         filename = os.path.basename(location)
         stem = os.path.splitext(filename)[0]
@@ -34,11 +41,18 @@ if __name__ == '__main__':
             failures += 1
             continue
         target_path = f'{target_dir}/{stem}.png'
+        if os.path.exists(target_path):
+            if verbose: print(f'Skipping {target_path} as it already exists')
+            info[item] = target_path
+            skipped += 1
+            continue
         retval = subprocess.call(f'magick convert "{source_path}" {target_path}', shell=True)
         if retval:
             failures += 1
             print(f'magick returned non-zero value {retval} trying to convert {source_path}')
+            continue
+        successes += 1
         info[item] = target_path
     with open('data/icon_manifest.json', 'w') as fp:
-        json.dump(info, fp)
-    print(f'Converted {num_images - failures} images | Encountered {failures} errors | Total {num_images} items')
+        json.dump(info, fp, indent=1)
+    print(f'Converted: {successes} | Skipped: {skipped} | Failed: {failures} | No path: {no_information} | Total: {len(items)}')
