@@ -19,7 +19,7 @@ def write_start(fp: io.FileIO) -> None:
     """))
 
 def brief_name(item_name: str) -> str:
-    return item_name.split('(', 1)[0].strip().replace(' ', '-')
+    return item_name.strip().replace('/', '-').replace('(', '').replace(')', '').replace(' ', '-')
 
 def write_table_of_contents(fp: io.FileIO, item_names: Iterable[str]) -> None:
     fp.write("""
