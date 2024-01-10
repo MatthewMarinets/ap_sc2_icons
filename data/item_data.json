@@ -1,0 +1,7098 @@
+{
+  "Marine": {
+    "type": "Unit",
+    "number": 0,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "General-purpose infantry."
+  },
+  "Medic": {
+    "type": "Unit",
+    "number": 1,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Support trooper. Heals nearby biological units."
+  },
+  "Firebat": {
+    "type": "Unit",
+    "number": 2,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Specialized anti-infantry attacker."
+  },
+  "Marauder": {
+    "type": "Unit",
+    "number": 3,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Heavy assault infantry."
+  },
+  "Reaper": {
+    "type": "Unit",
+    "number": 4,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Raider. Capable of jumping up and down cliffs. Throws explosive mines."
+  },
+  "Hellion": {
+    "type": "Unit",
+    "number": 5,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Fast scout. Has a flame attack that damages all enemy units in its line of fire."
+  },
+  "Vulture": {
+    "type": "Unit",
+    "number": 6,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Fast skirmish unit. Can use the Spider Mine ability."
+  },
+  "Goliath": {
+    "type": "Unit",
+    "number": 7,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Heavy-fire support unit."
+  },
+  "Diamondback": {
+    "type": "Unit",
+    "number": 8,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Fast, high-damage hovertank. Rail Gun can fire while the Diamondback is moving."
+  },
+  "Siege Tank": {
+    "type": "Unit",
+    "number": 9,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Heavy tank. Long-range artillery in Siege Mode."
+  },
+  "Medivac": {
+    "type": "Unit",
+    "number": 10,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Air transport. Heals nearby biological units."
+  },
+  "Wraith": {
+    "type": "Unit",
+    "number": 11,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Highly mobile flying unit. Excellent at surgical strikes."
+  },
+  "Viking": {
+    "type": "Unit",
+    "number": 12,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Durable support flyer. Loaded with strong anti-capital air missiles. \nCan switch into Assault Mode to attack ground units."
+  },
+  "Banshee": {
+    "type": "Unit",
+    "number": 13,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Tactical-strike aircraft."
+  },
+  "Battlecruiser": {
+    "type": "Unit",
+    "number": 14,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Powerful warship."
+  },
+  "Ghost": {
+    "type": "Unit",
+    "number": 15,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Infiltration unit. Can use Snipe and Cloak abilities. Can also call down Tactical Nukes."
+  },
+  "Spectre": {
+    "type": "Unit",
+    "number": 16,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Infiltration unit. Can use Ultrasonic Pulse, Psionic Lash, and Cloak. \nCan also call down Tactical Nukes."
+  },
+  "Thor": {
+    "type": "Unit",
+    "number": 17,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Heavy assault mech."
+  },
+  "Liberator": {
+    "type": "Unit",
+    "number": 18,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext",
+      "nco"
+    ],
+    "description": "Artillery fighter. Loaded with missiles that deal area damage to enemy air targets. \nCan switch into Defender Mode to provide siege support."
+  },
+  "Valkyrie": {
+    "type": "Unit",
+    "number": 19,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "bw"
+    ],
+    "description": "Advanced anti-aircraft fighter. \nAble to use cluster missiles that deal area damage to air targets."
+  },
+  "Widow Mine": {
+    "type": "Unit",
+    "number": 20,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": "Robotic mine. Launches missiles at nearby enemy units while burrowed. \nAttacks deal splash damage in a small area around the target. \nWidow Mine is revealed when Sentinel Missile is on cooldown."
+  },
+  "Cyclone": {
+    "type": "Unit",
+    "number": 21,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": "Mobile assault vehicle. Can use Lock On to quickly fire while moving."
+  },
+  "HERC": {
+    "type": "Unit",
+    "number": 26,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": "Front-line infantry. Can use Grapple."
+  },
+  "Warhound": {
+    "type": "Unit",
+    "number": 27,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": "Anti-vehicle mech. Haywire missiles do bonus damage to mechanical units."
+  },
+  "Progressive Terran Infantry Weapon": {
+    "type": "Upgrade",
+    "number": 0,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 3,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Increases damage of Terran infantry units. \nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
+  },
+  "Progressive Terran Infantry Armor": {
+    "type": "Upgrade",
+    "number": 2,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 3,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Increases armor of Terran infantry units. \nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
+  },
+  "Progressive Terran Vehicle Weapon": {
+    "type": "Upgrade",
+    "number": 4,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 3,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Increases damage of Terran vehicle units. \nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
+  },
+  "Progressive Terran Vehicle Armor": {
+    "type": "Upgrade",
+    "number": 6,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 3,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Increases armor of Terran vehicle units. \nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
+  },
+  "Progressive Terran Ship Weapon": {
+    "type": "Upgrade",
+    "number": 8,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 3,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Increases damage of Terran starship units. \nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
+  },
+  "Progressive Terran Ship Armor": {
+    "type": "Upgrade",
+    "number": 10,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 3,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Increases armor of Terran starship units. \nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
+  },
+  "Progressive Terran Weapon Upgrade": {
+    "type": "Upgrade",
+    "number": 0,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 3,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": null
+  },
+  "Progressive Terran Armor Upgrade": {
+    "type": "Upgrade",
+    "number": 1,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 3,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": null
+  },
+  "Progressive Terran Infantry Upgrade": {
+    "type": "Upgrade",
+    "number": 2,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 3,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": null
+  },
+  "Progressive Terran Vehicle Upgrade": {
+    "type": "Upgrade",
+    "number": 3,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 3,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": null
+  },
+  "Progressive Terran Ship Upgrade": {
+    "type": "Upgrade",
+    "number": 4,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 3,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": null
+  },
+  "Progressive Terran Weapon/Armor Upgrade": {
+    "type": "Upgrade",
+    "number": 5,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 3,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": null
+  },
+  "Projectile Accelerator (Bunker)": {
+    "type": "Armory 1",
+    "number": 0,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Bunker",
+    "origin": [
+      "wol"
+    ],
+    "description": "Increases range of all units in the Bunker by 1."
+  },
+  "Neosteel Bunker (Bunker)": {
+    "type": "Armory 1",
+    "number": 1,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Bunker",
+    "origin": [
+      "wol"
+    ],
+    "description": "Increases the number of Bunker slots by 2."
+  },
+  "Titanium Housing (Missile Turret)": {
+    "type": "Armory 1",
+    "number": 2,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Missile Turret",
+    "origin": [
+      "wol"
+    ],
+    "description": "Increases Missile Turret life by 75."
+  },
+  "Hellstorm Batteries (Missile Turret)": {
+    "type": "Armory 1",
+    "number": 3,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Missile Turret",
+    "origin": [
+      "wol"
+    ],
+    "description": "The Missile Turret unleashes an additional flurry of missiles with each attack."
+  },
+  "Advanced Construction (SCV)": {
+    "type": "Armory 1",
+    "number": 4,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Multiple SCVs can construct a structure, reducing its construction time."
+  },
+  "Dual-Fusion Welders (SCV)": {
+    "type": "Armory 1",
+    "number": 5,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "SCVs repair twice as fast."
+  },
+  "Progressive Fire-Suppression System": {
+    "type": "Progressive Upgrade",
+    "number": 24,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 2,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Level 1: While on low health, Terran structures are repaired to half health instead of burning down.\nLevel 2: Terran structures are repaired to full health instead of half health"
+  },
+  "Progressive Orbital Command": {
+    "type": "Progressive Upgrade",
+    "number": 26,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 2,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Level 1: Allows Command Centers to use Scanner Sweep and Calldown: MULE abilities.\nLevel 2: Orbital Command abilities do work even in Planetary Fortress mode."
+  },
+  "Progressive Stimpack (Marine)": {
+    "type": "Progressive Upgrade",
+    "number": 0,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 2,
+    "parent_item": "Marine",
+    "origin": [
+      "wol"
+    ],
+    "description": "Level 1: Stimpack: Increases unit movement and attack speed for 15 seconds. Injures the unit for 10 life.\nLevel 2: Super Stimpack: Instead of injuring the unit, heals the unit for 30 life instead."
+  },
+  "Combat Shield (Marine)": {
+    "type": "Armory 1",
+    "number": 9,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": "Marine",
+    "origin": [
+      "wol"
+    ],
+    "description": "Increases Marine life by 10."
+  },
+  "Advanced Medic Facilities (Medic)": {
+    "type": "Armory 1",
+    "number": 10,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Medic",
+    "origin": [
+      "wol"
+    ],
+    "description": "Medics can be trained from a Barracks without an attached Tech Lab."
+  },
+  "Stabilizer Medpacks (Medic)": {
+    "type": "Armory 1",
+    "number": 11,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": "Medic",
+    "origin": [
+      "wol"
+    ],
+    "description": "Increases Medic heal speed. Reduces the amount of energy required for each heal."
+  },
+  "Incinerator Gauntlets (Firebat)": {
+    "type": "Armory 1",
+    "number": 12,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Firebat",
+    "origin": [
+      "wol"
+    ],
+    "description": "Increases Firebat's damage radius by 40%"
+  },
+  "Juggernaut Plating (Firebat)": {
+    "type": "Armory 1",
+    "number": 13,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Firebat",
+    "origin": [
+      "wol"
+    ],
+    "description": "Increases Firebat's armor by 2."
+  },
+  "Concussive Shells (Marauder)": {
+    "type": "Armory 1",
+    "number": 14,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Marauder",
+    "origin": [
+      "wol"
+    ],
+    "description": "Marauder attack temporarily slows all units in target area."
+  },
+  "Kinetic Foam (Marauder)": {
+    "type": "Armory 1",
+    "number": 15,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Marauder",
+    "origin": [
+      "wol"
+    ],
+    "description": "Increases Marauder life by 25."
+  },
+  "U-238 Rounds (Reaper)": {
+    "type": "Armory 1",
+    "number": 16,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Reaper",
+    "origin": [
+      "wol"
+    ],
+    "description": "Increases Reaper pistol attack range by 1.\nReaper pistols do additional 3 damage to Light Armor."
+  },
+  "G-4 Clusterbomb (Reaper)": {
+    "type": "Armory 1",
+    "number": 17,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": "Reaper",
+    "origin": [
+      "wol"
+    ],
+    "description": "Timed explosive that does heavy area damage."
+  },
+  "Mag-Field Accelerators (Cyclone)": {
+    "type": "Armory 1",
+    "number": 18,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Cyclone",
+    "origin": [
+      "ext"
+    ],
+    "description": "Increases Cyclone Lock On damage"
+  },
+  "Mag-Field Launchers (Cyclone)": {
+    "type": "Armory 1",
+    "number": 19,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Cyclone",
+    "origin": [
+      "ext"
+    ],
+    "description": "Increases Cyclone attack range by 2."
+  },
+  "Laser Targeting System (Marine)": {
+    "type": "Armory 1",
+    "number": 8,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Marine",
+    "origin": [
+      "nco"
+    ],
+    "description": "Increases vision by 2 and weapon range by 1."
+  },
+  "Magrail Munitions (Marine)": {
+    "type": "Armory 1",
+    "number": 20,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": "Marine",
+    "origin": [
+      "nco"
+    ],
+    "description": "Deals 20 damage to target unit. Autocast on attack with a cooldown."
+  },
+  "Optimized Logistics (Marine)": {
+    "type": "Armory 1",
+    "number": 21,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Marine",
+    "origin": [
+      "nco"
+    ],
+    "description": "Increases Marine training speed."
+  },
+  "Restoration (Medic)": {
+    "type": "Armory 1",
+    "number": 22,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Medic",
+    "origin": [
+      "bw"
+    ],
+    "description": "Removes negative status effects from target allied unit."
+  },
+  "Optical Flare (Medic)": {
+    "type": "Armory 1",
+    "number": 23,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Medic",
+    "origin": [
+      "bw"
+    ],
+    "description": "Reduces vision range of target enemy unit. Disables detection."
+  },
+  "Resource Efficiency (Medic)": {
+    "type": "Armory 1",
+    "number": 24,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Medic",
+    "origin": [
+      "bw"
+    ],
+    "description": "Reduces Medic resource and supply cost."
+  },
+  "Progressive Stimpack (Firebat)": {
+    "type": "Progressive Upgrade",
+    "number": 6,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 2,
+    "parent_item": "Firebat",
+    "origin": [
+      "bw"
+    ],
+    "description": "Level 1: Stimpack: Increases unit movement and attack speed for 15 seconds. Injures the unit for 20 life.\nLevel 2: Super Stimpack: Instead of injuring the unit, heals the unit for 60 life instead."
+  },
+  "Resource Efficiency (Firebat)": {
+    "type": "Armory 1",
+    "number": 25,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Firebat",
+    "origin": [
+      "bw"
+    ],
+    "description": "Reduces Firebat resource and supply cost."
+  },
+  "Progressive Stimpack (Marauder)": {
+    "type": "Progressive Upgrade",
+    "number": 8,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 2,
+    "parent_item": "Marauder",
+    "origin": [
+      "nco"
+    ],
+    "description": "Level 1: Stimpack: Increases unit movement and attack speed for 15 seconds. Injures the unit for 20 life.\nLevel 2: Super Stimpack: Instead of injuring the unit, heals the unit for 60 life instead."
+  },
+  "Laser Targeting System (Marauder)": {
+    "type": "Armory 1",
+    "number": 26,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Marauder",
+    "origin": [
+      "nco"
+    ],
+    "description": "Increases vision by 2 and weapon range by 1."
+  },
+  "Magrail Munitions (Marauder)": {
+    "type": "Armory 1",
+    "number": 27,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Marauder",
+    "origin": [
+      "nco"
+    ],
+    "description": "Deals 20 damage to target unit. Autocast on attack with a cooldown."
+  },
+  "Internal Tech Module (Marauder)": {
+    "type": "Armory 1",
+    "number": 28,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Marauder",
+    "origin": [
+      "nco"
+    ],
+    "description": "Marauders can be trained from a Barracks without an attached Tech Lab."
+  },
+  "Hostile Environment Adaptation (SCV)": {
+    "type": "Armory 1",
+    "number": 29,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "bw"
+    ],
+    "description": "Increases SCV life by 15 and attack speed slightly."
+  },
+  "Adaptive Medpacks (Medic)": {
+    "type": "Armory 2",
+    "number": 0,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": "Medic",
+    "origin": [
+      "ext"
+    ],
+    "description": "Allows Medics to heal mechanical and air units."
+  },
+  "Nano Projector (Medic)": {
+    "type": "Armory 2",
+    "number": 1,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Medic",
+    "origin": [
+      "ext"
+    ],
+    "description": "Increases Medic heal range by 2."
+  },
+  "Infernal Pre-Igniter (Firebat)": {
+    "type": "Armory 2",
+    "number": 2,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Firebat",
+    "origin": [
+      "bw"
+    ],
+    "description": "Firebats do additional 4 damage to Light Armor."
+  },
+  "Kinetic Foam (Firebat)": {
+    "type": "Armory 2",
+    "number": 3,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Firebat",
+    "origin": [
+      "ext"
+    ],
+    "description": "Increases Firebat life by 100."
+  },
+  "Nano Projectors (Firebat)": {
+    "type": "Armory 2",
+    "number": 4,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Firebat",
+    "origin": [
+      "ext"
+    ],
+    "description": "Increasex Firebat attack range by 2"
+  },
+  "Juggernaut Plating (Marauder)": {
+    "type": "Armory 2",
+    "number": 5,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Marauder",
+    "origin": [
+      "ext"
+    ],
+    "description": "Increases Marauder's armor by 2."
+  },
+  "Jet Pack Overdrive (Reaper)": {
+    "type": "Armory 2",
+    "number": 6,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Reaper",
+    "origin": [
+      "ext"
+    ],
+    "description": "Allows the Reaper to fly for 10 seconds.\nWhile flying, the Reaper can attack air units."
+  },
+  "Infernal Plating (Hellion)": {
+    "type": "Armory 2",
+    "number": 7,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Hellion",
+    "origin": [
+      "ext"
+    ],
+    "description": "Increases Hellion and Hellbat armor by 2."
+  },
+  "Auto-Repair (Vulture)": {
+    "type": "Armory 2",
+    "number": 8,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Vulture",
+    "origin": [
+      "ext"
+    ],
+    "description": "Vultures regenerate life."
+  },
+  "Shaped Hull (Goliath)": {
+    "type": "Armory 2",
+    "number": 9,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Goliath",
+    "origin": [
+      "ext",
+      "nco"
+    ],
+    "description": "Increases Goliath life by 25."
+  },
+  "Resource Efficiency (Goliath)": {
+    "type": "Armory 2",
+    "number": 10,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Goliath",
+    "origin": [
+      "bw",
+      "nco"
+    ],
+    "description": "Reduces Goliath resource and supply cost."
+  },
+  "Internal Tech Module (Goliath)": {
+    "type": "Armory 2",
+    "number": 11,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Goliath",
+    "origin": [
+      "bw",
+      "nco"
+    ],
+    "description": "Goliaths can be trained from a Factory without an attached Tech Lab."
+  },
+  "Shaped Hull (Siege Tank)": {
+    "type": "Armory 2",
+    "number": 12,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Siege Tank",
+    "origin": [
+      "ext",
+      "nco"
+    ],
+    "description": "Increases Siege Tank life by 25."
+  },
+  "Resource Efficiency (Siege Tank)": {
+    "type": "Armory 2",
+    "number": 13,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Siege Tank",
+    "origin": [
+      "bw"
+    ],
+    "description": "Reduces Siege Tank resource and supply cost."
+  },
+  "Cloak (Predator)": {
+    "type": "Armory 2",
+    "number": 14,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Predator",
+    "origin": [
+      "ext"
+    ],
+    "description": "Allows Predators to use the Cloak ability."
+  },
+  "Charge (Predator)": {
+    "type": "Armory 2",
+    "number": 15,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Predator",
+    "origin": [
+      "ext"
+    ],
+    "description": "Allows Predators to intercept enemy ground units."
+  },
+  "Scatter Veil (Medivac)": {
+    "type": "Armory 2",
+    "number": 16,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Medivac",
+    "origin": [
+      "ext"
+    ],
+    "description": "Medivacs get 100 shields."
+  },
+  "Progressive Stimpack (Reaper)": {
+    "type": "Progressive Upgrade",
+    "number": 10,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 2,
+    "parent_item": "Reaper",
+    "origin": [
+      "nco"
+    ],
+    "description": "Level 1: Stimpack: Increases unit movement and attack speed for 15 seconds. Injures the unit for 10 life.\nLevel 2: Super Stimpack: Instead of injuring the unit, heals the unit for 30 life instead."
+  },
+  "Laser Targeting System (Reaper)": {
+    "type": "Armory 2",
+    "number": 17,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Reaper",
+    "origin": [
+      "nco"
+    ],
+    "description": "Increases vision by 2 and weapon range by 1."
+  },
+  "Advanced Cloaking Field (Reaper)": {
+    "type": "Armory 2",
+    "number": 18,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Reaper",
+    "origin": [
+      "nco"
+    ],
+    "description": "Reapers are permanently cloaked."
+  },
+  "Spider Mines (Reaper)": {
+    "type": "Armory 2",
+    "number": 19,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Reaper",
+    "origin": [
+      "nco"
+    ],
+    "description": "Allows Reapers to lay Spider Mines. 3 charges per Reaper."
+  },
+  "Combat Drugs (Reaper)": {
+    "type": "Armory 2",
+    "number": 20,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Reaper",
+    "origin": [
+      "ext"
+    ],
+    "description": "Reapers regenerate life while out of combat."
+  },
+  "Hellbat Aspect (Hellion)": {
+    "type": "Armory 2",
+    "number": 21,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": "Hellion",
+    "origin": [
+      "nco"
+    ],
+    "description": "Allows Hellions to transform into Hellbats."
+  },
+  "Smart Servos (Hellion)": {
+    "type": "Armory 2",
+    "number": 22,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Hellion",
+    "origin": [
+      "nco"
+    ],
+    "description": "Transforms faster between modes. Hellions can attack while moving."
+  },
+  "Optimized Logistics (Hellion)": {
+    "type": "Armory 2",
+    "number": 23,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Hellion",
+    "origin": [
+      "nco"
+    ],
+    "description": "Increases Hellion training speed."
+  },
+  "Jump Jets (Hellion)": {
+    "type": "Armory 2",
+    "number": 24,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Hellion",
+    "origin": [
+      "nco"
+    ],
+    "description": "Increases movement speed in Hellion mode.\nIn Hellbat mode, launches the Hellbat toward enemy ground units and briefly stuns them."
+  },
+  "Progressive Stimpack (Hellion)": {
+    "type": "Progressive Upgrade",
+    "number": 12,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 2,
+    "parent_item": "Hellion",
+    "origin": [
+      "nco"
+    ],
+    "description": "Level 1: Stimpack: Increases unit movement and attack speed for 15 seconds. Injures the unit for 20 life.\nLevel 2: Super Stimpack: Instead of injuring the unit, heals the unit for 60 life instead."
+  },
+  "Ion Thrusters (Vulture)": {
+    "type": "Armory 2",
+    "number": 25,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Vulture",
+    "origin": [
+      "bw"
+    ],
+    "description": "Increases Vulture movement speed."
+  },
+  "Auto Launchers (Vulture)": {
+    "type": "Armory 2",
+    "number": 26,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Vulture",
+    "origin": [
+      "bw"
+    ],
+    "description": "Allows Vultures to attack while moving."
+  },
+  "High Explosive Munition (Spider Mine)": {
+    "type": "Armory 2",
+    "number": 27,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "bw"
+    ],
+    "description": "Increases Spider mine damage."
+  },
+  "Jump Jets (Goliath)": {
+    "type": "Armory 2",
+    "number": 28,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": "Goliath",
+    "origin": [
+      "nco"
+    ],
+    "description": "Allows Goliaths to jump up and down cliffs."
+  },
+  "Optimized Logistics (Goliath)": {
+    "type": "Armory 2",
+    "number": 29,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Goliath",
+    "origin": [
+      "nco"
+    ],
+    "description": "Increases Goliath training speed."
+  },
+  "Hyperfluxor (Diamondback)": {
+    "type": "Armory 3",
+    "number": 0,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Diamondback",
+    "origin": [
+      "ext"
+    ],
+    "description": "Increases Diamondback attack speed."
+  },
+  "Burst Capacitors (Diamondback)": {
+    "type": "Armory 3",
+    "number": 1,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Diamondback",
+    "origin": [
+      "ext"
+    ],
+    "description": "While not attacking, the Diamondback charges its weapon. \nThe next attack does 10 additional damage."
+  },
+  "Resource Efficiency (Diamondback)": {
+    "type": "Armory 3",
+    "number": 2,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Diamondback",
+    "origin": [
+      "ext"
+    ],
+    "description": "Reduces Diamondback resource and supply cost."
+  },
+  "Jump Jets (Siege Tank)": {
+    "type": "Armory 3",
+    "number": 3,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": "Siege Tank",
+    "origin": [
+      "nco"
+    ],
+    "description": "Repositions Siege Tank to a target location. \nCan be used in either mode and to jump up and down cliffs. "
+  },
+  "Spider Mines (Siege Tank)": {
+    "type": "Armory 3",
+    "number": 4,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Siege Tank",
+    "origin": [
+      "nco"
+    ],
+    "description": "Allows Sige Tanks to lay Spider Mines. \nLays 3 Spider Mines at once. 3 charges"
+  },
+  "Smart Servos (Siege Tank)": {
+    "type": "Armory 3",
+    "number": 5,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Siege Tank",
+    "origin": [
+      "nco"
+    ],
+    "description": "Increases transformation speed between modes."
+  },
+  "Graduating Range (Siege Tank)": {
+    "type": "Armory 3",
+    "number": 6,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": "Siege Tank",
+    "origin": [
+      "ext"
+    ],
+    "description": "Increases the Siege Tank's attack range by 1 every 3 seconds while in Siege Mode, \nup to a maximum of 5 additional range."
+  },
+  "Laser Targeting System (Siege Tank)": {
+    "type": "Armory 3",
+    "number": 7,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Siege Tank",
+    "origin": [
+      "nco"
+    ],
+    "description": "Increases vision by 2 and weapon range by 1."
+  },
+  "Advanced Siege Tech (Siege Tank)": {
+    "type": "Armory 3",
+    "number": 8,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Siege Tank",
+    "origin": [
+      "ext"
+    ],
+    "description": "Siege Tanks gain +3 armor in Siege Mode."
+  },
+  "Internal Tech Module (Siege Tank)": {
+    "type": "Armory 3",
+    "number": 9,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Siege Tank",
+    "origin": [
+      "nco"
+    ],
+    "description": "Siege Tanks can be trained from a Factory without an attached Tech Lab."
+  },
+  "Resource Efficiency (Predator)": {
+    "type": "Armory 3",
+    "number": 10,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Predator",
+    "origin": [
+      "ext"
+    ],
+    "description": "Decreases Predator resource and supply cost."
+  },
+  "Expanded Hull (Medivac)": {
+    "type": "Armory 3",
+    "number": 11,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Medivac",
+    "origin": [
+      "ext"
+    ],
+    "description": "Increases Medivac cargo space by 4."
+  },
+  "Afterburners (Medivac)": {
+    "type": "Armory 3",
+    "number": 12,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Medivac",
+    "origin": [
+      "ext"
+    ],
+    "description": "Ability. Temporarily increases the Medivac's movement speed by 70%."
+  },
+  "Advanced Laser Technology (Wraith)": {
+    "type": "Armory 3",
+    "number": 13,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": "Wraith",
+    "origin": [
+      "ext"
+    ],
+    "description": "Burst Lasers do more damage and can hit both ground and air targets.\nReplaces Gemini Missiles weapon."
+  },
+  "Smart Servos (Viking)": {
+    "type": "Armory 3",
+    "number": 14,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Viking",
+    "origin": [
+      "ext"
+    ],
+    "description": "Increases transformation speed between modes."
+  },
+  "Anti-Mechanical Munition (Viking)": {
+    "type": "Armory 3",
+    "number": 15,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Viking",
+    "origin": [
+      "ext"
+    ],
+    "description": "Increases Viking damage to mechanical units while in Assault Mode."
+  },
+  "Twin-Linked Flamethrower (Hellion)": {
+    "type": "Armory 3",
+    "number": 16,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Hellion",
+    "origin": [
+      "wol"
+    ],
+    "description": "Doubles the width of the Hellion's flame attack."
+  },
+  "Thermite Filaments (Hellion)": {
+    "type": "Armory 3",
+    "number": 17,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Hellion",
+    "origin": [
+      "wol"
+    ],
+    "description": "Hellions do an additional 10 damage to Light Armor."
+  },
+  "Cerberus Mine (Spider Mine)": {
+    "type": "Armory 3",
+    "number": 18,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Increases trigger and blast radius of Spider Mines."
+  },
+  "Progressive Replenishable Magazine (Vulture)": {
+    "type": "Progressive Upgrade",
+    "number": 16,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 2,
+    "parent_item": "Vulture",
+    "origin": [
+      "wol"
+    ],
+    "description": "Level 1: Allows Vultures to replace used Spider Mines. Costs 15 minerals.\nLevel 2: Replacing used Spider Mines no longer costs minerals."
+  },
+  "Multi-Lock Weapons System (Goliath)": {
+    "type": "Armory 3",
+    "number": 19,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Goliath",
+    "origin": [
+      "wol"
+    ],
+    "description": "Goliaths can attack both ground and air targets simultaneously."
+  },
+  "Ares-Class Targeting System (Goliath)": {
+    "type": "Armory 3",
+    "number": 20,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Goliath",
+    "origin": [
+      "wol"
+    ],
+    "description": "Increases Goliath ground attack range by 1 and air by 3."
+  },
+  "Tri-Lithium Power Cell (Diamondback)": {
+    "type": "Armory 3",
+    "number": 21,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Diamondback",
+    "origin": [
+      "wol"
+    ],
+    "description": "Increases Diamondback attack range by 1."
+  },
+  "Shaped Hull (Diamondback)": {
+    "type": "Armory 3",
+    "number": 22,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Diamondback",
+    "origin": [
+      "wol"
+    ],
+    "description": "Increases Diamondback life by 50."
+  },
+  "Maelstrom Rounds (Siege Tank)": {
+    "type": "Armory 3",
+    "number": 23,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": "Siege Tank",
+    "origin": [
+      "wol"
+    ],
+    "description": "Siege Tanks do an additional 40 damage to the primary target in Siege Mode."
+  },
+  "Shaped Blast (Siege Tank)": {
+    "type": "Armory 3",
+    "number": 24,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Siege Tank",
+    "origin": [
+      "wol"
+    ],
+    "description": "Reduces splash damage to friendly targets while in Siege Mode by 75%."
+  },
+  "Rapid Deployment Tube (Medivac)": {
+    "type": "Armory 3",
+    "number": 25,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Medivac",
+    "origin": [
+      "wol"
+    ],
+    "description": "Medivacs deploy loaded troops almost instantly."
+  },
+  "Advanced Healing AI (Medivac)": {
+    "type": "Armory 3",
+    "number": 26,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Medivac",
+    "origin": [
+      "wol"
+    ],
+    "description": "Medivacs can heal two targets at once."
+  },
+  "Progressive Tomahawk Power Cells (Wraith)": {
+    "type": "Progressive Upgrade",
+    "number": 18,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 2,
+    "parent_item": "Wraith",
+    "origin": [
+      "wol"
+    ],
+    "description": "Level 1: Increases Wraith starting energy by 100.\nLevel 2: Wraiths do not require energy to cloak and remain cloaked."
+  },
+  "Displacement Field (Wraith)": {
+    "type": "Armory 3",
+    "number": 27,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Wraith",
+    "origin": [
+      "wol"
+    ],
+    "description": "Wraiths evade 20% of incoming attacks while cloaked."
+  },
+  "Ripwave Missiles (Viking)": {
+    "type": "Armory 3",
+    "number": 28,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Viking",
+    "origin": [
+      "wol"
+    ],
+    "description": "Vikings do area damage while in Fighter Mode"
+  },
+  "Phobos-Class Weapons System (Viking)": {
+    "type": "Armory 3",
+    "number": 29,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Viking",
+    "origin": [
+      "wol"
+    ],
+    "description": "Increases Viking attack range by 1 in Assault mode and 2 in Fighter mode."
+  },
+  "Progressive Cross-Spectrum Dampeners (Banshee)": {
+    "type": "Progressive Upgrade",
+    "number": 2,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 2,
+    "parent_item": "Banshee",
+    "origin": [
+      "wol"
+    ],
+    "description": "Level 1: Banshees can remain cloaked twice as long.\nLevel 2: Banshees do not require energy to cloak and remain cloaked."
+  },
+  "Shockwave Missile Battery (Banshee)": {
+    "type": "Armory 4",
+    "number": 0,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": "Banshee",
+    "origin": [
+      "wol"
+    ],
+    "description": "Banshees do area damage in a straight line."
+  },
+  "Missile Pods (Battlecruiser)": {
+    "type": "Armory 4",
+    "number": 1,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Battlecruiser",
+    "origin": [
+      "wol"
+    ],
+    "description": "Spell. Missile Pods do damage to air targets in a target area."
+  },
+  "Progressive Defensive Matrix (Battlecruiser)": {
+    "type": "Progressive Upgrade",
+    "number": 20,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 2,
+    "parent_item": "Battlecruiser",
+    "origin": [
+      "wol"
+    ],
+    "description": "Level 1: Spell. For 20 seconds the Battlecruiser gains a shield that can absorb up to 200 damage.\nLevel 2: Passive. Battlecruiser gets 200 shields."
+  },
+  "Ocular Implants (Ghost)": {
+    "type": "Armory 4",
+    "number": 2,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Ghost",
+    "origin": [
+      "wol"
+    ],
+    "description": "Increases Ghost sight range by 3 and attack range by 2."
+  },
+  "Crius Suit (Ghost)": {
+    "type": "Armory 4",
+    "number": 3,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Ghost",
+    "origin": [
+      "wol"
+    ],
+    "description": "Cloak no longer requires energy to activate or maintain."
+  },
+  "Psionic Lash (Spectre)": {
+    "type": "Armory 4",
+    "number": 4,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": "Spectre",
+    "origin": [
+      "wol"
+    ],
+    "description": "Spell. Deals 200 damage to a single target."
+  },
+  "Nyx-Class Cloaking Module (Spectre)": {
+    "type": "Armory 4",
+    "number": 5,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Spectre",
+    "origin": [
+      "wol"
+    ],
+    "description": "Cloak no longer requires energy to activate or maintain."
+  },
+  "330mm Barrage Cannon (Thor)": {
+    "type": "Armory 4",
+    "number": 6,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Thor",
+    "origin": [
+      "wol"
+    ],
+    "description": "Improves 250mm Strike Cannons ability to deal area damage and stun units in a small area.\nCan be also freely aimed on ground."
+  },
+  "Progressive Immortality Protocol (Thor)": {
+    "type": "Progressive Upgrade",
+    "number": 22,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 2,
+    "parent_item": "Thor",
+    "origin": [
+      "wol"
+    ],
+    "description": "Allows destroyed Thors to be reconstructed on the field. Costs Vespene Gas."
+  },
+  "Advanced Ballistics (Liberator)": {
+    "type": "Armory 4",
+    "number": 7,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Liberator",
+    "origin": [
+      "ext"
+    ],
+    "description": "Increases Liberator range by 3 in Defender Mode."
+  },
+  "Raid Artillery (Liberator)": {
+    "type": "Armory 4",
+    "number": 8,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": "Liberator",
+    "origin": [
+      "nco"
+    ],
+    "description": "Allows Liberators to attack structures while in Defender Mode."
+  },
+  "Drilling Claws (Widow Mine)": {
+    "type": "Armory 4",
+    "number": 9,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Widow Mine",
+    "origin": [
+      "ext"
+    ],
+    "description": "Allows Widow Mines to burrow and unburrow faster."
+  },
+  "Concealment (Widow Mine)": {
+    "type": "Armory 4",
+    "number": 10,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": "Widow Mine",
+    "origin": [
+      "ext"
+    ],
+    "description": "Burrowed Widow Mines are no longer revealed when the Sentinel Missile is on cooldown."
+  },
+  "Advanced Cloaking Field (Medivac)": {
+    "type": "Armory 4",
+    "number": 11,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Medivac",
+    "origin": [
+      "ext"
+    ],
+    "description": "Medivacs are permanently cloaked."
+  },
+  "Trigger Override (Wraith)": {
+    "type": "Armory 4",
+    "number": 12,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Wraith",
+    "origin": [
+      "ext"
+    ],
+    "description": "Wraith attack speed increases by 10% with each attack, up to a maximum of 100%."
+  },
+  "Internal Tech Module (Wraith)": {
+    "type": "Armory 4",
+    "number": 13,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Wraith",
+    "origin": [
+      "bw"
+    ],
+    "description": "Wraiths can be trained from a Starport without an attached Tech Lab."
+  },
+  "Resource Efficiency (Wraith)": {
+    "type": "Armory 4",
+    "number": 14,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Wraith",
+    "origin": [
+      "bw"
+    ],
+    "description": "Reduces Wraith resource cost."
+  },
+  "Shredder Rounds (Viking)": {
+    "type": "Armory 4",
+    "number": 15,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": "Viking",
+    "origin": [
+      "ext"
+    ],
+    "description": "Attacks in Assault mode do line splash damage."
+  },
+  "W.I.L.D. Missiles (Viking)": {
+    "type": "Armory 4",
+    "number": 16,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Viking",
+    "origin": [
+      "ext"
+    ],
+    "description": "Launches 5 rockets at the target unit. Each rocket does 25 (40 vs armored) damage."
+  },
+  "Shaped Hull (Banshee)": {
+    "type": "Armory 4",
+    "number": 17,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Banshee",
+    "origin": [
+      "ext"
+    ],
+    "description": "Increases Banshee life by 100."
+  },
+  "Advanced Targeting Optics (Banshee)": {
+    "type": "Armory 4",
+    "number": 18,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": "Banshee",
+    "origin": [
+      "ext"
+    ],
+    "description": "Increases Banshee attack range by 2 while cloaked."
+  },
+  "Distortion Blasters (Banshee)": {
+    "type": "Armory 4",
+    "number": 19,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Banshee",
+    "origin": [
+      "ext"
+    ],
+    "description": "Increases Banshee attack damage by 25% while cloaked."
+  },
+  "Rocket Barrage (Banshee)": {
+    "type": "Armory 4",
+    "number": 20,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": "Banshee",
+    "origin": [
+      "ext"
+    ],
+    "description": "Deals 75 damage to enemy ground units in the target area."
+  },
+  "Resource Efficiency (Ghost)": {
+    "type": "Armory 4",
+    "number": 21,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Ghost",
+    "origin": [
+      "bw"
+    ],
+    "description": "Reduces Ghost resource and supply cost."
+  },
+  "Resource Efficiency (Spectre)": {
+    "type": "Armory 4",
+    "number": 22,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Spectre",
+    "origin": [
+      "ext"
+    ],
+    "description": "Reduces Spectre resource and supply cost."
+  },
+  "Button With a Skull on It (Thor)": {
+    "type": "Armory 4",
+    "number": 23,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": "Thor",
+    "origin": [
+      "ext"
+    ],
+    "description": "Allows Thors to launch nukes."
+  },
+  "Laser Targeting System (Thor)": {
+    "type": "Armory 4",
+    "number": 24,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Thor",
+    "origin": [
+      "ext"
+    ],
+    "description": "Increases vision by 2 and weapon range by 1."
+  },
+  "Large Scale Field Construction (Thor)": {
+    "type": "Armory 4",
+    "number": 25,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Thor",
+    "origin": [
+      "ext"
+    ],
+    "description": "Allows Thors to be built by SCVs like a structure."
+  },
+  "Resource Efficiency (Raven)": {
+    "type": "Armory 4",
+    "number": 26,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Raven",
+    "origin": [
+      "ext"
+    ],
+    "description": "Reduces Raven resource cost."
+  },
+  "Durable Materials (Raven)": {
+    "type": "Armory 4",
+    "number": 27,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Raven",
+    "origin": [
+      "ext"
+    ],
+    "description": "Extends timed life duration of Raven's summoned objects."
+  },
+  "Improved Nano-Repair (Science Vessel)": {
+    "type": "Armory 4",
+    "number": 28,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Science Vessel",
+    "origin": [
+      "ext"
+    ],
+    "description": "Nano-Repair no longer requires energy to use."
+  },
+  "Advanced AI Systems (Science Vessel)": {
+    "type": "Armory 4",
+    "number": 29,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Science Vessel",
+    "origin": [
+      "ext"
+    ],
+    "description": "Science Vessel can use Nano-Repair at two targets at once."
+  },
+  "Resource Efficiency (Cyclone)": {
+    "type": "Armory 5",
+    "number": 0,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Cyclone",
+    "origin": [
+      "ext"
+    ],
+    "description": "Reduces Cyclone resource and supply cost."
+  },
+  "Hyperflight Rotors (Banshee)": {
+    "type": "Armory 5",
+    "number": 1,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Banshee",
+    "origin": [
+      "ext"
+    ],
+    "description": "Increases Banshee movement speed."
+  },
+  "Laser Targeting System (Banshee)": {
+    "type": "Armory 5",
+    "number": 2,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Banshee",
+    "origin": [
+      "nco"
+    ],
+    "description": "Increases vision by 2 and weapon range by 1."
+  },
+  "Internal Tech Module (Banshee)": {
+    "type": "Armory 5",
+    "number": 3,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Banshee",
+    "origin": [
+      "nco"
+    ],
+    "description": "Banshees can be trained from a Starport without an attached Tech Lab."
+  },
+  "Tactical Jump (Battlecruiser)": {
+    "type": "Armory 5",
+    "number": 4,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Battlecruiser",
+    "origin": [
+      "ext",
+      "nco"
+    ],
+    "description": "Allows Battlecruisers to warp to a target location anywhere on the map."
+  },
+  "Cloak (Battlecruiser)": {
+    "type": "Armory 5",
+    "number": 5,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Battlecruiser",
+    "origin": [
+      "nco"
+    ],
+    "description": "Allows Battlecruisers to use the Cloak ability."
+  },
+  "ATX Laser Battery (Battlecruiser)": {
+    "type": "Armory 5",
+    "number": 6,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": "Battlecruiser",
+    "origin": [
+      "nco"
+    ],
+    "description": "Battlecruisers can attack while moving, \ndo the same damage to both ground and air targets, and fire faster."
+  },
+  "Optimized Logistics (Battlecruiser)": {
+    "type": "Armory 5",
+    "number": 7,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Battlecruiser",
+    "origin": [
+      "ext"
+    ],
+    "description": "Increases Battlecruiser training speed."
+  },
+  "Internal Tech Module (Battlecruiser)": {
+    "type": "Armory 5",
+    "number": 8,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Battlecruiser",
+    "origin": [
+      "nco"
+    ],
+    "description": "Battlecruisers can be trained from a Starport without an attached Tech Lab."
+  },
+  "EMP Rounds (Ghost)": {
+    "type": "Armory 5",
+    "number": 9,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Ghost",
+    "origin": [
+      "ext"
+    ],
+    "description": "Spell. Does 100 damage to shields and drains all energy from units in the targeted area. \nCloaked units hit by EMP are revealed for a short time."
+  },
+  "Lockdown (Ghost)": {
+    "type": "Armory 5",
+    "number": 10,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Ghost",
+    "origin": [
+      "bw"
+    ],
+    "description": "Spell. Stuns a target mechanical unit for a long time."
+  },
+  "Impaler Rounds (Spectre)": {
+    "type": "Armory 5",
+    "number": 11,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Spectre",
+    "origin": [
+      "ext"
+    ],
+    "description": "Spectres do additional damage to armored targets."
+  },
+  "Progressive High Impact Payload (Thor)": {
+    "type": "Progressive Upgrade",
+    "number": 14,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 2,
+    "parent_item": "Thor",
+    "origin": [
+      "ext"
+    ],
+    "description": "Level 1: Allows Thors to transform in order to use an alternative air attack.\nLevel 2: Increases transformation speed between modes."
+  },
+  "Bio Mechanical Repair Drone (Raven)": {
+    "type": "Armory 5",
+    "number": 12,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": "Raven",
+    "origin": [
+      "nco"
+    ],
+    "description": "Spell. Deploys a drone that can heal biological or mechanical units."
+  },
+  "Spider Mines (Raven)": {
+    "type": "Armory 5",
+    "number": 13,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Raven",
+    "origin": [
+      "nco"
+    ],
+    "description": "Spell. Deploys 3 Spider Mines to a target location."
+  },
+  "Railgun Turret (Raven)": {
+    "type": "Armory 5",
+    "number": 14,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Raven",
+    "origin": [
+      "nco"
+    ],
+    "description": "Spell. Allows Ravens to deploy an advanced Auto-Turret, \nthat can attack enemy ground units in a straight line."
+  },
+  "Hunter-Seeker Weapon (Raven)": {
+    "type": "Armory 5",
+    "number": 15,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": "Raven",
+    "origin": [
+      "nco"
+    ],
+    "description": "Allows Ravens to attack with a Hunter-Seeker weapon."
+  },
+  "Interference Matrix (Raven)": {
+    "type": "Armory 5",
+    "number": 16,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Raven",
+    "origin": [
+      "ext"
+    ],
+    "description": "Spell. Target enemy Mechanical or Psionic unit can't attack or use abilities for a short duration."
+  },
+  "Anti-Armor Missile (Raven)": {
+    "type": "Armory 5",
+    "number": 17,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Raven",
+    "origin": [
+      "ext"
+    ],
+    "description": "Spell. Decreases target and nearby enemy units armor by 2."
+  },
+  "Internal Tech Module (Raven)": {
+    "type": "Armory 5",
+    "number": 18,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Raven",
+    "origin": [
+      "nco"
+    ],
+    "description": "Ravens can be trained from a Starport without an attached Tech Lab."
+  },
+  "EMP Shockwave (Science Vessel)": {
+    "type": "Armory 5",
+    "number": 19,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Science Vessel",
+    "origin": [
+      "bw"
+    ],
+    "description": "Spell. Depletes all energy and shields of all units in a target area."
+  },
+  "Defensive Matrix (Science Vessel)": {
+    "type": "Armory 5",
+    "number": 20,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Science Vessel",
+    "origin": [
+      "bw"
+    ],
+    "description": "Spell. Provides a target unit with a defensive barrier that can absorb up to 250 damage"
+  },
+  "Targeting Optics (Cyclone)": {
+    "type": "Armory 5",
+    "number": 21,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Cyclone",
+    "origin": [
+      "ext"
+    ],
+    "description": "Increases Cyclone Lock On casting range and the range while Locked On."
+  },
+  "Rapid Fire Launchers (Cyclone)": {
+    "type": "Armory 5",
+    "number": 22,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Cyclone",
+    "origin": [
+      "ext"
+    ],
+    "description": "The first 12 shots of Lock On are fired more quickly."
+  },
+  "Cloak (Liberator)": {
+    "type": "Armory 5",
+    "number": 23,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Liberator",
+    "origin": [
+      "nco"
+    ],
+    "description": "Allows Liberators to use the Cloak ability."
+  },
+  "Laser Targeting System (Liberator)": {
+    "type": "Armory 5",
+    "number": 24,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Liberator",
+    "origin": [
+      "ext"
+    ],
+    "description": "Increases vision by 2 and weapon range by 1."
+  },
+  "Optimized Logistics (Liberator)": {
+    "type": "Armory 5",
+    "number": 25,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Liberator",
+    "origin": [
+      "nco"
+    ],
+    "description": "Increases Liberator training speed."
+  },
+  "Black Market Launchers (Widow Mine)": {
+    "type": "Armory 5",
+    "number": 26,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Widow Mine",
+    "origin": [
+      "ext"
+    ],
+    "description": "Increases Widow Mine Sentinel Missile range."
+  },
+  "Executioner Missiles (Widow Mine)": {
+    "type": "Armory 5",
+    "number": 27,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Widow Mine",
+    "origin": [
+      "ext"
+    ],
+    "description": "Reduces Sentinel Missile cooldown.\nWhen killed, Widow Mines will launch several missiles at random enemy targets."
+  },
+  "Enhanced Cluster Launchers (Valkyrie)": {
+    "type": "Armory 5",
+    "number": 28,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Valkyrie",
+    "origin": [
+      "ext"
+    ],
+    "description": "Valkyries fire 2 additional rockets each volley."
+  },
+  "Shaped Hull (Valkyrie)": {
+    "type": "Armory 5",
+    "number": 29,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Valkyrie",
+    "origin": [
+      "ext"
+    ],
+    "description": "Increases Valkyrie life by 50."
+  },
+  "Flechette Missiles (Valkyrie)": {
+    "type": "Armory 6",
+    "number": 0,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Valkyrie",
+    "origin": [
+      "ext"
+    ],
+    "description": "Equips Valkyries with Air-to-Surface missiles to attack ground units."
+  },
+  "Afterburners (Valkyrie)": {
+    "type": "Armory 6",
+    "number": 1,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Valkyrie",
+    "origin": [
+      "ext"
+    ],
+    "description": "Ability. Temporarily increases the Valkyries's movement speed by 70%."
+  },
+  "Internal Tech Module (Cyclone)": {
+    "type": "Armory 6",
+    "number": 2,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Cyclone",
+    "origin": [
+      "ext"
+    ],
+    "description": "Cyclones can be trained from a Factory without an attached Tech Lab."
+  },
+  "Smart Servos (Liberator)": {
+    "type": "Armory 6",
+    "number": 3,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Liberator",
+    "origin": [
+      "nco"
+    ],
+    "description": "Increases transformation speed between modes."
+  },
+  "Resource Efficiency (Liberator)": {
+    "type": "Armory 6",
+    "number": 4,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Liberator",
+    "origin": [
+      "ext"
+    ],
+    "description": "Reduces Liberator resource cost."
+  },
+  "Internal Fusion Module (Hercules)": {
+    "type": "Armory 6",
+    "number": 5,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Hercules",
+    "origin": [
+      "ext"
+    ],
+    "description": "Hercules can be trained from a Starport without having a Fusion Core."
+  },
+  "Tactical Jump (Hercules)": {
+    "type": "Armory 6",
+    "number": 6,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Hercules",
+    "origin": [
+      "ext"
+    ],
+    "description": "Allows Hercules to warp to a target location anywhere on the map."
+  },
+  "Progressive Augmented Thrusters (Planetary Fortress)": {
+    "type": "Progressive Upgrade",
+    "number": 28,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 2,
+    "parent_item": "Planetary Fortress",
+    "origin": [
+      "ext"
+    ],
+    "description": "Level 1: Lift Off - Planetary Fortress can lift off.\nLevel 2: Armament Stabilizers - Planetary Fortress can attack while lifted off."
+  },
+  "Advanced Targeting (Planetary Fortress)": {
+    "type": "Armory 6",
+    "number": 7,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Planetary Fortress",
+    "origin": [
+      "ext"
+    ],
+    "description": "Planetary Fortress can attack air units."
+  },
+  "Launching Vector Compensator (Valkyrie)": {
+    "type": "Armory 6",
+    "number": 8,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Valkyrie",
+    "origin": [
+      "ext"
+    ],
+    "description": "Allows Valkyries to shoot air while moving."
+  },
+  "Resource Efficiency (Valkyrie)": {
+    "type": "Armory 6",
+    "number": 9,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Valkyrie",
+    "origin": [
+      "ext"
+    ],
+    "description": "Reduces Valkyrie resource and supply cost."
+  },
+  "Predator's Fury (Predator)": {
+    "type": "Armory 6",
+    "number": 10,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Predator",
+    "origin": [
+      "ext"
+    ],
+    "description": "Predators can use an attack that jumps between targets."
+  },
+  "Behemoth Plating (Battlecruiser)": {
+    "type": "Armory 6",
+    "number": 11,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Battlecruiser",
+    "origin": [
+      "ext"
+    ],
+    "description": "Increases Battlecruiser armor by 2."
+  },
+  "Covert Ops Engines (Battlecruiser)": {
+    "type": "Armory 6",
+    "number": 12,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Battlecruiser",
+    "origin": [
+      "nco"
+    ],
+    "description": "Increases Battlecruiser movement speed."
+  },
+  "Bunker": {
+    "type": "Building",
+    "number": 0,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Defensive structure. Able to load infantry units, giving them +1 range to their attacks."
+  },
+  "Missile Turret": {
+    "type": "Building",
+    "number": 1,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Anti-air defensive structure."
+  },
+  "Sensor Tower": {
+    "type": "Building",
+    "number": 2,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Reveals locations of enemy units at long range."
+  },
+  "War Pigs": {
+    "type": "Mercenary",
+    "number": 0,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Mercenary Marines"
+  },
+  "Devil Dogs": {
+    "type": "Mercenary",
+    "number": 1,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Mercenary Firebats"
+  },
+  "Hammer Securities": {
+    "type": "Mercenary",
+    "number": 2,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Mercenary Marauders"
+  },
+  "Spartan Company": {
+    "type": "Mercenary",
+    "number": 3,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Mercenary Goliaths"
+  },
+  "Siege Breakers": {
+    "type": "Mercenary",
+    "number": 4,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Mercenary Siege Tanks"
+  },
+  "Hel's Angels": {
+    "type": "Mercenary",
+    "number": 5,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Mercenary Vikings"
+  },
+  "Dusk Wings": {
+    "type": "Mercenary",
+    "number": 6,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Mercenary Banshees"
+  },
+  "Jackson's Revenge": {
+    "type": "Mercenary",
+    "number": 7,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Mercenary Battlecruiser"
+  },
+  "Skibi's Angels": {
+    "type": "Mercenary",
+    "number": 8,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": "Mercenary Medics"
+  },
+  "Death Heads": {
+    "type": "Mercenary",
+    "number": 9,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": "Mercenary Reapers"
+  },
+  "Winged Nightmares": {
+    "type": "Mercenary",
+    "number": 10,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": "Mercenary Wraiths"
+  },
+  "Raid Liberators": {
+    "type": "Mercenary",
+    "number": 11,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": "Mercenary Liberators"
+  },
+  "Brynhilds": {
+    "type": "Mercenary",
+    "number": 12,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": "Mercenary Valkyries"
+  },
+  "Jotun": {
+    "type": "Mercenary",
+    "number": 13,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": "Mercenary Thor"
+  },
+  "Ultra-Capacitors": {
+    "type": "Laboratory",
+    "number": 0,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Increases attack speed of units by 5% per weapon upgrade."
+  },
+  "Vanadium Plating": {
+    "type": "Laboratory",
+    "number": 1,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Increases the life of units by 5% per armor upgrade."
+  },
+  "Orbital Depots": {
+    "type": "Laboratory",
+    "number": 2,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Supply depots are built instantly."
+  },
+  "Micro-Filtering": {
+    "type": "Laboratory",
+    "number": 3,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Refineries produce Vespene gas 25% faster."
+  },
+  "Automated Refinery": {
+    "type": "Laboratory",
+    "number": 4,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Eliminates the need for SCVs in vespene gas production."
+  },
+  "Command Center Reactor": {
+    "type": "Laboratory",
+    "number": 5,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Command Centers can train two SCVs at once."
+  },
+  "Raven": {
+    "type": "Unit",
+    "number": 22,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Aerial Caster unit."
+  },
+  "Science Vessel": {
+    "type": "Unit",
+    "number": 23,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Aerial Caster unit. Can repair mechanical units."
+  },
+  "Tech Reactor": {
+    "type": "Laboratory",
+    "number": 6,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Merges Tech Labs and Reactors into one add on structure to provide both functions."
+  },
+  "Orbital Strike": {
+    "type": "Laboratory",
+    "number": 7,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Trained units from Barracks are instantly deployed on rally point."
+  },
+  "Shrike Turret (Bunker)": {
+    "type": "Armory 1",
+    "number": 6,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Bunker",
+    "origin": [
+      "wol"
+    ],
+    "description": "Adds an automated turret to Bunkers."
+  },
+  "Fortified Bunker (Bunker)": {
+    "type": "Armory 1",
+    "number": 7,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Bunker",
+    "origin": [
+      "wol"
+    ],
+    "description": "Bunkers have more life."
+  },
+  "Planetary Fortress": {
+    "type": "Building",
+    "number": 3,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Allows Command Centers to upgrade into a defensive structure with a turret and additional armor.\nPlanetary Fortresses cannot Lift Off, or cast Orbital Command spells."
+  },
+  "Perdition Turret": {
+    "type": "Building",
+    "number": 4,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Automated defensive turret. Burrows down while no enemies are nearby."
+  },
+  "Predator": {
+    "type": "Unit",
+    "number": 24,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Anti-infantry specialist that deals area damage with each attack."
+  },
+  "Hercules": {
+    "type": "Unit",
+    "number": 25,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Massive transport ship."
+  },
+  "Cellular Reactor": {
+    "type": "Laboratory",
+    "number": 8,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "All Terran spellcasters get +100 starting and maximum energy."
+  },
+  "Progressive Regenerative Bio-Steel": {
+    "type": "Progressive Upgrade",
+    "number": 4,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 3,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Allows Terran mechanical units to regenerate health while not in combat.\nEach level increases life regeneration speed."
+  },
+  "Hive Mind Emulator": {
+    "type": "Building",
+    "number": 5,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Defensive structure. Can permanently Mind Control Zerg units."
+  },
+  "Psi Disrupter": {
+    "type": "Building",
+    "number": 6,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Defensive structure. Slows the attack and movement speeds of all nearby Zerg units."
+  },
+  "Structure Armor": {
+    "type": "Laboratory",
+    "number": 9,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Increases armor of all Terran structures by 2."
+  },
+  "Hi-Sec Auto Tracking": {
+    "type": "Laboratory",
+    "number": 10,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Increases attack range of all Terran structures by 1."
+  },
+  "Advanced Optics": {
+    "type": "Laboratory",
+    "number": 11,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Increases attack range of all Terran mechanical units by 1."
+  },
+  "Rogue Forces": {
+    "type": "Laboratory",
+    "number": 12,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": "Mercenary calldowns are no longer limited by charges."
+  },
+  "Zealot": {
+    "type": "Unit",
+    "number": 0,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv",
+      "wol"
+    ],
+    "description": null
+  },
+  "Stalker": {
+    "type": "Unit",
+    "number": 1,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv",
+      "wol"
+    ],
+    "description": null
+  },
+  "High Templar": {
+    "type": "Unit",
+    "number": 2,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv",
+      "wol"
+    ],
+    "description": null
+  },
+  "Dark Templar": {
+    "type": "Unit",
+    "number": 3,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv",
+      "wol"
+    ],
+    "description": null
+  },
+  "Immortal": {
+    "type": "Unit",
+    "number": 4,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv",
+      "wol"
+    ],
+    "description": null
+  },
+  "Colossus": {
+    "type": "Unit",
+    "number": 5,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv",
+      "wol"
+    ],
+    "description": null
+  },
+  "Phoenix": {
+    "type": "Unit",
+    "number": 6,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv",
+      "wol"
+    ],
+    "description": null
+  },
+  "Void Ray": {
+    "type": "Unit",
+    "number": 7,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv",
+      "wol"
+    ],
+    "description": null
+  },
+  "Carrier": {
+    "type": "Unit",
+    "number": 8,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv",
+      "wol"
+    ],
+    "description": null
+  },
+  "Additional Starting Minerals": {
+    "type": "Minerals",
+    "number": 15,
+    "race": "ANY",
+    "classification": "filler",
+    "quantity": 0,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": null
+  },
+  "Additional Starting Vespene": {
+    "type": "Vespene",
+    "number": 15,
+    "race": "ANY",
+    "classification": "filler",
+    "quantity": 0,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": null
+  },
+  "Additional Starting Supply": {
+    "type": "Supply",
+    "number": 2,
+    "race": "ANY",
+    "classification": "filler",
+    "quantity": 0,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": null
+  },
+  "Nothing": {
+    "type": "Nothing Group",
+    "number": 2,
+    "race": "ANY",
+    "classification": "trap",
+    "quantity": 0,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": null
+  },
+  "Ghost Visor (Nova Equipment)": {
+    "type": "Nova Gear",
+    "number": 0,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "nco"
+    ],
+    "description": null
+  },
+  "Rangefinder Oculus (Nova Equipment)": {
+    "type": "Nova Gear",
+    "number": 1,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "nco"
+    ],
+    "description": null
+  },
+  "Domination (Nova Ability)": {
+    "type": "Nova Gear",
+    "number": 2,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "nco"
+    ],
+    "description": null
+  },
+  "Blink (Nova Ability)": {
+    "type": "Nova Gear",
+    "number": 3,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "nco"
+    ],
+    "description": null
+  },
+  "Progressive Stealth Suit Module (Nova Suit Module)": {
+    "type": "Progressive Upgrade 2",
+    "number": 0,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "nco"
+    ],
+    "description": null
+  },
+  "Energy Suit Module (Nova Suit Module)": {
+    "type": "Nova Gear",
+    "number": 4,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "nco"
+    ],
+    "description": null
+  },
+  "Armored Suit Module (Nova Suit Module)": {
+    "type": "Nova Gear",
+    "number": 5,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "nco"
+    ],
+    "description": null
+  },
+  "Jump Suit Module (Nova Suit Module)": {
+    "type": "Nova Gear",
+    "number": 6,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "nco"
+    ],
+    "description": null
+  },
+  "C20A Canister Rifle (Nova Weapon)": {
+    "type": "Nova Gear",
+    "number": 7,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "nco"
+    ],
+    "description": null
+  },
+  "Hellfire Shotgun (Nova Weapon)": {
+    "type": "Nova Gear",
+    "number": 8,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "nco"
+    ],
+    "description": null
+  },
+  "Plasma Rifle (Nova Weapon)": {
+    "type": "Nova Gear",
+    "number": 9,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "nco"
+    ],
+    "description": null
+  },
+  "Monomolecular Blade (Nova Weapon)": {
+    "type": "Nova Gear",
+    "number": 10,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "nco"
+    ],
+    "description": null
+  },
+  "Blazefire Gunblade (Nova Weapon)": {
+    "type": "Nova Gear",
+    "number": 11,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "nco"
+    ],
+    "description": null
+  },
+  "Stim Infusion (Nova Gadget)": {
+    "type": "Nova Gear",
+    "number": 12,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "nco"
+    ],
+    "description": null
+  },
+  "Pulse Grenades (Nova Gadget)": {
+    "type": "Nova Gear",
+    "number": 13,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "nco"
+    ],
+    "description": null
+  },
+  "Flashbang Grenades (Nova Gadget)": {
+    "type": "Nova Gear",
+    "number": 14,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "nco"
+    ],
+    "description": null
+  },
+  "Ionic Force Field (Nova Gadget)": {
+    "type": "Nova Gear",
+    "number": 15,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "nco"
+    ],
+    "description": null
+  },
+  "Holo Decoy (Nova Gadget)": {
+    "type": "Nova Gear",
+    "number": 16,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "nco"
+    ],
+    "description": null
+  },
+  "Tac Nuke Strike (Nova Ability)": {
+    "type": "Nova Gear",
+    "number": 17,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "nco"
+    ],
+    "description": null
+  },
+  "Zergling": {
+    "type": "Unit",
+    "number": 0,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Swarm Queen": {
+    "type": "Unit",
+    "number": 1,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Roach": {
+    "type": "Unit",
+    "number": 2,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Hydralisk": {
+    "type": "Unit",
+    "number": 3,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Baneling Aspect (Zergling)": {
+    "type": "Morph",
+    "number": 5,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Aberration": {
+    "type": "Unit",
+    "number": 5,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Mutalisk": {
+    "type": "Unit",
+    "number": 6,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Swarm Host": {
+    "type": "Unit",
+    "number": 7,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Infestor": {
+    "type": "Unit",
+    "number": 8,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Ultralisk": {
+    "type": "Unit",
+    "number": 9,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Spore Crawler": {
+    "type": "Unit",
+    "number": 10,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Spine Crawler": {
+    "type": "Unit",
+    "number": 11,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Corruptor": {
+    "type": "Unit",
+    "number": 12,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Scourge": {
+    "type": "Unit",
+    "number": 13,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "bw",
+      "ext"
+    ],
+    "description": null
+  },
+  "Brood Queen": {
+    "type": "Unit",
+    "number": 4,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "bw",
+      "ext"
+    ],
+    "description": null
+  },
+  "Defiler": {
+    "type": "Unit",
+    "number": 14,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Progressive Zerg Melee Attack": {
+    "type": "Upgrade",
+    "number": 0,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 3,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Progressive Zerg Missile Attack": {
+    "type": "Upgrade",
+    "number": 2,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 3,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Progressive Zerg Ground Carapace": {
+    "type": "Upgrade",
+    "number": 4,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 3,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Progressive Zerg Flyer Attack": {
+    "type": "Upgrade",
+    "number": 6,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 3,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Progressive Zerg Flyer Carapace": {
+    "type": "Upgrade",
+    "number": 8,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 3,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Progressive Zerg Weapon Upgrade": {
+    "type": "Upgrade",
+    "number": 6,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 3,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Progressive Zerg Armor Upgrade": {
+    "type": "Upgrade",
+    "number": 7,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 3,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Progressive Zerg Ground Upgrade": {
+    "type": "Upgrade",
+    "number": 8,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 3,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Progressive Zerg Flyer Upgrade": {
+    "type": "Upgrade",
+    "number": 9,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 3,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Progressive Zerg Weapon/Armor Upgrade": {
+    "type": "Upgrade",
+    "number": 10,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 3,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Hardened Carapace (Zergling)": {
+    "type": "Mutation 1",
+    "number": 0,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Zergling",
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Adrenal Overload (Zergling)": {
+    "type": "Mutation 1",
+    "number": 1,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Zergling",
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Metabolic Boost (Zergling)": {
+    "type": "Mutation 1",
+    "number": 2,
+    "race": "ZERG",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Zergling",
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Hydriodic Bile (Roach)": {
+    "type": "Mutation 1",
+    "number": 3,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Roach",
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Adaptive Plating (Roach)": {
+    "type": "Mutation 1",
+    "number": 4,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Roach",
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Tunneling Claws (Roach)": {
+    "type": "Mutation 1",
+    "number": 5,
+    "race": "ZERG",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Roach",
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Frenzy (Hydralisk)": {
+    "type": "Mutation 1",
+    "number": 6,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Hydralisk",
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Ancillary Carapace (Hydralisk)": {
+    "type": "Mutation 1",
+    "number": 7,
+    "race": "ZERG",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Hydralisk",
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Grooved Spines (Hydralisk)": {
+    "type": "Mutation 1",
+    "number": 8,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Hydralisk",
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Corrosive Acid (Baneling)": {
+    "type": "Mutation 1",
+    "number": 9,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Baneling Aspect (Zergling)",
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Rupture (Baneling)": {
+    "type": "Mutation 1",
+    "number": 10,
+    "race": "ZERG",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Baneling Aspect (Zergling)",
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Regenerative Acid (Baneling)": {
+    "type": "Mutation 1",
+    "number": 11,
+    "race": "ZERG",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Baneling Aspect (Zergling)",
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Vicious Glave (Mutalisk)": {
+    "type": "Mutation 1",
+    "number": 12,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Mutalisk",
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Rapid Regeneration (Mutalisk)": {
+    "type": "Mutation 1",
+    "number": 13,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Mutalisk",
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Sundering Glave (Mutalisk)": {
+    "type": "Mutation 1",
+    "number": 14,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Mutalisk",
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Burrow (Swarm Host)": {
+    "type": "Mutation 1",
+    "number": 15,
+    "race": "ZERG",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Swarm Host",
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Rapid Incubation (Swarm Host)": {
+    "type": "Mutation 1",
+    "number": 16,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Swarm Host",
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Pressurized Glands (Swarm Host)": {
+    "type": "Mutation 1",
+    "number": 17,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": "Swarm Host",
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Burrow Charge (Ultralisk)": {
+    "type": "Mutation 1",
+    "number": 18,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Ultralisk",
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Tissue Animation (Ultralisk)": {
+    "type": "Mutation 1",
+    "number": 19,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Ultralisk",
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Monarch Blades (Ultralisk)": {
+    "type": "Mutation 1",
+    "number": 20,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Ultralisk",
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Caustic Spray (Corruptor)": {
+    "type": "Mutation 1",
+    "number": 21,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Corruptor",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Corruption (Corruptor)": {
+    "type": "Mutation 1",
+    "number": 22,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Corruptor",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Virulent Spores (Scourge)": {
+    "type": "Mutation 1",
+    "number": 23,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Scourge",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Resource Efficiency (Scourge)": {
+    "type": "Mutation 1",
+    "number": 24,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": "Scourge",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Swarm Scourge (Scourge)": {
+    "type": "Mutation 1",
+    "number": 25,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Scourge",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Shredding Claws (Zergling)": {
+    "type": "Mutation 1",
+    "number": 26,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Zergling",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Glial Reconstitution (Roach)": {
+    "type": "Mutation 1",
+    "number": 27,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Roach",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Organic Carapace (Roach)": {
+    "type": "Mutation 1",
+    "number": 28,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Roach",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Muscular Augments (Hydralisk)": {
+    "type": "Mutation 1",
+    "number": 29,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Hydralisk",
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Resource Efficiency (Hydralisk)": {
+    "type": "Mutation 2",
+    "number": 0,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Hydralisk",
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Centrifugal Hooks (Baneling)": {
+    "type": "Mutation 2",
+    "number": 1,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Baneling Aspect (Zergling)",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Tunneling Jaws (Baneling)": {
+    "type": "Mutation 2",
+    "number": 2,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Baneling Aspect (Zergling)",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Rapid Metamorph (Baneling)": {
+    "type": "Mutation 2",
+    "number": 3,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Baneling Aspect (Zergling)",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Severing Glave (Mutalisk)": {
+    "type": "Mutation 2",
+    "number": 4,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Mutalisk",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Aerodynamic Glave Shape (Mutalisk)": {
+    "type": "Mutation 2",
+    "number": 5,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Mutalisk",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Locust Metabolic Boost (Swarm Host)": {
+    "type": "Mutation 2",
+    "number": 6,
+    "race": "ZERG",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Swarm Host",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Enduring Locusts (Swarm Host)": {
+    "type": "Mutation 2",
+    "number": 7,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Swarm Host",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Organic Carapace (Swarm Host)": {
+    "type": "Mutation 2",
+    "number": 8,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Swarm Host",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Resource Efficiency (Swarm Host)": {
+    "type": "Mutation 2",
+    "number": 9,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Swarm Host",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Anabolic Synthesis (Ultralisk)": {
+    "type": "Mutation 2",
+    "number": 10,
+    "race": "ZERG",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Ultralisk",
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Chitinous Plating (Ultralisk)": {
+    "type": "Mutation 2",
+    "number": 11,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Ultralisk",
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Organic Carapace (Ultralisk)": {
+    "type": "Mutation 2",
+    "number": 12,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Ultralisk",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Resource Efficiency (Ultralisk)": {
+    "type": "Mutation 2",
+    "number": 13,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Ultralisk",
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Corrosive Spray (Devourer)": {
+    "type": "Mutation 2",
+    "number": 14,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Devourer Aspect (Mutalisk/Corruptor)",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Gaping Maw (Devourer)": {
+    "type": "Mutation 2",
+    "number": 15,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Devourer Aspect (Mutalisk/Corruptor)",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Improved Osmosis (Devourer)": {
+    "type": "Mutation 2",
+    "number": 16,
+    "race": "ZERG",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Devourer Aspect (Mutalisk/Corruptor)",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Prescient Spores (Devourer)": {
+    "type": "Mutation 2",
+    "number": 17,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Devourer Aspect (Mutalisk/Corruptor)",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Prolonged Dispersion (Guardian)": {
+    "type": "Mutation 2",
+    "number": 18,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Guardian Aspect (Mutalisk/Corruptor)",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Primal Adaptation (Guardian)": {
+    "type": "Mutation 2",
+    "number": 19,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Guardian Aspect (Mutalisk/Corruptor)",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Soronan Acid (Guardian)": {
+    "type": "Mutation 2",
+    "number": 20,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Guardian Aspect (Mutalisk/Corruptor)",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Adaptive Talons (Impaler)": {
+    "type": "Mutation 2",
+    "number": 21,
+    "race": "ZERG",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Impaler Aspect (Hydralisk)",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Secretion Glands (Impaler)": {
+    "type": "Mutation 2",
+    "number": 22,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Impaler Aspect (Hydralisk)",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Hardened Tentacle Spines (Impaler)": {
+    "type": "Mutation 2",
+    "number": 23,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Impaler Aspect (Hydralisk)",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Seismic Spines (Lurker)": {
+    "type": "Mutation 2",
+    "number": 24,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Lurker Aspect (Hydralisk)",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Adapted Spines (Lurker)": {
+    "type": "Mutation 2",
+    "number": 25,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Lurker Aspect (Hydralisk)",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Potent Bile (Ravager)": {
+    "type": "Mutation 2",
+    "number": 26,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Ravager Aspect (Roach)",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Bloated Bile Ducts (Ravager)": {
+    "type": "Mutation 2",
+    "number": 27,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Ravager Aspect (Roach)",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Deep Tunnel (Ravager)": {
+    "type": "Mutation 2",
+    "number": 28,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Ravager Aspect (Roach)",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Parasitic Bomb (Viper)": {
+    "type": "Mutation 2",
+    "number": 29,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Viper Aspect (Mutalisk/Corruptor)",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Paralytic Barbs (Viper)": {
+    "type": "Mutation 3",
+    "number": 0,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Viper Aspect (Mutalisk/Corruptor)",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Virulent Microbes (Viper)": {
+    "type": "Mutation 3",
+    "number": 1,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Viper Aspect (Mutalisk/Corruptor)",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Porous Cartilage (Brood Lord)": {
+    "type": "Mutation 3",
+    "number": 2,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Brood Lord Aspect (Mutalisk/Corruptor)",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Evolved Carapace (Brood Lord)": {
+    "type": "Mutation 3",
+    "number": 3,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Brood Lord Aspect (Mutalisk/Corruptor)",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Splitter Mitosis (Brood Lord)": {
+    "type": "Mutation 3",
+    "number": 4,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Brood Lord Aspect (Mutalisk/Corruptor)",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Resource Efficiency (Brood Lord)": {
+    "type": "Mutation 3",
+    "number": 5,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Brood Lord Aspect (Mutalisk/Corruptor)",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Infested Terran (Infestor)": {
+    "type": "Mutation 3",
+    "number": 6,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Infestor",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Microbial Shroud (Infestor)": {
+    "type": "Mutation 3",
+    "number": 7,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Infestor",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Spawn Larvae (Swarm Queen)": {
+    "type": "Mutation 3",
+    "number": 8,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Swarm Queen",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Deep Tunnel (Swarm Queen)": {
+    "type": "Mutation 3",
+    "number": 9,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Swarm Queen",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Organic Carapace (Swarm Queen)": {
+    "type": "Mutation 3",
+    "number": 10,
+    "race": "ZERG",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Swarm Queen",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Bio-Mechanical Transfusion (Swarm Queen)": {
+    "type": "Mutation 3",
+    "number": 11,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Swarm Queen",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Resource Efficiency (Swarm Queen)": {
+    "type": "Mutation 3",
+    "number": 12,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Swarm Queen",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Incubator Chamber (Swarm Queen)": {
+    "type": "Mutation 3",
+    "number": 13,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Swarm Queen",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Fungal Growth (Brood Queen)": {
+    "type": "Mutation 3",
+    "number": 14,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Brood Queen",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Ensnare (Brood Queen)": {
+    "type": "Mutation 3",
+    "number": 15,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Brood Queen",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Enhanced Mitochondria (Brood Queen)": {
+    "type": "Mutation 3",
+    "number": 16,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Brood Queen",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Raptor Strain (Zergling)": {
+    "type": "Strain",
+    "number": 0,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Zergling",
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Swarmling Strain (Zergling)": {
+    "type": "Strain",
+    "number": 1,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Zergling",
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Vile Strain (Roach)": {
+    "type": "Strain",
+    "number": 2,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Roach",
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Corpser Strain (Roach)": {
+    "type": "Strain",
+    "number": 3,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Roach",
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Impaler Aspect (Hydralisk)": {
+    "type": "Morph",
+    "number": 0,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Lurker Aspect (Hydralisk)": {
+    "type": "Morph",
+    "number": 1,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Splitter Strain (Baneling)": {
+    "type": "Strain",
+    "number": 6,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Baneling Aspect (Zergling)",
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Hunter Strain (Baneling)": {
+    "type": "Strain",
+    "number": 7,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Baneling Aspect (Zergling)",
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Brood Lord Aspect (Mutalisk/Corruptor)": {
+    "type": "Morph",
+    "number": 2,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Viper Aspect (Mutalisk/Corruptor)": {
+    "type": "Morph",
+    "number": 3,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Carrion Strain (Swarm Host)": {
+    "type": "Strain",
+    "number": 10,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Swarm Host",
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Creeper Strain (Swarm Host)": {
+    "type": "Strain",
+    "number": 11,
+    "race": "ZERG",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Swarm Host",
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Noxious Strain (Ultralisk)": {
+    "type": "Strain",
+    "number": 12,
+    "race": "ZERG",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Ultralisk",
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Torrasque Strain (Ultralisk)": {
+    "type": "Strain",
+    "number": 13,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Ultralisk",
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Kinetic Blast (Kerrigan Tier 1)": {
+    "type": "Ability",
+    "number": 0,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Heroic Fortitude (Kerrigan Tier 1)": {
+    "type": "Ability",
+    "number": 1,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Leaping Strike (Kerrigan Tier 1)": {
+    "type": "Ability",
+    "number": 2,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Crushing Grip (Kerrigan Tier 2)": {
+    "type": "Ability",
+    "number": 3,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Chain Reaction (Kerrigan Tier 2)": {
+    "type": "Ability",
+    "number": 4,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Psionic Shift (Kerrigan Tier 2)": {
+    "type": "Ability",
+    "number": 5,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Zergling Reconstitution (Kerrigan Tier 3)": {
+    "type": "Evolution Pit",
+    "number": 0,
+    "race": "ZERG",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Improved Overlords (Kerrigan Tier 3)": {
+    "type": "Evolution Pit",
+    "number": 1,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Automated Extractors (Kerrigan Tier 3)": {
+    "type": "Evolution Pit",
+    "number": 2,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Wild Mutation (Kerrigan Tier 4)": {
+    "type": "Ability",
+    "number": 6,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Spawn Banelings (Kerrigan Tier 4)": {
+    "type": "Ability",
+    "number": 7,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Mend (Kerrigan Tier 4)": {
+    "type": "Ability",
+    "number": 8,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Twin Drones (Kerrigan Tier 5)": {
+    "type": "Evolution Pit",
+    "number": 3,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Malignant Creep (Kerrigan Tier 5)": {
+    "type": "Evolution Pit",
+    "number": 4,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Vespene Efficiency (Kerrigan Tier 5)": {
+    "type": "Evolution Pit",
+    "number": 5,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Infest Broodlings (Kerrigan Tier 6)": {
+    "type": "Ability",
+    "number": 9,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Fury (Kerrigan Tier 6)": {
+    "type": "Ability",
+    "number": 10,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Ability Efficiency (Kerrigan Tier 6)": {
+    "type": "Ability",
+    "number": 11,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Apocalypse (Kerrigan Tier 7)": {
+    "type": "Ability",
+    "number": 12,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Spawn Leviathan (Kerrigan Tier 7)": {
+    "type": "Ability",
+    "number": 13,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Drop-Pods (Kerrigan Tier 7)": {
+    "type": "Ability",
+    "number": 14,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Primal Form (Kerrigan)": {
+    "type": "Primal Form",
+    "number": 0,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "10 Kerrigan Levels": {
+    "type": "Level",
+    "number": 10,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 0,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "9 Kerrigan Levels": {
+    "type": "Level",
+    "number": 9,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 0,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "8 Kerrigan Levels": {
+    "type": "Level",
+    "number": 8,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 0,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "7 Kerrigan Levels": {
+    "type": "Level",
+    "number": 7,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 0,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "6 Kerrigan Levels": {
+    "type": "Level",
+    "number": 6,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 0,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "5 Kerrigan Levels": {
+    "type": "Level",
+    "number": 5,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 0,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "4 Kerrigan Levels": {
+    "type": "Level",
+    "number": 4,
+    "race": "ZERG",
+    "classification": "filler",
+    "quantity": 0,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "3 Kerrigan Levels": {
+    "type": "Level",
+    "number": 3,
+    "race": "ZERG",
+    "classification": "filler",
+    "quantity": 0,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "2 Kerrigan Levels": {
+    "type": "Level",
+    "number": 2,
+    "race": "ZERG",
+    "classification": "filler",
+    "quantity": 0,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "1 Kerrigan Level": {
+    "type": "Level",
+    "number": 1,
+    "race": "ZERG",
+    "classification": "filler",
+    "quantity": 0,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "14 Kerrigan Levels": {
+    "type": "Level",
+    "number": 14,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 0,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "35 Kerrigan Levels": {
+    "type": "Level",
+    "number": 35,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 0,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "70 Kerrigan Levels": {
+    "type": "Level",
+    "number": 70,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 0,
+    "parent_item": null,
+    "origin": [
+      "hots"
+    ],
+    "description": null
+  },
+  "Infested Medics": {
+    "type": "Mercenary",
+    "number": 0,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Infested Siege Tanks": {
+    "type": "Mercenary",
+    "number": 1,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Infested Banshees": {
+    "type": "Mercenary",
+    "number": 2,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Ventral Sacs (Overlord)": {
+    "type": "Evolution Pit",
+    "number": 6,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Guardian Aspect (Mutalisk/Corruptor)": {
+    "type": "Morph",
+    "number": 6,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Devourer Aspect (Mutalisk/Corruptor)": {
+    "type": "Morph",
+    "number": 7,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Ravager Aspect (Roach)": {
+    "type": "Morph",
+    "number": 8,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Observer": {
+    "type": "Unit",
+    "number": 9,
+    "race": "PROTOSS",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "wol"
+    ],
+    "description": null
+  },
+  "Centurion": {
+    "type": "Unit",
+    "number": 10,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Sentinel": {
+    "type": "Unit",
+    "number": 11,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Supplicant": {
+    "type": "Unit",
+    "number": 12,
+    "race": "PROTOSS",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Instigator": {
+    "type": "Unit",
+    "number": 13,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Slayer": {
+    "type": "Unit",
+    "number": 14,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Sentry": {
+    "type": "Unit",
+    "number": 15,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Energizer": {
+    "type": "Unit",
+    "number": 16,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Havoc": {
+    "type": "Unit",
+    "number": 17,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Signifier": {
+    "type": "Unit",
+    "number": 18,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Ascendant": {
+    "type": "Unit",
+    "number": 19,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Avenger": {
+    "type": "Unit",
+    "number": 20,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Blood Hunter": {
+    "type": "Unit",
+    "number": 21,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Dragoon": {
+    "type": "Unit",
+    "number": 22,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Dark Archon": {
+    "type": "Unit",
+    "number": 23,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Adept": {
+    "type": "Unit",
+    "number": 24,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Warp Prism": {
+    "type": "Unit",
+    "number": 25,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Annihilator": {
+    "type": "Unit",
+    "number": 26,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Vanguard": {
+    "type": "Unit",
+    "number": 27,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Wrathwalker": {
+    "type": "Unit",
+    "number": 28,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Reaver": {
+    "type": "Unit",
+    "number": 29,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Disruptor": {
+    "type": "Unit 2",
+    "number": 0,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Mirage": {
+    "type": "Unit 2",
+    "number": 1,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Corsair": {
+    "type": "Unit 2",
+    "number": 2,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Destroyer": {
+    "type": "Unit 2",
+    "number": 3,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Scout": {
+    "type": "Unit 2",
+    "number": 4,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Tempest": {
+    "type": "Unit 2",
+    "number": 5,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Mothership": {
+    "type": "Unit 2",
+    "number": 6,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Arbiter": {
+    "type": "Unit 2",
+    "number": 7,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Oracle": {
+    "type": "Unit 2",
+    "number": 8,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Progressive Protoss Ground Weapon": {
+    "type": "Upgrade",
+    "number": 0,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 3,
+    "parent_item": null,
+    "origin": [
+      "lotv",
+      "wol"
+    ],
+    "description": null
+  },
+  "Progressive Protoss Ground Armor": {
+    "type": "Upgrade",
+    "number": 2,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 3,
+    "parent_item": null,
+    "origin": [
+      "lotv",
+      "wol"
+    ],
+    "description": null
+  },
+  "Progressive Protoss Shields": {
+    "type": "Upgrade",
+    "number": 4,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 3,
+    "parent_item": null,
+    "origin": [
+      "lotv",
+      "wol"
+    ],
+    "description": null
+  },
+  "Progressive Protoss Air Weapon": {
+    "type": "Upgrade",
+    "number": 6,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 3,
+    "parent_item": null,
+    "origin": [
+      "lotv",
+      "wol"
+    ],
+    "description": null
+  },
+  "Progressive Protoss Air Armor": {
+    "type": "Upgrade",
+    "number": 8,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 3,
+    "parent_item": null,
+    "origin": [
+      "lotv",
+      "wol"
+    ],
+    "description": null
+  },
+  "Progressive Protoss Weapon Upgrade": {
+    "type": "Upgrade",
+    "number": 11,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 3,
+    "parent_item": null,
+    "origin": [
+      "lotv",
+      "wol"
+    ],
+    "description": null
+  },
+  "Progressive Protoss Armor Upgrade": {
+    "type": "Upgrade",
+    "number": 12,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 3,
+    "parent_item": null,
+    "origin": [
+      "lotv",
+      "wol"
+    ],
+    "description": null
+  },
+  "Progressive Protoss Ground Upgrade": {
+    "type": "Upgrade",
+    "number": 13,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 3,
+    "parent_item": null,
+    "origin": [
+      "lotv",
+      "wol"
+    ],
+    "description": null
+  },
+  "Progressive Protoss Air Upgrade": {
+    "type": "Upgrade",
+    "number": 14,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 3,
+    "parent_item": null,
+    "origin": [
+      "lotv",
+      "wol"
+    ],
+    "description": null
+  },
+  "Progressive Protoss Weapon/Armor Upgrade": {
+    "type": "Upgrade",
+    "number": 15,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 3,
+    "parent_item": null,
+    "origin": [
+      "lotv",
+      "wol"
+    ],
+    "description": null
+  },
+  "Photon Cannon": {
+    "type": "Building",
+    "number": 0,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv",
+      "wol"
+    ],
+    "description": null
+  },
+  "Khaydarin Monolith": {
+    "type": "Building",
+    "number": 1,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Shield Battery": {
+    "type": "Building",
+    "number": 2,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Blood Shield (Supplicant)": {
+    "type": "Forge 1",
+    "number": 0,
+    "race": "PROTOSS",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Supplicant",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Soul Augmentation (Supplicant)": {
+    "type": "Forge 1",
+    "number": 1,
+    "race": "PROTOSS",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Supplicant",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Shield Regeneration (Supplicant)": {
+    "type": "Forge 1",
+    "number": 2,
+    "race": "PROTOSS",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Supplicant",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Shockwave (Adept)": {
+    "type": "Forge 1",
+    "number": 3,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Adept",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Resonating Glaives (Adept)": {
+    "type": "Forge 1",
+    "number": 4,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Adept",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Phase Bulwark (Adept)": {
+    "type": "Forge 1",
+    "number": 5,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Adept",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Disintegrating Particles (Stalker/Instigator/Slayer)": {
+    "type": "Forge 1",
+    "number": 6,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Particle Reflection (Stalker/Instigator/Slayer)": {
+    "type": "Forge 1",
+    "number": 7,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "High Impact Phase Disruptor (Dragoon)": {
+    "type": "Forge 1",
+    "number": 8,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Dragoon",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Trillic Compression System (Dragoon)": {
+    "type": "Forge 1",
+    "number": 9,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Dragoon",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Singularity Charge (Dragoon)": {
+    "type": "Forge 1",
+    "number": 10,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Dragoon",
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Enhanced Strider Servos (Dragoon)": {
+    "type": "Forge 1",
+    "number": 11,
+    "race": "PROTOSS",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Dragoon",
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Combat Sensor Array (Scout)": {
+    "type": "Forge 1",
+    "number": 12,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Scout",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Apial Sensors (Scout)": {
+    "type": "Forge 1",
+    "number": 13,
+    "race": "PROTOSS",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Scout",
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Gravitic Thrusters (Scout)": {
+    "type": "Forge 1",
+    "number": 14,
+    "race": "PROTOSS",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Scout",
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Advanced Photon Blasters (Scout)": {
+    "type": "Forge 1",
+    "number": 15,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Scout",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Tectonic Destabilizers (Tempest)": {
+    "type": "Forge 1",
+    "number": 16,
+    "race": "PROTOSS",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Tempest",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Quantic Reactor (Tempest)": {
+    "type": "Forge 1",
+    "number": 17,
+    "race": "PROTOSS",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Tempest",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Gravity Sling (Tempest)": {
+    "type": "Forge 1",
+    "number": 18,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Tempest",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Ionic Wavelength Flux (Phoenix/Mirage)": {
+    "type": "Forge 1",
+    "number": 19,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Anion Pulse-Crystals (Phoenix/Mirage)": {
+    "type": "Forge 1",
+    "number": 20,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Stealth Drive (Corsair)": {
+    "type": "Forge 1",
+    "number": 21,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Corsair",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Argus Jewel (Corsair)": {
+    "type": "Forge 1",
+    "number": 22,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Corsair",
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Sustaining Disruption (Corsair)": {
+    "type": "Forge 1",
+    "number": 23,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Corsair",
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Neutron Shields (Corsair)": {
+    "type": "Forge 1",
+    "number": 24,
+    "race": "PROTOSS",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Corsair",
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Stealth Drive (Oracle)": {
+    "type": "Forge 1",
+    "number": 25,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Oracle",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Stasis Calibration (Oracle)": {
+    "type": "Forge 1",
+    "number": 26,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Oracle",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Temporal Acceleration Beam (Oracle)": {
+    "type": "Forge 1",
+    "number": 27,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Oracle",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Chronostatic Reinforcement (Arbiter)": {
+    "type": "Forge 1",
+    "number": 28,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Arbiter",
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Khaydarin Core (Arbiter)": {
+    "type": "Forge 1",
+    "number": 29,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Arbiter",
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Spacetime Anchor (Arbiter)": {
+    "type": "Forge 2",
+    "number": 0,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Arbiter",
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Resource Efficiency (Arbiter)": {
+    "type": "Forge 2",
+    "number": 1,
+    "race": "PROTOSS",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Arbiter",
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Enhanced Cloak Field (Arbiter)": {
+    "type": "Forge 2",
+    "number": 2,
+    "race": "PROTOSS",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Arbiter",
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Graviton Catapult (Carrier)": {
+    "type": "Forge 2",
+    "number": 3,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Carrier",
+    "origin": [
+      "wol"
+    ],
+    "description": null
+  },
+  "Hull of Past Glories (Carrier)": {
+    "type": "Forge 2",
+    "number": 4,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Carrier",
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Flux Vanes (Void Ray/Destroyer)": {
+    "type": "Forge 2",
+    "number": 5,
+    "race": "PROTOSS",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Reforged Bloodshard Core (Destroyer)": {
+    "type": "Forge 2",
+    "number": 6,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Destroyer",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Gravitic Drive (Warp Prism)": {
+    "type": "Forge 2",
+    "number": 7,
+    "race": "PROTOSS",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Warp Prism",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Phase Blaster (Warp Prism)": {
+    "type": "Forge 2",
+    "number": 8,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": "Warp Prism",
+    "origin": [
+      "ext"
+    ],
+    "description": "Equips Warp Prisms with an auto-attack that can hit ground and air targets."
+  },
+  "War Configuration (Warp Prism)": {
+    "type": "Forge 2",
+    "number": 9,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Warp Prism",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Gravitic Boosters (Observer)": {
+    "type": "Forge 2",
+    "number": 10,
+    "race": "PROTOSS",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Observer",
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Sensor Array (Observer)": {
+    "type": "Forge 2",
+    "number": 11,
+    "race": "PROTOSS",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Observer",
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Scarab Damage (Reaver)": {
+    "type": "Forge 2",
+    "number": 12,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Reaver",
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Solarite Payload (Reaver)": {
+    "type": "Forge 2",
+    "number": 13,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Reaver",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Reaver Capacity (Reaver)": {
+    "type": "Forge 2",
+    "number": 14,
+    "race": "PROTOSS",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Reaver",
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Resource Efficiency (Reaver)": {
+    "type": "Forge 2",
+    "number": 15,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Reaver",
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Agony Launchers (Vanguard)": {
+    "type": "Forge 2",
+    "number": 16,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Vanguard",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Matter Dispersion (Vanguard)": {
+    "type": "Forge 2",
+    "number": 17,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Vanguard",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Singularity Charge (Immortal/Annihilator)": {
+    "type": "Forge 2",
+    "number": 18,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Advanced Targeting Mechanics (Immortal/Annihilator)": {
+    "type": "Forge 2",
+    "number": 19,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Pacification Protocol (Colossus)": {
+    "type": "Forge 2",
+    "number": 20,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Colossus",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Rapid Power Cycling (Wrathwalker)": {
+    "type": "Forge 2",
+    "number": 21,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Wrathwalker",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Eye of Wrath (Wrathwalker)": {
+    "type": "Forge 2",
+    "number": 22,
+    "race": "PROTOSS",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Wrathwalker",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Shroud of Adun (Dark Templar/Avenger/Blood Hunter)": {
+    "type": "Forge 2",
+    "number": 23,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Shadow Guard Training (Dark Templar/Avenger/Blood Hunter)": {
+    "type": "Forge 2",
+    "number": 24,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Blink (Dark Templar/Avenger/Blood Hunter)": {
+    "type": "Forge 2",
+    "number": 25,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Resource Efficiency (Dark Templar/Avenger/Blood Hunter)": {
+    "type": "Forge 2",
+    "number": 26,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Dark Archon Meld (Dark Templar)": {
+    "type": "Forge 2",
+    "number": 27,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Dark Templar",
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Unshackled Psionic Storm (High Templar/Signifier)": {
+    "type": "Forge 2",
+    "number": 28,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Hallucination (High Templar/Signifier)": {
+    "type": "Forge 2",
+    "number": 29,
+    "race": "PROTOSS",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Khaydarin Amulet (High Templar/Signifier)": {
+    "type": "Forge 3",
+    "number": 0,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "High Archon (Archon)": {
+    "type": "Forge 3",
+    "number": 1,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Feedback (Dark Archon)": {
+    "type": "Forge 3",
+    "number": 2,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Maelstrom (Dark Archon)": {
+    "type": "Forge 3",
+    "number": 3,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Argus Talisman (Dark Archon)": {
+    "type": "Forge 3",
+    "number": 4,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Power Overwhelming (Ascendant)": {
+    "type": "Forge 3",
+    "number": 5,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Ascendant",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Chaotic Attunement (Ascendant)": {
+    "type": "Forge 3",
+    "number": 6,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Ascendant",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Blood Amulet (Ascendant)": {
+    "type": "Forge 3",
+    "number": 7,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Ascendant",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Cloaking Module (Sentry/Energizer/Havoc)": {
+    "type": "Forge 3",
+    "number": 8,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Rapid Recharging (Sentry/Energizer/Havoc/Shield Battery)": {
+    "type": "Forge 3",
+    "number": 9,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Force Field (Sentry)": {
+    "type": "Forge 3",
+    "number": 10,
+    "race": "PROTOSS",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Sentry",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Hallucination (Sentry)": {
+    "type": "Forge 3",
+    "number": 11,
+    "race": "PROTOSS",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Sentry",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Reclamation (Energizer)": {
+    "type": "Forge 3",
+    "number": 12,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Energizer",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Forged Chassis (Energizer)": {
+    "type": "Forge 3",
+    "number": 13,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Energizer",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Detect Weakness (Havoc)": {
+    "type": "Forge 3",
+    "number": 14,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Havoc",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Bloodshard Resonance (Havoc)": {
+    "type": "Forge 3",
+    "number": 15,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Havoc",
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Leg Enhancements (Zealot/Sentinel/Centurion)": {
+    "type": "Forge 3",
+    "number": 16,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Shield Capacity (Zealot/Sentinel/Centurion)": {
+    "type": "Forge 3",
+    "number": 17,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "bw"
+    ],
+    "description": null
+  },
+  "Chrono Surge (Spear of Adun Calldown)": {
+    "type": "Spear of Adun",
+    "number": 0,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Progressive Proxy Pylon (Spear of Adun Calldown)": {
+    "type": "Progressive Upgrade",
+    "number": 0,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 2,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Pylon Overcharge (Spear of Adun Calldown)": {
+    "type": "Spear of Adun",
+    "number": 1,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Orbital Strike (Spear of Adun Calldown)": {
+    "type": "Spear of Adun",
+    "number": 2,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Temporal Field (Spear of Adun Calldown)": {
+    "type": "Spear of Adun",
+    "number": 3,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Solar Lance (Spear of Adun Calldown)": {
+    "type": "Spear of Adun",
+    "number": 4,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Mass Recall (Spear of Adun Calldown)": {
+    "type": "Spear of Adun",
+    "number": 5,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Shield Overcharge (Spear of Adun Calldown)": {
+    "type": "Spear of Adun",
+    "number": 6,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Deploy Fenix (Spear of Adun Calldown)": {
+    "type": "Spear of Adun",
+    "number": 7,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Purifier Beam (Spear of Adun Calldown)": {
+    "type": "Spear of Adun",
+    "number": 8,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Time Stop (Spear of Adun Calldown)": {
+    "type": "Spear of Adun",
+    "number": 9,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Solar Bombardment (Spear of Adun Calldown)": {
+    "type": "Spear of Adun",
+    "number": 10,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Matrix Overload": {
+    "type": "Solarite Core",
+    "number": 0,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Quatro": {
+    "type": "Solarite Core",
+    "number": 1,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Nexus Overcharge": {
+    "type": "Solarite Core",
+    "number": 2,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Orbital Assimilators": {
+    "type": "Solarite Core",
+    "number": 3,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Warp Harmonization": {
+    "type": "Solarite Core",
+    "number": 4,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Guardian Shell": {
+    "type": "Solarite Core",
+    "number": 5,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Reconstruction Beam": {
+    "type": "Solarite Core",
+    "number": 6,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "lotv"
+    ],
+    "description": null
+  },
+  "Overwatch": {
+    "type": "Solarite Core",
+    "number": 7,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Superior Warp Gates": {
+    "type": "Solarite Core",
+    "number": 8,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Enhanced Targeting": {
+    "type": "Solarite Core",
+    "number": 9,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Optimized Ordnance": {
+    "type": "Solarite Core",
+    "number": 10,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Khalai Ingenuity": {
+    "type": "Solarite Core",
+    "number": 11,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  },
+  "Amplified Assimilators": {
+    "type": "Solarite Core",
+    "number": 12,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "origin": [
+      "ext"
+    ],
+    "description": null
+  }
+}
