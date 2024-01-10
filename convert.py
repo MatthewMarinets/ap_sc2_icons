@@ -17,6 +17,7 @@ if __name__ == '__main__':
     failures = 0
     locations = location_info['locations']
     num_images = location_info["meta"]["located"]
+    info = {}
     for item, location in locations.items():
         if not location:
             continue
@@ -32,8 +33,12 @@ if __name__ == '__main__':
             print(f'Failure: {source_path} does not exist')
             failures += 1
             continue
-        retval = subprocess.call(f'magick convert "{source_path}" {target_dir}/{stem}.png', shell=True)
+        target_path = f'{target_dir}/{stem}.png'
+        retval = subprocess.call(f'magick convert "{source_path}" {target_path}', shell=True)
         if retval:
             failures += 1
             print(f'magick returned non-zero value {retval} trying to convert {source_path}')
+        info[item] = target_path
+    with open('data/icon_manifest.json', 'w') as fp:
+        json.dump(info, fp)
     print(f'Converted {num_images - failures} images | Encountered {failures} errors | Total {num_images} items')
