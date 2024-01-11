@@ -49,11 +49,11 @@ if __name__ == '__main__':
             failures += 1
             continue
         target_path = f'{target_dir}/{stem}.png'
-        if os.path.exists(target_path):
-            if verbose: print(f'Skipping {target_path} as it already exists')
-            info[item] = target_path
-            skipped += 1
-            continue
+        # if os.path.exists(target_path):
+        #     if verbose: print(f'Skipping {target_path} as it already exists')
+        #     info[item] = target_path
+        #     skipped += 1
+        #     continue
         retval = subprocess.call(f'magick convert "{source_path}" -define png:exclude-chunk=date,time {target_path}', shell=True)
         if retval:
             failures += 1
