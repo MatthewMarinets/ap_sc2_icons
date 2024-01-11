@@ -7,6 +7,9 @@ import json
 import os
 import subprocess
 
+ORIGINAL_DIR = 'icons/original'
+BLIZZARD_DIR = 'icons/blizzard'
+
 if __name__ == '__main__':
     verbose = False
     with open('workspace.json', 'r') as fp:
@@ -23,6 +26,11 @@ if __name__ == '__main__':
     num_images = location_info["meta"]["located"]
     info = {}
     items = sorted(locations)
+    if not os.path.exists(ORIGINAL_DIR):
+        os.makedirs(ORIGINAL_DIR)
+    if not os.path.exists(BLIZZARD_DIR):
+        os.makedirs(BLIZZARD_DIR)
+
     for item in items:
         location = locations[item]
         if not location:
@@ -31,10 +39,10 @@ if __name__ == '__main__':
         filename = os.path.basename(location)
         stem = os.path.splitext(filename)[0]
         if location.startswith('AP'):
-            target_dir = 'icons/original'
+            target_dir = ORIGINAL_DIR
             source_path = os.path.join(mod_dir, 'Mods/ArchipelagoPlayer.SC2Mod/Base.SC2Assets', location)
         else:
-            target_dir = 'icons/blizzard'
+            target_dir = BLIZZARD_DIR
             source_path = os.path.join(dds_dir, filename)
         if not os.path.exists(source_path):
             print(f'Failure: {source_path} does not exist')
@@ -46,7 +54,7 @@ if __name__ == '__main__':
             info[item] = target_path
             skipped += 1
             continue
-        retval = subprocess.call(f'magick convert "{source_path}" {target_path}', shell=True)
+        retval = subprocess.call(f'magick convert "{source_path}" -define png:exclude-chunk=date,time {target_path}', shell=True)
         if retval:
             failures += 1
             print(f'magick returned non-zero value {retval} trying to convert {source_path}')
