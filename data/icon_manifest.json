@@ -63,7 +63,7 @@
   "icons/blizzard/btn-ability-terran-detectionconedebuff.png"
  ],
  "Advanced Targeting Mechanics (Immortal/Annihilator)": [
-  "icons/blizzard/btn-upgrade-artanis-singularitycharge.png"
+  "icons/blizzard/btn-ability-terran-detectionconedebuff.png"
  ],
  "Advanced Targeting Optics (Banshee)": [
   "icons/blizzard/btn-ability-terran-detectionconedebuff.png"
@@ -137,6 +137,9 @@
  ],
  "Battlecruiser": [
   "icons/blizzard/btn-unit-terran-battlecruiser.png"
+ ],
+ "Behemoth Plating (Battlecruiser)": [
+  "icons/blizzard/btn-techupgrade-terran-juggernautplating.png"
  ],
  "Bio-Mechanical Transfusion (Swarm Queen)": [
   "icons/blizzard/btn-upgrade-zerg-abathur-biomechanicaltransfusion.png"
@@ -246,6 +249,9 @@
  ],
  "Corsair": [
   "icons/blizzard/btn-unit-protoss-corsair.png"
+ ],
+ "Covert Ops Engines (Battlecruiser)": [
+  "icons/blizzard/btn-ability-terran-emergencythrusters.png"
  ],
  "Creeper Strain (Swarm Host)": [
   "icons/blizzard/btn-ability-zerg-creepspread.png"
@@ -627,7 +633,7 @@
   "icons/blizzard/btn-unit-zerg-hydralisk-lurker.png"
  ],
  "Maelstrom Rounds (Siege Tank)": [
-  "icons/blizzard/btn-techupgrade-terran-shapedhull.png"
+  "icons/blizzard/btn-techupgrade-terran-maelstromrounds.png"
  ],
  "Mag-Field Accelerators (Cyclone)": [
   "icons/blizzard/btn-upgrade-terran-magfieldaccelerator.png"
@@ -1091,6 +1097,9 @@
  "Shaped Hull (Goliath)": [
   "icons/blizzard/btn-techupgrade-terran-shapedhull.png"
  ],
+ "Shaped Hull (Siege Tank)": [
+  "icons/blizzard/btn-techupgrade-terran-shapedhull.png"
+ ],
  "Shaped Hull (Valkyrie)": [
   "icons/blizzard/btn-techupgrade-terran-shapedhull.png"
  ],
@@ -1135,7 +1144,7 @@
  ],
  "Singularity Charge (Immortal/Annihilator)": [
   "icons/blizzard/aoe_splatterran1c.png",
-  "icons/blizzard/btn-ability-terran-detectionconedebuff.png"
+  "icons/blizzard/btn-upgrade-artanis-singularitycharge.png"
  ],
  "Skibi's Angels": [
   "icons/blizzard/btn-unit-terran-medicelite.png"
@@ -1201,7 +1210,8 @@
   "icons/blizzard/btn-upgrade-vorazun-corsairpermanentlycloaked.png"
  ],
  "Stealth Drive (Oracle)": [
-  "icons/blizzard/btn-upgrade-vorazun-corsairpermanentlycloaked.png"
+  "icons/blizzard/btn-upgrade-vorazun-corsairpermanentlycloaked.png",
+  "icons/blizzard/btn-upgrade-vorazun-oraclepermanentlycloaked.png"
  ],
  "Stim Infusion (Nova Gadget)": [
   "icons/blizzard/btn-upgrade-terran-superstimppack.png"

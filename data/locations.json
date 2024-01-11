@@ -1,8 +1,8 @@
 {
   "meta": {
-    "timestamp": "2024-01-10",
+    "timestamp": "2024-01-11",
     "items": 589,
-    "located": 437
+    "located": 440
   },
   "locations": {
     "Marine": [
@@ -236,7 +236,9 @@
     ],
     "Resource Efficiency (Goliath)": [],
     "Internal Tech Module (Goliath)": [],
-    "Shaped Hull (Siege Tank)": [],
+    "Shaped Hull (Siege Tank)": [
+      "assets\\textures\\btn-techupgrade-terran-shapedhull.dds"
+    ],
     "Resource Efficiency (Siege Tank)": [],
     "Cloak (Predator)": [
       "assets\\textures\\btn-ability-terran-cloak-color.dds"
@@ -341,7 +343,7 @@
       "assets\\textures\\btn-techupgrade-terran-shapedhull.dds"
     ],
     "Maelstrom Rounds (Siege Tank)": [
-      "assets\\textures\\btn-techupgrade-terran-shapedhull.dds"
+      "assets\\textures\\btn-techupgrade-terran-maelstromrounds.dds"
     ],
     "Shaped Blast (Siege Tank)": [
       "assets\\textures\\btn-techupgrade-terran-shapedblast.dds"
@@ -372,7 +374,7 @@
     "Shockwave Missile Battery (Banshee)": [
       "assets\\textures\\btn-techupgrade-terran-clusterwarheads.dds"
     ],
-    "Missile Pods (Battlecruiser)": [],
+    "Progressive Missile Pods (Battlecruiser)": [],
     "Progressive Defensive Matrix (Battlecruiser)": [
       "assets\\textures\\btn-ability-terran-defensivematrix.dds"
     ],
@@ -538,8 +540,12 @@
     "Predator's Fury (Predator)": [
       "assets\\textures\\btn-ability-protoss-shadowfury.dds"
     ],
-    "Behemoth Plating (Battlecruiser)": [],
-    "Covert Ops Engines (Battlecruiser)": [],
+    "Behemoth Plating (Battlecruiser)": [
+      "assets\\textures\\btn-techupgrade-terran-juggernautplating.dds"
+    ],
+    "Covert Ops Engines (Battlecruiser)": [
+      "assets\\textures\\btn-ability-terran-emergencythrusters.dds"
+    ],
     "Bunker": [
       "assets\\textures\\btn-building-terran-bunker.dds"
     ],
@@ -1335,7 +1341,8 @@
       "assets\\textures\\btn-upgrade-protoss-shieldslevel1.dds"
     ],
     "Stealth Drive (Oracle)": [
-      "assets\\textures\\btn-upgrade-vorazun-corsairpermanentlycloaked.dds"
+      "assets\\textures\\btn-upgrade-vorazun-corsairpermanentlycloaked.dds",
+      "assets\\textures\\btn-upgrade-vorazun-oraclepermanentlycloaked.dds"
     ],
     "Stasis Calibration (Oracle)": [
       "assets\\textures\\btn-ability-protoss-oracle-stasiscalibration.dds"
@@ -1402,10 +1409,10 @@
     ],
     "Singularity Charge (Immortal/Annihilator)": [
       "assets\\textures\\aoe_splatterran1c.dds",
-      "assets\\textures\\btn-ability-terran-detectionconedebuff.dds"
+      "assets\\textures\\btn-upgrade-artanis-singularitycharge.dds"
     ],
     "Advanced Targeting Mechanics (Immortal/Annihilator)": [
-      "assets\\textures\\btn-upgrade-artanis-singularitycharge.dds"
+      "assets\\textures\\btn-ability-terran-detectionconedebuff.dds"
     ],
     "Pacification Protocol (Colossus)": [
       "assets\\textures\\btn-ability-protoss-chargedblast.dds"

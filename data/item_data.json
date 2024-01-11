@@ -1274,7 +1274,7 @@
     "origin": [
       "nco"
     ],
-    "description": "Allows Sige Tanks to lay Spider Mines. \nLays 3 Spider Mines at once. 3 charges"
+    "description": "Allows Siege Tanks to lay Spider Mines. \nLays 3 Spider Mines at once. 3 charges"
   },
   "Smart Servos (Siege Tank)": {
     "type": "Armory 3",
@@ -1624,12 +1624,12 @@
     ],
     "description": "Banshees do area damage in a straight line."
   },
-  "Missile Pods (Battlecruiser)": {
-    "type": "Armory 4",
-    "number": 1,
+  "Progressive Missile Pods (Battlecruiser)": {
+    "type": "Progressive Upgrade 2",
+    "number": 2,
     "race": "TERRAN",
-    "classification": "filler",
-    "quantity": 1,
+    "classification": "useful",
+    "quantity": 2,
     "parent_item": "Battlecruiser",
     "origin": [
       "wol"
@@ -1880,7 +1880,7 @@
     "type": "Armory 4",
     "number": 20,
     "race": "TERRAN",
-    "classification": "progression",
+    "classification": "useful",
     "quantity": 1,
     "parent_item": "Banshee",
     "origin": [
@@ -5935,7 +5935,7 @@
     "type": "Forge 1",
     "number": 6,
     "race": "PROTOSS",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": null,
     "origin": [
@@ -5947,7 +5947,7 @@
     "type": "Forge 1",
     "number": 7,
     "race": "PROTOSS",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": null,
     "origin": [
