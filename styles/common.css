@@ -40,8 +40,12 @@ body {
     text-align: center;
 }
 
+.image-container {
+    text-align: center;
+}
+
 img {
-    display: block;
+    display: inline-block;
     margin: auto;
     max-width: 100%;
     height: auto;

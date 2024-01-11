@@ -25,23 +25,32 @@ def write_table_of_contents(fp: io.FileIO, item_names: Iterable[str]) -> None:
     fp.write("""
     <div id="toc">
     <h2>Table of Contents</h2>
-        <ol>
+    <ol>
     """)
     for item_name in item_names:
         fp.write(f'<li><a href="#{brief_name(item_name)}">{item_name}</a></li>\n')
     fp.write('</ol></div>\n')
 
-def write_item(fp: io.FileIO, item_name: str, item_info: str, icon_location: str|None) -> None:
+def write_item(fp: io.FileIO, item_name: str, item_info: str, icon_locations: list[str]) -> None:
     fp.write(inspect.cleandoc(f"""
     <div id="{item_name}">
         <h2><a id="{brief_name(item_name)}"></a>{item_name}</h2>
-        {f'<img src="{icon_location}"/>' if icon_location else '<p class="error">Icon currently unavailable</p>'}
+        <div class="image-container">
+    """))
+    if not icon_locations:
+        fp.write('<p class="error">Icon unavailable</p>')
+    locations_list_items = ''
+    for location in icon_locations:
+        fp.write(f'<img src="{location}"/>')
+        locations_list_items += f'<li>Icon path: <code>{location}</code></li>'
+    fp.write(inspect.cleandoc(f"""
+        </div>
         <ul>
         <li>Faction: {item_info["race"]}</li>
         <li>Classification: {item_info["classification"]}</li>
         {f'<li>Description: {item_info["description"]}</li>' if item_info["description"] else ''}
         {f'<li>Parent: {item_info["parent_item"]}</li>' if item_info["parent_item"] else ''}
-        {f'<li>Icon path: <code>{icon_location}</code></li>' if icon_location else ''}
+        {locations_list_items}
         </ul>
     </div>
     """))
@@ -62,5 +71,5 @@ if __name__ == '__main__':
         write_start(fp)
         write_table_of_contents(fp, item_data)
         for item in item_data:
-            write_item(fp, item, item_data[item], icon_manifest.get(item))
+            write_item(fp, item, item_data[item], icon_manifest.get(item, []))
         write_end(fp)
