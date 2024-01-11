@@ -131,6 +131,7 @@ def parse_galaxy_file(galaxy_path: str) -> Dict[ItemId, List[GalaxyItem]]:
 
 
 def parse_upgrade_data(upgrade_data_path: str) -> Dict[str, str|None]:
+    """upgrade -> icon"""
     with open(upgrade_data_path, 'r') as fp:
         lines = fp.readlines()
     result = {}
@@ -150,7 +151,7 @@ def parse_upgrade_data(upgrade_data_path: str) -> Dict[str, str|None]:
     return result
 
 def parse_button_data(button_data_path: str) -> Dict[str, str|None]:
-    """button_id -> icon"""
+    """button -> icon"""
     with open(button_data_path, 'r') as fp:
         lines = fp.readlines()
     result = {}
@@ -172,45 +173,55 @@ def parse_button_data(button_data_path: str) -> Dict[str, str|None]:
             current_button = ''
     return result
 
-def parse_unit_data(unit_data_path: str) -> dict[str, list[str]]:
+def parse_unit_data(unit_data_path: str) -> tuple[dict[str, list[str]], dict[str, str]]:
+    """ability -> button, requirement -> button"""
     with open(unit_data_path, 'r') as fp:
         lines = fp.readlines()
-    result: dict[str, list[str]] = {}
+    ability_to_button: dict[str, list[str]] = {}
+    requirement_to_button: dict[str, str] = {}
     last_face = ''
     command_card_pattern = re.compile(r'^\s*<LayoutButtons.*Face="([^"]+)".*AbilCmd="(AP[^"]+)"')
     face_pattern = re.compile(r'^\s*<Face value="([^"]+)"/>')
     abilcmd_pattern = re.compile(r'^\s*<AbilCmd value="(AP_[^"]+)"/>')
+    requirements_pattern = re.compile(r'\s*<Requirements\s*value="(AP_[^"]+)"/>')
+    passive_pattern = re.compile(r'^\s*<LayoutButtons .*Face="([^"]+)".*Requirements="(AP_[^"]+)"')
     for line in lines:
         if match := re.match(command_card_pattern, line):
             face = match.group(1)
             ability = match.group(2)
-            result.setdefault(ability, [])
-            if face not in result[ability]:
-                result[ability].append(face)
+            ability_to_button.setdefault(ability, [])
+            if face not in ability_to_button[ability]:
+                ability_to_button[ability].append(face)
             if ',' in ability:
                 ability = ability.split(',', 1)[0]
-                result.setdefault(ability, [])
-                if face not in result[ability]:
-                    result[ability].append(face)
+                ability_to_button.setdefault(ability, [])
+                if face not in ability_to_button[ability]:
+                    ability_to_button[ability].append(face)
         elif match := re.match(face_pattern, line):
             last_face = match.group(1)
+        elif match := re.match(requirements_pattern, line):
+            assert last_face
+            requirement_to_button[match.group(1)] = last_face
+        elif match := re.match(passive_pattern, line):
+            requirement_to_button[match.group(2)] = match.group(1)
         elif match := re.match(abilcmd_pattern, line):
             if not last_face:
                 continue
             ability = match.group(1)
-            result.setdefault(ability, [])
-            if last_face not in result[ability]:
-                result[ability].append(last_face)
+            ability_to_button.setdefault(ability, [])
+            if last_face not in ability_to_button[ability]:
+                ability_to_button[ability].append(last_face)
             if ',' in ability:
                 ability = ability.split(',', 1)[0]
-                result.setdefault(ability, [])
-                if last_face not in result[ability]:
-                    result[ability].append(last_face)
+                ability_to_button.setdefault(ability, [])
+                if last_face not in ability_to_button[ability]:
+                    ability_to_button[ability].append(last_face)
         elif '</LayoutButtons>' in line:
             last_face = ''
-    return result
+    return (ability_to_button, requirement_to_button)
 
 def parse_abil_data(abil_data_path: str) -> dict[str, list[str]]:
+    """unit -> ability"""
     with open(abil_data_path, 'r') as fp:
         lines = fp.readlines()
     result: dict[str, list[str]] = {}
@@ -278,6 +289,85 @@ def parse_abil_data(abil_data_path: str) -> dict[str, list[str]]:
             current_ability_index = 0
     return result
 
+def parse_requirement_data(requirement_data_path: str) -> dict[str, List[str]]:
+    """requirement -> requirement_node"""
+    with open(requirement_data_path, 'r') as fp:
+        lines = fp.readlines()
+    requirement_to_node: dict[str, str] = {}
+    current_req = ''
+    requirement_start_pattern = re.compile(r'^\s*<CRequirement\s+id="(AP_[^"]+)">')
+    node_pattern = re.compile(r'^\s*<NodeArray.*Link="(AP_[^"]+)"')
+    for line in lines:
+        if match := re.match(requirement_start_pattern, line):
+            current_req = match.group(1)
+        elif match := re.match(node_pattern, line):
+            if not current_req:
+                continue
+            requirement_to_node.setdefault(current_req, [])
+            if match.group(1) not in requirement_to_node[current_req]:
+                requirement_to_node[current_req].append(match.group(1))
+        elif '</CRequirement>' in line:
+            current_req = ''
+    return requirement_to_node
+
+def parse_combined_requirement_data(requirement_data_path: str, requirement_node_data_path: str) -> dict[str, str]:
+    """upgrade -> requirement"""
+    with open(requirement_node_data_path, 'r') as fp:
+        lines = fp.readlines()
+    requirement_node_to_upgrade: dict[str, str] = {}
+    requirement_node_interlink: dict[str, List[str]] = {}
+    UPGRADE = 'upgrade'
+    current_requirement = ()
+
+    upgrade_start_pattern = re.compile(r'^\s*<CRequirementCountUpgrade\s+id="(AP_[^"]+)">')
+    other_requirement_start_pattern = re.compile(r'^\s*<(CRequirement\w+)\s+id="(AP_[^"]+)"[^/]+$')
+    count_pattern = re.compile(r'^\s*<Count Link="(AP_[^"]+)" State="CompleteOnly"')
+    operand_pattern = re.compile(r'^\s*<OperandArray .*value="(AP_[^"]+)"')
+    upgrade_end_pattern = re.compile(r'^\s*</CRequirementCountUpgrade>')
+    other_req_end_pattern = re.compile(r'^\s*</(CRequirement\w+)>')
+    for line_number, line in enumerate(lines):
+        if match := re.match(upgrade_start_pattern, line):
+            assert not current_requirement
+            current_requirement = (match.group(1), UPGRADE)
+        elif match := re.match(upgrade_end_pattern, line):
+            if current_requirement: assert current_requirement[1] == UPGRADE
+            current_requirement = ()
+        elif match := re.match(other_requirement_start_pattern, line):
+            assert not current_requirement
+            current_requirement = (match.group(2), match.group(1))
+        elif match := re.match(other_req_end_pattern, line):
+            if current_requirement: assert current_requirement[1] == match.group(1)
+            current_requirement = ()
+        elif match := re.match(count_pattern, line):
+            assert current_requirement
+            if current_requirement[1] != UPGRADE:
+                continue
+            assert current_requirement[0] not in requirement_node_to_upgrade
+            requirement_node_to_upgrade[current_requirement[0]] = match.group(1)
+        elif match := re.match(operand_pattern, line):
+            assert current_requirement
+            assert current_requirement[1] != UPGRADE
+            requirement_node_interlink.setdefault(current_requirement, []).append(match.group(1))
+    requirement_to_node = parse_requirement_data(requirement_data_path)
+    upgrade_to_requirement: dict[str, set[str]] = {}
+    for requirement, start_nodes in requirement_to_node.items():
+        nodes = set()
+        for node in start_nodes:
+            nodes.update(accessible_nodes(node, requirement_node_interlink))
+        nodes = sorted(nodes)
+        for node in nodes:
+            upgrade = requirement_node_to_upgrade.get(node)
+            if upgrade is not None:
+                upgrade_to_requirement.setdefault(upgrade, set()).add(requirement)
+
+    return {upgrade: sorted(reqs) for upgrade, reqs in upgrade_to_requirement.items()}
+
+def accessible_nodes(start: str, map: dict[str, list[str]]) -> list[str]:
+    result = set([start])
+    descendants = map.get(start, [])
+    for descendant in descendants:
+        result.update(accessible_nodes(descendant, map))
+    return result
 
 def resolve_item_icon(
     item: ItemId,
@@ -285,13 +375,15 @@ def resolve_item_icon(
     unit_to_ability: dict[str, List[str]],
     ability_to_button: dict[str, List[str]],
     button_to_icon: dict[str, str],
-    upgrade_to_icon: dict[str, str]
-) -> str:
-    result = ''
+    upgrade_to_icon: dict[str, str],
+    requirement_to_button: dict[str, str],
+    upgrade_to_requirement: dict[str, list[str]]
+) -> list[str]:
+    result: set[str] = set()
     unlocks = id_to_unlocks.get(item, [])
     for unlock in unlocks:
         if unlock.galaxy_type == 'unit':
-            abilities = unit_to_ability[unlock.name]
+            abilities = unit_to_ability.get(unlock.name)
             if not abilities:
                 continue
             index = 0
@@ -302,22 +394,32 @@ def resolve_item_icon(
             for button in buttons:
                 icon = button_to_icon.get(button)
                 if icon:
-                    return icon
+                    result.add(icon.lower())
         elif unlock.galaxy_type == 'upgrade':
+            # Check if the upgrade direct-links to an icon
             icon = upgrade_to_icon.get(unlock.name)
             if icon:
-                return icon
+                result.add(icon.lower())
+            # Check if a button direct-links to an upgrade
             icon = button_to_icon.get(unlock.name)
             if icon:
-                return icon
+                result.add(icon.lower())
+            # Passives, analyze if a requirement reveals a command-card button
+            # requirements = upgrade_to_requirement.get(unlock.name, [])
+            # for requirement in requirements:
+            #     button = requirement_to_button.get(requirement)
+            #     if button:
+            #         icon = button_to_icon.get(button)
+            #         if icon:
+            #             result.add(icon.lower())
         elif unlock.galaxy_type == 'ability':
             buttons = ability_to_button[unlock.name]
 
             for button in buttons:
                 icon = button_to_icon.get(button)
                 if icon:
-                    return icon
-    return result
+                    result.add(icon.lower())
+    return [x.replace('&apos;', "'") for x in sorted(result)]
 
 
 def main():
@@ -335,18 +437,28 @@ def main():
         button_to_icon.update(vanilla_button_icons)
     id_to_unlocks = parse_galaxy_file(os.path.join(config['mod_files'], 'Mods/ArchipelagoTriggers.SC2Mod/Base.SC2Data/LibABFE498B.galaxy'))
     unit_to_ability = parse_abil_data(os.path.join(game_data, 'AbilData.xml'))
-    ability_to_button = parse_unit_data(os.path.join(game_data, 'UnitData.xml'))
+    ability_to_button, requirement_to_button = parse_unit_data(os.path.join(game_data, 'UnitData.xml'))
+    upgrade_to_requirement = parse_combined_requirement_data(os.path.join(game_data, 'RequirementData.xml'), os.path.join(game_data, 'RequirementNodeData.xml'))
 
     upgrade_to_icon = {key: value for key, value in upgrade_to_icon.items() if value is not None}
     button_to_icon = {key: value for key, value in button_to_icon.items() if value is not None}
+    kwargs = {
+        'id_to_unlocks': id_to_unlocks,
+        'unit_to_ability': unit_to_ability,
+        'ability_to_button': ability_to_button,
+        'button_to_icon': button_to_icon,
+        'upgrade_to_icon': upgrade_to_icon,
+        'requirement_to_button': requirement_to_button,
+        'upgrade_to_requirement': upgrade_to_requirement,
+    }
     # resolve_item_icon(item_numbers['Incinerator Gauntlets (Firebat)'], id_to_unlocks, unit_to_ability, ability_to_button, button_to_icon, upgrade_to_icon)
 
     found = 0
     locations = {}
     for item_name, item in item_numbers.items():
-        icon_path = resolve_item_icon(item, id_to_unlocks, unit_to_ability, ability_to_button, button_to_icon, upgrade_to_icon)
-        if icon_path: found += 1
-        locations[item_name] = icon_path.replace('&apos;', "'")
+        icon_paths = resolve_item_icon(item, **kwargs)
+        if icon_paths: found += 1
+        locations[item_name] = icon_paths
     result = {
         'meta': {
             'timestamp': datetime.now().strftime('%Y-%m-%d'),
