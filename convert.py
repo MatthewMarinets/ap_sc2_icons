@@ -30,8 +30,10 @@ if __name__ == '__main__':
         os.makedirs(ORIGINAL_DIR)
     if not os.path.exists(BLIZZARD_DIR):
         os.makedirs(BLIZZARD_DIR)
-
-    for item in items:
+    converted: set[str] = set()
+    for item_number, item in enumerate(items):
+        if item_number % 50 == 0:
+            print(f'{item_number} / {len(items)}')
         locations = parsed_locations[item]
         if not locations:
             no_information += 1
@@ -50,18 +52,18 @@ if __name__ == '__main__':
                 failures += 1
                 continue
             target_path = f'{target_dir}/{stem}.png'
-            # if os.path.exists(target_path):
-            #     if verbose: print(f'Skipping {target_path} as it already exists')
-            #     info[item] = target_path
-            #     skipped += 1
-            #     continue
-            retval = subprocess.call(f'magick convert "{source_path}" -define png:exclude-chunk=date,time {target_path}', shell=True)
-            if retval:
-                failures += 1
-                print(f'magick returned non-zero value {retval} trying to convert {source_path}')
-                continue
-            successes += 1
+            if target_path in converted:
+                skipped += 1
+                if verbose: print(f'Skipping {target_path} as it is already converted')
+            else:
+                retval = subprocess.call(f'magick convert "{source_path}" -define png:exclude-chunk=date,time {target_path}', shell=True)
+                if retval:
+                    failures += 1
+                    print(f'magick returned non-zero value {retval} trying to convert {source_path}')
+                    continue
+                successes += 1
+                converted.add(target_path)
             info.setdefault(item, []).append(target_path)
     with open('data/icon_manifest.json', 'w') as fp:
         json.dump(info, fp, indent=1)
-    print(f'Converted: {successes} | Failed: {failures} | No path: {no_information} | Items: {len(items)}')
+    print(f'Converted: {successes} | Skipped (duplicate): {skipped} | Failed: {failures} | No path: {no_information} | Items: {len(items)}')
