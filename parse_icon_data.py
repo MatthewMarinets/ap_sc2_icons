@@ -405,13 +405,13 @@ def resolve_item_icon(
             if icon:
                 result.add(icon.lower())
             # Passives, analyze if a requirement reveals a command-card button
-            # requirements = upgrade_to_requirement.get(unlock.name, [])
-            # for requirement in requirements:
-            #     button = requirement_to_button.get(requirement)
-            #     if button:
-            #         icon = button_to_icon.get(button)
-            #         if icon:
-            #             result.add(icon.lower())
+            requirements = upgrade_to_requirement.get(unlock.name, [])
+            for requirement in requirements:
+                button = requirement_to_button.get(requirement)
+                if button:
+                    icon = button_to_icon.get(button)
+                    if icon:
+                        result.add(icon.lower())
         elif unlock.galaxy_type == 'ability':
             buttons = ability_to_button[unlock.name]
 
