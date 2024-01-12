@@ -547,6 +547,7 @@
       "assets\\textures\\btn-ability-terran-emergencythrusters.dds"
     ],
     "Bunker": [
+      "ap\\assets\\textures\\btn-building-terran-bunkerneosteel.dds",
       "assets\\textures\\btn-building-terran-bunker.dds"
     ],
     "Missile Turret": [
@@ -724,6 +725,8 @@
     ],
     "Tac Nuke Strike (Nova Ability)": [],
     "Zergling": [
+      "assets\\textures\\btn-unit-zerg-zergling-raptor.dds",
+      "assets\\textures\\btn-unit-zerg-zergling-swarmling.dds",
       "assets\\textures\\btn-unit-zerg-zergling.dds"
     ],
     "Swarm Queen": [
@@ -731,9 +734,13 @@
     ],
     "Roach": [
       "assets\\textures\\btn-building-zerg-roachwarren.dds",
+      "assets\\textures\\btn-unit-zerg-roach-corpser.dds",
+      "assets\\textures\\btn-unit-zerg-roach-vile.dds",
       "assets\\textures\\btn-unit-zerg-roach.dds"
     ],
     "Hydralisk": [
+      "assets\\textures\\btn-unit-zerg-hydralisk-impaler.dds",
+      "assets\\textures\\btn-unit-zerg-hydralisk-lurker.dds",
       "assets\\textures\\btn-unit-zerg-hydralisk.dds"
     ],
     "Baneling Aspect (Zergling)": [
@@ -744,9 +751,13 @@
       "assets\\textures\\btn-unit-zerg-aberration.dds"
     ],
     "Mutalisk": [
+      "assets\\textures\\btn-unit-zerg-mutalisk-broodlord.dds",
+      "assets\\textures\\btn-unit-zerg-mutalisk-viper.dds",
       "assets\\textures\\btn-unit-zerg-mutalisk.dds"
     ],
     "Swarm Host": [
+      "assets\\textures\\btn-unit-zerg-swarmhost-carrion.dds",
+      "assets\\textures\\btn-unit-zerg-swarmhost-creeper.dds",
       "assets\\textures\\btn-unit-zerg-swarmhost.dds"
     ],
     "Infestor": [
@@ -754,6 +765,8 @@
     ],
     "Ultralisk": [
       "assets\\textures\\btn-building-zerg-ultraliskcavern.dds",
+      "assets\\textures\\btn-unit-zerg-ultralisk-noxious.dds",
+      "assets\\textures\\btn-unit-zerg-ultralisk-torrasque.dds",
       "assets\\textures\\btn-unit-zerg-ultralisk.dds"
     ],
     "Spore Crawler": [

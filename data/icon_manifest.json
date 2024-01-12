@@ -173,6 +173,7 @@
   "icons/blizzard/btn-unit-collection-vikingfighter-covertops.png"
  ],
  "Bunker": [
+  "icons/original/btn-building-terran-bunkerneosteel.png",
   "icons/blizzard/btn-building-terran-bunker.png"
  ],
  "Burrow (Swarm Host)": [
@@ -495,6 +496,8 @@
   "icons/blizzard/btn-upgrade-terran-nova-specialordance.png"
  ],
  "Hydralisk": [
+  "icons/blizzard/btn-unit-zerg-hydralisk-impaler.png",
+  "icons/blizzard/btn-unit-zerg-hydralisk-lurker.png",
   "icons/blizzard/btn-unit-zerg-hydralisk.png"
  ],
  "Hydriodic Bile (Roach)": [
@@ -690,6 +693,8 @@
   "icons/blizzard/btn-upgrade-zerg-muscularaugments.png"
  ],
  "Mutalisk": [
+  "icons/blizzard/btn-unit-zerg-mutalisk-broodlord.png",
+  "icons/blizzard/btn-unit-zerg-mutalisk-viper.png",
   "icons/blizzard/btn-unit-zerg-mutalisk.png"
  ],
  "Nano Projector (Medic)": [
@@ -1037,6 +1042,8 @@
  ],
  "Roach": [
   "icons/blizzard/btn-building-zerg-roachwarren.png",
+  "icons/blizzard/btn-unit-zerg-roach-corpser.png",
+  "icons/blizzard/btn-unit-zerg-roach-vile.png",
   "icons/blizzard/btn-unit-zerg-roach.png"
  ],
  "Rocket Barrage (Banshee)": [
@@ -1232,6 +1239,8 @@
   "icons/blizzard/btn-ability-protoss-disruptionweb.png"
  ],
  "Swarm Host": [
+  "icons/blizzard/btn-unit-zerg-swarmhost-carrion.png",
+  "icons/blizzard/btn-unit-zerg-swarmhost-creeper.png",
   "icons/blizzard/btn-unit-zerg-swarmhost.png"
  ],
  "Swarm Queen": [
@@ -1301,6 +1310,8 @@
  ],
  "Ultralisk": [
   "icons/blizzard/btn-building-zerg-ultraliskcavern.png",
+  "icons/blizzard/btn-unit-zerg-ultralisk-noxious.png",
+  "icons/blizzard/btn-unit-zerg-ultralisk-torrasque.png",
   "icons/blizzard/btn-unit-zerg-ultralisk.png"
  ],
  "Unshackled Psionic Storm (High Templar/Signifier)": [
@@ -1377,6 +1388,8 @@
   "icons/blizzard/btn-unit-protoss-zealot-aiur.png"
  ],
  "Zergling": [
+  "icons/blizzard/btn-unit-zerg-zergling-raptor.png",
+  "icons/blizzard/btn-unit-zerg-zergling-swarmling.png",
   "icons/blizzard/btn-unit-zerg-zergling.png"
  ],
  "Zergling Reconstitution (Kerrigan Tier 3)": [

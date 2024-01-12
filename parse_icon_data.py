@@ -386,11 +386,9 @@ def resolve_item_icon(
             abilities = unit_to_ability.get(unlock.name)
             if not abilities:
                 continue
-            index = 0
-            buttons = []
-            while not buttons:
-                buttons = ability_to_button.get(abilities[index], [])
-                index += 1
+            buttons = set()
+            for ability in abilities:
+                buttons.update(ability_to_button.get(ability, []))
             for button in buttons:
                 icon = button_to_icon.get(button)
                 if icon:
