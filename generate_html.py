@@ -62,7 +62,7 @@ def write_end(fp: io.FileIO) -> None:
     </html>
     """))
 
-if __name__ == '__main__':
+def main() -> None:
     with open('data/item_data.json', 'r') as fp:
         item_data = json.load(fp)
     with open('data/icon_manifest.json', 'r') as fp:
@@ -73,3 +73,6 @@ if __name__ == '__main__':
         for item in item_data:
             write_item(fp, item, item_data[item], icon_manifest.get(item, []))
         write_end(fp)
+
+if __name__ == '__main__':
+    main()

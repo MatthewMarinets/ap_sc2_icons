@@ -10,7 +10,8 @@ import subprocess
 ORIGINAL_DIR = 'icons/original'
 BLIZZARD_DIR = 'icons/blizzard'
 
-if __name__ == '__main__':
+
+def main() -> None:
     verbose = False
     with open('workspace.json', 'r') as fp:
         config: dict[str, str] = json.load(fp)
@@ -67,3 +68,7 @@ if __name__ == '__main__':
     with open('data/icon_manifest.json', 'w') as fp:
         json.dump(info, fp, indent=1)
     print(f'Converted: {successes} | Skipped (duplicate): {skipped} | Failed: {failures} | No path: {no_information} | Items: {len(items)}')
+
+
+if __name__ == '__main__':
+    main()

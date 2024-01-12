@@ -4,9 +4,9 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Parse mod files",
+            "label": "Scan and generate all",
             "type": "shell",
-            "command": "python parse_icon_data.py",
+            "command": "python run_all.py",
             "group": {
                 "kind": "build",
                 "isDefault": true
