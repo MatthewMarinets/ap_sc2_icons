@@ -335,8 +335,8 @@ def parse_abil_data(abil_data_path: str) -> tuple[dict[str, list[str]], dict[str
                 current_ability_index = int(match.group(2)) - 1
         elif match := re.match(button_pattern, line):
             requirement_to_button.setdefault(match.group(2), []).append(match.group(1))
-        # elif match := re.match(default_button_pattern, line):
-        #     requirement_to_button.setdefault(match.group(2), []).append(match.group(1))
+        elif match := re.match(default_button_pattern, line):
+            requirement_to_button.setdefault(match.group(2), []).append(match.group(1))
         elif '</InfoArray>' in line and current_ability_type == 'train':
             current_ability_index = -1
         elif match := re.match(unit_pattern, line):

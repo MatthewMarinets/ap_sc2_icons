@@ -146,9 +146,12 @@
   "icons/blizzard/btn-ability-terran-repair.png"
  ],
  "Automated Extractors (Kerrigan Tier 3)": [
-  "icons/blizzard/btn-ability-kerrigan-automatedextractors.png"
+  "icons/blizzard/btn-ability-kerrigan-automatedextractors.png",
+  "icons/blizzard/btn-building-zerg-extractor.png"
  ],
  "Automated Refinery": [
+  "icons/original/btn-building-terran-refineryautomated.png",
+  "icons/blizzard/btn-building-terran-refinery.png",
   "icons/blizzard/btn-building-terran-supplydepot.png"
  ],
  "Avenger": [
@@ -170,6 +173,7 @@
   "icons/blizzard/btn-unit-biomechanicaldrone.png"
  ],
  "Bio-Mechanical Transfusion (Swarm Queen)": [
+  "icons/blizzard/btn-ability-zerg-transfusion-color.png",
   "icons/blizzard/btn-upgrade-zerg-abathur-biomechanicaltransfusion.png"
  ],
  "Black Market Launchers (Widow Mine)": [
@@ -200,6 +204,7 @@
   "icons/blizzard/btn-upgrade-protoss-alarak-rangeincrease.png"
  ],
  "Brood Lord Aspect (Mutalisk/Corruptor)": [
+  "icons/blizzard/btn-building-zerg-greaterspire.png",
   "icons/blizzard/btn-unit-zerg-broodlord.png",
   "icons/blizzard/btn-unit-zerg-mutalisk-broodlord.png"
  ],
@@ -228,7 +233,8 @@
  ],
  "Carrion Strain (Swarm Host)": [
   "icons/blizzard/btn-unit-zerg-locust.png",
-  "icons/blizzard/btn-unit-zerg-swarmhost-carrion.png"
+  "icons/blizzard/btn-unit-zerg-swarmhost-carrion.png",
+  "icons/blizzard/btn-unit-zerg-swarmhost.png"
  ],
  "Caustic Spray (Corruptor)": [
   "icons/blizzard/btn-ability-zerg-causticspray.png"
@@ -321,7 +327,8 @@
  "Creeper Strain (Swarm Host)": [
   "icons/blizzard/btn-ability-zerg-creepspread.png",
   "icons/blizzard/btn-ability-zerg-deeptunnel.png",
-  "icons/blizzard/btn-unit-zerg-swarmhost-creeper.png"
+  "icons/blizzard/btn-unit-zerg-swarmhost-creeper.png",
+  "icons/blizzard/btn-unit-zerg-swarmhost.png"
  ],
  "Crius Suit (Ghost)": [
   "icons/blizzard/btn-techupgrade-terran-criussuit.png"
@@ -368,6 +375,10 @@
  "Devil Dogs": [
   "icons/original/btn-unit-terran-firebatmercenary.png"
  ],
+ "Devourer Aspect (Mutalisk/Corruptor)": [
+  "icons/blizzard/btn-building-zerg-greaterspire.png",
+  "icons/blizzard/btn-unit-zerg-devourerex3.png"
+ ],
  "Diamondback": [
   "icons/blizzard/btn-unit-terran-cobra.png"
  ],
@@ -382,6 +393,9 @@
  ],
  "Distortion Blasters (Banshee)": [
   "icons/blizzard/btn-techupgrade-terran-cloakdistortionfield.png"
+ ],
+ "Domination (Nova Ability)": [
+  "icons/blizzard/btn-ability-nova-domination.png"
  ],
  "Dragoon": [
   "icons/blizzard/btn-unit-protoss-dragoon-void.png"
@@ -462,6 +476,8 @@
   "icons/blizzard/btn-upgrade-protoss-groundarmorlevel0.png"
  ],
  "Fortified Bunker (Bunker)": [
+  "icons/original/btn-building-terran-bunkerneosteel.png",
+  "icons/blizzard/btn-building-terran-bunker.png",
   "icons/blizzard/btn-techupgrade-terran-neosteelframe.png"
  ],
  "Frenzy (Hydralisk)": [
@@ -511,6 +527,10 @@
  ],
  "Grooved Spines (Hydralisk)": [
   "icons/blizzard/btn-upgrade-zerg-hotsgroovedspines.png"
+ ],
+ "Guardian Aspect (Mutalisk/Corruptor)": [
+  "icons/blizzard/btn-building-zerg-greaterspire.png",
+  "icons/blizzard/btn-unit-zerg-primalguardian.png"
  ],
  "Guardian Shell": [
   "icons/blizzard/btn-ability-spearofadun-guardianshell.png"
@@ -572,6 +592,7 @@
   "icons/blizzard/btn-upgrade-terran-hisecautotracking.png"
  ],
  "High Archon (Archon)": [
+  "icons/blizzard/btn-ability-protoss-psistorm.png",
   "icons/blizzard/btn-upgrade-artanis-healingpsionicstorm.png"
  ],
  "High Explosive Munition (Spider Mine)": [
@@ -621,7 +642,8 @@
  ],
  "Impaler Aspect (Hydralisk)": [
   "icons/blizzard/btn-building-zerg-lurkerden.png",
-  "icons/blizzard/btn-unit-zerg-hydralisk-impaler.png"
+  "icons/blizzard/btn-unit-zerg-hydralisk-impaler.png",
+  "icons/blizzard/btn-unit-zerg-impaler.png"
  ],
  "Impaler Rounds (Spectre)": [
   "icons/blizzard/btn-techupgrade-terran-impalerrounds.png"
@@ -752,6 +774,9 @@
  "Kinetic Foam (Marauder)": [
   "icons/blizzard/btn-techupgrade-terran-kineticfoam.png"
  ],
+ "Large Scale Field Construction (Thor)": [
+  "icons/blizzard/btn-unit-terran-thor.png"
+ ],
  "Laser Targeting System (Banshee)": [
   "icons/blizzard/btn-upgrade-terran-lazertargetingsystem.png"
  ],
@@ -792,7 +817,9 @@
   "icons/blizzard/btn-upgrade-zerg-glialreconstitution.png"
  ],
  "Lurker Aspect (Hydralisk)": [
-  "icons/blizzard/btn-unit-zerg-hydralisk-lurker.png"
+  "icons/blizzard/btn-building-zerg-lurkerden.png",
+  "icons/blizzard/btn-unit-zerg-hydralisk-lurker.png",
+  "icons/blizzard/btn-unit-zerg-lurker.png"
  ],
  "Maelstrom (Dark Archon)": [
   "icons/blizzard/btn-ability-protoss-voidstasis.png"
@@ -891,7 +918,8 @@
  ],
  "Nexus Overcharge": [
   "icons/blizzard/btn-ability-spearofadun-nexusovercharge.png",
-  "icons/blizzard/btn-command-attack.png"
+  "icons/blizzard/btn-upgrade-karax-turretattackspeed.png",
+  "icons/blizzard/btn-upgrade-karax-turretrange.png"
  ],
  "Nothing": [
   "icons/blizzard/btn-command-cancel.png"
@@ -935,7 +963,8 @@
   "icons/blizzard/btn-unit-protoss-oracle.png"
  ],
  "Orbital Assimilators": [
-  "icons/blizzard/btn-ability-spearofadun-orbitalassimilator.png"
+  "icons/blizzard/btn-ability-spearofadun-orbitalassimilator.png",
+  "icons/blizzard/btn-building-protoss-assimilator.png"
  ],
  "Orbital Depots": [
   "icons/blizzard/btn-building-terran-supplydepot.png"
@@ -1039,6 +1068,12 @@
  "Progressive Missile Pods (Battlecruiser)": [
   "icons/blizzard/btn-ability-terran-hurricane.png"
  ],
+ "Progressive Orbital Command": [
+  "icons/blizzard/btn-ability-terran-scannersweep-color.png",
+  "icons/blizzard/btn-building-terran-commandcenter.png",
+  "icons/blizzard/btn-building-terran-surveillancestation.png",
+  "icons/blizzard/btn-unit-terran-mule.png"
+ ],
  "Progressive Protoss Air Armor": [
   "icons/blizzard/btn-upgrade-protoss-airarmorlevel1.png",
   "icons/blizzard/btn-upgrade-protoss-airarmorlevel2.png",
@@ -1070,6 +1105,9 @@
  "Progressive Regenerative Bio-Steel": [
   "icons/blizzard/btn-research-zerg-regenerativebio-steel.png"
  ],
+ "Progressive Replenishable Magazine (Vulture)": [
+  "icons/blizzard/btn-techupgrade-terran-replenishablemagazine.png"
+ ],
  "Progressive Stealth Suit Module (Nova Suit Module)": [
   "icons/blizzard/btn-ability-terran-cloak-color.png",
   "icons/blizzard/btn-upgrade-nova-tacticalstealthsuit.png"
@@ -1079,6 +1117,7 @@
   "icons/blizzard/btn-upgrade-terran-superstimppack.png"
  ],
  "Progressive Stimpack (Hellion)": [
+  "icons/blizzard/btn-ability-terran-stimpack-color.png",
   "icons/blizzard/btn-upgrade-terran-superstimppack.png"
  ],
  "Progressive Stimpack (Marauder)": [
@@ -1545,7 +1584,8 @@
   "icons/blizzard/btn-upgrade-siegetank-spidermines.png"
  ],
  "Spider Mines (Reaper)": [
-  "icons/original/btn-ability-terran-spidermine.png"
+  "icons/original/btn-ability-terran-spidermine.png",
+  "icons/blizzard/btn-techupgrade-terran-replenishablemagazine.png"
  ],
  "Spider Mines (Siege Tank)": [
   "icons/blizzard/btn-upgrade-siegetank-spidermines.png"
@@ -1608,9 +1648,11 @@
   "icons/original/btn-upgrade-custom-triple-scourge.png"
  ],
  "Swarmling Strain (Zergling)": [
+  "icons/blizzard/btn-unit-zerg-zergling-swarmling.png",
   "icons/blizzard/btn-upgrade-zerg-rapidgenesis.png"
  ],
  "Tac Nuke Strike (Nova Ability)": [
+  "icons/blizzard/btn-ability-terran-armnuke.png",
   "icons/blizzard/btn-ability-terran-nuclearstrike-color.png"
  ],
  "Tactical Jump (Battlecruiser)": [
@@ -1633,6 +1675,7 @@
   "icons/blizzard/btn-unit-protoss-tempest-purifier.png"
  ],
  "Temporal Acceleration Beam (Oracle)": [
+  "icons/blizzard/btn-ability-protoss-oraclepulsarcannonoff.png",
   "icons/blizzard/btn-ability-protoss-oraclepulsarcannonon.png"
  ],
  "Temporal Field (Spear of Adun Calldown)": [
@@ -1682,6 +1725,15 @@
   "icons/blizzard/btn-techupgrade-terran-u238rounds.png"
  ],
  "Ultra-Capacitors": [
+  "icons/blizzard/btn-upgrade-terran-infantryweaponslevel1.png",
+  "icons/blizzard/btn-upgrade-terran-infantryweaponslevel2.png",
+  "icons/blizzard/btn-upgrade-terran-infantryweaponslevel3.png",
+  "icons/blizzard/btn-upgrade-terran-shipweaponslevel1.png",
+  "icons/blizzard/btn-upgrade-terran-shipweaponslevel2.png",
+  "icons/blizzard/btn-upgrade-terran-shipweaponslevel3.png",
+  "icons/blizzard/btn-upgrade-terran-vehicleweaponslevel1.png",
+  "icons/blizzard/btn-upgrade-terran-vehicleweaponslevel2.png",
+  "icons/blizzard/btn-upgrade-terran-vehicleweaponslevel3.png",
   "icons/blizzard/btn-research-terran-ultracapacitors.png"
  ],
  "Ultralisk": [
@@ -1696,6 +1748,15 @@
   "icons/original/btn-unit-terran-valkyrie@scbw.png"
  ],
  "Vanadium Plating": [
+  "icons/blizzard/btn-upgrade-terran-infantryarmorlevel1.png",
+  "icons/blizzard/btn-upgrade-terran-infantryarmorlevel2.png",
+  "icons/blizzard/btn-upgrade-terran-infantryarmorlevel3.png",
+  "icons/blizzard/btn-upgrade-terran-shipplatinglevel1.png",
+  "icons/blizzard/btn-upgrade-terran-shipplatinglevel2.png",
+  "icons/blizzard/btn-upgrade-terran-shipplatinglevel3.png",
+  "icons/blizzard/btn-upgrade-terran-vehicleplatinglevel1.png",
+  "icons/blizzard/btn-upgrade-terran-vehicleplatinglevel2.png",
+  "icons/blizzard/btn-upgrade-terran-vehicleplatinglevel3.png",
   "icons/blizzard/btn-research-terran-vanadiumplating.png"
  ],
  "Vanguard": [
@@ -1751,7 +1812,9 @@
  ],
  "Warp Harmonization": [
   "icons/blizzard/btn-ability-spearofadun-warpharmonization.png",
+  "icons/blizzard/btn-building-protoss-roboticsfacility.png",
   "icons/blizzard/btn-building-protoss-roboticswarpfacility.png",
+  "icons/blizzard/btn-building-protoss-stargate.png",
   "icons/blizzard/btn-building-protoss-starwarpgate.png",
   "icons/blizzard/btn-building-protoss-warpgate.png"
  ],

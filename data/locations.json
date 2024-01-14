@@ -2,7 +2,7 @@
   "meta": {
     "timestamp": "2024-01-14",
     "items": 589,
-    "located": 551
+    "located": 553
   },
   "locations": {
     "Marine": [
@@ -148,6 +148,8 @@
     "Progressive Fire-Suppression System": [],
     "Progressive Orbital Command": [
       "assets\\textures\\btn-ability-terran-scannersweep-color.dds",
+      "assets\\textures\\btn-building-terran-commandcenter.dds",
+      "assets\\textures\\btn-building-terran-surveillancestation.dds",
       "assets\\textures\\btn-unit-terran-mule.dds"
     ],
     "Progressive Stimpack (Marine)": [
@@ -293,7 +295,8 @@
       "assets\\textures\\btn-ability-terran-cloak-color.dds"
     ],
     "Spider Mines (Reaper)": [
-      "ap\\assets\\textures\\btn-ability-terran-spidermine.dds"
+      "ap\\assets\\textures\\btn-ability-terran-spidermine.dds",
+      "assets\\textures\\btn-techupgrade-terran-replenishablemagazine.dds"
     ],
     "Combat Drugs (Reaper)": [
       "assets\\textures\\btn-upgrade-terran-reapercombatdrugs.dds"
@@ -389,7 +392,9 @@
     "Cerberus Mine (Spider Mine)": [
       "assets\\textures\\btn-techupgrade-terran-cerberusmine.dds"
     ],
-    "Progressive Replenishable Magazine (Vulture)": [],
+    "Progressive Replenishable Magazine (Vulture)": [
+      "assets\\textures\\btn-techupgrade-terran-replenishablemagazine.dds"
+    ],
     "Multi-Lock Weapons System (Goliath)": [
       "assets\\textures\\btn-techupgrade-terran-multilocktargetingsystem.dds"
     ],
@@ -516,7 +521,9 @@
     "Laser Targeting System (Thor)": [
       "assets\\textures\\btn-upgrade-terran-lazertargetingsystem.dds"
     ],
-    "Large Scale Field Construction (Thor)": [],
+    "Large Scale Field Construction (Thor)": [
+      "assets\\textures\\btn-unit-terran-thor.dds"
+    ],
     "Resource Efficiency (Raven)": [
       "btn-ability-hornerhan-salvagebonus.dds",
       "btn-tips-resourcecaches.dds"
@@ -724,9 +731,27 @@
       "assets\\textures\\btn-unit-terran-thormengsk.dds"
     ],
     "Ultra-Capacitors": [
+      "assets\\textures\\btn-upgrade-terran-infantryweaponslevel1.dds",
+      "assets\\textures\\btn-upgrade-terran-infantryweaponslevel2.dds",
+      "assets\\textures\\btn-upgrade-terran-infantryweaponslevel3.dds",
+      "assets\\textures\\btn-upgrade-terran-shipweaponslevel1.dds",
+      "assets\\textures\\btn-upgrade-terran-shipweaponslevel2.dds",
+      "assets\\textures\\btn-upgrade-terran-shipweaponslevel3.dds",
+      "assets\\textures\\btn-upgrade-terran-vehicleweaponslevel1.dds",
+      "assets\\textures\\btn-upgrade-terran-vehicleweaponslevel2.dds",
+      "assets\\textures\\btn-upgrade-terran-vehicleweaponslevel3.dds",
       "btn-research-terran-ultracapacitors.dds"
     ],
     "Vanadium Plating": [
+      "assets\\textures\\btn-upgrade-terran-infantryarmorlevel1.dds",
+      "assets\\textures\\btn-upgrade-terran-infantryarmorlevel2.dds",
+      "assets\\textures\\btn-upgrade-terran-infantryarmorlevel3.dds",
+      "assets\\textures\\btn-upgrade-terran-shipplatinglevel1.dds",
+      "assets\\textures\\btn-upgrade-terran-shipplatinglevel2.dds",
+      "assets\\textures\\btn-upgrade-terran-shipplatinglevel3.dds",
+      "assets\\textures\\btn-upgrade-terran-vehicleplatinglevel1.dds",
+      "assets\\textures\\btn-upgrade-terran-vehicleplatinglevel2.dds",
+      "assets\\textures\\btn-upgrade-terran-vehicleplatinglevel3.dds",
       "btn-research-terran-vanadiumplating.dds"
     ],
     "Orbital Depots": [
@@ -736,6 +761,8 @@
       "assets\\textures\\btn-ability-terran-microfiltering.dds"
     ],
     "Automated Refinery": [
+      "ap\\assets\\textures\\btn-building-terran-refineryautomated.dds",
+      "assets\\textures\\btn-building-terran-refinery.dds",
       "assets\\textures\\btn-building-terran-supplydepot.dds"
     ],
     "Command Center Reactor": [
@@ -757,6 +784,8 @@
       "assets\\textures\\btn-techupgrade-terran-shriketurret.dds"
     ],
     "Fortified Bunker (Bunker)": [
+      "ap\\assets\\textures\\btn-building-terran-bunkerneosteel.dds",
+      "assets\\textures\\btn-building-terran-bunker.dds",
       "assets\\textures\\btn-techupgrade-terran-neosteelframe.dds"
     ],
     "Planetary Fortress": [
@@ -894,6 +923,7 @@
       "assets\\textures\\btn-upgrade-nova-holographicdecoy.dds"
     ],
     "Tac Nuke Strike (Nova Ability)": [
+      "assets\\textures\\btn-ability-terran-armnuke.dds",
       "assets\\textures\\btn-ability-terran-nuclearstrike-color.dds"
     ],
     "Zergling": [
@@ -1252,11 +1282,13 @@
     ],
     "Impaler Aspect (Hydralisk)": [
       "assets\\textures\\btn-building-zerg-lurkerden.dds",
-      "assets\\textures\\btn-unit-zerg-hydralisk-impaler.dds"
+      "assets\\textures\\btn-unit-zerg-hydralisk-impaler.dds",
+      "assets\\textures\\btn-unit-zerg-impaler.dds"
     ],
     "Lurker Aspect (Hydralisk)": [
       "assets\\textures\\btn-building-zerg-lurkerden.dds",
-      "assets\\textures\\btn-unit-zerg-hydralisk-lurker.dds"
+      "assets\\textures\\btn-unit-zerg-hydralisk-lurker.dds",
+      "assets\\textures\\btn-unit-zerg-lurker.dds"
     ],
     "Splitter Strain (Baneling)": [
       "assets\\textures\\btn-unit-zerg-splitterling.dds"
@@ -1320,7 +1352,8 @@
       "assets\\textures\\btn-ability-kerrigan-improvedoverlords.dds"
     ],
     "Automated Extractors (Kerrigan Tier 3)": [
-      "assets\\textures\\btn-ability-kerrigan-automatedextractors.dds"
+      "assets\\textures\\btn-ability-kerrigan-automatedextractors.dds",
+      "assets\\textures\\btn-building-zerg-extractor.dds"
     ],
     "Wild Mutation (Kerrigan Tier 4)": [
       "assets\\textures\\btn-ability-kerrigan-wildmutation.dds"
@@ -1386,10 +1419,12 @@
       "assets\\textures\\btn-upgrade-zerg-ventralsacs.dds"
     ],
     "Guardian Aspect (Mutalisk/Corruptor)": [
-      "assets\\textures\\btn-building-zerg-greaterspire.dds"
+      "assets\\textures\\btn-building-zerg-greaterspire.dds",
+      "assets\\textures\\btn-unit-zerg-primalguardian.dds"
     ],
     "Devourer Aspect (Mutalisk/Corruptor)": [
-      "assets\\textures\\btn-building-zerg-greaterspire.dds"
+      "assets\\textures\\btn-building-zerg-greaterspire.dds",
+      "assets\\textures\\btn-unit-zerg-devourerex3.dds"
     ],
     "Ravager Aspect (Roach)": [
       "assets\\textures\\btn-unit-zerg-ravager.dds"
@@ -1823,11 +1858,14 @@
       "assets\\textures\\btn-upgrade-karax-turretrange.dds"
     ],
     "Orbital Assimilators": [
-      "assets\\textures\\btn-ability-spearofadun-orbitalassimilator.dds"
+      "assets\\textures\\btn-ability-spearofadun-orbitalassimilator.dds",
+      "assets\\textures\\btn-building-protoss-assimilator.dds"
     ],
     "Warp Harmonization": [
       "assets\\textures\\btn-ability-spearofadun-warpharmonization.dds",
+      "assets\\textures\\btn-building-protoss-roboticsfacility.dds",
       "assets\\textures\\btn-building-protoss-roboticswarpfacility.dds",
+      "assets\\textures\\btn-building-protoss-stargate.dds",
       "assets\\textures\\btn-building-protoss-starwarpgate.dds",
       "assets\\textures\\btn-building-protoss-warpgate.dds"
     ],
