@@ -67,7 +67,8 @@
   "icons/blizzard/btn-upgrade-swann-improvedburstlaser.png"
  ],
  "Advanced Medic Facilities (Medic)": [
-  "icons/blizzard/btn-techupgrade-terran-nano-botinjectors.png"
+  "icons/blizzard/btn-techupgrade-terran-nano-botinjectors.png",
+  "icons/blizzard/btn-upgrade-terran-internalizedtechmodule.png"
  ],
  "Advanced Optics": [
   "icons/blizzard/btn-upgrade-swann-vehiclerangeincrease.png"
@@ -1060,6 +1061,11 @@
  "Primal Adaptation (Guardian)": [
   "icons/blizzard/biomassrecovery_coop.png"
  ],
+ "Primal Form (Kerrigan)": [
+  "icons/blizzard/btn-unit-zerg-kerriganascended.png",
+  "icons/blizzard/btn-unit-zerg-kerriganghost.png",
+  "icons/blizzard/btn-unit-zerg-kerriganinfested.png"
+ ],
  "Progressive Augmented Thrusters (Planetary Fortress)": [
   "icons/blizzard/btn-ability-mengsk-siegetank-flyingtankarmament.png",
   "icons/blizzard/btn-ability-terran-liftoff.png"
@@ -1333,93 +1339,71 @@
   "icons/blizzard/btn-upgrade-protoss-resonatingglaives.png"
  ],
  "Resource Efficiency (Arbiter)": [
-  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
-  "icons/blizzard/btn-tips-resourcecaches.png"
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
  "Resource Efficiency (Brood Lord)": [
-  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
-  "icons/blizzard/btn-tips-resourcecaches.png"
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
  "Resource Efficiency (Cyclone)": [
-  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
-  "icons/blizzard/btn-tips-resourcecaches.png"
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
  "Resource Efficiency (Dark Templar/Avenger/Blood Hunter)": [
-  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
-  "icons/blizzard/btn-tips-resourcecaches.png"
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
  "Resource Efficiency (Diamondback)": [
-  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
-  "icons/blizzard/btn-tips-resourcecaches.png"
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
  "Resource Efficiency (Firebat)": [
-  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
-  "icons/blizzard/btn-tips-resourcecaches.png"
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
  "Resource Efficiency (Ghost)": [
-  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
-  "icons/blizzard/btn-tips-resourcecaches.png"
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
  "Resource Efficiency (Goliath)": [
-  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
-  "icons/blizzard/btn-tips-resourcecaches.png"
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
  "Resource Efficiency (Hydralisk)": [
-  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
-  "icons/blizzard/btn-tips-resourcecaches.png"
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
  "Resource Efficiency (Liberator)": [
-  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
-  "icons/blizzard/btn-tips-resourcecaches.png"
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
  "Resource Efficiency (Medic)": [
-  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
-  "icons/blizzard/btn-tips-resourcecaches.png"
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
  "Resource Efficiency (Predator)": [
-  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
-  "icons/blizzard/btn-tips-resourcecaches.png"
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
  "Resource Efficiency (Raven)": [
-  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
-  "icons/blizzard/btn-tips-resourcecaches.png"
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
  "Resource Efficiency (Reaver)": [
-  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
-  "icons/blizzard/btn-tips-resourcecaches.png"
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
  "Resource Efficiency (Scourge)": [
   "icons/blizzard/btn-upgrade-zagara-scourgegasreduction.png",
-  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
-  "icons/blizzard/btn-tips-resourcecaches.png"
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
  "Resource Efficiency (Siege Tank)": [
-  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
-  "icons/blizzard/btn-tips-resourcecaches.png"
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
  "Resource Efficiency (Spectre)": [
-  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
-  "icons/blizzard/btn-tips-resourcecaches.png"
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
  "Resource Efficiency (Swarm Host)": [
-  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
-  "icons/blizzard/btn-tips-resourcecaches.png"
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
  "Resource Efficiency (Swarm Queen)": [
-  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
-  "icons/blizzard/btn-tips-resourcecaches.png"
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
  "Resource Efficiency (Ultralisk)": [
-  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
-  "icons/blizzard/btn-tips-resourcecaches.png"
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
  "Resource Efficiency (Valkyrie)": [
-  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
-  "icons/blizzard/btn-tips-resourcecaches.png"
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
  "Resource Efficiency (Wraith)": [
-  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
-  "icons/blizzard/btn-tips-resourcecaches.png"
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
  "Restoration (Medic)": [
   "icons/original/btn-ability-terran-restoration@scbw.png"

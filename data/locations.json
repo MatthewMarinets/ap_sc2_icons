@@ -2,7 +2,7 @@
   "meta": {
     "timestamp": "2024-01-14",
     "items": 589,
-    "located": 560
+    "located": 561
   },
   "locations": {
     "Marine": [
@@ -162,7 +162,8 @@
       "assets\\textures\\btn-techupgrade-terran-combatshield-color.dds"
     ],
     "Advanced Medic Facilities (Medic)": [
-      "btn-techupgrade-terran-nano-botinjectors.dds"
+      "btn-techupgrade-terran-nano-botinjectors.dds",
+      "btn-upgrade-terran-internalizedtechmodule.dds"
     ],
     "Stabilizer Medpacks (Medic)": [
       "assets\\textures\\btn-upgrade-raynor-stabilizermedpacks.dds"
@@ -207,16 +208,14 @@
       "assets\\textures\\btn-upgrade-protoss-fenix-dragoonsolariteflare.dds"
     ],
     "Resource Efficiency (Medic)": [
-      "btn-ability-hornerhan-salvagebonus.dds",
-      "btn-tips-resourcecaches.dds"
+      "btn-ability-hornerhan-salvagebonus.dds"
     ],
     "Progressive Stimpack (Firebat)": [
       "assets\\textures\\btn-ability-terran-stimpack-color.dds",
       "assets\\textures\\btn-upgrade-terran-superstimppack.dds"
     ],
     "Resource Efficiency (Firebat)": [
-      "btn-ability-hornerhan-salvagebonus.dds",
-      "btn-tips-resourcecaches.dds"
+      "btn-ability-hornerhan-salvagebonus.dds"
     ],
     "Progressive Stimpack (Marauder)": [
       "assets\\textures\\btn-ability-terran-stimpack-color.dds",
@@ -266,8 +265,7 @@
       "assets\\textures\\btn-techupgrade-terran-shapedhull.dds"
     ],
     "Resource Efficiency (Goliath)": [
-      "btn-ability-hornerhan-salvagebonus.dds",
-      "btn-tips-resourcecaches.dds"
+      "btn-ability-hornerhan-salvagebonus.dds"
     ],
     "Internal Tech Module (Goliath)": [
       "btn-upgrade-terran-internalizedtechmodule.dds"
@@ -276,8 +274,7 @@
       "assets\\textures\\btn-techupgrade-terran-shapedhull.dds"
     ],
     "Resource Efficiency (Siege Tank)": [
-      "btn-ability-hornerhan-salvagebonus.dds",
-      "btn-tips-resourcecaches.dds"
+      "btn-ability-hornerhan-salvagebonus.dds"
     ],
     "Cloak (Predator)": [
       "assets\\textures\\btn-ability-terran-cloak-color.dds"
@@ -344,8 +341,7 @@
       "assets\\textures\\btn-techupgrade-terran-burstcapacitors.dds"
     ],
     "Resource Efficiency (Diamondback)": [
-      "btn-ability-hornerhan-salvagebonus.dds",
-      "btn-tips-resourcecaches.dds"
+      "btn-ability-hornerhan-salvagebonus.dds"
     ],
     "Jump Jets (Siege Tank)": [
       "assets\\textures\\btn-upgrade-terran-jumpjets.dds"
@@ -369,8 +365,7 @@
       "btn-upgrade-terran-internalizedtechmodule.dds"
     ],
     "Resource Efficiency (Predator)": [
-      "btn-ability-hornerhan-salvagebonus.dds",
-      "btn-tips-resourcecaches.dds"
+      "btn-ability-hornerhan-salvagebonus.dds"
     ],
     "Expanded Hull (Medivac)": [
       "assets\\textures\\btn-upgrade-mengsk-engineeringbay-neosteelfortifiedarmor.dds"
@@ -493,8 +488,7 @@
       "btn-upgrade-terran-internalizedtechmodule.dds"
     ],
     "Resource Efficiency (Wraith)": [
-      "btn-ability-hornerhan-salvagebonus.dds",
-      "btn-tips-resourcecaches.dds"
+      "btn-ability-hornerhan-salvagebonus.dds"
     ],
     "Shredder Rounds (Viking)": [
       "assets\\textures\\btn-ability-hornerhan-viking-piercingattacks.dds"
@@ -515,12 +509,10 @@
       "assets\\textures\\btn-upgrade-terran-nova-bansheemissilestrik.dds"
     ],
     "Resource Efficiency (Ghost)": [
-      "btn-ability-hornerhan-salvagebonus.dds",
-      "btn-tips-resourcecaches.dds"
+      "btn-ability-hornerhan-salvagebonus.dds"
     ],
     "Resource Efficiency (Spectre)": [
-      "btn-ability-hornerhan-salvagebonus.dds",
-      "btn-tips-resourcecaches.dds"
+      "btn-ability-hornerhan-salvagebonus.dds"
     ],
     "Button With a Skull on It (Thor)": [
       "assets\\textures\\btn-ability-terran-nuclearstrike-color.dds",
@@ -534,8 +526,7 @@
       "talent-swann-level06-unlockthor.dds"
     ],
     "Resource Efficiency (Raven)": [
-      "btn-ability-hornerhan-salvagebonus.dds",
-      "btn-tips-resourcecaches.dds"
+      "btn-ability-hornerhan-salvagebonus.dds"
     ],
     "Durable Materials (Raven)": [
       "assets\\textures\\btn-upgrade-terran-durablematerials.dds"
@@ -548,8 +539,7 @@
       "assets\\textures\\btn-ability-terran-heal-color.dds"
     ],
     "Resource Efficiency (Cyclone)": [
-      "btn-ability-hornerhan-salvagebonus.dds",
-      "btn-tips-resourcecaches.dds"
+      "btn-ability-hornerhan-salvagebonus.dds"
     ],
     "Hyperflight Rotors (Banshee)": [
       "assets\\textures\\btn-upgrade-terran-hyperflightrotors.dds"
@@ -656,8 +646,7 @@
       "assets\\textures\\btn-upgrade-terran-transformationservos.dds"
     ],
     "Resource Efficiency (Liberator)": [
-      "btn-ability-hornerhan-salvagebonus.dds",
-      "btn-tips-resourcecaches.dds"
+      "btn-ability-hornerhan-salvagebonus.dds"
     ],
     "Internal Fusion Module (Hercules)": [
       "btn-upgrade-terran-internalizedtechmodule.dds"
@@ -676,8 +665,7 @@
       "assets\\textures\\btn-ability-terran-emergencythrusters.dds"
     ],
     "Resource Efficiency (Valkyrie)": [
-      "btn-ability-hornerhan-salvagebonus.dds",
-      "btn-tips-resourcecaches.dds"
+      "btn-ability-hornerhan-salvagebonus.dds"
     ],
     "Predator's Fury (Predator)": [
       "assets\\textures\\btn-ability-protoss-shadowfury.dds"
@@ -1111,8 +1099,7 @@
     ],
     "Resource Efficiency (Scourge)": [
       "assets\\textures\\btn-upgrade-zagara-scourgegasreduction.dds",
-      "btn-ability-hornerhan-salvagebonus.dds",
-      "btn-tips-resourcecaches.dds"
+      "btn-ability-hornerhan-salvagebonus.dds"
     ],
     "Swarm Scourge (Scourge)": [
       "ap\\assets\\textures\\btn-upgrade-custom-triple-scourge.dds"
@@ -1130,8 +1117,7 @@
       "assets\\textures\\btn-upgrade-zerg-muscularaugments.dds"
     ],
     "Resource Efficiency (Hydralisk)": [
-      "btn-ability-hornerhan-salvagebonus.dds",
-      "btn-tips-resourcecaches.dds"
+      "btn-ability-hornerhan-salvagebonus.dds"
     ],
     "Centrifugal Hooks (Baneling)": [
       "assets\\textures\\btn-upgrade-zerg-centrifugalhooks.dds"
@@ -1158,8 +1144,7 @@
       "assets\\textures\\btn-upgrade-zerg-organiccarapace.dds"
     ],
     "Resource Efficiency (Swarm Host)": [
-      "btn-ability-hornerhan-salvagebonus.dds",
-      "btn-tips-resourcecaches.dds"
+      "btn-ability-hornerhan-salvagebonus.dds"
     ],
     "Anabolic Synthesis (Ultralisk)": [
       "assets\\textures\\btn-upgrade-zerg-anabolicsynthesis.dds"
@@ -1171,8 +1156,7 @@
       "assets\\textures\\btn-upgrade-zerg-organiccarapace.dds"
     ],
     "Resource Efficiency (Ultralisk)": [
-      "btn-ability-hornerhan-salvagebonus.dds",
-      "btn-tips-resourcecaches.dds"
+      "btn-ability-hornerhan-salvagebonus.dds"
     ],
     "Corrosive Spray (Devourer)": [
       "assets\\textures\\btn-upgrade-zerg-abathur-devourer-corrosivespray.dds"
@@ -1238,8 +1222,7 @@
       "assets\\textures\\abilityicon_spawnbroodlings_square.dds"
     ],
     "Resource Efficiency (Brood Lord)": [
-      "btn-ability-hornerhan-salvagebonus.dds",
-      "btn-tips-resourcecaches.dds"
+      "btn-ability-hornerhan-salvagebonus.dds"
     ],
     "Infested Terran (Infestor)": [
       "assets\\textures\\btn-unit-zerg-infestedmarine.dds"
@@ -1261,8 +1244,7 @@
       "assets\\textures\\btn-upgrade-zerg-abathur-biomechanicaltransfusion.dds"
     ],
     "Resource Efficiency (Swarm Queen)": [
-      "btn-ability-hornerhan-salvagebonus.dds",
-      "btn-tips-resourcecaches.dds"
+      "btn-ability-hornerhan-salvagebonus.dds"
     ],
     "Incubator Chamber (Swarm Queen)": [
       "assets\\textures\\btn-upgrade-zerg-abathur-incubationchamber.dds"
@@ -1405,7 +1387,11 @@
     "Drop-Pods (Kerrigan Tier 7)": [
       "assets\\textures\\btn-ability-kerrigan-droppods.dds"
     ],
-    "Primal Form (Kerrigan)": [],
+    "Primal Form (Kerrigan)": [
+      "btn-unit-zerg-kerriganascended.dds",
+      "btn-unit-zerg-kerriganghost.dds",
+      "btn-unit-zerg-kerriganinfested.dds"
+    ],
     "10 Kerrigan Levels": [],
     "9 Kerrigan Levels": [],
     "8 Kerrigan Levels": [],
@@ -1671,8 +1657,7 @@
       "assets\\textures\\btn-ability-protoss-stasisfield.dds"
     ],
     "Resource Efficiency (Arbiter)": [
-      "btn-ability-hornerhan-salvagebonus.dds",
-      "btn-tips-resourcecaches.dds"
+      "btn-ability-hornerhan-salvagebonus.dds"
     ],
     "Enhanced Cloak Field (Arbiter)": [
       "ap\\assets\\textures\\btn-upgrade-protoss-apialsensors@scbw.dds"
@@ -1715,8 +1700,7 @@
       "ap\\assets\\textures\\btn-upgrade-protoss-increasedscarabcapacity@scbw.dds"
     ],
     "Resource Efficiency (Reaver)": [
-      "btn-ability-hornerhan-salvagebonus.dds",
-      "btn-tips-resourcecaches.dds"
+      "btn-ability-hornerhan-salvagebonus.dds"
     ],
     "Agony Launchers (Vanguard)": [
       "assets\\textures\\btn-ability-protoss-chargedblast.dds"
@@ -1749,8 +1733,7 @@
       "assets\\textures\\btn-ability-protoss-shadowdash.dds"
     ],
     "Resource Efficiency (Dark Templar/Avenger/Blood Hunter)": [
-      "btn-ability-hornerhan-salvagebonus.dds",
-      "btn-tips-resourcecaches.dds"
+      "btn-ability-hornerhan-salvagebonus.dds"
     ],
     "Dark Archon Meld (Dark Templar)": [
       "assets\\textures\\talent-vorazun-level05-unlockdarkarchon.dds"

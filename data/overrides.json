@@ -17,10 +17,11 @@
         "Defensive Matrix (Science Vessel)": ["Assets\\Textures\\btn-upgrade-swann-defensivematrix.dds"],
         "Button With a Skull on It (Thor)": ["btn-ability-tychus-odin-bigredbutton.dds"],
         "Rapid Metamorph (Baneling)": ["btn-upgrade-terran-optimizedlogistics.dds"],
-        "Advanced Medic Facilities (Medic)": ["btn-techupgrade-terran-nano-botinjectors.dds"],
+        "Advanced Medic Facilities (Medic)": ["btn-techupgrade-terran-nano-botinjectors.dds", "btn-upgrade-terran-internalizedtechmodule.dds"],
         "Khalai Ingenuity": ["btn-upgrade-karax-pylonwarpininstantly.dds"],
         "Progressive Fire-Suppression System": ["btn-upgrade-swann-firesuppressionsystem.dds"],
         "Large Scale Field Construction (Thor)": ["talent-swann-level06-unlockthor.dds"],
+        "Primal Form (Kerrigan)": ["btn-unit-zerg-kerriganghost.dds", "btn-unit-zerg-kerriganinfested.dds", "btn-unit-zerg-kerriganascended.dds"],
         "": [],
         "Nothing": ["btn-command-cancel.dds"]
     },
@@ -33,7 +34,7 @@
         "": []
     },
     "pattern_add": {
-        "Resource Efficiency.*": ["btn-ability-hornerhan-salvagebonus.dds", "btn-tips-resourcecaches.dds"],
+        "Resource Efficiency.*": ["btn-ability-hornerhan-salvagebonus.dds"],
         "Optimized Logistics.*": ["btn-upgrade-terran-optimizedlogistics.dds"],
         "Rapid Metamorph (Baneling)": ["btn-upgrade-terran-optimizedlogistics.dds"],
         "Internal Tech Module.*": ["btn-upgrade-terran-internalizedtechmodule.dds"]
