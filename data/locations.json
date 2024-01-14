@@ -1,8 +1,8 @@
 {
   "meta": {
-    "timestamp": "2024-01-13",
+    "timestamp": "2024-01-14",
     "items": 589,
-    "located": 542
+    "located": 547
   },
   "locations": {
     "Marine": [
@@ -440,14 +440,18 @@
     "Ocular Implants (Ghost)": [
       "assets\\textures\\btn-techupgrade-terran-ocularimplants.dds"
     ],
-    "Crius Suit (Ghost)": [],
+    "Crius Suit (Ghost)": [
+      "assets\\textures\\btn-techupgrade-terran-criussuit.dds"
+    ],
     "Psionic Lash (Spectre)": [
       "ap\\assets\\textures\\btn-ability-terran-ultrasonicpulse.dds",
       "assets\\textures\\btn-techupgrade-terran-psioniclash.dds"
     ],
-    "Nyx-Class Cloaking Module (Spectre)": [],
+    "Nyx-Class Cloaking Module (Spectre)": [
+      "assets\\textures\\btn-techupgrade-terran-nyxcloakingclassmodule.dds"
+    ],
     "330mm Barrage Cannon (Thor)": [
-      "assets\\textures\\btn-techupgrade-terran-330mmbarragecannon.dds"
+      "assets\\textures\\btn-ability-terran-bombardmentstrike-color.dds"
     ],
     "Progressive Immortality Protocol (Thor)": [
       "assets\\textures\\btn-techupgrade-terran-immortalityprotocol.dds"
@@ -557,7 +561,9 @@
     "Lockdown (Ghost)": [
       "ap\\assets\\textures\\btn-abilty-terran-lockdown@scbw.dds"
     ],
-    "Impaler Rounds (Spectre)": [],
+    "Impaler Rounds (Spectre)": [
+      "assets\\textures\\btn-techupgrade-terran-impalerrounds.dds"
+    ],
     "Progressive High Impact Payload (Thor)": [
       "assets\\textures\\btn-unit-terran-thorsiegemode.dds",
       "assets\\textures\\btn-upgrade-terran-transformationservos.dds"
@@ -586,7 +592,9 @@
     "EMP Shockwave (Science Vessel)": [
       "assets\\textures\\btn-ability-mengsk-ghost-staticempblast.dds"
     ],
-    "Defensive Matrix (Science Vessel)": [],
+    "Defensive Matrix (Science Vessel)": [
+      "Assets\\Textures\\btn-upgrade-swann-defensivematrix.dds"
+    ],
     "Targeting Optics (Cyclone)": [
       "assets\\textures\\btn-upgrade-swann-targetingoptics.dds",
       "assets\\textures\\btn-upgrade-terran-durablematerials.dds"
@@ -1287,7 +1295,9 @@
     "Crushing Grip (Kerrigan Tier 2)": [
       "assets\\textures\\btn-ability-swarm-kerrigan-crushinggrip.dds"
     ],
-    "Chain Reaction (Kerrigan Tier 2)": [],
+    "Chain Reaction (Kerrigan Tier 2)": [
+      "assets\\textures\\btn-ability-swarm-kerrigan-chainreaction.dds"
+    ],
     "Psionic Shift (Kerrigan Tier 2)": [
       "assets\\textures\\btn-ability-kerrigan-psychicshift.dds"
     ],
@@ -1738,11 +1748,9 @@
       "assets\\textures\\btn-upgrade-protoss-groundarmorlevel0.dds"
     ],
     "Detect Weakness (Havoc)": [
-      "assets\\textures\\btn-upgrade-protoss-alarak-havoctargetlockbuffed.dds",
-      "assets\\textures\\btn-upgrade-protoss-alarak-rangeincrease.dds"
+      "assets\\textures\\btn-upgrade-protoss-alarak-havoctargetlockbuffed.dds"
     ],
     "Bloodshard Resonance (Havoc)": [
-      "assets\\textures\\btn-upgrade-protoss-alarak-havoctargetlockbuffed.dds",
       "assets\\textures\\btn-upgrade-protoss-alarak-rangeincrease.dds"
     ],
     "Leg Enhancements (Zealot/Sentinel/Centurion)": [

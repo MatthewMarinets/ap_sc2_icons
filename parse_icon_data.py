@@ -221,6 +221,72 @@ def parse_unit_data(unit_data_path: str) -> tuple[dict[str, list[str]], dict[str
             last_face = ''
     return (ability_to_button, requirement_to_button)
 
+def parse_behaviour_data(behaviour_data_path: str) -> dict[str, str]:
+    """validator -> icon"""
+    with open(behaviour_data_path, 'r') as fp:
+        lines = fp.readlines()
+    validator_to_icon: dict[str, str] = {}
+
+    icon_pattern = re.compile(r'^\s*<InfoIcon value="([^"]+)"')
+    behaviour_start_pattern = re.compile(r'^\s*<CBehaviorBuff id="(AP_[^"]+)"')
+    behaviour_end_pattern = re.compile(r'^\s*</CBehaviorBuff>')
+    validator_pattern = re.compile(r'^\s*<DisableValidatorArray value="(AP_[^"]+)"')
+    hidden_pattern = re.compile(r'^\s*<InfoFlags index="Hidden" value="1"/>')
+
+    current_behaviour = ''
+    current_validator = ''
+    current_icon = ''
+    hidden = False
+    for line in lines:
+        if match := re.match(behaviour_start_pattern, line):
+            current_behaviour = match.group(1)
+        elif match := re.match(icon_pattern, line):
+            current_icon = match.group(1)
+        elif match := re.match(validator_pattern, line):
+            current_validator = match.group(1)
+        elif match := re.match(hidden_pattern, line):
+            hidden = True
+        elif match := re.match(behaviour_end_pattern, line):
+            if current_behaviour and current_validator and current_icon and not hidden:
+                validator_to_icon[current_validator] = current_icon.lower()
+            current_behaviour = ''
+            current_validator = ''
+            current_icon = ''
+            hidden = False
+    return validator_to_icon
+
+def parse_validator_data(validator_data_path: str) -> dict[str, str]:
+    """requirement -> validator"""
+    with open(validator_data_path, 'r') as fp:
+        lines = fp.readlines()
+    requirement_to_validator: dict[str, str] = {}
+    validator_start_pattern = re.compile(r'^\s*<CValidatorPlayerRequirement id="(AP_[^"]+)"')
+    validator_end_pattern = re.compile(r'^\s*</CValidatorPlayerRequirement>')
+    requirement_pattern = re.compile(r'^\s*<Value value="(AP_[^"]+)"')
+    is_positive_pattern = re.compile(r'^\s*<Find value="1"/>')
+
+    current_validator = ''
+    current_requirement = ''
+    is_positive = False
+    for line in lines:
+        if match := re.match(validator_start_pattern, line):
+            if match.group(1) != 'AP_HaveKerriganPrimalRage':
+                current_validator = match.group(1)
+        elif match := re.match(requirement_pattern, line):
+            if not current_validator: continue
+            current_requirement = match.group(1)
+        elif match := re.match(is_positive_pattern, line):
+            is_positive = True
+        elif match := re.match(validator_end_pattern, line):
+            if current_requirement and current_validator and is_positive:
+                assert current_requirement not in requirement_to_validator
+                requirement_to_validator[current_requirement] = current_validator
+            current_validator = ''
+            current_requirement = ''
+            is_positive = False
+    return requirement_to_validator
+
+
 def parse_abil_data(abil_data_path: str) -> tuple[dict[str, list[str]], dict[str, list[str]]]:
     """unit -> ability, requirement -> button"""
     with open(abil_data_path, 'r') as fp:
@@ -384,10 +450,10 @@ def resolve_item_icon(
     upgrade_to_icon: dict[str, str],
     requirement_to_button: dict[str, set[str]],
     upgrade_to_requirement: dict[str, list[str]],
+    requirement_to_validator: dict[str, str],
+    validator_to_icon: dict[str, str],
     overrides: dict,
 ) -> list[str]:
-    # TODO: Why does `Burrow (Swarm Host)` find the supply depot icon?
-    #  Req `AP_HaveHotSBurrowSwarmHost` -> Button `Raise`
     result: set[str] = set()
     item = item_numbers[item_name]
     if item_name in overrides['set']:
@@ -422,6 +488,9 @@ def resolve_item_icon(
             # Passives, analyze if a requirement reveals a command-card button
             requirements = upgrade_to_requirement.get(unlock.name, [])
             for requirement in requirements:
+                icon = validator_to_icon.get(requirement_to_validator.get(requirement))
+                if icon:
+                    result.add(icon)
                 buttons = sorted(requirement_to_button.get(requirement, []))
                 for button in buttons:
                     icon = button_to_icon.get(button)
@@ -465,6 +534,8 @@ def main():
     unit_to_ability, requirement_to_ability_button = parse_abil_data(os.path.join(game_data, 'AbilData.xml'))
     ability_to_button, requirement_to_button = parse_unit_data(os.path.join(game_data, 'UnitData.xml'))
     upgrade_to_requirement = parse_combined_requirement_data(os.path.join(game_data, 'RequirementData.xml'), os.path.join(game_data, 'RequirementNodeData.xml'))
+    validator_to_icon = parse_behaviour_data(os.path.join(game_data, 'BehaviorData.xml'))
+    requirement_to_validator = parse_validator_data(os.path.join(game_data, 'ValidatorData.xml'))
 
     for req, buttons in requirement_to_ability_button.items():
         requirement_to_button.setdefault(req, set()).update(buttons)
@@ -479,12 +550,14 @@ def main():
         'upgrade_to_icon': upgrade_to_icon,
         'requirement_to_button': requirement_to_button,
         'upgrade_to_requirement': upgrade_to_requirement,
+        'requirement_to_validator': requirement_to_validator,
+        'validator_to_icon': validator_to_icon,
         'overrides': overrides,
     }
 
     found = 0
     locations = {}
-    icon_paths = resolve_item_icon('Burrow (Swarm Host)', **kwargs)
+    icon_paths = resolve_item_icon('Guardian Shell', **kwargs)
     for item_name in item_numbers:
         icon_paths = resolve_item_icon(item_name, **kwargs)
         if icon_paths: found += 1

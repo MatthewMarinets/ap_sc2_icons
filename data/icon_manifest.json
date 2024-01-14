@@ -1,6 +1,6 @@
 {
  "330mm Barrage Cannon (Thor)": [
-  "icons/blizzard/btn-techupgrade-terran-330mmbarragecannon.png"
+  "icons/blizzard/btn-ability-terran-bombardmentstrike-color.png"
  ],
  "ATX Laser Battery (Battlecruiser)": [
   "icons/blizzard/btn-upgrade-terran-nova-specialordance.png"
@@ -197,7 +197,6 @@
   "icons/blizzard/btn-upgrade-protoss-alarak-supplicantarmor.png"
  ],
  "Bloodshard Resonance (Havoc)": [
-  "icons/blizzard/btn-upgrade-protoss-alarak-havoctargetlockbuffed.png",
   "icons/blizzard/btn-upgrade-protoss-alarak-rangeincrease.png"
  ],
  "Brood Lord Aspect (Mutalisk/Corruptor)": [
@@ -245,6 +244,9 @@
  ],
  "Cerberus Mine (Spider Mine)": [
   "icons/blizzard/btn-techupgrade-terran-cerberusmine.png"
+ ],
+ "Chain Reaction (Kerrigan Tier 2)": [
+  "icons/blizzard/btn-ability-swarm-kerrigan-chainreaction.png"
  ],
  "Chaotic Attunement (Ascendant)": [
   "icons/blizzard/btn-upgrade-protoss-alarak-ascendant'spsiorbtravelsfurther.png"
@@ -321,6 +323,9 @@
   "icons/blizzard/btn-ability-zerg-deeptunnel.png",
   "icons/blizzard/btn-unit-zerg-swarmhost-creeper.png"
  ],
+ "Crius Suit (Ghost)": [
+  "icons/blizzard/btn-techupgrade-terran-criussuit.png"
+ ],
  "Crushing Grip (Kerrigan Tier 2)": [
   "icons/blizzard/btn-ability-swarm-kerrigan-crushinggrip.png"
  ],
@@ -345,6 +350,9 @@
  "Deep Tunnel (Swarm Queen)": [
   "icons/blizzard/btn-ability-zerg-deeptunnel.png"
  ],
+ "Defensive Matrix (Science Vessel)": [
+  "icons/blizzard/btn-upgrade-swann-defensivematrix.png"
+ ],
  "Defiler": [
   "icons/original/btn-unit-zerg-defiler@scbw.png"
  ],
@@ -355,8 +363,7 @@
   "icons/blizzard/btn-unit-protoss-voidray-taldarim.png"
  ],
  "Detect Weakness (Havoc)": [
-  "icons/blizzard/btn-upgrade-protoss-alarak-havoctargetlockbuffed.png",
-  "icons/blizzard/btn-upgrade-protoss-alarak-rangeincrease.png"
+  "icons/blizzard/btn-upgrade-protoss-alarak-havoctargetlockbuffed.png"
  ],
  "Devil Dogs": [
   "icons/original/btn-unit-terran-firebatmercenary.png"
@@ -615,6 +622,9 @@
  "Impaler Aspect (Hydralisk)": [
   "icons/blizzard/btn-building-zerg-lurkerden.png",
   "icons/blizzard/btn-unit-zerg-hydralisk-impaler.png"
+ ],
+ "Impaler Rounds (Spectre)": [
+  "icons/blizzard/btn-techupgrade-terran-impalerrounds.png"
  ],
  "Improved Nano-Repair (Science Vessel)": [
   "icons/blizzard/btn-upgrade-swann-improvednanorepair.png"
@@ -890,6 +900,9 @@
   "icons/blizzard/btn-ability-zerg-noxiouscloud.png",
   "icons/blizzard/btn-ability-zerg-poisonnova.png",
   "icons/blizzard/btn-unit-zerg-ultralisk-noxious.png"
+ ],
+ "Nyx-Class Cloaking Module (Spectre)": [
+  "icons/blizzard/btn-techupgrade-terran-nyxcloakingclassmodule.png"
  ],
  "Observer": [
   "icons/blizzard/btn-unit-protoss-observer.png"
