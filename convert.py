@@ -10,8 +10,7 @@ import subprocess
 ORIGINAL_DIR = 'icons/original'
 BLIZZARD_DIR = 'icons/blizzard'
 
-
-def main() -> None:
+def main(fast: bool = True) -> None:
     verbose = False
     with open('workspace.json', 'r') as fp:
         config: dict[str, str] = json.load(fp)
@@ -53,7 +52,7 @@ def main() -> None:
                 failures += 1
                 continue
             target_path = f'{target_dir}/{stem}.png'
-            if target_path in converted:
+            if target_path in converted or (fast and os.path.isfile(target_path)):
                 skipped += 1
                 if verbose: print(f'Skipping {target_path} as it is already converted')
             else:

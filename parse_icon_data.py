@@ -374,16 +374,26 @@ def accessible_nodes(start: str, map: dict[str, list[str]]) -> list[str]:
     return result
 
 def resolve_item_icon(
-    item: ItemId,
+    item_name: str,
+    item_numbers: dict[str, ItemId],
     id_to_unlocks: dict[ItemId, List[GalaxyItem]],
     unit_to_ability: dict[str, List[str]],
     ability_to_button: dict[str, List[str]],
     button_to_icon: dict[str, str],
     upgrade_to_icon: dict[str, str],
     requirement_to_button: dict[str, set[str]],
-    upgrade_to_requirement: dict[str, list[str]]
+    upgrade_to_requirement: dict[str, list[str]],
+    overrides: dict,
 ) -> list[str]:
     result: set[str] = set()
+    item = item_numbers[item_name]
+    if item_name in overrides['set']:
+        return overrides['set'][item_name]
+    if item_name in overrides['add']:
+        result.update(overrides['add'][item_name])
+    for pattern in overrides['pattern_add']:
+        if re.match(pattern, item_name):
+            result.update(overrides['pattern_add'][pattern])
     unlocks = id_to_unlocks.get(item, [])
     for unlock in unlocks:
         if unlock.galaxy_type == 'unit':
@@ -421,7 +431,11 @@ def resolve_item_icon(
                 icon = button_to_icon.get(button)
                 if icon:
                     result.add(icon.lower())
-    return [x.replace('&apos;', "'") for x in sorted(result)]
+    return [
+        x.replace('&apos;', "'")
+        for x in sorted(result)
+        if os.path.splitext(os.path.basename(x))[0] not in overrides['remove'].get(item_name, [])
+    ]
 
 
 def main():
@@ -429,6 +443,9 @@ def main():
         config = json.load(fp)
     game_data = os.path.join(config['mod_files'], 'Mods/ArchipelagoPlayer.SC2Mod/Base.SC2Data/GameData')
     liberty_game_data = config.get('liberty_game_data')
+
+    with open('data/overrides.json', 'r') as fp:
+        overrides: dict = json.load(fp)
 
     item_data = get_item_data()
     item_numbers = get_item_numbers(item_data)
@@ -447,6 +464,7 @@ def main():
     upgrade_to_icon = {key: value for key, value in upgrade_to_icon.items() if value is not None}
     button_to_icon = {key: value for key, value in button_to_icon.items() if value is not None}
     kwargs = {
+        'item_numbers': item_numbers,
         'id_to_unlocks': id_to_unlocks,
         'unit_to_ability': unit_to_ability,
         'ability_to_button': ability_to_button,
@@ -454,14 +472,14 @@ def main():
         'upgrade_to_icon': upgrade_to_icon,
         'requirement_to_button': requirement_to_button,
         'upgrade_to_requirement': upgrade_to_requirement,
+        'overrides': overrides,
     }
-    # resolve_item_icon(item_numbers['Incinerator Gauntlets (Firebat)'], id_to_unlocks, unit_to_ability, ability_to_button, button_to_icon, upgrade_to_icon)
 
     found = 0
     locations = {}
-    icon_paths = resolve_item_icon(item_numbers['Apocalypse (Kerrigan Tier 7)'], **kwargs)
-    for item_name, item in item_numbers.items():
-        icon_paths = resolve_item_icon(item, **kwargs)
+    icon_paths = resolve_item_icon('Apocalypse (Kerrigan Tier 7)', **kwargs)
+    for item_name in item_numbers:
+        icon_paths = resolve_item_icon(item_name, **kwargs)
         if icon_paths: found += 1
         locations[item_name] = icon_paths
     result = {

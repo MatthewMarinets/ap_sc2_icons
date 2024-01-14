@@ -23,6 +23,20 @@
  "Adaptive Talons (Impaler)": [
   "icons/blizzard/btn-upgrade-zerg-adaptivetalons.png"
  ],
+ "Additional Starting Minerals": [
+  "icons/blizzard/btn-doodad-minerals.png",
+  "icons/blizzard/btn-tips-resourcecaches.png",
+  "icons/blizzard/btn-tips-richminerals.png"
+ ],
+ "Additional Starting Supply": [
+  "icons/blizzard/btn-building-hornerhan-supplypod.png",
+  "icons/blizzard/btn-building-terran-supplydepot.png",
+  "icons/blizzard/talent-artanis-level14-startingmaxsupply.png"
+ ],
+ "Additional Starting Vespene": [
+  "icons/blizzard/btn-tips-resourcecaches.png",
+  "icons/blizzard/wireframe-general-gaspallet.png"
+ ],
  "Adept": [
   "icons/blizzard/btn-unit-protoss-adept-purifier.png"
  ],
@@ -95,7 +109,6 @@
   "icons/blizzard/btn-upgrade-protoss-phoenixrange.png"
  ],
  "Annihilator": [
-  "icons/original/ui_void_armyupgrade_factionnerazim_categoryicon.png",
   "icons/blizzard/btn-unit-protoss-immortal-nerazim.png"
  ],
  "Anti-Armor Missile (Raven)": [
@@ -222,6 +235,9 @@
  "Caustic Spray (Corruptor)": [
   "icons/blizzard/btn-ability-zerg-causticspray.png"
  ],
+ "Cellular Reactor": [
+  "icons/blizzard/btn-research-zerg-cellularreactor.png"
+ ],
  "Centrifugal Hooks (Baneling)": [
   "icons/blizzard/btn-upgrade-zerg-centrifugalhooks.png"
  ],
@@ -266,6 +282,9 @@
  ],
  "Combat Shield (Marine)": [
   "icons/blizzard/btn-techupgrade-terran-combatshield-color.png"
+ ],
+ "Command Center Reactor": [
+  "icons/blizzard/btn-research-terran-commandcenterreactor.png"
  ],
  "Concealment (Widow Mine)": [
   "icons/blizzard/btn-ability-terran-widowminehidden.png"
@@ -637,6 +656,30 @@
  "Interference Matrix (Raven)": [
   "icons/blizzard/btn-upgrade-terran-interferencematrix.png"
  ],
+ "Internal Tech Module (Banshee)": [
+  "icons/blizzard/btn-upgrade-terran-internalizedtechmodule.png"
+ ],
+ "Internal Tech Module (Battlecruiser)": [
+  "icons/blizzard/btn-upgrade-terran-internalizedtechmodule.png"
+ ],
+ "Internal Tech Module (Cyclone)": [
+  "icons/blizzard/btn-upgrade-terran-internalizedtechmodule.png"
+ ],
+ "Internal Tech Module (Goliath)": [
+  "icons/blizzard/btn-upgrade-terran-internalizedtechmodule.png"
+ ],
+ "Internal Tech Module (Marauder)": [
+  "icons/blizzard/btn-upgrade-terran-internalizedtechmodule.png"
+ ],
+ "Internal Tech Module (Raven)": [
+  "icons/blizzard/btn-upgrade-terran-internalizedtechmodule.png"
+ ],
+ "Internal Tech Module (Siege Tank)": [
+  "icons/blizzard/btn-upgrade-terran-internalizedtechmodule.png"
+ ],
+ "Internal Tech Module (Wraith)": [
+  "icons/blizzard/btn-upgrade-terran-internalizedtechmodule.png"
+ ],
  "Ion Thrusters (Vulture)": [
   "icons/blizzard/btn-ability-terran-emergencythrusters.png"
  ],
@@ -829,6 +872,9 @@
   "icons/blizzard/btn-ability-spearofadun-nexusovercharge.png",
   "icons/blizzard/btn-command-attack.png"
  ],
+ "Nothing": [
+  "icons/blizzard/btn-command-cancel.png"
+ ],
  "Noxious Strain (Ultralisk)": [
   "icons/blizzard/btn-ability-zerg-noxiouscloud.png",
   "icons/blizzard/btn-ability-zerg-poisonnova.png",
@@ -843,6 +889,21 @@
  "Optical Flare (Medic)": [
   "icons/blizzard/btn-upgrade-protoss-fenix-dragoonsolariteflare.png"
  ],
+ "Optimized Logistics (Battlecruiser)": [
+  "icons/blizzard/btn-upgrade-terran-optimizedlogistics.png"
+ ],
+ "Optimized Logistics (Goliath)": [
+  "icons/blizzard/btn-upgrade-terran-optimizedlogistics.png"
+ ],
+ "Optimized Logistics (Hellion)": [
+  "icons/blizzard/btn-upgrade-terran-optimizedlogistics.png"
+ ],
+ "Optimized Logistics (Liberator)": [
+  "icons/blizzard/btn-upgrade-terran-optimizedlogistics.png"
+ ],
+ "Optimized Logistics (Marine)": [
+  "icons/blizzard/btn-upgrade-terran-optimizedlogistics.png"
+ ],
  "Optimized Ordnance": [
   "icons/blizzard/btn-upgrade-karax-turretattackspeed.png"
  ],
@@ -854,6 +915,9 @@
  ],
  "Orbital Depots": [
   "icons/blizzard/btn-building-terran-supplydepot.png"
+ ],
+ "Orbital Strike": [
+  "icons/blizzard/btn-research-terran-orbitalstrikerally.png"
  ],
  "Organic Carapace (Roach)": [
   "icons/blizzard/btn-upgrade-zerg-organiccarapace.png"
@@ -898,8 +962,7 @@
   "icons/blizzard/btn-building-protoss-photoncannon.png"
  ],
  "Planetary Fortress": [
-  "icons/blizzard/btn-building-terran-planetaryfortress.png",
-  "icons/blizzard/btn-command-cancel.png"
+  "icons/blizzard/btn-building-terran-planetaryfortress.png"
  ],
  "Plasma Rifle (Nova Weapon)": [
   "icons/blizzard/btn-upgrade-nova-equipment-plasmagun.png"
@@ -976,6 +1039,9 @@
  ],
  "Progressive Proxy Pylon (Spear of Adun Calldown)": [
   "icons/blizzard/btn-ability-spearofadun-warpinreinforcements.png"
+ ],
+ "Progressive Regenerative Bio-Steel": [
+  "icons/blizzard/btn-research-zerg-regenerativebio-steel.png"
  ],
  "Progressive Stealth Suit Module (Nova Suit Module)": [
   "icons/blizzard/btn-ability-terran-cloak-color.png",
@@ -1143,7 +1209,6 @@
   "icons/blizzard/btn-upgrade-zerg-swarmfrenzy.png"
  ],
  "Ravager Aspect (Roach)": [
-  "icons/blizzard/btn-command-cancel.png",
   "icons/blizzard/btn-unit-zerg-ravager.png"
  ],
  "Raven": [
@@ -1175,14 +1240,96 @@
   "icons/blizzard/btn-ability-protoss-phasedisruptor.png",
   "icons/blizzard/btn-upgrade-protoss-resonatingglaives.png"
  ],
+ "Resource Efficiency (Arbiter)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
+  "icons/blizzard/btn-tips-resourcecaches.png"
+ ],
+ "Resource Efficiency (Brood Lord)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
+  "icons/blizzard/btn-tips-resourcecaches.png"
+ ],
+ "Resource Efficiency (Cyclone)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
+  "icons/blizzard/btn-tips-resourcecaches.png"
+ ],
+ "Resource Efficiency (Dark Templar/Avenger/Blood Hunter)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
+  "icons/blizzard/btn-tips-resourcecaches.png"
+ ],
+ "Resource Efficiency (Diamondback)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
+  "icons/blizzard/btn-tips-resourcecaches.png"
+ ],
  "Resource Efficiency (Firebat)": [
-  "icons/blizzard/btn-unit-terran-firebat.png"
+  "icons/blizzard/btn-unit-terran-firebat.png",
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
+  "icons/blizzard/btn-tips-resourcecaches.png"
+ ],
+ "Resource Efficiency (Ghost)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
+  "icons/blizzard/btn-tips-resourcecaches.png"
+ ],
+ "Resource Efficiency (Goliath)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
+  "icons/blizzard/btn-tips-resourcecaches.png"
+ ],
+ "Resource Efficiency (Hydralisk)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
+  "icons/blizzard/btn-tips-resourcecaches.png"
+ ],
+ "Resource Efficiency (Liberator)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
+  "icons/blizzard/btn-tips-resourcecaches.png"
+ ],
+ "Resource Efficiency (Medic)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
+  "icons/blizzard/btn-tips-resourcecaches.png"
+ ],
+ "Resource Efficiency (Predator)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
+  "icons/blizzard/btn-tips-resourcecaches.png"
+ ],
+ "Resource Efficiency (Raven)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
+  "icons/blizzard/btn-tips-resourcecaches.png"
+ ],
+ "Resource Efficiency (Reaver)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
+  "icons/blizzard/btn-tips-resourcecaches.png"
  ],
  "Resource Efficiency (Scourge)": [
-  "icons/blizzard/btn-upgrade-zagara-scourgegasreduction.png"
+  "icons/blizzard/btn-upgrade-zagara-scourgegasreduction.png",
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
+  "icons/blizzard/btn-tips-resourcecaches.png"
+ ],
+ "Resource Efficiency (Siege Tank)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
+  "icons/blizzard/btn-tips-resourcecaches.png"
+ ],
+ "Resource Efficiency (Spectre)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
+  "icons/blizzard/btn-tips-resourcecaches.png"
+ ],
+ "Resource Efficiency (Swarm Host)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
+  "icons/blizzard/btn-tips-resourcecaches.png"
+ ],
+ "Resource Efficiency (Swarm Queen)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
+  "icons/blizzard/btn-tips-resourcecaches.png"
  ],
  "Resource Efficiency (Ultralisk)": [
-  "icons/blizzard/btn-unit-zerg-ultralisk.png"
+  "icons/blizzard/btn-unit-zerg-ultralisk.png",
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
+  "icons/blizzard/btn-tips-resourcecaches.png"
+ ],
+ "Resource Efficiency (Valkyrie)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
+  "icons/blizzard/btn-tips-resourcecaches.png"
+ ],
+ "Resource Efficiency (Wraith)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
+  "icons/blizzard/btn-tips-resourcecaches.png"
  ],
  "Restoration (Medic)": [
   "icons/original/btn-ability-terran-restoration@scbw.png"
@@ -1198,6 +1345,10 @@
  ],
  "Rocket Barrage (Banshee)": [
   "icons/blizzard/btn-upgrade-terran-nova-bansheemissilestrik.png"
+ ],
+ "Rogue Forces": [
+  "icons/blizzard/btn-unit-terran-taurenspacemarine.png",
+  "icons/blizzard/btn-unit-terran-tosh.png"
  ],
  "Rupture (Baneling)": [
   "icons/blizzard/btn-upgrade-zerg-rupture.png"
@@ -1484,6 +1635,9 @@
  "U-238 Rounds (Reaper)": [
   "icons/blizzard/btn-techupgrade-terran-u238rounds.png"
  ],
+ "Ultra-Capacitors": [
+  "icons/blizzard/btn-research-terran-ultracapacitors.png"
+ ],
  "Ultralisk": [
   "icons/blizzard/btn-building-zerg-ultraliskcavern.png",
   "icons/blizzard/btn-unit-zerg-ultralisk-noxious.png",
@@ -1495,6 +1649,9 @@
  ],
  "Valkyrie": [
   "icons/original/btn-unit-terran-valkyrie@scbw.png"
+ ],
+ "Vanadium Plating": [
+  "icons/blizzard/btn-research-terran-vanadiumplating.png"
  ],
  "Vanguard": [
   "icons/blizzard/btn-unit-protoss-immortal-taldarim.png"

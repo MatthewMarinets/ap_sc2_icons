@@ -2,7 +2,7 @@
   "meta": {
     "timestamp": "2024-01-13",
     "items": 589,
-    "located": 487
+    "located": 530
   },
   "locations": {
     "Marine": [
@@ -188,20 +188,27 @@
     "Magrail Munitions (Marine)": [
       "assets\\textures\\btn-upgrade-terran-magrailmunitions.dds"
     ],
-    "Optimized Logistics (Marine)": [],
+    "Optimized Logistics (Marine)": [
+      "btn-upgrade-terran-optimizedlogistics.dds"
+    ],
     "Restoration (Medic)": [
       "ap\\assets\\textures\\btn-ability-terran-restoration@scbw.dds"
     ],
     "Optical Flare (Medic)": [
       "assets\\textures\\btn-upgrade-protoss-fenix-dragoonsolariteflare.dds"
     ],
-    "Resource Efficiency (Medic)": [],
+    "Resource Efficiency (Medic)": [
+      "btn-ability-hornerhan-salvagebonus.dds",
+      "btn-tips-resourcecaches.dds"
+    ],
     "Progressive Stimpack (Firebat)": [
       "assets\\textures\\btn-ability-terran-stimpack-color.dds",
       "assets\\textures\\btn-upgrade-terran-superstimppack.dds"
     ],
     "Resource Efficiency (Firebat)": [
-      "assets\\textures\\btn-unit-terran-firebat.dds"
+      "assets\\textures\\btn-unit-terran-firebat.dds",
+      "btn-ability-hornerhan-salvagebonus.dds",
+      "btn-tips-resourcecaches.dds"
     ],
     "Progressive Stimpack (Marauder)": [
       "assets\\textures\\btn-ability-terran-stimpack-color.dds",
@@ -213,7 +220,9 @@
     "Magrail Munitions (Marauder)": [
       "assets\\textures\\btn-upgrade-terran-magrailmunitions.dds"
     ],
-    "Internal Tech Module (Marauder)": [],
+    "Internal Tech Module (Marauder)": [
+      "btn-upgrade-terran-internalizedtechmodule.dds"
+    ],
     "Hostile Environment Adaptation (SCV)": [
       "assets\\textures\\btn-upgrade-swann-hellarmor.dds"
     ],
@@ -247,12 +256,20 @@
     "Shaped Hull (Goliath)": [
       "assets\\textures\\btn-techupgrade-terran-shapedhull.dds"
     ],
-    "Resource Efficiency (Goliath)": [],
-    "Internal Tech Module (Goliath)": [],
+    "Resource Efficiency (Goliath)": [
+      "btn-ability-hornerhan-salvagebonus.dds",
+      "btn-tips-resourcecaches.dds"
+    ],
+    "Internal Tech Module (Goliath)": [
+      "btn-upgrade-terran-internalizedtechmodule.dds"
+    ],
     "Shaped Hull (Siege Tank)": [
       "assets\\textures\\btn-techupgrade-terran-shapedhull.dds"
     ],
-    "Resource Efficiency (Siege Tank)": [],
+    "Resource Efficiency (Siege Tank)": [
+      "btn-ability-hornerhan-salvagebonus.dds",
+      "btn-tips-resourcecaches.dds"
+    ],
     "Cloak (Predator)": [
       "assets\\textures\\btn-ability-terran-cloak-color.dds"
     ],
@@ -285,7 +302,9 @@
     "Smart Servos (Hellion)": [
       "assets\\textures\\btn-upgrade-terran-transformationservos.dds"
     ],
-    "Optimized Logistics (Hellion)": [],
+    "Optimized Logistics (Hellion)": [
+      "btn-upgrade-terran-optimizedlogistics.dds"
+    ],
     "Jump Jets (Hellion)": [
       "assets\\textures\\btn-upgrade-terran-jumpjets.dds"
     ],
@@ -304,14 +323,19 @@
     "Jump Jets (Goliath)": [
       "assets\\textures\\btn-ability-terran-jetpack-color.dds"
     ],
-    "Optimized Logistics (Goliath)": [],
+    "Optimized Logistics (Goliath)": [
+      "btn-upgrade-terran-optimizedlogistics.dds"
+    ],
     "Hyperfluxor (Diamondback)": [
       "assets\\textures\\btn-upgrade-mengsk-engineeringbay-orbitaldrop.dds"
     ],
     "Burst Capacitors (Diamondback)": [
       "assets\\textures\\btn-techupgrade-terran-burstcapacitors.dds"
     ],
-    "Resource Efficiency (Diamondback)": [],
+    "Resource Efficiency (Diamondback)": [
+      "btn-ability-hornerhan-salvagebonus.dds",
+      "btn-tips-resourcecaches.dds"
+    ],
     "Jump Jets (Siege Tank)": [
       "assets\\textures\\btn-upgrade-terran-jumpjets.dds"
     ],
@@ -330,8 +354,13 @@
     "Advanced Siege Tech (Siege Tank)": [
       "assets\\textures\\btn-upgrade-raynor-improvedsiegemode.dds"
     ],
-    "Internal Tech Module (Siege Tank)": [],
-    "Resource Efficiency (Predator)": [],
+    "Internal Tech Module (Siege Tank)": [
+      "btn-upgrade-terran-internalizedtechmodule.dds"
+    ],
+    "Resource Efficiency (Predator)": [
+      "btn-ability-hornerhan-salvagebonus.dds",
+      "btn-tips-resourcecaches.dds"
+    ],
     "Expanded Hull (Medivac)": [
       "assets\\textures\\btn-upgrade-mengsk-engineeringbay-neosteelfortifiedarmor.dds"
     ],
@@ -442,8 +471,13 @@
     "Trigger Override (Wraith)": [
       "assets\\textures\\btn-ability-hornerhan-wraith-attackspeed.dds"
     ],
-    "Internal Tech Module (Wraith)": [],
-    "Resource Efficiency (Wraith)": [],
+    "Internal Tech Module (Wraith)": [
+      "btn-upgrade-terran-internalizedtechmodule.dds"
+    ],
+    "Resource Efficiency (Wraith)": [
+      "btn-ability-hornerhan-salvagebonus.dds",
+      "btn-tips-resourcecaches.dds"
+    ],
     "Shredder Rounds (Viking)": [
       "assets\\textures\\btn-ability-hornerhan-viking-piercingattacks.dds"
     ],
@@ -462,14 +496,23 @@
     "Rocket Barrage (Banshee)": [
       "assets\\textures\\btn-upgrade-terran-nova-bansheemissilestrik.dds"
     ],
-    "Resource Efficiency (Ghost)": [],
-    "Resource Efficiency (Spectre)": [],
+    "Resource Efficiency (Ghost)": [
+      "btn-ability-hornerhan-salvagebonus.dds",
+      "btn-tips-resourcecaches.dds"
+    ],
+    "Resource Efficiency (Spectre)": [
+      "btn-ability-hornerhan-salvagebonus.dds",
+      "btn-tips-resourcecaches.dds"
+    ],
     "Button With a Skull on It (Thor)": [],
     "Laser Targeting System (Thor)": [
       "assets\\textures\\btn-upgrade-terran-lazertargetingsystem.dds"
     ],
     "Large Scale Field Construction (Thor)": [],
-    "Resource Efficiency (Raven)": [],
+    "Resource Efficiency (Raven)": [
+      "btn-ability-hornerhan-salvagebonus.dds",
+      "btn-tips-resourcecaches.dds"
+    ],
     "Durable Materials (Raven)": [
       "assets\\textures\\btn-upgrade-terran-durablematerials.dds"
     ],
@@ -480,14 +523,19 @@
       "ap\\assets\\textures\\btn-ability-terran-advancedhealingai.dds",
       "assets\\textures\\btn-ability-terran-heal-color.dds"
     ],
-    "Resource Efficiency (Cyclone)": [],
+    "Resource Efficiency (Cyclone)": [
+      "btn-ability-hornerhan-salvagebonus.dds",
+      "btn-tips-resourcecaches.dds"
+    ],
     "Hyperflight Rotors (Banshee)": [
       "assets\\textures\\btn-upgrade-terran-hyperflightrotors.dds"
     ],
     "Laser Targeting System (Banshee)": [
       "assets\\textures\\btn-upgrade-terran-lazertargetingsystem.dds"
     ],
-    "Internal Tech Module (Banshee)": [],
+    "Internal Tech Module (Banshee)": [
+      "btn-upgrade-terran-internalizedtechmodule.dds"
+    ],
     "Tactical Jump (Battlecruiser)": [
       "assets\\textures\\btn-ability-terran-warpjump.dds"
     ],
@@ -497,8 +545,12 @@
     "ATX Laser Battery (Battlecruiser)": [
       "assets\\textures\\btn-upgrade-terran-nova-specialordance.dds"
     ],
-    "Optimized Logistics (Battlecruiser)": [],
-    "Internal Tech Module (Battlecruiser)": [],
+    "Optimized Logistics (Battlecruiser)": [
+      "btn-upgrade-terran-optimizedlogistics.dds"
+    ],
+    "Internal Tech Module (Battlecruiser)": [
+      "btn-upgrade-terran-internalizedtechmodule.dds"
+    ],
     "EMP Rounds (Ghost)": [
       "assets\\textures\\btn-ability-terran-emp-color.dds"
     ],
@@ -528,7 +580,9 @@
     "Anti-Armor Missile (Raven)": [
       "assets\\textures\\btn-ability-terran-shreddermissile-color.dds"
     ],
-    "Internal Tech Module (Raven)": [],
+    "Internal Tech Module (Raven)": [
+      "btn-upgrade-terran-internalizedtechmodule.dds"
+    ],
     "EMP Shockwave (Science Vessel)": [
       "assets\\textures\\btn-ability-mengsk-ghost-staticempblast.dds"
     ],
@@ -546,7 +600,9 @@
     "Laser Targeting System (Liberator)": [
       "assets\\textures\\btn-upgrade-terran-lazertargetingsystem.dds"
     ],
-    "Optimized Logistics (Liberator)": [],
+    "Optimized Logistics (Liberator)": [
+      "btn-upgrade-terran-optimizedlogistics.dds"
+    ],
     "Black Market Launchers (Widow Mine)": [
       "assets\\textures\\btn-ability-hornerhan-widowmine-attackrange.dds"
     ],
@@ -565,11 +621,16 @@
     "Afterburners (Valkyrie)": [
       "assets\\textures\\btn-upgrade-terran-medivacemergencythrusters.dds"
     ],
-    "Internal Tech Module (Cyclone)": [],
+    "Internal Tech Module (Cyclone)": [
+      "btn-upgrade-terran-internalizedtechmodule.dds"
+    ],
     "Smart Servos (Liberator)": [
       "assets\\textures\\btn-upgrade-terran-transformationservos.dds"
     ],
-    "Resource Efficiency (Liberator)": [],
+    "Resource Efficiency (Liberator)": [
+      "btn-ability-hornerhan-salvagebonus.dds",
+      "btn-tips-resourcecaches.dds"
+    ],
     "Internal Fusion Module (Hercules)": [],
     "Tactical Jump (Hercules)": [
       "assets\\textures\\btn-ability-terran-hercules-tacticaljump.dds"
@@ -583,7 +644,10 @@
     "Launching Vector Compensator (Valkyrie)": [
       "assets\\textures\\btn-ability-terran-emergencythrusters.dds"
     ],
-    "Resource Efficiency (Valkyrie)": [],
+    "Resource Efficiency (Valkyrie)": [
+      "btn-ability-hornerhan-salvagebonus.dds",
+      "btn-tips-resourcecaches.dds"
+    ],
     "Predator's Fury (Predator)": [
       "assets\\textures\\btn-ability-protoss-shadowfury.dds"
     ],
@@ -645,8 +709,12 @@
     "Jotun": [
       "assets\\textures\\btn-unit-terran-thormengsk.dds"
     ],
-    "Ultra-Capacitors": [],
-    "Vanadium Plating": [],
+    "Ultra-Capacitors": [
+      "btn-research-terran-ultracapacitors.dds"
+    ],
+    "Vanadium Plating": [
+      "btn-research-terran-vanadiumplating.dds"
+    ],
     "Orbital Depots": [
       "assets\\textures\\btn-building-terran-supplydepot.dds"
     ],
@@ -656,7 +724,9 @@
     "Automated Refinery": [
       "assets\\textures\\btn-building-terran-supplydepot.dds"
     ],
-    "Command Center Reactor": [],
+    "Command Center Reactor": [
+      "btn-research-terran-commandcenterreactor.dds"
+    ],
     "Raven": [
       "assets\\textures\\btn-unit-terran-raven.dds"
     ],
@@ -666,7 +736,9 @@
     "Tech Reactor": [
       "ap\\assets\\textures\\btn-building-terran-techreactor.dds"
     ],
-    "Orbital Strike": [],
+    "Orbital Strike": [
+      "btn-research-terran-orbitalstrikerally.dds"
+    ],
     "Shrike Turret (Bunker)": [
       "assets\\textures\\btn-techupgrade-terran-shriketurret.dds"
     ],
@@ -674,8 +746,7 @@
       "assets\\textures\\btn-techupgrade-terran-neosteelframe.dds"
     ],
     "Planetary Fortress": [
-      "assets\\textures\\btn-building-terran-planetaryfortress.dds",
-      "assets\\textures\\btn-command-cancel.dds"
+      "assets\\textures\\btn-building-terran-planetaryfortress.dds"
     ],
     "Perdition Turret": [
       "assets\\textures\\btn-unit-terran-perditionturret.dds"
@@ -686,8 +757,12 @@
     "Hercules": [
       "assets\\textures\\btn-unit-terran-hercules.dds"
     ],
-    "Cellular Reactor": [],
-    "Progressive Regenerative Bio-Steel": [],
+    "Cellular Reactor": [
+      "btn-research-zerg-cellularreactor.dds"
+    ],
+    "Progressive Regenerative Bio-Steel": [
+      "btn-research-zerg-regenerativebio-steel.dds"
+    ],
     "Hive Mind Emulator": [
       "ap\\assets\\textures\\btn-building-terran-hivemindemulator.dds"
     ],
@@ -703,7 +778,10 @@
     "Advanced Optics": [
       "assets\\textures\\btn-upgrade-swann-vehiclerangeincrease.dds"
     ],
-    "Rogue Forces": [],
+    "Rogue Forces": [
+      "btn-unit-terran-taurenspacemarine.dds",
+      "btn-unit-terran-tosh.dds"
+    ],
     "Zealot": [
       "assets\\textures\\btn-unit-protoss-zealot-aiur.dds"
     ],
@@ -731,10 +809,23 @@
     "Carrier": [
       "assets\\textures\\btn-unit-protoss-carrier.dds"
     ],
-    "Additional Starting Minerals": [],
-    "Additional Starting Vespene": [],
-    "Additional Starting Supply": [],
-    "Nothing": [],
+    "Additional Starting Minerals": [
+      "btn-doodad-minerals.dds",
+      "btn-tips-resourcecaches.dds",
+      "btn-tips-richminerals.dds"
+    ],
+    "Additional Starting Vespene": [
+      "btn-tips-resourcecaches.dds",
+      "wireframe-general-gaspallet.dds"
+    ],
+    "Additional Starting Supply": [
+      "btn-building-hornerhan-supplypod.dds",
+      "btn-building-terran-supplydepot.dds",
+      "talent-artanis-level14-startingmaxsupply.dds"
+    ],
+    "Nothing": [
+      "btn-command-cancel.dds"
+    ],
     "Ghost Visor (Nova Equipment)": [
       "assets\\textures\\btn-upgrade-nova-equipment-ghostvisor.dds"
     ],
@@ -964,7 +1055,9 @@
       "assets\\textures\\btn-upgrade-zagara-scourgesplashdamage.dds"
     ],
     "Resource Efficiency (Scourge)": [
-      "assets\\textures\\btn-upgrade-zagara-scourgegasreduction.dds"
+      "assets\\textures\\btn-upgrade-zagara-scourgegasreduction.dds",
+      "btn-ability-hornerhan-salvagebonus.dds",
+      "btn-tips-resourcecaches.dds"
     ],
     "Swarm Scourge (Scourge)": [
       "ap\\assets\\textures\\btn-upgrade-custom-triple-scourge.dds"
@@ -981,7 +1074,10 @@
     "Muscular Augments (Hydralisk)": [
       "assets\\textures\\btn-upgrade-zerg-muscularaugments.dds"
     ],
-    "Resource Efficiency (Hydralisk)": [],
+    "Resource Efficiency (Hydralisk)": [
+      "btn-ability-hornerhan-salvagebonus.dds",
+      "btn-tips-resourcecaches.dds"
+    ],
     "Centrifugal Hooks (Baneling)": [
       "assets\\textures\\btn-upgrade-zerg-centrifugalhooks.dds"
     ],
@@ -1005,7 +1101,10 @@
     "Organic Carapace (Swarm Host)": [
       "assets\\textures\\btn-upgrade-zerg-organiccarapace.dds"
     ],
-    "Resource Efficiency (Swarm Host)": [],
+    "Resource Efficiency (Swarm Host)": [
+      "btn-ability-hornerhan-salvagebonus.dds",
+      "btn-tips-resourcecaches.dds"
+    ],
     "Anabolic Synthesis (Ultralisk)": [
       "assets\\textures\\btn-upgrade-zerg-anabolicsynthesis.dds"
     ],
@@ -1016,7 +1115,9 @@
       "assets\\textures\\btn-upgrade-zerg-organiccarapace.dds"
     ],
     "Resource Efficiency (Ultralisk)": [
-      "assets\\textures\\btn-unit-zerg-ultralisk.dds"
+      "assets\\textures\\btn-unit-zerg-ultralisk.dds",
+      "btn-ability-hornerhan-salvagebonus.dds",
+      "btn-tips-resourcecaches.dds"
     ],
     "Corrosive Spray (Devourer)": [
       "assets\\textures\\btn-upgrade-zerg-abathur-devourer-corrosivespray.dds"
@@ -1081,7 +1182,10 @@
     "Splitter Mitosis (Brood Lord)": [
       "assets\\textures\\abilityicon_spawnbroodlings_square.dds"
     ],
-    "Resource Efficiency (Brood Lord)": [],
+    "Resource Efficiency (Brood Lord)": [
+      "btn-ability-hornerhan-salvagebonus.dds",
+      "btn-tips-resourcecaches.dds"
+    ],
     "Infested Terran (Infestor)": [
       "assets\\textures\\btn-unit-zerg-infestedmarine.dds"
     ],
@@ -1100,7 +1204,10 @@
     "Bio-Mechanical Transfusion (Swarm Queen)": [
       "assets\\textures\\btn-upgrade-zerg-abathur-biomechanicaltransfusion.dds"
     ],
-    "Resource Efficiency (Swarm Queen)": [],
+    "Resource Efficiency (Swarm Queen)": [
+      "btn-ability-hornerhan-salvagebonus.dds",
+      "btn-tips-resourcecaches.dds"
+    ],
     "Incubator Chamber (Swarm Queen)": [
       "assets\\textures\\btn-upgrade-zerg-abathur-incubationchamber.dds"
     ],
@@ -1261,7 +1368,6 @@
     "Guardian Aspect (Mutalisk/Corruptor)": [],
     "Devourer Aspect (Mutalisk/Corruptor)": [],
     "Ravager Aspect (Roach)": [
-      "assets\\textures\\btn-command-cancel.dds",
       "assets\\textures\\btn-unit-zerg-ravager.dds"
     ],
     "Observer": [
@@ -1316,7 +1422,6 @@
       "assets\\textures\\btn-unit-protoss-warpprism.dds"
     ],
     "Annihilator": [
-      "ap\\assets\\textures\\ui_void_armyupgrade_factionnerazim_categoryicon.dds",
       "assets\\textures\\btn-unit-protoss-immortal-nerazim.dds"
     ],
     "Vanguard": [
@@ -1491,7 +1596,10 @@
     "Spacetime Anchor (Arbiter)": [
       "assets\\textures\\btn-ability-protoss-stasisfield.dds"
     ],
-    "Resource Efficiency (Arbiter)": [],
+    "Resource Efficiency (Arbiter)": [
+      "btn-ability-hornerhan-salvagebonus.dds",
+      "btn-tips-resourcecaches.dds"
+    ],
     "Enhanced Cloak Field (Arbiter)": [
       "ap\\assets\\textures\\btn-upgrade-protoss-apialsensors@scbw.dds"
     ],
@@ -1532,7 +1640,10 @@
     "Reaver Capacity (Reaver)": [
       "ap\\assets\\textures\\btn-upgrade-protoss-increasedscarabcapacity@scbw.dds"
     ],
-    "Resource Efficiency (Reaver)": [],
+    "Resource Efficiency (Reaver)": [
+      "btn-ability-hornerhan-salvagebonus.dds",
+      "btn-tips-resourcecaches.dds"
+    ],
     "Agony Launchers (Vanguard)": [
       "assets\\textures\\btn-ability-protoss-chargedblast.dds"
     ],
@@ -1564,7 +1675,10 @@
     "Blink (Dark Templar/Avenger/Blood Hunter)": [
       "assets\\textures\\btn-ability-protoss-shadowdash.dds"
     ],
-    "Resource Efficiency (Dark Templar/Avenger/Blood Hunter)": [],
+    "Resource Efficiency (Dark Templar/Avenger/Blood Hunter)": [
+      "btn-ability-hornerhan-salvagebonus.dds",
+      "btn-tips-resourcecaches.dds"
+    ],
     "Dark Archon Meld (Dark Templar)": [
       "assets\\textures\\talent-vorazun-level05-unlockdarkarchon.dds"
     ],
