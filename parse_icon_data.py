@@ -77,6 +77,7 @@ def parse_galaxy_file(galaxy_path: str) -> Dict[ItemId, List[GalaxyItem]]:
                 .replace('Upgrades', 'Upgrade')
                 .replace('Upgrades2', 'Upgrade2')
                 .replace('KerriganAbilities', 'Ability')
+                .replace('SpearOfAdun', 'SpearofAdun')
             )
         elif UNLOCK_PROGRESSIVE_ARRAY_START in line:
             is_progressive_array = True
@@ -232,7 +233,7 @@ def parse_abil_data(abil_data_path: str) -> tuple[dict[str, list[str]], dict[str
     train_start_pattern = re.compile(r'^\s*<CAbil(?:Warp)?Train\s+id="(AP_[^"]+)"')
     build_start_pattern = re.compile(r'^\s*<CAbilBuild\s+id="(AP_[^"]+)"')
     index_start_pattern = re.compile(r'^\s*<InfoArray\s+index="(Build|Train)(\d+)"(?:\s+Unit="(AP_[^"]+)")?')
-    button_pattern = re.compile(r'^\s*<CmdButtonArray .*DefaultButtonFace="([^"]+)" .*Requirements="(AP_[^"]+)"')
+    button_pattern = re.compile(r'^\s*<CmdButtonArray .*DefaultButtonFace="([^"]+)".*Requirements="(AP_[^"]+)"')
     train_end_pattern = re.compile(r'^\s*</CAbil(?:Warp)?Train>')
     unit_pattern = re.compile(r'^\s*<Unit value="(AP_[^"]+)"/>')
     for line in lines:
@@ -477,7 +478,7 @@ def main():
 
     found = 0
     locations = {}
-    icon_paths = resolve_item_icon('Apocalypse (Kerrigan Tier 7)', **kwargs)
+    icon_paths = resolve_item_icon('Solar Lance (Spear of Adun Calldown)', **kwargs)
     for item_name in item_numbers:
         icon_paths = resolve_item_icon(item_name, **kwargs)
         if icon_paths: found += 1

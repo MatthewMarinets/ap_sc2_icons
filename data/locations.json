@@ -2,7 +2,7 @@
   "meta": {
     "timestamp": "2024-01-13",
     "items": 589,
-    "located": 530
+    "located": 541
   },
   "locations": {
     "Marine": [
@@ -1753,20 +1753,42 @@
     "Shield Capacity (Zealot/Sentinel/Centurion)": [
       "assets\\textures\\btn-upgrade-protoss-shieldslevel1.dds"
     ],
-    "Chrono Surge (Spear of Adun Calldown)": [],
+    "Chrono Surge (Spear of Adun Calldown)": [
+      "assets\\textures\\btn-ability-spearofadun-chronosurge.dds"
+    ],
     "Progressive Proxy Pylon (Spear of Adun Calldown)": [
       "assets\\textures\\btn-ability-spearofadun-warpinreinforcements.dds"
     ],
-    "Pylon Overcharge (Spear of Adun Calldown)": [],
-    "Orbital Strike (Spear of Adun Calldown)": [],
-    "Temporal Field (Spear of Adun Calldown)": [],
-    "Solar Lance (Spear of Adun Calldown)": [],
-    "Mass Recall (Spear of Adun Calldown)": [],
-    "Shield Overcharge (Spear of Adun Calldown)": [],
-    "Deploy Fenix (Spear of Adun Calldown)": [],
-    "Purifier Beam (Spear of Adun Calldown)": [],
-    "Time Stop (Spear of Adun Calldown)": [],
-    "Solar Bombardment (Spear of Adun Calldown)": [],
+    "Pylon Overcharge (Spear of Adun Calldown)": [
+      "assets\\textures\\btn-ability-protoss-purify.dds"
+    ],
+    "Orbital Strike (Spear of Adun Calldown)": [
+      "assets\\textures\\btn-ability-spearofadun-orbitalstrike.dds"
+    ],
+    "Temporal Field (Spear of Adun Calldown)": [
+      "assets\\textures\\btn-ability-spearofadun-temporalfield.dds"
+    ],
+    "Solar Lance (Spear of Adun Calldown)": [
+      "assets\\textures\\btn-ability-spearofadun-solarlance.dds"
+    ],
+    "Mass Recall (Spear of Adun Calldown)": [
+      "assets\\textures\\btn-ability-spearofadun-massrecall.dds"
+    ],
+    "Shield Overcharge (Spear of Adun Calldown)": [
+      "assets\\textures\\btn-ability-spearofadun-shieldovercharge.dds"
+    ],
+    "Deploy Fenix (Spear of Adun Calldown)": [
+      "assets\\textures\\btn-unit-protoss-fenix.dds"
+    ],
+    "Purifier Beam (Spear of Adun Calldown)": [
+      "assets\\textures\\btn-ability-spearofadun-purifierbeam.dds"
+    ],
+    "Time Stop (Spear of Adun Calldown)": [
+      "assets\\textures\\btn-ability-spearofadun-timestop.dds"
+    ],
+    "Solar Bombardment (Spear of Adun Calldown)": [
+      "assets\\textures\\btn-ability-spearofadun-solarbombardment.dds"
+    ],
     "Matrix Overload": [
       "assets\\textures\\btn-ability-spearofadun-matrixoverload.dds"
     ],

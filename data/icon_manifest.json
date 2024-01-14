@@ -256,6 +256,9 @@
  "Chitinous Plating (Ultralisk)": [
   "icons/blizzard/btn-upgrade-zerg-chitinousplating.png"
  ],
+ "Chrono Surge (Spear of Adun Calldown)": [
+  "icons/blizzard/btn-ability-spearofadun-chronosurge.png"
+ ],
  "Chronostatic Reinforcement (Arbiter)": [
   "icons/blizzard/btn-upgrade-protoss-airarmorlevel2.png"
  ],
@@ -345,6 +348,9 @@
  ],
  "Defiler": [
   "icons/original/btn-unit-zerg-defiler@scbw.png"
+ ],
+ "Deploy Fenix (Spear of Adun Calldown)": [
+  "icons/blizzard/btn-unit-protoss-fenix.png"
  ],
  "Destroyer": [
   "icons/blizzard/btn-unit-protoss-voidray-taldarim.png"
@@ -803,6 +809,9 @@
  "Marine": [
   "icons/blizzard/btn-unit-terran-marine.png"
  ],
+ "Mass Recall (Spear of Adun Calldown)": [
+  "icons/blizzard/btn-ability-spearofadun-massrecall.png"
+ ],
  "Matrix Overload": [
   "icons/blizzard/btn-ability-spearofadun-matrixoverload.png"
  ],
@@ -918,6 +927,9 @@
  ],
  "Orbital Strike": [
   "icons/blizzard/btn-research-terran-orbitalstrikerally.png"
+ ],
+ "Orbital Strike (Spear of Adun Calldown)": [
+  "icons/blizzard/btn-ability-spearofadun-orbitalstrike.png"
  ],
  "Organic Carapace (Roach)": [
   "icons/blizzard/btn-upgrade-zerg-organiccarapace.png"
@@ -1169,6 +1181,12 @@
  "Pulse Grenades (Nova Gadget)": [
   "icons/blizzard/btn-upgrade-nova-btn-upgrade-nova-pulsegrenade.png"
  ],
+ "Purifier Beam (Spear of Adun Calldown)": [
+  "icons/blizzard/btn-ability-spearofadun-purifierbeam.png"
+ ],
+ "Pylon Overcharge (Spear of Adun Calldown)": [
+  "icons/blizzard/btn-ability-protoss-purify.png"
+ ],
  "Quantic Reactor (Tempest)": [
   "icons/blizzard/btn-upgrade-protoss-researchgravitysling.png"
  ],
@@ -1417,6 +1435,9 @@
  "Shield Capacity (Zealot/Sentinel/Centurion)": [
   "icons/blizzard/btn-upgrade-protoss-shieldslevel1.png"
  ],
+ "Shield Overcharge (Spear of Adun Calldown)": [
+  "icons/blizzard/btn-ability-spearofadun-shieldovercharge.png"
+ ],
  "Shield Regeneration (Supplicant)": [
   "icons/blizzard/btn-upgrade-protoss-shieldslevel2.png"
  ],
@@ -1471,6 +1492,12 @@
  ],
  "Smart Servos (Viking)": [
   "icons/blizzard/btn-upgrade-terran-transformationservos.png"
+ ],
+ "Solar Bombardment (Spear of Adun Calldown)": [
+  "icons/blizzard/btn-ability-spearofadun-solarbombardment.png"
+ ],
+ "Solar Lance (Spear of Adun Calldown)": [
+  "icons/blizzard/btn-ability-spearofadun-solarlance.png"
  ],
  "Solarite Payload (Reaver)": [
   "icons/blizzard/btn-upgrade-artanis-scarabsplashradius.png"
@@ -1593,11 +1620,17 @@
  "Temporal Acceleration Beam (Oracle)": [
   "icons/blizzard/btn-ability-protoss-oraclepulsarcannonon.png"
  ],
+ "Temporal Field (Spear of Adun Calldown)": [
+  "icons/blizzard/btn-ability-spearofadun-temporalfield.png"
+ ],
  "Thermite Filaments (Hellion)": [
   "icons/blizzard/btn-techupgrade-terran-infernalpreigniter.png"
  ],
  "Thor": [
   "icons/blizzard/btn-unit-terran-thor.png"
+ ],
+ "Time Stop (Spear of Adun Calldown)": [
+  "icons/blizzard/btn-ability-spearofadun-timestop.png"
  ],
  "Tissue Animation (Ultralisk)": [
   "icons/blizzard/btn-upgrade-zerg-tissueassimilation.png"
