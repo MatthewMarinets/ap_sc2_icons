@@ -302,6 +302,7 @@ def parse_abil_data(abil_data_path: str) -> tuple[dict[str, list[str]], dict[str
     button_pattern = re.compile(r'^\s*<CmdButtonArray .*DefaultButtonFace="([^"]+)".*Requirements="(AP_[^"]+)"')
     train_end_pattern = re.compile(r'^\s*</CAbil(?:Warp)?Train>')
     unit_pattern = re.compile(r'^\s*<Unit value="(AP_[^"]+)"/>')
+    default_button_pattern = re.compile(r'^\s*<Button DefaultButtonFace="(AP_[^"]+)" .*Requirements="(AP_[^"]+)"')
     for line in lines:
         if match := re.match(train_start_pattern, line):
             assert not current_ability_type
@@ -334,6 +335,8 @@ def parse_abil_data(abil_data_path: str) -> tuple[dict[str, list[str]], dict[str
                 current_ability_index = int(match.group(2)) - 1
         elif match := re.match(button_pattern, line):
             requirement_to_button.setdefault(match.group(2), []).append(match.group(1))
+        # elif match := re.match(default_button_pattern, line):
+        #     requirement_to_button.setdefault(match.group(2), []).append(match.group(1))
         elif '</InfoArray>' in line and current_ability_type == 'train':
             current_ability_index = -1
         elif match := re.match(unit_pattern, line):
@@ -418,7 +421,7 @@ def parse_combined_requirement_data(requirement_data_path: str, requirement_node
         elif match := re.match(operand_pattern, line):
             assert current_requirement
             assert current_requirement[1] != UPGRADE
-            requirement_node_interlink.setdefault(current_requirement, []).append(match.group(1))
+            requirement_node_interlink.setdefault(current_requirement[0], []).append(match.group(1))
     requirement_to_node = parse_requirement_data(requirement_data_path)
     upgrade_to_requirement: dict[str, set[str]] = {}
     for requirement, start_nodes in requirement_to_node.items():
@@ -557,7 +560,7 @@ def main():
 
     found = 0
     locations = {}
-    icon_paths = resolve_item_icon('Guardian Shell', **kwargs)
+    icon_paths = resolve_item_icon('Devourer Aspect (Mutalisk/Corruptor)', **kwargs)
     for item_name in item_numbers:
         icon_paths = resolve_item_icon(item_name, **kwargs)
         if icon_paths: found += 1

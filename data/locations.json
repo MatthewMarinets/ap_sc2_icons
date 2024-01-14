@@ -2,7 +2,7 @@
   "meta": {
     "timestamp": "2024-01-14",
     "items": 589,
-    "located": 547
+    "located": 551
   },
   "locations": {
     "Marine": [
@@ -146,7 +146,10 @@
       "assets\\textures\\btn-upgrade-swann-scvdoublerepair.dds"
     ],
     "Progressive Fire-Suppression System": [],
-    "Progressive Orbital Command": [],
+    "Progressive Orbital Command": [
+      "assets\\textures\\btn-ability-terran-scannersweep-color.dds",
+      "assets\\textures\\btn-unit-terran-mule.dds"
+    ],
     "Progressive Stimpack (Marine)": [
       "assets\\textures\\btn-ability-terran-stimpack-color.dds",
       "assets\\textures\\btn-upgrade-terran-superstimppack.dds"
@@ -309,6 +312,7 @@
       "assets\\textures\\btn-upgrade-terran-jumpjets.dds"
     ],
     "Progressive Stimpack (Hellion)": [
+      "assets\\textures\\btn-ability-terran-stimpack-color.dds",
       "assets\\textures\\btn-upgrade-terran-superstimppack.dds"
     ],
     "Ion Thrusters (Vulture)": [
@@ -843,7 +847,9 @@
     "Rangefinder Oculus (Nova Equipment)": [
       "assets\\textures\\btn-upgrade-nova-equipment-rangefinderoculus.dds"
     ],
-    "Domination (Nova Ability)": [],
+    "Domination (Nova Ability)": [
+      "assets\\textures\\btn-ability-nova-domination.dds"
+    ],
     "Blink (Nova Ability)": [
       "assets\\textures\\btn-upgrade-nova-blink.dds"
     ],
@@ -1208,6 +1214,7 @@
       "assets\\textures\\btn-upgrade-zerg-organiccarapace.dds"
     ],
     "Bio-Mechanical Transfusion (Swarm Queen)": [
+      "assets\\textures\\btn-ability-zerg-transfusion-color.dds",
       "assets\\textures\\btn-upgrade-zerg-abathur-biomechanicaltransfusion.dds"
     ],
     "Resource Efficiency (Swarm Queen)": [
@@ -1232,6 +1239,7 @@
       "assets\\textures\\btn-upgrade-zerg-swarmfrenzy.dds"
     ],
     "Swarmling Strain (Zergling)": [
+      "assets\\textures\\btn-unit-zerg-zergling-swarmling.dds",
       "assets\\textures\\btn-upgrade-zerg-rapidgenesis.dds"
     ],
     "Vile Strain (Roach)": [
@@ -1247,6 +1255,7 @@
       "assets\\textures\\btn-unit-zerg-hydralisk-impaler.dds"
     ],
     "Lurker Aspect (Hydralisk)": [
+      "assets\\textures\\btn-building-zerg-lurkerden.dds",
       "assets\\textures\\btn-unit-zerg-hydralisk-lurker.dds"
     ],
     "Splitter Strain (Baneling)": [
@@ -1257,6 +1266,7 @@
       "assets\\textures\\btn-unit-zerg-baneling-hunter.dds"
     ],
     "Brood Lord Aspect (Mutalisk/Corruptor)": [
+      "assets\\textures\\btn-building-zerg-greaterspire.dds",
       "assets\\textures\\btn-unit-zerg-broodlord.dds",
       "assets\\textures\\btn-unit-zerg-mutalisk-broodlord.dds"
     ],
@@ -1267,12 +1277,14 @@
     ],
     "Carrion Strain (Swarm Host)": [
       "assets\\textures\\btn-unit-zerg-locust.dds",
-      "assets\\textures\\btn-unit-zerg-swarmhost-carrion.dds"
+      "assets\\textures\\btn-unit-zerg-swarmhost-carrion.dds",
+      "assets\\textures\\btn-unit-zerg-swarmhost.dds"
     ],
     "Creeper Strain (Swarm Host)": [
       "assets\\textures\\btn-ability-zerg-creepspread.dds",
       "assets\\textures\\btn-ability-zerg-deeptunnel.dds",
-      "assets\\textures\\btn-unit-zerg-swarmhost-creeper.dds"
+      "assets\\textures\\btn-unit-zerg-swarmhost-creeper.dds",
+      "assets\\textures\\btn-unit-zerg-swarmhost.dds"
     ],
     "Noxious Strain (Ultralisk)": [
       "assets\\textures\\btn-ability-zerg-noxiouscloud.dds",
@@ -1373,8 +1385,12 @@
       "assets\\textures\\btn-ability-terran-load.dds",
       "assets\\textures\\btn-upgrade-zerg-ventralsacs.dds"
     ],
-    "Guardian Aspect (Mutalisk/Corruptor)": [],
-    "Devourer Aspect (Mutalisk/Corruptor)": [],
+    "Guardian Aspect (Mutalisk/Corruptor)": [
+      "assets\\textures\\btn-building-zerg-greaterspire.dds"
+    ],
+    "Devourer Aspect (Mutalisk/Corruptor)": [
+      "assets\\textures\\btn-building-zerg-greaterspire.dds"
+    ],
     "Ravager Aspect (Roach)": [
       "assets\\textures\\btn-unit-zerg-ravager.dds"
     ],
@@ -1593,6 +1609,7 @@
       "assets\\textures\\btn-ability-protoss-oracle-stasiscalibration.dds"
     ],
     "Temporal Acceleration Beam (Oracle)": [
+      "assets\\textures\\btn-ability-protoss-oraclepulsarcannonoff.dds",
       "assets\\textures\\btn-ability-protoss-oraclepulsarcannonon.dds"
     ],
     "Chronostatic Reinforcement (Arbiter)": [
@@ -1701,6 +1718,7 @@
       "assets\\textures\\btn-upgrade-protoss-khaydarinamulet.dds"
     ],
     "High Archon (Archon)": [
+      "assets\\textures\\btn-ability-protoss-psistorm.dds",
       "assets\\textures\\btn-upgrade-artanis-healingpsionicstorm.dds"
     ],
     "Feedback (Dark Archon)": [],
@@ -1801,7 +1819,8 @@
     "Quatro": [],
     "Nexus Overcharge": [
       "assets\\textures\\btn-ability-spearofadun-nexusovercharge.dds",
-      "assets\\textures\\btn-command-attack.dds"
+      "assets\\textures\\btn-upgrade-karax-turretattackspeed.dds",
+      "assets\\textures\\btn-upgrade-karax-turretrange.dds"
     ],
     "Orbital Assimilators": [
       "assets\\textures\\btn-ability-spearofadun-orbitalassimilator.dds"

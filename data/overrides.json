@@ -33,6 +33,7 @@
         "Internal Tech Module.*": ["btn-upgrade-terran-internalizedtechmodule.dds"]
     },
     "pattern_remove": {
-        "[^(]+\\([^)]+\\)": ["btn-command-stop", "btn-command-cancel"]
+        "[^(]+\\([^)]+\\)": ["btn-command-cancel"],
+        ".*": ["btn-command-attack", "btn-command-stop"]
     }
 }
