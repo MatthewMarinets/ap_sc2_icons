@@ -2,7 +2,7 @@
   "meta": {
     "timestamp": "2024-01-13",
     "items": 589,
-    "located": 541
+    "located": 542
   },
   "locations": {
     "Marine": [
@@ -631,7 +631,9 @@
       "btn-ability-hornerhan-salvagebonus.dds",
       "btn-tips-resourcecaches.dds"
     ],
-    "Internal Fusion Module (Hercules)": [],
+    "Internal Fusion Module (Hercules)": [
+      "btn-upgrade-terran-internalizedtechmodule.dds"
+    ],
     "Tactical Jump (Hercules)": [
       "assets\\textures\\btn-ability-terran-hercules-tacticaljump.dds"
     ],
@@ -779,6 +781,7 @@
       "assets\\textures\\btn-upgrade-swann-vehiclerangeincrease.dds"
     ],
     "Rogue Forces": [
+      "btn-building-terran-merccompound.dds",
       "btn-unit-terran-taurenspacemarine.dds",
       "btn-unit-terran-tosh.dds"
     ],
@@ -888,7 +891,6 @@
       "assets\\textures\\btn-unit-zerg-broodqueen.dds"
     ],
     "Roach": [
-      "assets\\textures\\btn-building-zerg-roachwarren.dds",
       "assets\\textures\\btn-unit-zerg-roach-corpser.dds",
       "assets\\textures\\btn-unit-zerg-roach-vile.dds",
       "assets\\textures\\btn-unit-zerg-roach.dds"
@@ -899,7 +901,6 @@
       "assets\\textures\\btn-unit-zerg-hydralisk.dds"
     ],
     "Baneling Aspect (Zergling)": [
-      "assets\\textures\\btn-building-zerg-banelingnest.dds",
       "assets\\textures\\btn-unit-zerg-baneling.dds"
     ],
     "Aberration": [
@@ -919,7 +920,6 @@
       "assets\\textures\\btn-unit-zerg-infestor.dds"
     ],
     "Ultralisk": [
-      "assets\\textures\\btn-building-zerg-ultraliskcavern.dds",
       "assets\\textures\\btn-unit-zerg-ultralisk-noxious.dds",
       "assets\\textures\\btn-unit-zerg-ultralisk-torrasque.dds",
       "assets\\textures\\btn-unit-zerg-ultralisk.dds"
@@ -996,7 +996,6 @@
       "assets\\textures\\btn-upgrade-zerg-adaptivecarapace.dds"
     ],
     "Tunneling Claws (Roach)": [
-      "assets\\textures\\btn-command-stop.dds",
       "assets\\textures\\btn-upgrade-zerg-hotstunnelingclaws.dds"
     ],
     "Frenzy (Hydralisk)": [
@@ -1082,7 +1081,6 @@
       "assets\\textures\\btn-upgrade-zerg-centrifugalhooks.dds"
     ],
     "Tunneling Jaws (Baneling)": [
-      "assets\\textures\\btn-command-stop.dds",
       "assets\\textures\\btn-upgrade-zerg-tunnelingjaws.dds"
     ],
     "Rapid Metamorph (Baneling)": [],

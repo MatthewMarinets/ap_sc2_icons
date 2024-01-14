@@ -155,7 +155,6 @@
   "icons/blizzard/btn-unit-protoss-darktemplar-aiur.png"
  ],
  "Baneling Aspect (Zergling)": [
-  "icons/blizzard/btn-building-zerg-banelingnest.png",
   "icons/blizzard/btn-unit-zerg-baneling.png"
  ],
  "Banshee": [
@@ -661,6 +660,9 @@
  ],
  "Interference Matrix (Raven)": [
   "icons/blizzard/btn-upgrade-terran-interferencematrix.png"
+ ],
+ "Internal Fusion Module (Hercules)": [
+  "icons/blizzard/btn-upgrade-terran-internalizedtechmodule.png"
  ],
  "Internal Tech Module (Banshee)": [
   "icons/blizzard/btn-upgrade-terran-internalizedtechmodule.png"
@@ -1356,7 +1358,6 @@
   "icons/blizzard/btn-techupgrade-terran-ripwavemissiles.png"
  ],
  "Roach": [
-  "icons/blizzard/btn-building-zerg-roachwarren.png",
   "icons/blizzard/btn-unit-zerg-roach-corpser.png",
   "icons/blizzard/btn-unit-zerg-roach-vile.png",
   "icons/blizzard/btn-unit-zerg-roach.png"
@@ -1365,6 +1366,7 @@
   "icons/blizzard/btn-upgrade-terran-nova-bansheemissilestrik.png"
  ],
  "Rogue Forces": [
+  "icons/blizzard/btn-building-terran-merccompound.png",
   "icons/blizzard/btn-unit-terran-taurenspacemarine.png",
   "icons/blizzard/btn-unit-terran-tosh.png"
  ],
@@ -1652,11 +1654,9 @@
   "icons/blizzard/btn-ability-protoss-dragoonchassis.png"
  ],
  "Tunneling Claws (Roach)": [
-  "icons/blizzard/btn-command-stop.png",
   "icons/blizzard/btn-upgrade-zerg-hotstunnelingclaws.png"
  ],
  "Tunneling Jaws (Baneling)": [
-  "icons/blizzard/btn-command-stop.png",
   "icons/blizzard/btn-upgrade-zerg-tunnelingjaws.png"
  ],
  "Twin Drones (Kerrigan Tier 5)": [
@@ -1672,7 +1672,6 @@
   "icons/blizzard/btn-research-terran-ultracapacitors.png"
  ],
  "Ultralisk": [
-  "icons/blizzard/btn-building-zerg-ultraliskcavern.png",
   "icons/blizzard/btn-unit-zerg-ultralisk-noxious.png",
   "icons/blizzard/btn-unit-zerg-ultralisk-torrasque.png",
   "icons/blizzard/btn-unit-zerg-ultralisk.png"

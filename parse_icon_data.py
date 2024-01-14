@@ -386,6 +386,8 @@ def resolve_item_icon(
     upgrade_to_requirement: dict[str, list[str]],
     overrides: dict,
 ) -> list[str]:
+    # TODO: Why does `Burrow (Swarm Host)` find the supply depot icon?
+    #  Req `AP_HaveHotSBurrowSwarmHost` -> Button `Raise`
     result: set[str] = set()
     item = item_numbers[item_name]
     if item_name in overrides['set']:
@@ -432,10 +434,14 @@ def resolve_item_icon(
                 icon = button_to_icon.get(button)
                 if icon:
                     result.add(icon.lower())
+    removals = overrides['remove'].get(item_name, [])
+    for pattern in overrides['pattern_remove']:
+        if re.match(pattern, item_name):
+            removals = removals + overrides['pattern_remove'][pattern]
     return [
         x.replace('&apos;', "'")
         for x in sorted(result)
-        if os.path.splitext(os.path.basename(x))[0] not in overrides['remove'].get(item_name, [])
+        if os.path.splitext(os.path.basename(x))[0] not in removals
     ]
 
 
@@ -478,7 +484,7 @@ def main():
 
     found = 0
     locations = {}
-    icon_paths = resolve_item_icon('Solar Lance (Spear of Adun Calldown)', **kwargs)
+    icon_paths = resolve_item_icon('Burrow (Swarm Host)', **kwargs)
     for item_name in item_numbers:
         icon_paths = resolve_item_icon(item_name, **kwargs)
         if icon_paths: found += 1

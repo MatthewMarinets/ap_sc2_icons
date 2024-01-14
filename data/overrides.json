@@ -12,19 +12,26 @@
         "Command Center Reactor": ["btn-research-terran-commandcenterreactor.dds"],
         "Vanadium Plating": ["btn-research-terran-vanadiumplating.dds"],
         "Ultra-Capacitors": ["btn-research-terran-ultracapacitors.dds"],
-        "Rogue Forces": ["btn-unit-terran-tosh.dds", "btn-unit-terran-taurenspacemarine.dds"],
+        "Rogue Forces": ["btn-building-terran-merccompound.dds", "btn-unit-terran-tosh.dds", "btn-unit-terran-taurenspacemarine.dds"],
+        "Internal Fusion Module (Hercules)": ["btn-upgrade-terran-internalizedtechmodule.dds"],
         "": [],
         "Nothing": ["btn-command-cancel.dds"]
     },
     "remove": {
-        "Ravager Aspect (Roach)": ["btn-command-cancel"],
         "Planetary Fortress": ["btn-command-cancel"],
         "Annihilator": ["ui_void_armyupgrade_factionnerazim_categoryicon"],
+        "Ultralisk": ["btn-building-zerg-ultraliskcavern"],
+        "Roach": ["btn-building-zerg-roachwarren"],
+        "Baneling Aspect (Zergling)": ["btn-building-zerg-banelingnest"],
         "": []
     },
     "pattern_add": {
         "Resource Efficiency.*": ["btn-ability-hornerhan-salvagebonus.dds", "btn-tips-resourcecaches.dds"],
         "Optimized Logistics.*": ["btn-upgrade-terran-optimizedlogistics.dds"],
+        "Rapid Metamorph (Baneling)": ["btn-upgrade-terran-optimizedlogistics.dds"],
         "Internal Tech Module.*": ["btn-upgrade-terran-internalizedtechmodule.dds"]
+    },
+    "pattern_remove": {
+        "[^(]+\\([^)]+\\)": ["btn-command-stop", "btn-command-cancel"]
     }
 }
