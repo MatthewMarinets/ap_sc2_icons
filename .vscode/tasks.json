@@ -12,6 +12,16 @@
                 "isDefault": true
             },
             "problemMatcher": []
+        },
+        {
+            "label": "Clean icons",
+            "type": "shell",
+            "command": "python clean_icons.py",
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "problemMatcher": []
         }
     ]
 }
