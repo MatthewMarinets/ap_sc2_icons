@@ -15,6 +15,7 @@
         "Rogue Forces": ["btn-building-terran-merccompound.dds", "btn-unit-terran-tosh.dds", "btn-unit-terran-taurenspacemarine.dds"],
         "Internal Fusion Module (Hercules)": ["btn-upgrade-terran-internalizedtechmodule.dds"],
         "Defensive Matrix (Science Vessel)": ["Assets\\Textures\\btn-upgrade-swann-defensivematrix.dds"],
+        "Button With a Skull on It (Thor)": ["btn-ability-tychus-odin-bigredbutton.dds"],
         "": [],
         "Nothing": ["btn-command-cancel.dds"]
     },

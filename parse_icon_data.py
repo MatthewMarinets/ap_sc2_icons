@@ -287,23 +287,27 @@ def parse_validator_data(validator_data_path: str) -> dict[str, str]:
     return requirement_to_validator
 
 
-def parse_abil_data(abil_data_path: str) -> tuple[dict[str, list[str]], dict[str, list[str]]]:
-    """unit -> ability, requirement -> button"""
+def parse_abil_data(abil_data_path: str) -> tuple[dict[str, list[str]], dict[str, list[str]], dict[str, list[str]]]:
+    """unit -> ability (train), requirement -> button, requirement -> ability"""
     with open(abil_data_path, 'r') as fp:
         lines = fp.readlines()
     unit_to_ability: dict[str, list[str]] = {}
     requirement_to_button: dict[str, list[str]] = {}
+    requirement_to_ability: dict[str, list[str]] = {}
     current_ability_stem = ''
     current_ability_type = ''
     current_ability_index = 0
+
     train_start_pattern = re.compile(r'^\s*<CAbil(?:Warp)?Train\s+id="(AP_[^"]+)"')
     build_start_pattern = re.compile(r'^\s*<CAbilBuild\s+id="(AP_[^"]+)"')
+    other_abil_start_pattern = re.compile(r'^\s*<CAbil\w+\s+id="(AP_[^"]+)"[^/]+$')
     index_start_pattern = re.compile(r'^\s*<InfoArray\s+index="(Build|Train)(\d+)"(?:\s+Unit="(AP_[^"]+)")?')
     button_pattern = re.compile(r'^\s*<CmdButtonArray .*DefaultButtonFace="([^"]+)".*Requirements="(AP_[^"]+)"')
-    train_end_pattern = re.compile(r'^\s*</CAbil(?:Warp)?Train>')
+    button_req_pattern = re.compile(r'^\s*<CmdButtonArray index="([^"]+)" Requirements="(AP_[^"]+)"')
+    abil_end_pattern = re.compile(r'^\s*</CAbil(\w+)>')
     unit_pattern = re.compile(r'^\s*<Unit value="(AP_[^"]+)"/>')
     default_button_pattern = re.compile(r'^\s*<Button DefaultButtonFace="(AP_[^"]+)" .*Requirements="(AP_[^"]+)"')
-    for line in lines:
+    for line_number, line in enumerate(lines):
         if match := re.match(train_start_pattern, line):
             assert not current_ability_type
             assert not current_ability_stem
@@ -316,6 +320,12 @@ def parse_abil_data(abil_data_path: str) -> tuple[dict[str, list[str]], dict[str
             current_ability_index = 0
             current_ability_stem = match.group(1)
             current_ability_type = 'build'
+        elif match := re.match(other_abil_start_pattern, line):
+            assert not current_ability_type
+            assert not current_ability_stem
+            current_ability_index = 0
+            current_ability_stem = match.group(1)
+            current_ability_type = 'other'
         elif match := re.match(index_start_pattern, line):
             assert current_ability_stem
             assert current_ability_type
@@ -331,10 +341,19 @@ def parse_abil_data(abil_data_path: str) -> tuple[dict[str, list[str]], dict[str
                     continue
                 unit_to_ability[unit].append(ability)
                 unit_to_ability[unit].append(ability_long)
-            else:
+            elif current_ability_type == 'train':
                 current_ability_index = int(match.group(2)) - 1
+            # Note(mm): not handling info arrays for 'other' abilities
         elif match := re.match(button_pattern, line):
             requirement_to_button.setdefault(match.group(2), []).append(match.group(1))
+        elif match := re.match(button_req_pattern, line):
+            if not current_ability_stem: continue
+            assert current_ability_type == 'other'
+            requirement_to_ability.setdefault(match.group(2), []).extend([
+                f'{current_ability_stem},{match.group(1)}',
+                f'{current_ability_stem},{current_ability_index}',
+            ])
+            current_ability_index += 1
         elif match := re.match(default_button_pattern, line):
             requirement_to_button.setdefault(match.group(2), []).append(match.group(1))
         elif '</InfoArray>' in line and current_ability_type == 'train':
@@ -351,17 +370,11 @@ def parse_abil_data(abil_data_path: str) -> tuple[dict[str, list[str]], dict[str
                 continue
             unit_to_ability[match.group(1)].append(ability)
             unit_to_ability[match.group(1)].append(ability_long)
-        elif '</CAbilBuild>' in line:
-            assert current_ability_type == 'build'
+        elif match := re.match(abil_end_pattern, line):
             current_ability_type = ''
             current_ability_stem = ''
             current_ability_index = 0
-        elif re.match(train_end_pattern, line):
-            assert current_ability_type == 'train'
-            current_ability_type = ''
-            current_ability_stem = ''
-            current_ability_index = 0
-    return unit_to_ability, requirement_to_button
+    return unit_to_ability, requirement_to_button, requirement_to_ability
 
 def parse_requirement_data(requirement_data_path: str) -> dict[str, List[str]]:
     """requirement -> requirement_node"""
@@ -452,6 +465,7 @@ def resolve_item_icon(
     button_to_icon: dict[str, str],
     upgrade_to_icon: dict[str, str],
     requirement_to_button: dict[str, set[str]],
+    requirement_to_ability: dict[str, set[str]],
     upgrade_to_requirement: dict[str, list[str]],
     requirement_to_validator: dict[str, str],
     validator_to_icon: dict[str, str],
@@ -491,14 +505,21 @@ def resolve_item_icon(
             # Passives, analyze if a requirement reveals a command-card button
             requirements = upgrade_to_requirement.get(unlock.name, [])
             for requirement in requirements:
+                # Check behaviour icons through validators
                 icon = validator_to_icon.get(requirement_to_validator.get(requirement))
                 if icon:
                     result.add(icon)
+                # Check default ability icons through requirements
                 buttons = sorted(requirement_to_button.get(requirement, []))
+                # Check non-default ability icons through requirements and unit command-cards
+                abilities = sorted(requirement_to_ability.get(requirement, []))
+                for ability in abilities:
+                    buttons.extend(ability_to_button.get(ability, []))
                 for button in buttons:
                     icon = button_to_icon.get(button)
                     if icon:
                         result.add(icon.lower())
+                    ability_to_button
         elif unlock.galaxy_type == 'ability':
             buttons = ability_to_button[unlock.name]
 
@@ -534,7 +555,7 @@ def main():
         vanilla_button_icons = parse_button_data(os.path.join(liberty_game_data, 'ButtonData.xml'))
         button_to_icon.update(vanilla_button_icons)
     id_to_unlocks = parse_galaxy_file(os.path.join(config['mod_files'], 'Mods/ArchipelagoTriggers.SC2Mod/Base.SC2Data/LibABFE498B.galaxy'))
-    unit_to_ability, requirement_to_ability_button = parse_abil_data(os.path.join(game_data, 'AbilData.xml'))
+    unit_to_ability, requirement_to_ability_button, requirement_to_ability = parse_abil_data(os.path.join(game_data, 'AbilData.xml'))
     ability_to_button, requirement_to_button = parse_unit_data(os.path.join(game_data, 'UnitData.xml'))
     upgrade_to_requirement = parse_combined_requirement_data(os.path.join(game_data, 'RequirementData.xml'), os.path.join(game_data, 'RequirementNodeData.xml'))
     validator_to_icon = parse_behaviour_data(os.path.join(game_data, 'BehaviorData.xml'))
@@ -552,6 +573,7 @@ def main():
         'button_to_icon': button_to_icon,
         'upgrade_to_icon': upgrade_to_icon,
         'requirement_to_button': requirement_to_button,
+        'requirement_to_ability': requirement_to_ability,
         'upgrade_to_requirement': upgrade_to_requirement,
         'requirement_to_validator': requirement_to_validator,
         'validator_to_icon': validator_to_icon,
@@ -560,7 +582,7 @@ def main():
 
     found = 0
     locations = {}
-    icon_paths = resolve_item_icon('Devourer Aspect (Mutalisk/Corruptor)', **kwargs)
+    icon_paths = resolve_item_icon('Feedback (Dark Archon)', **kwargs)
     for item_name in item_numbers:
         icon_paths = resolve_item_icon(item_name, **kwargs)
         if icon_paths: found += 1

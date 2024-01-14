@@ -225,6 +225,10 @@
  "Burst Capacitors (Diamondback)": [
   "icons/blizzard/btn-techupgrade-terran-burstcapacitors.png"
  ],
+ "Button With a Skull on It (Thor)": [
+  "icons/blizzard/btn-ability-terran-nuclearstrike-color.png",
+  "icons/blizzard/btn-ability-tychus-odin-bigredbutton.png"
+ ],
  "C20A Canister Rifle (Nova Weapon)": [
   "icons/blizzard/btn-upgrade-nova-equipment-canisterrifle.png"
  ],
@@ -457,6 +461,9 @@
  "Eye of Wrath (Wrathwalker)": [
   "icons/blizzard/btn-upgrade-protoss-extendedthermallance.png"
  ],
+ "Feedback (Dark Archon)": [
+  "icons/blizzard/btn-ability-protoss-feedback-color.png"
+ ],
  "Firebat": [
   "icons/blizzard/btn-unit-terran-firebat.png"
  ],
@@ -592,6 +599,9 @@
   "icons/blizzard/btn-upgrade-terran-hisecautotracking.png"
  ],
  "High Archon (Archon)": [
+  "icons/blizzard/btn-ability-protoss-feedback-color.png",
+  "icons/blizzard/btn-ability-protoss-hallucination-color.png",
+  "icons/blizzard/btn-ability-protoss-psistorm-color.png",
   "icons/blizzard/btn-ability-protoss-psistorm.png",
   "icons/blizzard/btn-upgrade-artanis-healingpsionicstorm.png"
  ],
@@ -1049,7 +1059,8 @@
   "icons/blizzard/biomassrecovery_coop.png"
  ],
  "Progressive Augmented Thrusters (Planetary Fortress)": [
-  "icons/blizzard/btn-ability-mengsk-siegetank-flyingtankarmament.png"
+  "icons/blizzard/btn-ability-mengsk-siegetank-flyingtankarmament.png",
+  "icons/blizzard/btn-ability-terran-liftoff.png"
  ],
  "Progressive Cross-Spectrum Dampeners (Banshee)": [
   "icons/blizzard/btn-ability-hornerhan-wraith-permanentcloak.png",
@@ -1066,7 +1077,8 @@
   "icons/blizzard/btn-techupgrade-terran-immortalityprotocol.png"
  ],
  "Progressive Missile Pods (Battlecruiser)": [
-  "icons/blizzard/btn-ability-terran-hurricane.png"
+  "icons/blizzard/btn-ability-terran-hurricane.png",
+  "icons/blizzard/btn-upgrade-terran-nova-bansheemissilestrik.png"
  ],
  "Progressive Orbital Command": [
   "icons/blizzard/btn-ability-terran-scannersweep-color.png",

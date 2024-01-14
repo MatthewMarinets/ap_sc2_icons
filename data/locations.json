@@ -2,7 +2,7 @@
   "meta": {
     "timestamp": "2024-01-14",
     "items": 589,
-    "located": 553
+    "located": 555
   },
   "locations": {
     "Marine": [
@@ -441,7 +441,8 @@
       "assets\\textures\\btn-techupgrade-terran-clusterwarheads.dds"
     ],
     "Progressive Missile Pods (Battlecruiser)": [
-      "assets\\textures\\btn-ability-terran-hurricane.dds"
+      "assets\\textures\\btn-ability-terran-hurricane.dds",
+      "assets\\textures\\btn-upgrade-terran-nova-bansheemissilestrik.dds"
     ],
     "Progressive Defensive Matrix (Battlecruiser)": [
       "assets\\textures\\btn-ability-terran-defensivematrix.dds"
@@ -517,7 +518,10 @@
       "btn-ability-hornerhan-salvagebonus.dds",
       "btn-tips-resourcecaches.dds"
     ],
-    "Button With a Skull on It (Thor)": [],
+    "Button With a Skull on It (Thor)": [
+      "assets\\textures\\btn-ability-terran-nuclearstrike-color.dds",
+      "btn-ability-tychus-odin-bigredbutton.dds"
+    ],
     "Laser Targeting System (Thor)": [
       "assets\\textures\\btn-upgrade-terran-lazertargetingsystem.dds"
     ],
@@ -657,7 +661,8 @@
       "assets\\textures\\btn-ability-terran-hercules-tacticaljump.dds"
     ],
     "Progressive Augmented Thrusters (Planetary Fortress)": [
-      "assets\\textures\\btn-ability-mengsk-siegetank-flyingtankarmament.dds"
+      "assets\\textures\\btn-ability-mengsk-siegetank-flyingtankarmament.dds",
+      "assets\\textures\\btn-ability-terran-liftoff.dds"
     ],
     "Advanced Targeting (Planetary Fortress)": [
       "assets\\textures\\btn-ability-terran-detectionconedebuff.dds"
@@ -1753,10 +1758,15 @@
       "assets\\textures\\btn-upgrade-protoss-khaydarinamulet.dds"
     ],
     "High Archon (Archon)": [
+      "assets\\textures\\btn-ability-protoss-feedback-color.dds",
+      "assets\\textures\\btn-ability-protoss-hallucination-color.dds",
+      "assets\\textures\\btn-ability-protoss-psistorm-color.dds",
       "assets\\textures\\btn-ability-protoss-psistorm.dds",
       "assets\\textures\\btn-upgrade-artanis-healingpsionicstorm.dds"
     ],
-    "Feedback (Dark Archon)": [],
+    "Feedback (Dark Archon)": [
+      "assets\\textures\\btn-ability-protoss-feedback-color.dds"
+    ],
     "Maelstrom (Dark Archon)": [
       "assets\\textures\\btn-ability-protoss-voidstasis.dds"
     ],
