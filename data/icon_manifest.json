@@ -260,7 +260,7 @@
   "icons/blizzard/btn-unit-protoss-zealot-nerazim.png"
  ],
  "Cerberus Mine (Spider Mine)": [
-  "icons/blizzard/btn-techupgrade-terran-cerberusmine.png"
+  "icons/blizzard/btn-upgrade-raynor-cerberusmines.png"
  ],
  "Chain Reaction (Kerrigan Tier 2)": [
   "icons/blizzard/btn-ability-swarm-kerrigan-chainreaction.png"
@@ -666,7 +666,7 @@
   "icons/blizzard/btn-ability-kerrigan-improvedoverlords.png"
  ],
  "Incinerator Gauntlets (Firebat)": [
-  "icons/blizzard/btn-techupgrade-terran-bearclawnozzles.png"
+  "icons/blizzard/btn-upgrade-raynor-incineratorgauntlets.png"
  ],
  "Incubator Chamber (Swarm Queen)": [
   "icons/blizzard/btn-upgrade-zerg-abathur-incubationchamber.png"
@@ -747,10 +747,11 @@
   "icons/blizzard/btn-unit-terran-thormengsk.png"
  ],
  "Juggernaut Plating (Firebat)": [
-  "icons/blizzard/btn-techupgrade-terran-juggernautplating.png"
+  "icons/blizzard/btn-upgrade-raynor-juggernautplating.png"
  ],
  "Juggernaut Plating (Marauder)": [
-  "icons/blizzard/btn-techupgrade-terran-juggernautplating.png"
+  "icons/blizzard/btn-techupgrade-terran-juggernautplating.png",
+  "icons/blizzard/btn-upgrade-raynor-juggernautplating.png"
  ],
  "Jump Jets (Goliath)": [
   "icons/blizzard/btn-ability-terran-jetpack-color.png"
@@ -786,7 +787,8 @@
   "icons/blizzard/btn-techupgrade-terran-kineticfoam.png"
  ],
  "Large Scale Field Construction (Thor)": [
-  "icons/blizzard/btn-unit-terran-thor.png"
+  "icons/blizzard/btn-unit-terran-thor.png",
+  "icons/blizzard/talent-swann-level06-unlockthor.png"
  ],
  "Laser Targeting System (Banshee)": [
   "icons/blizzard/btn-upgrade-terran-lazertargetingsystem.png"
@@ -836,7 +838,7 @@
   "icons/blizzard/btn-ability-protoss-voidstasis.png"
  ],
  "Maelstrom Rounds (Siege Tank)": [
-  "icons/blizzard/btn-techupgrade-terran-maelstromrounds.png"
+  "icons/blizzard/btn-upgrade-raynor-maelstromrounds.png"
  ],
  "Mag-Field Accelerators (Cyclone)": [
   "icons/blizzard/btn-upgrade-terran-magfieldaccelerator.png"
@@ -1121,7 +1123,7 @@
   "icons/blizzard/btn-research-zerg-regenerativebio-steel.png"
  ],
  "Progressive Replenishable Magazine (Vulture)": [
-  "icons/blizzard/btn-techupgrade-terran-replenishablemagazine.png"
+  "icons/blizzard/btn-upgrade-raynor-replenishablemagazine.png"
  ],
  "Progressive Stealth Suit Module (Nova Suit Module)": [
   "icons/blizzard/btn-ability-terran-cloak-color.png",
@@ -1423,7 +1425,7 @@
   "icons/original/btn-ability-terran-restoration@scbw.png"
  ],
  "Ripwave Missiles (Viking)": [
-  "icons/blizzard/btn-techupgrade-terran-ripwavemissiles.png"
+  "icons/blizzard/btn-upgrade-raynor-ripwavemissiles.png"
  ],
  "Roach": [
   "icons/blizzard/btn-unit-zerg-roach-corpser.png",
@@ -1515,7 +1517,7 @@
   "icons/blizzard/btn-techupgrade-terran-consumption.png"
  ],
  "Shockwave Missile Battery (Banshee)": [
-  "icons/blizzard/btn-techupgrade-terran-clusterwarheads.png"
+  "icons/blizzard/btn-upgrade-raynor-shockwavemissilebattery.png"
  ],
  "Shredder Rounds (Viking)": [
   "icons/blizzard/btn-ability-hornerhan-viking-piercingattacks.png"
@@ -1600,7 +1602,7 @@
  ],
  "Spider Mines (Reaper)": [
   "icons/original/btn-ability-terran-spidermine.png",
-  "icons/blizzard/btn-techupgrade-terran-replenishablemagazine.png"
+  "icons/blizzard/btn-upgrade-raynor-replenishablemagazine.png"
  ],
  "Spider Mines (Siege Tank)": [
   "icons/blizzard/btn-upgrade-siegetank-spidermines.png"
@@ -1618,7 +1620,7 @@
   "icons/blizzard/btn-building-zerg-sporecrawler.png"
  ],
  "Stabilizer Medpacks (Medic)": [
-  "icons/blizzard/btn-techupgrade-terran-stabilizermedpacks.png"
+  "icons/blizzard/btn-upgrade-raynor-stabilizermedpacks.png"
  ],
  "Stalker": [
   "icons/blizzard/btn-unit-protoss-stalker.png"
@@ -1697,7 +1699,7 @@
   "icons/blizzard/btn-ability-spearofadun-temporalfield.png"
  ],
  "Thermite Filaments (Hellion)": [
-  "icons/blizzard/btn-techupgrade-terran-infernalpreigniter.png"
+  "icons/blizzard/btn-upgrade-terran-infernalpreigniter.png"
  ],
  "Thor": [
   "icons/blizzard/btn-unit-terran-thor.png"

@@ -20,6 +20,7 @@
         "Advanced Medic Facilities (Medic)": ["btn-techupgrade-terran-nano-botinjectors.dds"],
         "Khalai Ingenuity": ["btn-upgrade-karax-pylonwarpininstantly.dds"],
         "Progressive Fire-Suppression System": ["btn-upgrade-swann-firesuppressionsystem.dds"],
+        "Large Scale Field Construction (Thor)": ["talent-swann-level06-unlockthor.dds"],
         "": [],
         "Nothing": ["btn-command-cancel.dds"]
     },

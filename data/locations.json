@@ -165,13 +165,13 @@
       "btn-techupgrade-terran-nano-botinjectors.dds"
     ],
     "Stabilizer Medpacks (Medic)": [
-      "assets\\textures\\btn-techupgrade-terran-stabilizermedpacks.dds"
+      "assets\\textures\\btn-upgrade-raynor-stabilizermedpacks.dds"
     ],
     "Incinerator Gauntlets (Firebat)": [
-      "assets\\textures\\btn-techupgrade-terran-bearclawnozzles.dds"
+      "assets\\textures\\btn-upgrade-raynor-incineratorgauntlets.dds"
     ],
     "Juggernaut Plating (Firebat)": [
-      "assets\\textures\\btn-techupgrade-terran-juggernautplating.dds"
+      "assets\\textures\\btn-upgrade-raynor-juggernautplating.dds"
     ],
     "Concussive Shells (Marauder)": [
       "assets\\textures\\btn-ability-terran-punishergrenade-color.dds"
@@ -250,7 +250,8 @@
       "assets\\textures\\talent-raynor-level03-firebatmedicrange.dds"
     ],
     "Juggernaut Plating (Marauder)": [
-      "assets\\textures\\btn-techupgrade-terran-juggernautplating.dds"
+      "assets\\textures\\btn-techupgrade-terran-juggernautplating.dds",
+      "assets\\textures\\btn-upgrade-raynor-juggernautplating.dds"
     ],
     "Jet Pack Overdrive (Reaper)": [
       "assets\\textures\\btn-ability-hornerhan-reaper-flightmode.dds"
@@ -299,7 +300,7 @@
     ],
     "Spider Mines (Reaper)": [
       "ap\\assets\\textures\\btn-ability-terran-spidermine.dds",
-      "assets\\textures\\btn-techupgrade-terran-replenishablemagazine.dds"
+      "assets\\textures\\btn-upgrade-raynor-replenishablemagazine.dds"
     ],
     "Combat Drugs (Reaper)": [
       "assets\\textures\\btn-upgrade-terran-reapercombatdrugs.dds"
@@ -390,13 +391,13 @@
       "assets\\textures\\btn-upgrade-terran-twin-linkedflamethrower.dds"
     ],
     "Thermite Filaments (Hellion)": [
-      "assets\\textures\\btn-techupgrade-terran-infernalpreigniter.dds"
+      "assets\\textures\\btn-upgrade-terran-infernalpreigniter.dds"
     ],
     "Cerberus Mine (Spider Mine)": [
-      "assets\\textures\\btn-techupgrade-terran-cerberusmine.dds"
+      "assets\\textures\\btn-upgrade-raynor-cerberusmines.dds"
     ],
     "Progressive Replenishable Magazine (Vulture)": [
-      "assets\\textures\\btn-techupgrade-terran-replenishablemagazine.dds"
+      "assets\\textures\\btn-upgrade-raynor-replenishablemagazine.dds"
     ],
     "Multi-Lock Weapons System (Goliath)": [
       "assets\\textures\\btn-techupgrade-terran-multilocktargetingsystem.dds"
@@ -411,7 +412,7 @@
       "assets\\textures\\btn-techupgrade-terran-shapedhull.dds"
     ],
     "Maelstrom Rounds (Siege Tank)": [
-      "assets\\textures\\btn-techupgrade-terran-maelstromrounds.dds"
+      "assets\\textures\\btn-upgrade-raynor-maelstromrounds.dds"
     ],
     "Shaped Blast (Siege Tank)": [
       "assets\\textures\\btn-techupgrade-terran-shapedblast.dds"
@@ -431,7 +432,7 @@
       "assets\\textures\\btn-techupgrade-terran-cloakdistortionfield.dds"
     ],
     "Ripwave Missiles (Viking)": [
-      "assets\\textures\\btn-techupgrade-terran-ripwavemissiles.dds"
+      "assets\\textures\\btn-upgrade-raynor-ripwavemissiles.dds"
     ],
     "Phobos-Class Weapons System (Viking)": [
       "assets\\textures\\btn-techupgrade-terran-jotunboosters.dds"
@@ -441,7 +442,7 @@
       "assets\\textures\\btn-techupgrade-terran-crossspectrumdampeners.dds"
     ],
     "Shockwave Missile Battery (Banshee)": [
-      "assets\\textures\\btn-techupgrade-terran-clusterwarheads.dds"
+      "assets\\textures\\btn-upgrade-raynor-shockwavemissilebattery.dds"
     ],
     "Progressive Missile Pods (Battlecruiser)": [
       "assets\\textures\\btn-ability-terran-hurricane.dds",
@@ -529,7 +530,8 @@
       "assets\\textures\\btn-upgrade-terran-lazertargetingsystem.dds"
     ],
     "Large Scale Field Construction (Thor)": [
-      "assets\\textures\\btn-unit-terran-thor.dds"
+      "assets\\textures\\btn-unit-terran-thor.dds",
+      "talent-swann-level06-unlockthor.dds"
     ],
     "Resource Efficiency (Raven)": [
       "btn-ability-hornerhan-salvagebonus.dds",
