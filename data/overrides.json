@@ -1,6 +1,6 @@
 {
     "set": {
-
+        "Hallucination (Sentry)": ["btn-ability-protoss-hallucination-color.dds"]
     },
     "add": {
         "Additional Starting Minerals": ["btn-tips-resourcecaches.dds", "btn-doodad-minerals.dds", "btn-tips-richminerals.dds"],

@@ -302,8 +302,7 @@ def parse_abil_data(abil_data_path: str) -> tuple[dict[str, list[str]], dict[str
     build_start_pattern = re.compile(r'^\s*<CAbilBuild\s+id="(AP_[^"]+)"')
     other_abil_start_pattern = re.compile(r'^\s*<CAbil\w+\s+id="(AP_[^"]+)"[^/]+$')
     index_start_pattern = re.compile(r'^\s*<InfoArray\s+index="(Build|Train)(\d+)"(?:\s+Unit="(AP_[^"]+)")?')
-    button_pattern = re.compile(r'^\s*<CmdButtonArray .*DefaultButtonFace="([^"]+)".*Requirements="(AP_[^"]+)"')
-    button_req_pattern = re.compile(r'^\s*<CmdButtonArray index="([^"]+)" Requirements="(AP_[^"]+)"')
+    button_pattern = re.compile(r'^\s*<CmdButtonArray (?:index="([^"]+)" )?.*(?:DefaultButtonFace="([^"]+)" )?.*Requirements="(AP_[^"]+)"')
     abil_end_pattern = re.compile(r'^\s*</CAbil(\w+)>')
     unit_pattern = re.compile(r'^\s*<Unit value="(AP_[^"]+)"/>')
     default_button_pattern = re.compile(r'^\s*<Button DefaultButtonFace="(AP_[^"]+)" .*Requirements="(AP_[^"]+)"')
@@ -345,15 +344,17 @@ def parse_abil_data(abil_data_path: str) -> tuple[dict[str, list[str]], dict[str
                 current_ability_index = int(match.group(2)) - 1
             # Note(mm): not handling info arrays for 'other' abilities
         elif match := re.match(button_pattern, line):
-            requirement_to_button.setdefault(match.group(2), []).append(match.group(1))
-        elif match := re.match(button_req_pattern, line):
-            if not current_ability_stem: continue
-            assert current_ability_type == 'other'
-            requirement_to_ability.setdefault(match.group(2), []).extend([
-                f'{current_ability_stem},{match.group(1)}',
-                f'{current_ability_stem},{current_ability_index}',
-            ])
-            current_ability_index += 1
+            assert match.group(1) or match.group(2)
+            if match.group(2):
+                requirement_to_button.setdefault(match.group(3), []).append(match.group(2))
+            if match.group(1):
+                if not current_ability_stem: continue
+                assert current_ability_type == 'other'
+                requirement_to_ability.setdefault(match.group(3), []).extend([
+                    f'{current_ability_stem},{match.group(1)}',
+                    f'{current_ability_stem},{current_ability_index}',
+                ])
+                current_ability_index += 1
         elif match := re.match(default_button_pattern, line):
             requirement_to_button.setdefault(match.group(2), []).append(match.group(1))
         elif '</InfoArray>' in line and current_ability_type == 'train':
@@ -582,7 +583,7 @@ def main():
 
     found = 0
     locations = {}
-    icon_paths = resolve_item_icon('Feedback (Dark Archon)', **kwargs)
+    icon_paths = resolve_item_icon('Burrow Charge (Ultralisk)', **kwargs)
     for item_name in item_numbers:
         icon_paths = resolve_item_icon(item_name, **kwargs)
         if icon_paths: found += 1

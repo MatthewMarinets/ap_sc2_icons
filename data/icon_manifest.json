@@ -151,8 +151,7 @@
  ],
  "Automated Refinery": [
   "icons/original/btn-building-terran-refineryautomated.png",
-  "icons/blizzard/btn-building-terran-refinery.png",
-  "icons/blizzard/btn-building-terran-supplydepot.png"
+  "icons/blizzard/btn-building-terran-refinery.png"
  ],
  "Avenger": [
   "icons/blizzard/btn-unit-protoss-darktemplar-aiur.png"
@@ -219,8 +218,12 @@
   "icons/blizzard/btn-building-terran-bunker.png"
  ],
  "Burrow (Swarm Host)": [
-  "icons/blizzard/btn-building-terran-supplydepot.png",
+  "icons/blizzard/btn-ability-zerg-burrow-color.png",
+  "icons/blizzard/btn-ability-zerg-swarmhost_root.png",
   "icons/blizzard/btn-upgrade-zerg-swarmhostburrow.png"
+ ],
+ "Burrow Charge (Ultralisk)": [
+  "icons/blizzard/btn-upgrade-zerg-burrowcharge.png"
  ],
  "Burst Capacitors (Diamondback)": [
   "icons/blizzard/btn-techupgrade-terran-burstcapacitors.png"
@@ -237,6 +240,7 @@
  ],
  "Carrion Strain (Swarm Host)": [
   "icons/blizzard/btn-unit-zerg-locust.png",
+  "icons/blizzard/btn-unit-zerg-locustflyer.png",
   "icons/blizzard/btn-unit-zerg-swarmhost-carrion.png",
   "icons/blizzard/btn-unit-zerg-swarmhost.png"
  ],
@@ -550,16 +554,7 @@
   "icons/blizzard/btn-unit-protoss-hightemplar.png"
  ],
  "Hallucination (Sentry)": [
-  "icons/blizzard/btn-ability-protoss-hallucination-color.png",
-  "icons/blizzard/btn-unit-protoss-adept-purifier.png",
-  "icons/blizzard/btn-unit-protoss-colossus.png",
-  "icons/blizzard/btn-unit-protoss-hightemplar.png",
-  "icons/blizzard/btn-unit-protoss-immortal.png",
-  "icons/blizzard/btn-unit-protoss-oracle.png",
-  "icons/blizzard/btn-unit-protoss-probe.png",
-  "icons/blizzard/btn-unit-protoss-stalker.png",
-  "icons/blizzard/btn-unit-protoss-warpprism.png",
-  "icons/blizzard/btn-unit-protoss-zealot.png"
+  "icons/blizzard/btn-ability-protoss-hallucination-color.png"
  ],
  "Hammer Securities": [
   "icons/original/btn-unit-terran-maraudermercenary.png"
@@ -1040,7 +1035,6 @@
   "icons/blizzard/potentbile_coop.png"
  ],
  "Power Overwhelming (Ascendant)": [
-  "icons/blizzard/btn-ability-protoss-sacrifice.png",
   "icons/blizzard/btn-upgrade-protoss-alarak-ascendantspermanentlybetter.png"
  ],
  "Predator": [
@@ -1345,7 +1339,6 @@
   "icons/blizzard/btn-tips-resourcecaches.png"
  ],
  "Resource Efficiency (Firebat)": [
-  "icons/blizzard/btn-unit-terran-firebat.png",
   "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
   "icons/blizzard/btn-tips-resourcecaches.png"
  ],
@@ -1403,7 +1396,6 @@
   "icons/blizzard/btn-tips-resourcecaches.png"
  ],
  "Resource Efficiency (Ultralisk)": [
-  "icons/blizzard/btn-unit-zerg-ultralisk.png",
   "icons/blizzard/btn-ability-hornerhan-salvagebonus.png",
   "icons/blizzard/btn-tips-resourcecaches.png"
  ],
@@ -1827,8 +1819,7 @@
   "icons/blizzard/btn-building-protoss-roboticsfacility.png",
   "icons/blizzard/btn-building-protoss-roboticswarpfacility.png",
   "icons/blizzard/btn-building-protoss-stargate.png",
-  "icons/blizzard/btn-building-protoss-starwarpgate.png",
-  "icons/blizzard/btn-building-protoss-warpgate.png"
+  "icons/blizzard/btn-building-protoss-starwarpgate.png"
  ],
  "Warp Prism": [
   "icons/blizzard/btn-unit-protoss-warpprism.png"

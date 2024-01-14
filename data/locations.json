@@ -2,7 +2,7 @@
   "meta": {
     "timestamp": "2024-01-14",
     "items": 589,
-    "located": 555
+    "located": 556
   },
   "locations": {
     "Marine": [
@@ -211,7 +211,6 @@
       "assets\\textures\\btn-upgrade-terran-superstimppack.dds"
     ],
     "Resource Efficiency (Firebat)": [
-      "assets\\textures\\btn-unit-terran-firebat.dds",
       "btn-ability-hornerhan-salvagebonus.dds",
       "btn-tips-resourcecaches.dds"
     ],
@@ -767,8 +766,7 @@
     ],
     "Automated Refinery": [
       "ap\\assets\\textures\\btn-building-terran-refineryautomated.dds",
-      "assets\\textures\\btn-building-terran-refinery.dds",
-      "assets\\textures\\btn-building-terran-supplydepot.dds"
+      "assets\\textures\\btn-building-terran-refinery.dds"
     ],
     "Command Center Reactor": [
       "btn-research-terran-commandcenterreactor.dds"
@@ -1076,7 +1074,8 @@
       "assets\\textures\\btn-upgrade-zerg-explosiveglaive.dds"
     ],
     "Burrow (Swarm Host)": [
-      "assets\\textures\\btn-building-terran-supplydepot.dds",
+      "assets\\textures\\btn-ability-zerg-burrow-color.dds",
+      "assets\\textures\\btn-ability-zerg-swarmhost_root.dds",
       "assets\\textures\\btn-upgrade-zerg-swarmhostburrow.dds"
     ],
     "Rapid Incubation (Swarm Host)": [
@@ -1085,7 +1084,9 @@
     "Pressurized Glands (Swarm Host)": [
       "assets\\textures\\btn-upgrade-zerg-pressurizedglands.dds"
     ],
-    "Burrow Charge (Ultralisk)": [],
+    "Burrow Charge (Ultralisk)": [
+      "assets\\textures\\btn-upgrade-zerg-burrowcharge.dds"
+    ],
     "Tissue Animation (Ultralisk)": [
       "assets\\textures\\btn-upgrade-zerg-tissueassimilation.dds"
     ],
@@ -1162,7 +1163,6 @@
       "assets\\textures\\btn-upgrade-zerg-organiccarapace.dds"
     ],
     "Resource Efficiency (Ultralisk)": [
-      "assets\\textures\\btn-unit-zerg-ultralisk.dds",
       "btn-ability-hornerhan-salvagebonus.dds",
       "btn-tips-resourcecaches.dds"
     ],
@@ -1314,6 +1314,7 @@
     ],
     "Carrion Strain (Swarm Host)": [
       "assets\\textures\\btn-unit-zerg-locust.dds",
+      "assets\\textures\\btn-unit-zerg-locustflyer.dds",
       "assets\\textures\\btn-unit-zerg-swarmhost-carrion.dds",
       "assets\\textures\\btn-unit-zerg-swarmhost.dds"
     ],
@@ -1774,7 +1775,6 @@
       "ap\\assets\\textures\\btn-upgrade-protoss-argustalisman@scbw.dds"
     ],
     "Power Overwhelming (Ascendant)": [
-      "assets\\textures\\btn-ability-protoss-sacrifice.dds",
       "assets\\textures\\btn-upgrade-protoss-alarak-ascendantspermanentlybetter.dds"
     ],
     "Chaotic Attunement (Ascendant)": [
@@ -1793,16 +1793,7 @@
       "assets\\textures\\btn-ability-protoss-forcefield-color.dds"
     ],
     "Hallucination (Sentry)": [
-      "assets\\textures\\btn-ability-protoss-hallucination-color.dds",
-      "assets\\textures\\btn-unit-protoss-adept-purifier.dds",
-      "assets\\textures\\btn-unit-protoss-colossus.dds",
-      "assets\\textures\\btn-unit-protoss-hightemplar.dds",
-      "assets\\textures\\btn-unit-protoss-immortal.dds",
-      "assets\\textures\\btn-unit-protoss-oracle.dds",
-      "assets\\textures\\btn-unit-protoss-probe.dds",
-      "assets\\textures\\btn-unit-protoss-stalker.dds",
-      "assets\\textures\\btn-unit-protoss-warpprism.dds",
-      "assets\\textures\\btn-unit-protoss-zealot.dds"
+      "btn-ability-protoss-hallucination-color.dds"
     ],
     "Reclamation (Energizer)": [
       "assets\\textures\\btn-ability-protoss-reclamation.dds"
@@ -1876,8 +1867,7 @@
       "assets\\textures\\btn-building-protoss-roboticsfacility.dds",
       "assets\\textures\\btn-building-protoss-roboticswarpfacility.dds",
       "assets\\textures\\btn-building-protoss-stargate.dds",
-      "assets\\textures\\btn-building-protoss-starwarpgate.dds",
-      "assets\\textures\\btn-building-protoss-warpgate.dds"
+      "assets\\textures\\btn-building-protoss-starwarpgate.dds"
     ],
     "Guardian Shell": [
       "assets\\textures\\btn-ability-spearofadun-guardianshell.dds"
