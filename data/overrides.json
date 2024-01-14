@@ -16,6 +16,10 @@
         "Internal Fusion Module (Hercules)": ["btn-upgrade-terran-internalizedtechmodule.dds"],
         "Defensive Matrix (Science Vessel)": ["Assets\\Textures\\btn-upgrade-swann-defensivematrix.dds"],
         "Button With a Skull on It (Thor)": ["btn-ability-tychus-odin-bigredbutton.dds"],
+        "Rapid Metamorph (Baneling)": ["btn-upgrade-terran-optimizedlogistics.dds"],
+        "Advanced Medic Facilities (Medic)": ["btn-techupgrade-terran-nano-botinjectors.dds"],
+        "Khalai Ingenuity": ["btn-upgrade-karax-pylonwarpininstantly.dds"],
+        "Progressive Fire-Suppression System": ["btn-upgrade-swann-firesuppressionsystem.dds"],
         "": [],
         "Nothing": ["btn-command-cancel.dds"]
     },
@@ -35,6 +39,6 @@
     },
     "pattern_remove": {
         "[^(]+\\([^)]+\\)": ["btn-command-cancel"],
-        ".*": ["btn-command-attack", "btn-command-stop"]
+        ".*": ["btn-command-attack", "btn-command-stop", "aoe_splatterran1c"]
     }
 }

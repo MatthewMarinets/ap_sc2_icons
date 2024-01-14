@@ -66,6 +66,9 @@
  "Advanced Laser Technology (Wraith)": [
   "icons/blizzard/btn-upgrade-swann-improvedburstlaser.png"
  ],
+ "Advanced Medic Facilities (Medic)": [
+  "icons/blizzard/btn-techupgrade-terran-nano-botinjectors.png"
+ ],
  "Advanced Optics": [
   "icons/blizzard/btn-upgrade-swann-vehiclerangeincrease.png"
  ],
@@ -97,7 +100,7 @@
   "icons/blizzard/btn-ability-protoss-chargedblast.png"
  ],
  "Amplified Assimilators": [
-  "icons/blizzard/btn-ability-terran-microfiltering.png"
+  "icons/original/btn-research-terran-microfiltering.png"
  ],
  "Anabolic Synthesis (Ultralisk)": [
   "icons/blizzard/btn-upgrade-zerg-anabolicsynthesis.png"
@@ -761,6 +764,9 @@
  "Jump Suit Module (Nova Suit Module)": [
   "icons/blizzard/btn-upgrade-nova-jetpack.png"
  ],
+ "Khalai Ingenuity": [
+  "icons/blizzard/btn-upgrade-karax-pylonwarpininstantly.png"
+ ],
  "Khaydarin Amulet (High Templar/Signifier)": [
   "icons/blizzard/btn-upgrade-protoss-khaydarinamulet.png"
  ],
@@ -875,7 +881,7 @@
   "icons/blizzard/btn-upgrade-zerg-hotsmetabolicboost.png"
  ],
  "Micro-Filtering": [
-  "icons/blizzard/btn-ability-terran-microfiltering.png"
+  "icons/original/btn-research-terran-microfiltering.png"
  ],
  "Microbial Shroud (Infestor)": [
   "icons/blizzard/btn-ability-zerg-darkswarm.png"
@@ -1062,6 +1068,9 @@
  ],
  "Progressive Defensive Matrix (Battlecruiser)": [
   "icons/blizzard/btn-ability-terran-defensivematrix.png"
+ ],
+ "Progressive Fire-Suppression System": [
+  "icons/blizzard/btn-upgrade-swann-firesuppressionsystem.png"
  ],
  "Progressive High Impact Payload (Thor)": [
   "icons/blizzard/btn-unit-terran-thorsiegemode.png",
@@ -1271,6 +1280,9 @@
  ],
  "Rapid Incubation (Swarm Host)": [
   "icons/blizzard/btn-upgrade-zerg-rapidincubation.png"
+ ],
+ "Rapid Metamorph (Baneling)": [
+  "icons/blizzard/btn-upgrade-terran-optimizedlogistics.png"
  ],
  "Rapid Power Cycling (Wrathwalker)": [
   "icons/blizzard/btn-upgrade-protoss-wrathwalker-chargetimeimproved.png"
@@ -1530,7 +1542,6 @@
   "icons/blizzard/btn-upgrade-artanis-singularitycharge.png"
  ],
  "Singularity Charge (Immortal/Annihilator)": [
-  "icons/blizzard/aoe_splatterran1c.png",
   "icons/blizzard/btn-upgrade-artanis-singularitycharge.png"
  ],
  "Skibi's Angels": [

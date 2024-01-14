@@ -2,7 +2,7 @@
   "meta": {
     "timestamp": "2024-01-14",
     "items": 589,
-    "located": 556
+    "located": 560
   },
   "locations": {
     "Marine": [
@@ -145,7 +145,9 @@
     "Dual-Fusion Welders (SCV)": [
       "assets\\textures\\btn-upgrade-swann-scvdoublerepair.dds"
     ],
-    "Progressive Fire-Suppression System": [],
+    "Progressive Fire-Suppression System": [
+      "btn-upgrade-swann-firesuppressionsystem.dds"
+    ],
     "Progressive Orbital Command": [
       "assets\\textures\\btn-ability-terran-scannersweep-color.dds",
       "assets\\textures\\btn-building-terran-commandcenter.dds",
@@ -159,7 +161,9 @@
     "Combat Shield (Marine)": [
       "assets\\textures\\btn-techupgrade-terran-combatshield-color.dds"
     ],
-    "Advanced Medic Facilities (Medic)": [],
+    "Advanced Medic Facilities (Medic)": [
+      "btn-techupgrade-terran-nano-botinjectors.dds"
+    ],
     "Stabilizer Medpacks (Medic)": [
       "assets\\textures\\btn-techupgrade-terran-stabilizermedpacks.dds"
     ],
@@ -762,7 +766,7 @@
       "assets\\textures\\btn-building-terran-supplydepot.dds"
     ],
     "Micro-Filtering": [
-      "assets\\textures\\btn-ability-terran-microfiltering.dds"
+      "ap\\assets\\textures\\btn-research-terran-microfiltering.dds"
     ],
     "Automated Refinery": [
       "ap\\assets\\textures\\btn-building-terran-refineryautomated.dds",
@@ -1133,7 +1137,9 @@
     "Tunneling Jaws (Baneling)": [
       "assets\\textures\\btn-upgrade-zerg-tunnelingjaws.dds"
     ],
-    "Rapid Metamorph (Baneling)": [],
+    "Rapid Metamorph (Baneling)": [
+      "btn-upgrade-terran-optimizedlogistics.dds"
+    ],
     "Severing Glave (Mutalisk)": [
       "assets\\textures\\btn-upgrade-zerg-explosiveglaive.dds"
     ],
@@ -1717,7 +1723,6 @@
       "assets\\textures\\btn-upgrade-protoss-vanguard-aoeradiusincreased.dds"
     ],
     "Singularity Charge (Immortal/Annihilator)": [
-      "assets\\textures\\aoe_splatterran1c.dds",
       "assets\\textures\\btn-upgrade-artanis-singularitycharge.dds"
     ],
     "Advanced Targeting Mechanics (Immortal/Annihilator)": [
@@ -1885,9 +1890,11 @@
     "Optimized Ordnance": [
       "assets\\textures\\btn-upgrade-karax-turretattackspeed.dds"
     ],
-    "Khalai Ingenuity": [],
+    "Khalai Ingenuity": [
+      "btn-upgrade-karax-pylonwarpininstantly.dds"
+    ],
     "Amplified Assimilators": [
-      "assets\\textures\\btn-ability-terran-microfiltering.dds"
+      "ap\\assets\\textures\\btn-research-terran-microfiltering.dds"
     ]
   }
 }
