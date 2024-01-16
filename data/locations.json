@@ -1,8 +1,8 @@
 {
   "meta": {
-    "timestamp": "2024-01-14",
+    "timestamp": "2024-01-16",
     "items": 589,
-    "located": 561
+    "located": 563
   },
   "locations": {
     "Marine": [
@@ -127,7 +127,7 @@
     ],
     "Progressive Terran Weapon/Armor Upgrade": [],
     "Projectile Accelerator (Bunker)": [
-      "assets\\textures\\btn-techupgrade-terran-projectileaccelerator.dds"
+      "assets\\textures\\btn-upgrade-zerg-stukov-bunkerresearchbundle_05.dds"
     ],
     "Neosteel Bunker (Bunker)": [
       "ap\\assets\\textures\\btn-techupgrade-terran-neosteelbunker.dds",
@@ -137,7 +137,7 @@
       "ap\\assets\\textures\\btn-techupgrade-terran-titaniumhousing.dds"
     ],
     "Hellstorm Batteries (Missile Turret)": [
-      "assets\\textures\\btn-techupgrade-terran-hellstormbatteries.dds"
+      "assets\\textures\\btn-ability-stetmann-corruptormissilebarrage.dds"
     ],
     "Advanced Construction (SCV)": [
       "assets\\textures\\btn-ability-mengsk-trooper-advancedconstruction.dds"
@@ -259,7 +259,7 @@
       "assets\\textures\\btn-upgrade-swann-hellarmor.dds"
     ],
     "Auto-Repair (Vulture)": [
-      "assets\\textures\\btn-ability-terran-repair.dds"
+      "assets\\textures\\ui_tipicon_campaign_space01-repair.dds"
     ],
     "Shaped Hull (Goliath)": [
       "assets\\textures\\btn-techupgrade-terran-shapedhull.dds"
@@ -323,7 +323,7 @@
       "assets\\textures\\btn-ability-terran-emergencythrusters.dds"
     ],
     "Auto Launchers (Vulture)": [
-      "assets\\textures\\btn-techupgrade-terran-jotunboosters.dds"
+      "assets\\textures\\btn-upgrade-terran-jotunboosters.dds"
     ],
     "High Explosive Munition (Spider Mine)": [
       "ap\\assets\\textures\\btn-ability-terran-spidermine.dds"
@@ -395,10 +395,10 @@
       "assets\\textures\\btn-upgrade-raynor-replenishablemagazine.dds"
     ],
     "Multi-Lock Weapons System (Goliath)": [
-      "assets\\textures\\btn-techupgrade-terran-multilocktargetingsystem.dds"
+      "assets\\textures\\btn-upgrade-swann-multilockweaponsystem.dds"
     ],
     "Ares-Class Targeting System (Goliath)": [
-      "assets\\textures\\btn-techupgrade-terran-charonboosters.dds"
+      "assets\\textures\\btn-upgrade-swann-aresclasstargetingsystem.dds"
     ],
     "Tri-Lithium Power Cell (Diamondback)": [
       "assets\\textures\\btn-techupgrade-terran-trilithiumpowercell.dds"
@@ -424,13 +424,13 @@
       "assets\\textures\\btn-techupgrade-terran-tomahawkpowercell.dds"
     ],
     "Displacement Field (Wraith)": [
-      "assets\\textures\\btn-techupgrade-terran-cloakdistortionfield.dds"
+      "assets\\textures\\btn-upgrade-swann-displacementfield.dds"
     ],
     "Ripwave Missiles (Viking)": [
       "assets\\textures\\btn-upgrade-raynor-ripwavemissiles.dds"
     ],
     "Phobos-Class Weapons System (Viking)": [
-      "assets\\textures\\btn-techupgrade-terran-jotunboosters.dds"
+      "assets\\textures\\btn-upgrade-raynor-phobosclassweaponssystem.dds"
     ],
     "Progressive Cross-Spectrum Dampeners (Banshee)": [
       "assets\\textures\\btn-ability-hornerhan-wraith-permanentcloak.dds",
@@ -524,7 +524,7 @@
     ],
     "Large Scale Field Construction (Thor)": [
       "assets\\textures\\btn-unit-terran-thor.dds",
-      "talent-swann-level06-unlockthor.dds"
+      "talent-swann-level12-immortalityprotocol.dds"
     ],
     "Resource Efficiency (Raven)": [
       "btn-ability-hornerhan-salvagebonus.dds"
@@ -629,7 +629,7 @@
       "assets\\textures\\btn-ability-hornerhan-widowmine-deathblossom.dds"
     ],
     "Enhanced Cluster Launchers (Valkyrie)": [
-      "ap\\assets\\textures\\btn-weapon-terran-hailstormmissiles.dds"
+      "assets\\textures\\btn-ability-stetmann-corruptormissilebarrage.dds"
     ],
     "Shaped Hull (Valkyrie)": [
       "assets\\textures\\btn-techupgrade-terran-shapedhull.dds"
@@ -754,7 +754,7 @@
       "btn-research-terran-vanadiumplating.dds"
     ],
     "Orbital Depots": [
-      "assets\\textures\\btn-building-terran-supplydepot.dds"
+      "btn-research-terran-orbitaldepots.dds"
     ],
     "Micro-Filtering": [
       "ap\\assets\\textures\\btn-research-terran-microfiltering.dds"
@@ -857,6 +857,7 @@
       "btn-tips-richminerals.dds"
     ],
     "Additional Starting Vespene": [
+      "btn-ability-spearofadun-orbitalassimilator.dds",
       "btn-tips-resourcecaches.dds",
       "wireframe-general-gaspallet.dds"
     ],
@@ -882,10 +883,15 @@
     ],
     "Progressive Stealth Suit Module (Nova Suit Module)": [
       "assets\\textures\\btn-ability-terran-cloak-color.dds",
-      "assets\\textures\\btn-upgrade-nova-tacticalstealthsuit.dds"
+      "assets\\textures\\btn-upgrade-nova-tacticalstealthsuit.dds",
+      "btn-upgrade-nova-equipment-stealthsuit.dds"
     ],
-    "Energy Suit Module (Nova Suit Module)": [],
-    "Armored Suit Module (Nova Suit Module)": [],
+    "Energy Suit Module (Nova Suit Module)": [
+      "btn-upgrade-nova-equipment-apolloinfantrysuit.dds"
+    ],
+    "Armored Suit Module (Nova Suit Module)": [
+      "btn-upgrade-nova-equipment-blinksuit.dds"
+    ],
     "Jump Suit Module (Nova Suit Module)": [
       "assets\\textures\\btn-upgrade-nova-jetpack.dds"
     ],

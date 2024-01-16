@@ -520,7 +520,7 @@
     "type": "Progressive Upgrade",
     "number": 26,
     "race": "TERRAN",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 2,
     "parent_item": null,
     "origin": [
@@ -6265,7 +6265,7 @@
     "origin": [
       "wol"
     ],
-    "description": null
+    "description": "Carriers can launch Interceptors more quickly."
   },
   "Hull of Past Glories (Carrier)": {
     "type": "Forge 2",
@@ -6277,7 +6277,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "Carriers gain +2 armour."
   },
   "Flux Vanes (Void Ray/Destroyer)": {
     "type": "Forge 2",
@@ -6289,7 +6289,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Increases Void Ray and Destroyer movement speed."
   },
   "Reforged Bloodshard Core (Destroyer)": {
     "type": "Forge 2",
@@ -6301,7 +6301,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "When fully charged, the Destroyer's Destruction Beam weapon does full damage to secondary targets."
   },
   "Gravitic Drive (Warp Prism)": {
     "type": "Forge 2",
@@ -6313,7 +6313,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Increases the movement speed of Warp Prisms."
   },
   "Phase Blaster (Warp Prism)": {
     "type": "Forge 2",
@@ -6949,7 +6949,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "All friendly units gain 25% movement speed and 15% attack speed within a Pylon's power field and for 15 seconds after leaving it."
   },
   "Quatro": {
     "type": "Solarite Core",
@@ -6961,7 +6961,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "All friendly Protoss units gain the equivalent of their +1 armour, attack, and shield upgrades."
   },
   "Nexus Overcharge": {
     "type": "Solarite Core",
@@ -6973,7 +6973,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "The Protoss Nexus gains a long-range auto-attack."
   },
   "Orbital Assimilators": {
     "type": "Solarite Core",
@@ -6985,7 +6985,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "Assimilators automatically harvest Vespene Gas without the need for Probes."
   },
   "Warp Harmonization": {
     "type": "Solarite Core",
@@ -6997,7 +6997,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "Stargates and Robotics Facilities can transform to utilize Warp In technology. Warp In cooldowns are 20% faster than original build times."
   },
   "Guardian Shell": {
     "type": "Solarite Core",
@@ -7009,7 +7009,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "The Spear of Adun passively shields friendly units before death, making them invulnerable for 5 seconds."
   },
   "Reconstruction Beam": {
     "type": "Solarite Core",
@@ -7021,7 +7021,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "The Spear of Adun will passively heal mechanical units for 5 (10 for structures) life per second. Up to 3 targets can be repaired at once."
   },
   "Overwatch": {
     "type": "Solarite Core",
@@ -7033,7 +7033,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "The Spear of Adun will last-hit enemy damaged units that are below 50 health."
   },
   "Superior Warp Gates": {
     "type": "Solarite Core",
@@ -7045,7 +7045,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Protoss Warp Gates can hold up to 3 charges of unit warp-ins."
   },
   "Enhanced Targeting": {
     "type": "Solarite Core",
@@ -7057,7 +7057,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Protoss defensive structures gain +2 range."
   },
   "Optimized Ordnance": {
     "type": "Solarite Core",
@@ -7069,7 +7069,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Increases the attack speed of Protoss defensive structures by 25%."
   },
   "Khalai Ingenuity": {
     "type": "Solarite Core",
@@ -7081,7 +7081,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Pylons, Photon Cannons, Monoliths, and Shield Batteries warp in near-instantly."
   },
   "Amplified Assimilators": {
     "type": "Solarite Core",
@@ -7093,6 +7093,6 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Assimilators produce Vespene gas 25% faster."
   }
 }

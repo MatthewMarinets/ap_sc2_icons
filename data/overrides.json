@@ -1,10 +1,11 @@
 {
     "set": {
-        "Hallucination (Sentry)": ["btn-ability-protoss-hallucination-color.dds"]
+        "Hallucination (Sentry)": ["btn-ability-protoss-hallucination-color.dds"],
+        "Orbital Depots": ["btn-research-terran-orbitaldepots.dds"]
     },
     "add": {
         "Additional Starting Minerals": ["btn-tips-resourcecaches.dds", "btn-doodad-minerals.dds", "btn-tips-richminerals.dds"],
-        "Additional Starting Vespene": ["btn-tips-resourcecaches.dds", "wireframe-general-gaspallet.dds"],
+        "Additional Starting Vespene": ["btn-tips-resourcecaches.dds", "wireframe-general-gaspallet.dds", "btn-ability-spearofadun-orbitalassimilator.dds"],
         "Additional Starting Supply": ["talent-artanis-level14-startingmaxsupply.dds", "btn-building-terran-supplydepot.dds", "btn-building-hornerhan-supplypod.dds"],
         "Cellular Reactor": ["btn-research-zerg-cellularreactor.dds"],
         "Progressive Regenerative Bio-Steel": ["btn-research-zerg-regenerativebio-steel.dds"],
@@ -20,8 +21,11 @@
         "Advanced Medic Facilities (Medic)": ["btn-techupgrade-terran-nano-botinjectors.dds", "btn-upgrade-terran-internalizedtechmodule.dds"],
         "Khalai Ingenuity": ["btn-upgrade-karax-pylonwarpininstantly.dds"],
         "Progressive Fire-Suppression System": ["btn-upgrade-swann-firesuppressionsystem.dds"],
-        "Large Scale Field Construction (Thor)": ["talent-swann-level06-unlockthor.dds"],
+        "Large Scale Field Construction (Thor)": ["talent-swann-level12-immortalityprotocol.dds"],
         "Primal Form (Kerrigan)": ["btn-unit-zerg-kerriganghost.dds", "btn-unit-zerg-kerriganinfested.dds", "btn-unit-zerg-kerriganascended.dds"],
+        "Progressive Stealth Suit Module (Nova Suit Module)": ["btn-upgrade-nova-equipment-stealthsuit.dds"],
+        "Energy Suit Module (Nova Suit Module)": ["btn-upgrade-nova-equipment-apolloinfantrysuit.dds"],
+        "Armored Suit Module (Nova Suit Module)": ["btn-upgrade-nova-equipment-blinksuit.dds"],
         "": [],
         "Nothing": ["btn-command-cancel.dds"]
     },

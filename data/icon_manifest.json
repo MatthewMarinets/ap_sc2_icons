@@ -35,6 +35,7 @@
   "icons/blizzard/talent-artanis-level14-startingmaxsupply.png"
  ],
  "Additional Starting Vespene": [
+  "icons/blizzard/btn-ability-spearofadun-orbitalassimilator.png",
   "icons/blizzard/btn-tips-resourcecaches.png",
   "icons/blizzard/wireframe-general-gaspallet.png"
  ],
@@ -132,7 +133,7 @@
   "icons/blizzard/btn-unit-protoss-arbiter.png"
  ],
  "Ares-Class Targeting System (Goliath)": [
-  "icons/blizzard/btn-techupgrade-terran-charonboosters.png"
+  "icons/blizzard/btn-upgrade-swann-aresclasstargetingsystem.png"
  ],
  "Argus Jewel (Corsair)": [
   "icons/blizzard/btn-ability-protoss-disruptionweb.png",
@@ -141,14 +142,17 @@
  "Argus Talisman (Dark Archon)": [
   "icons/original/btn-upgrade-protoss-argustalisman@scbw.png"
  ],
+ "Armored Suit Module (Nova Suit Module)": [
+  "icons/blizzard/btn-upgrade-nova-equipment-blinksuit.png"
+ ],
  "Ascendant": [
   "icons/blizzard/btn-unit-protoss-hightemplar-taldarim.png"
  ],
  "Auto Launchers (Vulture)": [
-  "icons/blizzard/btn-techupgrade-terran-jotunboosters.png"
+  "icons/blizzard/btn-upgrade-terran-jotunboosters.png"
  ],
  "Auto-Repair (Vulture)": [
-  "icons/blizzard/btn-ability-terran-repair.png"
+  "icons/blizzard/ui_tipicon_campaign_space01-repair.png"
  ],
  "Automated Extractors (Kerrigan Tier 3)": [
   "icons/blizzard/btn-ability-kerrigan-automatedextractors.png",
@@ -399,7 +403,7 @@
   "icons/blizzard/btn-ability-protoss-phasedisruptor.png"
  ],
  "Displacement Field (Wraith)": [
-  "icons/blizzard/btn-techupgrade-terran-cloakdistortionfield.png"
+  "icons/blizzard/btn-upgrade-swann-displacementfield.png"
  ],
  "Disruptor": [
   "icons/blizzard/btn-unit-protoss-disruptor.png"
@@ -440,11 +444,14 @@
  "Energizer": [
   "icons/blizzard/btn-unit-protoss-sentry-purifier.png"
  ],
+ "Energy Suit Module (Nova Suit Module)": [
+  "icons/blizzard/btn-upgrade-nova-equipment-apolloinfantrysuit.png"
+ ],
  "Enhanced Cloak Field (Arbiter)": [
   "icons/original/btn-upgrade-protoss-apialsensors@scbw.png"
  ],
  "Enhanced Cluster Launchers (Valkyrie)": [
-  "icons/original/btn-weapon-terran-hailstormmissiles.png"
+  "icons/blizzard/btn-ability-stetmann-corruptormissilebarrage.png"
  ],
  "Enhanced Mitochondria (Brood Queen)": [
   "icons/blizzard/btn-upgrade-zerg-stukov-queenenergyregen.png"
@@ -587,7 +594,7 @@
   "icons/blizzard/btn-unit-terran-hellion.png"
  ],
  "Hellstorm Batteries (Missile Turret)": [
-  "icons/blizzard/btn-techupgrade-terran-hellstormbatteries.png"
+  "icons/blizzard/btn-ability-stetmann-corruptormissilebarrage.png"
  ],
  "Hercules": [
   "icons/blizzard/btn-unit-terran-hercules.png"
@@ -790,7 +797,7 @@
  ],
  "Large Scale Field Construction (Thor)": [
   "icons/blizzard/btn-unit-terran-thor.png",
-  "icons/blizzard/talent-swann-level06-unlockthor.png"
+  "icons/blizzard/talent-swann-level12-immortalityprotocol.png"
  ],
  "Laser Targeting System (Banshee)": [
   "icons/blizzard/btn-upgrade-terran-lazertargetingsystem.png"
@@ -907,7 +914,7 @@
   "icons/blizzard/btn-unit-protoss-mothership-taldarim.png"
  ],
  "Multi-Lock Weapons System (Goliath)": [
-  "icons/blizzard/btn-techupgrade-terran-multilocktargetingsystem.png"
+  "icons/blizzard/btn-upgrade-swann-multilockweaponsystem.png"
  ],
  "Muscular Augments (Hydralisk)": [
   "icons/blizzard/btn-upgrade-zerg-muscularaugments.png"
@@ -982,7 +989,7 @@
   "icons/blizzard/btn-building-protoss-assimilator.png"
  ],
  "Orbital Depots": [
-  "icons/blizzard/btn-building-terran-supplydepot.png"
+  "icons/blizzard/btn-research-terran-orbitaldepots.png"
  ],
  "Orbital Strike": [
   "icons/blizzard/btn-research-terran-orbitalstrikerally.png"
@@ -1024,7 +1031,7 @@
   "icons/blizzard/btn-upgrade-protoss-adeptshieldupgrade.png"
  ],
  "Phobos-Class Weapons System (Viking)": [
-  "icons/blizzard/btn-techupgrade-terran-jotunboosters.png"
+  "icons/blizzard/btn-upgrade-raynor-phobosclassweaponssystem.png"
  ],
  "Phoenix": [
   "icons/blizzard/btn-unit-protoss-phoenix.png"
@@ -1134,7 +1141,8 @@
  ],
  "Progressive Stealth Suit Module (Nova Suit Module)": [
   "icons/blizzard/btn-ability-terran-cloak-color.png",
-  "icons/blizzard/btn-upgrade-nova-tacticalstealthsuit.png"
+  "icons/blizzard/btn-upgrade-nova-tacticalstealthsuit.png",
+  "icons/blizzard/btn-upgrade-nova-equipment-stealthsuit.png"
  ],
  "Progressive Stimpack (Firebat)": [
   "icons/blizzard/btn-ability-terran-stimpack-color.png",
@@ -1241,7 +1249,7 @@
   "icons/blizzard/btn-upgrade-zerg-airattacks-level3.png"
  ],
  "Projectile Accelerator (Bunker)": [
-  "icons/blizzard/btn-techupgrade-terran-projectileaccelerator.png"
+  "icons/blizzard/btn-upgrade-zerg-stukov-bunkerresearchbundle_05.png"
  ],
  "Prolonged Dispersion (Guardian)": [
   "icons/blizzard/btn-upgrade-zerg-abathur-prolongeddispersion.png"
