@@ -58,7 +58,6 @@ code {
 
 h2, h3, h4, h5, h6 {
     padding-left: 60px;
-
 }
 
 h1 {
@@ -101,6 +100,10 @@ em, dfn {
 a {
     font-weight: 500;
     color: #EE1155;
+    text-decoration: none;
+}
+a:link, a:visited, a:hover {
+    text-decoration: none;
 }
 a:hover {
     font-weight: 500;

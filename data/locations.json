@@ -1,8 +1,8 @@
 {
   "meta": {
-    "timestamp": "2024-01-16",
+    "timestamp": "2024-01-18",
     "items": 589,
-    "located": 563
+    "located": 565
   },
   "locations": {
     "Marine": [
@@ -42,8 +42,7 @@
       "assets\\textures\\btn-unit-terran-wraith.dds"
     ],
     "Viking": [
-      "assets\\textures\\btn-unit-terran-vikingfighter.dds",
-      "assets\\textures\\btn-upgrade-terran-weaponrefit.dds"
+      "assets\\textures\\btn-unit-terran-vikingfighter.dds"
     ],
     "Banshee": [
       "assets\\textures\\btn-unit-terran-banshee.dds"
@@ -283,7 +282,7 @@
       "assets\\textures\\btn-ability-protoss-charge-color.dds"
     ],
     "Scatter Veil (Medivac)": [
-      "assets\\textures\\btn-ability-terran-defensivematrix.dds"
+      "assets\\textures\\btn-upgrade-swann-defensivematrix.dds"
     ],
     "Progressive Stimpack (Reaper)": [
       "assets\\textures\\btn-ability-terran-stimpack-color.dds",
@@ -338,7 +337,7 @@
       "assets\\textures\\btn-upgrade-mengsk-engineeringbay-orbitaldrop.dds"
     ],
     "Burst Capacitors (Diamondback)": [
-      "assets\\textures\\btn-techupgrade-terran-burstcapacitors.dds"
+      "assets\\textures\\btn-ability-terran-electricfield.dds"
     ],
     "Resource Efficiency (Diamondback)": [
       "btn-ability-hornerhan-salvagebonus.dds"
@@ -383,7 +382,7 @@
       "assets\\textures\\btn-ability-terran-ignorearmor.dds"
     ],
     "Twin-Linked Flamethrower (Hellion)": [
-      "assets\\textures\\btn-upgrade-terran-twin-linkedflamethrower.dds"
+      "assets\\textures\\btn-upgrade-mengsk-trooper-flamethrower.dds"
     ],
     "Thermite Filaments (Hellion)": [
       "assets\\textures\\btn-upgrade-terran-infernalpreigniter.dds"
@@ -401,7 +400,7 @@
       "assets\\textures\\btn-upgrade-swann-aresclasstargetingsystem.dds"
     ],
     "Tri-Lithium Power Cell (Diamondback)": [
-      "assets\\textures\\btn-techupgrade-terran-trilithiumpowercell.dds"
+      "assets\\textures\\btn-ability-protoss-voidrayprismaticalignment.dds"
     ],
     "Shaped Hull (Diamondback)": [
       "assets\\textures\\btn-techupgrade-terran-shapedhull.dds"
@@ -416,7 +415,7 @@
       "assets\\textures\\btn-techupgrade-terran-rapiddeployment.dds"
     ],
     "Advanced Healing AI (Medivac)": [
-      "ap\\assets\\textures\\btn-ability-terran-advancedhealingai.dds",
+      "assets\\textures\\btn-ability-mengsk-medivac-doublehealbeam.dds",
       "assets\\textures\\btn-ability-terran-heal-color.dds"
     ],
     "Progressive Tomahawk Power Cells (Wraith)": [
@@ -444,7 +443,7 @@
       "assets\\textures\\btn-upgrade-terran-nova-bansheemissilestrik.dds"
     ],
     "Progressive Defensive Matrix (Battlecruiser)": [
-      "assets\\textures\\btn-ability-terran-defensivematrix.dds"
+      "assets\\textures\\btn-upgrade-swann-defensivematrix.dds"
     ],
     "Ocular Implants (Ghost)": [
       "assets\\textures\\btn-techupgrade-terran-ocularimplants.dds"
@@ -536,7 +535,7 @@
       "assets\\textures\\btn-upgrade-swann-improvednanorepair.dds"
     ],
     "Advanced AI Systems (Science Vessel)": [
-      "ap\\assets\\textures\\btn-ability-terran-advancedhealingai.dds",
+      "assets\\textures\\btn-ability-mengsk-medivac-doublehealbeam.dds",
       "assets\\textures\\btn-ability-terran-heal-color.dds"
     ],
     "Resource Efficiency (Cyclone)": [
@@ -672,7 +671,7 @@
       "assets\\textures\\btn-ability-protoss-shadowfury.dds"
     ],
     "Behemoth Plating (Battlecruiser)": [
-      "assets\\textures\\btn-techupgrade-terran-juggernautplating.dds"
+      "ap\\assets\\textures\\btn-research-zerg-fortifiedbunker.dds"
     ],
     "Covert Ops Engines (Battlecruiser)": [
       "assets\\textures\\btn-ability-terran-emergencythrusters.dds"
@@ -779,12 +778,12 @@
       "btn-research-terran-orbitalstrikerally.dds"
     ],
     "Shrike Turret (Bunker)": [
-      "assets\\textures\\btn-techupgrade-terran-shriketurret.dds"
+      "assets\\textures\\btn-upgrade-swann-improvedturretattackspeed.dds"
     ],
     "Fortified Bunker (Bunker)": [
       "ap\\assets\\textures\\btn-building-terran-bunkerneosteel.dds",
-      "assets\\textures\\btn-building-terran-bunker.dds",
-      "assets\\textures\\btn-techupgrade-terran-neosteelframe.dds"
+      "ap\\assets\\textures\\btn-research-zerg-fortifiedbunker.dds",
+      "assets\\textures\\btn-building-terran-bunker.dds"
     ],
     "Planetary Fortress": [
       "assets\\textures\\btn-building-terran-planetaryfortress.dds"
@@ -852,19 +851,18 @@
       "assets\\textures\\btn-unit-protoss-carrier.dds"
     ],
     "Additional Starting Minerals": [
-      "btn-doodad-minerals.dds",
-      "btn-tips-resourcecaches.dds",
-      "btn-tips-richminerals.dds"
+      "icon-mineral-nobg.dds",
+      "ui_aicommand_build_open_economicfocus.dds"
     ],
     "Additional Starting Vespene": [
       "btn-ability-spearofadun-orbitalassimilator.dds",
       "btn-tips-resourcecaches.dds",
-      "wireframe-general-gaspallet.dds"
+      "icon-gas-terran-nobg.dds"
     ],
     "Additional Starting Supply": [
-      "btn-building-hornerhan-supplypod.dds",
-      "btn-building-terran-supplydepot.dds",
-      "talent-artanis-level14-startingmaxsupply.dds"
+      "icon-supply-protoss_nobg.dds",
+      "icon-supply-terran_nobg.dds",
+      "icon-supply-zerg_nobg.dds"
     ],
     "Nothing": [
       "btn-command-cancel.dds"
@@ -1293,7 +1291,8 @@
       "assets\\textures\\btn-unit-zerg-lurker.dds"
     ],
     "Splitter Strain (Baneling)": [
-      "assets\\textures\\btn-unit-zerg-splitterling.dds"
+      "assets\\textures\\btn-unit-zerg-splitterling.dds",
+      "talent-zagara-level14-unlocksplitterling.dds"
     ],
     "Hunter Strain (Baneling)": [
       "assets\\textures\\btn-ability-zerg-cliffjump-baneling.dds",
@@ -1572,13 +1571,12 @@
       "assets\\textures\\btn-upgrade-protoss-alarak-supplicantextrashields.dds"
     ],
     "Shield Regeneration (Supplicant)": [
-      "assets\\textures\\btn-upgrade-protoss-shieldslevel2.dds"
+      "assets\\textures\\btn-ability-protoss-voidarmor.dds"
     ],
     "Shockwave (Adept)": [
-      "assets\\textures\\btn-techupgrade-terran-consumption.dds"
+      "assets\\textures\\btn-upgrade-protoss-fenix-adept-recochetglaiveupgraded.dds"
     ],
     "Resonating Glaives (Adept)": [
-      "assets\\textures\\btn-ability-protoss-phasedisruptor.dds",
       "assets\\textures\\btn-upgrade-protoss-resonatingglaives.dds"
     ],
     "Phase Bulwark (Adept)": [
@@ -1606,7 +1604,7 @@
       "assets\\textures\\btn-upgrade-protoss-fenix-scoutchampionrange.dds"
     ],
     "Apial Sensors (Scout)": [
-      "ap\\assets\\textures\\btn-upgrade-protoss-apialsensors@scbw.dds"
+      "assets\\textures\\btn-upgrade-tychus-detection.dds"
     ],
     "Gravitic Thrusters (Scout)": [
       "assets\\textures\\btn-upgrade-protoss-graviticbooster.dds"
@@ -1621,7 +1619,7 @@
       "assets\\textures\\btn-upgrade-protoss-researchgravitysling.dds"
     ],
     "Gravity Sling (Tempest)": [
-      "assets\\textures\\btn-upgrade-protoss-fenix-scoutchampionrange.dds"
+      "assets\\textures\\btn-upgrade-protoss-tectonicdisruptors.dds"
     ],
     "Ionic Wavelength Flux (Phoenix/Mirage)": [
       "assets\\textures\\btn-upgrade-protoss-airweaponslevel0.dds"
@@ -1644,7 +1642,6 @@
       "assets\\textures\\btn-upgrade-protoss-shieldslevel1.dds"
     ],
     "Stealth Drive (Oracle)": [
-      "assets\\textures\\btn-upgrade-vorazun-corsairpermanentlycloaked.dds",
       "assets\\textures\\btn-upgrade-vorazun-oraclepermanentlycloaked.dds"
     ],
     "Stasis Calibration (Oracle)": [
@@ -1667,19 +1664,19 @@
       "btn-ability-hornerhan-salvagebonus.dds"
     ],
     "Enhanced Cloak Field (Arbiter)": [
-      "ap\\assets\\textures\\btn-upgrade-protoss-apialsensors@scbw.dds"
+      "assets\\textures\\btn-ability-stetmann-stetzonegenerator-speed.dds"
     ],
     "Graviton Catapult (Carrier)": [
       "assets\\textures\\btn-upgrade-protoss-gravitoncatapult.dds"
     ],
     "Hull of Past Glories (Carrier)": [
-      "assets\\textures\\btn-upgrade-protoss-airarmorlevel1.dds"
+      "assets\\textures\\btn-progression-protoss-fenix-14-colossusandcarrierchampionsresearch.dds"
     ],
     "Flux Vanes (Void Ray/Destroyer)": [
       "assets\\textures\\btn-upgrade-protoss-fluxvanes.dds"
     ],
     "Reforged Bloodshard Core (Destroyer)": [
-      "assets\\textures\\btn-upgrade-protoss-fenix-adeptchampionbounceattack.dds"
+      "assets\\textures\\btn-amonshardsarmor.dds"
     ],
     "Gravitic Drive (Warp Prism)": [
       "assets\\textures\\btn-upgrade-protoss-graviticdrive.dds"
@@ -1697,8 +1694,7 @@
       "assets\\textures\\btn-ability-zeratul-observer-sensorarray.dds"
     ],
     "Scarab Damage (Reaver)": [
-      "assets\\textures\\btn-ability-protoss-scarabshot.dds",
-      "assets\\textures\\btn-upgrade-artanis-scarabsplashradius.dds"
+      "assets\\textures\\btn-ability-protoss-scarabshot.dds"
     ],
     "Solarite Payload (Reaver)": [
       "assets\\textures\\btn-upgrade-artanis-scarabsplashradius.dds"
@@ -1849,7 +1845,9 @@
     "Matrix Overload": [
       "assets\\textures\\btn-ability-spearofadun-matrixoverload.dds"
     ],
-    "Quatro": [],
+    "Quatro": [
+      "btn-progression-protoss-fenix-6-forgeresearch.dds"
+    ],
     "Nexus Overcharge": [
       "assets\\textures\\btn-ability-spearofadun-nexusovercharge.dds",
       "assets\\textures\\btn-upgrade-karax-turretattackspeed.dds",
@@ -1872,7 +1870,9 @@
     "Reconstruction Beam": [
       "assets\\textures\\btn-ability-spearofadun-reconstructionbeam.dds"
     ],
-    "Overwatch": [],
+    "Overwatch": [
+      "btn-ability-zeratul-chargedcrystal-psionicwinds.dds"
+    ],
     "Superior Warp Gates": [
       "assets\\textures\\talent-artanis-level03-warpgatecharges.dds"
     ],

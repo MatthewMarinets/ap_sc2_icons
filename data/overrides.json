@@ -4,9 +4,9 @@
         "Orbital Depots": ["btn-research-terran-orbitaldepots.dds"]
     },
     "add": {
-        "Additional Starting Minerals": ["btn-tips-resourcecaches.dds", "btn-doodad-minerals.dds", "btn-tips-richminerals.dds"],
-        "Additional Starting Vespene": ["btn-tips-resourcecaches.dds", "wireframe-general-gaspallet.dds", "btn-ability-spearofadun-orbitalassimilator.dds"],
-        "Additional Starting Supply": ["talent-artanis-level14-startingmaxsupply.dds", "btn-building-terran-supplydepot.dds", "btn-building-hornerhan-supplypod.dds"],
+        "Additional Starting Minerals": ["ui_aicommand_build_open_economicfocus.dds", "icon-mineral-nobg.dds"],
+        "Additional Starting Vespene": ["btn-tips-resourcecaches.dds", "icon-gas-terran-nobg.dds", "btn-ability-spearofadun-orbitalassimilator.dds"],
+        "Additional Starting Supply": ["icon-supply-protoss_nobg.dds", "icon-supply-terran_nobg.dds", "icon-supply-zerg_nobg.dds"],
         "Cellular Reactor": ["btn-research-zerg-cellularreactor.dds"],
         "Progressive Regenerative Bio-Steel": ["btn-research-zerg-regenerativebio-steel.dds"],
         "Orbital Strike": ["btn-research-terran-orbitalstrikerally.dds"],
@@ -26,6 +26,9 @@
         "Progressive Stealth Suit Module (Nova Suit Module)": ["btn-upgrade-nova-equipment-stealthsuit.dds"],
         "Energy Suit Module (Nova Suit Module)": ["btn-upgrade-nova-equipment-apolloinfantrysuit.dds"],
         "Armored Suit Module (Nova Suit Module)": ["btn-upgrade-nova-equipment-blinksuit.dds"],
+        "Splitter Strain (Baneling)": ["talent-zagara-level14-unlocksplitterling.dds"],
+        "Quatro": ["btn-progression-protoss-fenix-6-forgeresearch.dds"],
+        "Overwatch": ["btn-ability-zeratul-chargedcrystal-psionicwinds.dds"],
         "": [],
         "Nothing": ["btn-command-cancel.dds"]
     },
@@ -34,6 +37,7 @@
         "Annihilator": ["ui_void_armyupgrade_factionnerazim_categoryicon"],
         "Ultralisk": ["btn-building-zerg-ultraliskcavern"],
         "Roach": ["btn-building-zerg-roachwarren"],
+        "Viking": ["btn-upgrade-terran-weaponrefit"],
         "Baneling Aspect (Zergling)": ["btn-building-zerg-banelingnest"],
         "": []
     },
