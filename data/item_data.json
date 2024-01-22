@@ -526,7 +526,7 @@
     "origin": [
       "wol"
     ],
-    "description": "Level 1: Allows Command Centers to use Scanner Sweep and Calldown: MULE abilities.\nLevel 2: Orbital Command abilities do work even in Planetary Fortress mode."
+    "description": "Level 1: Allows Command Centers to use Scanner Sweep and Calldown: MULE abilities.\nLevel 2: Orbital Command abilities work even in Planetary Fortress mode."
   },
   "Progressive Stimpack (Marine)": {
     "type": "Progressive Upgrade",
@@ -862,7 +862,7 @@
     "origin": [
       "bw"
     ],
-    "description": "Firebats do additional 4 damage to Light Armor."
+    "description": "Firebats do an additional 4 damage to Light Armor."
   },
   "Kinetic Foam (Firebat)": {
     "type": "Armory 2",
@@ -886,7 +886,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Increasex Firebat attack range by 2"
+    "description": "Increases Firebat attack range by 2"
   },
   "Juggernaut Plating (Marauder)": {
     "type": "Armory 2",
@@ -3247,7 +3247,7 @@
     "number": 0,
     "race": "TERRAN",
     "classification": "progression",
-    "quantity": 1,
+    "quantity": 2,
     "parent_item": null,
     "origin": [
       "nco"
@@ -7009,7 +7009,7 @@
     "origin": [
       "lotv"
     ],
-    "description": "The Spear of Adun passively shields friendly units before death, making them invulnerable for 5 seconds."
+    "description": "The Spear of Adun passively shields friendly Protoss units before death, making them invulnerable for 5 seconds. Each unit can only be shielded once every 60 seconds."
   },
   "Reconstruction Beam": {
     "type": "Solarite Core",
@@ -7021,7 +7021,7 @@
     "origin": [
       "lotv"
     ],
-    "description": "The Spear of Adun will passively heal mechanical units for 5 (10 for structures) life per second. Up to 3 targets can be repaired at once."
+    "description": "The Spear of Adun will passively heal mechanical units for 5 and non-biological structures for 10 life per second. Up to 3 targets can be repaired at once."
   },
   "Overwatch": {
     "type": "Solarite Core",
@@ -7033,7 +7033,7 @@
     "origin": [
       "ext"
     ],
-    "description": "The Spear of Adun will last-hit enemy damaged units that are below 50 health."
+    "description": "Once per second, the Spear of Adun will last-hit a damaged enemy unit that is below 50 health."
   },
   "Superior Warp Gates": {
     "type": "Solarite Core",
