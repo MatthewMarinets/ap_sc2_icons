@@ -7,6 +7,10 @@ body {
     font-size: 18px;
 }
 
+* {
+    min-width: 0;
+}
+
 #toc {
     position: fixed;
     right: 0;
