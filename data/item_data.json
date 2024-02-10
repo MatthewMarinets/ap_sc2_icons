@@ -3040,7 +3040,7 @@
       "lotv",
       "wol"
     ],
-    "description": null
+    "description": "Powerful melee warrior. Can use the charge ability."
   },
   "Stalker": {
     "type": "Unit",
@@ -3053,7 +3053,7 @@
       "lotv",
       "wol"
     ],
-    "description": null
+    "description": "Ranged attack strider. Can use the Blink ability."
   },
   "High Templar": {
     "type": "Unit",
@@ -3066,7 +3066,7 @@
       "lotv",
       "wol"
     ],
-    "description": null
+    "description": "Potent psionic master. Can use the Feedback and Psionic Storm abilities. Can merge into an Archon."
   },
   "Dark Templar": {
     "type": "Unit",
@@ -3079,7 +3079,7 @@
       "lotv",
       "wol"
     ],
-    "description": null
+    "description": "Deadly warrior-assassin. Permanently cloaked. Can use the Shadow Fury ability."
   },
   "Immortal": {
     "type": "Unit",
@@ -3092,7 +3092,7 @@
       "lotv",
       "wol"
     ],
-    "description": null
+    "description": "Assault strider. Can use Barrier to absorb damage."
   },
   "Colossus": {
     "type": "Unit",
@@ -3105,7 +3105,7 @@
       "lotv",
       "wol"
     ],
-    "description": null
+    "description": "Battle strider with a powerful area attack. Can walk up and down cliffs. Attacks set fire to the ground, dealing extra damage to enemies over time."
   },
   "Phoenix": {
     "type": "Unit",
@@ -3118,7 +3118,7 @@
       "lotv",
       "wol"
     ],
-    "description": null
+    "description": "Air superiority starfighter. Can use Graviton Beam and Phasing Armor abilities."
   },
   "Void Ray": {
     "type": "Unit",
@@ -3131,7 +3131,7 @@
       "lotv",
       "wol"
     ],
-    "description": null
+    "description": "Surgical strike craft. Has the Prismatic Alignment and Prismatic Range abilities."
   },
   "Carrier": {
     "type": "Unit",
@@ -3144,7 +3144,7 @@
       "lotv",
       "wol"
     ],
-    "description": null
+    "description": "Capital ship. Builds and launches Interceptors that attack enemy targets. Repair Drones heal nearby mechanical units."
   },
   "Additional Starting Minerals": {
     "type": "Minerals",
@@ -3156,7 +3156,7 @@
     "origin": [
       "wol"
     ],
-    "description": null
+    "description": "Increases the starting minerals for all missions."
   },
   "Additional Starting Vespene": {
     "type": "Vespene",
@@ -3168,7 +3168,7 @@
     "origin": [
       "wol"
     ],
-    "description": null
+    "description": "Increases the starting vespene for all missions."
   },
   "Additional Starting Supply": {
     "type": "Supply",
@@ -3180,7 +3180,7 @@
     "origin": [
       "wol"
     ],
-    "description": null
+    "description": "Increases the starting supply for all missions."
   },
   "Nothing": {
     "type": "Nothing Group",
@@ -3192,7 +3192,7 @@
     "origin": [
       "wol"
     ],
-    "description": null
+    "description": "Does nothing. Used to remove a location from the game."
   },
   "Ghost Visor (Nova Equipment)": {
     "type": "Nova Gear",
@@ -3432,7 +3432,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Fast inexpensive melee attacker. Hatches in pairs from a single larva. Can morph into a Baneling."
   },
   "Swarm Queen": {
     "type": "Unit",
@@ -3444,7 +3444,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Ranged support caster. Can use the Spawn Creep Tumor and Rapid Transfusion abilities."
   },
   "Roach": {
     "type": "Unit",
@@ -3456,7 +3456,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Durable short ranged attacker. Regenerates life quickly when burrowed."
   },
   "Hydralisk": {
     "type": "Unit",
@@ -3468,7 +3468,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "High-damage generalist ranged attacker."
   },
   "Baneling Aspect (Zergling)": {
     "type": "Morph",
@@ -3480,7 +3480,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Anti-ground suicide unit. Does damage over a small area on death."
   },
   "Aberration": {
     "type": "Unit",
@@ -3492,7 +3492,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Durable melee attacker that deals heavy damage and can walk over other units."
   },
   "Mutalisk": {
     "type": "Unit",
@@ -3504,7 +3504,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Fragile flying attacker. Attacks bounce between targets."
   },
   "Swarm Host": {
     "type": "Unit",
@@ -3516,7 +3516,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Siege unit that attacks by rooting in place and continually spawning Locusts."
   },
   "Infestor": {
     "type": "Unit",
@@ -3528,7 +3528,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Support caster that can move while burrowed. Can use the Fungal Growth, Parasitic Domination, and Consumption abilities."
   },
   "Ultralisk": {
     "type": "Unit",
@@ -3540,7 +3540,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Massive melee attacker. Has an area-damage cleave attack."
   },
   "Spore Crawler": {
     "type": "Unit",
@@ -3552,7 +3552,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Anti-air defensive structure that can detect cloaked units."
   },
   "Spine Crawler": {
     "type": "Unit",
@@ -3564,7 +3564,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Anti-ground defensive structure."
   },
   "Corruptor": {
     "type": "Unit",
@@ -3576,7 +3576,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Anti-air flying attacker specializing in taking down enemy capital ships."
   },
   "Scourge": {
     "type": "Unit",
@@ -3589,7 +3589,7 @@
       "bw",
       "ext"
     ],
-    "description": null
+    "description": "Flying anti-air suicide unit. Hatches in pairs from a single larva."
   },
   "Brood Queen": {
     "type": "Unit",
@@ -3602,7 +3602,7 @@
       "bw",
       "ext"
     ],
-    "description": null
+    "description": "Flying support caster. Can cast the Ocular Symbiote and Spawn Broodlings abilities."
   },
   "Defiler": {
     "type": "Unit",
@@ -3614,7 +3614,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "Support caster. Can use the Dark Swarm, Consume, and Plague abilities."
   },
   "Progressive Zerg Melee Attack": {
     "type": "Upgrade",
@@ -5096,7 +5096,7 @@
     "type": "Level",
     "number": 10,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 0,
     "parent_item": null,
     "origin": [
@@ -5108,7 +5108,7 @@
     "type": "Level",
     "number": 9,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 0,
     "parent_item": null,
     "origin": [
@@ -5120,7 +5120,7 @@
     "type": "Level",
     "number": 8,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 0,
     "parent_item": null,
     "origin": [
@@ -5132,7 +5132,7 @@
     "type": "Level",
     "number": 7,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 0,
     "parent_item": null,
     "origin": [
@@ -5144,7 +5144,7 @@
     "type": "Level",
     "number": 6,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 0,
     "parent_item": null,
     "origin": [
@@ -5156,7 +5156,7 @@
     "type": "Level",
     "number": 5,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 0,
     "parent_item": null,
     "origin": [
@@ -5168,7 +5168,7 @@
     "type": "Level",
     "number": 4,
     "race": "ZERG",
-    "classification": "filler",
+    "classification": "progression_skip_balancing",
     "quantity": 0,
     "parent_item": null,
     "origin": [
@@ -5180,7 +5180,7 @@
     "type": "Level",
     "number": 3,
     "race": "ZERG",
-    "classification": "filler",
+    "classification": "progression_skip_balancing",
     "quantity": 0,
     "parent_item": null,
     "origin": [
@@ -5192,7 +5192,7 @@
     "type": "Level",
     "number": 2,
     "race": "ZERG",
-    "classification": "filler",
+    "classification": "progression_skip_balancing",
     "quantity": 0,
     "parent_item": null,
     "origin": [
@@ -5204,7 +5204,7 @@
     "type": "Level",
     "number": 1,
     "race": "ZERG",
-    "classification": "filler",
+    "classification": "progression_skip_balancing",
     "quantity": 0,
     "parent_item": null,
     "origin": [
@@ -5216,7 +5216,7 @@
     "type": "Level",
     "number": 14,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 0,
     "parent_item": null,
     "origin": [
@@ -5228,7 +5228,7 @@
     "type": "Level",
     "number": 35,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 0,
     "parent_item": null,
     "origin": [
@@ -5240,7 +5240,7 @@
     "type": "Level",
     "number": 70,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 0,
     "parent_item": null,
     "origin": [
@@ -5342,7 +5342,7 @@
     "origin": [
       "wol"
     ],
-    "description": null
+    "description": "Flying spy. Cloak renders the unit invisible to enemies without detection."
   },
   "Centurion": {
     "type": "Unit",
@@ -5354,7 +5354,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "Powerful melee warrior. Has the Shadow Charge and Darkcoil abilities."
   },
   "Sentinel": {
     "type": "Unit",
@@ -5366,7 +5366,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "Powerful melee warrior. Has the Charge and Reconstruction abilities."
   },
   "Supplicant": {
     "type": "Unit",
@@ -5378,7 +5378,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Powerful melee warrior. Has powerful damage resistant shields."
   },
   "Instigator": {
     "type": "Unit",
@@ -5390,7 +5390,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Ranged support strider. Can store multiple Blink charges."
   },
   "Slayer": {
     "type": "Unit",
@@ -5402,7 +5402,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Ranged attack strider. Can use the Phase Blink and Phasing Armor abilities."
   },
   "Sentry": {
     "type": "Unit",
@@ -5414,7 +5414,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "Robotic support unit can use the Guardian Shield ability and restore the shields of nearby Protoss units."
   },
   "Energizer": {
     "type": "Unit",
@@ -5426,7 +5426,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "Robotic support unit. Can use the Chrono Beam ability and become stationary to power nearby structures."
   },
   "Havoc": {
     "type": "Unit",
@@ -5438,7 +5438,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "Robotic support unit. Can use the Target Lock and Force Field abilities and increase the range of nearby Protoss units."
   },
   "Signifier": {
     "type": "Unit",
@@ -5450,7 +5450,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Potent permanently cloaked psionic master. Can use the Feedback and Crippling Psionic Storm abilities. Can merge into an Archon."
   },
   "Ascendant": {
     "type": "Unit",
@@ -5462,7 +5462,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "Potent psionic master. Can use the Psionic Orb, Mind Blast, and Sacrifice abilities."
   },
   "Avenger": {
     "type": "Unit",
@@ -5474,7 +5474,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "Deadly warrior-assassin. Permanently cloaked. Recalls to the nearest Dark Shrine upon death."
   },
   "Blood Hunter": {
     "type": "Unit",
@@ -5486,7 +5486,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "Deadly warrior-assassin. Permanently cloaked. Can use the Void Stasis ability."
   },
   "Dragoon": {
     "type": "Unit",
@@ -5498,7 +5498,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "Ranged assault strider. Has enhanced health and damage."
   },
   "Dark Archon": {
     "type": "Unit",
@@ -5510,7 +5510,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "Potent psionic master. Can use the Confuse and Mind Control abilities."
   },
   "Adept": {
     "type": "Unit",
@@ -5522,7 +5522,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "Ranged specialist. Can use the Psionic Transfer ability."
   },
   "Warp Prism": {
     "type": "Unit",
@@ -5534,7 +5534,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Flying transport. Can carry units and become stationary to deploy a power field."
   },
   "Annihilator": {
     "type": "Unit",
@@ -5546,7 +5546,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "Assault Strider. Can use the Shadow Cannon ability to damage air and ground units."
   },
   "Vanguard": {
     "type": "Unit",
@@ -5558,7 +5558,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "Assault Strider. Deals splash damage around the primary target."
   },
   "Wrathwalker": {
     "type": "Unit",
@@ -5570,7 +5570,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "Battle strider with a powerful single target attack.  Can walk up and down cliffs."
   },
   "Reaver": {
     "type": "Unit",
@@ -5582,7 +5582,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "Area damage siege unit. Builds and launches explosive Scarabs for high burst damage."
   },
   "Disruptor": {
     "type": "Unit 2",
@@ -5594,7 +5594,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Robotic disruption unit. Can use the Purification Nova ability to deal heavy area damage."
   },
   "Mirage": {
     "type": "Unit 2",
@@ -5606,7 +5606,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "Air superiority starfighter. Can use Graviton Beam and Phasing Armor abilities."
   },
   "Corsair": {
     "type": "Unit 2",
@@ -5618,7 +5618,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "Air superiority starfighter. Can use the Disruption Web ability."
   },
   "Destroyer": {
     "type": "Unit 2",
@@ -5630,7 +5630,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "Area assault craft. Can use the Destruction Beam ability to attack multiple units at once."
   },
   "Scout": {
     "type": "Unit 2",
@@ -5642,7 +5642,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Versatile high-speed fighter."
   },
   "Tempest": {
     "type": "Unit 2",
@@ -5654,7 +5654,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "Siege artillery craft. Attacks from long range. Can use the Disintegration ability."
   },
   "Mothership": {
     "type": "Unit 2",
@@ -5666,7 +5666,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "Ultimate Protoss vessel, Can use the Vortex and Mass Recall abilities. Cloaks nearby units and structures."
   },
   "Arbiter": {
     "type": "Unit 2",
@@ -5678,7 +5678,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "Army support craft. Has the Stasis Field and Recall abilities. Cloaks nearby units."
   },
   "Oracle": {
     "type": "Unit 2",
@@ -5690,7 +5690,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Flying caster. Can use the Revelation and Stasis Ward abilities."
   },
   "Progressive Protoss Ground Weapon": {
     "type": "Upgrade",
@@ -7011,7 +7011,7 @@
     ],
     "description": "The Spear of Adun passively shields friendly Protoss units before death, making them invulnerable for 5 seconds. Each unit can only be shielded once every 60 seconds."
   },
-  "Reconstruction Beam": {
+  "Reconstruction Beam (Spear of Adun Auto-Cast)": {
     "type": "Solarite Core",
     "number": 6,
     "race": "PROTOSS",
@@ -7023,7 +7023,7 @@
     ],
     "description": "The Spear of Adun will passively heal mechanical units for 5 and non-biological structures for 10 life per second. Up to 3 targets can be repaired at once."
   },
-  "Overwatch": {
+  "Overwatch (Spear of Adun Auto-Cast)": {
     "type": "Solarite Core",
     "number": 7,
     "race": "PROTOSS",

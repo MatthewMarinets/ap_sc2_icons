@@ -407,7 +407,8 @@ def parse_combined_requirement_data(requirement_data_path: str, requirement_node
     UPGRADE = 'upgrade'
     current_requirement = ()
 
-    upgrade_start_pattern = re.compile(r'^\s*<CRequirementCountUpgrade\s+id="(AP_[^"]+)">')
+    # Note(mm): The `(\w+)` is a temporary measure while a couple of requirements break our naming conventions
+    upgrade_start_pattern = re.compile(r'^\s*<CRequirementCountUpgrade\s+id="((\w+)?AP_[^"]+)">')
     other_requirement_start_pattern = re.compile(r'^\s*<(CRequirement\w+)\s+id="(AP_[^"]+)"[^/]+$')
     count_pattern = re.compile(r'^\s*<Count Link="(AP_[^"]+)" State="CompleteOnly"')
     operand_pattern = re.compile(r'^\s*<OperandArray .*value="(AP_[^"]+)"')
@@ -427,7 +428,7 @@ def parse_combined_requirement_data(requirement_data_path: str, requirement_node
             if current_requirement: assert current_requirement[1] == match.group(1)
             current_requirement = ()
         elif match := re.match(count_pattern, line):
-            assert current_requirement
+            assert current_requirement, f'Error on line {line_number}: found count outside requirement'
             if current_requirement[1] != UPGRADE:
                 continue
             assert current_requirement[0] not in requirement_node_to_upgrade

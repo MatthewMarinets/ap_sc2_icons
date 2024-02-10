@@ -52,9 +52,10 @@
   "icons/blizzard/btn-upgrade-terran-advanceballistics.png"
  ],
  "Advanced Cloaking Field (Medivac)": [
-  "icons/blizzard/btn-ability-terran-cloak-color.png"
+  "icons/original/btn-permacloak-medivac.png"
  ],
  "Advanced Cloaking Field (Reaper)": [
+  "icons/original/btn-permacloak-reaper.png",
   "icons/blizzard/btn-ability-terran-cloak-color.png"
  ],
  "Advanced Construction (SCV)": [
@@ -347,6 +348,9 @@
   "icons/blizzard/btn-unit-zerg-swarmhost.png"
  ],
  "Crius Suit (Ghost)": [
+  "icons/original/btn-permacloak-ghost.png",
+  "icons/blizzard/btn-ability-terran-cloak-color.png",
+  "icons/blizzard/btn-ability-terran-decloak-color.png",
   "icons/blizzard/btn-techupgrade-terran-criussuit.png"
  ],
  "Crushing Grip (Kerrigan Tier 2)": [
@@ -916,7 +920,7 @@
   "icons/blizzard/btn-upgrade-swann-multilockweaponsystem.png"
  ],
  "Muscular Augments (Hydralisk)": [
-  "icons/blizzard/btn-upgrade-zerg-muscularaugments.png"
+  "icons/blizzard/btn-upgrade-zerg-evolvemuscularaugments.png"
  ],
  "Mutalisk": [
   "icons/blizzard/btn-unit-zerg-mutalisk-broodlord.png",
@@ -951,6 +955,9 @@
   "icons/blizzard/btn-unit-zerg-ultralisk-noxious.png"
  ],
  "Nyx-Class Cloaking Module (Spectre)": [
+  "icons/original/btn-permacloak-spectre.png",
+  "icons/blizzard/btn-ability-terran-cloak-color.png",
+  "icons/blizzard/btn-ability-terran-decloak-color.png",
   "icons/blizzard/btn-techupgrade-terran-nyxcloakingclassmodule.png"
  ],
  "Observer": [
@@ -1008,7 +1015,7 @@
  "Organic Carapace (Ultralisk)": [
   "icons/blizzard/btn-upgrade-zerg-organiccarapace.png"
  ],
- "Overwatch": [
+ "Overwatch (Spear of Adun Auto-Cast)": [
   "icons/blizzard/btn-ability-zeratul-chargedcrystal-psionicwinds.png"
  ],
  "Pacification Protocol (Colossus)": [
@@ -1081,8 +1088,8 @@
   "icons/blizzard/btn-ability-terran-liftoff.png"
  ],
  "Progressive Cross-Spectrum Dampeners (Banshee)": [
-  "icons/blizzard/btn-ability-hornerhan-wraith-permanentcloak.png",
-  "icons/blizzard/btn-techupgrade-terran-crossspectrumdampeners.png"
+  "icons/original/btn-banshee-cross-spectrum-dampeners.png",
+  "icons/original/btn-permacloak-banshee.png"
  ],
  "Progressive Defensive Matrix (Battlecruiser)": [
   "icons/blizzard/btn-upgrade-swann-defensivematrix.png"
@@ -1212,7 +1219,9 @@
   "icons/blizzard/btn-upgrade-terran-infantryweaponslevel3.png"
  ],
  "Progressive Tomahawk Power Cells (Wraith)": [
-  "icons/blizzard/btn-ability-hornerhan-wraith-permanentcloak.png",
+  "icons/original/btn-permacloak-wraith.png",
+  "icons/blizzard/btn-ability-terran-cloak-color.png",
+  "icons/blizzard/btn-ability-terran-decloak-color.png",
   "icons/blizzard/btn-techupgrade-terran-tomahawkpowercell.png"
  ],
  "Progressive Zerg Flyer Attack": [
@@ -1338,7 +1347,7 @@
  "Reclamation (Energizer)": [
   "icons/blizzard/btn-ability-protoss-reclamation.png"
  ],
- "Reconstruction Beam": [
+ "Reconstruction Beam (Spear of Adun Auto-Cast)": [
   "icons/blizzard/btn-ability-spearofadun-reconstructionbeam.png"
  ],
  "Reforged Bloodshard Core (Destroyer)": [
@@ -1534,7 +1543,7 @@
   "icons/blizzard/btn-unit-terran-siegetank.png"
  ],
  "Signifier": [
-  "icons/original/wireframe-protoss-hightemplar-nerazim.png"
+  "icons/original/btn-unit-protoss-hightemplar-nerazim.png"
  ],
  "Singularity Charge (Dragoon)": [
   "icons/blizzard/btn-upgrade-artanis-singularitycharge.png"

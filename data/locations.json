@@ -1,6 +1,6 @@
 {
   "meta": {
-    "timestamp": "2024-01-21",
+    "timestamp": "2024-02-09",
     "items": 589,
     "located": 565
   },
@@ -292,6 +292,7 @@
       "assets\\textures\\btn-upgrade-terran-lazertargetingsystem.dds"
     ],
     "Advanced Cloaking Field (Reaper)": [
+      "ap\\assets\\textures\\btn-permacloak-reaper.dds",
       "assets\\textures\\btn-ability-terran-cloak-color.dds"
     ],
     "Spider Mines (Reaper)": [
@@ -419,7 +420,9 @@
       "assets\\textures\\btn-ability-terran-heal-color.dds"
     ],
     "Progressive Tomahawk Power Cells (Wraith)": [
-      "assets\\textures\\btn-ability-hornerhan-wraith-permanentcloak.dds",
+      "ap\\assets\\textures\\btn-permacloak-wraith.dds",
+      "assets\\textures\\btn-ability-terran-cloak-color.dds",
+      "assets\\textures\\btn-ability-terran-decloak-color.dds",
       "assets\\textures\\btn-techupgrade-terran-tomahawkpowercell.dds"
     ],
     "Displacement Field (Wraith)": [
@@ -432,8 +435,8 @@
       "assets\\textures\\btn-upgrade-raynor-phobosclassweaponssystem.dds"
     ],
     "Progressive Cross-Spectrum Dampeners (Banshee)": [
-      "assets\\textures\\btn-ability-hornerhan-wraith-permanentcloak.dds",
-      "assets\\textures\\btn-techupgrade-terran-crossspectrumdampeners.dds"
+      "ap\\assets\\textures\\btn-banshee-cross-spectrum-dampeners.dds",
+      "ap\\assets\\textures\\btn-permacloak-banshee.dds"
     ],
     "Shockwave Missile Battery (Banshee)": [
       "assets\\textures\\btn-upgrade-raynor-shockwavemissilebattery.dds"
@@ -449,6 +452,9 @@
       "assets\\textures\\btn-techupgrade-terran-ocularimplants.dds"
     ],
     "Crius Suit (Ghost)": [
+      "ap\\assets\\textures\\btn-permacloak-ghost.dds",
+      "assets\\textures\\btn-ability-terran-cloak-color.dds",
+      "assets\\textures\\btn-ability-terran-decloak-color.dds",
       "assets\\textures\\btn-techupgrade-terran-criussuit.dds"
     ],
     "Psionic Lash (Spectre)": [
@@ -456,6 +462,9 @@
       "assets\\textures\\btn-techupgrade-terran-psioniclash.dds"
     ],
     "Nyx-Class Cloaking Module (Spectre)": [
+      "ap\\assets\\textures\\btn-permacloak-spectre.dds",
+      "assets\\textures\\btn-ability-terran-cloak-color.dds",
+      "assets\\textures\\btn-ability-terran-decloak-color.dds",
       "assets\\textures\\btn-techupgrade-terran-nyxcloakingclassmodule.dds"
     ],
     "330mm Barrage Cannon (Thor)": [
@@ -479,7 +488,7 @@
       "assets\\textures\\btn-ability-terran-widowminehidden.dds"
     ],
     "Advanced Cloaking Field (Medivac)": [
-      "assets\\textures\\btn-ability-terran-cloak-color.dds"
+      "ap\\assets\\textures\\btn-permacloak-medivac.dds"
     ],
     "Trigger Override (Wraith)": [
       "assets\\textures\\btn-ability-hornerhan-wraith-attackspeed.dds"
@@ -1119,7 +1128,7 @@
       "assets\\textures\\btn-upgrade-zerg-organiccarapace.dds"
     ],
     "Muscular Augments (Hydralisk)": [
-      "assets\\textures\\btn-upgrade-zerg-muscularaugments.dds"
+      "assets\\textures\\btn-upgrade-zerg-evolvemuscularaugments.dds"
     ],
     "Resource Efficiency (Hydralisk)": [
       "btn-ability-hornerhan-salvagebonus.dds"
@@ -1463,7 +1472,7 @@
       "assets\\textures\\btn-unit-protoss-sentry-taldarim.dds"
     ],
     "Signifier": [
-      "ap\\assets\\textures\\wireframe-protoss-hightemplar-nerazim.dds"
+      "ap\\assets\\textures\\btn-unit-protoss-hightemplar-nerazim.dds"
     ],
     "Ascendant": [
       "assets\\textures\\btn-unit-protoss-hightemplar-taldarim.dds"
@@ -1867,10 +1876,10 @@
     "Guardian Shell": [
       "assets\\textures\\btn-ability-spearofadun-guardianshell.dds"
     ],
-    "Reconstruction Beam": [
+    "Reconstruction Beam (Spear of Adun Auto-Cast)": [
       "assets\\textures\\btn-ability-spearofadun-reconstructionbeam.dds"
     ],
-    "Overwatch": [
+    "Overwatch (Spear of Adun Auto-Cast)": [
       "btn-ability-zeratul-chargedcrystal-psionicwinds.dds"
     ],
     "Superior Warp Gates": [
