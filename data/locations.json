@@ -1,6 +1,6 @@
 {
   "meta": {
-    "timestamp": "2024-02-09",
+    "timestamp": "2024-03-02",
     "items": 589,
     "located": 565
   },
@@ -436,7 +436,9 @@
     ],
     "Progressive Cross-Spectrum Dampeners (Banshee)": [
       "ap\\assets\\textures\\btn-banshee-cross-spectrum-dampeners.dds",
-      "ap\\assets\\textures\\btn-permacloak-banshee.dds"
+      "ap\\assets\\textures\\btn-permacloak-banshee.dds",
+      "assets\\textures\\btn-ability-terran-cloak-color.dds",
+      "assets\\textures\\btn-ability-terran-decloak-color.dds"
     ],
     "Shockwave Missile Battery (Banshee)": [
       "assets\\textures\\btn-upgrade-raynor-shockwavemissilebattery.dds"
@@ -728,7 +730,7 @@
     "Winged Nightmares": [
       "assets\\textures\\btn-unit-collection-wraith-junker.dds"
     ],
-    "Raid Liberators": [
+    "Midnight Riders": [
       "assets\\textures\\btn-unit-terran-liberatorblackops.dds"
     ],
     "Brynhilds": [

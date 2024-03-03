@@ -298,7 +298,7 @@ def parse_abil_data(abil_data_path: str) -> tuple[dict[str, list[str]], dict[str
     current_ability_type = ''
     current_ability_index = 0
 
-    train_start_pattern = re.compile(r'^\s*<CAbil(?:Warp)?Train\s+id="(AP_[^"]+)"')
+    train_start_pattern = re.compile(r'^\s*<CAbil(?:Warp)?Train\s+id="(AP_[^"]+)">')
     build_start_pattern = re.compile(r'^\s*<CAbilBuild\s+id="(AP_[^"]+)"')
     other_abil_start_pattern = re.compile(r'^\s*<CAbil\w+\s+id="(AP_[^"]+)"[^/]+$')
     index_start_pattern = re.compile(r'^\s*<InfoArray\s+index="(Build|Train)(\d+)"(?:\s+Unit="(AP_[^"]+)")?')
@@ -308,8 +308,8 @@ def parse_abil_data(abil_data_path: str) -> tuple[dict[str, list[str]], dict[str
     default_button_pattern = re.compile(r'^\s*<Button DefaultButtonFace="(AP_[^"]+)" .*Requirements="(AP_[^"]+)"')
     for line_number, line in enumerate(lines):
         if match := re.match(train_start_pattern, line):
-            assert not current_ability_type
-            assert not current_ability_stem
+            assert not current_ability_type, f"Error on line {line_number}: '{line}'"
+            assert not current_ability_stem, f"Error on line {line_number}: '{line}'"
             current_ability_index = 0
             current_ability_stem = match.group(1)
             current_ability_type = 'train'
@@ -407,8 +407,7 @@ def parse_combined_requirement_data(requirement_data_path: str, requirement_node
     UPGRADE = 'upgrade'
     current_requirement = ()
 
-    # Note(mm): The `(\w+)` is a temporary measure while a couple of requirements break our naming conventions
-    upgrade_start_pattern = re.compile(r'^\s*<CRequirementCountUpgrade\s+id="((\w+)?AP_[^"]+)">')
+    upgrade_start_pattern = re.compile(r'^\s*<CRequirementCountUpgrade\s+id="(AP_[^"]+)">')
     other_requirement_start_pattern = re.compile(r'^\s*<(CRequirement\w+)\s+id="(AP_[^"]+)"[^/]+$')
     count_pattern = re.compile(r'^\s*<Count Link="(AP_[^"]+)" State="CompleteOnly"')
     operand_pattern = re.compile(r'^\s*<OperandArray .*value="(AP_[^"]+)"')
@@ -431,7 +430,7 @@ def parse_combined_requirement_data(requirement_data_path: str, requirement_node
             assert current_requirement, f'Error on line {line_number}: found count outside requirement'
             if current_requirement[1] != UPGRADE:
                 continue
-            assert current_requirement[0] not in requirement_node_to_upgrade
+            assert current_requirement[0] not in requirement_node_to_upgrade, f"{current_requirement[0]} is already associated with an upgrade"
             requirement_node_to_upgrade[current_requirement[0]] = match.group(1)
         elif match := re.match(operand_pattern, line):
             assert current_requirement
@@ -523,7 +522,7 @@ def resolve_item_icon(
                         result.add(icon.lower())
                     ability_to_button
         elif unlock.galaxy_type == 'ability':
-            buttons = ability_to_button[unlock.name]
+            buttons = ability_to_button.get(unlock.name, [])
 
             for button in buttons:
                 icon = button_to_icon.get(button)

@@ -1089,7 +1089,9 @@
  ],
  "Progressive Cross-Spectrum Dampeners (Banshee)": [
   "icons/original/btn-banshee-cross-spectrum-dampeners.png",
-  "icons/original/btn-permacloak-banshee.png"
+  "icons/original/btn-permacloak-banshee.png",
+  "icons/blizzard/btn-ability-terran-cloak-color.png",
+  "icons/blizzard/btn-ability-terran-decloak-color.png"
  ],
  "Progressive Defensive Matrix (Battlecruiser)": [
   "icons/blizzard/btn-upgrade-swann-defensivematrix.png"

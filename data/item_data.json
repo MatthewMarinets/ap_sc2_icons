@@ -1718,7 +1718,7 @@
     "origin": [
       "wol"
     ],
-    "description": "Allows destroyed Thors to be reconstructed on the field. Costs Vespene Gas."
+    "description": "Level 1: Allows destroyed Thors to be reconstructed on the field. Costs Vespene Gas.\nLevel 2: Thors are automatically reconstructed after falling for free."
   },
   "Advanced Ballistics (Liberator)": {
     "type": "Armory 4",
@@ -2705,7 +2705,7 @@
     ],
     "description": "Mercenary Wraiths"
   },
-  "Raid Liberators": {
+  "Midnight Riders": {
     "type": "Mercenary",
     "number": 11,
     "race": "TERRAN",
@@ -3204,7 +3204,7 @@
     "origin": [
       "nco"
     ],
-    "description": null
+    "description": "Reveals the locations of enemy units in the fog of war around Nova. Can detect cloaked units."
   },
   "Rangefinder Oculus (Nova Equipment)": {
     "type": "Nova Gear",
@@ -3216,7 +3216,7 @@
     "origin": [
       "nco"
     ],
-    "description": null
+    "description": "Increaases Nova's vision range and non-melee weapon attack range by 2. Also increases range of melee weapons by 1."
   },
   "Domination (Nova Ability)": {
     "type": "Nova Gear",
@@ -3228,7 +3228,7 @@
     "origin": [
       "nco"
     ],
-    "description": null
+    "description": "Gives Nova the ability to mind-control a target enemy unit."
   },
   "Blink (Nova Ability)": {
     "type": "Nova Gear",
@@ -3240,7 +3240,7 @@
     "origin": [
       "nco"
     ],
-    "description": null
+    "description": "Gives Nova the ability to teleport a short distance and cloak for 10s."
   },
   "Progressive Stealth Suit Module (Nova Suit Module)": {
     "type": "Progressive Upgrade 2",
@@ -3252,7 +3252,7 @@
     "origin": [
       "nco"
     ],
-    "description": null
+    "description": "Level 1: Gives Nova the ability to cloak.\nLevel 2: Nova is permanently cloaked."
   },
   "Energy Suit Module (Nova Suit Module)": {
     "type": "Nova Gear",
@@ -3264,7 +3264,7 @@
     "origin": [
       "nco"
     ],
-    "description": null
+    "description": "Increases Nova's maximum energy and energy regeneration rate."
   },
   "Armored Suit Module (Nova Suit Module)": {
     "type": "Nova Gear",
@@ -3276,7 +3276,7 @@
     "origin": [
       "nco"
     ],
-    "description": null
+    "description": "Increases Nova's health by 100 and armour by 1. Nova also regeneratives life quickly out of combat."
   },
   "Jump Suit Module (Nova Suit Module)": {
     "type": "Nova Gear",
@@ -3288,7 +3288,7 @@
     "origin": [
       "nco"
     ],
-    "description": null
+    "description": "Increases Nova's movement speed and allows her to jump up and down cliffs."
   },
   "C20A Canister Rifle (Nova Weapon)": {
     "type": "Nova Gear",
@@ -3300,7 +3300,7 @@
     "origin": [
       "nco"
     ],
-    "description": null
+    "description": "Allows Nova to equip the C20A Canister Rifle, which has a ranged attack and allows Nova to cast Snipe."
   },
   "Hellfire Shotgun (Nova Weapon)": {
     "type": "Nova Gear",
@@ -3312,7 +3312,7 @@
     "origin": [
       "nco"
     ],
-    "description": null
+    "description": "Allows Nova to equip the Hellfire Shotgun, which has a short-range area attack in a cone and allows Nova to cast Penetrating Blast."
   },
   "Plasma Rifle (Nova Weapon)": {
     "type": "Nova Gear",
@@ -3324,7 +3324,7 @@
     "origin": [
       "nco"
     ],
-    "description": null
+    "description": "Allows Nova to equip the Plasma Rifle, which has a rapidfire ranged attack and allows Nova to cast Plasma Shot."
   },
   "Monomolecular Blade (Nova Weapon)": {
     "type": "Nova Gear",
@@ -3336,7 +3336,7 @@
     "origin": [
       "nco"
     ],
-    "description": null
+    "description": "Allows Nova to equip the Monomolecular Blade, which has a melee attack and allows Nova to cast Dash Attack."
   },
   "Blazefire Gunblade (Nova Weapon)": {
     "type": "Nova Gear",
@@ -3348,7 +3348,7 @@
     "origin": [
       "nco"
     ],
-    "description": null
+    "description": "Allows Nova to equip the Blazefire Gunblade, which has a melee attack and allows Nova to cast Fury of One."
   },
   "Stim Infusion (Nova Gadget)": {
     "type": "Nova Gear",
@@ -3360,7 +3360,7 @@
     "origin": [
       "nco"
     ],
-    "description": null
+    "description": "Gives Nova the ability to heal and temporarily increase her movement and attack speeds."
   },
   "Pulse Grenades (Nova Gadget)": {
     "type": "Nova Gear",
@@ -3372,7 +3372,7 @@
     "origin": [
       "nco"
     ],
-    "description": null
+    "description": "Gives Nova the ability to throw a grenade dealing large damage in an area."
   },
   "Flashbang Grenades (Nova Gadget)": {
     "type": "Nova Gear",
@@ -3384,7 +3384,7 @@
     "origin": [
       "nco"
     ],
-    "description": null
+    "description": "Gives Nova the ability to throw a grenade to stun enemies and disable detection in a large area."
   },
   "Ionic Force Field (Nova Gadget)": {
     "type": "Nova Gear",
@@ -3396,7 +3396,7 @@
     "origin": [
       "nco"
     ],
-    "description": null
+    "description": "Gives Nova the ability to shield herself temporarily."
   },
   "Holo Decoy (Nova Gadget)": {
     "type": "Nova Gear",
@@ -3408,7 +3408,7 @@
     "origin": [
       "nco"
     ],
-    "description": null
+    "description": "Gives Nova the ability to summon a decoy unit which enemies will prefer to target and takes reduced damage."
   },
   "Tac Nuke Strike (Nova Ability)": {
     "type": "Nova Gear",
@@ -3420,7 +3420,7 @@
     "origin": [
       "nco"
     ],
-    "description": null
+    "description": "Gives Nova the ability to launch tactical nukes built from the Shadow Ops."
   },
   "Zergling": {
     "type": "Unit",
@@ -3746,7 +3746,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Increases Zergling health by +10."
   },
   "Adrenal Overload (Zergling)": {
     "type": "Mutation 1",
@@ -3758,7 +3758,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Increases Zergling attack speed."
   },
   "Metabolic Boost (Zergling)": {
     "type": "Mutation 1",
@@ -3770,7 +3770,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Increases Zergling movement speed."
   },
   "Hydriodic Bile (Roach)": {
     "type": "Mutation 1",
@@ -3782,7 +3782,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Roaches deal +8 damage to light targets."
   },
   "Adaptive Plating (Roach)": {
     "type": "Mutation 1",
@@ -3794,7 +3794,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Roaches gain +3 armour when their life is below 50%."
   },
   "Tunneling Claws (Roach)": {
     "type": "Mutation 1",
@@ -3806,7 +3806,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Allows Roaches to move while burrowed."
   },
   "Frenzy (Hydralisk)": {
     "type": "Mutation 1",
@@ -3818,7 +3818,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Allows Hydralisks to use the Frenzy ability, which increases their attack speed by 50%."
   },
   "Ancillary Carapace (Hydralisk)": {
     "type": "Mutation 1",
@@ -3830,7 +3830,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Hydralisks gain +20 health."
   },
   "Grooved Spines (Hydralisk)": {
     "type": "Mutation 1",
@@ -3842,7 +3842,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Hydralisks gain +1 range."
   },
   "Corrosive Acid (Baneling)": {
     "type": "Mutation 1",
@@ -3854,7 +3854,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Increases the damage banelings deal to their primary target. Splash damage remains the same."
   },
   "Rupture (Baneling)": {
     "type": "Mutation 1",
@@ -3866,7 +3866,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Increases the splash radius of baneling attacks."
   },
   "Regenerative Acid (Baneling)": {
     "type": "Mutation 1",
@@ -3878,7 +3878,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Banelings will heal nearby friendly units when they explode."
   },
   "Vicious Glave (Mutalisk)": {
     "type": "Mutation 1",
@@ -3890,7 +3890,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Mutalisks attacks will bounce an additional 3 times."
   },
   "Rapid Regeneration (Mutalisk)": {
     "type": "Mutation 1",
@@ -3902,7 +3902,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Mutalisks will regenerate quickly when out of combat."
   },
   "Sundering Glave (Mutalisk)": {
     "type": "Mutation 1",
@@ -3914,7 +3914,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Mutalisks deal increased damage to their primary target."
   },
   "Burrow (Swarm Host)": {
     "type": "Mutation 1",
@@ -3926,7 +3926,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Allows Swarm Hosts to burrow instead of root to spawn locusts."
   },
   "Rapid Incubation (Swarm Host)": {
     "type": "Mutation 1",
@@ -3938,7 +3938,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Swarm Hosts will spawn locusts 20% faster."
   },
   "Pressurized Glands (Swarm Host)": {
     "type": "Mutation 1",
@@ -3950,7 +3950,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Allows Swarm Host Locusts to attack air targets."
   },
   "Burrow Charge (Ultralisk)": {
     "type": "Mutation 1",
@@ -3962,7 +3962,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Allows Ultralisks to burrow and charge at enemy units, knocking back and stunning units when it emerges."
   },
   "Tissue Animation (Ultralisk)": {
     "type": "Mutation 1",
@@ -3974,7 +3974,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Ultralisks recover health when they deal damage."
   },
   "Monarch Blades (Ultralisk)": {
     "type": "Mutation 1",
@@ -3986,7 +3986,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Ultralisks gain increased splash damage."
   },
   "Caustic Spray (Corruptor)": {
     "type": "Mutation 1",
@@ -3998,7 +3998,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Allows Corruptors to use the Caustic Spray ability, which deals ramping damage to buildings over time."
   },
   "Corruption (Corruptor)": {
     "type": "Mutation 1",
@@ -4010,7 +4010,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Allows Corruptors to use the Corruption ability, which causes a target enemy unit to take increased damage."
   },
   "Virulent Spores (Scourge)": {
     "type": "Mutation 1",
@@ -4022,7 +4022,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Scourge will deal splash damage."
   },
   "Resource Efficiency (Scourge)": {
     "type": "Mutation 1",
@@ -4034,7 +4034,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Reduces the cost of Scourge by 50 gas per egg."
   },
   "Swarm Scourge (Scourge)": {
     "type": "Mutation 1",
@@ -4046,7 +4046,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "An extra Scourge will be built from each egg at no additional cost."
   },
   "Shredding Claws (Zergling)": {
     "type": "Mutation 1",
@@ -4058,7 +4058,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Zergling attacks will temporarily reduce their target's armour to 0."
   },
   "Glial Reconstitution (Roach)": {
     "type": "Mutation 1",
@@ -4070,7 +4070,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Increases Roach movement speed."
   },
   "Organic Carapace (Roach)": {
     "type": "Mutation 1",
@@ -4082,7 +4082,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Increases Roach health by +25."
   },
   "Muscular Augments (Hydralisk)": {
     "type": "Mutation 1",
@@ -4094,7 +4094,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "Increases Hydralisk movement speed."
   },
   "Resource Efficiency (Hydralisk)": {
     "type": "Mutation 2",
@@ -4106,7 +4106,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "Reduces Hydralisk resource cost by 25/25 and supply cost by 1."
   },
   "Centrifugal Hooks (Baneling)": {
     "type": "Mutation 2",
@@ -4118,7 +4118,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Increases the movement speed of Banelings."
   },
   "Tunneling Jaws (Baneling)": {
     "type": "Mutation 2",
@@ -4130,7 +4130,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Allows Banelings to move while burrowed."
   },
   "Rapid Metamorph (Baneling)": {
     "type": "Mutation 2",
@@ -4142,7 +4142,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Banelings morph faster."
   },
   "Severing Glave (Mutalisk)": {
     "type": "Mutation 2",
@@ -4154,7 +4154,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Mutalisk bounce attacks will deal full damage."
   },
   "Aerodynamic Glave Shape (Mutalisk)": {
     "type": "Mutation 2",
@@ -4166,7 +4166,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Increases the attack range of Mutalisks by 2."
   },
   "Locust Metabolic Boost (Swarm Host)": {
     "type": "Mutation 2",
@@ -4178,7 +4178,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Increases Locust movement speed."
   },
   "Enduring Locusts (Swarm Host)": {
     "type": "Mutation 2",
@@ -4190,7 +4190,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Increases the duration of Swarm Hosts' Locusts by 10s."
   },
   "Organic Carapace (Swarm Host)": {
     "type": "Mutation 2",
@@ -4202,7 +4202,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Increases Swarm Host health by +40."
   },
   "Resource Efficiency (Swarm Host)": {
     "type": "Mutation 2",
@@ -4214,7 +4214,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Reduces Swarm Host resource cost by 100/25."
   },
   "Anabolic Synthesis (Ultralisk)": {
     "type": "Mutation 2",
@@ -4670,7 +4670,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Allows Zerglings to jump up and down cliffs and leap onto enemies. Also increases Zergling attack damage by 2."
   },
   "Swarmling Strain (Zergling)": {
     "type": "Strain",
@@ -4682,7 +4682,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Zerglings will spawn instantly and with an extra Zergling per egg at no additional cost."
   },
   "Vile Strain (Roach)": {
     "type": "Strain",
@@ -4694,7 +4694,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Roach attacks will slow the movement and attack speed of enemies."
   },
   "Corpser Strain (Roach)": {
     "type": "Strain",
@@ -4706,7 +4706,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Units killed after being attacked by Roaches will spawn 2 Roachlings."
   },
   "Impaler Aspect (Hydralisk)": {
     "type": "Morph",
@@ -4718,7 +4718,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Allows Hydralisks to morph into Impalers."
   },
   "Lurker Aspect (Hydralisk)": {
     "type": "Morph",
@@ -4730,7 +4730,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Allows Hydralisks to morph into Lurkers."
   },
   "Splitter Strain (Baneling)": {
     "type": "Strain",
@@ -4742,7 +4742,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Banelings will split into two smaller Splitterlings on exploding."
   },
   "Hunter Strain (Baneling)": {
     "type": "Strain",
@@ -4754,7 +4754,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Allows Banelings to jump up and down cliffs and leap onto enemies."
   },
   "Brood Lord Aspect (Mutalisk/Corruptor)": {
     "type": "Morph",
@@ -4766,7 +4766,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Allows Mutalisks and Corruptors to morph into Brood Lords."
   },
   "Viper Aspect (Mutalisk/Corruptor)": {
     "type": "Morph",
@@ -4778,7 +4778,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Allows Mutalisks and Corruptors to morph into Vipers."
   },
   "Carrion Strain (Swarm Host)": {
     "type": "Strain",
@@ -4790,7 +4790,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Swarm Hosts will spawn Flying Locusts."
   },
   "Creeper Strain (Swarm Host)": {
     "type": "Strain",
@@ -4802,7 +4802,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Allows Swarm Hosts to teleport to any creep on the map in vision. Swarm Hosts will spread creep around them when rooted or burrowed."
   },
   "Noxious Strain (Ultralisk)": {
     "type": "Strain",
@@ -4814,7 +4814,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Ultralisks will periodically spread poison, damaging nearby biological enemies."
   },
   "Torrasque Strain (Ultralisk)": {
     "type": "Strain",
@@ -4826,7 +4826,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Ultralisks will revive after being killed."
   },
   "Kinetic Blast (Kerrigan Tier 1)": {
     "type": "Ability",
