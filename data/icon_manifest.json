@@ -900,6 +900,9 @@
  "Microbial Shroud (Infestor)": [
   "icons/blizzard/btn-ability-zerg-darkswarm.png"
  ],
+ "Midnight Riders": [
+  "icons/blizzard/btn-unit-terran-liberatorblackops.png"
+ ],
  "Mirage": [
   "icons/blizzard/btn-unit-protoss-phoenix-purifier.png"
  ],
@@ -1295,9 +1298,6 @@
  "Raid Artillery (Liberator)": [
   "icons/blizzard/btn-upgrade-raynor-maelstromrounds.png",
   "icons/blizzard/btn-upgrade-terran-nova-terrandefendermodestructureattack.png"
- ],
- "Raid Liberators": [
-  "icons/blizzard/btn-unit-terran-liberatorblackops.png"
  ],
  "Railgun Turret (Raven)": [
   "icons/blizzard/btn-unit-terran-autoturretblackops.png"
