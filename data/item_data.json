@@ -1408,6 +1408,78 @@
     ],
     "description": "Increases Viking damage to mechanical units while in Assault Mode."
   },
+  "Ion Thrusters (Diamondback)": {
+    "type": "Armory 3",
+    "number": 21,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Diamondback",
+    "origin": [
+      "wol"
+    ],
+    "description": "Increases Diamondback movement speed."
+  },
+  "Resource Efficiency (Warhound)": {
+    "type": "Armory 6",
+    "number": 13,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Warhound",
+    "origin": [
+      "wol"
+    ],
+    "description": "Reduces Warhound resource cost."
+  },
+  "Reinforced Plating (Warhound)": {
+    "type": "Armory 6",
+    "number": 14,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Warhound",
+    "origin": [
+      "wol"
+    ],
+    "description": "Increases Warhound armor by 2."
+  },
+  "Resource Efficiency (HERC)": {
+    "type": "Armory 6",
+    "number": 15,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "HERC",
+    "origin": [
+      "wol"
+    ],
+    "description": "Reduces HERC resource and supply cost."
+  },
+  "Juggernaut Plating (HERC)": {
+    "type": "Armory 6",
+    "number": 16,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Warhound",
+    "origin": [
+      "wol"
+    ],
+    "description": "Increases HERC armor by 2."
+  },
+  "Kinetic Foam (HERC)": {
+    "type": "Armory 6",
+    "number": 17,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Warhound",
+    "origin": [
+      "wol"
+    ],
+    "description": "Increases HERC life by 50."
+  },
   "Twin-Linked Flamethrower (Hellion)": {
     "type": "Armory 3",
     "number": 16,
@@ -1480,17 +1552,17 @@
     ],
     "description": "Increases Goliath ground attack range by 1 and air by 3."
   },
-  "Tri-Lithium Power Cell (Diamondback)": {
-    "type": "Armory 3",
-    "number": 21,
+  "Progressive Tri-Lithium Power Cell (Diamondback)": {
+    "type": "Progressive Upgrade 2",
+    "number": 4,
     "race": "TERRAN",
-    "classification": "filler",
-    "quantity": 1,
+    "classification": "useful",
+    "quantity": 2,
     "parent_item": "Diamondback",
     "origin": [
       "wol"
     ],
-    "description": "Increases Diamondback attack range by 1."
+    "description": "Level 1: Tri-Lithium Power Cell: Increases Diamondback attack range by 1.\nLevel 2: Tungsten Spikes: Increases Diamondback attack range by 3."
   },
   "Shaped Hull (Diamondback)": {
     "type": "Armory 3",
@@ -1562,7 +1634,7 @@
     "origin": [
       "wol"
     ],
-    "description": "Level 1: Increases Wraith starting energy by 100.\nLevel 2: Wraiths do not require energy to cloak and remain cloaked."
+    "description": "Level 1: Tomahawk Power Cells: Increases Wraith starting energy by 100.\nLevel 2: Unregistered Cloaking Module: Wraiths do not require energy to cloak and remain cloaked."
   },
   "Displacement Field (Wraith)": {
     "type": "Armory 3",
@@ -3276,7 +3348,7 @@
     "origin": [
       "nco"
     ],
-    "description": "Increases Nova's health by 100 and armour by 1. Nova also regeneratives life quickly out of combat."
+    "description": "Increases Nova's health by 100 and armour by 1. Nova also regenerates life quickly out of combat."
   },
   "Jump Suit Module (Nova Suit Module)": {
     "type": "Nova Gear",
@@ -3360,7 +3432,7 @@
     "origin": [
       "nco"
     ],
-    "description": "Gives Nova the ability to heal and temporarily increase her movement and attack speeds."
+    "description": "Gives Nova the ability to heal herself and temporarily increase her movement and attack speeds."
   },
   "Pulse Grenades (Nova Gadget)": {
     "type": "Nova Gear",
@@ -3880,7 +3952,7 @@
     ],
     "description": "Banelings will heal nearby friendly units when they explode."
   },
-  "Vicious Glave (Mutalisk)": {
+  "Vicious Glaive (Mutalisk)": {
     "type": "Mutation 1",
     "number": 12,
     "race": "ZERG",
@@ -3904,7 +3976,7 @@
     ],
     "description": "Mutalisks will regenerate quickly when out of combat."
   },
-  "Sundering Glave (Mutalisk)": {
+  "Sundering Glaive (Mutalisk)": {
     "type": "Mutation 1",
     "number": 14,
     "race": "ZERG",
@@ -3964,7 +4036,7 @@
     ],
     "description": "Allows Ultralisks to burrow and charge at enemy units, knocking back and stunning units when it emerges."
   },
-  "Tissue Animation (Ultralisk)": {
+  "Tissue Assimilation (Ultralisk)": {
     "type": "Mutation 1",
     "number": 19,
     "race": "ZERG",
@@ -4144,7 +4216,7 @@
     ],
     "description": "Banelings morph faster."
   },
-  "Severing Glave (Mutalisk)": {
+  "Severing Glaive (Mutalisk)": {
     "type": "Mutation 2",
     "number": 4,
     "race": "ZERG",
@@ -4156,7 +4228,7 @@
     ],
     "description": "Mutalisk bounce attacks will deal full damage."
   },
-  "Aerodynamic Glave Shape (Mutalisk)": {
+  "Aerodynamic Glaive Shape (Mutalisk)": {
     "type": "Mutation 2",
     "number": 5,
     "race": "ZERG",

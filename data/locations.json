@@ -1,8 +1,8 @@
 {
   "meta": {
-    "timestamp": "2024-03-02",
-    "items": 589,
-    "located": 565
+    "timestamp": "2024-03-10",
+    "items": 595,
+    "located": 571
   },
   "locations": {
     "Marine": [
@@ -292,7 +292,7 @@
       "assets\\textures\\btn-upgrade-terran-lazertargetingsystem.dds"
     ],
     "Advanced Cloaking Field (Reaper)": [
-      "ap\\assets\\textures\\btn-permacloak-reaper.dds",
+      "ap\\assets\\custom\\textures\\btn-permacloak-reaper.dds",
       "assets\\textures\\btn-ability-terran-cloak-color.dds"
     ],
     "Spider Mines (Reaper)": [
@@ -382,6 +382,24 @@
     "Anti-Mechanical Munition (Viking)": [
       "assets\\textures\\btn-ability-terran-ignorearmor.dds"
     ],
+    "Ion Thrusters (Diamondback)": [
+      "assets\\textures\\btn-ability-terran-emergencythrusters.dds"
+    ],
+    "Resource Efficiency (Warhound)": [
+      "btn-ability-hornerhan-salvagebonus.dds"
+    ],
+    "Reinforced Plating (Warhound)": [
+      "ap\\assets\\textures\\btn-research-zerg-fortifiedbunker.dds"
+    ],
+    "Resource Efficiency (HERC)": [
+      "btn-ability-hornerhan-salvagebonus.dds"
+    ],
+    "Juggernaut Plating (HERC)": [
+      "assets\\textures\\btn-techupgrade-terran-juggernautplating.dds"
+    ],
+    "Kinetic Foam (HERC)": [
+      "assets\\textures\\btn-techupgrade-terran-kineticfoam.dds"
+    ],
     "Twin-Linked Flamethrower (Hellion)": [
       "assets\\textures\\btn-upgrade-mengsk-trooper-flamethrower.dds"
     ],
@@ -400,8 +418,9 @@
     "Ares-Class Targeting System (Goliath)": [
       "assets\\textures\\btn-upgrade-swann-aresclasstargetingsystem.dds"
     ],
-    "Tri-Lithium Power Cell (Diamondback)": [
-      "assets\\textures\\btn-ability-protoss-voidrayprismaticalignment.dds"
+    "Progressive Tri-Lithium Power Cell (Diamondback)": [
+      "ap\\assets\\custom\\textures\\btn-upgrade-terran-trilithium-power-cell.dds",
+      "ap\\assets\\custom\\textures\\btn-upgrade-terran-tungsten-spikes.dds"
     ],
     "Shaped Hull (Diamondback)": [
       "assets\\textures\\btn-techupgrade-terran-shapedhull.dds"
@@ -420,7 +439,7 @@
       "assets\\textures\\btn-ability-terran-heal-color.dds"
     ],
     "Progressive Tomahawk Power Cells (Wraith)": [
-      "ap\\assets\\textures\\btn-permacloak-wraith.dds",
+      "ap\\assets\\custom\\textures\\btn-permacloak-wraith.dds",
       "assets\\textures\\btn-ability-terran-cloak-color.dds",
       "assets\\textures\\btn-ability-terran-decloak-color.dds",
       "assets\\textures\\btn-techupgrade-terran-tomahawkpowercell.dds"
@@ -435,8 +454,8 @@
       "assets\\textures\\btn-upgrade-raynor-phobosclassweaponssystem.dds"
     ],
     "Progressive Cross-Spectrum Dampeners (Banshee)": [
+      "ap\\assets\\custom\\textures\\btn-permacloak-banshee.dds",
       "ap\\assets\\textures\\btn-banshee-cross-spectrum-dampeners.dds",
-      "ap\\assets\\textures\\btn-permacloak-banshee.dds",
       "assets\\textures\\btn-ability-terran-cloak-color.dds",
       "assets\\textures\\btn-ability-terran-decloak-color.dds"
     ],
@@ -454,7 +473,7 @@
       "assets\\textures\\btn-techupgrade-terran-ocularimplants.dds"
     ],
     "Crius Suit (Ghost)": [
-      "ap\\assets\\textures\\btn-permacloak-ghost.dds",
+      "ap\\assets\\custom\\textures\\btn-permacloak-ghost.dds",
       "assets\\textures\\btn-ability-terran-cloak-color.dds",
       "assets\\textures\\btn-ability-terran-decloak-color.dds",
       "assets\\textures\\btn-techupgrade-terran-criussuit.dds"
@@ -464,13 +483,13 @@
       "assets\\textures\\btn-techupgrade-terran-psioniclash.dds"
     ],
     "Nyx-Class Cloaking Module (Spectre)": [
-      "ap\\assets\\textures\\btn-permacloak-spectre.dds",
+      "ap\\assets\\custom\\textures\\btn-permacloak-spectre.dds",
       "assets\\textures\\btn-ability-terran-cloak-color.dds",
       "assets\\textures\\btn-ability-terran-decloak-color.dds",
       "assets\\textures\\btn-techupgrade-terran-nyxcloakingclassmodule.dds"
     ],
     "330mm Barrage Cannon (Thor)": [
-      "assets\\textures\\btn-ability-spearofadun-orbitalstrike.dds",
+      "ap\\assets\\custom\\textures\\btn-ability-thor-330mm.dds",
       "assets\\textures\\btn-ability-terran-bombardmentstrike-color.dds"
     ],
     "Progressive Immortality Protocol (Thor)": [
@@ -490,7 +509,7 @@
       "assets\\textures\\btn-ability-terran-widowminehidden.dds"
     ],
     "Advanced Cloaking Field (Medivac)": [
-      "ap\\assets\\textures\\btn-permacloak-medivac.dds"
+      "ap\\assets\\custom\\textures\\btn-permacloak-medivac.dds"
     ],
     "Trigger Override (Wraith)": [
       "assets\\textures\\btn-ability-hornerhan-wraith-attackspeed.dds"
@@ -921,7 +940,7 @@
       "assets\\textures\\btn-upgrade-nova-equipment-gunblade_sword.dds"
     ],
     "Stim Infusion (Nova Gadget)": [
-      "assets\\textures\\btn-upgrade-terran-superstimppack.dds"
+      "assets\\textures\\btn-ability-terran-stimpack-color.dds"
     ],
     "Pulse Grenades (Nova Gadget)": [
       "assets\\textures\\btn-upgrade-nova-btn-upgrade-nova-pulsegrenade.dds"
@@ -1074,13 +1093,13 @@
       "assets\\textures\\btn-ability-zerg-explode-color.dds",
       "assets\\textures\\btn-upgrade-zerg-regenerativebile.dds"
     ],
-    "Vicious Glave (Mutalisk)": [
+    "Vicious Glaive (Mutalisk)": [
       "assets\\textures\\btn-upgrade-zerg-viciousglaive.dds"
     ],
     "Rapid Regeneration (Mutalisk)": [
       "assets\\textures\\btn-upgrade-zerg-rapidregeneration.dds"
     ],
-    "Sundering Glave (Mutalisk)": [
+    "Sundering Glaive (Mutalisk)": [
       "assets\\textures\\btn-upgrade-zerg-explosiveglaive.dds"
     ],
     "Burrow (Swarm Host)": [
@@ -1097,7 +1116,7 @@
     "Burrow Charge (Ultralisk)": [
       "assets\\textures\\btn-upgrade-zerg-burrowcharge.dds"
     ],
-    "Tissue Animation (Ultralisk)": [
+    "Tissue Assimilation (Ultralisk)": [
       "assets\\textures\\btn-upgrade-zerg-tissueassimilation.dds"
     ],
     "Monarch Blades (Ultralisk)": [
@@ -1144,10 +1163,10 @@
     "Rapid Metamorph (Baneling)": [
       "btn-upgrade-terran-optimizedlogistics.dds"
     ],
-    "Severing Glave (Mutalisk)": [
+    "Severing Glaive (Mutalisk)": [
       "assets\\textures\\btn-upgrade-zerg-explosiveglaive.dds"
     ],
-    "Aerodynamic Glave Shape (Mutalisk)": [
+    "Aerodynamic Glaive Shape (Mutalisk)": [
       "assets\\textures\\btn-ability-dehaka-airbonusdamage.dds"
     ],
     "Locust Metabolic Boost (Swarm Host)": [

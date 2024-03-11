@@ -1,6 +1,6 @@
 {
  "330mm Barrage Cannon (Thor)": [
-  "icons/blizzard/btn-ability-spearofadun-orbitalstrike.png",
+  "icons/original/btn-ability-thor-330mm.png",
   "icons/blizzard/btn-ability-terran-bombardmentstrike-color.png"
  ],
  "ATX Laser Battery (Battlecruiser)": [
@@ -90,7 +90,7 @@
  "Advanced Targeting Optics (Banshee)": [
   "icons/blizzard/btn-ability-terran-detectionconedebuff.png"
  ],
- "Aerodynamic Glave Shape (Mutalisk)": [
+ "Aerodynamic Glaive Shape (Mutalisk)": [
   "icons/blizzard/btn-ability-dehaka-airbonusdamage.png"
  ],
  "Afterburners (Medivac)": [
@@ -740,6 +740,9 @@
  "Internal Tech Module (Wraith)": [
   "icons/blizzard/btn-upgrade-terran-internalizedtechmodule.png"
  ],
+ "Ion Thrusters (Diamondback)": [
+  "icons/blizzard/btn-ability-terran-emergencythrusters.png"
+ ],
  "Ion Thrusters (Vulture)": [
   "icons/blizzard/btn-ability-terran-emergencythrusters.png"
  ],
@@ -760,6 +763,9 @@
  ],
  "Juggernaut Plating (Firebat)": [
   "icons/blizzard/btn-upgrade-raynor-juggernautplating.png"
+ ],
+ "Juggernaut Plating (HERC)": [
+  "icons/blizzard/btn-techupgrade-terran-juggernautplating.png"
  ],
  "Juggernaut Plating (Marauder)": [
   "icons/blizzard/btn-techupgrade-terran-juggernautplating.png",
@@ -793,6 +799,9 @@
   "icons/blizzard/btn-ability-kerrigan-kineticblast.png"
  ],
  "Kinetic Foam (Firebat)": [
+  "icons/blizzard/btn-techupgrade-terran-kineticfoam.png"
+ ],
+ "Kinetic Foam (HERC)": [
   "icons/blizzard/btn-techupgrade-terran-kineticfoam.png"
  ],
  "Kinetic Foam (Marauder)": [
@@ -1091,8 +1100,8 @@
   "icons/blizzard/btn-ability-terran-liftoff.png"
  ],
  "Progressive Cross-Spectrum Dampeners (Banshee)": [
-  "icons/original/btn-banshee-cross-spectrum-dampeners.png",
   "icons/original/btn-permacloak-banshee.png",
+  "icons/original/btn-banshee-cross-spectrum-dampeners.png",
   "icons/blizzard/btn-ability-terran-cloak-color.png",
   "icons/blizzard/btn-ability-terran-decloak-color.png"
  ],
@@ -1229,6 +1238,10 @@
   "icons/blizzard/btn-ability-terran-decloak-color.png",
   "icons/blizzard/btn-techupgrade-terran-tomahawkpowercell.png"
  ],
+ "Progressive Tri-Lithium Power Cell (Diamondback)": [
+  "icons/original/btn-upgrade-terran-trilithium-power-cell.png",
+  "icons/original/btn-upgrade-terran-tungsten-spikes.png"
+ ],
  "Progressive Zerg Flyer Attack": [
   "icons/blizzard/btn-upgrade-zerg-airattacks-level1.png",
   "icons/blizzard/btn-upgrade-zerg-airattacks-level2.png",
@@ -1359,6 +1372,9 @@
   "icons/blizzard/btn-ability-zerg-explode-color.png",
   "icons/blizzard/btn-upgrade-zerg-regenerativebile.png"
  ],
+ "Reinforced Plating (Warhound)": [
+  "icons/original/btn-research-zerg-fortifiedbunker.png"
+ ],
  "Resonating Glaives (Adept)": [
   "icons/blizzard/btn-upgrade-protoss-resonatingglaives.png"
  ],
@@ -1384,6 +1400,9 @@
   "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
  "Resource Efficiency (Goliath)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (HERC)": [
   "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
  "Resource Efficiency (Hydralisk)": [
@@ -1424,6 +1443,9 @@
   "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
  "Resource Efficiency (Valkyrie)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Warhound)": [
   "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
  "Resource Efficiency (Wraith)": [
@@ -1484,7 +1506,7 @@
  "Sentry": [
   "icons/blizzard/btn-unit-protoss-sentry.png"
  ],
- "Severing Glave (Mutalisk)": [
+ "Severing Glaive (Mutalisk)": [
   "icons/blizzard/btn-upgrade-zerg-explosiveglaive.png"
  ],
  "Shadow Guard Training (Dark Templar/Avenger/Blood Hunter)": [
@@ -1643,12 +1665,12 @@
   "icons/blizzard/btn-upgrade-vorazun-oraclepermanentlycloaked.png"
  ],
  "Stim Infusion (Nova Gadget)": [
-  "icons/blizzard/btn-upgrade-terran-superstimppack.png"
+  "icons/blizzard/btn-ability-terran-stimpack-color.png"
  ],
  "Structure Armor": [
   "icons/blizzard/btn-upgrade-terran-buildingarmor.png"
  ],
- "Sundering Glave (Mutalisk)": [
+ "Sundering Glaive (Mutalisk)": [
   "icons/blizzard/btn-upgrade-zerg-explosiveglaive.png"
  ],
  "Superior Warp Gates": [
@@ -1714,7 +1736,7 @@
  "Time Stop (Spear of Adun Calldown)": [
   "icons/blizzard/btn-ability-spearofadun-timestop.png"
  ],
- "Tissue Animation (Ultralisk)": [
+ "Tissue Assimilation (Ultralisk)": [
   "icons/blizzard/btn-upgrade-zerg-tissueassimilation.png"
  ],
  "Titanium Housing (Missile Turret)": [
@@ -1723,9 +1745,6 @@
  "Torrasque Strain (Ultralisk)": [
   "icons/blizzard/btn-ability-zerg-ultralisk-revive.png",
   "icons/blizzard/btn-unit-zerg-ultralisk-torrasque.png"
- ],
- "Tri-Lithium Power Cell (Diamondback)": [
-  "icons/blizzard/btn-ability-protoss-voidrayprismaticalignment.png"
  ],
  "Trigger Override (Wraith)": [
   "icons/blizzard/btn-ability-hornerhan-wraith-attackspeed.png"
@@ -1793,7 +1812,7 @@
  "Vespene Efficiency (Kerrigan Tier 5)": [
   "icons/blizzard/btn-ability-kerrigan-vespeneefficiency.png"
  ],
- "Vicious Glave (Mutalisk)": [
+ "Vicious Glaive (Mutalisk)": [
   "icons/blizzard/btn-upgrade-zerg-viciousglaive.png"
  ],
  "Viking": [
