@@ -29,6 +29,7 @@
         "Splitter Strain (Baneling)": ["talent-zagara-level14-unlocksplitterling.dds"],
         "Quatro": ["btn-progression-protoss-fenix-6-forgeresearch.dds"],
         "Overwatch (Spear of Adun Auto-Cast)": ["btn-ability-zeratul-chargedcrystal-psionicwinds.dds"],
+        "Progressive Orbital Command": ["ap/assets/textures/btn-orbital-fortress.dds"],
         "": [],
         "Nothing": ["btn-command-cancel.dds"]
     },

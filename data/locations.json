@@ -1,6 +1,6 @@
 {
   "meta": {
-    "timestamp": "2024-03-10",
+    "timestamp": "2024-03-13",
     "items": 595,
     "located": 571
   },
@@ -148,6 +148,7 @@
       "btn-upgrade-swann-firesuppressionsystem.dds"
     ],
     "Progressive Orbital Command": [
+      "ap/assets/textures/btn-orbital-fortress.dds",
       "assets\\textures\\btn-ability-terran-scannersweep-color.dds",
       "assets\\textures\\btn-building-terran-commandcenter.dds",
       "assets\\textures\\btn-building-terran-surveillancestation.dds",
