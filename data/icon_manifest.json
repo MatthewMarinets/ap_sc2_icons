@@ -1159,6 +1159,8 @@
   "icons/blizzard/btn-ability-spearofadun-deploypylon.png"
  ],
  "Progressive Regenerative Bio-Steel": [
+  "icons/original/btn-regenerativebiosteel-blue.png",
+  "icons/original/btn-regenerativebiosteel-green.png",
   "icons/blizzard/btn-research-zerg-regenerativebio-steel.png"
  ],
  "Progressive Replenishable Magazine (Vulture)": [

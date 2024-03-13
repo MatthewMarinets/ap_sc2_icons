@@ -832,6 +832,8 @@
       "btn-research-zerg-cellularreactor.dds"
     ],
     "Progressive Regenerative Bio-Steel": [
+      "ap/assets/textures/btn-regenerativebiosteel-blue.dds",
+      "ap/assets/textures/btn-regenerativebiosteel-green.dds",
       "btn-research-zerg-regenerativebio-steel.dds"
     ],
     "Hive Mind Emulator": [

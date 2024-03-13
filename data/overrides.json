@@ -8,7 +8,7 @@
         "Additional Starting Vespene": ["btn-tips-resourcecaches.dds", "icon-gas-terran-nobg.dds", "btn-ability-spearofadun-orbitalassimilator.dds"],
         "Additional Starting Supply": ["icon-supply-protoss_nobg.dds", "icon-supply-terran_nobg.dds", "icon-supply-zerg_nobg.dds"],
         "Cellular Reactor": ["btn-research-zerg-cellularreactor.dds"],
-        "Progressive Regenerative Bio-Steel": ["btn-research-zerg-regenerativebio-steel.dds"],
+        "Progressive Regenerative Bio-Steel": ["btn-research-zerg-regenerativebio-steel.dds", "ap/assets/textures/btn-regenerativebiosteel-green.dds", "ap/assets/textures/btn-regenerativebiosteel-blue.dds"],
         "Orbital Strike": ["btn-research-terran-orbitalstrikerally.dds"],
         "Command Center Reactor": ["btn-research-terran-commandcenterreactor.dds"],
         "Vanadium Plating": ["btn-research-terran-vanadiumplating.dds"],
