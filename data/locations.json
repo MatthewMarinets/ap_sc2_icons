@@ -1841,7 +1841,8 @@
       "assets\\textures\\btn-ability-spearofadun-chronosurge.dds"
     ],
     "Progressive Proxy Pylon (Spear of Adun Calldown)": [
-      "assets\\textures\\btn-ability-spearofadun-warpinreinforcements.dds"
+      "assets\\textures\\btn-ability-spearofadun-warpinreinforcements.dds",
+      "btn-ability-spearofadun-deploypylon.dds"
     ],
     "Pylon Overcharge (Spear of Adun Calldown)": [
       "assets\\textures\\btn-ability-protoss-purify.dds"

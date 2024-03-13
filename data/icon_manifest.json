@@ -1155,7 +1155,8 @@
   "icons/blizzard/btn-upgrade-protoss-shieldslevel3.png"
  ],
  "Progressive Proxy Pylon (Spear of Adun Calldown)": [
-  "icons/blizzard/btn-ability-spearofadun-warpinreinforcements.png"
+  "icons/blizzard/btn-ability-spearofadun-warpinreinforcements.png",
+  "icons/blizzard/btn-ability-spearofadun-deploypylon.png"
  ],
  "Progressive Regenerative Bio-Steel": [
   "icons/blizzard/btn-research-zerg-regenerativebio-steel.png"

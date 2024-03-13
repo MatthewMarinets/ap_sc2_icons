@@ -30,6 +30,7 @@
         "Quatro": ["btn-progression-protoss-fenix-6-forgeresearch.dds"],
         "Overwatch (Spear of Adun Auto-Cast)": ["btn-ability-zeratul-chargedcrystal-psionicwinds.dds"],
         "Progressive Orbital Command": ["ap/assets/textures/btn-orbital-fortress.dds"],
+        "Progressive Proxy Pylon (Spear of Adun Calldown)": ["btn-ability-spearofadun-deploypylon.dds"],
         "": [],
         "Nothing": ["btn-command-cancel.dds"]
     },
