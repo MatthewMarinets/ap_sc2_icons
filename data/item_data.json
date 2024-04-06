@@ -3552,7 +3552,7 @@
     "origin": [
       "hots"
     ],
-    "description": "Anti-ground suicide unit. Does damage over a small area on death."
+    "description": "Anti-ground suicide unit. Does damage over a small area on death. Morphed from the Zergling."
   },
   "Aberration": {
     "type": "Unit",
@@ -4298,7 +4298,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "Ultralisks gain increased movement speed."
   },
   "Chitinous Plating (Ultralisk)": {
     "type": "Mutation 2",
@@ -4310,7 +4310,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "Ultralisks gain +2 armor."
   },
   "Organic Carapace (Ultralisk)": {
     "type": "Mutation 2",
@@ -4322,7 +4322,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Ultralisks gain +100 armor."
   },
   "Resource Efficiency (Ultralisk)": {
     "type": "Mutation 2",
@@ -4346,7 +4346,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Devourer attacks will now deal area damage."
   },
   "Gaping Maw (Devourer)": {
     "type": "Mutation 2",
@@ -4358,7 +4358,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Devourer's attack speed increased by 25%."
   },
   "Improved Osmosis (Devourer)": {
     "type": "Mutation 2",
@@ -4370,7 +4370,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Devourer's Acid Spores duration increased by 50%."
   },
   "Prescient Spores (Devourer)": {
     "type": "Mutation 2",
@@ -4382,7 +4382,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Allows Devourers to attack ground targets."
   },
   "Prolonged Dispersion (Guardian)": {
     "type": "Mutation 2",
@@ -4394,7 +4394,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Guardians gain +3 range."
   },
   "Primal Adaptation (Guardian)": {
     "type": "Mutation 2",
@@ -4406,7 +4406,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Allows Guardians to attack air units with a decreased attack damage."
   },
   "Soronan Acid (Guardian)": {
     "type": "Mutation 2",
@@ -4418,7 +4418,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Guardians deal increased damage to ground targets."
   },
   "Adaptive Talons (Impaler)": {
     "type": "Mutation 2",
@@ -4430,7 +4430,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Impalers burrow faster."
   },
   "Secretion Glands (Impaler)": {
     "type": "Mutation 2",
@@ -4442,7 +4442,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Impalers generate creep while standing still or burrowed."
   },
   "Hardened Tentacle Spines (Impaler)": {
     "type": "Mutation 2",
@@ -4454,7 +4454,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Impalers deal increased damage."
   },
   "Seismic Spines (Lurker)": {
     "type": "Mutation 2",
@@ -4466,7 +4466,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Lurkers gain +6 range."
   },
   "Adapted Spines (Lurker)": {
     "type": "Mutation 2",
@@ -4478,7 +4478,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Lurkers deal increased damage to non-light targets."
   },
   "Potent Bile (Ravager)": {
     "type": "Mutation 2",
@@ -4490,7 +4490,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Ravager Corrosive Bile deals an additional +40 damage."
   },
   "Bloated Bile Ducts (Ravager)": {
     "type": "Mutation 2",
@@ -4502,7 +4502,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Ravager Corrosive Bile hits a much larger area."
   },
   "Deep Tunnel (Ravager)": {
     "type": "Mutation 2",
@@ -4514,7 +4514,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Ravagers gain the Deep Tunnel ability, allowing them to burrow to any visible location on the map."
   },
   "Parasitic Bomb (Viper)": {
     "type": "Mutation 2",
@@ -4526,7 +4526,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Vipers gain the Parasitic Bomb ability, which inflicts an area-damaging effect on an enemy air unit."
   },
   "Paralytic Barbs (Viper)": {
     "type": "Mutation 3",
@@ -4538,7 +4538,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Viper Abduct stuns units for an additional 5 seconds."
   },
   "Virulent Microbes (Viper)": {
     "type": "Mutation 3",
@@ -4550,7 +4550,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "All Viper abilities gain +4 range."
   },
   "Porous Cartilage (Brood Lord)": {
     "type": "Mutation 3",
@@ -4562,7 +4562,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Brood Lords gain increased movement speed."
   },
   "Evolved Carapace (Brood Lord)": {
     "type": "Mutation 3",
@@ -4574,7 +4574,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Brood Lords gain +100 life and +1 armor."
   },
   "Splitter Mitosis (Brood Lord)": {
     "type": "Mutation 3",
@@ -4586,7 +4586,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Brood Lord attacks spawn twice as many broodlings."
   },
   "Resource Efficiency (Brood Lord)": {
     "type": "Mutation 3",
@@ -4610,7 +4610,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Infestors gain the Spawn Infested Terran ability."
   },
   "Microbial Shroud (Infestor)": {
     "type": "Mutation 3",
@@ -4622,7 +4622,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Infestors gain the Microbial Shroud ability, which reduces incoming damage from air units in an area."
   },
   "Spawn Larvae (Swarm Queen)": {
     "type": "Mutation 3",
@@ -4634,7 +4634,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Swarm Queens gain the Spawn Larvae ability."
   },
   "Deep Tunnel (Swarm Queen)": {
     "type": "Mutation 3",
@@ -4646,7 +4646,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Swarm Queens gain the Deep Tunnel ability."
   },
   "Organic Carapace (Swarm Queen)": {
     "type": "Mutation 3",
@@ -4658,7 +4658,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Swarm Queens gain +25 life."
   },
   "Bio-Mechanical Transfusion (Swarm Queen)": {
     "type": "Mutation 3",
@@ -4670,7 +4670,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Swarm Queen Burst Heal heals an additional +10 life and can now target mechanical units."
   },
   "Resource Efficiency (Swarm Queen)": {
     "type": "Mutation 3",
@@ -4694,7 +4694,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Swarm Queens may now be built two at a time from the Hatchery, Lair, or Hive."
   },
   "Fungal Growth (Brood Queen)": {
     "type": "Mutation 3",
@@ -4706,7 +4706,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Brood Queens gain the Fungal Growth ability."
   },
   "Ensnare (Brood Queen)": {
     "type": "Mutation 3",
@@ -4718,7 +4718,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Brood Queens gain the Ensnare ability."
   },
   "Enhanced Mitochondria (Brood Queen)": {
     "type": "Mutation 3",
@@ -4730,7 +4730,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Brood Queens start with maximum energy and gain increased energy regeneration. Like powerhouses (of the cell)."
   },
   "Raptor Strain (Zergling)": {
     "type": "Strain",
@@ -4910,7 +4910,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Kerrigan deals 300 damage to target unit or structure from long range."
   },
   "Heroic Fortitude (Kerrigan Tier 1)": {
     "type": "Ability",
@@ -4922,7 +4922,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Kerrigan gains +200 maximum life and double life regeneration rate."
   },
   "Leaping Strike (Kerrigan Tier 1)": {
     "type": "Ability",
@@ -4934,7 +4934,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Kerrigan leaps to her target and deals 150 damage."
   },
   "Crushing Grip (Kerrigan Tier 2)": {
     "type": "Ability",
@@ -4946,7 +4946,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Kerrigan stuns enemies in a target area for 3 seconds and deals 30 damage over time. Heroic units are not stunned."
   },
   "Chain Reaction (Kerrigan Tier 2)": {
     "type": "Ability",
@@ -4958,7 +4958,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Kerrigan's attacks deal normal damage to her target then jump to additional nearby enemies."
   },
   "Psionic Shift (Kerrigan Tier 2)": {
     "type": "Ability",
@@ -4970,7 +4970,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Kerrigan dashes through enemies, dealing 50 damage to all enemies in her path."
   },
   "Zergling Reconstitution (Kerrigan Tier 3)": {
     "type": "Evolution Pit",
@@ -4982,7 +4982,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Killed Zerglings respawn from your primary Hatchery at no cost."
   },
   "Improved Overlords (Kerrigan Tier 3)": {
     "type": "Evolution Pit",
@@ -4994,7 +4994,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Overlords morph instantly and provide 50% more supply."
   },
   "Automated Extractors (Kerrigan Tier 3)": {
     "type": "Evolution Pit",
@@ -5006,7 +5006,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Extractors automatically harvest Vespene Gas without the need for Drones."
   },
   "Wild Mutation (Kerrigan Tier 4)": {
     "type": "Ability",
@@ -5018,7 +5018,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Kerrigan gives all units in an area +200 max life and double attack speed for 10 seconds."
   },
   "Spawn Banelings (Kerrigan Tier 4)": {
     "type": "Ability",
@@ -5030,7 +5030,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Kerrigan spawns six Banelings with timed life."
   },
   "Mend (Kerrigan Tier 4)": {
     "type": "Ability",
@@ -5042,7 +5042,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Kerrigan heals for 150 life and heals nearby friendly units for 50 life. An additional +50% life is healed over 15 seconds."
   },
   "Twin Drones (Kerrigan Tier 5)": {
     "type": "Evolution Pit",
@@ -5054,7 +5054,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Drones morph in groups of two at no additional cost and require less supply."
   },
   "Malignant Creep (Kerrigan Tier 5)": {
     "type": "Evolution Pit",
@@ -5066,7 +5066,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Your units and structures gain increased life regeneration and 30% increased attack speed while on creep. Creep Tumors also spread creep faster and farther."
   },
   "Vespene Efficiency (Kerrigan Tier 5)": {
     "type": "Evolution Pit",
@@ -5078,7 +5078,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Extractors produce Vespene gas 25% faster."
   },
   "Infest Broodlings (Kerrigan Tier 6)": {
     "type": "Ability",
@@ -5090,7 +5090,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Enemies damaged by Kerrigan become infested and will spawn Broodlings with timed life if killed quickly."
   },
   "Fury (Kerrigan Tier 6)": {
     "type": "Ability",
@@ -5102,7 +5102,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Each of Kerrigan's attacks temporarily increase her attack speed by 15%. Can stack up to 75%."
   },
   "Ability Efficiency (Kerrigan Tier 6)": {
     "type": "Ability",
@@ -5114,7 +5114,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Kerrigan's abilities have their cooldown and energy cost reduced by 20%."
   },
   "Apocalypse (Kerrigan Tier 7)": {
     "type": "Ability",
@@ -5126,7 +5126,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Kerrigan deals 300 damage (+400 vs Structure) to enemies in a large area."
   },
   "Spawn Leviathan (Kerrigan Tier 7)": {
     "type": "Ability",
@@ -5138,7 +5138,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Kerrigan summons a mightly flying Leviathan with timed life. Deals massive damage and has energy-based abilities."
   },
   "Drop-Pods (Kerrigan Tier 7)": {
     "type": "Ability",
@@ -5150,7 +5150,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Kerrigan drops Primal Zerg forces with timed life to the battlefield."
   },
   "Primal Form (Kerrigan)": {
     "type": "Primal Form",
@@ -5162,7 +5162,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Kerrigan takes on her Primal Zerg form and gains greatly increased energy regeneration."
   },
   "10 Kerrigan Levels": {
     "type": "Level",
@@ -5174,7 +5174,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Gives Kerrigan +10 Levels."
   },
   "9 Kerrigan Levels": {
     "type": "Level",
@@ -5186,7 +5186,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Gives Kerrigan +9 Levels."
   },
   "8 Kerrigan Levels": {
     "type": "Level",
@@ -5198,7 +5198,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Gives Kerrigan +8 Levels."
   },
   "7 Kerrigan Levels": {
     "type": "Level",
@@ -5210,7 +5210,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Gives Kerrigan +7 Levels."
   },
   "6 Kerrigan Levels": {
     "type": "Level",
@@ -5222,7 +5222,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Gives Kerrigan +6 Levels."
   },
   "5 Kerrigan Levels": {
     "type": "Level",
@@ -5234,7 +5234,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Gives Kerrigan +5 Levels."
   },
   "4 Kerrigan Levels": {
     "type": "Level",
@@ -5246,7 +5246,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Gives Kerrigan +4 Levels."
   },
   "3 Kerrigan Levels": {
     "type": "Level",
@@ -5258,7 +5258,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Gives Kerrigan +3 Levels."
   },
   "2 Kerrigan Levels": {
     "type": "Level",
@@ -5270,7 +5270,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Gives Kerrigan +2 Levels."
   },
   "1 Kerrigan Level": {
     "type": "Level",
@@ -5282,7 +5282,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Gives Kerrigan +1 Level."
   },
   "14 Kerrigan Levels": {
     "type": "Level",
@@ -5294,7 +5294,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Gives Kerrigan +14 Levels."
   },
   "35 Kerrigan Levels": {
     "type": "Level",
@@ -5306,7 +5306,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Gives Kerrigan +35 Levels."
   },
   "70 Kerrigan Levels": {
     "type": "Level",
@@ -5318,7 +5318,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Gives Kerrigan +70 Levels."
   },
   "Infested Medics": {
     "type": "Mercenary",
@@ -5330,7 +5330,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Mercenary infested Medics that may be called in from the Hatchery."
   },
   "Infested Siege Tanks": {
     "type": "Mercenary",
@@ -5342,7 +5342,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Mercenary infested Siege Tanks that may be called in from the Hatchery."
   },
   "Infested Banshees": {
     "type": "Mercenary",
@@ -5354,7 +5354,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Mercenary infested Banshees that may be called in from the Hatchery."
   },
   "Ventral Sacs (Overlord)": {
     "type": "Evolution Pit",
@@ -5366,7 +5366,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "Overlords gain the ability to transport ground units."
   },
   "Guardian Aspect (Mutalisk/Corruptor)": {
     "type": "Morph",
@@ -5378,7 +5378,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "Long-range anti-ground flyer. Can attack ground units. Morphed from the Mutalisk or Corruptor."
   },
   "Devourer Aspect (Mutalisk/Corruptor)": {
     "type": "Morph",
@@ -5390,7 +5390,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "Anti-air flyer. Attack inflict Acid Spores. Can attack air units. Morphed from the Mutalisk or Corruptor."
   },
   "Ravager Aspect (Roach)": {
     "type": "Morph",
@@ -5402,7 +5402,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Ranged artillery. Can use Corrosive Bile. Can attack ground units. Morphed from the Roach."
   },
   "Observer": {
     "type": "Unit",
