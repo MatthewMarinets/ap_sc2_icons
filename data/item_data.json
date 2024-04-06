@@ -298,7 +298,7 @@
     "origin": [
       "wol"
     ],
-    "description": "Increases damage of Terran infantry units. \nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
+    "description": "Increases damage of Terran infantry.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Terran Infantry Armor": {
     "type": "Upgrade",
@@ -310,7 +310,7 @@
     "origin": [
       "wol"
     ],
-    "description": "Increases armor of Terran infantry units. \nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
+    "description": "Increases armor of Terran infantry.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Terran Vehicle Weapon": {
     "type": "Upgrade",
@@ -322,7 +322,7 @@
     "origin": [
       "wol"
     ],
-    "description": "Increases damage of Terran vehicle units. \nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
+    "description": "Increases damage of Terran vehicles.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Terran Vehicle Armor": {
     "type": "Upgrade",
@@ -334,7 +334,7 @@
     "origin": [
       "wol"
     ],
-    "description": "Increases armor of Terran vehicle units. \nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
+    "description": "Increases armor of Terran vehicles.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Terran Ship Weapon": {
     "type": "Upgrade",
@@ -346,7 +346,7 @@
     "origin": [
       "wol"
     ],
-    "description": "Increases damage of Terran starship units. \nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
+    "description": "Increases damage of Terran starships.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Terran Ship Armor": {
     "type": "Upgrade",
@@ -358,7 +358,7 @@
     "origin": [
       "wol"
     ],
-    "description": "Increases armor of Terran starship units. \nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
+    "description": "Increases armor of Terran starships.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Terran Weapon Upgrade": {
     "type": "Upgrade",
@@ -370,7 +370,7 @@
     "origin": [
       "wol"
     ],
-    "description": null
+    "description": "Increases damage of Terran units.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Terran Armor Upgrade": {
     "type": "Upgrade",
@@ -382,7 +382,7 @@
     "origin": [
       "wol"
     ],
-    "description": null
+    "description": "Increases armor of Terran units.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Terran Infantry Upgrade": {
     "type": "Upgrade",
@@ -394,7 +394,7 @@
     "origin": [
       "wol"
     ],
-    "description": null
+    "description": "Increases damage and armor of Terran infantry.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Terran Vehicle Upgrade": {
     "type": "Upgrade",
@@ -406,7 +406,7 @@
     "origin": [
       "wol"
     ],
-    "description": null
+    "description": "Increases damage and armor of Terran vehicles.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Terran Ship Upgrade": {
     "type": "Upgrade",
@@ -418,7 +418,7 @@
     "origin": [
       "wol"
     ],
-    "description": null
+    "description": "Increases damage and armor of Terran starships.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Terran Weapon/Armor Upgrade": {
     "type": "Upgrade",
@@ -430,7 +430,7 @@
     "origin": [
       "wol"
     ],
-    "description": null
+    "description": "Increases damage and armor of Terran units.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Projectile Accelerator (Bunker)": {
     "type": "Armory 1",
@@ -742,7 +742,7 @@
     "origin": [
       "bw"
     ],
-    "description": "Reduces Medic resource and supply cost."
+    "description": "Reduces Medic cost by 25 minerals, 25 gas, and 1 supply"
   },
   "Progressive Stimpack (Firebat)": {
     "type": "Progressive Upgrade",
@@ -766,7 +766,7 @@
     "origin": [
       "bw"
     ],
-    "description": "Reduces Firebat resource and supply cost."
+    "description": "Reduces Firebat cost by 50 minerals and 1 supply"
   },
   "Progressive Stimpack (Marauder)": {
     "type": "Progressive Upgrade",
@@ -960,7 +960,7 @@
       "bw",
       "nco"
     ],
-    "description": "Reduces Goliath resource and supply cost."
+    "description": "Reduces Goliath cost by 50 minerals and 1 supply"
   },
   "Internal Tech Module (Goliath)": {
     "type": "Armory 2",
@@ -998,7 +998,7 @@
     "origin": [
       "bw"
     ],
-    "description": "Reduces Siege Tank resource and supply cost."
+    "description": "Reduces Siege Tank cost by 25 gas and 1 supply"
   },
   "Cloak (Predator)": {
     "type": "Armory 2",
@@ -1250,7 +1250,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Reduces Diamondback resource and supply cost."
+    "description": "Reduces Diamondback cost by 50 gas and 1 supply"
   },
   "Jump Jets (Siege Tank)": {
     "type": "Armory 3",
@@ -1346,7 +1346,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Decreases Predator resource and supply cost."
+    "description": "Reduces Predator cost by 75 gas and 1 supply"
   },
   "Expanded Hull (Medivac)": {
     "type": "Armory 3",
@@ -1430,7 +1430,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Reduces Warhound resource cost."
+    "description": "Reduces Warhound cost by 75 minerals"
   },
   "Reinforced Plating (Warhound)": {
     "type": "Armory 6",
@@ -1454,7 +1454,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Reduces HERC resource and supply cost."
+    "description": "Reduces HERC cost by 25 minerals, 25 gas, and 1 supply"
   },
   "Juggernaut Plating (HERC)": {
     "type": "Armory 6",
@@ -1886,7 +1886,7 @@
     "origin": [
       "bw"
     ],
-    "description": "Reduces Wraith resource cost."
+    "description": "Reduces Wraith cost by 50 gas"
   },
   "Shredder Rounds (Viking)": {
     "type": "Armory 4",
@@ -1970,7 +1970,7 @@
     "origin": [
       "bw"
     ],
-    "description": "Reduces Ghost resource and supply cost."
+    "description": "Reduces Ghost cost by 125 minerals, 75 gas, and 1 supply"
   },
   "Resource Efficiency (Spectre)": {
     "type": "Armory 4",
@@ -1982,7 +1982,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Reduces Spectre resource and supply cost."
+    "description": "Reduces Spectre cost by 125 minerals, 75 gas, and 1 supply"
   },
   "Button With a Skull on It (Thor)": {
     "type": "Armory 4",
@@ -2030,7 +2030,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Reduces Raven resource cost."
+    "description": "Reduces Raven cost by 50 gas"
   },
   "Durable Materials (Raven)": {
     "type": "Armory 4",
@@ -2078,7 +2078,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Reduces Cyclone resource and supply cost."
+    "description": "Reduces Cyclone cost by 25 minerals, 50 gas, and 1 supply"
   },
   "Hyperflight Rotors (Banshee)": {
     "type": "Armory 5",
@@ -2499,7 +2499,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Reduces Liberator resource cost."
+    "description": "Reduces Liberator cost by 25 minerals and 25 gas"
   },
   "Internal Fusion Module (Hercules)": {
     "type": "Armory 6",
@@ -2571,7 +2571,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Reduces Valkyrie resource and supply cost."
+    "description": "Reduces Valkyrie cost by 100 minerals, 25 gas, and 1 supply"
   },
   "Predator's Fury (Predator)": {
     "type": "Armory 6",
@@ -3698,7 +3698,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Increases damage of Zerg melee ground units.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Zerg Missile Attack": {
     "type": "Upgrade",
@@ -3710,7 +3710,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Increases damage of Zerg ranged ground units.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Zerg Ground Carapace": {
     "type": "Upgrade",
@@ -3722,7 +3722,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Increases armor of Zerg ground units.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Zerg Flyer Attack": {
     "type": "Upgrade",
@@ -3734,7 +3734,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Increases damage of Zerg flyers.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Zerg Flyer Carapace": {
     "type": "Upgrade",
@@ -3746,7 +3746,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Increases armor of Zerg flyers.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Zerg Weapon Upgrade": {
     "type": "Upgrade",
@@ -3758,7 +3758,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Increases damage of Zerg units.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Zerg Armor Upgrade": {
     "type": "Upgrade",
@@ -3770,7 +3770,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Increases armor of Zerg units.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Zerg Ground Upgrade": {
     "type": "Upgrade",
@@ -3782,7 +3782,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Increases damage and armor of Zerg ground units.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Zerg Flyer Upgrade": {
     "type": "Upgrade",
@@ -3794,7 +3794,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Increases damage and armor of Zerg flyers.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Zerg Weapon/Armor Upgrade": {
     "type": "Upgrade",
@@ -3806,7 +3806,7 @@
     "origin": [
       "hots"
     ],
-    "description": null
+    "description": "Increases damage and armor of Zerg units.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Hardened Carapace (Zergling)": {
     "type": "Mutation 1",
@@ -4106,7 +4106,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Reduces the cost of Scourge by 50 gas per egg."
+    "description": "Reduces Scourge cost by 50 gas"
   },
   "Swarm Scourge (Scourge)": {
     "type": "Mutation 1",
@@ -4178,7 +4178,7 @@
     "origin": [
       "bw"
     ],
-    "description": "Reduces Hydralisk resource cost by 25/25 and supply cost by 1."
+    "description": "Reduces Hydralisk cost by 25 minerals, 25 gas, and 1 supply"
   },
   "Centrifugal Hooks (Baneling)": {
     "type": "Mutation 2",
@@ -4286,7 +4286,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Reduces Swarm Host resource cost by 100/25."
+    "description": "Reduces Swarm Host cost by 100 minerals and 25 gas"
   },
   "Anabolic Synthesis (Ultralisk)": {
     "type": "Mutation 2",
@@ -4334,7 +4334,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "Reduces Ultralisk cost by 100 minerals and 2 supply"
   },
   "Corrosive Spray (Devourer)": {
     "type": "Mutation 2",
@@ -4598,7 +4598,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Reduces Brood Lord cost by 75 gas"
   },
   "Infested Terran (Infestor)": {
     "type": "Mutation 3",
@@ -4682,7 +4682,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Reduces Swarm Queen cost by 50 gas"
   },
   "Incubator Chamber (Swarm Queen)": {
     "type": "Mutation 3",
@@ -5775,7 +5775,7 @@
       "lotv",
       "wol"
     ],
-    "description": null
+    "description": "Increases damage of Protoss ground units.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Protoss Ground Armor": {
     "type": "Upgrade",
@@ -5788,7 +5788,7 @@
       "lotv",
       "wol"
     ],
-    "description": null
+    "description": "Increases armor of Protoss ground units.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Protoss Shields": {
     "type": "Upgrade",
@@ -5801,7 +5801,7 @@
       "lotv",
       "wol"
     ],
-    "description": null
+    "description": "Increases shields of Protoss units.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Protoss Air Weapon": {
     "type": "Upgrade",
@@ -5814,7 +5814,7 @@
       "lotv",
       "wol"
     ],
-    "description": null
+    "description": "Increases damage of Protoss starships.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Protoss Air Armor": {
     "type": "Upgrade",
@@ -5827,7 +5827,7 @@
       "lotv",
       "wol"
     ],
-    "description": null
+    "description": "Increases armor of Protoss starships.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Protoss Weapon Upgrade": {
     "type": "Upgrade",
@@ -5840,7 +5840,7 @@
       "lotv",
       "wol"
     ],
-    "description": null
+    "description": "Increases damage of Protoss units.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Protoss Armor Upgrade": {
     "type": "Upgrade",
@@ -5853,7 +5853,7 @@
       "lotv",
       "wol"
     ],
-    "description": null
+    "description": "Increases armor of Protoss units.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Protoss Ground Upgrade": {
     "type": "Upgrade",
@@ -5866,7 +5866,7 @@
       "lotv",
       "wol"
     ],
-    "description": null
+    "description": "Increases damage and armor of Protoss ground units.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Protoss Air Upgrade": {
     "type": "Upgrade",
@@ -5879,7 +5879,7 @@
       "lotv",
       "wol"
     ],
-    "description": null
+    "description": "Increases damage and armor of Protoss starships.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Protoss Weapon/Armor Upgrade": {
     "type": "Upgrade",
@@ -5892,7 +5892,7 @@
       "lotv",
       "wol"
     ],
-    "description": null
+    "description": "Increases damage and armor of Protoss units.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Photon Cannon": {
     "type": "Building",
@@ -5905,7 +5905,7 @@
       "lotv",
       "wol"
     ],
-    "description": null
+    "description": "Protoss defensive structure. Can attack ground and air units."
   },
   "Khaydarin Monolith": {
     "type": "Building",
@@ -5917,7 +5917,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "Advanced Protoss defensive structure. Has superior range and damage, but is very expensive and attacks slowly."
   },
   "Shield Battery": {
     "type": "Building",
@@ -5929,7 +5929,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "Protoss defensive structure. Restores shields to nearby friendly units and structures."
   },
   "Blood Shield (Supplicant)": {
     "type": "Forge 1",
@@ -5941,7 +5941,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Increases the armor value of Supplicant shields."
   },
   "Soul Augmentation (Supplicant)": {
     "type": "Forge 1",
@@ -5953,7 +5953,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Increases Supplicant max shields by 25."
   },
   "Shield Regeneration (Supplicant)": {
     "type": "Forge 1",
@@ -5965,7 +5965,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Increases Supplicant shield regeneration rate."
   },
   "Shockwave (Adept)": {
     "type": "Forge 1",
@@ -5977,7 +5977,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "When Adepts deal a finishing blow, their projectiles can jump onto 2 additional targets."
   },
   "Resonating Glaives (Adept)": {
     "type": "Forge 1",
@@ -5989,7 +5989,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Increases Adept attack speed."
   },
   "Phase Bulwark (Adept)": {
     "type": "Forge 1",
@@ -6001,7 +6001,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Increases Adept shield maximum by 50."
   },
   "Disintegrating Particles (Stalker/Instigator/Slayer)": {
     "type": "Forge 1",
@@ -6013,7 +6013,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Increases weapon damage of Stalkers, Instigators, and Slayers."
   },
   "Particle Reflection (Stalker/Instigator/Slayer)": {
     "type": "Forge 1",
@@ -6025,7 +6025,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Attacks fired by Stalkers, Instigators, and Slayers have a chance to bounce to additional targets for reduced damage."
   },
   "High Impact Phase Disruptor (Dragoon)": {
     "type": "Forge 1",
@@ -6037,7 +6037,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Dragoons deal increased damage."
   },
   "Trillic Compression System (Dragoon)": {
     "type": "Forge 1",
@@ -6049,7 +6049,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Dragoons gain +20 life and their shield regeneration rate is doubled. Allows Dragoons to regenerate shields in combat."
   },
   "Singularity Charge (Dragoon)": {
     "type": "Forge 1",
@@ -6061,7 +6061,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "Increases Dragoon range by 2."
   },
   "Enhanced Strider Servos (Dragoon)": {
     "type": "Forge 1",
@@ -6073,7 +6073,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "Increases Dragoon movement speed."
   },
   "Combat Sensor Array (Scout)": {
     "type": "Forge 1",
@@ -6085,7 +6085,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Scouts gain +3 range against air and +1 range against ground."
   },
   "Apial Sensors (Scout)": {
     "type": "Forge 1",
@@ -6097,7 +6097,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "Scouts gain increased sight range."
   },
   "Gravitic Thrusters (Scout)": {
     "type": "Forge 1",
@@ -6109,7 +6109,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "Scouts gain increased movement speed."
   },
   "Advanced Photon Blasters (Scout)": {
     "type": "Forge 1",
@@ -6121,7 +6121,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Scouts gain increased damage against ground targets."
   },
   "Tectonic Destabilizers (Tempest)": {
     "type": "Forge 1",
@@ -6133,7 +6133,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Tempests deal increased damage to buildings."
   },
   "Quantic Reactor (Tempest)": {
     "type": "Forge 1",
@@ -6145,7 +6145,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Tempests deal increased damage to massive units."
   },
   "Gravity Sling (Tempest)": {
     "type": "Forge 1",
@@ -6157,7 +6157,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Tempests gain +8 range against air targets."
   },
   "Ionic Wavelength Flux (Phoenix/Mirage)": {
     "type": "Forge 1",
@@ -6169,7 +6169,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Increases Phoenix and Mirage weapon damage by 2."
   },
   "Anion Pulse-Crystals (Phoenix/Mirage)": {
     "type": "Forge 1",
@@ -6181,7 +6181,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Increases Phoenix and Mirage range by 2."
   },
   "Stealth Drive (Corsair)": {
     "type": "Forge 1",
@@ -6193,7 +6193,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Corsairs become permanently cloaked."
   },
   "Argus Jewel (Corsair)": {
     "type": "Forge 1",
@@ -6205,7 +6205,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "Corsairs can store 2 charges of disruption web."
   },
   "Sustaining Disruption (Corsair)": {
     "type": "Forge 1",
@@ -6217,7 +6217,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "Corsair disruption webs last longer."
   },
   "Neutron Shields (Corsair)": {
     "type": "Forge 1",
@@ -6229,7 +6229,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "Increases corsair maximum shields by 20."
   },
   "Stealth Drive (Oracle)": {
     "type": "Forge 1",
@@ -6241,7 +6241,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Oracles become permanently cloaked."
   },
   "Stasis Calibration (Oracle)": {
     "type": "Forge 1",
@@ -6253,7 +6253,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Enemies caught by the Oracle's Stasis Ward may now be attacked."
   },
   "Temporal Acceleration Beam (Oracle)": {
     "type": "Forge 1",
@@ -6265,7 +6265,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Oracles no longer need to to spend energy to attack."
   },
   "Chronostatic Reinforcement (Arbiter)": {
     "type": "Forge 1",
@@ -6277,7 +6277,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "Arbiters gain +50 maximum life and +1 armor."
   },
   "Khaydarin Core (Arbiter)": {
     "type": "Forge 1",
@@ -6289,7 +6289,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "Arbiters gain +150 starting energy and +50 maximum energy."
   },
   "Spacetime Anchor (Arbiter)": {
     "type": "Forge 2",
@@ -6301,7 +6301,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "Arbiter Stasis Field lasts 50 seconds longer."
   },
   "Resource Efficiency (Arbiter)": {
     "type": "Forge 2",
@@ -6313,7 +6313,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "Reduces Arbiter cost by 50 minerals"
   },
   "Enhanced Cloak Field (Arbiter)": {
     "type": "Forge 2",
@@ -6325,7 +6325,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "Increases Arbiter Cloaking Field range."
   },
   "Graviton Catapult (Carrier)": {
     "type": "Forge 2",
@@ -6409,7 +6409,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Warp Prisms transform faster and gain increased power radius in Phasing Mode."
   },
   "Gravitic Boosters (Observer)": {
     "type": "Forge 2",
@@ -6421,7 +6421,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "Increases Observer movement speed."
   },
   "Sensor Array (Observer)": {
     "type": "Forge 2",
@@ -6433,7 +6433,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "Increases Observer sight range."
   },
   "Scarab Damage (Reaver)": {
     "type": "Forge 2",
@@ -6445,7 +6445,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "Reaver Scarabs deal +25 damage."
   },
   "Solarite Payload (Reaver)": {
     "type": "Forge 2",
@@ -6457,7 +6457,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Reaver Scarabs gain increased splash damage radius."
   },
   "Reaver Capacity (Reaver)": {
     "type": "Forge 2",
@@ -6469,7 +6469,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "Reavers can store 10 Scarabs."
   },
   "Resource Efficiency (Reaver)": {
     "type": "Forge 2",
@@ -6481,7 +6481,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "Reduces Reaver cost by 100 minerals, 100 gas, and 2 supply"
   },
   "Agony Launchers (Vanguard)": {
     "type": "Forge 2",
@@ -6493,7 +6493,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Increases Vanguard attack range by 2."
   },
   "Matter Dispersion (Vanguard)": {
     "type": "Forge 2",
@@ -6505,7 +6505,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Increases Vanguard attack area."
   },
   "Singularity Charge (Immortal/Annihilator)": {
     "type": "Forge 2",
@@ -6517,7 +6517,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Increases Immortal and Annihilator attack range by 2."
   },
   "Advanced Targeting Mechanics (Immortal/Annihilator)": {
     "type": "Forge 2",
@@ -6529,7 +6529,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Immortals and Annihilators can attack air units."
   },
   "Pacification Protocol (Colossus)": {
     "type": "Forge 2",
@@ -6541,7 +6541,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Increases Colossus attack speed."
   },
   "Rapid Power Cycling (Wrathwalker)": {
     "type": "Forge 2",
@@ -6553,7 +6553,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Reduces the charging time and increases attack speed of the Wrathwalker's Charged Blast."
   },
   "Eye of Wrath (Wrathwalker)": {
     "type": "Forge 2",
@@ -6565,7 +6565,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Increases Wrathwalker weapon range by 1."
   },
   "Shroud of Adun (Dark Templar/Avenger/Blood Hunter)": {
     "type": "Forge 2",
@@ -6577,7 +6577,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Increases Dark Templar, Avenger, and Blood Hunter maximum shields by 80."
   },
   "Shadow Guard Training (Dark Templar/Avenger/Blood Hunter)": {
     "type": "Forge 2",
@@ -6589,7 +6589,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "Increases Dark Templar, Avenger, and Blood Hunter maximum life by 40."
   },
   "Blink (Dark Templar/Avenger/Blood Hunter)": {
     "type": "Forge 2",
@@ -6601,7 +6601,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Dark Templar, Avengers, and Blood Hunters unlock Blink."
   },
   "Resource Efficiency (Dark Templar/Avenger/Blood Hunter)": {
     "type": "Forge 2",
@@ -6613,7 +6613,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Reduces Dark Templar, Avenger, and Blood Hunter cost by 50 gas"
   },
   "Dark Archon Meld (Dark Templar)": {
     "type": "Forge 2",
@@ -6625,7 +6625,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "Allows 2 Dark Templar to meld into a Dark Archon."
   },
   "Unshackled Psionic Storm (High Templar/Signifier)": {
     "type": "Forge 2",
@@ -6637,7 +6637,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "High Templar and Signifiers deal increased damage with Psi Storm."
   },
   "Hallucination (High Templar/Signifier)": {
     "type": "Forge 2",
@@ -6649,7 +6649,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "High Templar and Signifiers gain the Hallucination ability."
   },
   "Khaydarin Amulet (High Templar/Signifier)": {
     "type": "Forge 3",
@@ -6661,7 +6661,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "High Templar and Signifiers gain +150 starting energy and +50 maximum energy."
   },
   "High Archon (Archon)": {
     "type": "Forge 3",
@@ -6673,7 +6673,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Archons can use High Templar abilities."
   },
   "Feedback (Dark Archon)": {
     "type": "Forge 3",
@@ -6685,7 +6685,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "Dark Archons gain the Feedback ability, which damages and removes energy on an enemy unit."
   },
   "Maelstrom (Dark Archon)": {
     "type": "Forge 3",
@@ -6697,7 +6697,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "Dark Archons gain the Maelstrom ability, which stuns biological units in an area."
   },
   "Argus Talisman (Dark Archon)": {
     "type": "Forge 3",
@@ -6709,7 +6709,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "Dark Archons gain +150 starting energy and +50 maximum energy."
   },
   "Power Overwhelming (Ascendant)": {
     "type": "Forge 3",
@@ -6721,7 +6721,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Ascendants gain the ability to sacrifice Supplicants for increased shields and spell damage."
   },
   "Chaotic Attunement (Ascendant)": {
     "type": "Forge 3",
@@ -6733,7 +6733,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Ascendants' Psionic Orbs gain 25% increased travel distance."
   },
   "Blood Amulet (Ascendant)": {
     "type": "Forge 3",
@@ -6745,7 +6745,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Ascendants gain +150 starting energy and +50 maximum energy."
   },
   "Cloaking Module (Sentry/Energizer/Havoc)": {
     "type": "Forge 3",
@@ -6757,7 +6757,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Sentries, Energizers, and Havocs become permanently cloaked."
   },
   "Rapid Recharging (Sentry/Energizer/Havoc/Shield Battery)": {
     "type": "Forge 3",
@@ -6769,7 +6769,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Sentries, Energizers, and Havocs gain 200% increased energy regeneration rate."
   },
   "Force Field (Sentry)": {
     "type": "Forge 3",
@@ -6781,7 +6781,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Sentries gain the Force Field ability."
   },
   "Hallucination (Sentry)": {
     "type": "Forge 3",
@@ -6793,7 +6793,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Sentries gain the Hallucination ability."
   },
   "Reclamation (Energizer)": {
     "type": "Forge 3",
@@ -6805,7 +6805,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Energizers gain the Reclamation ability."
   },
   "Forged Chassis (Energizer)": {
     "type": "Forge 3",
@@ -6817,7 +6817,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Increases Energizer Life by 20."
   },
   "Detect Weakness (Havoc)": {
     "type": "Forge 3",
@@ -6829,7 +6829,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Havocs' Target Lock gives an additional 15% damage bonus."
   },
   "Bloodshard Resonance (Havoc)": {
     "type": "Forge 3",
@@ -6841,7 +6841,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "Havoc gain increased range for Squad Sight, Target Lock, and Force Field."
   },
   "Leg Enhancements (Zealot/Sentinel/Centurion)": {
     "type": "Forge 3",
@@ -6853,7 +6853,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "Zealots, Sentinels, and Centurions gain increased movement speed."
   },
   "Shield Capacity (Zealot/Sentinel/Centurion)": {
     "type": "Forge 3",
@@ -6865,7 +6865,7 @@
     "origin": [
       "bw"
     ],
-    "description": null
+    "description": "Zealots, Sentinels, and Centurions gain +30 maximum shields."
   },
   "Chrono Surge (Spear of Adun Calldown)": {
     "type": "Spear of Adun",
@@ -6877,7 +6877,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "The Spear of Adun increases a target structure's unit warp in and research speeds by 1000% for 20 seconds."
   },
   "Progressive Proxy Pylon (Spear of Adun Calldown)": {
     "type": "Progressive Upgrade",
@@ -6889,7 +6889,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "Level 1: The Spear of Adun quickly warps in a Pylon to a target location.\nLevel 2: The Spear of Adun warps in a Pylon, 2 melee warriors, and 2 ranged warriors to a target location."
   },
   "Pylon Overcharge (Spear of Adun Calldown)": {
     "type": "Spear of Adun",
@@ -6901,7 +6901,7 @@
     "origin": [
       "ext"
     ],
-    "description": null
+    "description": "The Spear of Adun temporarily gives a target Pylon increased shields and a powerful attack."
   },
   "Orbital Strike (Spear of Adun Calldown)": {
     "type": "Spear of Adun",
@@ -6913,7 +6913,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "The Spear of Adun fires 5 laser blasts from orbit."
   },
   "Temporal Field (Spear of Adun Calldown)": {
     "type": "Spear of Adun",
@@ -6925,7 +6925,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "The Spear of Adun creates 3 temporal fields that freeze enemy units and structures in time."
   },
   "Solar Lance (Spear of Adun Calldown)": {
     "type": "Spear of Adun",
@@ -6937,7 +6937,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "The Spear of Adun strafes a target area with 3 laser beams."
   },
   "Mass Recall (Spear of Adun Calldown)": {
     "type": "Spear of Adun",
@@ -6949,7 +6949,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "The Spear of Adun warps all units in a target area back to the primary Nexus and gives them a temporary shield."
   },
   "Shield Overcharge (Spear of Adun Calldown)": {
     "type": "Spear of Adun",
@@ -6961,7 +6961,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "The Spear of Adun gives all friendly units a shield that absorbs 200 damage. Lasts 20 seconds."
   },
   "Deploy Fenix (Spear of Adun Calldown)": {
     "type": "Spear of Adun",
@@ -6973,7 +6973,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "The Spear of Adun drops Fenix onto the battlefield. Fenix is a powerful warrior who will fight for 30 seconds."
   },
   "Purifier Beam (Spear of Adun Calldown)": {
     "type": "Spear of Adun",
@@ -6985,7 +6985,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "The Spear of Adun fires a wide laser that deals large amounts of damage in a moveable area. Lasts 15 seconds."
   },
   "Time Stop (Spear of Adun Calldown)": {
     "type": "Spear of Adun",
@@ -6997,7 +6997,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "The Spear of Adun freezes all enemy units and structures in time for 20 seconds."
   },
   "Solar Bombardment (Spear of Adun Calldown)": {
     "type": "Spear of Adun",
@@ -7009,7 +7009,7 @@
     "origin": [
       "lotv"
     ],
-    "description": null
+    "description": "The Spear of Adun fires 200 laser blasts randomly over a wide area."
   },
   "Matrix Overload": {
     "type": "Solarite Core",
