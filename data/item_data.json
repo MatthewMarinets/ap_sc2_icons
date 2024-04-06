@@ -1416,7 +1416,7 @@
     "quantity": 1,
     "parent_item": "Diamondback",
     "origin": [
-      "wol"
+      "ext"
     ],
     "description": "Increases Diamondback movement speed."
   },
@@ -1428,7 +1428,7 @@
     "quantity": 1,
     "parent_item": "Warhound",
     "origin": [
-      "wol"
+      "ext"
     ],
     "description": "Reduces Warhound resource cost."
   },
@@ -1440,7 +1440,7 @@
     "quantity": 1,
     "parent_item": "Warhound",
     "origin": [
-      "wol"
+      "ext"
     ],
     "description": "Increases Warhound armor by 2."
   },
@@ -1452,7 +1452,7 @@
     "quantity": 1,
     "parent_item": "HERC",
     "origin": [
-      "wol"
+      "ext"
     ],
     "description": "Reduces HERC resource and supply cost."
   },
@@ -1462,9 +1462,9 @@
     "race": "TERRAN",
     "classification": "useful",
     "quantity": 1,
-    "parent_item": "Warhound",
+    "parent_item": "HERC",
     "origin": [
-      "wol"
+      "ext"
     ],
     "description": "Increases HERC armor by 2."
   },
@@ -1474,9 +1474,9 @@
     "race": "TERRAN",
     "classification": "useful",
     "quantity": 1,
-    "parent_item": "Warhound",
+    "parent_item": "HERC",
     "origin": [
-      "wol"
+      "ext"
     ],
     "description": "Increases HERC life by 50."
   },
