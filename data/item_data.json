@@ -5953,7 +5953,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Increases Supplicant max shields by 25."
+    "description": "Increases Supplicant max shields by +25."
   },
   "Shield Regeneration (Supplicant)": {
     "type": "Forge 1",
@@ -6001,7 +6001,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Increases Adept shield maximum by 50."
+    "description": "Increases Adept shield maximum by +50."
   },
   "Disintegrating Particles (Stalker/Instigator/Slayer)": {
     "type": "Forge 1",
@@ -6061,7 +6061,7 @@
     "origin": [
       "bw"
     ],
-    "description": "Increases Dragoon range by 2."
+    "description": "Increases Dragoon range by +2."
   },
   "Enhanced Strider Servos (Dragoon)": {
     "type": "Forge 1",
@@ -6169,7 +6169,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Increases Phoenix and Mirage weapon damage by 2."
+    "description": "Increases Phoenix and Mirage weapon damage by +2."
   },
   "Anion Pulse-Crystals (Phoenix/Mirage)": {
     "type": "Forge 1",
@@ -6181,7 +6181,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Increases Phoenix and Mirage range by 2."
+    "description": "Increases Phoenix and Mirage range by +2."
   },
   "Stealth Drive (Corsair)": {
     "type": "Forge 1",
@@ -6229,7 +6229,7 @@
     "origin": [
       "bw"
     ],
-    "description": "Increases corsair maximum shields by 20."
+    "description": "Increases corsair maximum shields by +20."
   },
   "Stealth Drive (Oracle)": {
     "type": "Forge 1",
@@ -6493,7 +6493,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Increases Vanguard attack range by 2."
+    "description": "Increases Vanguard attack range by +2."
   },
   "Matter Dispersion (Vanguard)": {
     "type": "Forge 2",
@@ -6517,7 +6517,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Increases Immortal and Annihilator attack range by 2."
+    "description": "Increases Immortal and Annihilator attack range by +2."
   },
   "Advanced Targeting Mechanics (Immortal/Annihilator)": {
     "type": "Forge 2",
@@ -6565,7 +6565,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Increases Wrathwalker weapon range by 1."
+    "description": "Increases Wrathwalker weapon range by +1."
   },
   "Shroud of Adun (Dark Templar/Avenger/Blood Hunter)": {
     "type": "Forge 2",
@@ -6577,7 +6577,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Increases Dark Templar, Avenger, and Blood Hunter maximum shields by 80."
+    "description": "Increases Dark Templar, Avenger, and Blood Hunter maximum shields by +80."
   },
   "Shadow Guard Training (Dark Templar/Avenger/Blood Hunter)": {
     "type": "Forge 2",
@@ -6589,7 +6589,7 @@
     "origin": [
       "bw"
     ],
-    "description": "Increases Dark Templar, Avenger, and Blood Hunter maximum life by 40."
+    "description": "Increases Dark Templar, Avenger, and Blood Hunter maximum life by +40."
   },
   "Blink (Dark Templar/Avenger/Blood Hunter)": {
     "type": "Forge 2",
@@ -6601,7 +6601,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Dark Templar, Avengers, and Blood Hunters unlock Blink."
+    "description": "Dark Templar, Avengers, and Blood Hunters gain the Blink ability."
   },
   "Resource Efficiency (Dark Templar/Avenger/Blood Hunter)": {
     "type": "Forge 2",
@@ -6649,7 +6649,7 @@
     "origin": [
       "bw"
     ],
-    "description": "High Templar and Signifiers gain the Hallucination ability."
+    "description": "High Templar and Signifiers gain the Hallucination ability, which creates 2 hallucinated copies of a target unit."
   },
   "Khaydarin Amulet (High Templar/Signifier)": {
     "type": "Forge 3",
@@ -6685,7 +6685,7 @@
     "origin": [
       "bw"
     ],
-    "description": "Dark Archons gain the Feedback ability, which damages and removes energy on an enemy unit."
+    "description": "Dark Archons gain the Feedback ability, which drains all energy from a target and deals 1 damage per point of energy drained."
   },
   "Maelstrom (Dark Archon)": {
     "type": "Forge 3",
@@ -6769,7 +6769,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Sentries, Energizers, and Havocs gain 200% increased energy regeneration rate."
+    "description": "Sentries, Energizers, and Havocs gain +100% energy regeneration rate."
   },
   "Force Field (Sentry)": {
     "type": "Forge 3",
@@ -6793,7 +6793,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Sentries gain the Hallucination ability."
+    "description": "Sentries gain the Hallucination ability, which creates hallucinated versions of Protoss units."
   },
   "Reclamation (Energizer)": {
     "type": "Forge 3",
@@ -6817,7 +6817,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Increases Energizer Life by 20."
+    "description": "Increases Energizer Life by +20."
   },
   "Detect Weakness (Havoc)": {
     "type": "Forge 3",
@@ -6829,7 +6829,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Havocs' Target Lock gives an additional 15% damage bonus."
+    "description": "Havocs' Target Lock gives an additional +15% damage bonus."
   },
   "Bloodshard Resonance (Havoc)": {
     "type": "Forge 3",
@@ -6877,7 +6877,7 @@
     "origin": [
       "lotv"
     ],
-    "description": "The Spear of Adun increases a target structure's unit warp in and research speeds by 1000% for 20 seconds."
+    "description": "The Spear of Adun increases a target structure's unit warp in and research speeds by +1000% for 20 seconds."
   },
   "Progressive Proxy Pylon (Spear of Adun Calldown)": {
     "type": "Progressive Upgrade",
