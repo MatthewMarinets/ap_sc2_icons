@@ -514,7 +514,7 @@
     "origin": [
       "wol"
     ],
-    "description": "Level 1: While on low health, Terran structures are repaired to half health instead of burning down.\nLevel 2: Terran structures are repaired to full health instead of half health"
+    "description": "Level 1: While on low health, Terran structures are repaired to half health instead of burning down.\nLevel 2: Terran structures are repaired to full health instead of half health."
   },
   "Progressive Orbital Command": {
     "type": "Progressive Upgrade",
@@ -586,7 +586,7 @@
     "origin": [
       "wol"
     ],
-    "description": "Increases Firebat's damage radius by 40%"
+    "description": "Increases Firebat's damage radius by 40%."
   },
   "Juggernaut Plating (Firebat)": {
     "type": "Armory 1",
@@ -658,7 +658,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Increases Cyclone Lock On damage"
+    "description": "Increases Cyclone Lock-On damage."
   },
   "Mag-Field Launchers (Cyclone)": {
     "type": "Armory 1",
@@ -718,7 +718,7 @@
     "origin": [
       "bw"
     ],
-    "description": "Removes negative status effects from target allied unit."
+    "description": "Medics gain the Restoration ability, which removes negative status effects from a target allied unit."
   },
   "Optical Flare (Medic)": {
     "type": "Armory 1",
@@ -730,7 +730,7 @@
     "origin": [
       "bw"
     ],
-    "description": "Reduces vision range of target enemy unit. Disables detection."
+    "description": "Medics gain the Optical Flare ability, which reduces vision range of target enemy unit. Disables detection."
   },
   "Resource Efficiency (Medic)": {
     "type": "Armory 1",
@@ -742,7 +742,7 @@
     "origin": [
       "bw"
     ],
-    "description": "Reduces Medic cost by 25 minerals, 25 gas, and 1 supply"
+    "description": "Reduces Medic cost by 25 minerals, 25 gas, and 1 supply."
   },
   "Progressive Stimpack (Firebat)": {
     "type": "Progressive Upgrade",
@@ -766,7 +766,7 @@
     "origin": [
       "bw"
     ],
-    "description": "Reduces Firebat cost by 50 minerals and 1 supply"
+    "description": "Reduces Firebat cost by 50 minerals and 1 supply."
   },
   "Progressive Stimpack (Marauder)": {
     "type": "Progressive Upgrade",
@@ -886,7 +886,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Increases Firebat attack range by 2"
+    "description": "Increases Firebat attack range by 2."
   },
   "Juggernaut Plating (Marauder)": {
     "type": "Armory 2",
@@ -960,7 +960,7 @@
       "bw",
       "nco"
     ],
-    "description": "Reduces Goliath cost by 50 minerals and 1 supply"
+    "description": "Reduces Goliath cost by 50 minerals and 1 supply."
   },
   "Internal Tech Module (Goliath)": {
     "type": "Armory 2",
@@ -998,7 +998,7 @@
     "origin": [
       "bw"
     ],
-    "description": "Reduces Siege Tank cost by 25 gas and 1 supply"
+    "description": "Reduces Siege Tank cost by 25 gas and 1 supply."
   },
   "Cloak (Predator)": {
     "type": "Armory 2",
@@ -1250,7 +1250,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Reduces Diamondback cost by 50 gas and 1 supply"
+    "description": "Reduces Diamondback cost by 50 gas and 1 supply."
   },
   "Jump Jets (Siege Tank)": {
     "type": "Armory 3",
@@ -1274,7 +1274,7 @@
     "origin": [
       "nco"
     ],
-    "description": "Allows Siege Tanks to lay Spider Mines. \nLays 3 Spider Mines at once. 3 charges"
+    "description": "Allows Siege Tanks to lay Spider Mines. \nLays 3 Spider Mines at once. 3 charges."
   },
   "Smart Servos (Siege Tank)": {
     "type": "Armory 3",
@@ -1346,7 +1346,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Reduces Predator cost by 75 gas and 1 supply"
+    "description": "Reduces Predator cost by 75 gas and 1 supply."
   },
   "Expanded Hull (Medivac)": {
     "type": "Armory 3",
@@ -1430,7 +1430,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Reduces Warhound cost by 75 minerals"
+    "description": "Reduces Warhound cost by 75 minerals."
   },
   "Reinforced Plating (Warhound)": {
     "type": "Armory 6",
@@ -1454,7 +1454,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Reduces HERC cost by 25 minerals, 25 gas, and 1 supply"
+    "description": "Reduces HERC cost by 25 minerals, 25 gas, and 1 supply."
   },
   "Juggernaut Plating (HERC)": {
     "type": "Armory 6",
@@ -1658,7 +1658,7 @@
     "origin": [
       "wol"
     ],
-    "description": "Vikings do area damage while in Fighter Mode"
+    "description": "Vikings do area damage while in Fighter Mode."
   },
   "Phobos-Class Weapons System (Viking)": {
     "type": "Armory 3",
@@ -1886,7 +1886,7 @@
     "origin": [
       "bw"
     ],
-    "description": "Reduces Wraith cost by 50 gas"
+    "description": "Reduces Wraith cost by 50 gas."
   },
   "Shredder Rounds (Viking)": {
     "type": "Armory 4",
@@ -1958,7 +1958,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Deals 75 damage to enemy ground units in the target area."
+    "description": "Banshees gain the Rocket Barrage ability, which deals 75 damage to enemy ground units in the target area."
   },
   "Resource Efficiency (Ghost)": {
     "type": "Armory 4",
@@ -1970,7 +1970,7 @@
     "origin": [
       "bw"
     ],
-    "description": "Reduces Ghost cost by 125 minerals, 75 gas, and 1 supply"
+    "description": "Reduces Ghost cost by 125 minerals, 75 gas, and 1 supply."
   },
   "Resource Efficiency (Spectre)": {
     "type": "Armory 4",
@@ -1982,7 +1982,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Reduces Spectre cost by 125 minerals, 75 gas, and 1 supply"
+    "description": "Reduces Spectre cost by 125 minerals, 75 gas, and 1 supply."
   },
   "Button With a Skull on It (Thor)": {
     "type": "Armory 4",
@@ -2030,7 +2030,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Reduces Raven cost by 50 gas"
+    "description": "Reduces Raven cost by 50 gas."
   },
   "Durable Materials (Raven)": {
     "type": "Armory 4",
@@ -2078,7 +2078,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Reduces Cyclone cost by 25 minerals, 50 gas, and 1 supply"
+    "description": "Reduces Cyclone cost by 25 minerals, 50 gas, and 1 supply."
   },
   "Hyperflight Rotors (Banshee)": {
     "type": "Armory 5",
@@ -2331,7 +2331,7 @@
     "origin": [
       "bw"
     ],
-    "description": "Spell. Provides a target unit with a defensive barrier that can absorb up to 250 damage"
+    "description": "Spell. Provides a target unit with a defensive barrier that can absorb up to 250 damage."
   },
   "Targeting Optics (Cyclone)": {
     "type": "Armory 5",
@@ -2499,7 +2499,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Reduces Liberator cost by 25 minerals and 25 gas"
+    "description": "Reduces Liberator cost by 25 minerals and 25 gas."
   },
   "Internal Fusion Module (Hercules)": {
     "type": "Armory 6",
@@ -2571,7 +2571,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Reduces Valkyrie cost by 100 minerals, 25 gas, and 1 supply"
+    "description": "Reduces Valkyrie cost by 100 minerals, 25 gas, and 1 supply."
   },
   "Predator's Fury (Predator)": {
     "type": "Armory 6",
@@ -2655,7 +2655,7 @@
     "origin": [
       "wol"
     ],
-    "description": "Mercenary Marines"
+    "description": "Mercenary Marines."
   },
   "Devil Dogs": {
     "type": "Mercenary",
@@ -2667,7 +2667,7 @@
     "origin": [
       "wol"
     ],
-    "description": "Mercenary Firebats"
+    "description": "Mercenary Firebats."
   },
   "Hammer Securities": {
     "type": "Mercenary",
@@ -2679,7 +2679,7 @@
     "origin": [
       "wol"
     ],
-    "description": "Mercenary Marauders"
+    "description": "Mercenary Marauders."
   },
   "Spartan Company": {
     "type": "Mercenary",
@@ -2691,7 +2691,7 @@
     "origin": [
       "wol"
     ],
-    "description": "Mercenary Goliaths"
+    "description": "Mercenary Goliaths."
   },
   "Siege Breakers": {
     "type": "Mercenary",
@@ -2703,7 +2703,7 @@
     "origin": [
       "wol"
     ],
-    "description": "Mercenary Siege Tanks"
+    "description": "Mercenary Siege Tanks."
   },
   "Hel's Angels": {
     "type": "Mercenary",
@@ -2715,7 +2715,7 @@
     "origin": [
       "wol"
     ],
-    "description": "Mercenary Vikings"
+    "description": "Mercenary Vikings."
   },
   "Dusk Wings": {
     "type": "Mercenary",
@@ -2727,7 +2727,7 @@
     "origin": [
       "wol"
     ],
-    "description": "Mercenary Banshees"
+    "description": "Mercenary Banshees."
   },
   "Jackson's Revenge": {
     "type": "Mercenary",
@@ -2739,7 +2739,7 @@
     "origin": [
       "wol"
     ],
-    "description": "Mercenary Battlecruiser"
+    "description": "Mercenary Battlecruiser."
   },
   "Skibi's Angels": {
     "type": "Mercenary",
@@ -2751,7 +2751,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Mercenary Medics"
+    "description": "Mercenary Medics."
   },
   "Death Heads": {
     "type": "Mercenary",
@@ -2763,7 +2763,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Mercenary Reapers"
+    "description": "Mercenary Reapers."
   },
   "Winged Nightmares": {
     "type": "Mercenary",
@@ -2775,7 +2775,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Mercenary Wraiths"
+    "description": "Mercenary Wraiths."
   },
   "Midnight Riders": {
     "type": "Mercenary",
@@ -2787,7 +2787,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Mercenary Liberators"
+    "description": "Mercenary Liberators."
   },
   "Brynhilds": {
     "type": "Mercenary",
@@ -2799,7 +2799,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Mercenary Valkyries"
+    "description": "Mercenary Valkyries."
   },
   "Jotun": {
     "type": "Mercenary",
@@ -2811,7 +2811,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Mercenary Thor"
+    "description": "Mercenary Thor."
   },
   "Ultra-Capacitors": {
     "type": "Laboratory",
@@ -4106,7 +4106,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Reduces Scourge cost by 50 gas"
+    "description": "Reduces Scourge cost by 50 gas."
   },
   "Swarm Scourge (Scourge)": {
     "type": "Mutation 1",
@@ -4178,7 +4178,7 @@
     "origin": [
       "bw"
     ],
-    "description": "Reduces Hydralisk cost by 25 minerals, 25 gas, and 1 supply"
+    "description": "Reduces Hydralisk cost by 25 minerals, 25 gas, and 1 supply."
   },
   "Centrifugal Hooks (Baneling)": {
     "type": "Mutation 2",
@@ -4286,7 +4286,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Reduces Swarm Host cost by 100 minerals and 25 gas"
+    "description": "Reduces Swarm Host cost by 100 minerals and 25 gas."
   },
   "Anabolic Synthesis (Ultralisk)": {
     "type": "Mutation 2",
@@ -4334,7 +4334,7 @@
     "origin": [
       "bw"
     ],
-    "description": "Reduces Ultralisk cost by 100 minerals and 2 supply"
+    "description": "Reduces Ultralisk cost by 100 minerals and 2 supply."
   },
   "Corrosive Spray (Devourer)": {
     "type": "Mutation 2",
@@ -4514,7 +4514,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Ravagers gain the Deep Tunnel ability, allowing them to burrow to any visible location on the map."
+    "description": "Ravagers gain the Deep Tunnel ability, which allows them to burrow to any visible location on the map."
   },
   "Parasitic Bomb (Viper)": {
     "type": "Mutation 2",
@@ -4598,7 +4598,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Reduces Brood Lord cost by 75 gas"
+    "description": "Reduces Brood Lord cost by 75 gas."
   },
   "Infested Terran (Infestor)": {
     "type": "Mutation 3",
@@ -4682,7 +4682,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Reduces Swarm Queen cost by 50 gas"
+    "description": "Reduces Swarm Queen cost by 50 gas."
   },
   "Incubator Chamber (Swarm Queen)": {
     "type": "Mutation 3",
@@ -6313,7 +6313,7 @@
     "origin": [
       "bw"
     ],
-    "description": "Reduces Arbiter cost by 50 minerals"
+    "description": "Reduces Arbiter cost by 50 minerals."
   },
   "Enhanced Cloak Field (Arbiter)": {
     "type": "Forge 2",
@@ -6481,7 +6481,7 @@
     "origin": [
       "bw"
     ],
-    "description": "Reduces Reaver cost by 100 minerals, 100 gas, and 2 supply"
+    "description": "Reduces Reaver cost by 100 minerals, 100 gas, and 2 supply."
   },
   "Agony Launchers (Vanguard)": {
     "type": "Forge 2",
@@ -6613,7 +6613,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Reduces Dark Templar, Avenger, and Blood Hunter cost by 50 gas"
+    "description": "Reduces Dark Templar, Avenger, and Blood Hunter cost by 50 gas."
   },
   "Dark Archon Meld (Dark Templar)": {
     "type": "Forge 2",
