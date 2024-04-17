@@ -21,17 +21,37 @@ def write_start(fp: io.FileIO) -> None:
 def brief_name(item_name: str) -> str:
     return item_name.strip().replace('/', '-').replace('(', '').replace(')', '').replace(' ', '-')
 
+
+def confusable_hash_char(char: str) -> str:
+    integer = ord(char)
+    if (integer >= ord('a') and integer <= ord('z')):
+        # Use Mathematical sans-serif normal characters
+        return chr(0x1D5BA + integer - ord('a'))
+    if (integer >= ord('A') and integer <= ord('Z')):
+        # Use Mathematical sans-serif normal characters
+        return chr(0x1D5A0 + integer - ord('A'))
+    if (integer >= ord('0') and integer <= ord('9')):
+        return chr(0x1D7E2 + integer - ord('0'))
+    return char
+
+def confusable_hash(string: str) -> str:
+    return ''.join(confusable_hash_char(c) for c in string)
+
+
 def write_table_of_contents(fp: io.FileIO, item_names: Iterable[str]) -> None:
     fp.write(inspect.cleandoc("""
     <div id="toc">
     <h2 id="toc-title">Table of Contents</h2>
     <ol>
     """))
-    # defeating file search with a strategy based on this github library:
+    # Defeating file search with a strategy of putting invisible characters between every visible character.
+    # Based on this github library:
     # https://github.com/seangransee/Disable-CTRL-F-jQuery-plugin/blob/master/disableFind.js
     spacer = "<i>=</i>"
     for item_name in sorted(item_names, key=lambda x: tuple(reversed(x.split(' ('))) if ' (' in x else ('', x)):
         fp.write(f'<li><a href="#{brief_name(item_name)}">{spacer.join(item_name)}</a></li>\n')
+        # alternate strategy -- replace each character with a look-alike
+        # fp.write(f'<li><a class="no-select" href="#{brief_name(item_name)}">{confusable_hash(item_name)}</a></li>\n')
     fp.write('</ol></div>\n')
 
 def write_item(fp: io.FileIO, item_name: str, item_info: str, icon_locations: list[str]) -> None:
@@ -70,7 +90,7 @@ def main() -> None:
         item_data = json.load(fp)
     with open('data/icon_manifest.json', 'r') as fp:
         icon_manifest = json.load(fp)
-    with open('index.html', 'w') as fp:
+    with open('index.html', 'w', encoding='utf-8') as fp:
         write_start(fp)
         write_table_of_contents(fp, item_data)
         for item in item_data:

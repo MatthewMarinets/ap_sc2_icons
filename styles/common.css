@@ -66,6 +66,10 @@ i {
     user-select: none;
 }
 
+.no-select {
+    user-select: none;
+}
+
 img {
     display: inline-block;
     margin: auto;
