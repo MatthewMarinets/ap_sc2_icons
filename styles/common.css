@@ -28,6 +28,10 @@ body {
     max-height: 100%;
 }
 
+#toc-title {
+    padding-left: 50px;
+}
+
 #main-content {
     background-color: #111;
     max-width: 1000px;
@@ -36,6 +40,13 @@ body {
     padding-bottom: 0;
     margin: auto;
     border: 1px solid #fae;
+}
+
+.item-title {
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: auto;
+    max-width: fit-content;
 }
 
 .error {
@@ -48,6 +59,13 @@ body {
     text-align: center;
 }
 
+i {
+    /* I declare `i` to mean "invisible" rather than "italics" */
+    position: absolute;
+    opacity: 0;
+    user-select: none;
+}
+
 img {
     display: inline-block;
     margin: auto;
@@ -58,10 +76,6 @@ img {
 code {
     color: #3b9;
     background-color: black;
-}
-
-h2, h3, h4, h5, h6 {
-    padding-left: 60px;
 }
 
 h1 {

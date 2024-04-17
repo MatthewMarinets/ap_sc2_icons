@@ -22,19 +22,22 @@ def brief_name(item_name: str) -> str:
     return item_name.strip().replace('/', '-').replace('(', '').replace(')', '').replace(' ', '-')
 
 def write_table_of_contents(fp: io.FileIO, item_names: Iterable[str]) -> None:
-    fp.write("""
+    fp.write(inspect.cleandoc("""
     <div id="toc">
-    <h2>Table of Contents</h2>
+    <h2 id="toc-title">Table of Contents</h2>
     <ol>
-    """)
+    """))
+    # defeating file search with a strategy based on this github library:
+    # https://github.com/seangransee/Disable-CTRL-F-jQuery-plugin/blob/master/disableFind.js
+    spacer = "<i>=</i>"
     for item_name in sorted(item_names, key=lambda x: tuple(reversed(x.split(' ('))) if ' (' in x else ('', x)):
-        fp.write(f'<li><a href="#{brief_name(item_name)}">{item_name}</a></li>\n')
+        fp.write(f'<li><a href="#{brief_name(item_name)}">{spacer.join(item_name)}</a></li>\n')
     fp.write('</ol></div>\n')
 
 def write_item(fp: io.FileIO, item_name: str, item_info: str, icon_locations: list[str]) -> None:
     fp.write(inspect.cleandoc(f"""
     <div id="{item_name}">
-        <a id="{brief_name(item_name)}"></a><a href="#{brief_name(item_name)}"><h2> {item_name}</h2></a>
+        <a id="{brief_name(item_name)}"></a><a href="#{brief_name(item_name)}" class="item-title"><h2>{item_name}</h2></a>
         <div class="image-container">
     """))
     if not icon_locations:
