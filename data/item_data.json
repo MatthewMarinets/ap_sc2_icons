@@ -3097,7 +3097,7 @@
     "quantity": 1,
     "parent_item": null,
     "origin": [
-      "wol"
+      "ext"
     ],
     "description": "Mercenary calldowns are no longer limited by charges."
   },
@@ -4322,7 +4322,7 @@
     "origin": [
       "ext"
     ],
-    "description": "Ultralisks gain +100 armor."
+    "description": "Ultralisks gain +100 life."
   },
   "Resource Efficiency (Ultralisk)": {
     "type": "Mutation 2",
