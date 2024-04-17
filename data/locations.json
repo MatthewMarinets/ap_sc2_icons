@@ -1312,12 +1312,10 @@
       "assets\\textures\\btn-unit-zerg-roachlings.dds"
     ],
     "Impaler Aspect (Hydralisk)": [
-      "assets\\textures\\btn-building-zerg-lurkerden.dds",
       "assets\\textures\\btn-unit-zerg-hydralisk-impaler.dds",
       "assets\\textures\\btn-unit-zerg-impaler.dds"
     ],
     "Lurker Aspect (Hydralisk)": [
-      "assets\\textures\\btn-building-zerg-lurkerden.dds",
       "assets\\textures\\btn-unit-zerg-hydralisk-lurker.dds",
       "assets\\textures\\btn-unit-zerg-lurker.dds"
     ],
@@ -1330,12 +1328,10 @@
       "assets\\textures\\btn-unit-zerg-baneling-hunter.dds"
     ],
     "Brood Lord Aspect (Mutalisk/Corruptor)": [
-      "assets\\textures\\btn-building-zerg-greaterspire.dds",
       "assets\\textures\\btn-unit-zerg-broodlord.dds",
       "assets\\textures\\btn-unit-zerg-mutalisk-broodlord.dds"
     ],
     "Viper Aspect (Mutalisk/Corruptor)": [
-      "assets\\textures\\btn-building-zerg-greaterspire.dds",
       "assets\\textures\\btn-unit-zerg-mutalisk-viper.dds",
       "assets\\textures\\btn-unit-zerg-viper.dds"
     ],
@@ -1456,11 +1452,9 @@
       "assets\\textures\\btn-upgrade-zerg-ventralsacs.dds"
     ],
     "Guardian Aspect (Mutalisk/Corruptor)": [
-      "assets\\textures\\btn-building-zerg-greaterspire.dds",
       "assets\\textures\\btn-unit-zerg-primalguardian.dds"
     ],
     "Devourer Aspect (Mutalisk/Corruptor)": [
-      "assets\\textures\\btn-building-zerg-greaterspire.dds",
       "assets\\textures\\btn-unit-zerg-devourerex3.dds"
     ],
     "Ravager Aspect (Roach)": [

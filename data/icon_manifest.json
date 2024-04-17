@@ -212,7 +212,6 @@
   "icons/blizzard/btn-upgrade-protoss-alarak-rangeincrease.png"
  ],
  "Brood Lord Aspect (Mutalisk/Corruptor)": [
-  "icons/blizzard/btn-building-zerg-greaterspire.png",
   "icons/blizzard/btn-unit-zerg-broodlord.png",
   "icons/blizzard/btn-unit-zerg-mutalisk-broodlord.png"
  ],
@@ -396,7 +395,6 @@
   "icons/original/btn-unit-terran-firebatmercenary.png"
  ],
  "Devourer Aspect (Mutalisk/Corruptor)": [
-  "icons/blizzard/btn-building-zerg-greaterspire.png",
   "icons/blizzard/btn-unit-zerg-devourerex3.png"
  ],
  "Diamondback": [
@@ -555,7 +553,6 @@
   "icons/blizzard/btn-upgrade-zerg-hotsgroovedspines.png"
  ],
  "Guardian Aspect (Mutalisk/Corruptor)": [
-  "icons/blizzard/btn-building-zerg-greaterspire.png",
   "icons/blizzard/btn-unit-zerg-primalguardian.png"
  ],
  "Guardian Shell": [
@@ -661,7 +658,6 @@
   "icons/blizzard/btn-unit-protoss-immortal.png"
  ],
  "Impaler Aspect (Hydralisk)": [
-  "icons/blizzard/btn-building-zerg-lurkerden.png",
   "icons/blizzard/btn-unit-zerg-hydralisk-impaler.png",
   "icons/blizzard/btn-unit-zerg-impaler.png"
  ],
@@ -851,7 +847,6 @@
   "icons/blizzard/btn-upgrade-zerg-glialreconstitution.png"
  ],
  "Lurker Aspect (Hydralisk)": [
-  "icons/blizzard/btn-building-zerg-lurkerden.png",
   "icons/blizzard/btn-unit-zerg-hydralisk-lurker.png",
   "icons/blizzard/btn-unit-zerg-lurker.png"
  ],
@@ -1825,7 +1820,6 @@
   "icons/blizzard/btn-unit-zerg-roach-vile.png"
  ],
  "Viper Aspect (Mutalisk/Corruptor)": [
-  "icons/blizzard/btn-building-zerg-greaterspire.png",
   "icons/blizzard/btn-unit-zerg-mutalisk-viper.png",
   "icons/blizzard/btn-unit-zerg-viper.png"
  ],

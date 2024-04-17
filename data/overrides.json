@@ -41,6 +41,8 @@
         "Roach": ["btn-building-zerg-roachwarren"],
         "Viking": ["btn-upgrade-terran-weaponrefit"],
         "Baneling Aspect (Zergling)": ["btn-building-zerg-banelingnest"],
+        "Impaler Aspect (Hydralisk)": ["btn-building-zerg-lurkerden"],
+        "Lurker Aspect (Hydralisk)": ["btn-building-zerg-lurkerden"],
         "": []
     },
     "pattern_add": {
@@ -51,6 +53,7 @@
     },
     "pattern_remove": {
         "[^(]+\\([^)]+\\)": ["btn-command-cancel"],
-        ".*": ["btn-command-attack", "btn-command-stop", "aoe_splatterran1c"]
+        ".*": ["btn-command-attack", "btn-command-stop", "aoe_splatterran1c"],
+        ".*\\(Mutalisk/Corruptor\\)": ["btn-building-zerg-greaterspire"]
     }
 }
