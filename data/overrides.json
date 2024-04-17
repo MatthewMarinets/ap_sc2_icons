@@ -13,7 +13,7 @@
         "Command Center Reactor": ["btn-research-terran-commandcenterreactor.dds"],
         "Vanadium Plating": ["btn-research-terran-vanadiumplating.dds"],
         "Ultra-Capacitors": ["btn-research-terran-ultracapacitors.dds"],
-        "Rogue Forces": ["btn-building-terran-merccompound.dds", "btn-unit-terran-tosh.dds", "btn-unit-terran-taurenspacemarine.dds"],
+        "Rogue Forces": ["btn-unit-terran-tosh.dds"],
         "Internal Fusion Module (Hercules)": ["btn-upgrade-terran-internalizedtechmodule.dds"],
         "Defensive Matrix (Science Vessel)": ["Assets\\Textures\\btn-upgrade-swann-defensivematrix.dds"],
         "Button With a Skull on It (Thor)": ["btn-ability-tychus-odin-bigredbutton.dds"],
