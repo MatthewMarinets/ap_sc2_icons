@@ -1,6 +1,6 @@
 {
   "meta": {
-    "timestamp": "2024-04-17",
+    "timestamp": "2024-05-12",
     "items": 595,
     "located": 571
   },
@@ -442,7 +442,6 @@
     "Progressive Tomahawk Power Cells (Wraith)": [
       "ap\\assets\\custom\\textures\\btn-permacloak-wraith.dds",
       "assets\\textures\\btn-ability-terran-cloak-color.dds",
-      "assets\\textures\\btn-ability-terran-decloak-color.dds",
       "assets\\textures\\btn-techupgrade-terran-tomahawkpowercell.dds"
     ],
     "Displacement Field (Wraith)": [
@@ -457,8 +456,7 @@
     "Progressive Cross-Spectrum Dampeners (Banshee)": [
       "ap\\assets\\custom\\textures\\btn-permacloak-banshee.dds",
       "ap\\assets\\textures\\btn-banshee-cross-spectrum-dampeners.dds",
-      "assets\\textures\\btn-ability-terran-cloak-color.dds",
-      "assets\\textures\\btn-ability-terran-decloak-color.dds"
+      "assets\\textures\\btn-ability-terran-cloak-color.dds"
     ],
     "Shockwave Missile Battery (Banshee)": [
       "assets\\textures\\btn-upgrade-raynor-shockwavemissilebattery.dds"
@@ -475,9 +473,7 @@
     ],
     "Crius Suit (Ghost)": [
       "ap\\assets\\custom\\textures\\btn-permacloak-ghost.dds",
-      "assets\\textures\\btn-ability-terran-cloak-color.dds",
-      "assets\\textures\\btn-ability-terran-decloak-color.dds",
-      "assets\\textures\\btn-techupgrade-terran-criussuit.dds"
+      "assets\\textures\\btn-ability-terran-cloak-color.dds"
     ],
     "Psionic Lash (Spectre)": [
       "ap\\assets\\textures\\btn-ability-terran-ultrasonicpulse.dds",
@@ -485,9 +481,7 @@
     ],
     "Nyx-Class Cloaking Module (Spectre)": [
       "ap\\assets\\custom\\textures\\btn-permacloak-spectre.dds",
-      "assets\\textures\\btn-ability-terran-cloak-color.dds",
-      "assets\\textures\\btn-ability-terran-decloak-color.dds",
-      "assets\\textures\\btn-techupgrade-terran-nyxcloakingclassmodule.dds"
+      "assets\\textures\\btn-ability-terran-cloak-color.dds"
     ],
     "330mm Barrage Cannon (Thor)": [
       "ap\\assets\\custom\\textures\\btn-ability-thor-330mm.dds",
@@ -1476,7 +1470,7 @@
       "assets\\textures\\btn-unit-protoss-stalker-purifier.dds"
     ],
     "Slayer": [
-      "assets\\textures\\btn-unit-protoss-alarak-taldarim-stalker.dds"
+      "assets\\textures\\btn-unit-protoss-alarak-taldarim-stalker-collection.dds"
     ],
     "Sentry": [
       "assets\\textures\\btn-unit-protoss-sentry.dds"

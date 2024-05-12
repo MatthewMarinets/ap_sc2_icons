@@ -348,9 +348,7 @@
  ],
  "Crius Suit (Ghost)": [
   "icons/original/btn-permacloak-ghost.png",
-  "icons/blizzard/btn-ability-terran-cloak-color.png",
-  "icons/blizzard/btn-ability-terran-decloak-color.png",
-  "icons/blizzard/btn-techupgrade-terran-criussuit.png"
+  "icons/blizzard/btn-ability-terran-cloak-color.png"
  ],
  "Crushing Grip (Kerrigan Tier 2)": [
   "icons/blizzard/btn-ability-swarm-kerrigan-crushinggrip.png"
@@ -963,9 +961,7 @@
  ],
  "Nyx-Class Cloaking Module (Spectre)": [
   "icons/original/btn-permacloak-spectre.png",
-  "icons/blizzard/btn-ability-terran-cloak-color.png",
-  "icons/blizzard/btn-ability-terran-decloak-color.png",
-  "icons/blizzard/btn-techupgrade-terran-nyxcloakingclassmodule.png"
+  "icons/blizzard/btn-ability-terran-cloak-color.png"
  ],
  "Observer": [
   "icons/blizzard/btn-unit-protoss-observer.png"
@@ -1097,8 +1093,7 @@
  "Progressive Cross-Spectrum Dampeners (Banshee)": [
   "icons/original/btn-permacloak-banshee.png",
   "icons/original/btn-banshee-cross-spectrum-dampeners.png",
-  "icons/blizzard/btn-ability-terran-cloak-color.png",
-  "icons/blizzard/btn-ability-terran-decloak-color.png"
+  "icons/blizzard/btn-ability-terran-cloak-color.png"
  ],
  "Progressive Defensive Matrix (Battlecruiser)": [
   "icons/blizzard/btn-upgrade-swann-defensivematrix.png"
@@ -1234,7 +1229,6 @@
  "Progressive Tomahawk Power Cells (Wraith)": [
   "icons/original/btn-permacloak-wraith.png",
   "icons/blizzard/btn-ability-terran-cloak-color.png",
-  "icons/blizzard/btn-ability-terran-decloak-color.png",
   "icons/blizzard/btn-techupgrade-terran-tomahawkpowercell.png"
  ],
  "Progressive Tri-Lithium Power Cell (Diamondback)": [
@@ -1576,7 +1570,7 @@
   "icons/blizzard/btn-unit-terran-medicelite.png"
  ],
  "Slayer": [
-  "icons/blizzard/btn-unit-protoss-alarak-taldarim-stalker.png"
+  "icons/blizzard/btn-unit-protoss-alarak-taldarim-stalker-collection.png"
  ],
  "Smart Servos (Hellion)": [
   "icons/blizzard/btn-upgrade-terran-transformationservos.png"

@@ -13,6 +13,7 @@ def write_start(fp: io.FileIO) -> None:
         <meta name="description" content="A repository of Starcraft 2 icons used in Archipelago"/>
         <meta name="keywords" content="Archipelago Starcraft 2"/>
         <link rel="stylesheet" href="styles/common.css"/>
+        <link rel="icon" type="image/x-icon" href="favicon.ico"/>
     </head>
     <body style="background-color: black; color: #ebb">
         <div id="main-content">
@@ -65,7 +66,7 @@ def write_item(fp: io.FileIO, item_name: str, item_info: str, icon_locations: li
     locations_list_items = ''
     for location in icon_locations:
         fp.write(f'<img src="{location}"/>')
-        locations_list_items += f'<li>Icon path: <code>{location}</code></li>'
+    #     locations_list_items += f'<li>Icon path: <code>{location}</code></li>'
     fp.write(inspect.cleandoc(f"""
         </div>
         <ul>

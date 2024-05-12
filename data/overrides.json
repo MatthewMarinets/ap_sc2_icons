@@ -40,9 +40,13 @@
         "Ultralisk": ["btn-building-zerg-ultraliskcavern"],
         "Roach": ["btn-building-zerg-roachwarren"],
         "Viking": ["btn-upgrade-terran-weaponrefit"],
+        "Dark Archon": ["btn-unit-protoss-hightemplar-nerazim"],
+        "Nyx-Class Cloaking Module (Spectre)": ["btn-techupgrade-terran-nyxcloakingclassmodule"],
+        "Crius Suit (Ghost)": ["btn-techupgrade-terran-criussuit"],
         "Baneling Aspect (Zergling)": ["btn-building-zerg-banelingnest"],
         "Impaler Aspect (Hydralisk)": ["btn-building-zerg-lurkerden"],
         "Lurker Aspect (Hydralisk)": ["btn-building-zerg-lurkerden"],
+        "Tac Nuke Strike (Nova Ability)": ["btn-building-terran-ghostacademy"],
         "": []
     },
     "pattern_add": {
@@ -53,7 +57,7 @@
     },
     "pattern_remove": {
         "[^(]+\\([^)]+\\)": ["btn-command-cancel"],
-        ".*": ["btn-command-attack", "btn-command-stop", "aoe_splatterran1c"],
+        ".*": ["btn-command-attack", "btn-command-stop", "aoe_splatterran1c", "btn-ability-terran-cloak", "btn-ability-terran-decloak-color"],
         ".*\\(Mutalisk/Corruptor\\)": ["btn-building-zerg-greaterspire"]
     }
 }
