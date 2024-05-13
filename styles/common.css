@@ -16,7 +16,7 @@ body {
     right: 0;
     top: 0;
     max-height: 50px;
-    overflow: scroll;
+    overflow-y: scroll;
     background-color: #111;
     border: 1px solid #fae;
     padding-right: 10px;
@@ -29,6 +29,7 @@ body {
 }
 
 #toc-title {
+    padding-top: 7px;
     padding-left: 50px;
 }
 
