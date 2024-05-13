@@ -13,7 +13,7 @@ def write_start(fp: io.FileIO) -> None:
         <meta name="description" content="A repository of Starcraft 2 icons used in Archipelago"/>
         <meta name="keywords" content="Archipelago Starcraft 2"/>
         <link rel="stylesheet" href="styles/common.css"/>
-        <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+        <link rel="icon" type="image/png" href="favicon.png"/>
     </head>
     <body style="background-color: black; color: #ebb">
         <div id="main-content">
