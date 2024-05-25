@@ -14,6 +14,14 @@ def write_start(fp: io.FileIO) -> None:
         <meta name="keywords" content="Archipelago Starcraft 2"/>
         <link rel="stylesheet" href="styles/common.css"/>
         <link rel="icon" type="image/png" href="favicon.png"/>
+        <style>
+        img {
+            display: inline-block;
+            margin: auto;
+            max-width: 100%;
+            height: auto;
+        }
+        </style>
     </head>
     <body style="background-color: black; color: #ebb">
         <div id="main-content">
@@ -36,6 +44,7 @@ def confusable_hash_char(char: str) -> str:
     return char
 
 def confusable_hash(string: str) -> str:
+    """Replaces all characters in a string with look-alike characters to prevent search from picking them up"""
     return ''.join(confusable_hash_char(c) for c in string)
 
 

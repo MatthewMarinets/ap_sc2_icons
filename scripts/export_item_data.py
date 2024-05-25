@@ -19,9 +19,8 @@ if __name__ == '__main__':
         for item_name, item in items.item_table.items()
     }
     item_groups = {
-        item_group_name: item_group
-        for item_group_name, item_group in item_groups.item_name_groups.items()
-        if item_group_name not in item_groups.unlisted_item_name_groups
+        item_group_name: item_groups.item_name_groups[item_group_name]
+        for item_group_name in sorted(item_groups.ItemGroupNames.get_all_group_names())
     }
     with open('data/item_data.json', 'w') as fp:
         json.dump(data, fp, indent=2)
