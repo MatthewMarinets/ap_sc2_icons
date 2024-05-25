@@ -23,7 +23,6 @@ def main(fast: bool = True) -> None:
     skipped = 0
     no_information = 0
     parsed_locations: dict[str, list[str]] = location_info['locations']
-    num_images = location_info["meta"]["located"]
     info = {}
     items = sorted(parsed_locations)
     if not os.path.exists(ORIGINAL_DIR):

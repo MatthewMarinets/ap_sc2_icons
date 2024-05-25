@@ -312,6 +312,9 @@
  "Command Center Reactor": [
   "icons/blizzard/btn-research-terran-commandcenterreactor.png"
  ],
+ "Comorbidity (Defiler)": [
+  "icons/blizzard/btn-upgrade-zerg-dehaka-tenderize.png"
+ ],
  "Concealment (Widow Mine)": [
   "icons/blizzard/btn-ability-terran-widowminehidden.png"
  ],
@@ -1033,6 +1036,9 @@
  "Particle Reflection (Stalker/Instigator/Slayer)": [
   "icons/blizzard/btn-upgrade-protoss-fenix-adeptchampionbounceattack.png"
  ],
+ "Pathogen Projectors (Defiler)": [
+  "icons/blizzard/btn-upgrade-zagara-increasebilelauncherrange.png"
+ ],
  "Perdition Turret": [
   "icons/blizzard/btn-unit-terran-perditionturret.png"
  ],
@@ -1071,6 +1077,10 @@
  ],
  "Predator's Fury (Predator)": [
   "icons/blizzard/btn-ability-protoss-shadowfury.png"
+ ],
+ "Predatory Consumption (Defiler)": [
+  "icons/blizzard/btn-ability-zerg-consume.png",
+  "icons/blizzard/btn-progression-zerg-dehaka-15-genemutation.png"
  ],
  "Prescient Spores (Devourer)": [
   "icons/blizzard/btn-upgrade-zerg-airattacks-level2.png"
@@ -1114,6 +1124,7 @@
  ],
  "Progressive Orbital Command": [
   "icons/original/btn-orbital-fortress.png",
+  "icons/blizzard/btn-ability-terran-calldownextrasupplies-color.png",
   "icons/blizzard/btn-ability-terran-scannersweep-color.png",
   "icons/blizzard/btn-building-terran-commandcenter.png",
   "icons/blizzard/btn-building-terran-surveillancestation.png",
@@ -1736,6 +1747,9 @@
  "Torrasque Strain (Ultralisk)": [
   "icons/blizzard/btn-ability-zerg-ultralisk-revive.png",
   "icons/blizzard/btn-unit-zerg-ultralisk-torrasque.png"
+ ],
+ "Trapdoor Adaptation (Defiler)": [
+  "icons/blizzard/btn-upgrade-zerg-burrowmove.png"
  ],
  "Trigger Override (Wraith)": [
   "icons/blizzard/btn-ability-hornerhan-wraith-attackspeed.png"

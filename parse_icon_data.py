@@ -77,7 +77,6 @@ def parse_galaxy_file(galaxy_path: str) -> Dict[ItemId, List[GalaxyItem]]:
                 .replace('Upgrades', 'Upgrade')
                 .replace('Upgrades2', 'Upgrade2')
                 .replace('KerriganAbilities', 'Ability')
-                .replace('SpearOfAdun', 'SpearofAdun')
             )
         elif UNLOCK_PROGRESSIVE_ARRAY_START in line:
             is_progressive_array = True
@@ -86,8 +85,8 @@ def parse_galaxy_file(galaxy_path: str) -> Dict[ItemId, List[GalaxyItem]]:
             match = re.match(unlock_function_pattern, current_function)
             race = match.group(1).lower()
             category = (match.group(2)
+                .replace('ProgressiveUpgrades', 'Progressive')
                 .replace('Upgrades', 'Upgrade')
-                .replace('Upgrades2', 'Upgrade2')
             )
         elif bit_array_line > -3 and ')' not in line:
             assert race

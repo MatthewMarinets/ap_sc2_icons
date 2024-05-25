@@ -6,9 +6,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "General-purpose infantry."
   },
   "Medic": {
@@ -18,9 +15,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Support trooper. Heals nearby biological units."
   },
   "Firebat": {
@@ -30,9 +24,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Specialized anti-infantry attacker."
   },
   "Marauder": {
@@ -42,9 +33,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Heavy assault infantry."
   },
   "Reaper": {
@@ -54,9 +42,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Raider. Capable of jumping up and down cliffs. Throws explosive mines."
   },
   "Hellion": {
@@ -66,9 +51,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Fast scout. Has a flame attack that damages all enemy units in its line of fire."
   },
   "Vulture": {
@@ -78,9 +60,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Fast skirmish unit. Can use the Spider Mine ability."
   },
   "Goliath": {
@@ -90,9 +69,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Heavy-fire support unit."
   },
   "Diamondback": {
@@ -102,9 +78,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Fast, high-damage hovertank. Rail Gun can fire while the Diamondback is moving."
   },
   "Siege Tank": {
@@ -114,9 +87,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Heavy tank. Long-range artillery in Siege Mode."
   },
   "Medivac": {
@@ -126,9 +96,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Air transport. Heals nearby biological units."
   },
   "Wraith": {
@@ -138,9 +105,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Highly mobile flying unit. Excellent at surgical strikes."
   },
   "Viking": {
@@ -150,9 +114,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Durable support flyer. Loaded with strong anti-capital air missiles. \nCan switch into Assault Mode to attack ground units."
   },
   "Banshee": {
@@ -162,9 +123,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Tactical-strike aircraft."
   },
   "Battlecruiser": {
@@ -174,9 +132,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Powerful warship."
   },
   "Ghost": {
@@ -186,9 +141,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Infiltration unit. Can use Snipe and Cloak abilities. Can also call down Tactical Nukes."
   },
   "Spectre": {
@@ -198,9 +150,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Infiltration unit. Can use Ultrasonic Pulse, Psionic Lash, and Cloak. \nCan also call down Tactical Nukes."
   },
   "Thor": {
@@ -210,9 +159,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Heavy assault mech."
   },
   "Liberator": {
@@ -222,10 +168,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext",
-      "nco"
-    ],
     "description": "Artillery fighter. Loaded with missiles that deal area damage to enemy air targets. \nCan switch into Defender Mode to provide siege support."
   },
   "Valkyrie": {
@@ -235,9 +177,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "bw"
-    ],
     "description": "Advanced anti-aircraft fighter. \nAble to use cluster missiles that deal area damage to air targets."
   },
   "Widow Mine": {
@@ -247,9 +186,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Robotic mine. Launches missiles at nearby enemy units while burrowed. \nAttacks deal splash damage in a small area around the target. \nWidow Mine is revealed when Sentinel Missile is on cooldown."
   },
   "Cyclone": {
@@ -259,9 +195,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Mobile assault vehicle. Can use Lock On to quickly fire while moving."
   },
   "HERC": {
@@ -271,9 +204,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Front-line infantry. Can use Grapple."
   },
   "Warhound": {
@@ -283,9 +213,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Anti-vehicle mech. Haywire missiles do bonus damage to mechanical units."
   },
   "Progressive Terran Infantry Weapon": {
@@ -295,9 +222,6 @@
     "classification": "useful",
     "quantity": 3,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Increases damage of Terran infantry.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Terran Infantry Armor": {
@@ -307,9 +231,6 @@
     "classification": "useful",
     "quantity": 3,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Increases armor of Terran infantry.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Terran Vehicle Weapon": {
@@ -319,9 +240,6 @@
     "classification": "useful",
     "quantity": 3,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Increases damage of Terran vehicles.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Terran Vehicle Armor": {
@@ -331,9 +249,6 @@
     "classification": "useful",
     "quantity": 3,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Increases armor of Terran vehicles.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Terran Ship Weapon": {
@@ -343,9 +258,6 @@
     "classification": "useful",
     "quantity": 3,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Increases damage of Terran starships.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Terran Ship Armor": {
@@ -355,9 +267,6 @@
     "classification": "useful",
     "quantity": 3,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Increases armor of Terran starships.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Terran Weapon Upgrade": {
@@ -367,9 +276,6 @@
     "classification": "useful",
     "quantity": 3,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Increases damage of Terran units.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Terran Armor Upgrade": {
@@ -379,9 +285,6 @@
     "classification": "useful",
     "quantity": 3,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Increases armor of Terran units.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Terran Infantry Upgrade": {
@@ -391,9 +294,6 @@
     "classification": "useful",
     "quantity": 3,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Increases damage and armor of Terran infantry.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Terran Vehicle Upgrade": {
@@ -403,9 +303,6 @@
     "classification": "useful",
     "quantity": 3,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Increases damage and armor of Terran vehicles.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Terran Ship Upgrade": {
@@ -415,9 +312,6 @@
     "classification": "useful",
     "quantity": 3,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Increases damage and armor of Terran starships.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Terran Weapon/Armor Upgrade": {
@@ -427,9 +321,6 @@
     "classification": "useful",
     "quantity": 3,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Increases damage and armor of Terran units.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Projectile Accelerator (Bunker)": {
@@ -439,9 +330,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Bunker",
-    "origin": [
-      "wol"
-    ],
     "description": "Increases range of all units in the Bunker by 1."
   },
   "Neosteel Bunker (Bunker)": {
@@ -451,9 +339,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Bunker",
-    "origin": [
-      "wol"
-    ],
     "description": "Increases the number of Bunker slots by 2."
   },
   "Titanium Housing (Missile Turret)": {
@@ -463,9 +348,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Missile Turret",
-    "origin": [
-      "wol"
-    ],
     "description": "Increases Missile Turret life by 75."
   },
   "Hellstorm Batteries (Missile Turret)": {
@@ -475,9 +357,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Missile Turret",
-    "origin": [
-      "wol"
-    ],
     "description": "The Missile Turret unleashes an additional flurry of missiles with each attack."
   },
   "Advanced Construction (SCV)": {
@@ -487,9 +366,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Multiple SCVs can construct a structure, reducing its construction time."
   },
   "Dual-Fusion Welders (SCV)": {
@@ -499,45 +375,33 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "SCVs repair twice as fast."
   },
   "Progressive Fire-Suppression System": {
-    "type": "Progressive Upgrade",
+    "type": "Progressive",
     "number": 24,
     "race": "TERRAN",
     "classification": "useful",
     "quantity": 2,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Level 1: While on low health, Terran structures are repaired to half health instead of burning down.\nLevel 2: Terran structures are repaired to full health instead of half health."
   },
   "Progressive Orbital Command": {
-    "type": "Progressive Upgrade",
+    "type": "Progressive",
     "number": 26,
     "race": "TERRAN",
     "classification": "progression",
     "quantity": 2,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Level 1: Allows Command Centers to use Scanner Sweep and Calldown: MULE abilities.\nLevel 2: Orbital Command abilities work even in Planetary Fortress mode."
   },
   "Progressive Stimpack (Marine)": {
-    "type": "Progressive Upgrade",
+    "type": "Progressive",
     "number": 0,
     "race": "TERRAN",
     "classification": "progression",
     "quantity": 2,
     "parent_item": "Marine",
-    "origin": [
-      "wol"
-    ],
     "description": "Level 1: Stimpack: Increases unit movement and attack speed for 15 seconds. Injures the unit for 10 life.\nLevel 2: Super Stimpack: Instead of injuring the unit, heals the unit for 30 life instead."
   },
   "Combat Shield (Marine)": {
@@ -547,9 +411,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": "Marine",
-    "origin": [
-      "wol"
-    ],
     "description": "Increases Marine life by 10."
   },
   "Advanced Medic Facilities (Medic)": {
@@ -559,9 +420,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Medic",
-    "origin": [
-      "wol"
-    ],
     "description": "Medics can be trained from a Barracks without an attached Tech Lab."
   },
   "Stabilizer Medpacks (Medic)": {
@@ -571,9 +429,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": "Medic",
-    "origin": [
-      "wol"
-    ],
     "description": "Increases Medic heal speed. Reduces the amount of energy required for each heal."
   },
   "Incinerator Gauntlets (Firebat)": {
@@ -583,9 +438,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Firebat",
-    "origin": [
-      "wol"
-    ],
     "description": "Increases Firebat's damage radius by 40%."
   },
   "Juggernaut Plating (Firebat)": {
@@ -595,9 +447,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Firebat",
-    "origin": [
-      "wol"
-    ],
     "description": "Increases Firebat's armor by 2."
   },
   "Concussive Shells (Marauder)": {
@@ -607,9 +456,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Marauder",
-    "origin": [
-      "wol"
-    ],
     "description": "Marauder attack temporarily slows all units in target area."
   },
   "Kinetic Foam (Marauder)": {
@@ -619,9 +465,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Marauder",
-    "origin": [
-      "wol"
-    ],
     "description": "Increases Marauder life by 25."
   },
   "U-238 Rounds (Reaper)": {
@@ -631,9 +474,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Reaper",
-    "origin": [
-      "wol"
-    ],
     "description": "Increases Reaper pistol attack range by 1.\nReaper pistols do additional 3 damage to Light Armor."
   },
   "G-4 Clusterbomb (Reaper)": {
@@ -643,9 +483,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": "Reaper",
-    "origin": [
-      "wol"
-    ],
     "description": "Timed explosive that does heavy area damage."
   },
   "Mag-Field Accelerators (Cyclone)": {
@@ -655,9 +492,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Cyclone",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Cyclone Lock-On damage."
   },
   "Mag-Field Launchers (Cyclone)": {
@@ -667,9 +501,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Cyclone",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Cyclone attack range by 2."
   },
   "Laser Targeting System (Marine)": {
@@ -679,9 +510,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Marine",
-    "origin": [
-      "nco"
-    ],
     "description": "Increases vision by 2 and weapon range by 1."
   },
   "Magrail Munitions (Marine)": {
@@ -691,9 +519,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": "Marine",
-    "origin": [
-      "nco"
-    ],
     "description": "Deals 20 damage to target unit. Autocast on attack with a cooldown."
   },
   "Optimized Logistics (Marine)": {
@@ -703,9 +528,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Marine",
-    "origin": [
-      "nco"
-    ],
     "description": "Increases Marine training speed."
   },
   "Restoration (Medic)": {
@@ -715,9 +537,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Medic",
-    "origin": [
-      "bw"
-    ],
     "description": "Medics gain the Restoration ability, which removes negative status effects from a target allied unit."
   },
   "Optical Flare (Medic)": {
@@ -727,9 +546,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Medic",
-    "origin": [
-      "bw"
-    ],
     "description": "Medics gain the Optical Flare ability, which reduces vision range of target enemy unit. Disables detection."
   },
   "Resource Efficiency (Medic)": {
@@ -739,21 +555,15 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Medic",
-    "origin": [
-      "bw"
-    ],
     "description": "Reduces Medic cost by 25 minerals, 25 gas, and 1 supply."
   },
   "Progressive Stimpack (Firebat)": {
-    "type": "Progressive Upgrade",
+    "type": "Progressive",
     "number": 6,
     "race": "TERRAN",
     "classification": "useful",
     "quantity": 2,
     "parent_item": "Firebat",
-    "origin": [
-      "bw"
-    ],
     "description": "Level 1: Stimpack: Increases unit movement and attack speed for 15 seconds. Injures the unit for 20 life.\nLevel 2: Super Stimpack: Instead of injuring the unit, heals the unit for 60 life instead."
   },
   "Resource Efficiency (Firebat)": {
@@ -763,21 +573,15 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Firebat",
-    "origin": [
-      "bw"
-    ],
     "description": "Reduces Firebat cost by 50 minerals and 1 supply."
   },
   "Progressive Stimpack (Marauder)": {
-    "type": "Progressive Upgrade",
+    "type": "Progressive",
     "number": 8,
     "race": "TERRAN",
     "classification": "useful",
     "quantity": 2,
     "parent_item": "Marauder",
-    "origin": [
-      "nco"
-    ],
     "description": "Level 1: Stimpack: Increases unit movement and attack speed for 15 seconds. Injures the unit for 20 life.\nLevel 2: Super Stimpack: Instead of injuring the unit, heals the unit for 60 life instead."
   },
   "Laser Targeting System (Marauder)": {
@@ -787,9 +591,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Marauder",
-    "origin": [
-      "nco"
-    ],
     "description": "Increases vision by 2 and weapon range by 1."
   },
   "Magrail Munitions (Marauder)": {
@@ -799,9 +600,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Marauder",
-    "origin": [
-      "nco"
-    ],
     "description": "Deals 20 damage to target unit. Autocast on attack with a cooldown."
   },
   "Internal Tech Module (Marauder)": {
@@ -811,9 +609,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Marauder",
-    "origin": [
-      "nco"
-    ],
     "description": "Marauders can be trained from a Barracks without an attached Tech Lab."
   },
   "Hostile Environment Adaptation (SCV)": {
@@ -823,9 +618,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "bw"
-    ],
     "description": "Increases SCV life by 15 and attack speed slightly."
   },
   "Adaptive Medpacks (Medic)": {
@@ -835,9 +627,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": "Medic",
-    "origin": [
-      "ext"
-    ],
     "description": "Allows Medics to heal mechanical and air units."
   },
   "Nano Projector (Medic)": {
@@ -847,9 +636,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Medic",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Medic heal range by 2."
   },
   "Infernal Pre-Igniter (Firebat)": {
@@ -859,9 +645,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Firebat",
-    "origin": [
-      "bw"
-    ],
     "description": "Firebats do an additional 4 damage to Light Armor."
   },
   "Kinetic Foam (Firebat)": {
@@ -871,9 +654,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Firebat",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Firebat life by 100."
   },
   "Nano Projectors (Firebat)": {
@@ -883,9 +663,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Firebat",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Firebat attack range by 2."
   },
   "Juggernaut Plating (Marauder)": {
@@ -895,9 +672,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Marauder",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Marauder's armor by 2."
   },
   "Jet Pack Overdrive (Reaper)": {
@@ -907,9 +681,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Reaper",
-    "origin": [
-      "ext"
-    ],
     "description": "Allows the Reaper to fly for 10 seconds.\nWhile flying, the Reaper can attack air units."
   },
   "Infernal Plating (Hellion)": {
@@ -919,9 +690,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Hellion",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Hellion and Hellbat armor by 2."
   },
   "Auto-Repair (Vulture)": {
@@ -931,9 +699,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Vulture",
-    "origin": [
-      "ext"
-    ],
     "description": "Vultures regenerate life."
   },
   "Shaped Hull (Goliath)": {
@@ -943,10 +708,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Goliath",
-    "origin": [
-      "ext",
-      "nco"
-    ],
     "description": "Increases Goliath life by 25."
   },
   "Resource Efficiency (Goliath)": {
@@ -956,10 +717,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Goliath",
-    "origin": [
-      "bw",
-      "nco"
-    ],
     "description": "Reduces Goliath cost by 50 minerals and 1 supply."
   },
   "Internal Tech Module (Goliath)": {
@@ -969,10 +726,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Goliath",
-    "origin": [
-      "bw",
-      "nco"
-    ],
     "description": "Goliaths can be trained from a Factory without an attached Tech Lab."
   },
   "Shaped Hull (Siege Tank)": {
@@ -982,10 +735,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Siege Tank",
-    "origin": [
-      "ext",
-      "nco"
-    ],
     "description": "Increases Siege Tank life by 25."
   },
   "Resource Efficiency (Siege Tank)": {
@@ -995,9 +744,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Siege Tank",
-    "origin": [
-      "bw"
-    ],
     "description": "Reduces Siege Tank cost by 25 gas and 1 supply."
   },
   "Cloak (Predator)": {
@@ -1007,9 +753,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Predator",
-    "origin": [
-      "ext"
-    ],
     "description": "Allows Predators to use the Cloak ability."
   },
   "Charge (Predator)": {
@@ -1019,9 +762,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Predator",
-    "origin": [
-      "ext"
-    ],
     "description": "Allows Predators to intercept enemy ground units."
   },
   "Scatter Veil (Medivac)": {
@@ -1031,21 +771,15 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Medivac",
-    "origin": [
-      "ext"
-    ],
     "description": "Medivacs get 100 shields."
   },
   "Progressive Stimpack (Reaper)": {
-    "type": "Progressive Upgrade",
+    "type": "Progressive",
     "number": 10,
     "race": "TERRAN",
     "classification": "useful",
     "quantity": 2,
     "parent_item": "Reaper",
-    "origin": [
-      "nco"
-    ],
     "description": "Level 1: Stimpack: Increases unit movement and attack speed for 15 seconds. Injures the unit for 10 life.\nLevel 2: Super Stimpack: Instead of injuring the unit, heals the unit for 30 life instead."
   },
   "Laser Targeting System (Reaper)": {
@@ -1055,9 +789,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Reaper",
-    "origin": [
-      "nco"
-    ],
     "description": "Increases vision by 2 and weapon range by 1."
   },
   "Advanced Cloaking Field (Reaper)": {
@@ -1067,9 +798,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Reaper",
-    "origin": [
-      "nco"
-    ],
     "description": "Reapers are permanently cloaked."
   },
   "Spider Mines (Reaper)": {
@@ -1079,9 +807,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Reaper",
-    "origin": [
-      "nco"
-    ],
     "description": "Allows Reapers to lay Spider Mines. 3 charges per Reaper."
   },
   "Combat Drugs (Reaper)": {
@@ -1091,9 +816,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Reaper",
-    "origin": [
-      "ext"
-    ],
     "description": "Reapers regenerate life while out of combat."
   },
   "Hellbat Aspect (Hellion)": {
@@ -1103,9 +825,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": "Hellion",
-    "origin": [
-      "nco"
-    ],
     "description": "Allows Hellions to transform into Hellbats."
   },
   "Smart Servos (Hellion)": {
@@ -1115,9 +834,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Hellion",
-    "origin": [
-      "nco"
-    ],
     "description": "Transforms faster between modes. Hellions can attack while moving."
   },
   "Optimized Logistics (Hellion)": {
@@ -1127,9 +843,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Hellion",
-    "origin": [
-      "nco"
-    ],
     "description": "Increases Hellion training speed."
   },
   "Jump Jets (Hellion)": {
@@ -1139,21 +852,15 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Hellion",
-    "origin": [
-      "nco"
-    ],
     "description": "Increases movement speed in Hellion mode.\nIn Hellbat mode, launches the Hellbat toward enemy ground units and briefly stuns them."
   },
   "Progressive Stimpack (Hellion)": {
-    "type": "Progressive Upgrade",
+    "type": "Progressive",
     "number": 12,
     "race": "TERRAN",
     "classification": "useful",
     "quantity": 2,
     "parent_item": "Hellion",
-    "origin": [
-      "nco"
-    ],
     "description": "Level 1: Stimpack: Increases unit movement and attack speed for 15 seconds. Injures the unit for 20 life.\nLevel 2: Super Stimpack: Instead of injuring the unit, heals the unit for 60 life instead."
   },
   "Ion Thrusters (Vulture)": {
@@ -1163,9 +870,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Vulture",
-    "origin": [
-      "bw"
-    ],
     "description": "Increases Vulture movement speed."
   },
   "Auto Launchers (Vulture)": {
@@ -1175,9 +879,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Vulture",
-    "origin": [
-      "bw"
-    ],
     "description": "Allows Vultures to attack while moving."
   },
   "High Explosive Munition (Spider Mine)": {
@@ -1187,9 +888,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "bw"
-    ],
     "description": "Increases Spider mine damage."
   },
   "Jump Jets (Goliath)": {
@@ -1199,9 +897,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": "Goliath",
-    "origin": [
-      "nco"
-    ],
     "description": "Allows Goliaths to jump up and down cliffs."
   },
   "Optimized Logistics (Goliath)": {
@@ -1211,9 +906,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Goliath",
-    "origin": [
-      "nco"
-    ],
     "description": "Increases Goliath training speed."
   },
   "Hyperfluxor (Diamondback)": {
@@ -1223,9 +915,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Diamondback",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Diamondback attack speed."
   },
   "Burst Capacitors (Diamondback)": {
@@ -1235,9 +924,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Diamondback",
-    "origin": [
-      "ext"
-    ],
     "description": "While not attacking, the Diamondback charges its weapon. \nThe next attack does 10 additional damage."
   },
   "Resource Efficiency (Diamondback)": {
@@ -1247,9 +933,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Diamondback",
-    "origin": [
-      "ext"
-    ],
     "description": "Reduces Diamondback cost by 50 gas and 1 supply."
   },
   "Jump Jets (Siege Tank)": {
@@ -1259,9 +942,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": "Siege Tank",
-    "origin": [
-      "nco"
-    ],
     "description": "Repositions Siege Tank to a target location. \nCan be used in either mode and to jump up and down cliffs. "
   },
   "Spider Mines (Siege Tank)": {
@@ -1271,9 +951,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Siege Tank",
-    "origin": [
-      "nco"
-    ],
     "description": "Allows Siege Tanks to lay Spider Mines. \nLays 3 Spider Mines at once. 3 charges."
   },
   "Smart Servos (Siege Tank)": {
@@ -1283,9 +960,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Siege Tank",
-    "origin": [
-      "nco"
-    ],
     "description": "Increases transformation speed between modes."
   },
   "Graduating Range (Siege Tank)": {
@@ -1295,9 +969,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": "Siege Tank",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases the Siege Tank's attack range by 1 every 3 seconds while in Siege Mode, \nup to a maximum of 5 additional range."
   },
   "Laser Targeting System (Siege Tank)": {
@@ -1307,9 +978,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Siege Tank",
-    "origin": [
-      "nco"
-    ],
     "description": "Increases vision by 2 and weapon range by 1."
   },
   "Advanced Siege Tech (Siege Tank)": {
@@ -1319,9 +987,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Siege Tank",
-    "origin": [
-      "ext"
-    ],
     "description": "Siege Tanks gain +3 armor in Siege Mode."
   },
   "Internal Tech Module (Siege Tank)": {
@@ -1331,9 +996,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Siege Tank",
-    "origin": [
-      "nco"
-    ],
     "description": "Siege Tanks can be trained from a Factory without an attached Tech Lab."
   },
   "Resource Efficiency (Predator)": {
@@ -1343,9 +1005,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Predator",
-    "origin": [
-      "ext"
-    ],
     "description": "Reduces Predator cost by 75 gas and 1 supply."
   },
   "Expanded Hull (Medivac)": {
@@ -1355,9 +1014,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Medivac",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Medivac cargo space by 4."
   },
   "Afterburners (Medivac)": {
@@ -1367,9 +1023,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Medivac",
-    "origin": [
-      "ext"
-    ],
     "description": "Ability. Temporarily increases the Medivac's movement speed by 70%."
   },
   "Advanced Laser Technology (Wraith)": {
@@ -1379,9 +1032,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": "Wraith",
-    "origin": [
-      "ext"
-    ],
     "description": "Burst Lasers do more damage and can hit both ground and air targets.\nReplaces Gemini Missiles weapon."
   },
   "Smart Servos (Viking)": {
@@ -1391,9 +1041,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Viking",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases transformation speed between modes."
   },
   "Anti-Mechanical Munition (Viking)": {
@@ -1403,9 +1050,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Viking",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Viking damage to mechanical units while in Assault Mode."
   },
   "Ion Thrusters (Diamondback)": {
@@ -1415,9 +1059,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Diamondback",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Diamondback movement speed."
   },
   "Resource Efficiency (Warhound)": {
@@ -1427,9 +1068,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Warhound",
-    "origin": [
-      "ext"
-    ],
     "description": "Reduces Warhound cost by 75 minerals."
   },
   "Reinforced Plating (Warhound)": {
@@ -1439,9 +1077,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Warhound",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Warhound armor by 2."
   },
   "Resource Efficiency (HERC)": {
@@ -1451,9 +1086,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "HERC",
-    "origin": [
-      "ext"
-    ],
     "description": "Reduces HERC cost by 25 minerals, 25 gas, and 1 supply."
   },
   "Juggernaut Plating (HERC)": {
@@ -1463,9 +1095,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "HERC",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases HERC armor by 2."
   },
   "Kinetic Foam (HERC)": {
@@ -1475,9 +1104,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "HERC",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases HERC life by 50."
   },
   "Twin-Linked Flamethrower (Hellion)": {
@@ -1487,9 +1113,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Hellion",
-    "origin": [
-      "wol"
-    ],
     "description": "Doubles the width of the Hellion's flame attack."
   },
   "Thermite Filaments (Hellion)": {
@@ -1499,9 +1122,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Hellion",
-    "origin": [
-      "wol"
-    ],
     "description": "Hellions do an additional 10 damage to Light Armor."
   },
   "Cerberus Mine (Spider Mine)": {
@@ -1511,21 +1131,15 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Increases trigger and blast radius of Spider Mines."
   },
   "Progressive Replenishable Magazine (Vulture)": {
-    "type": "Progressive Upgrade",
+    "type": "Progressive",
     "number": 16,
     "race": "TERRAN",
     "classification": "filler",
     "quantity": 2,
     "parent_item": "Vulture",
-    "origin": [
-      "wol"
-    ],
     "description": "Level 1: Allows Vultures to replace used Spider Mines. Costs 15 minerals.\nLevel 2: Replacing used Spider Mines no longer costs minerals."
   },
   "Multi-Lock Weapons System (Goliath)": {
@@ -1535,9 +1149,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Goliath",
-    "origin": [
-      "wol"
-    ],
     "description": "Goliaths can attack both ground and air targets simultaneously."
   },
   "Ares-Class Targeting System (Goliath)": {
@@ -1547,21 +1158,15 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Goliath",
-    "origin": [
-      "wol"
-    ],
     "description": "Increases Goliath ground attack range by 1 and air by 3."
   },
   "Progressive Tri-Lithium Power Cell (Diamondback)": {
-    "type": "Progressive Upgrade 2",
+    "type": "Progressive 2",
     "number": 4,
     "race": "TERRAN",
     "classification": "useful",
     "quantity": 2,
     "parent_item": "Diamondback",
-    "origin": [
-      "wol"
-    ],
     "description": "Level 1: Tri-Lithium Power Cell: Increases Diamondback attack range by 1.\nLevel 2: Tungsten Spikes: Increases Diamondback attack range by 3."
   },
   "Shaped Hull (Diamondback)": {
@@ -1571,9 +1176,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Diamondback",
-    "origin": [
-      "wol"
-    ],
     "description": "Increases Diamondback life by 50."
   },
   "Maelstrom Rounds (Siege Tank)": {
@@ -1583,9 +1185,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": "Siege Tank",
-    "origin": [
-      "wol"
-    ],
     "description": "Siege Tanks do an additional 40 damage to the primary target in Siege Mode."
   },
   "Shaped Blast (Siege Tank)": {
@@ -1595,9 +1194,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Siege Tank",
-    "origin": [
-      "wol"
-    ],
     "description": "Reduces splash damage to friendly targets while in Siege Mode by 75%."
   },
   "Rapid Deployment Tube (Medivac)": {
@@ -1607,9 +1203,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Medivac",
-    "origin": [
-      "wol"
-    ],
     "description": "Medivacs deploy loaded troops almost instantly."
   },
   "Advanced Healing AI (Medivac)": {
@@ -1619,21 +1212,15 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Medivac",
-    "origin": [
-      "wol"
-    ],
     "description": "Medivacs can heal two targets at once."
   },
   "Progressive Tomahawk Power Cells (Wraith)": {
-    "type": "Progressive Upgrade",
+    "type": "Progressive",
     "number": 18,
     "race": "TERRAN",
     "classification": "filler",
     "quantity": 2,
     "parent_item": "Wraith",
-    "origin": [
-      "wol"
-    ],
     "description": "Level 1: Tomahawk Power Cells: Increases Wraith starting energy by 100.\nLevel 2: Unregistered Cloaking Module: Wraiths do not require energy to cloak and remain cloaked."
   },
   "Displacement Field (Wraith)": {
@@ -1643,9 +1230,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Wraith",
-    "origin": [
-      "wol"
-    ],
     "description": "Wraiths evade 20% of incoming attacks while cloaked."
   },
   "Ripwave Missiles (Viking)": {
@@ -1655,9 +1239,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Viking",
-    "origin": [
-      "wol"
-    ],
     "description": "Vikings do area damage while in Fighter Mode."
   },
   "Phobos-Class Weapons System (Viking)": {
@@ -1667,21 +1248,15 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Viking",
-    "origin": [
-      "wol"
-    ],
     "description": "Increases Viking attack range by 1 in Assault mode and 2 in Fighter mode."
   },
   "Progressive Cross-Spectrum Dampeners (Banshee)": {
-    "type": "Progressive Upgrade",
+    "type": "Progressive",
     "number": 2,
     "race": "TERRAN",
     "classification": "filler",
     "quantity": 2,
     "parent_item": "Banshee",
-    "origin": [
-      "wol"
-    ],
     "description": "Level 1: Banshees can remain cloaked twice as long.\nLevel 2: Banshees do not require energy to cloak and remain cloaked."
   },
   "Shockwave Missile Battery (Banshee)": {
@@ -1691,33 +1266,24 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": "Banshee",
-    "origin": [
-      "wol"
-    ],
     "description": "Banshees do area damage in a straight line."
   },
   "Progressive Missile Pods (Battlecruiser)": {
-    "type": "Progressive Upgrade 2",
+    "type": "Progressive 2",
     "number": 2,
     "race": "TERRAN",
     "classification": "useful",
     "quantity": 2,
     "parent_item": "Battlecruiser",
-    "origin": [
-      "wol"
-    ],
     "description": "Spell. Missile Pods do damage to air targets in a target area."
   },
   "Progressive Defensive Matrix (Battlecruiser)": {
-    "type": "Progressive Upgrade",
+    "type": "Progressive",
     "number": 20,
     "race": "TERRAN",
     "classification": "useful",
     "quantity": 2,
     "parent_item": "Battlecruiser",
-    "origin": [
-      "wol"
-    ],
     "description": "Level 1: Spell. For 20 seconds the Battlecruiser gains a shield that can absorb up to 200 damage.\nLevel 2: Passive. Battlecruiser gets 200 shields."
   },
   "Ocular Implants (Ghost)": {
@@ -1727,9 +1293,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Ghost",
-    "origin": [
-      "wol"
-    ],
     "description": "Increases Ghost sight range by 3 and attack range by 2."
   },
   "Crius Suit (Ghost)": {
@@ -1739,9 +1302,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Ghost",
-    "origin": [
-      "wol"
-    ],
     "description": "Cloak no longer requires energy to activate or maintain."
   },
   "Psionic Lash (Spectre)": {
@@ -1751,9 +1311,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": "Spectre",
-    "origin": [
-      "wol"
-    ],
     "description": "Spell. Deals 200 damage to a single target."
   },
   "Nyx-Class Cloaking Module (Spectre)": {
@@ -1763,9 +1320,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Spectre",
-    "origin": [
-      "wol"
-    ],
     "description": "Cloak no longer requires energy to activate or maintain."
   },
   "330mm Barrage Cannon (Thor)": {
@@ -1775,21 +1329,15 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Thor",
-    "origin": [
-      "wol"
-    ],
     "description": "Improves 250mm Strike Cannons ability to deal area damage and stun units in a small area.\nCan be also freely aimed on ground."
   },
   "Progressive Immortality Protocol (Thor)": {
-    "type": "Progressive Upgrade",
+    "type": "Progressive",
     "number": 22,
     "race": "TERRAN",
     "classification": "filler",
     "quantity": 2,
     "parent_item": "Thor",
-    "origin": [
-      "wol"
-    ],
     "description": "Level 1: Allows destroyed Thors to be reconstructed on the field. Costs Vespene Gas.\nLevel 2: Thors are automatically reconstructed after falling for free."
   },
   "Advanced Ballistics (Liberator)": {
@@ -1799,9 +1347,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Liberator",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Liberator range by 3 in Defender Mode."
   },
   "Raid Artillery (Liberator)": {
@@ -1811,9 +1356,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": "Liberator",
-    "origin": [
-      "nco"
-    ],
     "description": "Allows Liberators to attack structures while in Defender Mode."
   },
   "Drilling Claws (Widow Mine)": {
@@ -1823,9 +1365,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Widow Mine",
-    "origin": [
-      "ext"
-    ],
     "description": "Allows Widow Mines to burrow and unburrow faster."
   },
   "Concealment (Widow Mine)": {
@@ -1835,9 +1374,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": "Widow Mine",
-    "origin": [
-      "ext"
-    ],
     "description": "Burrowed Widow Mines are no longer revealed when the Sentinel Missile is on cooldown."
   },
   "Advanced Cloaking Field (Medivac)": {
@@ -1847,9 +1383,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Medivac",
-    "origin": [
-      "ext"
-    ],
     "description": "Medivacs are permanently cloaked."
   },
   "Trigger Override (Wraith)": {
@@ -1859,9 +1392,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Wraith",
-    "origin": [
-      "ext"
-    ],
     "description": "Wraith attack speed increases by 10% with each attack, up to a maximum of 100%."
   },
   "Internal Tech Module (Wraith)": {
@@ -1871,9 +1401,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Wraith",
-    "origin": [
-      "bw"
-    ],
     "description": "Wraiths can be trained from a Starport without an attached Tech Lab."
   },
   "Resource Efficiency (Wraith)": {
@@ -1883,9 +1410,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Wraith",
-    "origin": [
-      "bw"
-    ],
     "description": "Reduces Wraith cost by 50 gas."
   },
   "Shredder Rounds (Viking)": {
@@ -1895,9 +1419,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": "Viking",
-    "origin": [
-      "ext"
-    ],
     "description": "Attacks in Assault mode do line splash damage."
   },
   "W.I.L.D. Missiles (Viking)": {
@@ -1907,9 +1428,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Viking",
-    "origin": [
-      "ext"
-    ],
     "description": "Launches 5 rockets at the target unit. Each rocket does 25 (40 vs armored) damage."
   },
   "Shaped Hull (Banshee)": {
@@ -1919,9 +1437,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Banshee",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Banshee life by 100."
   },
   "Advanced Targeting Optics (Banshee)": {
@@ -1931,9 +1446,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": "Banshee",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Banshee attack range by 2 while cloaked."
   },
   "Distortion Blasters (Banshee)": {
@@ -1943,9 +1455,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Banshee",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Banshee attack damage by 25% while cloaked."
   },
   "Rocket Barrage (Banshee)": {
@@ -1955,9 +1464,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Banshee",
-    "origin": [
-      "ext"
-    ],
     "description": "Banshees gain the Rocket Barrage ability, which deals 75 damage to enemy ground units in the target area."
   },
   "Resource Efficiency (Ghost)": {
@@ -1967,9 +1473,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Ghost",
-    "origin": [
-      "bw"
-    ],
     "description": "Reduces Ghost cost by 125 minerals, 75 gas, and 1 supply."
   },
   "Resource Efficiency (Spectre)": {
@@ -1979,9 +1482,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Spectre",
-    "origin": [
-      "ext"
-    ],
     "description": "Reduces Spectre cost by 125 minerals, 75 gas, and 1 supply."
   },
   "Button With a Skull on It (Thor)": {
@@ -1991,9 +1491,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": "Thor",
-    "origin": [
-      "ext"
-    ],
     "description": "Allows Thors to launch nukes."
   },
   "Laser Targeting System (Thor)": {
@@ -2003,9 +1500,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Thor",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases vision by 2 and weapon range by 1."
   },
   "Large Scale Field Construction (Thor)": {
@@ -2015,9 +1509,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Thor",
-    "origin": [
-      "ext"
-    ],
     "description": "Allows Thors to be built by SCVs like a structure."
   },
   "Resource Efficiency (Raven)": {
@@ -2027,9 +1518,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Raven",
-    "origin": [
-      "ext"
-    ],
     "description": "Reduces Raven cost by 50 gas."
   },
   "Durable Materials (Raven)": {
@@ -2039,9 +1527,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Raven",
-    "origin": [
-      "ext"
-    ],
     "description": "Extends timed life duration of Raven's summoned objects."
   },
   "Improved Nano-Repair (Science Vessel)": {
@@ -2051,9 +1536,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Science Vessel",
-    "origin": [
-      "ext"
-    ],
     "description": "Nano-Repair no longer requires energy to use."
   },
   "Advanced AI Systems (Science Vessel)": {
@@ -2063,9 +1545,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Science Vessel",
-    "origin": [
-      "ext"
-    ],
     "description": "Science Vessel can use Nano-Repair at two targets at once."
   },
   "Resource Efficiency (Cyclone)": {
@@ -2075,9 +1554,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Cyclone",
-    "origin": [
-      "ext"
-    ],
     "description": "Reduces Cyclone cost by 25 minerals, 50 gas, and 1 supply."
   },
   "Hyperflight Rotors (Banshee)": {
@@ -2087,9 +1563,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Banshee",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Banshee movement speed."
   },
   "Laser Targeting System (Banshee)": {
@@ -2099,9 +1572,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Banshee",
-    "origin": [
-      "nco"
-    ],
     "description": "Increases vision by 2 and weapon range by 1."
   },
   "Internal Tech Module (Banshee)": {
@@ -2111,9 +1581,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Banshee",
-    "origin": [
-      "nco"
-    ],
     "description": "Banshees can be trained from a Starport without an attached Tech Lab."
   },
   "Tactical Jump (Battlecruiser)": {
@@ -2123,10 +1590,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Battlecruiser",
-    "origin": [
-      "ext",
-      "nco"
-    ],
     "description": "Allows Battlecruisers to warp to a target location anywhere on the map."
   },
   "Cloak (Battlecruiser)": {
@@ -2136,9 +1599,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Battlecruiser",
-    "origin": [
-      "nco"
-    ],
     "description": "Allows Battlecruisers to use the Cloak ability."
   },
   "ATX Laser Battery (Battlecruiser)": {
@@ -2148,9 +1608,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": "Battlecruiser",
-    "origin": [
-      "nco"
-    ],
     "description": "Battlecruisers can attack while moving, \ndo the same damage to both ground and air targets, and fire faster."
   },
   "Optimized Logistics (Battlecruiser)": {
@@ -2160,9 +1617,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Battlecruiser",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Battlecruiser training speed."
   },
   "Internal Tech Module (Battlecruiser)": {
@@ -2172,9 +1626,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Battlecruiser",
-    "origin": [
-      "nco"
-    ],
     "description": "Battlecruisers can be trained from a Starport without an attached Tech Lab."
   },
   "EMP Rounds (Ghost)": {
@@ -2184,9 +1635,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Ghost",
-    "origin": [
-      "ext"
-    ],
     "description": "Spell. Does 100 damage to shields and drains all energy from units in the targeted area. \nCloaked units hit by EMP are revealed for a short time."
   },
   "Lockdown (Ghost)": {
@@ -2196,9 +1644,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Ghost",
-    "origin": [
-      "bw"
-    ],
     "description": "Spell. Stuns a target mechanical unit for a long time."
   },
   "Impaler Rounds (Spectre)": {
@@ -2208,21 +1653,15 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Spectre",
-    "origin": [
-      "ext"
-    ],
     "description": "Spectres do additional damage to armored targets."
   },
   "Progressive High Impact Payload (Thor)": {
-    "type": "Progressive Upgrade",
+    "type": "Progressive",
     "number": 14,
     "race": "TERRAN",
     "classification": "useful",
     "quantity": 2,
     "parent_item": "Thor",
-    "origin": [
-      "ext"
-    ],
     "description": "Level 1: Allows Thors to transform in order to use an alternative air attack.\nLevel 2: Increases transformation speed between modes."
   },
   "Bio Mechanical Repair Drone (Raven)": {
@@ -2232,9 +1671,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": "Raven",
-    "origin": [
-      "nco"
-    ],
     "description": "Spell. Deploys a drone that can heal biological or mechanical units."
   },
   "Spider Mines (Raven)": {
@@ -2244,9 +1680,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Raven",
-    "origin": [
-      "nco"
-    ],
     "description": "Spell. Deploys 3 Spider Mines to a target location."
   },
   "Railgun Turret (Raven)": {
@@ -2256,9 +1689,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Raven",
-    "origin": [
-      "nco"
-    ],
     "description": "Spell. Allows Ravens to deploy an advanced Auto-Turret, \nthat can attack enemy ground units in a straight line."
   },
   "Hunter-Seeker Weapon (Raven)": {
@@ -2268,9 +1698,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": "Raven",
-    "origin": [
-      "nco"
-    ],
     "description": "Allows Ravens to attack with a Hunter-Seeker weapon."
   },
   "Interference Matrix (Raven)": {
@@ -2280,9 +1707,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Raven",
-    "origin": [
-      "ext"
-    ],
     "description": "Spell. Target enemy Mechanical or Psionic unit can't attack or use abilities for a short duration."
   },
   "Anti-Armor Missile (Raven)": {
@@ -2292,9 +1716,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Raven",
-    "origin": [
-      "ext"
-    ],
     "description": "Spell. Decreases target and nearby enemy units armor by 2."
   },
   "Internal Tech Module (Raven)": {
@@ -2304,9 +1725,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Raven",
-    "origin": [
-      "nco"
-    ],
     "description": "Ravens can be trained from a Starport without an attached Tech Lab."
   },
   "EMP Shockwave (Science Vessel)": {
@@ -2316,9 +1734,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Science Vessel",
-    "origin": [
-      "bw"
-    ],
     "description": "Spell. Depletes all energy and shields of all units in a target area."
   },
   "Defensive Matrix (Science Vessel)": {
@@ -2328,9 +1743,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Science Vessel",
-    "origin": [
-      "bw"
-    ],
     "description": "Spell. Provides a target unit with a defensive barrier that can absorb up to 250 damage."
   },
   "Targeting Optics (Cyclone)": {
@@ -2340,9 +1752,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Cyclone",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Cyclone Lock On casting range and the range while Locked On."
   },
   "Rapid Fire Launchers (Cyclone)": {
@@ -2352,9 +1761,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Cyclone",
-    "origin": [
-      "ext"
-    ],
     "description": "The first 12 shots of Lock On are fired more quickly."
   },
   "Cloak (Liberator)": {
@@ -2364,9 +1770,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Liberator",
-    "origin": [
-      "nco"
-    ],
     "description": "Allows Liberators to use the Cloak ability."
   },
   "Laser Targeting System (Liberator)": {
@@ -2376,9 +1779,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Liberator",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases vision by 2 and weapon range by 1."
   },
   "Optimized Logistics (Liberator)": {
@@ -2388,9 +1788,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Liberator",
-    "origin": [
-      "nco"
-    ],
     "description": "Increases Liberator training speed."
   },
   "Black Market Launchers (Widow Mine)": {
@@ -2400,9 +1797,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Widow Mine",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Widow Mine Sentinel Missile range."
   },
   "Executioner Missiles (Widow Mine)": {
@@ -2412,9 +1806,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Widow Mine",
-    "origin": [
-      "ext"
-    ],
     "description": "Reduces Sentinel Missile cooldown.\nWhen killed, Widow Mines will launch several missiles at random enemy targets."
   },
   "Enhanced Cluster Launchers (Valkyrie)": {
@@ -2424,9 +1815,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Valkyrie",
-    "origin": [
-      "ext"
-    ],
     "description": "Valkyries fire 2 additional rockets each volley."
   },
   "Shaped Hull (Valkyrie)": {
@@ -2436,9 +1824,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Valkyrie",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Valkyrie life by 50."
   },
   "Flechette Missiles (Valkyrie)": {
@@ -2448,9 +1833,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Valkyrie",
-    "origin": [
-      "ext"
-    ],
     "description": "Equips Valkyries with Air-to-Surface missiles to attack ground units."
   },
   "Afterburners (Valkyrie)": {
@@ -2460,9 +1842,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Valkyrie",
-    "origin": [
-      "ext"
-    ],
     "description": "Ability. Temporarily increases the Valkyries's movement speed by 70%."
   },
   "Internal Tech Module (Cyclone)": {
@@ -2472,9 +1851,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Cyclone",
-    "origin": [
-      "ext"
-    ],
     "description": "Cyclones can be trained from a Factory without an attached Tech Lab."
   },
   "Smart Servos (Liberator)": {
@@ -2484,9 +1860,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Liberator",
-    "origin": [
-      "nco"
-    ],
     "description": "Increases transformation speed between modes."
   },
   "Resource Efficiency (Liberator)": {
@@ -2496,9 +1869,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Liberator",
-    "origin": [
-      "ext"
-    ],
     "description": "Reduces Liberator cost by 25 minerals and 25 gas."
   },
   "Internal Fusion Module (Hercules)": {
@@ -2508,9 +1878,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Hercules",
-    "origin": [
-      "ext"
-    ],
     "description": "Hercules can be trained from a Starport without having a Fusion Core."
   },
   "Tactical Jump (Hercules)": {
@@ -2520,21 +1887,15 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Hercules",
-    "origin": [
-      "ext"
-    ],
     "description": "Allows Hercules to warp to a target location anywhere on the map."
   },
   "Progressive Augmented Thrusters (Planetary Fortress)": {
-    "type": "Progressive Upgrade",
+    "type": "Progressive",
     "number": 28,
     "race": "TERRAN",
     "classification": "useful",
     "quantity": 2,
     "parent_item": "Planetary Fortress",
-    "origin": [
-      "ext"
-    ],
     "description": "Level 1: Lift Off - Planetary Fortress can lift off.\nLevel 2: Armament Stabilizers - Planetary Fortress can attack while lifted off."
   },
   "Advanced Targeting (Planetary Fortress)": {
@@ -2544,9 +1905,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Planetary Fortress",
-    "origin": [
-      "ext"
-    ],
     "description": "Planetary Fortress can attack air units."
   },
   "Launching Vector Compensator (Valkyrie)": {
@@ -2556,9 +1914,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Valkyrie",
-    "origin": [
-      "ext"
-    ],
     "description": "Allows Valkyries to shoot air while moving."
   },
   "Resource Efficiency (Valkyrie)": {
@@ -2568,9 +1923,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Valkyrie",
-    "origin": [
-      "ext"
-    ],
     "description": "Reduces Valkyrie cost by 100 minerals, 25 gas, and 1 supply."
   },
   "Predator's Fury (Predator)": {
@@ -2580,9 +1932,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Predator",
-    "origin": [
-      "ext"
-    ],
     "description": "Predators can use an attack that jumps between targets."
   },
   "Behemoth Plating (Battlecruiser)": {
@@ -2592,9 +1941,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Battlecruiser",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Battlecruiser armor by 2."
   },
   "Covert Ops Engines (Battlecruiser)": {
@@ -2604,9 +1950,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Battlecruiser",
-    "origin": [
-      "nco"
-    ],
     "description": "Increases Battlecruiser movement speed."
   },
   "Bunker": {
@@ -2616,9 +1959,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Defensive structure. Able to load infantry units, giving them +1 range to their attacks."
   },
   "Missile Turret": {
@@ -2628,9 +1968,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Anti-air defensive structure."
   },
   "Sensor Tower": {
@@ -2640,9 +1977,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Reveals locations of enemy units at long range."
   },
   "War Pigs": {
@@ -2652,9 +1986,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Mercenary Marines."
   },
   "Devil Dogs": {
@@ -2664,9 +1995,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Mercenary Firebats."
   },
   "Hammer Securities": {
@@ -2676,9 +2004,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Mercenary Marauders."
   },
   "Spartan Company": {
@@ -2688,9 +2013,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Mercenary Goliaths."
   },
   "Siege Breakers": {
@@ -2700,9 +2022,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Mercenary Siege Tanks."
   },
   "Hel's Angels": {
@@ -2712,9 +2031,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Mercenary Vikings."
   },
   "Dusk Wings": {
@@ -2724,9 +2040,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Mercenary Banshees."
   },
   "Jackson's Revenge": {
@@ -2736,9 +2049,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Mercenary Battlecruiser."
   },
   "Skibi's Angels": {
@@ -2748,9 +2058,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Mercenary Medics."
   },
   "Death Heads": {
@@ -2760,9 +2067,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Mercenary Reapers."
   },
   "Winged Nightmares": {
@@ -2772,9 +2076,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Mercenary Wraiths."
   },
   "Midnight Riders": {
@@ -2784,9 +2085,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Mercenary Liberators."
   },
   "Brynhilds": {
@@ -2796,9 +2094,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Mercenary Valkyries."
   },
   "Jotun": {
@@ -2808,9 +2103,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Mercenary Thor."
   },
   "Ultra-Capacitors": {
@@ -2820,9 +2112,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Increases attack speed of units by 5% per weapon upgrade."
   },
   "Vanadium Plating": {
@@ -2832,9 +2121,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Increases the life of units by 5% per armor upgrade."
   },
   "Orbital Depots": {
@@ -2844,9 +2130,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Supply depots are built instantly."
   },
   "Micro-Filtering": {
@@ -2856,9 +2139,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Refineries produce Vespene gas 25% faster."
   },
   "Automated Refinery": {
@@ -2868,9 +2148,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Eliminates the need for SCVs in vespene gas production."
   },
   "Command Center Reactor": {
@@ -2880,9 +2157,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Command Centers can train two SCVs at once."
   },
   "Raven": {
@@ -2892,9 +2166,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Aerial Caster unit."
   },
   "Science Vessel": {
@@ -2904,9 +2175,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Aerial Caster unit. Can repair mechanical units."
   },
   "Tech Reactor": {
@@ -2916,9 +2184,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Merges Tech Labs and Reactors into one add on structure to provide both functions."
   },
   "Orbital Strike": {
@@ -2928,9 +2193,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Trained units from Barracks are instantly deployed on rally point."
   },
   "Shrike Turret (Bunker)": {
@@ -2940,9 +2202,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Bunker",
-    "origin": [
-      "wol"
-    ],
     "description": "Adds an automated turret to Bunkers."
   },
   "Fortified Bunker (Bunker)": {
@@ -2952,9 +2211,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Bunker",
-    "origin": [
-      "wol"
-    ],
     "description": "Bunkers have more life."
   },
   "Planetary Fortress": {
@@ -2964,9 +2220,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Allows Command Centers to upgrade into a defensive structure with a turret and additional armor.\nPlanetary Fortresses cannot Lift Off, or cast Orbital Command spells."
   },
   "Perdition Turret": {
@@ -2976,9 +2229,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Automated defensive turret. Burrows down while no enemies are nearby."
   },
   "Predator": {
@@ -2988,9 +2238,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Anti-infantry specialist that deals area damage with each attack."
   },
   "Hercules": {
@@ -3000,9 +2247,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Massive transport ship."
   },
   "Cellular Reactor": {
@@ -3012,21 +2256,15 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "All Terran spellcasters get +100 starting and maximum energy."
   },
   "Progressive Regenerative Bio-Steel": {
-    "type": "Progressive Upgrade",
+    "type": "Progressive",
     "number": 4,
     "race": "TERRAN",
     "classification": "progression",
     "quantity": 3,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Allows Terran mechanical units to regenerate health while not in combat.\nEach level increases life regeneration speed."
   },
   "Hive Mind Emulator": {
@@ -3036,9 +2274,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Defensive structure. Can permanently Mind Control Zerg units."
   },
   "Psi Disrupter": {
@@ -3048,9 +2283,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Defensive structure. Slows the attack and movement speeds of all nearby Zerg units."
   },
   "Structure Armor": {
@@ -3060,9 +2292,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Increases armor of all Terran structures by 2."
   },
   "Hi-Sec Auto Tracking": {
@@ -3072,9 +2301,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Increases attack range of all Terran structures by 1."
   },
   "Advanced Optics": {
@@ -3084,9 +2310,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Increases attack range of all Terran mechanical units by 1."
   },
   "Rogue Forces": {
@@ -3096,9 +2319,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Mercenary calldowns are no longer limited by charges."
   },
   "Zealot": {
@@ -3108,10 +2328,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv",
-      "wol"
-    ],
     "description": "Powerful melee warrior. Can use the charge ability."
   },
   "Stalker": {
@@ -3121,10 +2337,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv",
-      "wol"
-    ],
     "description": "Ranged attack strider. Can use the Blink ability."
   },
   "High Templar": {
@@ -3134,10 +2346,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv",
-      "wol"
-    ],
     "description": "Potent psionic master. Can use the Feedback and Psionic Storm abilities. Can merge into an Archon."
   },
   "Dark Templar": {
@@ -3147,10 +2355,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv",
-      "wol"
-    ],
     "description": "Deadly warrior-assassin. Permanently cloaked. Can use the Shadow Fury ability."
   },
   "Immortal": {
@@ -3160,10 +2364,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv",
-      "wol"
-    ],
     "description": "Assault strider. Can use Barrier to absorb damage."
   },
   "Colossus": {
@@ -3173,10 +2373,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv",
-      "wol"
-    ],
     "description": "Battle strider with a powerful area attack. Can walk up and down cliffs. Attacks set fire to the ground, dealing extra damage to enemies over time."
   },
   "Phoenix": {
@@ -3186,10 +2382,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv",
-      "wol"
-    ],
     "description": "Air superiority starfighter. Can use Graviton Beam and Phasing Armor abilities."
   },
   "Void Ray": {
@@ -3199,10 +2391,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv",
-      "wol"
-    ],
     "description": "Surgical strike craft. Has the Prismatic Alignment and Prismatic Range abilities."
   },
   "Carrier": {
@@ -3212,10 +2400,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv",
-      "wol"
-    ],
     "description": "Capital ship. Builds and launches Interceptors that attack enemy targets. Repair Drones heal nearby mechanical units."
   },
   "Additional Starting Minerals": {
@@ -3225,9 +2409,6 @@
     "classification": "filler",
     "quantity": 0,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Increases the starting minerals for all missions."
   },
   "Additional Starting Vespene": {
@@ -3237,9 +2418,6 @@
     "classification": "filler",
     "quantity": 0,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Increases the starting vespene for all missions."
   },
   "Additional Starting Supply": {
@@ -3249,21 +2427,15 @@
     "classification": "filler",
     "quantity": 0,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Increases the starting supply for all missions."
   },
   "Nothing": {
-    "type": "Nothing Group",
+    "type": "Nothing",
     "number": 2,
     "race": "ANY",
     "classification": "trap",
     "quantity": 0,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Does nothing. Used to remove a location from the game."
   },
   "Ghost Visor (Nova Equipment)": {
@@ -3273,9 +2445,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "nco"
-    ],
     "description": "Reveals the locations of enemy units in the fog of war around Nova. Can detect cloaked units."
   },
   "Rangefinder Oculus (Nova Equipment)": {
@@ -3285,9 +2454,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "nco"
-    ],
     "description": "Increaases Nova's vision range and non-melee weapon attack range by 2. Also increases range of melee weapons by 1."
   },
   "Domination (Nova Ability)": {
@@ -3297,9 +2463,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "nco"
-    ],
     "description": "Gives Nova the ability to mind-control a target enemy unit."
   },
   "Blink (Nova Ability)": {
@@ -3309,21 +2472,15 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "nco"
-    ],
     "description": "Gives Nova the ability to teleport a short distance and cloak for 10s."
   },
   "Progressive Stealth Suit Module (Nova Suit Module)": {
-    "type": "Progressive Upgrade 2",
+    "type": "Progressive 2",
     "number": 0,
     "race": "TERRAN",
     "classification": "progression",
     "quantity": 2,
     "parent_item": null,
-    "origin": [
-      "nco"
-    ],
     "description": "Level 1: Gives Nova the ability to cloak.\nLevel 2: Nova is permanently cloaked."
   },
   "Energy Suit Module (Nova Suit Module)": {
@@ -3333,9 +2490,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "nco"
-    ],
     "description": "Increases Nova's maximum energy and energy regeneration rate."
   },
   "Armored Suit Module (Nova Suit Module)": {
@@ -3345,9 +2499,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "nco"
-    ],
     "description": "Increases Nova's health by 100 and armour by 1. Nova also regenerates life quickly out of combat."
   },
   "Jump Suit Module (Nova Suit Module)": {
@@ -3357,9 +2508,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "nco"
-    ],
     "description": "Increases Nova's movement speed and allows her to jump up and down cliffs."
   },
   "C20A Canister Rifle (Nova Weapon)": {
@@ -3369,9 +2517,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "nco"
-    ],
     "description": "Allows Nova to equip the C20A Canister Rifle, which has a ranged attack and allows Nova to cast Snipe."
   },
   "Hellfire Shotgun (Nova Weapon)": {
@@ -3381,9 +2526,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "nco"
-    ],
     "description": "Allows Nova to equip the Hellfire Shotgun, which has a short-range area attack in a cone and allows Nova to cast Penetrating Blast."
   },
   "Plasma Rifle (Nova Weapon)": {
@@ -3393,9 +2535,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "nco"
-    ],
     "description": "Allows Nova to equip the Plasma Rifle, which has a rapidfire ranged attack and allows Nova to cast Plasma Shot."
   },
   "Monomolecular Blade (Nova Weapon)": {
@@ -3405,9 +2544,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "nco"
-    ],
     "description": "Allows Nova to equip the Monomolecular Blade, which has a melee attack and allows Nova to cast Dash Attack."
   },
   "Blazefire Gunblade (Nova Weapon)": {
@@ -3417,9 +2553,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "nco"
-    ],
     "description": "Allows Nova to equip the Blazefire Gunblade, which has a melee attack and allows Nova to cast Fury of One."
   },
   "Stim Infusion (Nova Gadget)": {
@@ -3429,9 +2562,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "nco"
-    ],
     "description": "Gives Nova the ability to heal herself and temporarily increase her movement and attack speeds."
   },
   "Pulse Grenades (Nova Gadget)": {
@@ -3441,9 +2571,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "nco"
-    ],
     "description": "Gives Nova the ability to throw a grenade dealing large damage in an area."
   },
   "Flashbang Grenades (Nova Gadget)": {
@@ -3453,9 +2580,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "nco"
-    ],
     "description": "Gives Nova the ability to throw a grenade to stun enemies and disable detection in a large area."
   },
   "Ionic Force Field (Nova Gadget)": {
@@ -3465,9 +2589,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "nco"
-    ],
     "description": "Gives Nova the ability to shield herself temporarily."
   },
   "Holo Decoy (Nova Gadget)": {
@@ -3477,9 +2598,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "nco"
-    ],
     "description": "Gives Nova the ability to summon a decoy unit which enemies will prefer to target and takes reduced damage."
   },
   "Tac Nuke Strike (Nova Ability)": {
@@ -3489,9 +2607,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "nco"
-    ],
     "description": "Gives Nova the ability to launch tactical nukes built from the Shadow Ops."
   },
   "Zergling": {
@@ -3501,9 +2616,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Fast inexpensive melee attacker. Hatches in pairs from a single larva. Can morph into a Baneling."
   },
   "Swarm Queen": {
@@ -3513,9 +2625,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Ranged support caster. Can use the Spawn Creep Tumor and Rapid Transfusion abilities."
   },
   "Roach": {
@@ -3525,9 +2634,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Durable short ranged attacker. Regenerates life quickly when burrowed."
   },
   "Hydralisk": {
@@ -3537,9 +2643,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "High-damage generalist ranged attacker."
   },
   "Baneling Aspect (Zergling)": {
@@ -3549,9 +2652,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Anti-ground suicide unit. Does damage over a small area on death. Morphed from the Zergling."
   },
   "Aberration": {
@@ -3561,9 +2661,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Durable melee attacker that deals heavy damage and can walk over other units."
   },
   "Mutalisk": {
@@ -3573,9 +2670,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Fragile flying attacker. Attacks bounce between targets."
   },
   "Swarm Host": {
@@ -3585,9 +2679,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Siege unit that attacks by rooting in place and continually spawning Locusts."
   },
   "Infestor": {
@@ -3597,9 +2688,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Support caster that can move while burrowed. Can use the Fungal Growth, Parasitic Domination, and Consumption abilities."
   },
   "Ultralisk": {
@@ -3609,9 +2697,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Massive melee attacker. Has an area-damage cleave attack."
   },
   "Spore Crawler": {
@@ -3621,9 +2706,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Anti-air defensive structure that can detect cloaked units."
   },
   "Spine Crawler": {
@@ -3633,9 +2715,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Anti-ground defensive structure."
   },
   "Corruptor": {
@@ -3645,9 +2724,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Anti-air flying attacker specializing in taking down enemy capital ships."
   },
   "Scourge": {
@@ -3657,10 +2733,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "bw",
-      "ext"
-    ],
     "description": "Flying anti-air suicide unit. Hatches in pairs from a single larva."
   },
   "Brood Queen": {
@@ -3670,10 +2742,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "bw",
-      "ext"
-    ],
     "description": "Flying support caster. Can cast the Ocular Symbiote and Spawn Broodlings abilities."
   },
   "Defiler": {
@@ -3683,9 +2751,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "bw"
-    ],
     "description": "Support caster. Can use the Dark Swarm, Consume, and Plague abilities."
   },
   "Progressive Zerg Melee Attack": {
@@ -3695,9 +2760,6 @@
     "classification": "useful",
     "quantity": 3,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Increases damage of Zerg melee ground units.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Zerg Missile Attack": {
@@ -3707,9 +2769,6 @@
     "classification": "useful",
     "quantity": 3,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Increases damage of Zerg ranged ground units.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Zerg Ground Carapace": {
@@ -3719,9 +2778,6 @@
     "classification": "useful",
     "quantity": 3,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Increases armor of Zerg ground units.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Zerg Flyer Attack": {
@@ -3731,9 +2787,6 @@
     "classification": "useful",
     "quantity": 3,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Increases damage of Zerg flyers.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Zerg Flyer Carapace": {
@@ -3743,9 +2796,6 @@
     "classification": "useful",
     "quantity": 3,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Increases armor of Zerg flyers.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Zerg Weapon Upgrade": {
@@ -3755,9 +2805,6 @@
     "classification": "useful",
     "quantity": 3,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Increases damage of Zerg units.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Zerg Armor Upgrade": {
@@ -3767,9 +2814,6 @@
     "classification": "useful",
     "quantity": 3,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Increases armor of Zerg units.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Zerg Ground Upgrade": {
@@ -3779,9 +2823,6 @@
     "classification": "useful",
     "quantity": 3,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Increases damage and armor of Zerg ground units.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Zerg Flyer Upgrade": {
@@ -3791,9 +2832,6 @@
     "classification": "useful",
     "quantity": 3,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Increases damage and armor of Zerg flyers.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Zerg Weapon/Armor Upgrade": {
@@ -3803,9 +2841,6 @@
     "classification": "useful",
     "quantity": 3,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Increases damage and armor of Zerg units.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Hardened Carapace (Zergling)": {
@@ -3815,9 +2850,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Zergling",
-    "origin": [
-      "hots"
-    ],
     "description": "Increases Zergling health by +10."
   },
   "Adrenal Overload (Zergling)": {
@@ -3827,9 +2859,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Zergling",
-    "origin": [
-      "hots"
-    ],
     "description": "Increases Zergling attack speed."
   },
   "Metabolic Boost (Zergling)": {
@@ -3839,9 +2868,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Zergling",
-    "origin": [
-      "hots"
-    ],
     "description": "Increases Zergling movement speed."
   },
   "Hydriodic Bile (Roach)": {
@@ -3851,9 +2877,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Roach",
-    "origin": [
-      "hots"
-    ],
     "description": "Roaches deal +8 damage to light targets."
   },
   "Adaptive Plating (Roach)": {
@@ -3863,9 +2886,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Roach",
-    "origin": [
-      "hots"
-    ],
     "description": "Roaches gain +3 armour when their life is below 50%."
   },
   "Tunneling Claws (Roach)": {
@@ -3875,9 +2895,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Roach",
-    "origin": [
-      "hots"
-    ],
     "description": "Allows Roaches to move while burrowed."
   },
   "Frenzy (Hydralisk)": {
@@ -3887,9 +2904,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Hydralisk",
-    "origin": [
-      "hots"
-    ],
     "description": "Allows Hydralisks to use the Frenzy ability, which increases their attack speed by 50%."
   },
   "Ancillary Carapace (Hydralisk)": {
@@ -3899,9 +2913,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Hydralisk",
-    "origin": [
-      "hots"
-    ],
     "description": "Hydralisks gain +20 health."
   },
   "Grooved Spines (Hydralisk)": {
@@ -3911,9 +2922,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Hydralisk",
-    "origin": [
-      "hots"
-    ],
     "description": "Hydralisks gain +1 range."
   },
   "Corrosive Acid (Baneling)": {
@@ -3923,9 +2931,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Baneling Aspect (Zergling)",
-    "origin": [
-      "hots"
-    ],
     "description": "Increases the damage banelings deal to their primary target. Splash damage remains the same."
   },
   "Rupture (Baneling)": {
@@ -3935,9 +2940,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Baneling Aspect (Zergling)",
-    "origin": [
-      "hots"
-    ],
     "description": "Increases the splash radius of baneling attacks."
   },
   "Regenerative Acid (Baneling)": {
@@ -3947,9 +2949,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Baneling Aspect (Zergling)",
-    "origin": [
-      "hots"
-    ],
     "description": "Banelings will heal nearby friendly units when they explode."
   },
   "Vicious Glaive (Mutalisk)": {
@@ -3959,9 +2958,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Mutalisk",
-    "origin": [
-      "hots"
-    ],
     "description": "Mutalisks attacks will bounce an additional 3 times."
   },
   "Rapid Regeneration (Mutalisk)": {
@@ -3971,9 +2967,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Mutalisk",
-    "origin": [
-      "hots"
-    ],
     "description": "Mutalisks will regenerate quickly when out of combat."
   },
   "Sundering Glaive (Mutalisk)": {
@@ -3983,9 +2976,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Mutalisk",
-    "origin": [
-      "hots"
-    ],
     "description": "Mutalisks deal increased damage to their primary target."
   },
   "Burrow (Swarm Host)": {
@@ -3995,9 +2985,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Swarm Host",
-    "origin": [
-      "hots"
-    ],
     "description": "Allows Swarm Hosts to burrow instead of root to spawn locusts."
   },
   "Rapid Incubation (Swarm Host)": {
@@ -4007,9 +2994,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Swarm Host",
-    "origin": [
-      "hots"
-    ],
     "description": "Swarm Hosts will spawn locusts 20% faster."
   },
   "Pressurized Glands (Swarm Host)": {
@@ -4019,9 +3003,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": "Swarm Host",
-    "origin": [
-      "hots"
-    ],
     "description": "Allows Swarm Host Locusts to attack air targets."
   },
   "Burrow Charge (Ultralisk)": {
@@ -4031,9 +3012,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Ultralisk",
-    "origin": [
-      "hots"
-    ],
     "description": "Allows Ultralisks to burrow and charge at enemy units, knocking back and stunning units when it emerges."
   },
   "Tissue Assimilation (Ultralisk)": {
@@ -4043,9 +3021,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Ultralisk",
-    "origin": [
-      "hots"
-    ],
     "description": "Ultralisks recover health when they deal damage."
   },
   "Monarch Blades (Ultralisk)": {
@@ -4055,9 +3030,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Ultralisk",
-    "origin": [
-      "hots"
-    ],
     "description": "Ultralisks gain increased splash damage."
   },
   "Caustic Spray (Corruptor)": {
@@ -4067,9 +3039,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Corruptor",
-    "origin": [
-      "ext"
-    ],
     "description": "Allows Corruptors to use the Caustic Spray ability, which deals ramping damage to buildings over time."
   },
   "Corruption (Corruptor)": {
@@ -4079,9 +3048,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Corruptor",
-    "origin": [
-      "ext"
-    ],
     "description": "Allows Corruptors to use the Corruption ability, which causes a target enemy unit to take increased damage."
   },
   "Virulent Spores (Scourge)": {
@@ -4091,9 +3057,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Scourge",
-    "origin": [
-      "ext"
-    ],
     "description": "Scourge will deal splash damage."
   },
   "Resource Efficiency (Scourge)": {
@@ -4103,9 +3066,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": "Scourge",
-    "origin": [
-      "ext"
-    ],
     "description": "Reduces Scourge cost by 50 gas."
   },
   "Swarm Scourge (Scourge)": {
@@ -4115,9 +3075,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Scourge",
-    "origin": [
-      "ext"
-    ],
     "description": "An extra Scourge will be built from each egg at no additional cost."
   },
   "Shredding Claws (Zergling)": {
@@ -4127,9 +3084,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Zergling",
-    "origin": [
-      "ext"
-    ],
     "description": "Zergling attacks will temporarily reduce their target's armour to 0."
   },
   "Glial Reconstitution (Roach)": {
@@ -4139,9 +3093,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Roach",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Roach movement speed."
   },
   "Organic Carapace (Roach)": {
@@ -4151,9 +3102,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Roach",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Roach health by +25."
   },
   "Muscular Augments (Hydralisk)": {
@@ -4163,9 +3111,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Hydralisk",
-    "origin": [
-      "bw"
-    ],
     "description": "Increases Hydralisk movement speed."
   },
   "Resource Efficiency (Hydralisk)": {
@@ -4175,9 +3120,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Hydralisk",
-    "origin": [
-      "bw"
-    ],
     "description": "Reduces Hydralisk cost by 25 minerals, 25 gas, and 1 supply."
   },
   "Centrifugal Hooks (Baneling)": {
@@ -4187,9 +3129,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Baneling Aspect (Zergling)",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases the movement speed of Banelings."
   },
   "Tunneling Jaws (Baneling)": {
@@ -4199,9 +3138,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Baneling Aspect (Zergling)",
-    "origin": [
-      "ext"
-    ],
     "description": "Allows Banelings to move while burrowed."
   },
   "Rapid Metamorph (Baneling)": {
@@ -4211,9 +3147,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Baneling Aspect (Zergling)",
-    "origin": [
-      "ext"
-    ],
     "description": "Banelings morph faster."
   },
   "Severing Glaive (Mutalisk)": {
@@ -4223,9 +3156,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Mutalisk",
-    "origin": [
-      "ext"
-    ],
     "description": "Mutalisk bounce attacks will deal full damage."
   },
   "Aerodynamic Glaive Shape (Mutalisk)": {
@@ -4235,9 +3165,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Mutalisk",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases the attack range of Mutalisks by 2."
   },
   "Locust Metabolic Boost (Swarm Host)": {
@@ -4247,9 +3174,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Swarm Host",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Locust movement speed."
   },
   "Enduring Locusts (Swarm Host)": {
@@ -4259,9 +3183,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Swarm Host",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases the duration of Swarm Hosts' Locusts by 10s."
   },
   "Organic Carapace (Swarm Host)": {
@@ -4271,9 +3192,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Swarm Host",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Swarm Host health by +40."
   },
   "Resource Efficiency (Swarm Host)": {
@@ -4283,9 +3201,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Swarm Host",
-    "origin": [
-      "ext"
-    ],
     "description": "Reduces Swarm Host cost by 100 minerals and 25 gas."
   },
   "Anabolic Synthesis (Ultralisk)": {
@@ -4295,9 +3210,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Ultralisk",
-    "origin": [
-      "bw"
-    ],
     "description": "Ultralisks gain increased movement speed."
   },
   "Chitinous Plating (Ultralisk)": {
@@ -4307,9 +3219,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Ultralisk",
-    "origin": [
-      "bw"
-    ],
     "description": "Ultralisks gain +2 armor."
   },
   "Organic Carapace (Ultralisk)": {
@@ -4319,9 +3228,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Ultralisk",
-    "origin": [
-      "ext"
-    ],
     "description": "Ultralisks gain +100 life."
   },
   "Resource Efficiency (Ultralisk)": {
@@ -4331,9 +3237,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Ultralisk",
-    "origin": [
-      "bw"
-    ],
     "description": "Reduces Ultralisk cost by 100 minerals and 2 supply."
   },
   "Corrosive Spray (Devourer)": {
@@ -4343,9 +3246,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Devourer Aspect (Mutalisk/Corruptor)",
-    "origin": [
-      "ext"
-    ],
     "description": "Devourer attacks will now deal area damage."
   },
   "Gaping Maw (Devourer)": {
@@ -4355,9 +3255,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Devourer Aspect (Mutalisk/Corruptor)",
-    "origin": [
-      "ext"
-    ],
     "description": "Devourer's attack speed increased by 25%."
   },
   "Improved Osmosis (Devourer)": {
@@ -4367,9 +3264,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Devourer Aspect (Mutalisk/Corruptor)",
-    "origin": [
-      "ext"
-    ],
     "description": "Devourer's Acid Spores duration increased by 50%."
   },
   "Prescient Spores (Devourer)": {
@@ -4379,9 +3273,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Devourer Aspect (Mutalisk/Corruptor)",
-    "origin": [
-      "ext"
-    ],
     "description": "Allows Devourers to attack ground targets."
   },
   "Prolonged Dispersion (Guardian)": {
@@ -4391,9 +3282,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Guardian Aspect (Mutalisk/Corruptor)",
-    "origin": [
-      "ext"
-    ],
     "description": "Guardians gain +3 range."
   },
   "Primal Adaptation (Guardian)": {
@@ -4403,9 +3291,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Guardian Aspect (Mutalisk/Corruptor)",
-    "origin": [
-      "ext"
-    ],
     "description": "Allows Guardians to attack air units with a decreased attack damage."
   },
   "Soronan Acid (Guardian)": {
@@ -4415,9 +3300,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Guardian Aspect (Mutalisk/Corruptor)",
-    "origin": [
-      "ext"
-    ],
     "description": "Guardians deal increased damage to ground targets."
   },
   "Adaptive Talons (Impaler)": {
@@ -4427,9 +3309,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Impaler Aspect (Hydralisk)",
-    "origin": [
-      "ext"
-    ],
     "description": "Impalers burrow faster."
   },
   "Secretion Glands (Impaler)": {
@@ -4439,9 +3318,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Impaler Aspect (Hydralisk)",
-    "origin": [
-      "ext"
-    ],
     "description": "Impalers generate creep while standing still or burrowed."
   },
   "Hardened Tentacle Spines (Impaler)": {
@@ -4451,9 +3327,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Impaler Aspect (Hydralisk)",
-    "origin": [
-      "ext"
-    ],
     "description": "Impalers deal increased damage."
   },
   "Seismic Spines (Lurker)": {
@@ -4463,9 +3336,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Lurker Aspect (Hydralisk)",
-    "origin": [
-      "ext"
-    ],
     "description": "Lurkers gain +6 range."
   },
   "Adapted Spines (Lurker)": {
@@ -4475,9 +3345,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Lurker Aspect (Hydralisk)",
-    "origin": [
-      "ext"
-    ],
     "description": "Lurkers deal increased damage to non-light targets."
   },
   "Potent Bile (Ravager)": {
@@ -4487,9 +3354,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Ravager Aspect (Roach)",
-    "origin": [
-      "ext"
-    ],
     "description": "Ravager Corrosive Bile deals an additional +40 damage."
   },
   "Bloated Bile Ducts (Ravager)": {
@@ -4499,9 +3363,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Ravager Aspect (Roach)",
-    "origin": [
-      "ext"
-    ],
     "description": "Ravager Corrosive Bile hits a much larger area."
   },
   "Deep Tunnel (Ravager)": {
@@ -4511,9 +3372,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Ravager Aspect (Roach)",
-    "origin": [
-      "ext"
-    ],
     "description": "Ravagers gain the Deep Tunnel ability, which allows them to burrow to any visible location on the map."
   },
   "Parasitic Bomb (Viper)": {
@@ -4523,9 +3381,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Viper Aspect (Mutalisk/Corruptor)",
-    "origin": [
-      "ext"
-    ],
     "description": "Vipers gain the Parasitic Bomb ability, which inflicts an area-damaging effect on an enemy air unit."
   },
   "Paralytic Barbs (Viper)": {
@@ -4535,9 +3390,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Viper Aspect (Mutalisk/Corruptor)",
-    "origin": [
-      "ext"
-    ],
     "description": "Viper Abduct stuns units for an additional 5 seconds."
   },
   "Virulent Microbes (Viper)": {
@@ -4547,9 +3399,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Viper Aspect (Mutalisk/Corruptor)",
-    "origin": [
-      "ext"
-    ],
     "description": "All Viper abilities gain +4 range."
   },
   "Porous Cartilage (Brood Lord)": {
@@ -4559,9 +3408,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Brood Lord Aspect (Mutalisk/Corruptor)",
-    "origin": [
-      "ext"
-    ],
     "description": "Brood Lords gain increased movement speed."
   },
   "Evolved Carapace (Brood Lord)": {
@@ -4571,9 +3417,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Brood Lord Aspect (Mutalisk/Corruptor)",
-    "origin": [
-      "ext"
-    ],
     "description": "Brood Lords gain +100 life and +1 armor."
   },
   "Splitter Mitosis (Brood Lord)": {
@@ -4583,9 +3426,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Brood Lord Aspect (Mutalisk/Corruptor)",
-    "origin": [
-      "ext"
-    ],
     "description": "Brood Lord attacks spawn twice as many broodlings."
   },
   "Resource Efficiency (Brood Lord)": {
@@ -4595,9 +3435,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Brood Lord Aspect (Mutalisk/Corruptor)",
-    "origin": [
-      "ext"
-    ],
     "description": "Reduces Brood Lord cost by 75 gas."
   },
   "Infested Terran (Infestor)": {
@@ -4607,9 +3444,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Infestor",
-    "origin": [
-      "ext"
-    ],
     "description": "Infestors gain the Spawn Infested Terran ability."
   },
   "Microbial Shroud (Infestor)": {
@@ -4619,9 +3453,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Infestor",
-    "origin": [
-      "ext"
-    ],
     "description": "Infestors gain the Microbial Shroud ability, which reduces incoming damage from air units in an area."
   },
   "Spawn Larvae (Swarm Queen)": {
@@ -4631,9 +3462,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Swarm Queen",
-    "origin": [
-      "ext"
-    ],
     "description": "Swarm Queens gain the Spawn Larvae ability."
   },
   "Deep Tunnel (Swarm Queen)": {
@@ -4643,9 +3471,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Swarm Queen",
-    "origin": [
-      "ext"
-    ],
     "description": "Swarm Queens gain the Deep Tunnel ability."
   },
   "Organic Carapace (Swarm Queen)": {
@@ -4655,9 +3480,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Swarm Queen",
-    "origin": [
-      "ext"
-    ],
     "description": "Swarm Queens gain +25 life."
   },
   "Bio-Mechanical Transfusion (Swarm Queen)": {
@@ -4667,9 +3489,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Swarm Queen",
-    "origin": [
-      "ext"
-    ],
     "description": "Swarm Queen Burst Heal heals an additional +10 life and can now target mechanical units."
   },
   "Resource Efficiency (Swarm Queen)": {
@@ -4679,9 +3498,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Swarm Queen",
-    "origin": [
-      "ext"
-    ],
     "description": "Reduces Swarm Queen cost by 50 gas."
   },
   "Incubator Chamber (Swarm Queen)": {
@@ -4691,9 +3507,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Swarm Queen",
-    "origin": [
-      "ext"
-    ],
     "description": "Swarm Queens may now be built two at a time from the Hatchery, Lair, or Hive."
   },
   "Fungal Growth (Brood Queen)": {
@@ -4703,9 +3516,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Brood Queen",
-    "origin": [
-      "ext"
-    ],
     "description": "Brood Queens gain the Fungal Growth ability."
   },
   "Ensnare (Brood Queen)": {
@@ -4715,9 +3525,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Brood Queen",
-    "origin": [
-      "ext"
-    ],
     "description": "Brood Queens gain the Ensnare ability."
   },
   "Enhanced Mitochondria (Brood Queen)": {
@@ -4727,10 +3534,43 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Brood Queen",
-    "origin": [
-      "ext"
-    ],
     "description": "Brood Queens start with maximum energy and gain increased energy regeneration. Like powerhouses (of the cell)."
+  },
+  "Pathogen Projectors (Defiler)": {
+    "type": "Mutation 3",
+    "number": 17,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Defiler",
+    "description": "Defilers gain +4 cast range for Dark Swarm and Plague."
+  },
+  "Trapdoor Adaptation (Defiler)": {
+    "type": "Mutation 3",
+    "number": 19,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Defiler",
+    "description": "Defilers can now use abilities while burrowed."
+  },
+  "Predatory Consumption (Defiler)": {
+    "type": "Mutation 3",
+    "number": 20,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Defiler",
+    "description": "Defilers can now use Consume on any non-heroic biological unit, not just friendly Zerg."
+  },
+  "Comorbidity (Defiler)": {
+    "type": "Mutation 3",
+    "number": 18,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Defiler",
+    "description": "Plague now stacks up to three times, and depletes energy as well as health."
   },
   "Raptor Strain (Zergling)": {
     "type": "Strain",
@@ -4739,9 +3579,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Zergling",
-    "origin": [
-      "hots"
-    ],
     "description": "Allows Zerglings to jump up and down cliffs and leap onto enemies. Also increases Zergling attack damage by 2."
   },
   "Swarmling Strain (Zergling)": {
@@ -4751,9 +3588,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Zergling",
-    "origin": [
-      "hots"
-    ],
     "description": "Zerglings will spawn instantly and with an extra Zergling per egg at no additional cost."
   },
   "Vile Strain (Roach)": {
@@ -4763,9 +3597,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Roach",
-    "origin": [
-      "hots"
-    ],
     "description": "Roach attacks will slow the movement and attack speed of enemies."
   },
   "Corpser Strain (Roach)": {
@@ -4775,9 +3606,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Roach",
-    "origin": [
-      "hots"
-    ],
     "description": "Units killed after being attacked by Roaches will spawn 2 Roachlings."
   },
   "Impaler Aspect (Hydralisk)": {
@@ -4787,9 +3615,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Allows Hydralisks to morph into Impalers."
   },
   "Lurker Aspect (Hydralisk)": {
@@ -4799,9 +3624,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Allows Hydralisks to morph into Lurkers."
   },
   "Splitter Strain (Baneling)": {
@@ -4811,9 +3633,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Baneling Aspect (Zergling)",
-    "origin": [
-      "hots"
-    ],
     "description": "Banelings will split into two smaller Splitterlings on exploding."
   },
   "Hunter Strain (Baneling)": {
@@ -4823,9 +3642,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Baneling Aspect (Zergling)",
-    "origin": [
-      "hots"
-    ],
     "description": "Allows Banelings to jump up and down cliffs and leap onto enemies."
   },
   "Brood Lord Aspect (Mutalisk/Corruptor)": {
@@ -4835,9 +3651,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Allows Mutalisks and Corruptors to morph into Brood Lords."
   },
   "Viper Aspect (Mutalisk/Corruptor)": {
@@ -4847,9 +3660,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Allows Mutalisks and Corruptors to morph into Vipers."
   },
   "Carrion Strain (Swarm Host)": {
@@ -4859,9 +3669,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Swarm Host",
-    "origin": [
-      "hots"
-    ],
     "description": "Swarm Hosts will spawn Flying Locusts."
   },
   "Creeper Strain (Swarm Host)": {
@@ -4871,9 +3678,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Swarm Host",
-    "origin": [
-      "hots"
-    ],
     "description": "Allows Swarm Hosts to teleport to any creep on the map in vision. Swarm Hosts will spread creep around them when rooted or burrowed."
   },
   "Noxious Strain (Ultralisk)": {
@@ -4883,9 +3687,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Ultralisk",
-    "origin": [
-      "hots"
-    ],
     "description": "Ultralisks will periodically spread poison, damaging nearby biological enemies."
   },
   "Torrasque Strain (Ultralisk)": {
@@ -4895,9 +3696,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Ultralisk",
-    "origin": [
-      "hots"
-    ],
     "description": "Ultralisks will revive after being killed."
   },
   "Kinetic Blast (Kerrigan Tier 1)": {
@@ -4907,9 +3705,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Kerrigan deals 300 damage to target unit or structure from long range."
   },
   "Heroic Fortitude (Kerrigan Tier 1)": {
@@ -4919,9 +3714,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Kerrigan gains +200 maximum life and double life regeneration rate."
   },
   "Leaping Strike (Kerrigan Tier 1)": {
@@ -4931,9 +3723,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Kerrigan leaps to her target and deals 150 damage."
   },
   "Crushing Grip (Kerrigan Tier 2)": {
@@ -4943,9 +3732,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Kerrigan stuns enemies in a target area for 3 seconds and deals 30 damage over time. Heroic units are not stunned."
   },
   "Chain Reaction (Kerrigan Tier 2)": {
@@ -4955,9 +3741,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Kerrigan's attacks deal normal damage to her target then jump to additional nearby enemies."
   },
   "Psionic Shift (Kerrigan Tier 2)": {
@@ -4967,9 +3750,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Kerrigan dashes through enemies, dealing 50 damage to all enemies in her path."
   },
   "Zergling Reconstitution (Kerrigan Tier 3)": {
@@ -4979,9 +3759,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Killed Zerglings respawn from your primary Hatchery at no cost."
   },
   "Improved Overlords (Kerrigan Tier 3)": {
@@ -4991,9 +3768,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Overlords morph instantly and provide 50% more supply."
   },
   "Automated Extractors (Kerrigan Tier 3)": {
@@ -5003,9 +3777,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Extractors automatically harvest Vespene Gas without the need for Drones."
   },
   "Wild Mutation (Kerrigan Tier 4)": {
@@ -5015,9 +3786,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Kerrigan gives all units in an area +200 max life and double attack speed for 10 seconds."
   },
   "Spawn Banelings (Kerrigan Tier 4)": {
@@ -5027,9 +3795,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Kerrigan spawns six Banelings with timed life."
   },
   "Mend (Kerrigan Tier 4)": {
@@ -5039,9 +3804,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Kerrigan heals for 150 life and heals nearby friendly units for 50 life. An additional +50% life is healed over 15 seconds."
   },
   "Twin Drones (Kerrigan Tier 5)": {
@@ -5051,9 +3813,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Drones morph in groups of two at no additional cost and require less supply."
   },
   "Malignant Creep (Kerrigan Tier 5)": {
@@ -5063,9 +3822,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Your units and structures gain increased life regeneration and 30% increased attack speed while on creep. Creep Tumors also spread creep faster and farther."
   },
   "Vespene Efficiency (Kerrigan Tier 5)": {
@@ -5075,9 +3831,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Extractors produce Vespene gas 25% faster."
   },
   "Infest Broodlings (Kerrigan Tier 6)": {
@@ -5087,9 +3840,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Enemies damaged by Kerrigan become infested and will spawn Broodlings with timed life if killed quickly."
   },
   "Fury (Kerrigan Tier 6)": {
@@ -5099,9 +3849,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Each of Kerrigan's attacks temporarily increase her attack speed by 15%. Can stack up to 75%."
   },
   "Ability Efficiency (Kerrigan Tier 6)": {
@@ -5111,9 +3858,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Kerrigan's abilities have their cooldown and energy cost reduced by 20%."
   },
   "Apocalypse (Kerrigan Tier 7)": {
@@ -5123,9 +3867,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Kerrigan deals 300 damage (+400 vs Structure) to enemies in a large area."
   },
   "Spawn Leviathan (Kerrigan Tier 7)": {
@@ -5135,9 +3876,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Kerrigan summons a mightly flying Leviathan with timed life. Deals massive damage and has energy-based abilities."
   },
   "Drop-Pods (Kerrigan Tier 7)": {
@@ -5147,9 +3885,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Kerrigan drops Primal Zerg forces with timed life to the battlefield."
   },
   "Primal Form (Kerrigan)": {
@@ -5159,9 +3894,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Kerrigan takes on her Primal Zerg form and gains greatly increased energy regeneration."
   },
   "10 Kerrigan Levels": {
@@ -5171,9 +3903,6 @@
     "classification": "progression",
     "quantity": 0,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Gives Kerrigan +10 Levels."
   },
   "9 Kerrigan Levels": {
@@ -5183,9 +3912,6 @@
     "classification": "progression",
     "quantity": 0,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Gives Kerrigan +9 Levels."
   },
   "8 Kerrigan Levels": {
@@ -5195,9 +3921,6 @@
     "classification": "progression",
     "quantity": 0,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Gives Kerrigan +8 Levels."
   },
   "7 Kerrigan Levels": {
@@ -5207,9 +3930,6 @@
     "classification": "progression",
     "quantity": 0,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Gives Kerrigan +7 Levels."
   },
   "6 Kerrigan Levels": {
@@ -5219,9 +3939,6 @@
     "classification": "progression",
     "quantity": 0,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Gives Kerrigan +6 Levels."
   },
   "5 Kerrigan Levels": {
@@ -5231,9 +3948,6 @@
     "classification": "progression",
     "quantity": 0,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Gives Kerrigan +5 Levels."
   },
   "4 Kerrigan Levels": {
@@ -5243,9 +3957,6 @@
     "classification": "progression_skip_balancing",
     "quantity": 0,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Gives Kerrigan +4 Levels."
   },
   "3 Kerrigan Levels": {
@@ -5255,9 +3966,6 @@
     "classification": "progression_skip_balancing",
     "quantity": 0,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Gives Kerrigan +3 Levels."
   },
   "2 Kerrigan Levels": {
@@ -5267,9 +3975,6 @@
     "classification": "progression_skip_balancing",
     "quantity": 0,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Gives Kerrigan +2 Levels."
   },
   "1 Kerrigan Level": {
@@ -5279,9 +3984,6 @@
     "classification": "progression_skip_balancing",
     "quantity": 0,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Gives Kerrigan +1 Level."
   },
   "14 Kerrigan Levels": {
@@ -5291,9 +3993,6 @@
     "classification": "progression",
     "quantity": 0,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Gives Kerrigan +14 Levels."
   },
   "35 Kerrigan Levels": {
@@ -5303,9 +4002,6 @@
     "classification": "progression",
     "quantity": 0,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Gives Kerrigan +35 Levels."
   },
   "70 Kerrigan Levels": {
@@ -5315,9 +4011,6 @@
     "classification": "progression",
     "quantity": 0,
     "parent_item": null,
-    "origin": [
-      "hots"
-    ],
     "description": "Gives Kerrigan +70 Levels."
   },
   "Infested Medics": {
@@ -5327,9 +4020,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Mercenary infested Medics that may be called in from the Hatchery."
   },
   "Infested Siege Tanks": {
@@ -5339,9 +4029,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Mercenary infested Siege Tanks that may be called in from the Hatchery."
   },
   "Infested Banshees": {
@@ -5351,9 +4038,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Mercenary infested Banshees that may be called in from the Hatchery."
   },
   "Ventral Sacs (Overlord)": {
@@ -5363,9 +4047,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "bw"
-    ],
     "description": "Overlords gain the ability to transport ground units."
   },
   "Guardian Aspect (Mutalisk/Corruptor)": {
@@ -5375,9 +4056,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "bw"
-    ],
     "description": "Long-range anti-ground flyer. Can attack ground units. Morphed from the Mutalisk or Corruptor."
   },
   "Devourer Aspect (Mutalisk/Corruptor)": {
@@ -5387,9 +4065,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "bw"
-    ],
     "description": "Anti-air flyer. Attack inflict Acid Spores. Can attack air units. Morphed from the Mutalisk or Corruptor."
   },
   "Ravager Aspect (Roach)": {
@@ -5399,9 +4074,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Ranged artillery. Can use Corrosive Bile. Can attack ground units. Morphed from the Roach."
   },
   "Observer": {
@@ -5411,9 +4083,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "wol"
-    ],
     "description": "Flying spy. Cloak renders the unit invisible to enemies without detection."
   },
   "Centurion": {
@@ -5423,9 +4092,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "Powerful melee warrior. Has the Shadow Charge and Darkcoil abilities."
   },
   "Sentinel": {
@@ -5435,9 +4101,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "Powerful melee warrior. Has the Charge and Reconstruction abilities."
   },
   "Supplicant": {
@@ -5447,9 +4110,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Powerful melee warrior. Has powerful damage resistant shields."
   },
   "Instigator": {
@@ -5459,9 +4119,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Ranged support strider. Can store multiple Blink charges."
   },
   "Slayer": {
@@ -5471,9 +4128,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Ranged attack strider. Can use the Phase Blink and Phasing Armor abilities."
   },
   "Sentry": {
@@ -5483,9 +4137,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "Robotic support unit can use the Guardian Shield ability and restore the shields of nearby Protoss units."
   },
   "Energizer": {
@@ -5495,9 +4146,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "Robotic support unit. Can use the Chrono Beam ability and become stationary to power nearby structures."
   },
   "Havoc": {
@@ -5507,9 +4155,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "Robotic support unit. Can use the Target Lock and Force Field abilities and increase the range of nearby Protoss units."
   },
   "Signifier": {
@@ -5519,9 +4164,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Potent permanently cloaked psionic master. Can use the Feedback and Crippling Psionic Storm abilities. Can merge into an Archon."
   },
   "Ascendant": {
@@ -5531,9 +4173,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "Potent psionic master. Can use the Psionic Orb, Mind Blast, and Sacrifice abilities."
   },
   "Avenger": {
@@ -5543,9 +4182,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "Deadly warrior-assassin. Permanently cloaked. Recalls to the nearest Dark Shrine upon death."
   },
   "Blood Hunter": {
@@ -5555,9 +4191,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "Deadly warrior-assassin. Permanently cloaked. Can use the Void Stasis ability."
   },
   "Dragoon": {
@@ -5567,9 +4200,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "Ranged assault strider. Has enhanced health and damage."
   },
   "Dark Archon": {
@@ -5579,9 +4209,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "Potent psionic master. Can use the Confuse and Mind Control abilities."
   },
   "Adept": {
@@ -5591,9 +4218,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "Ranged specialist. Can use the Psionic Transfer ability."
   },
   "Warp Prism": {
@@ -5603,9 +4227,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Flying transport. Can carry units and become stationary to deploy a power field."
   },
   "Annihilator": {
@@ -5615,9 +4236,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "Assault Strider. Can use the Shadow Cannon ability to damage air and ground units."
   },
   "Vanguard": {
@@ -5627,9 +4245,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "Assault Strider. Deals splash damage around the primary target."
   },
   "Wrathwalker": {
@@ -5639,9 +4254,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "Battle strider with a powerful single target attack.  Can walk up and down cliffs."
   },
   "Reaver": {
@@ -5651,9 +4263,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "Area damage siege unit. Builds and launches explosive Scarabs for high burst damage."
   },
   "Disruptor": {
@@ -5663,9 +4272,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Robotic disruption unit. Can use the Purification Nova ability to deal heavy area damage."
   },
   "Mirage": {
@@ -5675,9 +4281,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "Air superiority starfighter. Can use Graviton Beam and Phasing Armor abilities."
   },
   "Corsair": {
@@ -5687,9 +4290,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "Air superiority starfighter. Can use the Disruption Web ability."
   },
   "Destroyer": {
@@ -5699,9 +4299,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "Area assault craft. Can use the Destruction Beam ability to attack multiple units at once."
   },
   "Scout": {
@@ -5711,9 +4308,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Versatile high-speed fighter."
   },
   "Tempest": {
@@ -5723,9 +4317,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "Siege artillery craft. Attacks from long range. Can use the Disintegration ability."
   },
   "Mothership": {
@@ -5735,9 +4326,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "Ultimate Protoss vessel, Can use the Vortex and Mass Recall abilities. Cloaks nearby units and structures."
   },
   "Arbiter": {
@@ -5747,9 +4335,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "Army support craft. Has the Stasis Field and Recall abilities. Cloaks nearby units."
   },
   "Oracle": {
@@ -5759,9 +4344,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Flying caster. Can use the Revelation and Stasis Ward abilities."
   },
   "Progressive Protoss Ground Weapon": {
@@ -5771,10 +4353,6 @@
     "classification": "useful",
     "quantity": 3,
     "parent_item": null,
-    "origin": [
-      "lotv",
-      "wol"
-    ],
     "description": "Increases damage of Protoss ground units.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Protoss Ground Armor": {
@@ -5784,10 +4362,6 @@
     "classification": "useful",
     "quantity": 3,
     "parent_item": null,
-    "origin": [
-      "lotv",
-      "wol"
-    ],
     "description": "Increases armor of Protoss ground units.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Protoss Shields": {
@@ -5797,10 +4371,6 @@
     "classification": "useful",
     "quantity": 3,
     "parent_item": null,
-    "origin": [
-      "lotv",
-      "wol"
-    ],
     "description": "Increases shields of Protoss units.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Protoss Air Weapon": {
@@ -5810,10 +4380,6 @@
     "classification": "useful",
     "quantity": 3,
     "parent_item": null,
-    "origin": [
-      "lotv",
-      "wol"
-    ],
     "description": "Increases damage of Protoss starships.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Protoss Air Armor": {
@@ -5823,10 +4389,6 @@
     "classification": "useful",
     "quantity": 3,
     "parent_item": null,
-    "origin": [
-      "lotv",
-      "wol"
-    ],
     "description": "Increases armor of Protoss starships.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Protoss Weapon Upgrade": {
@@ -5836,10 +4398,6 @@
     "classification": "useful",
     "quantity": 3,
     "parent_item": null,
-    "origin": [
-      "lotv",
-      "wol"
-    ],
     "description": "Increases damage of Protoss units.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Protoss Armor Upgrade": {
@@ -5849,10 +4407,6 @@
     "classification": "useful",
     "quantity": 3,
     "parent_item": null,
-    "origin": [
-      "lotv",
-      "wol"
-    ],
     "description": "Increases armor of Protoss units.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Protoss Ground Upgrade": {
@@ -5862,10 +4416,6 @@
     "classification": "useful",
     "quantity": 3,
     "parent_item": null,
-    "origin": [
-      "lotv",
-      "wol"
-    ],
     "description": "Increases damage and armor of Protoss ground units.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Protoss Air Upgrade": {
@@ -5875,10 +4425,6 @@
     "classification": "useful",
     "quantity": 3,
     "parent_item": null,
-    "origin": [
-      "lotv",
-      "wol"
-    ],
     "description": "Increases damage and armor of Protoss starships.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Progressive Protoss Weapon/Armor Upgrade": {
@@ -5888,10 +4434,6 @@
     "classification": "useful",
     "quantity": 3,
     "parent_item": null,
-    "origin": [
-      "lotv",
-      "wol"
-    ],
     "description": "Increases damage and armor of Protoss units.\nMust be researched during the mission if the mission type isn't set to auto-unlock generic upgrades."
   },
   "Photon Cannon": {
@@ -5901,10 +4443,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv",
-      "wol"
-    ],
     "description": "Protoss defensive structure. Can attack ground and air units."
   },
   "Khaydarin Monolith": {
@@ -5914,9 +4452,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "Advanced Protoss defensive structure. Has superior range and damage, but is very expensive and attacks slowly."
   },
   "Shield Battery": {
@@ -5926,9 +4461,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "Protoss defensive structure. Restores shields to nearby friendly units and structures."
   },
   "Blood Shield (Supplicant)": {
@@ -5938,9 +4470,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Supplicant",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases the armor value of Supplicant shields."
   },
   "Soul Augmentation (Supplicant)": {
@@ -5950,9 +4479,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Supplicant",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Supplicant max shields by +25."
   },
   "Shield Regeneration (Supplicant)": {
@@ -5962,9 +4488,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Supplicant",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Supplicant shield regeneration rate."
   },
   "Shockwave (Adept)": {
@@ -5974,9 +4497,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Adept",
-    "origin": [
-      "ext"
-    ],
     "description": "When Adepts deal a finishing blow, their projectiles can jump onto 2 additional targets."
   },
   "Resonating Glaives (Adept)": {
@@ -5986,9 +4506,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Adept",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Adept attack speed."
   },
   "Phase Bulwark (Adept)": {
@@ -5998,33 +4515,24 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Adept",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Adept shield maximum by +50."
   },
   "Disintegrating Particles (Stalker/Instigator/Slayer)": {
     "type": "Forge 1",
     "number": 6,
     "race": "PROTOSS",
-    "classification": "progression",
+    "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Increases weapon damage of Stalkers, Instigators, and Slayers."
   },
   "Particle Reflection (Stalker/Instigator/Slayer)": {
     "type": "Forge 1",
     "number": 7,
     "race": "PROTOSS",
-    "classification": "progression",
+    "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Attacks fired by Stalkers, Instigators, and Slayers have a chance to bounce to additional targets for reduced damage."
   },
   "High Impact Phase Disruptor (Dragoon)": {
@@ -6034,9 +4542,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Dragoon",
-    "origin": [
-      "ext"
-    ],
     "description": "Dragoons deal increased damage."
   },
   "Trillic Compression System (Dragoon)": {
@@ -6046,9 +4551,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Dragoon",
-    "origin": [
-      "ext"
-    ],
     "description": "Dragoons gain +20 life and their shield regeneration rate is doubled. Allows Dragoons to regenerate shields in combat."
   },
   "Singularity Charge (Dragoon)": {
@@ -6058,9 +4560,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Dragoon",
-    "origin": [
-      "bw"
-    ],
     "description": "Increases Dragoon range by +2."
   },
   "Enhanced Strider Servos (Dragoon)": {
@@ -6070,9 +4569,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Dragoon",
-    "origin": [
-      "bw"
-    ],
     "description": "Increases Dragoon movement speed."
   },
   "Combat Sensor Array (Scout)": {
@@ -6082,9 +4578,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Scout",
-    "origin": [
-      "ext"
-    ],
     "description": "Scouts gain +3 range against air and +1 range against ground."
   },
   "Apial Sensors (Scout)": {
@@ -6094,9 +4587,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Scout",
-    "origin": [
-      "bw"
-    ],
     "description": "Scouts gain increased sight range."
   },
   "Gravitic Thrusters (Scout)": {
@@ -6106,9 +4596,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Scout",
-    "origin": [
-      "bw"
-    ],
     "description": "Scouts gain increased movement speed."
   },
   "Advanced Photon Blasters (Scout)": {
@@ -6118,9 +4605,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Scout",
-    "origin": [
-      "ext"
-    ],
     "description": "Scouts gain increased damage against ground targets."
   },
   "Tectonic Destabilizers (Tempest)": {
@@ -6130,9 +4614,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Tempest",
-    "origin": [
-      "ext"
-    ],
     "description": "Tempests deal increased damage to buildings."
   },
   "Quantic Reactor (Tempest)": {
@@ -6142,9 +4623,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Tempest",
-    "origin": [
-      "ext"
-    ],
     "description": "Tempests deal increased damage to massive units."
   },
   "Gravity Sling (Tempest)": {
@@ -6154,9 +4632,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Tempest",
-    "origin": [
-      "ext"
-    ],
     "description": "Tempests gain +8 range against air targets."
   },
   "Ionic Wavelength Flux (Phoenix/Mirage)": {
@@ -6166,9 +4641,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Phoenix and Mirage weapon damage by +2."
   },
   "Anion Pulse-Crystals (Phoenix/Mirage)": {
@@ -6178,9 +4650,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Phoenix and Mirage range by +2."
   },
   "Stealth Drive (Corsair)": {
@@ -6190,9 +4659,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Corsair",
-    "origin": [
-      "ext"
-    ],
     "description": "Corsairs become permanently cloaked."
   },
   "Argus Jewel (Corsair)": {
@@ -6202,9 +4668,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Corsair",
-    "origin": [
-      "bw"
-    ],
     "description": "Corsairs can store 2 charges of disruption web."
   },
   "Sustaining Disruption (Corsair)": {
@@ -6214,9 +4677,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Corsair",
-    "origin": [
-      "bw"
-    ],
     "description": "Corsair disruption webs last longer."
   },
   "Neutron Shields (Corsair)": {
@@ -6226,9 +4686,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Corsair",
-    "origin": [
-      "bw"
-    ],
     "description": "Increases corsair maximum shields by +20."
   },
   "Stealth Drive (Oracle)": {
@@ -6238,9 +4695,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Oracle",
-    "origin": [
-      "ext"
-    ],
     "description": "Oracles become permanently cloaked."
   },
   "Stasis Calibration (Oracle)": {
@@ -6250,9 +4704,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Oracle",
-    "origin": [
-      "ext"
-    ],
     "description": "Enemies caught by the Oracle's Stasis Ward may now be attacked."
   },
   "Temporal Acceleration Beam (Oracle)": {
@@ -6262,9 +4713,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Oracle",
-    "origin": [
-      "ext"
-    ],
     "description": "Oracles no longer need to to spend energy to attack."
   },
   "Chronostatic Reinforcement (Arbiter)": {
@@ -6274,9 +4722,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Arbiter",
-    "origin": [
-      "bw"
-    ],
     "description": "Arbiters gain +50 maximum life and +1 armor."
   },
   "Khaydarin Core (Arbiter)": {
@@ -6286,9 +4731,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Arbiter",
-    "origin": [
-      "bw"
-    ],
     "description": "Arbiters gain +150 starting energy and +50 maximum energy."
   },
   "Spacetime Anchor (Arbiter)": {
@@ -6298,9 +4740,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Arbiter",
-    "origin": [
-      "bw"
-    ],
     "description": "Arbiter Stasis Field lasts 50 seconds longer."
   },
   "Resource Efficiency (Arbiter)": {
@@ -6310,9 +4749,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Arbiter",
-    "origin": [
-      "bw"
-    ],
     "description": "Reduces Arbiter cost by 50 minerals."
   },
   "Enhanced Cloak Field (Arbiter)": {
@@ -6322,9 +4758,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Arbiter",
-    "origin": [
-      "bw"
-    ],
     "description": "Increases Arbiter Cloaking Field range."
   },
   "Graviton Catapult (Carrier)": {
@@ -6334,9 +4767,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Carrier",
-    "origin": [
-      "wol"
-    ],
     "description": "Carriers can launch Interceptors more quickly."
   },
   "Hull of Past Glories (Carrier)": {
@@ -6346,9 +4776,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Carrier",
-    "origin": [
-      "bw"
-    ],
     "description": "Carriers gain +2 armour."
   },
   "Flux Vanes (Void Ray/Destroyer)": {
@@ -6358,9 +4785,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Void Ray and Destroyer movement speed."
   },
   "Reforged Bloodshard Core (Destroyer)": {
@@ -6370,9 +4794,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Destroyer",
-    "origin": [
-      "ext"
-    ],
     "description": "When fully charged, the Destroyer's Destruction Beam weapon does full damage to secondary targets."
   },
   "Gravitic Drive (Warp Prism)": {
@@ -6382,9 +4803,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Warp Prism",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases the movement speed of Warp Prisms."
   },
   "Phase Blaster (Warp Prism)": {
@@ -6394,9 +4812,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": "Warp Prism",
-    "origin": [
-      "ext"
-    ],
     "description": "Equips Warp Prisms with an auto-attack that can hit ground and air targets."
   },
   "War Configuration (Warp Prism)": {
@@ -6406,9 +4821,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Warp Prism",
-    "origin": [
-      "ext"
-    ],
     "description": "Warp Prisms transform faster and gain increased power radius in Phasing Mode."
   },
   "Gravitic Boosters (Observer)": {
@@ -6418,9 +4830,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Observer",
-    "origin": [
-      "bw"
-    ],
     "description": "Increases Observer movement speed."
   },
   "Sensor Array (Observer)": {
@@ -6430,9 +4839,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Observer",
-    "origin": [
-      "bw"
-    ],
     "description": "Increases Observer sight range."
   },
   "Scarab Damage (Reaver)": {
@@ -6442,9 +4848,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Reaver",
-    "origin": [
-      "bw"
-    ],
     "description": "Reaver Scarabs deal +25 damage."
   },
   "Solarite Payload (Reaver)": {
@@ -6454,9 +4857,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Reaver",
-    "origin": [
-      "ext"
-    ],
     "description": "Reaver Scarabs gain increased splash damage radius."
   },
   "Reaver Capacity (Reaver)": {
@@ -6466,9 +4866,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Reaver",
-    "origin": [
-      "bw"
-    ],
     "description": "Reavers can store 10 Scarabs."
   },
   "Resource Efficiency (Reaver)": {
@@ -6478,9 +4875,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Reaver",
-    "origin": [
-      "bw"
-    ],
     "description": "Reduces Reaver cost by 100 minerals, 100 gas, and 2 supply."
   },
   "Agony Launchers (Vanguard)": {
@@ -6490,9 +4884,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Vanguard",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Vanguard attack range by +2."
   },
   "Matter Dispersion (Vanguard)": {
@@ -6502,9 +4893,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Vanguard",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Vanguard attack area."
   },
   "Singularity Charge (Immortal/Annihilator)": {
@@ -6514,9 +4902,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Immortal and Annihilator attack range by +2."
   },
   "Advanced Targeting Mechanics (Immortal/Annihilator)": {
@@ -6526,9 +4911,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Immortals and Annihilators can attack air units."
   },
   "Pacification Protocol (Colossus)": {
@@ -6538,9 +4920,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Colossus",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Colossus attack speed."
   },
   "Rapid Power Cycling (Wrathwalker)": {
@@ -6550,9 +4929,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Wrathwalker",
-    "origin": [
-      "ext"
-    ],
     "description": "Reduces the charging time and increases attack speed of the Wrathwalker's Charged Blast."
   },
   "Eye of Wrath (Wrathwalker)": {
@@ -6562,9 +4938,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Wrathwalker",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Wrathwalker weapon range by +1."
   },
   "Shroud of Adun (Dark Templar/Avenger/Blood Hunter)": {
@@ -6574,9 +4947,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Dark Templar, Avenger, and Blood Hunter maximum shields by +80."
   },
   "Shadow Guard Training (Dark Templar/Avenger/Blood Hunter)": {
@@ -6586,9 +4956,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "bw"
-    ],
     "description": "Increases Dark Templar, Avenger, and Blood Hunter maximum life by +40."
   },
   "Blink (Dark Templar/Avenger/Blood Hunter)": {
@@ -6598,9 +4965,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Dark Templar, Avengers, and Blood Hunters gain the Blink ability."
   },
   "Resource Efficiency (Dark Templar/Avenger/Blood Hunter)": {
@@ -6610,9 +4974,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Reduces Dark Templar, Avenger, and Blood Hunter cost by 50 gas."
   },
   "Dark Archon Meld (Dark Templar)": {
@@ -6622,9 +4983,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Dark Templar",
-    "origin": [
-      "bw"
-    ],
     "description": "Allows 2 Dark Templar to meld into a Dark Archon."
   },
   "Unshackled Psionic Storm (High Templar/Signifier)": {
@@ -6634,9 +4992,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "bw"
-    ],
     "description": "High Templar and Signifiers deal increased damage with Psi Storm."
   },
   "Hallucination (High Templar/Signifier)": {
@@ -6646,9 +5001,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "bw"
-    ],
     "description": "High Templar and Signifiers gain the Hallucination ability, which creates 2 hallucinated copies of a target unit."
   },
   "Khaydarin Amulet (High Templar/Signifier)": {
@@ -6658,9 +5010,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "bw"
-    ],
     "description": "High Templar and Signifiers gain +150 starting energy and +50 maximum energy."
   },
   "High Archon (Archon)": {
@@ -6670,9 +5019,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Archons can use High Templar abilities."
   },
   "Feedback (Dark Archon)": {
@@ -6682,9 +5028,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "bw"
-    ],
     "description": "Dark Archons gain the Feedback ability, which drains all energy from a target and deals 1 damage per point of energy drained."
   },
   "Maelstrom (Dark Archon)": {
@@ -6694,9 +5037,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "bw"
-    ],
     "description": "Dark Archons gain the Maelstrom ability, which stuns biological units in an area."
   },
   "Argus Talisman (Dark Archon)": {
@@ -6706,9 +5046,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "bw"
-    ],
     "description": "Dark Archons gain +150 starting energy and +50 maximum energy."
   },
   "Power Overwhelming (Ascendant)": {
@@ -6718,9 +5055,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Ascendant",
-    "origin": [
-      "ext"
-    ],
     "description": "Ascendants gain the ability to sacrifice Supplicants for increased shields and spell damage."
   },
   "Chaotic Attunement (Ascendant)": {
@@ -6730,9 +5064,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Ascendant",
-    "origin": [
-      "ext"
-    ],
     "description": "Ascendants' Psionic Orbs gain 25% increased travel distance."
   },
   "Blood Amulet (Ascendant)": {
@@ -6742,9 +5073,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Ascendant",
-    "origin": [
-      "ext"
-    ],
     "description": "Ascendants gain +150 starting energy and +50 maximum energy."
   },
   "Cloaking Module (Sentry/Energizer/Havoc)": {
@@ -6754,9 +5082,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Sentries, Energizers, and Havocs become permanently cloaked."
   },
   "Rapid Recharging (Sentry/Energizer/Havoc/Shield Battery)": {
@@ -6766,9 +5091,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Sentries, Energizers, and Havocs gain +100% energy regeneration rate."
   },
   "Force Field (Sentry)": {
@@ -6778,9 +5100,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Sentry",
-    "origin": [
-      "ext"
-    ],
     "description": "Sentries gain the Force Field ability."
   },
   "Hallucination (Sentry)": {
@@ -6790,9 +5109,6 @@
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Sentry",
-    "origin": [
-      "ext"
-    ],
     "description": "Sentries gain the Hallucination ability, which creates hallucinated versions of Protoss units."
   },
   "Reclamation (Energizer)": {
@@ -6802,9 +5118,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Energizer",
-    "origin": [
-      "ext"
-    ],
     "description": "Energizers gain the Reclamation ability."
   },
   "Forged Chassis (Energizer)": {
@@ -6814,9 +5127,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Energizer",
-    "origin": [
-      "ext"
-    ],
     "description": "Increases Energizer Life by +20."
   },
   "Detect Weakness (Havoc)": {
@@ -6826,9 +5136,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Havoc",
-    "origin": [
-      "ext"
-    ],
     "description": "Havocs' Target Lock gives an additional +15% damage bonus."
   },
   "Bloodshard Resonance (Havoc)": {
@@ -6838,9 +5145,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Havoc",
-    "origin": [
-      "ext"
-    ],
     "description": "Havoc gain increased range for Squad Sight, Target Lock, and Force Field."
   },
   "Leg Enhancements (Zealot/Sentinel/Centurion)": {
@@ -6850,9 +5154,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "bw"
-    ],
     "description": "Zealots, Sentinels, and Centurions gain increased movement speed."
   },
   "Shield Capacity (Zealot/Sentinel/Centurion)": {
@@ -6862,153 +5163,114 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "bw"
-    ],
     "description": "Zealots, Sentinels, and Centurions gain +30 maximum shields."
   },
   "Chrono Surge (Spear of Adun Calldown)": {
-    "type": "Spear of Adun",
+    "type": "Spear Of Adun",
     "number": 0,
     "race": "PROTOSS",
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "The Spear of Adun increases a target structure's unit warp in and research speeds by +1000% for 20 seconds."
   },
   "Progressive Proxy Pylon (Spear of Adun Calldown)": {
-    "type": "Progressive Upgrade",
+    "type": "Progressive",
     "number": 0,
     "race": "PROTOSS",
     "classification": "useful",
     "quantity": 2,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "Level 1: The Spear of Adun quickly warps in a Pylon to a target location.\nLevel 2: The Spear of Adun warps in a Pylon, 2 melee warriors, and 2 ranged warriors to a target location."
   },
   "Pylon Overcharge (Spear of Adun Calldown)": {
-    "type": "Spear of Adun",
+    "type": "Spear Of Adun",
     "number": 1,
     "race": "PROTOSS",
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "The Spear of Adun temporarily gives a target Pylon increased shields and a powerful attack."
   },
   "Orbital Strike (Spear of Adun Calldown)": {
-    "type": "Spear of Adun",
+    "type": "Spear Of Adun",
     "number": 2,
     "race": "PROTOSS",
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "The Spear of Adun fires 5 laser blasts from orbit."
   },
   "Temporal Field (Spear of Adun Calldown)": {
-    "type": "Spear of Adun",
+    "type": "Spear Of Adun",
     "number": 3,
     "race": "PROTOSS",
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "The Spear of Adun creates 3 temporal fields that freeze enemy units and structures in time."
   },
   "Solar Lance (Spear of Adun Calldown)": {
-    "type": "Spear of Adun",
+    "type": "Spear Of Adun",
     "number": 4,
     "race": "PROTOSS",
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "The Spear of Adun strafes a target area with 3 laser beams."
   },
   "Mass Recall (Spear of Adun Calldown)": {
-    "type": "Spear of Adun",
+    "type": "Spear Of Adun",
     "number": 5,
     "race": "PROTOSS",
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "The Spear of Adun warps all units in a target area back to the primary Nexus and gives them a temporary shield."
   },
   "Shield Overcharge (Spear of Adun Calldown)": {
-    "type": "Spear of Adun",
+    "type": "Spear Of Adun",
     "number": 6,
     "race": "PROTOSS",
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "The Spear of Adun gives all friendly units a shield that absorbs 200 damage. Lasts 20 seconds."
   },
   "Deploy Fenix (Spear of Adun Calldown)": {
-    "type": "Spear of Adun",
+    "type": "Spear Of Adun",
     "number": 7,
     "race": "PROTOSS",
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "The Spear of Adun drops Fenix onto the battlefield. Fenix is a powerful warrior who will fight for 30 seconds."
   },
   "Purifier Beam (Spear of Adun Calldown)": {
-    "type": "Spear of Adun",
+    "type": "Spear Of Adun",
     "number": 8,
     "race": "PROTOSS",
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "The Spear of Adun fires a wide laser that deals large amounts of damage in a moveable area. Lasts 15 seconds."
   },
   "Time Stop (Spear of Adun Calldown)": {
-    "type": "Spear of Adun",
+    "type": "Spear Of Adun",
     "number": 9,
     "race": "PROTOSS",
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "The Spear of Adun freezes all enemy units and structures in time for 20 seconds."
   },
   "Solar Bombardment (Spear of Adun Calldown)": {
-    "type": "Spear of Adun",
+    "type": "Spear Of Adun",
     "number": 10,
     "race": "PROTOSS",
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "The Spear of Adun fires 200 laser blasts randomly over a wide area."
   },
   "Matrix Overload": {
@@ -7018,9 +5280,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "All friendly units gain 25% movement speed and 15% attack speed within a Pylon's power field and for 15 seconds after leaving it."
   },
   "Quatro": {
@@ -7030,9 +5289,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "All friendly Protoss units gain the equivalent of their +1 armour, attack, and shield upgrades."
   },
   "Nexus Overcharge": {
@@ -7042,9 +5298,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "The Protoss Nexus gains a long-range auto-attack."
   },
   "Orbital Assimilators": {
@@ -7054,9 +5307,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "Assimilators automatically harvest Vespene Gas without the need for Probes."
   },
   "Warp Harmonization": {
@@ -7066,9 +5316,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "Stargates and Robotics Facilities can transform to utilize Warp In technology. Warp In cooldowns are 20% faster than original build times."
   },
   "Guardian Shell": {
@@ -7078,9 +5325,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "The Spear of Adun passively shields friendly Protoss units before death, making them invulnerable for 5 seconds. Each unit can only be shielded once every 60 seconds."
   },
   "Reconstruction Beam (Spear of Adun Auto-Cast)": {
@@ -7090,9 +5334,6 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "lotv"
-    ],
     "description": "The Spear of Adun will passively heal mechanical units for 5 and non-biological structures for 10 life per second. Up to 3 targets can be repaired at once."
   },
   "Overwatch (Spear of Adun Auto-Cast)": {
@@ -7102,9 +5343,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Once per second, the Spear of Adun will last-hit a damaged enemy unit that is below 50 health."
   },
   "Superior Warp Gates": {
@@ -7114,9 +5352,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Protoss Warp Gates can hold up to 3 charges of unit warp-ins."
   },
   "Enhanced Targeting": {
@@ -7126,9 +5361,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Protoss defensive structures gain +2 range."
   },
   "Optimized Ordnance": {
@@ -7138,9 +5370,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Increases the attack speed of Protoss defensive structures by 25%."
   },
   "Khalai Ingenuity": {
@@ -7150,9 +5379,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Pylons, Photon Cannons, Monoliths, and Shield Batteries warp in near-instantly."
   },
   "Amplified Assimilators": {
@@ -7162,9 +5388,6 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "origin": [
-      "ext"
-    ],
     "description": "Assimilators produce Vespene gas 25% faster."
   }
 }
