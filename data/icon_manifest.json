@@ -1891,5 +1891,14 @@
  ],
  "Zergling Reconstitution (Kerrigan Tier 3)": [
   "icons/blizzard/btn-ability-kerrigan-zerglingreconstitution.png"
+ ],
+ "_protoss": [
+  "icons/blizzard/ui_glues_help_armyicon_protoss.png"
+ ],
+ "_terran": [
+  "icons/blizzard/ui_glues_help_armyicon_terran.png"
+ ],
+ "_zerg": [
+  "icons/blizzard/ui_glues_help_armyicon_zerg.png"
  ]
 }

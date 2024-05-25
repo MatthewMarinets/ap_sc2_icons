@@ -60,6 +60,17 @@ body {
     text-align: center;
 }
 
+
+.list-item-icon {
+    max-width: 1.4em;
+    vertical-align: middle;
+}
+
+.list-item-label {
+    display: inline;
+    vertical-align: middle;
+}
+
 i {
     /* I declare `i` to mean "invisible" rather than "italics" */
     position: absolute;

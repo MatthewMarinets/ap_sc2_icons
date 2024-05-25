@@ -1,0 +1,334 @@
+{
+  "Liberation Day": {
+    "faction": "Terran",
+    "campaign": "wol"
+  },
+  "The Outlaws": {
+    "faction": "Terran",
+    "campaign": "wol"
+  },
+  "Zero Hour": {
+    "faction": "Terran",
+    "campaign": "wol"
+  },
+  "Evacuation": {
+    "faction": "Terran",
+    "campaign": "wol"
+  },
+  "Outbreak": {
+    "faction": "Terran",
+    "campaign": "wol"
+  },
+  "Safe Haven": {
+    "faction": "Terran",
+    "campaign": "wol"
+  },
+  "Haven's Fall": {
+    "faction": "Terran",
+    "campaign": "wol"
+  },
+  "Smash and Grab": {
+    "faction": "Terran",
+    "campaign": "wol"
+  },
+  "The Dig": {
+    "faction": "Terran",
+    "campaign": "wol"
+  },
+  "The Moebius Factor": {
+    "faction": "Terran",
+    "campaign": "wol"
+  },
+  "Supernova": {
+    "faction": "Terran",
+    "campaign": "wol"
+  },
+  "Maw of the Void": {
+    "faction": "Terran",
+    "campaign": "wol"
+  },
+  "Devil's Playground": {
+    "faction": "Terran",
+    "campaign": "wol"
+  },
+  "Welcome to the Jungle": {
+    "faction": "Terran",
+    "campaign": "wol"
+  },
+  "Breakout": {
+    "faction": "Terran",
+    "campaign": "wol"
+  },
+  "Ghost of a Chance": {
+    "faction": "Terran",
+    "campaign": "wol"
+  },
+  "The Great Train Robbery": {
+    "faction": "Terran",
+    "campaign": "wol"
+  },
+  "Cutthroat": {
+    "faction": "Terran",
+    "campaign": "wol"
+  },
+  "Engine of Destruction": {
+    "faction": "Terran",
+    "campaign": "wol"
+  },
+  "Media Blitz": {
+    "faction": "Terran",
+    "campaign": "wol"
+  },
+  "Piercing the Shroud": {
+    "faction": "Terran",
+    "campaign": "wol"
+  },
+  "Gates of Hell": {
+    "faction": "Terran",
+    "campaign": "wol"
+  },
+  "Belly of the Beast": {
+    "faction": "Terran",
+    "campaign": "wol"
+  },
+  "Shatter the Sky": {
+    "faction": "Terran",
+    "campaign": "wol"
+  },
+  "All-In": {
+    "faction": "Terran",
+    "campaign": "wol"
+  },
+  "Whispers of Doom": {
+    "faction": "Protoss",
+    "campaign": "prophecy"
+  },
+  "A Sinister Turn": {
+    "faction": "Protoss",
+    "campaign": "prophecy"
+  },
+  "Echoes of the Future": {
+    "faction": "Protoss",
+    "campaign": "prophecy"
+  },
+  "In Utter Darkness": {
+    "faction": "Protoss",
+    "campaign": "prophecy"
+  },
+  "Lab Rat": {
+    "faction": "Zerg",
+    "campaign": "hots"
+  },
+  "Back in the Saddle": {
+    "faction": "Zerg",
+    "campaign": "hots"
+  },
+  "Rendezvous": {
+    "faction": "Zerg",
+    "campaign": "hots"
+  },
+  "Harvest of Screams": {
+    "faction": "Zerg",
+    "campaign": "hots"
+  },
+  "Shoot the Messenger": {
+    "faction": "Zerg",
+    "campaign": "hots"
+  },
+  "Enemy Within": {
+    "faction": "Zerg",
+    "campaign": "hots"
+  },
+  "Domination": {
+    "faction": "Zerg",
+    "campaign": "hots"
+  },
+  "Fire in the Sky": {
+    "faction": "Zerg",
+    "campaign": "hots"
+  },
+  "Old Soldiers": {
+    "faction": "Zerg",
+    "campaign": "hots"
+  },
+  "Waking the Ancient": {
+    "faction": "Zerg",
+    "campaign": "hots"
+  },
+  "The Crucible": {
+    "faction": "Zerg",
+    "campaign": "hots"
+  },
+  "Supreme": {
+    "faction": "Zerg",
+    "campaign": "hots"
+  },
+  "Infested": {
+    "faction": "Zerg",
+    "campaign": "hots"
+  },
+  "Hand of Darkness": {
+    "faction": "Zerg",
+    "campaign": "hots"
+  },
+  "Phantoms of the Void": {
+    "faction": "Zerg",
+    "campaign": "hots"
+  },
+  "With Friends Like These": {
+    "faction": "Terran",
+    "campaign": "hots"
+  },
+  "Conviction": {
+    "faction": "Zerg",
+    "campaign": "hots"
+  },
+  "Planetfall": {
+    "faction": "Zerg",
+    "campaign": "hots"
+  },
+  "Death From Above": {
+    "faction": "Zerg",
+    "campaign": "hots"
+  },
+  "The Reckoning": {
+    "faction": "Zerg",
+    "campaign": "hots"
+  },
+  "Dark Whispers": {
+    "faction": "Protoss",
+    "campaign": "prologue"
+  },
+  "Ghosts in the Fog": {
+    "faction": "Protoss",
+    "campaign": "prologue"
+  },
+  "Evil Awoken": {
+    "faction": "Protoss",
+    "campaign": "prologue"
+  },
+  "For Aiur!": {
+    "faction": "Protoss",
+    "campaign": "lotv"
+  },
+  "The Growing Shadow": {
+    "faction": "Protoss",
+    "campaign": "lotv"
+  },
+  "The Spear of Adun": {
+    "faction": "Protoss",
+    "campaign": "lotv"
+  },
+  "Sky Shield": {
+    "faction": "Protoss",
+    "campaign": "lotv"
+  },
+  "Brothers in Arms": {
+    "faction": "Protoss",
+    "campaign": "lotv"
+  },
+  "Amon's Reach": {
+    "faction": "Protoss",
+    "campaign": "lotv"
+  },
+  "Last Stand": {
+    "faction": "Protoss",
+    "campaign": "lotv"
+  },
+  "Forbidden Weapon": {
+    "faction": "Protoss",
+    "campaign": "lotv"
+  },
+  "Temple of Unification": {
+    "faction": "Protoss",
+    "campaign": "lotv"
+  },
+  "The Infinite Cycle": {
+    "faction": "Protoss",
+    "campaign": "lotv"
+  },
+  "Harbinger of Oblivion": {
+    "faction": "Protoss",
+    "campaign": "lotv"
+  },
+  "Unsealing the Past": {
+    "faction": "Protoss",
+    "campaign": "lotv"
+  },
+  "Purification": {
+    "faction": "Protoss",
+    "campaign": "lotv"
+  },
+  "Steps of the Rite": {
+    "faction": "Protoss",
+    "campaign": "lotv"
+  },
+  "Rak'Shir": {
+    "faction": "Protoss",
+    "campaign": "lotv"
+  },
+  "Templar's Charge": {
+    "faction": "Protoss",
+    "campaign": "lotv"
+  },
+  "Templar's Return": {
+    "faction": "Protoss",
+    "campaign": "lotv"
+  },
+  "The Host": {
+    "faction": "Protoss",
+    "campaign": "lotv"
+  },
+  "Salvation": {
+    "faction": "Protoss",
+    "campaign": "lotv"
+  },
+  "Into the Void": {
+    "faction": "Protoss",
+    "campaign": "epilogue"
+  },
+  "The Essence of Eternity": {
+    "faction": "Terran",
+    "campaign": "epilogue"
+  },
+  "Amon's Fall": {
+    "faction": "Zerg",
+    "campaign": "epilogue"
+  },
+  "The Escape": {
+    "faction": "Terran",
+    "campaign": "nco"
+  },
+  "Sudden Strike": {
+    "faction": "Terran",
+    "campaign": "nco"
+  },
+  "Enemy Intelligence": {
+    "faction": "Terran",
+    "campaign": "nco"
+  },
+  "Trouble In Paradise": {
+    "faction": "Terran",
+    "campaign": "nco"
+  },
+  "Night Terrors": {
+    "faction": "Terran",
+    "campaign": "nco"
+  },
+  "Flashpoint": {
+    "faction": "Terran",
+    "campaign": "nco"
+  },
+  "In the Enemy's Shadow": {
+    "faction": "Terran",
+    "campaign": "nco"
+  },
+  "Dark Skies": {
+    "faction": "Terran",
+    "campaign": "nco"
+  },
+  "End Game": {
+    "faction": "Terran",
+    "campaign": "nco"
+  }
+}

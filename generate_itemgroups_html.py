@@ -6,6 +6,8 @@ from typing import *
 import inspect
 import json
 
+from generate_html_common import brief_name, write_table_of_contents
+
 if TYPE_CHECKING:
     import io
 
@@ -28,15 +30,7 @@ def write_start(fp: 'io.FileIO') -> None:
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
         }
-        .item-icon {
-            max-width: 1.4em;
-            vertical-align: middle;
-        }
-        .item-label {
-            display: inline;
-            vertical-align: middle;
-        }
-        a {
+        .list-item-label {
             color: #ebb;
         }
         </style>
@@ -46,30 +40,9 @@ def write_start(fp: 'io.FileIO') -> None:
     """))
 
 
-def brief_name(item_name: str) -> str:
-    return item_name.strip().replace('/', '-').replace('(', '').replace(')', '').replace(' ', '-')
-
-
-def write_table_of_contents(fp: 'io.FileIO', group_names: Iterable[str]) -> None:
-    fp.write(inspect.cleandoc("""
-    <div id="toc">
-    <h2 id="toc-title">Table of Contents</h2>
-    <ol>
-    """))
-    # Defeating file search with a strategy of putting invisible characters between every visible character.
-    # Based on this github library:
-    # https://github.com/seangransee/Disable-CTRL-F-jQuery-plugin/blob/master/disableFind.js
-    spacer = "<i>=</i>"
-    for group_name in sorted(group_names):
-        fp.write(f'<li><a href="#{brief_name(group_name)}">{spacer.join(group_name)}</a></li>\n')
-        # alternate strategy -- replace each character with a look-alike
-        # fp.write(f'<li><a class="no-select" href="#{brief_name(item_name)}">{confusable_hash(item_name)}</a></li>\n')
-    fp.write('</ol></div>\n')
-
-
 def write_title(fp: 'io.FileIO') -> None:
     fp.write('<h1>Item Groups</h1>')
-    fp.write('<p style="text-align: center">A list of item groups and what they expand to.</p>')
+    fp.write('<p style="text-align: center">A list of item groups and what they expand to.<br>Note this is largely beta content.</p>')
 
 
 def write_group(fp: 'io.FileIO', group_name: str, group_contents: Iterable[str], icon_manifest: dict[str, list[str]]) -> None:
@@ -83,8 +56,8 @@ def write_group(fp: 'io.FileIO', group_name: str, group_contents: Iterable[str],
     for item in items:
         fp.write(
             f'<div class="group-list-item">'
-            f'<img class="item-icon" src="{icon_manifest.get(item, [DEFAULT_IMAGE])[0]}">'
-            f'<a class="item-label" href="{ITEM_PAGE_REL_PATH}#{brief_name(item)}">{item}'
+            f'<img class="list-item-icon" src="{icon_manifest.get(item, [DEFAULT_IMAGE])[0]}">'
+            f'<a class="list-item-label" href="{ITEM_PAGE_REL_PATH}#{brief_name(item)}">{item}'
             f'</a></div>'
         )
     fp.write('</div></div>')

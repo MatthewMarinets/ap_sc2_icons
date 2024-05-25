@@ -10,19 +10,27 @@ import subprocess
 ORIGINAL_DIR = 'icons/original'
 BLIZZARD_DIR = 'icons/blizzard'
 
+
 def main(fast: bool = True) -> None:
     verbose = False
+    extras = {
+        '_terran': ['ui_glues_help_armyicon_terran.dds'],
+        '_protoss': ['ui_glues_help_armyicon_protoss.dds'],
+        '_zerg': ['ui_glues_help_armyicon_zerg.dds'],
+    }
     with open('workspace.json', 'r') as fp:
         config: dict[str, str] = json.load(fp)
     with open('data/locations.json', 'r') as fp:
         location_info: dict[str, dict] = json.load(fp)
     dds_dir = config['dds_files']
     mod_dir = config['mod_files']
+
     failures = 0
     successes = 0
     skipped = 0
     no_information = 0
     parsed_locations: dict[str, list[str]] = location_info['locations']
+    parsed_locations.update(extras)
     info = {}
     items = sorted(parsed_locations)
     if not os.path.exists(ORIGINAL_DIR):
