@@ -21,7 +21,7 @@ def write_start(fp: io.FileIO) -> None:
         img {
             display: inline-block;
             margin: auto;
-            max-width: 100%;
+            max-width: 96px;
             height: auto;
         }
         </style>
