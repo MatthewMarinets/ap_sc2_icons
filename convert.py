@@ -7,20 +7,22 @@ import json
 import os
 import subprocess
 
+from filepaths import Paths
+
 ORIGINAL_DIR = 'icons/original'
 BLIZZARD_DIR = 'icons/blizzard'
 
 
-def main(fast: bool = True) -> None:
+def main(paths: Paths, fast: bool = True) -> None:
     verbose = False
     extras = {
         '_terran': ['ui_glues_help_armyicon_terran.dds'],
         '_protoss': ['ui_glues_help_armyicon_protoss.dds'],
         '_zerg': ['ui_glues_help_armyicon_zerg.dds'],
     }
-    with open('workspace.json', 'r') as fp:
+    with open(paths.workspace, 'r') as fp:
         config: dict[str, str] = json.load(fp)
-    with open('data/locations.json', 'r') as fp:
+    with open(paths.icon_paths, 'r') as fp:
         location_info: dict[str, dict] = json.load(fp)
     dds_dir = config['dds_files']
     mod_dir = config['mod_files']
@@ -71,10 +73,10 @@ def main(fast: bool = True) -> None:
                 successes += 1
                 converted.add(target_path)
             info.setdefault(item, []).append(target_path)
-    with open('data/icon_manifest.json', 'w') as fp:
+    with open(paths.icon_manifest, 'w') as fp:
         json.dump(info, fp, indent=1)
     print(f'Converted: {successes} | Skipped (duplicate): {skipped} | Failed: {failures} | No path: {no_information} | Items: {len(items)}')
 
 
 if __name__ == '__main__':
-    main()
+    main(Paths())

@@ -20,6 +20,9 @@ import os
 import re
 from datetime import datetime
 
+from filepaths import Paths
+
+
 class ItemId(NamedTuple):
     race: str
     category: str
@@ -538,13 +541,13 @@ def resolve_item_icon(
     ]
 
 
-def main():
-    with open('workspace.json', 'r') as fp:
+def main(paths: Paths):
+    with open(paths.workspace, 'r') as fp:
         config = json.load(fp)
     game_data = os.path.join(config['mod_files'], 'Mods/ArchipelagoPlayer.SC2Mod/Base.SC2Data/GameData')
     liberty_game_data = config.get('liberty_game_data')
 
-    with open('data/overrides.json', 'r') as fp:
+    with open(paths.overrides, 'r') as fp:
         overrides: dict = json.load(fp)
 
     item_data = get_item_data()
@@ -596,9 +599,9 @@ def main():
         'locations': locations,
     }
     print(f'Found {found} / {len(item_numbers)}')
-    with open('data/locations.json', 'w') as fp:
+    with open(paths.icon_paths, 'w') as fp:
         json.dump(result, fp, indent=2)
 
 if __name__ == '__main__':
-    main()
+    main(Paths())
     

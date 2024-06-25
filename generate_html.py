@@ -4,6 +4,7 @@ import json
 import io
 import inspect
 
+from filepaths import Paths
 from generate_html_common import brief_name, write_table_of_contents
 
 
@@ -62,12 +63,12 @@ def write_end(fp: io.FileIO) -> None:
     </html>
     """))
 
-def main() -> None:
-    with open('data/item_data.json', 'r') as fp:
+def main(paths: Paths) -> None:
+    with open(paths.item_data, 'r') as fp:
         item_data = json.load(fp)
-    with open('data/icon_manifest.json', 'r') as fp:
+    with open(paths.icon_manifest, 'r') as fp:
         icon_manifest = json.load(fp)
-    with open('index.html', 'w', encoding='utf-8') as fp:
+    with open(paths.items_html, 'w', encoding='utf-8') as fp:
         write_start(fp)
         write_table_of_contents(fp, item_data, sort_func=lambda x: tuple(reversed(x.split(' ('))) if ' (' in x else ('', x))
         for item in item_data:
@@ -75,4 +76,4 @@ def main() -> None:
         write_end(fp)
 
 if __name__ == '__main__':
-    main()
+    main(Paths())

@@ -6,6 +6,7 @@ from typing import *
 import inspect
 import json
 
+from filepaths import Paths
 from generate_html_common import brief_name, write_table_of_contents
 
 if TYPE_CHECKING:
@@ -80,14 +81,14 @@ def write_end(fp: 'io.FileIO') -> None:
     """))
 
 
-def main() -> None:
-    with open('data/mission_data.json', 'r') as fp:
+def main(paths: Paths) -> None:
+    with open(paths.mission_data, 'r') as fp:
         mission_data: dict[str, dict[str, str]] = json.load(fp)
-    with open('data/mission_groups.json', 'r') as fp:
+    with open(paths.mission_groups, 'r') as fp:
         mission_groups: dict[str, list[str]] = json.load(fp)
-    with open('data/icon_manifest.json', 'r') as fp:
+    with open(paths.icon_manifest, 'r') as fp:
         icons: dict[str, list[str]] = json.load(fp)
-    with open('missiongroups.html', 'w', encoding='utf-8') as fp:
+    with open(paths.mission_groups_html, 'w', encoding='utf-8') as fp:
         write_start(fp)
         write_table_of_contents(fp, mission_groups)
         write_title(fp)
@@ -97,4 +98,4 @@ def main() -> None:
 
 
 if __name__ == '__main__':
-    main()
+    main(Paths())

@@ -6,6 +6,7 @@ from typing import *
 import inspect
 import json
 
+from filepaths import Paths
 from generate_html_common import brief_name, write_table_of_contents
 
 if TYPE_CHECKING:
@@ -71,12 +72,12 @@ def write_end(fp: 'io.FileIO') -> None:
     """))
 
 
-def main() -> None:
-    with open('data/item_groups.json', 'r') as fp:
+def main(paths: Paths) -> None:
+    with open(paths.item_groups, 'r') as fp:
         item_groups: dict[str, list[str]] = json.load(fp)
-    with open('data/icon_manifest.json', 'r') as fp:
+    with open(paths.icon_manifest, 'r') as fp:
         icon_manifest = json.load(fp)
-    with open('itemgroups.html', 'w', encoding='utf-8') as fp:
+    with open(paths.item_groups_html, 'w', encoding='utf-8') as fp:
         write_start(fp)
         write_table_of_contents(fp, item_groups)
         write_title(fp)
@@ -86,4 +87,4 @@ def main() -> None:
 
 
 if __name__ == '__main__':
-    main()
+    main(Paths())
