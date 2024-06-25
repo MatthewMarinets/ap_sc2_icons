@@ -19,6 +19,7 @@ import json
 import os
 import re
 from datetime import datetime
+import enum
 
 from filepaths import Paths
 
@@ -32,8 +33,8 @@ class GalaxyItem(NamedTuple):
     galaxy_type: Literal['unit', 'upgrade', 'ability']
     name: str
 
-def get_item_data() -> dict[str, dict]:
-    with open('data/item_data.json', 'r') as fp:
+def get_item_data(paths: Paths) -> dict[str, dict]:
+    with open(paths.item_data, 'r') as fp:
         return json.load(fp)
 
 def get_item_numbers(item_data: dict[str, dict]) -> dict[str, ItemId]:
@@ -44,6 +45,13 @@ def get_item_numbers(item_data: dict[str, dict]) -> dict[str, ItemId]:
             item['number'])
         for item_name, item in item_data.items()
     }
+
+
+class ArrayType(enum.IntEnum):
+    Basic = 1
+    Progressive = 2
+    WeaponArmour = 4
+
 
 def parse_galaxy_file(galaxy_path: str) -> Dict[ItemId, List[GalaxyItem]]:
     with open(galaxy_path, 'r') as fp:
@@ -62,12 +70,13 @@ def parse_galaxy_file(galaxy_path: str) -> Dict[ItemId, List[GalaxyItem]]:
     unlock_ability_pattern = re.compile(r'^\s*TechTreeAbilityAllow\(lp_player,\s*AbilityCommand\("(AP_[^"]+)",\s*\d+\),\s*true')
     UNLOCK_ARRAY_START = 'processBitsInBitArray'
     UNLOCK_PROGRESSIVE_ARRAY_START = 'ap_triggers_processUpgrades'
-    is_progressive_array = False
+    UNLOCK_WA_UPGRADES_START = 'ap_triggers_processWeaponArmorUpgrades'
+    array_type = ArrayType.Basic
     for line in lines:
         if match := re.match(function_name_pattern, line):
             current_function = match.group(1)
         elif UNLOCK_ARRAY_START in line:
-            is_progressive_array = False
+            array_type = ArrayType.Basic
             bit_array_line += 1
             assert current_function
             match = re.match(unlock_function_pattern, current_function)
@@ -82,7 +91,7 @@ def parse_galaxy_file(galaxy_path: str) -> Dict[ItemId, List[GalaxyItem]]:
                 .replace('KerriganAbilities', 'Ability')
             )
         elif UNLOCK_PROGRESSIVE_ARRAY_START in line:
-            is_progressive_array = True
+            array_type = ArrayType.Progressive
             bit_array_line += 1
             assert current_function
             match = re.match(unlock_function_pattern, current_function)
@@ -91,6 +100,14 @@ def parse_galaxy_file(galaxy_path: str) -> Dict[ItemId, List[GalaxyItem]]:
                 .replace('ProgressiveUpgrades', 'Progressive')
                 .replace('Upgrades', 'Upgrade')
             )
+        elif UNLOCK_WA_UPGRADES_START in line:
+            array_type = ArrayType.WeaponArmour
+            bit_array_line += 1
+            assert current_function
+            match = re.match(unlock_function_pattern, current_function)
+            assert match
+            race = match.group(1).lower()
+            category = 'Upgrade'
         elif bit_array_line > -3 and ')' not in line:
             assert race
             assert category
@@ -98,8 +115,10 @@ def parse_galaxy_file(galaxy_path: str) -> Dict[ItemId, List[GalaxyItem]]:
                 function_name = line.split('//', 1)[0].strip().split(',', 1)[0]
                 if 'Consumer_sig' not in function_name:
                     function_to_category[function_name] = ItemId(race, category, bit_array_line)
-                bit_array_line += is_progressive_array
-            bit_array_line += 1
+                bit_array_line += array_type
+            else:
+                # count through lp_player, lp_bitArrayValue arguments
+                bit_array_line += 1
         elif bit_array_line > -3:
             bit_array_line = -3
             race = ''
@@ -550,7 +569,7 @@ def main(paths: Paths):
     with open(paths.overrides, 'r') as fp:
         overrides: dict = json.load(fp)
 
-    item_data = get_item_data()
+    item_data = get_item_data(paths)
     item_numbers = get_item_numbers(item_data)
     upgrade_to_icon = parse_upgrade_data(os.path.join(game_data, 'UpgradeData.xml'))
     button_to_icon = parse_button_data(os.path.join(game_data, 'ButtonData.xml'))

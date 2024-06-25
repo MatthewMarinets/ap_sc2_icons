@@ -14,8 +14,9 @@ if __name__ == '__main__':
         workspace = json.load(fp)
     paths = Paths()
     paths.icon_paths = 'data/beta_icon_paths.json'
-    paths.icon_manifest = 'data/icon_manifest.json'
+    paths.icon_manifest = 'data/beta_icon_manifest.json'
     paths.item_data = 'data/beta_item_data.json'
+    paths.items_html = 'betaitems.html'
 
     env = os.environ
     env['PYTHONPATH'] = workspace['ap_files']
