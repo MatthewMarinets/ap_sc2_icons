@@ -1289,19 +1289,6 @@
     "Enhanced Mitochondria (Brood Queen)": [
       "assets\\textures\\btn-upgrade-zerg-stukov-queenenergyregen.dds"
     ],
-    "Pathogen Projectors (Defiler)": [
-      "assets\\textures\\btn-upgrade-zagara-increasebilelauncherrange.dds"
-    ],
-    "Trapdoor Adaptation (Defiler)": [
-      "assets\\textures\\btn-upgrade-zerg-burrowmove.dds"
-    ],
-    "Predatory Consumption (Defiler)": [
-      "assets\\textures\\btn-ability-zerg-consume.dds",
-      "assets\\textures\\btn-progression-zerg-dehaka-15-genemutation.dds"
-    ],
-    "Comorbidity (Defiler)": [
-      "assets\\textures\\btn-upgrade-zerg-dehaka-tenderize.dds"
-    ],
     "Raptor Strain (Zergling)": [
       "assets\\textures\\btn-ability-zerg-cliffjump-zergling.dds",
       "assets\\textures\\btn-unit-zerg-zergling-raptor.dds",

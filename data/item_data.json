@@ -3536,42 +3536,6 @@
     "parent_item": "Brood Queen",
     "description": "Brood Queens start with maximum energy and gain increased energy regeneration. Like powerhouses (of the cell)."
   },
-  "Pathogen Projectors (Defiler)": {
-    "type": "Mutation 3",
-    "number": 17,
-    "race": "ZERG",
-    "classification": "useful",
-    "quantity": 1,
-    "parent_item": "Defiler",
-    "description": "Defilers gain +4 cast range for Dark Swarm and Plague."
-  },
-  "Trapdoor Adaptation (Defiler)": {
-    "type": "Mutation 3",
-    "number": 19,
-    "race": "ZERG",
-    "classification": "useful",
-    "quantity": 1,
-    "parent_item": "Defiler",
-    "description": "Defilers can now use abilities while burrowed."
-  },
-  "Predatory Consumption (Defiler)": {
-    "type": "Mutation 3",
-    "number": 20,
-    "race": "ZERG",
-    "classification": "useful",
-    "quantity": 1,
-    "parent_item": "Defiler",
-    "description": "Defilers can now use Consume on any non-heroic biological unit, not just friendly Zerg."
-  },
-  "Comorbidity (Defiler)": {
-    "type": "Mutation 3",
-    "number": 18,
-    "race": "ZERG",
-    "classification": "useful",
-    "quantity": 1,
-    "parent_item": "Defiler",
-    "description": "Plague now stacks up to three times, and depletes energy as well as health."
-  },
   "Raptor Strain (Zergling)": {
     "type": "Strain",
     "number": 0,
