@@ -13,9 +13,6 @@ if TYPE_CHECKING:
     import io
 
 
-ITEM_PAGE_REL_PATH = './index.html'
-
-
 def write_start(fp: 'io.FileIO') -> None:
     fp.write(inspect.cleandoc("""
     <!doctype html>
@@ -46,7 +43,13 @@ def write_title(fp: 'io.FileIO') -> None:
     fp.write('<p style="text-align: center">A list of item groups and what they expand to.<br>Note this is largely beta content.</p>')
 
 
-def write_group(fp: 'io.FileIO', group_name: str, group_contents: Iterable[str], icon_manifest: dict[str, list[str]]) -> None:
+def write_group(
+    fp: 'io.FileIO',
+    group_name: str,
+    group_contents: Iterable[str],
+    icon_manifest: dict[str, list[str]],
+    item_page_rel_path: str
+) -> None:
     DEFAULT_IMAGE = 'favicon.png'
     fp.write(inspect.cleandoc(f"""
     <div id="{group_name}">
@@ -58,7 +61,7 @@ def write_group(fp: 'io.FileIO', group_name: str, group_contents: Iterable[str],
         fp.write(
             f'<div class="group-list-item">'
             f'<img class="list-item-icon" src="{icon_manifest.get(item, [DEFAULT_IMAGE])[0]}">'
-            f'<a class="list-item-label" href="{ITEM_PAGE_REL_PATH}#{brief_name(item)}">{item}'
+            f'<a class="list-item-label" href="{item_page_rel_path}#{brief_name(item)}">{item}'
             f'</a></div>'
         )
     fp.write('</div></div>')
@@ -77,12 +80,13 @@ def main(paths: Paths) -> None:
         item_groups: dict[str, list[str]] = json.load(fp)
     with open(paths.icon_manifest, 'r') as fp:
         icon_manifest = json.load(fp)
+    item_page_rel_path = f'./{paths.items_html}'
     with open(paths.item_groups_html, 'w', encoding='utf-8') as fp:
         write_start(fp)
         write_table_of_contents(fp, item_groups)
         write_title(fp)
         for group_name, group_contents in item_groups.items():
-            write_group(fp, group_name, group_contents, icon_manifest)
+            write_group(fp, group_name, group_contents, icon_manifest, item_page_rel_path)
         write_end(fp)
 
 
