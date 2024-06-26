@@ -475,7 +475,6 @@
     ],
     "Progressive Tomahawk Power Cells (Wraith)": [
       "ap\\assets\\custom\\textures\\btn-permacloak-wraith.dds",
-      "assets\\textures\\btn-ability-terran-cloak-color.dds",
       "assets\\textures\\btn-techupgrade-terran-tomahawkpowercell.dds"
     ],
     "Displacement Field (Wraith)": [
@@ -489,8 +488,7 @@
     ],
     "Progressive Cross-Spectrum Dampeners (Banshee)": [
       "ap\\assets\\custom\\textures\\btn-permacloak-banshee.dds",
-      "ap\\assets\\textures\\btn-banshee-cross-spectrum-dampeners.dds",
-      "assets\\textures\\btn-ability-terran-cloak-color.dds"
+      "ap\\assets\\textures\\btn-banshee-cross-spectrum-dampeners.dds"
     ],
     "Shockwave Missile Battery (Banshee)": [
       "assets\\textures\\btn-upgrade-raynor-shockwavemissilebattery.dds"
@@ -506,16 +504,14 @@
       "assets\\textures\\btn-techupgrade-terran-ocularimplants.dds"
     ],
     "Crius Suit (Ghost)": [
-      "ap\\assets\\custom\\textures\\btn-permacloak-ghost.dds",
-      "assets\\textures\\btn-ability-terran-cloak-color.dds"
+      "ap\\assets\\custom\\textures\\btn-permacloak-ghost.dds"
     ],
     "Psionic Lash (Spectre)": [
       "ap\\assets\\textures\\btn-ability-terran-ultrasonicpulse.dds",
       "assets\\textures\\btn-techupgrade-terran-psioniclash.dds"
     ],
     "Nyx-Class Cloaking Module (Spectre)": [
-      "ap\\assets\\custom\\textures\\btn-permacloak-spectre.dds",
-      "assets\\textures\\btn-ability-terran-cloak-color.dds"
+      "ap\\assets\\custom\\textures\\btn-permacloak-spectre.dds"
     ],
     "330mm Barrage Cannon (Thor)": [
       "ap\\assets\\custom\\textures\\btn-ability-thor-330mm.dds",
@@ -741,7 +737,6 @@
       "assets\\textures\\btn-unit-terran-mule.dds"
     ],
     "Bunker": [
-      "ap\\assets\\textures\\btn-building-terran-bunkerneosteel.dds",
       "assets\\textures\\btn-building-terran-bunker.dds"
     ],
     "Missile Turret": [
@@ -835,8 +830,7 @@
       "ap\\assets\\textures\\btn-research-terran-microfiltering.dds"
     ],
     "Automated Refinery": [
-      "ap\\assets\\textures\\btn-building-terran-refineryautomated.dds",
-      "assets\\textures\\btn-building-terran-refinery.dds"
+      "ap\\assets\\textures\\btn-building-terran-refineryautomated.dds"
     ],
     "Command Center Reactor (Command Center)": [],
     "Raven": [
@@ -856,8 +850,7 @@
     ],
     "Fortified Bunker (Bunker)": [
       "ap\\assets\\textures\\btn-building-terran-bunkerneosteel.dds",
-      "ap\\assets\\textures\\btn-research-zerg-fortifiedbunker.dds",
-      "assets\\textures\\btn-building-terran-bunker.dds"
+      "ap\\assets\\textures\\btn-research-zerg-fortifiedbunker.dds"
     ],
     "Planetary Fortress": [
       "assets\\textures\\btn-building-terran-planetaryfortress.dds"
@@ -954,7 +947,6 @@
       "assets\\textures\\btn-upgrade-nova-blink.dds"
     ],
     "Progressive Stealth Suit Module (Nova Suit Module)": [
-      "assets\\textures\\btn-ability-terran-cloak-color.dds",
       "assets\\textures\\btn-upgrade-nova-tacticalstealthsuit.dds",
       "btn-upgrade-nova-equipment-stealthsuit.dds"
     ],

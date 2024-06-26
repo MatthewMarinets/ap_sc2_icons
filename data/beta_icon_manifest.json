@@ -162,8 +162,7 @@
   "icons/blizzard/btn-building-zerg-extractor.png"
  ],
  "Automated Refinery": [
-  "icons/original/btn-building-terran-refineryautomated.png",
-  "icons/blizzard/btn-building-terran-refinery.png"
+  "icons/original/btn-building-terran-refineryautomated.png"
  ],
  "Avenger": [
   "icons/blizzard/btn-unit-protoss-darktemplar-aiur.png"
@@ -234,7 +233,6 @@
   "icons/blizzard/btn-unit-collection-vikingfighter-covertops.png"
  ],
  "Bunker": [
-  "icons/original/btn-building-terran-bunkerneosteel.png",
   "icons/blizzard/btn-building-terran-bunker.png"
  ],
  "Burrow (Swarm Host)": [
@@ -368,8 +366,7 @@
   "icons/blizzard/btn-unit-zerg-swarmhost.png"
  ],
  "Crius Suit (Ghost)": [
-  "icons/original/btn-permacloak-ghost.png",
-  "icons/blizzard/btn-ability-terran-cloak-color.png"
+  "icons/original/btn-permacloak-ghost.png"
  ],
  "Crushing Grip (Kerrigan Ability)": [
   "icons/blizzard/btn-ability-swarm-kerrigan-crushinggrip.png"
@@ -526,8 +523,7 @@
  ],
  "Fortified Bunker (Bunker)": [
   "icons/original/btn-building-terran-bunkerneosteel.png",
-  "icons/original/btn-research-zerg-fortifiedbunker.png",
-  "icons/blizzard/btn-building-terran-bunker.png"
+  "icons/original/btn-research-zerg-fortifiedbunker.png"
  ],
  "Frenzy (Hydralisk)": [
   "icons/blizzard/btn-upgrade-zerg-frenzy.png"
@@ -1008,8 +1004,7 @@
   "icons/blizzard/btn-unit-zerg-ultralisk-noxious.png"
  ],
  "Nyx-Class Cloaking Module (Spectre)": [
-  "icons/original/btn-permacloak-spectre.png",
-  "icons/blizzard/btn-ability-terran-cloak-color.png"
+  "icons/original/btn-permacloak-spectre.png"
  ],
  "Observer": [
   "icons/blizzard/btn-unit-protoss-observer.png"
@@ -1158,8 +1153,7 @@
  ],
  "Progressive Cross-Spectrum Dampeners (Banshee)": [
   "icons/original/btn-permacloak-banshee.png",
-  "icons/original/btn-banshee-cross-spectrum-dampeners.png",
-  "icons/blizzard/btn-ability-terran-cloak-color.png"
+  "icons/original/btn-banshee-cross-spectrum-dampeners.png"
  ],
  "Progressive Defensive Matrix (Battlecruiser)": [
   "icons/blizzard/btn-upgrade-swann-defensivematrix.png"
@@ -1226,7 +1220,6 @@
   "icons/blizzard/btn-upgrade-raynor-replenishablemagazine.png"
  ],
  "Progressive Stealth Suit Module (Nova Suit Module)": [
-  "icons/blizzard/btn-ability-terran-cloak-color.png",
   "icons/blizzard/btn-upgrade-nova-tacticalstealthsuit.png",
   "icons/blizzard/btn-upgrade-nova-equipment-stealthsuit.png"
  ],
@@ -1294,7 +1287,6 @@
  ],
  "Progressive Tomahawk Power Cells (Wraith)": [
   "icons/original/btn-permacloak-wraith.png",
-  "icons/blizzard/btn-ability-terran-cloak-color.png",
   "icons/blizzard/btn-techupgrade-terran-tomahawkpowercell.png"
  ],
  "Progressive Transport Hook (Siege Tank)": [
