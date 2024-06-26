@@ -2,6 +2,7 @@
 from typing import *
 import json
 import io
+import os
 import inspect
 
 from filepaths import Paths
@@ -43,6 +44,7 @@ def write_item(fp: io.FileIO, item_name: str, item_info: str, icon_locations: li
         <a id="{brief_name(item_name)}"></a><a href="#{brief_name(item_name)}" class="item-title"><h2>{item_name}</h2></a>
         <div class="image-container">
     """))
+    icon_locations = sorted(icon_locations, key=os.path.basename)
     if not icon_locations:
         fp.write('<p class="error">Icon unavailable</p>')
     locations_list_items = ''
