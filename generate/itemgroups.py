@@ -7,7 +7,7 @@ import inspect
 import json
 
 from filepaths import Paths
-from generate_html_common import brief_name, write_table_of_contents
+from generate.html_common import brief_name, write_table_of_contents
 
 if TYPE_CHECKING:
     import io

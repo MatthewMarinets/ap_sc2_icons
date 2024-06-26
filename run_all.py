@@ -5,7 +5,7 @@ import os
 
 import clean_icons
 import convert
-import generate_html, generate_itemgroups_html, generate_missiongroups_html
+from generate import itemlist, itemgroups, missiongroups
 import parse_icon_data
 from filepaths import Paths
 
@@ -29,6 +29,6 @@ if __name__ == '__main__':
     parse_icon_data.main(paths)
     if not FAST: clean_icons.main()
     convert.main(paths, fast=FAST)
-    generate_html.main(paths)
-    generate_missiongroups_html.main(paths)
-    generate_itemgroups_html.main(paths)
+    itemlist.main(paths)
+    missiongroups.main(paths)
+    itemgroups.main(paths)

@@ -5,7 +5,7 @@ import io
 import inspect
 
 from filepaths import Paths
-from generate_html_common import brief_name, write_table_of_contents
+from generate.html_common import brief_name, write_table_of_contents
 
 
 def write_start(fp: io.FileIO) -> None:
