@@ -70,6 +70,16 @@ def write_end(fp: io.FileIO) -> None:
     """))
 
 
+def item_sort_func(item_name: str) -> tuple:
+    if ' (' in item_name:
+        parts = item_name.split(' (')
+        assert len(parts) == 2
+        if parts[1] in ('Zerg)', 'Terran)', 'Protoss)'):
+            return ('(' + parts[1], parts[0])
+        return (parts[1], parts[0])
+    return ('', item_name)
+
+
 def main(paths: Paths) -> None:
     with open(paths.item_data, 'r') as fp:
         item_data = json.load(fp)
@@ -78,7 +88,7 @@ def main(paths: Paths) -> None:
     with open(paths.items_html, 'w', encoding='utf-8') as fp:
         write_start(fp)
         write_topbar_nav(fp, paths)
-        write_table_of_contents(fp, item_data, sort_func=lambda x: tuple(reversed(x.split(' ('))) if ' (' in x else ('', x))
+        write_table_of_contents(fp, item_data, sort_func=item_sort_func)
         write_title(fp)
         for item in item_data:
             write_item(fp, item, item_data[item], icon_manifest.get(item, []))
