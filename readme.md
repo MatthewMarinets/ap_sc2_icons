@@ -20,3 +20,4 @@ The scripts use path information pulled from a workspace.json file in the root o
 | dds_files           | a path to a directory containing .dds files extracted from the game files |
 | mod_files           | a path to the root of a clone of `archipelago-sc2-data` |
 | liberty_game_data   | a path to a directory containing the extracted ButtonData.xml from the base game's liberty mod |
+| ap_files            | a path to a directory containing Archipelago source |
