@@ -6,6 +6,7 @@ from typing import Iterable, TYPE_CHECKING, Callable, Optional
 import inspect
 
 if TYPE_CHECKING:
+    from filepaths import Paths
     import io
 
 
@@ -28,6 +29,16 @@ def write_table_of_contents(fp: 'io.FileIO', heading_names: Iterable[str], sort_
         # alternate strategy -- replace each character with a look-alike
         # fp.write(f'<li><a class="no-select" href="#{brief_name(item_name)}">{confusable_hash(item_name)}</a></li>\n')
     fp.write('</ol></div>\n')
+
+
+def write_topbar_nav(fp: 'io.FileIO', paths: 'Paths') -> None:
+    fp.write(inspect.cleandoc(f"""
+    <div id="topbar">
+    <a href="./{paths.items_html}">Items</a> | 
+    <a href="./{paths.item_groups_html}">Item Groups</a> | 
+    <a href="./{paths.mission_groups_html}">Mission Groups</a>
+    </div>
+    """))
 
 
 def confusable_hash_char(char: str) -> str:

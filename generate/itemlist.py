@@ -5,7 +5,7 @@ import io
 import inspect
 
 from filepaths import Paths
-from generate.html_common import brief_name, write_table_of_contents
+from generate.html_common import brief_name, write_table_of_contents, write_topbar_nav
 
 
 def write_start(fp: io.FileIO) -> None:
@@ -70,6 +70,7 @@ def main(paths: Paths) -> None:
         icon_manifest = json.load(fp)
     with open(paths.items_html, 'w', encoding='utf-8') as fp:
         write_start(fp)
+        write_topbar_nav(fp, paths)
         write_table_of_contents(fp, item_data, sort_func=lambda x: tuple(reversed(x.split(' ('))) if ' (' in x else ('', x))
         for item in item_data:
             write_item(fp, item, item_data[item], icon_manifest.get(item, []))

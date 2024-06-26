@@ -7,7 +7,7 @@ import inspect
 import json
 
 from filepaths import Paths
-from generate.html_common import brief_name, write_table_of_contents
+from generate.html_common import brief_name, write_table_of_contents, write_topbar_nav
 
 if TYPE_CHECKING:
     import io
@@ -90,6 +90,7 @@ def main(paths: Paths) -> None:
         icons: dict[str, list[str]] = json.load(fp)
     with open(paths.mission_groups_html, 'w', encoding='utf-8') as fp:
         write_start(fp)
+        write_topbar_nav(fp, paths)
         write_table_of_contents(fp, mission_groups)
         write_title(fp)
         for group_name, group_contents in mission_groups.items():
