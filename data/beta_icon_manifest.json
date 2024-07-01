@@ -72,7 +72,7 @@
   "icons/blizzard/btn-techupgrade-terran-nano-botinjectors.png",
   "icons/blizzard/btn-upgrade-terran-internalizedtechmodule.png"
  ],
- "Advanced Optics": [
+ "Advanced Optics (Terran)": [
   "icons/blizzard/btn-upgrade-swann-vehiclerangeincrease.png"
  ],
  "Advanced Photon Blasters (Scout)": [
@@ -102,7 +102,7 @@
  "Agony Launchers (Vanguard)": [
   "icons/blizzard/btn-ability-protoss-chargedblast.png"
  ],
- "Amplified Assimilators": [
+ "Amplified Assimilators (Protoss)": [
   "icons/original/btn-research-terran-microfiltering.png"
  ],
  "Anabolic Synthesis (Ultralisk)": [
@@ -161,7 +161,7 @@
   "icons/blizzard/btn-ability-kerrigan-automatedextractors.png",
   "icons/blizzard/btn-building-zerg-extractor.png"
  ],
- "Automated Refinery": [
+ "Automated Refinery (Terran)": [
   "icons/original/btn-building-terran-refineryautomated.png"
  ],
  "Avenger": [
@@ -265,7 +265,7 @@
  "Caustic Spray (Corruptor)": [
   "icons/blizzard/btn-ability-zerg-causticspray.png"
  ],
- "Cellular Reactor": [
+ "Cellular Reactor (Terran)": [
   "icons/blizzard/btn-research-zerg-cellularreactor.png"
  ],
  "Centrifugal Hooks (Baneling)": [
@@ -479,7 +479,7 @@
  "Enhanced Strider Servos (Dragoon)": [
   "icons/blizzard/btn-upgrade-terran-transformationservos.png"
  ],
- "Enhanced Targeting": [
+ "Enhanced Targeting (Protoss)": [
   "icons/blizzard/btn-upgrade-karax-turretrange.png"
  ],
  "Ensnare (Brood Queen)": [
@@ -582,7 +582,7 @@
  "Guardian Aspect (Mutalisk/Corruptor)": [
   "icons/blizzard/btn-unit-zerg-primalguardian.png"
  ],
- "Guardian Shell": [
+ "Guardian Shell (Protoss)": [
   "icons/blizzard/btn-ability-spearofadun-guardianshell.png"
  ],
  "Guerilla Missiles (Liberator)": [
@@ -632,7 +632,7 @@
  "Heroic Fortitude (Kerrigan Passive)": [
   "icons/blizzard/btn-ability-kerrigan-heroicfortitude.png"
  ],
- "Hi-Sec Auto Tracking": [
+ "Hi-Sec Auto Tracking (Terran)": [
   "icons/blizzard/btn-upgrade-terran-hisecautotracking.png"
  ],
  "High Archon (Archon)": [
@@ -809,7 +809,7 @@
  "Jump Suit Module (Nova Suit Module)": [
   "icons/blizzard/btn-upgrade-nova-jetpack.png"
  ],
- "Khalai Ingenuity": [
+ "Khalai Ingenuity (Protoss)": [
   "icons/blizzard/btn-upgrade-karax-pylonwarpininstantly.png"
  ],
  "Khaydarin Amulet (High Templar/Signifier)": [
@@ -916,11 +916,14 @@
  "Mass Recall (Spear of Adun Calldown)": [
   "icons/blizzard/btn-ability-spearofadun-massrecall.png"
  ],
- "Matrix Overload": [
+ "Matrix Overload (Protoss)": [
   "icons/blizzard/btn-ability-spearofadun-matrixoverload.png"
  ],
  "Matter Dispersion (Vanguard)": [
   "icons/blizzard/btn-upgrade-protoss-vanguard-aoeradiusincreased.png"
+ ],
+ "Mechanical Know-how (Terran)": [
+  "icons/blizzard/talent-swann-level14-vehiclehealthincrease.png"
  ],
  "Medic": [
   "icons/blizzard/btn-unit-terran-medic.png"
@@ -931,10 +934,13 @@
  "Mend (Kerrigan Ability)": [
   "icons/blizzard/btn-ability-zerg-transfusion-color.png"
  ],
+ "Mercenary Munitions (Terran)": [
+  "icons/blizzard/talent-raynor-level14-infantryattackspeed.png"
+ ],
  "Metabolic Boost (Zergling)": [
   "icons/blizzard/btn-upgrade-zerg-hotsmetabolicboost.png"
  ],
- "Micro-Filtering": [
+ "Micro-Filtering (Terran)": [
   "icons/original/btn-research-terran-microfiltering.png"
  ],
  "Microbial Shroud (Infestor)": [
@@ -990,7 +996,7 @@
   "icons/blizzard/btn-upgrade-protoss-adeptshieldupgrade.png",
   "icons/blizzard/btn-upgrade-protoss-shieldslevel1.png"
  ],
- "Nexus Overcharge": [
+ "Nexus Overcharge (Protoss)": [
   "icons/blizzard/btn-ability-spearofadun-nexusovercharge.png",
   "icons/blizzard/btn-upgrade-karax-turretattackspeed.png",
   "icons/blizzard/btn-upgrade-karax-turretrange.png"
@@ -1030,17 +1036,17 @@
  "Optimized Logistics (Marine)": [
   "icons/blizzard/btn-upgrade-terran-optimizedlogistics.png"
  ],
- "Optimized Ordnance": [
+ "Optimized Ordnance (Protoss)": [
   "icons/blizzard/btn-upgrade-karax-turretattackspeed.png"
  ],
  "Oracle": [
   "icons/blizzard/btn-unit-protoss-oracle.png"
  ],
- "Orbital Assimilators": [
+ "Orbital Assimilators (Protoss)": [
   "icons/blizzard/btn-ability-spearofadun-orbitalassimilator.png",
   "icons/blizzard/btn-building-protoss-assimilator.png"
  ],
- "Orbital Depots": [
+ "Orbital Depots (Terran)": [
   "icons/blizzard/btn-research-terran-orbitaldepots.png"
  ],
  "Orbital Module (Planetary Fortress)": [
@@ -1048,11 +1054,11 @@
   "icons/blizzard/btn-ability-terran-scannersweep-color.png",
   "icons/blizzard/btn-unit-terran-mule.png"
  ],
- "Orbital Strike": [
-  "icons/blizzard/btn-research-terran-orbitalstrikerally.png"
- ],
  "Orbital Strike (Spear of Adun Calldown)": [
   "icons/blizzard/btn-ability-spearofadun-orbitalstrike.png"
+ ],
+ "Orbital Strike (Terran)": [
+  "icons/blizzard/btn-research-terran-orbitalstrikerally.png"
  ],
  "Organic Carapace (Roach)": [
   "icons/blizzard/btn-upgrade-zerg-organiccarapace.png"
@@ -1158,7 +1164,7 @@
  "Progressive Defensive Matrix (Battlecruiser)": [
   "icons/blizzard/btn-upgrade-swann-defensivematrix.png"
  ],
- "Progressive Fire-Suppression System": [
+ "Progressive Fire-Suppression System (Terran)": [
   "icons/blizzard/btn-upgrade-swann-firesuppressionsystem.png"
  ],
  "Progressive High Impact Payload (Thor)": [
@@ -1211,7 +1217,7 @@
   "icons/blizzard/btn-ability-spearofadun-warpinreinforcements.png",
   "icons/blizzard/btn-ability-spearofadun-deploypylon.png"
  ],
- "Progressive Regenerative Bio-Steel": [
+ "Progressive Regenerative Bio-Steel (Terran)": [
   "icons/original/btn-regenerativebiosteel-blue.png",
   "icons/original/btn-regenerativebiosteel-green.png",
   "icons/blizzard/btn-research-zerg-regenerativebio-steel.png"
@@ -1363,7 +1369,7 @@
  "Quantic Reactor (Tempest)": [
   "icons/blizzard/btn-upgrade-protoss-researchgravitysling.png"
  ],
- "Quatro": [
+ "Quatro (Protoss)": [
   "icons/blizzard/btn-progression-protoss-fenix-6-forgeresearch.png"
  ],
  "Raid Artillery (Liberator)": [
@@ -1544,7 +1550,7 @@
  "Rocket Barrage (Banshee)": [
   "icons/blizzard/btn-upgrade-terran-nova-bansheemissilestrik.png"
  ],
- "Rogue Forces": [
+ "Rogue Forces (Terran/Zerg)": [
   "icons/blizzard/btn-unit-terran-tosh.png"
  ],
  "Rupture (Baneling)": [
@@ -1750,13 +1756,13 @@
  "Stim Infusion (Nova Gadget)": [
   "icons/blizzard/btn-ability-terran-stimpack-color.png"
  ],
- "Structure Armor": [
+ "Structure Armor (Terran)": [
   "icons/blizzard/btn-upgrade-terran-buildingarmor.png"
  ],
  "Sundering Glaive (Mutalisk)": [
   "icons/blizzard/btn-upgrade-zerg-explosiveglaive.png"
  ],
- "Superior Warp Gates": [
+ "Superior Warp Gates (Protoss)": [
   "icons/blizzard/talent-artanis-level03-warpgatecharges.png"
  ],
  "Supplicant": [
@@ -1794,7 +1800,7 @@
   "icons/blizzard/btn-upgrade-swann-targetingoptics.png",
   "icons/blizzard/btn-upgrade-terran-durablematerials.png"
  ],
- "Tech Reactor": [
+ "Tech Reactor (Terran)": [
   "icons/original/btn-building-terran-techreactor.png"
  ],
  "Tectonic Destabilizers (Tempest)": [
@@ -1853,7 +1859,7 @@
  "U-238 Rounds (Reaper)": [
   "icons/blizzard/btn-techupgrade-terran-u238rounds.png"
  ],
- "Ultra-Capacitors": [
+ "Ultra-Capacitors (Terran)": [
   "icons/original/btn-upgrade-terran-infantryweaponslevel4.png",
   "icons/original/btn-upgrade-terran-infantryweaponslevel5.png",
   "icons/original/btn-upgrade-terran-shipweaponslevel4.png",
@@ -1882,7 +1888,7 @@
  "Valkyrie": [
   "icons/original/btn-unit-terran-valkyrie@scbw.png"
  ],
- "Vanadium Plating": [
+ "Vanadium Plating (Terran)": [
   "icons/original/btn-upgrade-terran-infantryarmorlevel4.png",
   "icons/original/btn-upgrade-terran-infantryarmorlevel5.png",
   "icons/original/btn-upgrade-terran-shipplatinglevel4.png",
@@ -1949,7 +1955,7 @@
  "Warhound": [
   "icons/blizzard/btn-unit-terran-warhound.png"
  ],
- "Warp Harmonization": [
+ "Warp Harmonization (Protoss)": [
   "icons/blizzard/btn-ability-spearofadun-warpharmonization.png",
   "icons/blizzard/btn-building-protoss-roboticsfacility.png",
   "icons/blizzard/btn-building-protoss-roboticswarpfacility.png",

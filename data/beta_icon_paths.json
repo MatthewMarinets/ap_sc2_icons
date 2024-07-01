@@ -1,8 +1,8 @@
 {
   "meta": {
-    "timestamp": "2024-06-25",
-    "items": 629,
-    "located": 598
+    "timestamp": "2024-06-30",
+    "items": 631,
+    "located": 600
   },
   "locations": {
     "Marine": [
@@ -144,7 +144,7 @@
     "Dual-Fusion Welders (SCV)": [
       "assets\\textures\\btn-upgrade-swann-scvdoublerepair.dds"
     ],
-    "Progressive Fire-Suppression System": [
+    "Progressive Fire-Suppression System (Terran)": [
       "btn-upgrade-swann-firesuppressionsystem.dds"
     ],
     "Progressive Orbital Command (Deprecated)": [],
@@ -787,7 +787,7 @@
     "Jotun": [
       "assets\\textures\\btn-unit-terran-thormengsk.dds"
     ],
-    "Ultra-Capacitors": [
+    "Ultra-Capacitors (Terran)": [
       "ap\\assets\\custom\\textures\\btn-upgrade-terran-infantryweaponslevel4.dds",
       "ap\\assets\\custom\\textures\\btn-upgrade-terran-infantryweaponslevel5.dds",
       "ap\\assets\\custom\\textures\\btn-upgrade-terran-shipweaponslevel4.dds",
@@ -805,7 +805,7 @@
       "assets\\textures\\btn-upgrade-terran-vehicleweaponslevel3.dds",
       "btn-research-terran-ultracapacitors.dds"
     ],
-    "Vanadium Plating": [
+    "Vanadium Plating (Terran)": [
       "ap\\assets\\custom\\textures\\btn-upgrade-terran-infantryarmorlevel4.dds",
       "ap\\assets\\custom\\textures\\btn-upgrade-terran-infantryarmorlevel5.dds",
       "ap\\assets\\custom\\textures\\btn-upgrade-terran-shipplatinglevel4.dds",
@@ -823,13 +823,13 @@
       "assets\\textures\\btn-upgrade-terran-vehicleplatinglevel3.dds",
       "btn-research-terran-vanadiumplating.dds"
     ],
-    "Orbital Depots": [
+    "Orbital Depots (Terran)": [
       "btn-research-terran-orbitaldepots.dds"
     ],
-    "Micro-Filtering": [
+    "Micro-Filtering (Terran)": [
       "ap\\assets\\textures\\btn-research-terran-microfiltering.dds"
     ],
-    "Automated Refinery": [
+    "Automated Refinery (Terran)": [
       "ap\\assets\\textures\\btn-building-terran-refineryautomated.dds"
     ],
     "Command Center Reactor (Command Center)": [],
@@ -839,10 +839,10 @@
     "Science Vessel": [
       "assets\\textures\\btn-unit-terran-sciencevessel.dds"
     ],
-    "Tech Reactor": [
+    "Tech Reactor (Terran)": [
       "ap\\assets\\textures\\btn-building-terran-techreactor.dds"
     ],
-    "Orbital Strike": [
+    "Orbital Strike (Terran)": [
       "btn-research-terran-orbitalstrikerally.dds"
     ],
     "Shrike Turret (Bunker)": [
@@ -864,10 +864,10 @@
     "Hercules": [
       "assets\\textures\\btn-unit-terran-hercules.dds"
     ],
-    "Cellular Reactor": [
+    "Cellular Reactor (Terran)": [
       "btn-research-zerg-cellularreactor.dds"
     ],
-    "Progressive Regenerative Bio-Steel": [
+    "Progressive Regenerative Bio-Steel (Terran)": [
       "ap/assets/textures/btn-regenerativebiosteel-blue.dds",
       "ap/assets/textures/btn-regenerativebiosteel-green.dds",
       "btn-research-zerg-regenerativebio-steel.dds"
@@ -878,17 +878,23 @@
     "Psi Disrupter": [
       "ap\\assets\\textures\\btn-building-terran-sigmaprojector.dds"
     ],
-    "Structure Armor": [
+    "Structure Armor (Terran)": [
       "assets\\textures\\btn-upgrade-terran-buildingarmor.dds"
     ],
-    "Hi-Sec Auto Tracking": [
+    "Hi-Sec Auto Tracking (Terran)": [
       "assets\\textures\\btn-upgrade-terran-hisecautotracking.dds"
     ],
-    "Advanced Optics": [
+    "Advanced Optics (Terran)": [
       "assets\\textures\\btn-upgrade-swann-vehiclerangeincrease.dds"
     ],
-    "Rogue Forces": [
+    "Rogue Forces (Terran/Zerg)": [
       "btn-unit-terran-tosh.dds"
+    ],
+    "Mechanical Know-how (Terran)": [
+      "assets\\textures\\talent-swann-level14-vehiclehealthincrease.dds"
+    ],
+    "Mercenary Munitions (Terran)": [
+      "assets\\textures\\talent-raynor-level14-infantryattackspeed.dds"
     ],
     "Zealot": [
       "assets\\textures\\btn-unit-protoss-zealot-aiur.dds"
@@ -1976,29 +1982,29 @@
     "Solar Bombardment (Spear of Adun Calldown)": [
       "assets\\textures\\btn-ability-spearofadun-solarbombardment.dds"
     ],
-    "Matrix Overload": [
+    "Matrix Overload (Protoss)": [
       "assets\\textures\\btn-ability-spearofadun-matrixoverload.dds"
     ],
-    "Quatro": [
+    "Quatro (Protoss)": [
       "btn-progression-protoss-fenix-6-forgeresearch.dds"
     ],
-    "Nexus Overcharge": [
+    "Nexus Overcharge (Protoss)": [
       "assets\\textures\\btn-ability-spearofadun-nexusovercharge.dds",
       "assets\\textures\\btn-upgrade-karax-turretattackspeed.dds",
       "assets\\textures\\btn-upgrade-karax-turretrange.dds"
     ],
-    "Orbital Assimilators": [
+    "Orbital Assimilators (Protoss)": [
       "assets\\textures\\btn-ability-spearofadun-orbitalassimilator.dds",
       "assets\\textures\\btn-building-protoss-assimilator.dds"
     ],
-    "Warp Harmonization": [
+    "Warp Harmonization (Protoss)": [
       "assets\\textures\\btn-ability-spearofadun-warpharmonization.dds",
       "assets\\textures\\btn-building-protoss-roboticsfacility.dds",
       "assets\\textures\\btn-building-protoss-roboticswarpfacility.dds",
       "assets\\textures\\btn-building-protoss-stargate.dds",
       "assets\\textures\\btn-building-protoss-starwarpgate.dds"
     ],
-    "Guardian Shell": [
+    "Guardian Shell (Protoss)": [
       "assets\\textures\\btn-ability-spearofadun-guardianshell.dds"
     ],
     "Reconstruction Beam (Spear of Adun Auto-Cast)": [
@@ -2007,19 +2013,19 @@
     "Overwatch (Spear of Adun Auto-Cast)": [
       "btn-ability-zeratul-chargedcrystal-psionicwinds.dds"
     ],
-    "Superior Warp Gates": [
+    "Superior Warp Gates (Protoss)": [
       "assets\\textures\\talent-artanis-level03-warpgatecharges.dds"
     ],
-    "Enhanced Targeting": [
+    "Enhanced Targeting (Protoss)": [
       "assets\\textures\\btn-upgrade-karax-turretrange.dds"
     ],
-    "Optimized Ordnance": [
+    "Optimized Ordnance (Protoss)": [
       "assets\\textures\\btn-upgrade-karax-turretattackspeed.dds"
     ],
-    "Khalai Ingenuity": [
+    "Khalai Ingenuity (Protoss)": [
       "btn-upgrade-karax-pylonwarpininstantly.dds"
     ],
-    "Amplified Assimilators": [
+    "Amplified Assimilators (Protoss)": [
       "ap\\assets\\textures\\btn-research-terran-microfiltering.dds"
     ]
   }

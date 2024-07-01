@@ -76,7 +76,7 @@ def item_sort_func(item_name: str) -> tuple:
     if ' (' in item_name:
         parts = item_name.split(' (')
         assert len(parts) == 2
-        if parts[1] in ('Zerg)', 'Terran)', 'Protoss)'):
+        if parts[1] in ('Zerg)', 'Terran)', 'Protoss)', 'Terran/Zerg)'):
             return ('(' + parts[1], parts[0])
         return (parts[1], parts[0])
     return ('', item_name)

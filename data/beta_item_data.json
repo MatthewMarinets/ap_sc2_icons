@@ -377,7 +377,7 @@
     "parent_item": null,
     "description": "SCVs repair twice as fast."
   },
-  "Progressive Fire-Suppression System": {
+  "Progressive Fire-Suppression System (Terran)": {
     "type": "Progressive",
     "number": 24,
     "race": "TERRAN",
@@ -1392,7 +1392,7 @@
     "classification": "useful",
     "quantity": 2,
     "parent_item": "Battlecruiser",
-    "description": "Spell. Missile Pods do damage to air targets in a target area."
+    "description": "Battlecruisers gain the Missile Pods ability, which deals damage to air units in a target area.\nLevel 1: Deals 40 damage (+50 vs light)\nLevel 2: Deals 110 damage"
   },
   "Progressive Defensive Matrix (Battlecruiser)": {
     "type": "Progressive",
@@ -2231,7 +2231,7 @@
     "parent_item": null,
     "description": "Mercenary Thor."
   },
-  "Ultra-Capacitors": {
+  "Ultra-Capacitors (Terran)": {
     "type": "Laboratory",
     "number": 0,
     "race": "TERRAN",
@@ -2240,7 +2240,7 @@
     "parent_item": null,
     "description": "Increases attack speed of units by 5% per weapon upgrade."
   },
-  "Vanadium Plating": {
+  "Vanadium Plating (Terran)": {
     "type": "Laboratory",
     "number": 1,
     "race": "TERRAN",
@@ -2249,7 +2249,7 @@
     "parent_item": null,
     "description": "Increases the life of units by 5% per armor upgrade."
   },
-  "Orbital Depots": {
+  "Orbital Depots (Terran)": {
     "type": "Laboratory",
     "number": 2,
     "race": "TERRAN",
@@ -2258,7 +2258,7 @@
     "parent_item": null,
     "description": "Supply depots are built instantly."
   },
-  "Micro-Filtering": {
+  "Micro-Filtering (Terran)": {
     "type": "Laboratory",
     "number": 3,
     "race": "TERRAN",
@@ -2267,7 +2267,7 @@
     "parent_item": null,
     "description": "Refineries produce Vespene gas 25% faster."
   },
-  "Automated Refinery": {
+  "Automated Refinery (Terran)": {
     "type": "Laboratory",
     "number": 4,
     "race": "TERRAN",
@@ -2303,7 +2303,7 @@
     "parent_item": null,
     "description": "Aerial Caster unit. Can repair mechanical units."
   },
-  "Tech Reactor": {
+  "Tech Reactor (Terran)": {
     "type": "Laboratory",
     "number": 6,
     "race": "TERRAN",
@@ -2312,7 +2312,7 @@
     "parent_item": null,
     "description": "Merges Tech Labs and Reactors into one add on structure to provide both functions."
   },
-  "Orbital Strike": {
+  "Orbital Strike (Terran)": {
     "type": "Laboratory",
     "number": 7,
     "race": "TERRAN",
@@ -2375,7 +2375,7 @@
     "parent_item": null,
     "description": "Massive transport ship."
   },
-  "Cellular Reactor": {
+  "Cellular Reactor (Terran)": {
     "type": "Laboratory",
     "number": 8,
     "race": "TERRAN",
@@ -2384,7 +2384,7 @@
     "parent_item": null,
     "description": "All Terran spellcasters get +100 starting and maximum energy."
   },
-  "Progressive Regenerative Bio-Steel": {
+  "Progressive Regenerative Bio-Steel (Terran)": {
     "type": "Progressive",
     "number": 4,
     "race": "TERRAN",
@@ -2411,7 +2411,7 @@
     "parent_item": null,
     "description": "Defensive structure. Slows the attack and movement speeds of all nearby Zerg units."
   },
-  "Structure Armor": {
+  "Structure Armor (Terran)": {
     "type": "Laboratory",
     "number": 9,
     "race": "TERRAN",
@@ -2420,7 +2420,7 @@
     "parent_item": null,
     "description": "Increases armor of all Terran structures by 2."
   },
-  "Hi-Sec Auto Tracking": {
+  "Hi-Sec Auto Tracking (Terran)": {
     "type": "Laboratory",
     "number": 10,
     "race": "TERRAN",
@@ -2429,7 +2429,7 @@
     "parent_item": null,
     "description": "Increases attack range of all Terran structures by 1."
   },
-  "Advanced Optics": {
+  "Advanced Optics (Terran)": {
     "type": "Laboratory",
     "number": 11,
     "race": "TERRAN",
@@ -2438,7 +2438,7 @@
     "parent_item": null,
     "description": "Increases attack range of all Terran mechanical units by 1."
   },
-  "Rogue Forces": {
+  "Rogue Forces (Terran/Zerg)": {
     "type": "Laboratory",
     "number": 12,
     "race": "TERRAN",
@@ -2446,6 +2446,24 @@
     "quantity": 1,
     "parent_item": null,
     "description": "Mercenary calldowns are no longer limited by charges."
+  },
+  "Mechanical Know-how (Terran)": {
+    "type": "Laboratory",
+    "number": 13,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Increases mechanical unit life by 20%."
+  },
+  "Mercenary Munitions (Terran)": {
+    "type": "Laboratory",
+    "number": 14,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Increases attack speed of all combat units by 15%."
   },
   "Zealot": {
     "type": "Unit",
@@ -5543,7 +5561,7 @@
     "parent_item": null,
     "description": "The Spear of Adun fires 200 laser blasts randomly over a wide area."
   },
-  "Matrix Overload": {
+  "Matrix Overload (Protoss)": {
     "type": "Solarite Core",
     "number": 0,
     "race": "PROTOSS",
@@ -5552,7 +5570,7 @@
     "parent_item": null,
     "description": "All friendly units gain 25% movement speed and 15% attack speed within a Pylon's power field and for 15 seconds after leaving it."
   },
-  "Quatro": {
+  "Quatro (Protoss)": {
     "type": "Solarite Core",
     "number": 1,
     "race": "PROTOSS",
@@ -5561,7 +5579,7 @@
     "parent_item": null,
     "description": "All friendly Protoss units gain the equivalent of their +1 armour, attack, and shield upgrades."
   },
-  "Nexus Overcharge": {
+  "Nexus Overcharge (Protoss)": {
     "type": "Solarite Core",
     "number": 2,
     "race": "PROTOSS",
@@ -5570,7 +5588,7 @@
     "parent_item": null,
     "description": "The Protoss Nexus gains a long-range auto-attack."
   },
-  "Orbital Assimilators": {
+  "Orbital Assimilators (Protoss)": {
     "type": "Solarite Core",
     "number": 3,
     "race": "PROTOSS",
@@ -5579,7 +5597,7 @@
     "parent_item": null,
     "description": "Assimilators automatically harvest Vespene Gas without the need for Probes."
   },
-  "Warp Harmonization": {
+  "Warp Harmonization (Protoss)": {
     "type": "Solarite Core",
     "number": 4,
     "race": "PROTOSS",
@@ -5588,7 +5606,7 @@
     "parent_item": null,
     "description": "Stargates and Robotics Facilities can transform to utilize Warp In technology. Warp In cooldowns are 20% faster than original build times."
   },
-  "Guardian Shell": {
+  "Guardian Shell (Protoss)": {
     "type": "Solarite Core",
     "number": 5,
     "race": "PROTOSS",
@@ -5615,7 +5633,7 @@
     "parent_item": null,
     "description": "Once per second, the Spear of Adun will last-hit a damaged enemy unit that is below 50 health."
   },
-  "Superior Warp Gates": {
+  "Superior Warp Gates (Protoss)": {
     "type": "Solarite Core",
     "number": 8,
     "race": "PROTOSS",
@@ -5624,7 +5642,7 @@
     "parent_item": null,
     "description": "Protoss Warp Gates can hold up to 3 charges of unit warp-ins."
   },
-  "Enhanced Targeting": {
+  "Enhanced Targeting (Protoss)": {
     "type": "Solarite Core",
     "number": 9,
     "race": "PROTOSS",
@@ -5633,7 +5651,7 @@
     "parent_item": null,
     "description": "Protoss defensive structures gain +2 range."
   },
-  "Optimized Ordnance": {
+  "Optimized Ordnance (Protoss)": {
     "type": "Solarite Core",
     "number": 10,
     "race": "PROTOSS",
@@ -5642,7 +5660,7 @@
     "parent_item": null,
     "description": "Increases the attack speed of Protoss defensive structures by 25%."
   },
-  "Khalai Ingenuity": {
+  "Khalai Ingenuity (Protoss)": {
     "type": "Solarite Core",
     "number": 11,
     "race": "PROTOSS",
@@ -5651,7 +5669,7 @@
     "parent_item": null,
     "description": "Pylons, Photon Cannons, Monoliths, and Shield Batteries warp in near-instantly."
   },
-  "Amplified Assimilators": {
+  "Amplified Assimilators (Protoss)": {
     "type": "Solarite Core",
     "number": 12,
     "race": "PROTOSS",
