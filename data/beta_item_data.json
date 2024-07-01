@@ -2078,6 +2078,42 @@
     "parent_item": "Planetary Fortress",
     "description": "Allows Planetary Fortresses to use Scanner Sweep, MULE, and Extra Supplies if those abilities are owned."
   },
+  "Concussive Grenades (Devastator Turret)": {
+    "type": "Armory 7",
+    "number": 0,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Devastator Turret",
+    "description": "Devastator Turrets slow enemies they hit. Does not stack with Marauder Concussive Shells."
+  },
+  "Anti-Armor Munitions (Devastator Turret)": {
+    "type": "Armory 7",
+    "number": 1,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Devastator Turret",
+    "description": "Increases Devastator Turret damage to armored targets by 10."
+  },
+  "Resource Efficiency (Devastator Turret)": {
+    "type": "Armory 7",
+    "number": 2,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Devastator Turret",
+    "description": "Reduces Devastator Turret cost by 50 minerals."
+  },
+  "Resource Efficiency (Missile Turret)": {
+    "type": "Armory 7",
+    "number": 3,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Missile Turret",
+    "description": "Reduces Missile Turret cost by 25 minerals."
+  },
   "Bunker": {
     "type": "Building",
     "number": 0,
@@ -2104,6 +2140,15 @@
     "quantity": 1,
     "parent_item": null,
     "description": "Reveals locations of enemy units at long range."
+  },
+  "Devastator Turret": {
+    "type": "Building",
+    "number": 7,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Defensive structure. Deals increased damage to armored targets. Attacks ground units."
   },
   "War Pigs": {
     "type": "Mercenary",
@@ -2465,6 +2510,24 @@
     "parent_item": null,
     "description": "Increases attack speed of all combat units by 15%."
   },
+  "Fast Delivery (Terran/Zerg)": {
+    "type": "Laboratory",
+    "number": 15,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Mercenary calldowns can be deployed right at the mission start."
+  },
+  "Rapid Reinforcement (Terran/Zerg)": {
+    "type": "Laboratory",
+    "number": 16,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Halves cooldowns of mercenary calldowns."
+  },
   "Zealot": {
     "type": "Unit",
     "number": 0,
@@ -2545,6 +2608,15 @@
     "quantity": 1,
     "parent_item": null,
     "description": "Capital ship. Builds and launches Interceptors that attack enemy targets. Repair Drones heal nearby mechanical units."
+  },
+  "Tactical Jump (Science Vessel)": {
+    "type": "Armory 7",
+    "number": 4,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Science Vessel",
+    "description": "Allows Science Vessels to warp to a target location anywhere on the map."
   },
   "Additional Starting Minerals": {
     "type": "Minerals",
@@ -5606,7 +5678,7 @@
     "parent_item": null,
     "description": "Stargates and Robotics Facilities can transform to utilize Warp In technology. Warp In cooldowns are 20% faster than original build times."
   },
-  "Guardian Shell (Protoss)": {
+  "Guardian Shell (Spear of Adun Auto-Cast)": {
     "type": "Solarite Core",
     "number": 5,
     "race": "PROTOSS",

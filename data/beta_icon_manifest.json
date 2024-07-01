@@ -123,6 +123,9 @@
  "Anti-Armor Missile (Raven)": [
   "icons/blizzard/btn-ability-terran-shreddermissile-color.png"
  ],
+ "Anti-Armor Munitions (Devastator Turret)": [
+  "icons/blizzard/btn-ability-terran-ignorearmor.png"
+ ],
  "Anti-Mechanical Munition (Viking)": [
   "icons/blizzard/btn-ability-terran-ignorearmor.png"
  ],
@@ -325,6 +328,9 @@
  "Concealment (Widow Mine)": [
   "icons/blizzard/btn-ability-terran-widowminehidden.png"
  ],
+ "Concussive Grenades (Devastator Turret)": [
+  "icons/blizzard/btn-ability-terran-punishergrenade-color.png"
+ ],
  "Concussive Shells (Marauder)": [
   "icons/blizzard/btn-ability-terran-punishergrenade-color.png"
  ],
@@ -406,6 +412,9 @@
  ],
  "Detect Weakness (Havoc)": [
   "icons/blizzard/btn-upgrade-protoss-alarak-havoctargetlockbuffed.png"
+ ],
+ "Devastator Turret": [
+  "icons/blizzard/btn-tips-flamingbetty.png"
  ],
  "Devil Dogs": [
   "icons/original/btn-unit-terran-firebatmercenary.png"
@@ -582,7 +591,7 @@
  "Guardian Aspect (Mutalisk/Corruptor)": [
   "icons/blizzard/btn-unit-zerg-primalguardian.png"
  ],
- "Guardian Shell (Protoss)": [
+ "Guardian Shell (Spear of Adun Auto-Cast)": [
   "icons/blizzard/btn-ability-spearofadun-guardianshell.png"
  ],
  "Guerilla Missiles (Liberator)": [
@@ -1466,6 +1475,9 @@
  "Resource Efficiency (Dark Templar/Avenger/Blood Hunter)": [
   "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
+ "Resource Efficiency (Devastator Turret)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
  "Resource Efficiency (Diamondback)": [
   "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
@@ -1488,6 +1500,9 @@
   "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
  "Resource Efficiency (Medic)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Missile Turret)": [
   "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
  "Resource Efficiency (Predator)": [
@@ -1795,6 +1810,9 @@
  ],
  "Tactical Jump (Hercules)": [
   "icons/blizzard/btn-ability-terran-hercules-tacticaljump.png"
+ ],
+ "Tactical Jump (Science Vessel)": [
+  "icons/blizzard/btn-ability-hornerhan-fleethyperjump.png"
  ],
  "Targeting Optics (Cyclone)": [
   "icons/blizzard/btn-upgrade-swann-targetingoptics.png",

@@ -1,8 +1,8 @@
 {
   "meta": {
-    "timestamp": "2024-06-30",
-    "items": 631,
-    "located": 600
+    "timestamp": "2024-07-01",
+    "items": 639,
+    "located": 606
   },
   "locations": {
     "Marine": [
@@ -736,6 +736,18 @@
       "assets\\textures\\btn-ability-terran-scannersweep-color.dds",
       "assets\\textures\\btn-unit-terran-mule.dds"
     ],
+    "Concussive Grenades (Devastator Turret)": [
+      "assets\\textures\\btn-ability-terran-punishergrenade-color.dds"
+    ],
+    "Anti-Armor Munitions (Devastator Turret)": [
+      "assets\\textures\\btn-ability-terran-ignorearmor.dds"
+    ],
+    "Resource Efficiency (Devastator Turret)": [
+      "btn-ability-hornerhan-salvagebonus.dds"
+    ],
+    "Resource Efficiency (Missile Turret)": [
+      "btn-ability-hornerhan-salvagebonus.dds"
+    ],
     "Bunker": [
       "assets\\textures\\btn-building-terran-bunker.dds"
     ],
@@ -744,6 +756,9 @@
     ],
     "Sensor Tower": [
       "assets\\textures\\btn-building-terran-sensordome.dds"
+    ],
+    "Devastator Turret": [
+      "assets\\textures\\btn-tips-flamingbetty.dds"
     ],
     "War Pigs": [
       "ap\\assets\\textures\\btn-unit-terran-marinemercenary.dds"
@@ -896,6 +911,8 @@
     "Mercenary Munitions (Terran)": [
       "assets\\textures\\talent-raynor-level14-infantryattackspeed.dds"
     ],
+    "Fast Delivery (Terran/Zerg)": [],
+    "Rapid Reinforcement (Terran/Zerg)": [],
     "Zealot": [
       "assets\\textures\\btn-unit-protoss-zealot-aiur.dds"
     ],
@@ -922,6 +939,9 @@
     ],
     "Carrier": [
       "assets\\textures\\btn-unit-protoss-carrier.dds"
+    ],
+    "Tactical Jump (Science Vessel)": [
+      "assets\\textures\\btn-ability-hornerhan-fleethyperjump.dds"
     ],
     "Additional Starting Minerals": [
       "icon-mineral-nobg.dds",
@@ -2004,7 +2024,7 @@
       "assets\\textures\\btn-building-protoss-stargate.dds",
       "assets\\textures\\btn-building-protoss-starwarpgate.dds"
     ],
-    "Guardian Shell (Protoss)": [
+    "Guardian Shell (Spear of Adun Auto-Cast)": [
       "assets\\textures\\btn-ability-spearofadun-guardianshell.dds"
     ],
     "Reconstruction Beam (Spear of Adun Auto-Cast)": [
