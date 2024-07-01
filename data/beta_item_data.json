@@ -1392,7 +1392,7 @@
     "classification": "useful",
     "quantity": 2,
     "parent_item": "Battlecruiser",
-    "description": "Battlecruisers gain the Missile Pods ability, which deals damage to air units in a target area.\nLevel 1: Deals 40 damage (+50 vs light)\nLevel 2: Deals 110 damage"
+    "description": "Battlecruisers gain the Missile Pods ability, which deals damage to air units in a target area.\nLevel 1: Deals 40 damage (+50 vs light).\nLevel 2: Deals 110 damage and costs -50 less energy."
   },
   "Progressive Defensive Matrix (Battlecruiser)": {
     "type": "Progressive",
