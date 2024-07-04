@@ -84,7 +84,7 @@
  "Advanced Targeting (Planetary Fortress)": [
   "icons/blizzard/btn-ability-terran-detectionconedebuff.png"
  ],
- "Advanced Targeting Mechanics (Immortal/Annihilator)": [
+ "Advanced Targeting Mechanics (Immortal/Annihilator/Stalwart)": [
   "icons/blizzard/btn-ability-terran-detectionconedebuff.png"
  ],
  "Advanced Targeting Optics (Banshee)": [
@@ -325,6 +325,9 @@
  "Comorbidity (Defiler)": [
   "icons/blizzard/btn-upgrade-zerg-dehaka-tenderize.png"
  ],
+ "Compressed Rocket Fuel (Liberator)": [
+  "icons/blizzard/btn-upgrade-terran-magfieldaccelerator.png"
+ ],
  "Concealment (Widow Mine)": [
   "icons/blizzard/btn-ability-terran-widowminehidden.png"
  ],
@@ -434,6 +437,9 @@
  "Disruptor": [
   "icons/blizzard/btn-unit-protoss-disruptor.png"
  ],
+ "Disruptor Dispersion (Immortal/Annihilator/Stalwart)": [
+  "icons/blizzard/btn-upgrade-protoss-vanguard-aoeradiusincreased.png"
+ ],
  "Distortion Blasters (Banshee)": [
   "icons/blizzard/btn-techupgrade-terran-cloakdistortionfield.png"
  ],
@@ -521,7 +527,7 @@
  "Flechette Missiles (Valkyrie)": [
   "icons/blizzard/btn-ability-hornerhan-viking-missileupgrade.png"
  ],
- "Flux Vanes (Void Ray/Destroyer)": [
+ "Flux Vanes (Void Ray/Destroyer/Warp Ray)": [
   "icons/blizzard/btn-upgrade-protoss-fluxvanes.png"
  ],
  "Force Field (Sentry)": [
@@ -1105,11 +1111,17 @@
  "Perdition Turret": [
   "icons/blizzard/btn-unit-terran-perditionturret.png"
  ],
+ "Phalanx Suit (Dragoon)": [
+  "icons/blizzard/btn-upgrade-protoss-fenix-zealotsuit-armorplate.png"
+ ],
  "Phase Blaster (Warp Prism)": [
   "icons/blizzard/btn-upgrade-protoss-airweaponslevel0.png"
  ],
  "Phase Bulwark (Adept)": [
   "icons/blizzard/btn-upgrade-protoss-adeptshieldupgrade.png"
+ ],
+ "Phase Reactor (Stalker)": [
+  "icons/blizzard/btn-ability-protoss-blinkshieldrestore.png"
  ],
  "Phobos-Class Weapons System (Viking)": [
   "icons/blizzard/btn-upgrade-raynor-phobosclassweaponssystem.png"
@@ -1466,6 +1478,9 @@
  "Resource Efficiency (Brood Lord)": [
   "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
+ "Resource Efficiency (Centurion)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
  "Resource Efficiency (Corruptor)": [
   "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
@@ -1522,6 +1537,9 @@
   "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
  "Resource Efficiency (Scout)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Sentinel)": [
   "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
  "Resource Efficiency (Siege Tank)": [
@@ -1676,7 +1694,7 @@
  "Singularity Charge (Dragoon)": [
   "icons/blizzard/btn-upgrade-artanis-singularitycharge.png"
  ],
- "Singularity Charge (Immortal/Annihilator)": [
+ "Singularity Charge (Immortal/Annihilator/Stalwart)": [
   "icons/blizzard/btn-upgrade-artanis-singularitycharge.png"
  ],
  "Skibi's Angels": [
@@ -1758,6 +1776,9 @@
  ],
  "Stalker": [
   "icons/blizzard/btn-unit-protoss-stalker.png"
+ ],
+ "Stalwart": [
+  "icons/blizzard/btn-unit-collection-purifier-immortal.png"
  ],
  "Stasis Calibration (Oracle)": [
   "icons/blizzard/btn-ability-protoss-oracle-stasiscalibration.png"
@@ -1982,6 +2003,12 @@
  ],
  "Warp Prism": [
   "icons/blizzard/btn-unit-protoss-warpprism.png"
+ ],
+ "Warp Ray": [
+  "icons/original/btn-unit-voidray-aiur.png"
+ ],
+ "Whirlwind (Zealot)": [
+  "icons/blizzard/btn-ability-protoss-whirlwind.png"
  ],
  "Widow Mine": [
   "icons/blizzard/btn-unit-terran-widowmine.png"

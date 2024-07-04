@@ -2618,6 +2618,15 @@
     "parent_item": "Science Vessel",
     "description": "Allows Science Vessels to warp to a target location anywhere on the map."
   },
+  "Compressed Rocket Fuel (Liberator)": {
+    "type": "Armory 7",
+    "number": 5,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Liberator",
+    "description": "Increases Liberator attack range in Fighter mode by 4."
+  },
   "Additional Starting Minerals": {
     "type": "Minerals",
     "number": -1,
@@ -4688,6 +4697,24 @@
     "parent_item": null,
     "description": "Flying caster. Can use the Revelation and Stasis Ward abilities."
   },
+  "Stalwart": {
+    "type": "Unit 2",
+    "number": 9,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Assault strider. Has shields that deflect high-damage attacks."
+  },
+  "Warp Ray": {
+    "type": "Unit 2",
+    "number": 10,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Surgical-strike craft. Damage output increases the longer the Warp Ray remains on target."
+  },
   "Progressive Protoss Ground Weapon": {
     "type": "Upgrade",
     "number": 0,
@@ -5120,7 +5147,7 @@
     "parent_item": "Carrier",
     "description": "Carriers gain +2 armour."
   },
-  "Flux Vanes (Void Ray/Destroyer)": {
+  "Flux Vanes (Void Ray/Destroyer/Warp Ray)": {
     "type": "Forge 2",
     "number": 5,
     "race": "PROTOSS",
@@ -5237,23 +5264,23 @@
     "parent_item": "Vanguard",
     "description": "Increases Vanguard attack area."
   },
-  "Singularity Charge (Immortal/Annihilator)": {
+  "Singularity Charge (Immortal/Annihilator/Stalwart)": {
     "type": "Forge 2",
     "number": 18,
     "race": "PROTOSS",
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "description": "Increases Immortal and Annihilator attack range by +2."
+    "description": "Increases Immortal, Annihilator, and Stalwart attack range by +2."
   },
-  "Advanced Targeting Mechanics (Immortal/Annihilator)": {
+  "Advanced Targeting Mechanics (Immortal/Annihilator/Stalwart)": {
     "type": "Forge 2",
     "number": 19,
     "race": "PROTOSS",
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "description": "Immortals and Annihilators can attack air units."
+    "description": "Immortals, Annihilators, and Stalwarts can attack air units."
   },
   "Pacification Protocol (Colossus)": {
     "type": "Forge 2",
@@ -5524,6 +5551,60 @@
     "quantity": 1,
     "parent_item": "Scout",
     "description": "Reduces Scout cost by 125 minerals, 25 gas, and 1 supply."
+  },
+  "Disruptor Dispersion (Immortal/Annihilator/Stalwart)": {
+    "type": "Forge 3",
+    "number": 20,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Immortals, Annihilators, and Stalwarts deal minor splash damage."
+  },
+  "Whirlwind (Zealot)": {
+    "type": "War Council",
+    "number": 0,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Zealot",
+    "description": "Zealot War Council upgrade. Gives Zealots the whirlwind ability, dealing damage in an area over 3 seconds."
+  },
+  "Resource Efficiency (Centurion)": {
+    "type": "War Council",
+    "number": 1,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Centurion",
+    "description": "Centurion War Council upgrade. Reduces Centurion cost by 50 gas."
+  },
+  "Resource Efficiency (Sentinel)": {
+    "type": "War Council",
+    "number": 2,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Sentinel",
+    "description": "Sentinel War Council upgrade. Reduces Sentinel cost by 60 minerals and 1 supply."
+  },
+  "Phase Reactor (Stalker)": {
+    "type": "War Council",
+    "number": 3,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Stalker",
+    "description": "Stalker War Council upgrade. Stalkers restore 80 shields over 5 seconds after they Blink."
+  },
+  "Phalanx Suit (Dragoon)": {
+    "type": "War Council",
+    "number": 4,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Dragoon",
+    "description": "Dragoon War Council upgrade. Dragoons gain +2 range, move slightly faster, and can form tighter formations."
   },
   "Chrono Surge (Spear of Adun Calldown)": {
     "type": "Spear Of Adun",

@@ -1,8 +1,8 @@
 {
   "meta": {
-    "timestamp": "2024-07-01",
-    "items": 639,
-    "located": 606
+    "timestamp": "2024-07-03",
+    "items": 648,
+    "located": 615
   },
   "locations": {
     "Marine": [
@@ -943,6 +943,9 @@
     "Tactical Jump (Science Vessel)": [
       "assets\\textures\\btn-ability-hornerhan-fleethyperjump.dds"
     ],
+    "Compressed Rocket Fuel (Liberator)": [
+      "assets\\textures\\btn-upgrade-terran-magfieldaccelerator.dds"
+    ],
     "Additional Starting Minerals": [
       "icon-mineral-nobg.dds",
       "ui_aicommand_build_open_economicfocus.dds"
@@ -1668,6 +1671,12 @@
     "Oracle": [
       "assets\\textures\\btn-unit-protoss-oracle.dds"
     ],
+    "Stalwart": [
+      "assets\\textures\\btn-unit-collection-purifier-immortal.dds"
+    ],
+    "Warp Ray": [
+      "ap\\assets\\custom\\textures\\btn-unit-voidray-aiur.dds"
+    ],
     "Progressive Protoss Ground Weapon": [
       "ap\\assets\\custom\\textures\\btn-upgrade-protoss-groundweaponslevel4.dds",
       "ap\\assets\\custom\\textures\\btn-upgrade-protoss-groundweaponslevel5.dds",
@@ -1825,7 +1834,7 @@
     "Hull of Past Glories (Carrier)": [
       "assets\\textures\\btn-progression-protoss-fenix-14-colossusandcarrierchampionsresearch.dds"
     ],
-    "Flux Vanes (Void Ray/Destroyer)": [
+    "Flux Vanes (Void Ray/Destroyer/Warp Ray)": [
       "assets\\textures\\btn-upgrade-protoss-fluxvanes.dds"
     ],
     "Reforged Bloodshard Core (Destroyer)": [
@@ -1864,10 +1873,10 @@
     "Matter Dispersion (Vanguard)": [
       "assets\\textures\\btn-upgrade-protoss-vanguard-aoeradiusincreased.dds"
     ],
-    "Singularity Charge (Immortal/Annihilator)": [
+    "Singularity Charge (Immortal/Annihilator/Stalwart)": [
       "assets\\textures\\btn-upgrade-artanis-singularitycharge.dds"
     ],
-    "Advanced Targeting Mechanics (Immortal/Annihilator)": [
+    "Advanced Targeting Mechanics (Immortal/Annihilator/Stalwart)": [
       "assets\\textures\\btn-ability-terran-detectionconedebuff.dds"
     ],
     "Pacification Protocol (Colossus)": [
@@ -1964,6 +1973,24 @@
     ],
     "Resource Efficiency (Scout)": [
       "btn-ability-hornerhan-salvagebonus.dds"
+    ],
+    "Disruptor Dispersion (Immortal/Annihilator/Stalwart)": [
+      "assets\\textures\\btn-upgrade-protoss-vanguard-aoeradiusincreased.dds"
+    ],
+    "Whirlwind (Zealot)": [
+      "assets\\textures\\btn-ability-protoss-whirlwind.dds"
+    ],
+    "Resource Efficiency (Centurion)": [
+      "btn-ability-hornerhan-salvagebonus.dds"
+    ],
+    "Resource Efficiency (Sentinel)": [
+      "btn-ability-hornerhan-salvagebonus.dds"
+    ],
+    "Phase Reactor (Stalker)": [
+      "assets\\textures\\btn-ability-protoss-blinkshieldrestore.dds"
+    ],
+    "Phalanx Suit (Dragoon)": [
+      "assets\\textures\\btn-upgrade-protoss-fenix-zealotsuit-armorplate.dds"
     ],
     "Chrono Surge (Spear of Adun Calldown)": [
       "assets\\textures\\btn-ability-spearofadun-chronosurge.dds"
