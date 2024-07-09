@@ -1,13 +1,13 @@
 {
   "All Missions": [
     "Liberation Day",
-    "The Outlaws",
-    "Zero Hour",
+    "The Outlaws (Terran)",
+    "Zero Hour (Terran)",
     "Evacuation",
     "Outbreak",
     "Safe Haven",
     "Haven's Fall",
-    "Smash and Grab",
+    "Smash and Grab (Terran)",
     "The Dig",
     "The Moebius Factor",
     "Supernova",
@@ -82,10 +82,16 @@
     "Flashpoint",
     "In the Enemy's Shadow",
     "Dark Skies",
-    "End Game"
+    "End Game",
+    "The Outlaws (Zerg)",
+    "The Outlaws (Protoss)",
+    "Zero Hour (Zerg)",
+    "Zero Hour (Protoss)",
+    "Smash and Grab (Zerg)",
+    "Smash and Grab (Protoss)"
   ],
   "Auto-Scroller Missions": [
-    "Zero Hour",
+    "Zero Hour (Terran)",
     "Evacuation",
     "The Dig",
     "The Great Train Robbery",
@@ -102,7 +108,9 @@
     "The Essence of Eternity",
     "Amon's Fall",
     "Sudden Strike",
-    "Dark Skies"
+    "Dark Skies",
+    "Zero Hour (Zerg)",
+    "Zero Hour (Protoss)"
   ],
   "Controllable Protoss Ally Missions": [
     "Salvation",
@@ -123,7 +131,7 @@
   ],
   "Countdown Missions": [
     "Safe Haven",
-    "Smash and Grab",
+    "Smash and Grab (Terran)",
     "The Moebius Factor",
     "Supernova",
     "Cutthroat",
@@ -136,10 +144,12 @@
     "Sky Shield",
     "Forbidden Weapon",
     "Harbinger of Oblivion",
-    "Trouble In Paradise"
+    "Trouble In Paradise",
+    "Smash and Grab (Zerg)",
+    "Smash and Grab (Protoss)"
   ],
   "Defense Missions": [
-    "Zero Hour",
+    "Zero Hour (Terran)",
     "Outbreak",
     "The Dig",
     "All-In",
@@ -152,7 +162,9 @@
     "Sudden Strike",
     "Enemy Intelligence",
     "Dark Skies",
-    "End Game"
+    "End Game",
+    "Zero Hour (Zerg)",
+    "Zero Hour (Protoss)"
   ],
   "Epilogue Missions": [
     "Into the Void",
@@ -363,8 +375,8 @@
   ],
   "Planet Mar Sara": [
     "Liberation Day",
-    "The Outlaws",
-    "Zero Hour"
+    "The Outlaws (Terran)",
+    "Zero Hour (Terran)"
   ],
   "Prologue Missions": [
     "Dark Whispers",
@@ -404,17 +416,20 @@
     "Templar's Return",
     "The Host",
     "Salvation",
-    "Into the Void"
+    "Into the Void",
+    "The Outlaws (Protoss)",
+    "Zero Hour (Protoss)",
+    "Smash and Grab (Protoss)"
   ],
   "Terran Missions": [
     "Liberation Day",
-    "The Outlaws",
-    "Zero Hour",
+    "The Outlaws (Terran)",
+    "Zero Hour (Terran)",
     "Evacuation",
     "Outbreak",
     "Safe Haven",
     "Haven's Fall",
-    "Smash and Grab",
+    "Smash and Grab (Terran)",
     "The Dig",
     "The Moebius Factor",
     "Supernova",
@@ -464,7 +479,7 @@
   ],
   "Vs Protoss Missions": [
     "Safe Haven",
-    "Smash and Grab",
+    "Smash and Grab (Terran)",
     "The Dig",
     "Supernova",
     "Maw of the Void",
@@ -493,11 +508,13 @@
     "Amon's Fall",
     "Trouble In Paradise",
     "Night Terrors",
-    "Dark Skies"
+    "Dark Skies",
+    "Smash and Grab (Zerg)",
+    "Smash and Grab (Protoss)"
   ],
   "Vs Terran Missions": [
     "Liberation Day",
-    "The Outlaws",
+    "The Outlaws (Terran)",
     "Breakout",
     "Ghost of a Chance",
     "The Great Train Robbery",
@@ -530,14 +547,16 @@
     "Amon's Fall",
     "The Escape",
     "In the Enemy's Shadow",
-    "End Game"
+    "End Game",
+    "The Outlaws (Zerg)",
+    "The Outlaws (Protoss)"
   ],
   "Vs Zerg Missions": [
-    "Zero Hour",
+    "Zero Hour (Terran)",
     "Evacuation",
     "Outbreak",
     "Haven's Fall",
-    "Smash and Grab",
+    "Smash and Grab (Terran)",
     "The Moebius Factor",
     "Devil's Playground",
     "Piercing the Shroud",
@@ -571,14 +590,20 @@
     "Enemy Intelligence",
     "Trouble In Paradise",
     "Night Terrors",
-    "Flashpoint"
+    "Flashpoint",
+    "Zero Hour (Zerg)",
+    "Zero Hour (Protoss)",
+    "Smash and Grab (Zerg)",
+    "Smash and Grab (Protoss)"
   ],
   "WoL Artifact": [
-    "Smash and Grab",
+    "Smash and Grab (Terran)",
     "The Dig",
     "The Moebius Factor",
     "Supernova",
-    "Maw of the Void"
+    "Maw of the Void",
+    "Smash and Grab (Zerg)",
+    "Smash and Grab (Protoss)"
   ],
   "WoL Char": [
     "Gates of Hell",
@@ -600,18 +625,22 @@
   ],
   "WoL Mar Sara": [
     "Liberation Day",
-    "The Outlaws",
-    "Zero Hour"
+    "The Outlaws (Terran)",
+    "Zero Hour (Terran)",
+    "The Outlaws (Zerg)",
+    "The Outlaws (Protoss)",
+    "Zero Hour (Zerg)",
+    "Zero Hour (Protoss)"
   ],
   "WoL Missions": [
     "Liberation Day",
-    "The Outlaws",
-    "Zero Hour",
+    "The Outlaws (Terran)",
+    "Zero Hour (Terran)",
     "Evacuation",
     "Outbreak",
     "Safe Haven",
     "Haven's Fall",
-    "Smash and Grab",
+    "Smash and Grab (Terran)",
     "The Dig",
     "The Moebius Factor",
     "Supernova",
@@ -628,7 +657,13 @@
     "Gates of Hell",
     "Belly of the Beast",
     "Shatter the Sky",
-    "All-In"
+    "All-In",
+    "The Outlaws (Zerg)",
+    "The Outlaws (Protoss)",
+    "Zero Hour (Zerg)",
+    "Zero Hour (Protoss)",
+    "Smash and Grab (Zerg)",
+    "Smash and Grab (Protoss)"
   ],
   "WoL Rebellion": [
     "The Great Train Robbery",
@@ -657,6 +692,9 @@
     "Planetfall",
     "Death From Above",
     "The Reckoning",
-    "Amon's Fall"
+    "Amon's Fall",
+    "The Outlaws (Zerg)",
+    "Zero Hour (Zerg)",
+    "Smash and Grab (Zerg)"
   ]
 }

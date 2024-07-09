@@ -3878,6 +3878,24 @@
     "parent_item": "Corruptor",
     "description": "Reduces Corruptor cost by 50 minerals and 25 gas."
   },
+  "Concentrated Fire (Primal Igniter)": {
+    "type": "Mutation 4",
+    "number": 0,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Primal Igniter Aspect (Roach)",
+    "description": "Primal Igniters deal +15 damage vs light armor."
+  },
+  "Primal Tenacity (Primal Igniter)": {
+    "type": "Mutation 4",
+    "number": 1,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Primal Igniter Aspect (Roach)",
+    "description": "Primal Igniters gain +100 health and +1 armor."
+  },
   "Raptor Strain (Zergling)": {
     "type": "Strain",
     "number": 0,
@@ -4427,6 +4445,15 @@
     "parent_item": null,
     "description": "Allows to morph Overlords into Overseers. Overseers can use Spawn Creep Tumor and Contaminate abilities."
   },
+  "Primal Igniter Aspect (Roach)": {
+    "type": "Morph",
+    "number": 9,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Assault unit. Has an area-damage attack. Regenerates life quickly when burrowed. Can attack ground units. Morphed by merging two Roaches."
+  },
   "Observer": {
     "type": "Unit",
     "number": 9,
@@ -4714,6 +4741,33 @@
     "quantity": 1,
     "parent_item": null,
     "description": "Surgical-strike craft. Damage output increases the longer the Warp Ray remains on target."
+  },
+  "Scorcher": {
+    "type": "Unit 2",
+    "number": 11,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Flying Assault Ship. Can use prismatic alignment to temporarily deal increased damage at the cost of movement speed."
+  },
+  "Skylord": {
+    "type": "Unit 2",
+    "number": 12,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Capital ship. Builds and launches Interceptors that attack enemy targets. Can use Tactical Jump ability."
+  },
+  "Purger": {
+    "type": "Unit 2",
+    "number": 13,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Capital ship. Builds and launches Interceptors that attack enemy targets. Has Solar Beam weapon."
   },
   "Progressive Protoss Ground Weapon": {
     "type": "Upgrade",
@@ -5129,25 +5183,25 @@
     "parent_item": "Arbiter",
     "description": "Increases Arbiter Cloaking Field range."
   },
-  "Graviton Catapult (Carrier)": {
+  "Graviton Catapult (Carrier/Skylord/Purger)": {
     "type": "Forge 2",
     "number": 3,
     "race": "PROTOSS",
     "classification": "useful",
     "quantity": 1,
-    "parent_item": "Carrier",
+    "parent_item": null,
     "description": "Carriers can launch Interceptors more quickly."
   },
-  "Hull of Past Glories (Carrier)": {
+  "Hull of Past Glories (Carrier/Skylord/Purger)": {
     "type": "Forge 2",
     "number": 4,
     "race": "PROTOSS",
     "classification": "useful",
     "quantity": 1,
-    "parent_item": "Carrier",
+    "parent_item": null,
     "description": "Carriers gain +2 armour."
   },
-  "Flux Vanes (Void Ray/Destroyer/Warp Ray)": {
+  "Flux Vanes (Void Ray/Destroyer/Warp Ray/Scorcher)": {
     "type": "Forge 2",
     "number": 5,
     "race": "PROTOSS",
@@ -5605,6 +5659,15 @@
     "quantity": 1,
     "parent_item": "Dragoon",
     "description": "Dragoon War Council upgrade. Dragoons gain +2 range, move slightly faster, and can form tighter formations."
+  },
+  "Resource Efficiency (Instigator)": {
+    "type": "War Council",
+    "number": 5,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Instigator",
+    "description": "Instigator War Council upgrade. Reduces Instigator cost by 40 minerals and 15 gas."
   },
   "Chrono Surge (Spear of Adun Calldown)": {
     "type": "Spear Of Adun",

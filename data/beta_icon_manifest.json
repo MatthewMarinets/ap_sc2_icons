@@ -331,6 +331,9 @@
  "Concealment (Widow Mine)": [
   "icons/blizzard/btn-ability-terran-widowminehidden.png"
  ],
+ "Concentrated Fire (Primal Igniter)": [
+  "icons/blizzard/btn-ability-zerg-fireroach-increasefiredamage.png"
+ ],
  "Concussive Grenades (Devastator Turret)": [
   "icons/blizzard/btn-ability-terran-punishergrenade-color.png"
  ],
@@ -527,7 +530,7 @@
  "Flechette Missiles (Valkyrie)": [
   "icons/blizzard/btn-ability-hornerhan-viking-missileupgrade.png"
  ],
- "Flux Vanes (Void Ray/Destroyer/Warp Ray)": [
+ "Flux Vanes (Void Ray/Destroyer/Warp Ray/Scorcher)": [
   "icons/blizzard/btn-upgrade-protoss-fluxvanes.png"
  ],
  "Force Field (Sentry)": [
@@ -585,7 +588,7 @@
  "Gravitic Thrusters (Scout)": [
   "icons/blizzard/btn-upgrade-protoss-graviticbooster.png"
  ],
- "Graviton Catapult (Carrier)": [
+ "Graviton Catapult (Carrier/Skylord/Purger)": [
   "icons/blizzard/btn-upgrade-protoss-gravitoncatapult.png"
  ],
  "Gravity Sling (Tempest)": [
@@ -675,7 +678,7 @@
  "Hostile Environment Adaptation (SCV)": [
   "icons/blizzard/btn-upgrade-swann-hellarmor.png"
  ],
- "Hull of Past Glories (Carrier)": [
+ "Hull of Past Glories (Carrier/Skylord/Purger)": [
   "icons/blizzard/btn-progression-protoss-fenix-14-colossusandcarrierchampionsresearch.png"
  ],
  "Hunter Strain (Baneling)": [
@@ -1174,6 +1177,12 @@
   "icons/blizzard/btn-unit-zerg-kerriganghost.png",
   "icons/blizzard/btn-unit-zerg-kerriganinfested.png"
  ],
+ "Primal Igniter Aspect (Roach)": [
+  "icons/blizzard/btn-unit-collection-primal-roachupgrade.png"
+ ],
+ "Primal Tenacity (Primal Igniter)": [
+  "icons/blizzard/btn-ability-zerg-genemutation-thornsaura.png"
+ ],
  "Progressive Augmented Thrusters (Planetary Fortress)": [
   "icons/blizzard/btn-ability-mengsk-siegetank-flyingtankarmament.png",
   "icons/blizzard/btn-ability-terran-liftoff.png"
@@ -1381,6 +1390,9 @@
  "Pulse Grenades (Nova Gadget)": [
   "icons/blizzard/btn-upgrade-nova-btn-upgrade-nova-pulsegrenade.png"
  ],
+ "Purger": [
+  "icons/blizzard/btn-unit-collection-purifier-carrier.png"
+ ],
  "Purifier Beam (Spear of Adun Calldown)": [
   "icons/blizzard/btn-ability-spearofadun-purifierbeam.png"
  ],
@@ -1511,6 +1523,9 @@
  "Resource Efficiency (Hydralisk)": [
   "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
+ "Resource Efficiency (Instigator)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
  "Resource Efficiency (Liberator)": [
   "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
@@ -1600,6 +1615,9 @@
  ],
  "Science Vessel": [
   "icons/blizzard/btn-unit-terran-sciencevessel.png"
+ ],
+ "Scorcher": [
+  "icons/blizzard/btn-unit-collection-purifier-voidray.png"
  ],
  "Scourge": [
   "icons/blizzard/btn-unit-zerg-scourge.png"
@@ -1699,6 +1717,9 @@
  ],
  "Skibi's Angels": [
   "icons/blizzard/btn-unit-terran-medicelite.png"
+ ],
+ "Skylord": [
+  "icons/blizzard/btn-unit-collection-taldarim-carrier.png"
  ],
  "Slayer": [
   "icons/blizzard/btn-unit-protoss-alarak-taldarim-stalker-collection.png"

@@ -1,8 +1,8 @@
 {
   "meta": {
-    "timestamp": "2024-07-03",
-    "items": 648,
-    "located": 615
+    "timestamp": "2024-07-09",
+    "items": 655,
+    "located": 622
   },
   "locations": {
     "Marine": [
@@ -1400,6 +1400,12 @@
     "Resource Efficiency (Corruptor)": [
       "btn-ability-hornerhan-salvagebonus.dds"
     ],
+    "Concentrated Fire (Primal Igniter)": [
+      "assets\\textures\\btn-ability-zerg-fireroach-increasefiredamage.dds"
+    ],
+    "Primal Tenacity (Primal Igniter)": [
+      "assets\\textures\\btn-ability-zerg-genemutation-thornsaura.dds"
+    ],
     "Raptor Strain (Zergling)": [
       "assets\\textures\\btn-ability-zerg-cliffjump-zergling.dds",
       "assets\\textures\\btn-unit-zerg-zergling-raptor.dds",
@@ -1581,6 +1587,9 @@
     "Overseer Aspect (Overlord)": [
       "assets\\textures\\btn-unit-zerg-overseer.dds"
     ],
+    "Primal Igniter Aspect (Roach)": [
+      "assets\\textures\\btn-unit-collection-primal-roachupgrade.dds"
+    ],
     "Observer": [
       "assets\\textures\\btn-unit-protoss-observer.dds"
     ],
@@ -1676,6 +1685,15 @@
     ],
     "Warp Ray": [
       "ap\\assets\\custom\\textures\\btn-unit-voidray-aiur.dds"
+    ],
+    "Scorcher": [
+      "assets\\textures\\btn-unit-collection-purifier-voidray.dds"
+    ],
+    "Skylord": [
+      "assets\\textures\\btn-unit-collection-taldarim-carrier.dds"
+    ],
+    "Purger": [
+      "assets\\textures\\btn-unit-collection-purifier-carrier.dds"
     ],
     "Progressive Protoss Ground Weapon": [
       "ap\\assets\\custom\\textures\\btn-upgrade-protoss-groundweaponslevel4.dds",
@@ -1828,13 +1846,13 @@
     "Enhanced Cloak Field (Arbiter)": [
       "assets\\textures\\btn-ability-stetmann-stetzonegenerator-speed.dds"
     ],
-    "Graviton Catapult (Carrier)": [
+    "Graviton Catapult (Carrier/Skylord/Purger)": [
       "assets\\textures\\btn-upgrade-protoss-gravitoncatapult.dds"
     ],
-    "Hull of Past Glories (Carrier)": [
+    "Hull of Past Glories (Carrier/Skylord/Purger)": [
       "assets\\textures\\btn-progression-protoss-fenix-14-colossusandcarrierchampionsresearch.dds"
     ],
-    "Flux Vanes (Void Ray/Destroyer/Warp Ray)": [
+    "Flux Vanes (Void Ray/Destroyer/Warp Ray/Scorcher)": [
       "assets\\textures\\btn-upgrade-protoss-fluxvanes.dds"
     ],
     "Reforged Bloodshard Core (Destroyer)": [
@@ -1991,6 +2009,9 @@
     ],
     "Phalanx Suit (Dragoon)": [
       "assets\\textures\\btn-upgrade-protoss-fenix-zealotsuit-armorplate.dds"
+    ],
+    "Resource Efficiency (Instigator)": [
+      "btn-ability-hornerhan-salvagebonus.dds"
     ],
     "Chrono Surge (Spear of Adun Calldown)": [
       "assets\\textures\\btn-ability-spearofadun-chronosurge.dds"

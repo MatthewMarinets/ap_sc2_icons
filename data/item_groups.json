@@ -744,6 +744,9 @@
     "Oracle",
     "Stalwart",
     "Warp Ray",
+    "Scorcher",
+    "Skylord",
+    "Purger",
     "Progressive Protoss Ground Weapon",
     "Progressive Protoss Ground Armor",
     "Progressive Protoss Shields",
@@ -790,9 +793,9 @@
     "Spacetime Anchor (Arbiter)",
     "Resource Efficiency (Arbiter)",
     "Enhanced Cloak Field (Arbiter)",
-    "Graviton Catapult (Carrier)",
-    "Hull of Past Glories (Carrier)",
-    "Flux Vanes (Void Ray/Destroyer/Warp Ray)",
+    "Graviton Catapult (Carrier/Skylord/Purger)",
+    "Hull of Past Glories (Carrier/Skylord/Purger)",
+    "Flux Vanes (Void Ray/Destroyer/Warp Ray/Scorcher)",
     "Reforged Bloodshard Core (Destroyer)",
     "Gravitic Drive (Warp Prism)",
     "Phase Blaster (Warp Prism)",
@@ -843,6 +846,7 @@
     "Resource Efficiency (Sentinel)",
     "Phase Reactor (Stalker)",
     "Phalanx Suit (Dragoon)",
+    "Resource Efficiency (Instigator)",
     "Chrono Surge (Spear of Adun Calldown)",
     "Progressive Proxy Pylon (Spear of Adun Calldown)",
     "Pylon Overcharge (Spear of Adun Calldown)",
@@ -910,14 +914,18 @@
     "Arbiter",
     "Oracle",
     "Stalwart",
-    "Warp Ray"
+    "Warp Ray",
+    "Scorcher",
+    "Skylord",
+    "Purger"
   ],
   "Protoss War Council Upgrades": [
     "Whirlwind (Zealot)",
     "Resource Efficiency (Centurion)",
     "Resource Efficiency (Sentinel)",
     "Phase Reactor (Stalker)",
-    "Phalanx Suit (Dragoon)"
+    "Phalanx Suit (Dragoon)",
+    "Resource Efficiency (Instigator)"
   ],
   "Purifier": [
     "Sentinel",
@@ -928,6 +936,8 @@
     "Colossus",
     "Disruptor",
     "Mirage",
+    "Scorcher",
+    "Purger",
     "Tempest"
   ],
   "Robo Units": [
@@ -963,7 +973,10 @@
     "Void Ray",
     "Destroyer",
     "Warp Ray",
+    "Scorcher",
     "Carrier",
+    "Skylord",
+    "Purger",
     "Tempest",
     "Scout",
     "Mothership",
@@ -991,6 +1004,7 @@
     "Vanguard",
     "Wrathwalker",
     "Destroyer",
+    "Skylord",
     "Mothership"
   ],
   "Terran Buildings": [
@@ -2012,6 +2026,8 @@
     "Construct Regeneration (Corruptor)",
     "Scourge Incubation (Corruptor)",
     "Resource Efficiency (Corruptor)",
+    "Concentrated Fire (Primal Igniter)",
+    "Primal Tenacity (Primal Igniter)",
     "Raptor Strain (Zergling)",
     "Swarmling Strain (Zergling)",
     "Vile Strain (Roach)",
@@ -2072,7 +2088,8 @@
     "Guardian Aspect (Mutalisk/Corruptor)",
     "Devourer Aspect (Mutalisk/Corruptor)",
     "Ravager Aspect (Roach)",
-    "Overseer Aspect (Overlord)"
+    "Overseer Aspect (Overlord)",
+    "Primal Igniter Aspect (Roach)"
   ],
   "Zerg Mercenaries": [
     "Infested Medics",
@@ -2088,7 +2105,8 @@
     "Guardian Aspect (Mutalisk/Corruptor)",
     "Devourer Aspect (Mutalisk/Corruptor)",
     "Ravager Aspect (Roach)",
-    "Overseer Aspect (Overlord)"
+    "Overseer Aspect (Overlord)",
+    "Primal Igniter Aspect (Roach)"
   ],
   "Zerg Units": [
     "Zergling",
@@ -2115,6 +2133,7 @@
     "Guardian Aspect (Mutalisk/Corruptor)",
     "Devourer Aspect (Mutalisk/Corruptor)",
     "Ravager Aspect (Roach)",
-    "Overseer Aspect (Overlord)"
+    "Overseer Aspect (Overlord)",
+    "Primal Igniter Aspect (Roach)"
   ]
 }

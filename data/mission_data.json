@@ -3,11 +3,11 @@
     "faction": "Terran",
     "campaign": "wol"
   },
-  "The Outlaws": {
+  "The Outlaws (Terran)": {
     "faction": "Terran",
     "campaign": "wol"
   },
-  "Zero Hour": {
+  "Zero Hour (Terran)": {
     "faction": "Terran",
     "campaign": "wol"
   },
@@ -27,7 +27,7 @@
     "faction": "Terran",
     "campaign": "wol"
   },
-  "Smash and Grab": {
+  "Smash and Grab (Terran)": {
     "faction": "Terran",
     "campaign": "wol"
   },
@@ -330,5 +330,29 @@
   "End Game": {
     "faction": "Terran",
     "campaign": "nco"
+  },
+  "The Outlaws (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "wol"
+  },
+  "The Outlaws (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "wol"
+  },
+  "Zero Hour (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "wol"
+  },
+  "Zero Hour (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "wol"
+  },
+  "Smash and Grab (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "wol"
+  },
+  "Smash and Grab (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "wol"
   }
 }
