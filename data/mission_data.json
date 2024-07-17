@@ -11,11 +11,11 @@
     "faction": "Terran",
     "campaign": "wol"
   },
-  "Evacuation": {
+  "Evacuation (Terran)": {
     "faction": "Terran",
     "campaign": "wol"
   },
-  "Outbreak": {
+  "Outbreak (Terran)": {
     "faction": "Terran",
     "campaign": "wol"
   },
@@ -344,6 +344,22 @@
     "campaign": "wol"
   },
   "Zero Hour (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "wol"
+  },
+  "Evacuation (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "wol"
+  },
+  "Evacuation (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "wol"
+  },
+  "Outbreak (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "wol"
+  },
+  "Outbreak (Protoss)": {
     "faction": "Protoss",
     "campaign": "wol"
   },

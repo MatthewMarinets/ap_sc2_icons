@@ -1,8 +1,8 @@
 {
   "meta": {
-    "timestamp": "2024-07-09",
-    "items": 655,
-    "located": 622
+    "timestamp": "2024-07-17",
+    "items": 658,
+    "located": 625
   },
   "locations": {
     "Marine": [
@@ -1686,7 +1686,7 @@
     "Warp Ray": [
       "ap\\assets\\custom\\textures\\btn-unit-voidray-aiur.dds"
     ],
-    "Scorcher": [
+    "Dawnbringer": [
       "assets\\textures\\btn-unit-collection-purifier-voidray.dds"
     ],
     "Skylord": [
@@ -1852,7 +1852,7 @@
     "Hull of Past Glories (Carrier/Skylord/Purger)": [
       "assets\\textures\\btn-progression-protoss-fenix-14-colossusandcarrierchampionsresearch.dds"
     ],
-    "Flux Vanes (Void Ray/Destroyer/Warp Ray/Scorcher)": [
+    "Flux Vanes (Void Ray/Destroyer/Warp Ray/Dawnbringer)": [
       "assets\\textures\\btn-upgrade-protoss-fluxvanes.dds"
     ],
     "Reforged Bloodshard Core (Destroyer)": [
@@ -2012,6 +2012,15 @@
     ],
     "Resource Efficiency (Instigator)": [
       "btn-ability-hornerhan-salvagebonus.dds"
+    ],
+    "Disruptive Transfer (Adept)": [
+      "assets\\textures\\btn-ability-protoss-adept-spiritform.dds"
+    ],
+    "Phase Blink (Slayer)": [
+      "assets\\textures\\btn-ability-protoss-blink-color.dds"
+    ],
+    "Kryhas Cloak (Avenger)": [
+      "assets\\textures\\btn-ability-protoss-permanentlycloaked-darktemplar-color.dds"
     ],
     "Chrono Surge (Spear of Adun Calldown)": [
       "assets\\textures\\btn-ability-spearofadun-chronosurge.dds"

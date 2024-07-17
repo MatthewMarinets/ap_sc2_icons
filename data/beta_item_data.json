@@ -4742,14 +4742,14 @@
     "parent_item": null,
     "description": "Surgical-strike craft. Damage output increases the longer the Warp Ray remains on target."
   },
-  "Scorcher": {
+  "Dawnbringer": {
     "type": "Unit 2",
     "number": 11,
     "race": "PROTOSS",
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "description": "Flying Assault Ship. Can use prismatic alignment to temporarily deal increased damage at the cost of movement speed."
+    "description": "Flying Anti-Surface Assault Ship. Attacks in an area around the target. Attack count increases as it continues firing."
   },
   "Skylord": {
     "type": "Unit 2",
@@ -4758,7 +4758,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "description": "Capital ship. Builds and launches Interceptors that attack enemy targets. Can use Tactical Jump ability."
+    "description": "Capital ship. Fires a powerful laser that deals damage in a line. Can use Tactical Jump ability."
   },
   "Purger": {
     "type": "Unit 2",
@@ -5201,14 +5201,14 @@
     "parent_item": null,
     "description": "Carriers gain +2 armour."
   },
-  "Flux Vanes (Void Ray/Destroyer/Warp Ray/Scorcher)": {
+  "Flux Vanes (Void Ray/Destroyer/Warp Ray/Dawnbringer)": {
     "type": "Forge 2",
     "number": 5,
     "race": "PROTOSS",
     "classification": "filler",
     "quantity": 1,
     "parent_item": null,
-    "description": "Increases Void Ray and Destroyer movement speed."
+    "description": "Increases movement speed of Void Ray variants."
   },
   "Reforged Bloodshard Core (Destroyer)": {
     "type": "Forge 2",
@@ -5668,6 +5668,33 @@
     "quantity": 1,
     "parent_item": "Instigator",
     "description": "Instigator War Council upgrade. Reduces Instigator cost by 40 minerals and 15 gas."
+  },
+  "Disruptive Transfer (Adept)": {
+    "type": "War Council",
+    "number": 6,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Adept",
+    "description": "Adept War Council upgrade. Adept shades apply a debuff to enemies they touch, increasing damage taken by +5."
+  },
+  "Phase Blink (Slayer)": {
+    "type": "War Council",
+    "number": 7,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Slayer",
+    "description": "Slayer War Council upgrade. Slayers can now blink. After blinking, the Slayer's next attack within 8 seconds deals double damage."
+  },
+  "Kryhas Cloak (Avenger)": {
+    "type": "War Council",
+    "number": 8,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Avenger",
+    "description": "Avenger War Council upgrade. Avengers are now permanently cloaked."
   },
   "Chrono Surge (Spear of Adun Calldown)": {
     "type": "Spear Of Adun",

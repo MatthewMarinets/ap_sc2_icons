@@ -3,8 +3,8 @@
     "Liberation Day",
     "The Outlaws (Terran)",
     "Zero Hour (Terran)",
-    "Evacuation",
-    "Outbreak",
+    "Evacuation (Terran)",
+    "Outbreak (Terran)",
     "Safe Haven",
     "Haven's Fall",
     "Smash and Grab (Terran)",
@@ -87,12 +87,16 @@
     "The Outlaws (Protoss)",
     "Zero Hour (Zerg)",
     "Zero Hour (Protoss)",
+    "Evacuation (Zerg)",
+    "Evacuation (Protoss)",
+    "Outbreak (Zerg)",
+    "Outbreak (Protoss)",
     "Smash and Grab (Zerg)",
     "Smash and Grab (Protoss)"
   ],
   "Auto-Scroller Missions": [
     "Zero Hour (Terran)",
-    "Evacuation",
+    "Evacuation (Terran)",
     "The Dig",
     "The Great Train Robbery",
     "Engine of Destruction",
@@ -110,7 +114,9 @@
     "Sudden Strike",
     "Dark Skies",
     "Zero Hour (Zerg)",
-    "Zero Hour (Protoss)"
+    "Zero Hour (Protoss)",
+    "Evacuation (Zerg)",
+    "Evacuation (Protoss)"
   ],
   "Controllable Protoss Ally Missions": [
     "Salvation",
@@ -150,7 +156,7 @@
   ],
   "Defense Missions": [
     "Zero Hour (Terran)",
-    "Outbreak",
+    "Outbreak (Terran)",
     "The Dig",
     "All-In",
     "In Utter Darkness",
@@ -164,7 +170,9 @@
     "Dark Skies",
     "End Game",
     "Zero Hour (Zerg)",
-    "Zero Hour (Protoss)"
+    "Zero Hour (Protoss)",
+    "Outbreak (Zerg)",
+    "Outbreak (Protoss)"
   ],
   "Epilogue Missions": [
     "Into the Void",
@@ -419,14 +427,16 @@
     "Into the Void",
     "The Outlaws (Protoss)",
     "Zero Hour (Protoss)",
+    "Evacuation (Protoss)",
+    "Outbreak (Protoss)",
     "Smash and Grab (Protoss)"
   ],
   "Terran Missions": [
     "Liberation Day",
     "The Outlaws (Terran)",
     "Zero Hour (Terran)",
-    "Evacuation",
-    "Outbreak",
+    "Evacuation (Terran)",
+    "Outbreak (Terran)",
     "Safe Haven",
     "Haven's Fall",
     "Smash and Grab (Terran)",
@@ -553,8 +563,8 @@
   ],
   "Vs Zerg Missions": [
     "Zero Hour (Terran)",
-    "Evacuation",
-    "Outbreak",
+    "Evacuation (Terran)",
+    "Outbreak (Terran)",
     "Haven's Fall",
     "Smash and Grab (Terran)",
     "The Moebius Factor",
@@ -593,6 +603,10 @@
     "Flashpoint",
     "Zero Hour (Zerg)",
     "Zero Hour (Protoss)",
+    "Evacuation (Zerg)",
+    "Evacuation (Protoss)",
+    "Outbreak (Zerg)",
+    "Outbreak (Protoss)",
     "Smash and Grab (Zerg)",
     "Smash and Grab (Protoss)"
   ],
@@ -612,10 +626,14 @@
     "All-In"
   ],
   "WoL Colonist": [
-    "Evacuation",
-    "Outbreak",
+    "Evacuation (Terran)",
+    "Outbreak (Terran)",
     "Safe Haven",
-    "Haven's Fall"
+    "Haven's Fall",
+    "Evacuation (Zerg)",
+    "Evacuation (Protoss)",
+    "Outbreak (Zerg)",
+    "Outbreak (Protoss)"
   ],
   "WoL Covert": [
     "Devil's Playground",
@@ -636,8 +654,8 @@
     "Liberation Day",
     "The Outlaws (Terran)",
     "Zero Hour (Terran)",
-    "Evacuation",
-    "Outbreak",
+    "Evacuation (Terran)",
+    "Outbreak (Terran)",
     "Safe Haven",
     "Haven's Fall",
     "Smash and Grab (Terran)",
@@ -662,6 +680,10 @@
     "The Outlaws (Protoss)",
     "Zero Hour (Zerg)",
     "Zero Hour (Protoss)",
+    "Evacuation (Zerg)",
+    "Evacuation (Protoss)",
+    "Outbreak (Zerg)",
+    "Outbreak (Protoss)",
     "Smash and Grab (Zerg)",
     "Smash and Grab (Protoss)"
   ],
@@ -695,6 +717,8 @@
     "Amon's Fall",
     "The Outlaws (Zerg)",
     "Zero Hour (Zerg)",
+    "Evacuation (Zerg)",
+    "Outbreak (Zerg)",
     "Smash and Grab (Zerg)"
   ]
 }

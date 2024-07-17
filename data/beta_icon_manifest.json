@@ -395,6 +395,9 @@
  "Dark Templar": [
   "icons/blizzard/btn-unit-protoss-darktemplar.png"
  ],
+ "Dawnbringer": [
+  "icons/blizzard/btn-unit-collection-purifier-voidray.png"
+ ],
  "Death Heads": [
   "icons/blizzard/btn-unit-terran-deathhead.png"
  ],
@@ -436,6 +439,9 @@
  ],
  "Displacement Field (Wraith)": [
   "icons/blizzard/btn-upgrade-swann-displacementfield.png"
+ ],
+ "Disruptive Transfer (Adept)": [
+  "icons/blizzard/btn-ability-protoss-adept-spiritform.png"
  ],
  "Disruptor": [
   "icons/blizzard/btn-unit-protoss-disruptor.png"
@@ -530,7 +536,7 @@
  "Flechette Missiles (Valkyrie)": [
   "icons/blizzard/btn-ability-hornerhan-viking-missileupgrade.png"
  ],
- "Flux Vanes (Void Ray/Destroyer/Warp Ray/Scorcher)": [
+ "Flux Vanes (Void Ray/Destroyer/Warp Ray/Dawnbringer)": [
   "icons/blizzard/btn-upgrade-protoss-fluxvanes.png"
  ],
  "Force Field (Sentry)": [
@@ -854,6 +860,9 @@
  "Kinetic Foam (Reaper)": [
   "icons/blizzard/btn-techupgrade-terran-kineticfoam.png"
  ],
+ "Kryhas Cloak (Avenger)": [
+  "icons/blizzard/btn-ability-protoss-permanentlycloaked-darktemplar-color.png"
+ ],
  "Large Scale Field Construction (Thor)": [
   "icons/blizzard/btn-unit-terran-thor.png",
   "icons/blizzard/talent-swann-level12-immortalityprotocol.png"
@@ -1119,6 +1128,9 @@
  ],
  "Phase Blaster (Warp Prism)": [
   "icons/blizzard/btn-upgrade-protoss-airweaponslevel0.png"
+ ],
+ "Phase Blink (Slayer)": [
+  "icons/blizzard/btn-ability-protoss-blink-color.png"
  ],
  "Phase Bulwark (Adept)": [
   "icons/blizzard/btn-upgrade-protoss-adeptshieldupgrade.png"
@@ -1615,9 +1627,6 @@
  ],
  "Science Vessel": [
   "icons/blizzard/btn-unit-terran-sciencevessel.png"
- ],
- "Scorcher": [
-  "icons/blizzard/btn-unit-collection-purifier-voidray.png"
  ],
  "Scourge": [
   "icons/blizzard/btn-unit-zerg-scourge.png"
