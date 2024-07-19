@@ -747,6 +747,7 @@
     "Dawnbringer",
     "Skylord",
     "Purger",
+    "Skirmisher",
     "Progressive Protoss Ground Weapon",
     "Progressive Protoss Ground Armor",
     "Progressive Protoss Shields",
@@ -920,7 +921,8 @@
     "Warp Ray",
     "Dawnbringer",
     "Skylord",
-    "Purger"
+    "Purger",
+    "Skirmisher"
   ],
   "Protoss War Council Upgrades": [
     "Whirlwind (Zealot)",
@@ -974,6 +976,7 @@
   ],
   "Stargate Units": [
     "Phoenix",
+    "Skirmisher",
     "Mirage",
     "Corsair",
     "Void Ray",
@@ -1009,6 +1012,7 @@
     "Ascendant",
     "Vanguard",
     "Wrathwalker",
+    "Skirmisher",
     "Destroyer",
     "Skylord",
     "Mothership"

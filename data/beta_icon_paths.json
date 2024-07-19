@@ -1,8 +1,8 @@
 {
   "meta": {
-    "timestamp": "2024-07-17",
-    "items": 658,
-    "located": 625
+    "timestamp": "2024-07-19",
+    "items": 659,
+    "located": 626
   },
   "locations": {
     "Marine": [
@@ -1694,6 +1694,9 @@
     ],
     "Purger": [
       "assets\\textures\\btn-unit-collection-purifier-carrier.dds"
+    ],
+    "Skirmisher": [
+      "assets\\textures\\btn-unit-collection-taldarim-phoenix.dds"
     ],
     "Progressive Protoss Ground Weapon": [
       "ap\\assets\\custom\\textures\\btn-upgrade-protoss-groundweaponslevel4.dds",

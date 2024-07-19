@@ -3549,7 +3549,7 @@
     "type": "Mutation 2",
     "number": 23,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Impaler Aspect (Hydralisk)",
     "description": "Impalers deal increased damage."
@@ -3558,7 +3558,7 @@
     "type": "Mutation 2",
     "number": 24,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Lurker Aspect (Hydralisk)",
     "description": "Lurkers gain +6 range."
@@ -3567,7 +3567,7 @@
     "type": "Mutation 2",
     "number": 25,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Lurker Aspect (Hydralisk)",
     "description": "Lurkers deal increased damage to non-light targets."
@@ -3900,7 +3900,7 @@
     "type": "Strain",
     "number": 0,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Zergling",
     "description": "Allows Zerglings to jump up and down cliffs and leap onto enemies. Also increases Zergling attack damage by 2."
@@ -3927,7 +3927,7 @@
     "type": "Strain",
     "number": 3,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Roach",
     "description": "Units killed after being attacked by Roaches will spawn 2 Roachlings."
@@ -4134,7 +4134,7 @@
     "type": "Evolution Pit",
     "number": 3,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": null,
     "description": "Drones morph in groups of two at no additional cost and require less supply."
@@ -4143,7 +4143,7 @@
     "type": "Evolution Pit",
     "number": 4,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": null,
     "description": "Your units and structures gain increased life regeneration and 30% increased attack speed while on creep. Creep Tumors also spread creep faster and farther."
@@ -4359,7 +4359,7 @@
     "type": "Mercenary",
     "number": 1,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": null,
     "description": "Mercenary infested Siege Tanks that may be called in from the Hatchery."
@@ -4449,7 +4449,7 @@
     "type": "Morph",
     "number": 9,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": null,
     "description": "Assault unit. Has an area-damage attack. Regenerates life quickly when burrowed. Can attack ground units. Morphed by merging two Roaches."
@@ -4768,6 +4768,15 @@
     "quantity": 1,
     "parent_item": null,
     "description": "Capital ship. Builds and launches Interceptors that attack enemy targets. Has Solar Beam weapon."
+  },
+  "Skirmisher": {
+    "type": "Unit 2",
+    "number": 14,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Fast skirmish starfighter."
   },
   "Progressive Protoss Ground Weapon": {
     "type": "Upgrade",
@@ -5658,7 +5667,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Dragoon",
-    "description": "Dragoon War Council upgrade. Dragoons gain +2 range, move slightly faster, and can form tighter formations."
+    "description": "Dragoon War Council upgrade. Dragoons gain +1 range, move slightly faster, and can form tighter formations."
   },
   "Resource Efficiency (Instigator)": {
     "type": "War Council",
@@ -5808,7 +5817,7 @@
     "type": "Solarite Core",
     "number": 0,
     "race": "PROTOSS",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": null,
     "description": "All friendly units gain 25% movement speed and 15% attack speed within a Pylon's power field and for 15 seconds after leaving it."
@@ -5826,7 +5835,7 @@
     "type": "Solarite Core",
     "number": 2,
     "race": "PROTOSS",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": null,
     "description": "The Protoss Nexus gains a long-range auto-attack."
