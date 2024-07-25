@@ -62,9 +62,9 @@ def write_group(
             f'<div class="group-list-item">'
             f'<img class="list-item-icon" src="{icon_manifest.get(item, [DEFAULT_IMAGE])[0]}">'
             f'<a class="list-item-label" href="{item_page_rel_path}#{brief_name(item)}">{item}'
-            f'</a></div>'
+            f'</a></div>\n'
         )
-    fp.write('</div></div>')
+    fp.write('</div></div>\n')
 
 
 def write_end(fp: 'io.FileIO') -> None:
