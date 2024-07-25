@@ -232,6 +232,9 @@
  "Brood Queen": [
   "icons/blizzard/btn-unit-zerg-classicqueen.png"
  ],
+ "Brutal Efficiency (Blood Hunter)": [
+  "icons/blizzard/btn-upgrade-protoss-alarak-melleeweapon.png"
+ ],
  "Brynhilds": [
   "icons/blizzard/btn-unit-collection-vikingfighter-covertops.png"
  ],
@@ -455,6 +458,9 @@
  "Domination (Nova Ability)": [
   "icons/blizzard/btn-ability-nova-domination.png"
  ],
+ "Double Shield Recharge (Sentry)": [
+  "icons/blizzard/btn-ability-protoss-doubleshieldrecharge.png"
+ ],
  "Dragoon": [
   "icons/blizzard/btn-unit-protoss-dragoon-void.png"
  ],
@@ -481,6 +487,9 @@
  ],
  "Enduring Locusts (Swarm Host)": [
   "icons/blizzard/btn-upgrade-zerg-evolveincreasedlocustlifetime.png"
+ ],
+ "Enduring Sight (Havoc)": [
+  "icons/blizzard/btn-ability-hornerhan-raven-analyzetarget.png"
  ],
  "Energizer": [
   "icons/blizzard/btn-unit-protoss-sentry-purifier.png"
@@ -599,6 +608,9 @@
  ],
  "Gravity Sling (Tempest)": [
   "icons/blizzard/btn-upgrade-protoss-tectonicdisruptors.png"
+ ],
+ "Greater Shadow Fury (Dark Templar)": [
+  "icons/blizzard/btn-ability-protoss-shadowfury.png"
  ],
  "Grooved Spines (Hydralisk)": [
   "icons/blizzard/btn-upgrade-zerg-hotsgroovedspines.png"
@@ -897,6 +909,9 @@
  "Leg Enhancements (Zealot/Sentinel/Centurion)": [
   "icons/blizzard/btn-ability-protoss-charge-color.png"
  ],
+ "Lesser Shadow Fury (Dark Templar)": [
+  "icons/blizzard/btn-ability-protoss-shadowfury.png"
+ ],
  "Liberator": [
   "icons/blizzard/btn-unit-terran-liberator.png"
  ],
@@ -981,6 +996,9 @@
  ],
  "Missile Turret": [
   "icons/blizzard/btn-building-terran-missileturret.png"
+ ],
+ "Mobile Chrono Beam (Energizer)": [
+  "icons/blizzard/btn-ability-protoss-chronobeam.png"
  ],
  "Monarch Blades (Ultralisk)": [
   "icons/blizzard/btn-upgrade-zerg-monarchblades.png"

@@ -1,8 +1,8 @@
 {
   "meta": {
-    "timestamp": "2024-07-19",
-    "items": 659,
-    "located": 626
+    "timestamp": "2024-07-25",
+    "items": 665,
+    "located": 632
   },
   "locations": {
     "Marine": [
@@ -2024,6 +2024,24 @@
     ],
     "Kryhas Cloak (Avenger)": [
       "assets\\textures\\btn-ability-protoss-permanentlycloaked-darktemplar-color.dds"
+    ],
+    "Lesser Shadow Fury (Dark Templar)": [
+      "assets\\textures\\btn-ability-protoss-shadowfury.dds"
+    ],
+    "Greater Shadow Fury (Dark Templar)": [
+      "assets\\textures\\btn-ability-protoss-shadowfury.dds"
+    ],
+    "Brutal Efficiency (Blood Hunter)": [
+      "assets\\textures\\btn-upgrade-protoss-alarak-melleeweapon.dds"
+    ],
+    "Double Shield Recharge (Sentry)": [
+      "assets\\textures\\btn-ability-protoss-doubleshieldrecharge.dds"
+    ],
+    "Mobile Chrono Beam (Energizer)": [
+      "assets\\textures\\btn-ability-protoss-chronobeam.dds"
+    ],
+    "Enduring Sight (Havoc)": [
+      "assets\\textures\\btn-ability-hornerhan-raven-analyzetarget.dds"
     ],
     "Chrono Surge (Spear of Adun Calldown)": [
       "assets\\textures\\btn-ability-spearofadun-chronosurge.dds"

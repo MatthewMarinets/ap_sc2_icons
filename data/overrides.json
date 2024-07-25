@@ -51,6 +51,8 @@
         "Lurker Aspect (Hydralisk)": ["btn-building-zerg-lurkerden"],
         "Tac Nuke Strike (Nova Ability)": ["btn-building-terran-ghostacademy"],
         "Phase Reactor (Stalker)": ["btn-ability-protoss-blink-color"],
+        "Double Shield Recharge (Sentry)": ["btn-ability-protoss-shieldrecharge"],
+        "Enduring Sight (Havoc)": ["btn-ability-protoss-squadsight"],
         "": []
     },
     "pattern_add": {

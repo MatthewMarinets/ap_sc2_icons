@@ -851,6 +851,12 @@
     "Disruptive Transfer (Adept)",
     "Phase Blink (Slayer)",
     "Kryhas Cloak (Avenger)",
+    "Lesser Shadow Fury (Dark Templar)",
+    "Greater Shadow Fury (Dark Templar)",
+    "Brutal Efficiency (Blood Hunter)",
+    "Double Shield Recharge (Sentry)",
+    "Mobile Chrono Beam (Energizer)",
+    "Enduring Sight (Havoc)",
     "Chrono Surge (Spear of Adun Calldown)",
     "Progressive Proxy Pylon (Spear of Adun Calldown)",
     "Pylon Overcharge (Spear of Adun Calldown)",
@@ -933,7 +939,13 @@
     "Resource Efficiency (Instigator)",
     "Disruptive Transfer (Adept)",
     "Phase Blink (Slayer)",
-    "Kryhas Cloak (Avenger)"
+    "Kryhas Cloak (Avenger)",
+    "Lesser Shadow Fury (Dark Templar)",
+    "Greater Shadow Fury (Dark Templar)",
+    "Brutal Efficiency (Blood Hunter)",
+    "Double Shield Recharge (Sentry)",
+    "Mobile Chrono Beam (Energizer)",
+    "Enduring Sight (Havoc)"
   ],
   "Purifier": [
     "Sentinel",

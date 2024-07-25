@@ -5705,6 +5705,60 @@
     "parent_item": "Avenger",
     "description": "Avenger War Council upgrade. Avengers are now permanently cloaked."
   },
+  "Lesser Shadow Fury (Dark Templar)": {
+    "type": "War Council",
+    "number": 9,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Dark Templar",
+    "description": "Dark Templar War Council upgrade. Dark Templar gain two strikes of their Shadow Fury ability."
+  },
+  "Greater Shadow Fury (Dark Templar)": {
+    "type": "War Council",
+    "number": 10,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Dark Templar",
+    "description": "Dark Templar War Council upgrade. Dark Templar gain three strikes of their Shadow Fury ability."
+  },
+  "Brutal Efficiency (Blood Hunter)": {
+    "type": "War Council",
+    "number": 11,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Blood Hunter",
+    "description": "Blood Hunter War Council upgrade. Blood Hunters attack over twice as quickly."
+  },
+  "Double Shield Recharge (Sentry)": {
+    "type": "War Council",
+    "number": 12,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Sentry",
+    "description": "Sentry War Council upgrade. Sentries can heal the shields of two targets at once."
+  },
+  "Mobile Chrono Beam (Energizer)": {
+    "type": "War Council",
+    "number": 13,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Energizer",
+    "description": "Energizer War Council upgrade. Allows Energizers to use Chrono Beam in Mobile Mode."
+  },
+  "Enduring Sight (Havoc)": {
+    "type": "War Council",
+    "number": 14,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Havoc",
+    "description": "Havoc War Council upgrade. Havoc Squad Sight stays up indefinitely and no longer takes energy."
+  },
   "Chrono Surge (Spear of Adun Calldown)": {
     "type": "Spear Of Adun",
     "number": 0,
