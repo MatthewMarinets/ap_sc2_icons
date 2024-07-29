@@ -23,7 +23,7 @@
     "faction": "Terran",
     "campaign": "wol"
   },
-  "Haven's Fall": {
+  "Haven's Fall (Terran)": {
     "faction": "Terran",
     "campaign": "wol"
   },
@@ -360,6 +360,14 @@
     "campaign": "wol"
   },
   "Outbreak (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "wol"
+  },
+  "Haven's Fall (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "wol"
+  },
+  "Haven's Fall (Protoss)": {
     "faction": "Protoss",
     "campaign": "wol"
   },

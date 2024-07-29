@@ -1,8 +1,8 @@
 {
   "meta": {
-    "timestamp": "2024-07-25",
-    "items": 665,
-    "located": 632
+    "timestamp": "2024-07-29",
+    "items": 684,
+    "located": 651
   },
   "locations": {
     "Marine": [
@@ -1083,6 +1083,12 @@
     "Defiler": [
       "ap\\assets\\textures\\btn-unit-zerg-defiler@scbw.dds"
     ],
+    "Infested Marine": [
+      "assets\\textures\\btn-unit-zerg-infestedmarine.dds"
+    ],
+    "Infested Bunker": [
+      "assets\\textures\\btn-building-stukov-infestedbunker.dds"
+    ],
     "Progressive Zerg Melee Attack": [
       "ap\\assets\\custom\\textures\\btn-upgrade-zerg-meleeattacks-level4.dds",
       "ap\\assets\\custom\\textures\\btn-upgrade-zerg-meleeattacks-level5.dds",
@@ -1364,6 +1370,9 @@
       "assets\\textures\\btn-upgrade-zagara-increasebilelauncherrange.dds"
     ],
     "Trapdoor Adaptation (Defiler)": [
+      "assets\\textures\\btn-ability-zerg-consume.dds",
+      "assets\\textures\\btn-ability-zerg-darkswarm.dds",
+      "assets\\textures\\btn-ability-zerg-defilerplague.dds",
       "assets\\textures\\btn-upgrade-zerg-burrowmove.dds"
     ],
     "Predatory Consumption (Defiler)": [
@@ -1405,6 +1414,24 @@
     ],
     "Primal Tenacity (Primal Igniter)": [
       "assets\\textures\\btn-ability-zerg-genemutation-thornsaura.dds"
+    ],
+    "Sustained Cultivation Ventricles (InfSCV Build Charges)": [
+      "assets\\textures\\btn-upgrade-swann-scvdoublerepair.dds"
+    ],
+    "Plagued Munitions (Infested Marine)": [
+      "assets\\textures\\btn-ability-stukov-plaugedmunitions.dds"
+    ],
+    "Retinal Augmentation (Infested Marine)": [
+      "assets\\textures\\btn-upgrade-zerg-stukov-infestedmarinerangeupgrade.dds"
+    ],
+    "Calcified Armor (Infested Bunker)": [
+      "assets\\textures\\btn-upgrade-zerg-stukov-infestedbunkermorelife.dds"
+    ],
+    "Regenerative Plating (Infested Bunker)": [
+      "assets\\textures\\btn-upgrade-zerg-stukov-bunkerformliferegenupgraded.dds"
+    ],
+    "Engorged Bunkers (Infested Bunker)": [
+      "assets\\textures\\btn-upgrade-zerg-stukov-bunkerupgradeii_14.dds"
     ],
     "Raptor Strain (Zergling)": [
       "assets\\textures\\btn-ability-zerg-cliffjump-zergling.dds",
@@ -1467,6 +1494,18 @@
     "Torrasque Strain (Ultralisk)": [
       "assets\\textures\\btn-ability-zerg-ultralisk-revive.dds",
       "assets\\textures\\btn-unit-zerg-ultralisk-torrasque.dds"
+    ],
+    "Tyrant's Protection (Tyrannozor)": [
+      "assets\\textures\\btn-ability-zerg-dehaka-tyrannozor-tyrantprotection.dds"
+    ],
+    "Barrage of Spikes (Tyrannozor)": [
+      "assets\\textures\\btn-ability-zerg-dehaka-tyrannozor-barrageofspikes.dds"
+    ],
+    "Impaling Strike (Ultralisk/Tyrannozor)": [
+      "assets\\textures\\btn-ability-zerg-dehaka-ultralisk-impalingstrike.dds"
+    ],
+    "Healing Adaptation (Ultralisk/Tyrannozor)": [
+      "assets\\textures\\btn-ability-zerg-dehaka-ultralisk-healingadaptation.dds"
     ],
     "Kinetic Blast (Kerrigan Ability)": [
       "assets\\textures\\btn-ability-kerrigan-kineticblast.dds"
@@ -1589,6 +1628,9 @@
     ],
     "Primal Igniter Aspect (Roach)": [
       "assets\\textures\\btn-unit-collection-primal-roachupgrade.dds"
+    ],
+    "Tyrannozor Aspect (Ultralisk)": [
+      "assets\\textures\\btn-unit-collection-primal-tyrannozor.dds"
     ],
     "Observer": [
       "assets\\textures\\btn-unit-protoss-observer.dds"
@@ -1804,10 +1846,10 @@
     "Gravity Sling (Tempest)": [
       "assets\\textures\\btn-upgrade-protoss-tectonicdisruptors.dds"
     ],
-    "Ionic Wavelength Flux (Phoenix/Mirage)": [
+    "Ionic Wavelength Flux (Phoenix/Mirage/Skirmisher)": [
       "assets\\textures\\btn-upgrade-protoss-airweaponslevel0.dds"
     ],
-    "Anion Pulse-Crystals (Phoenix/Mirage)": [
+    "Anion Pulse-Crystals (Phoenix/Mirage/Skirmisher)": [
       "assets\\textures\\btn-upgrade-protoss-phoenixrange.dds"
     ],
     "Stealth Drive (Corsair)": [
@@ -1858,8 +1900,8 @@
     "Flux Vanes (Void Ray/Destroyer/Warp Ray/Dawnbringer)": [
       "assets\\textures\\btn-upgrade-protoss-fluxvanes.dds"
     ],
-    "Reforged Bloodshard Core (Destroyer)": [
-      "assets\\textures\\btn-amonshardsarmor.dds"
+    "Resource Efficiency (Destroyer)": [
+      "btn-ability-hornerhan-salvagebonus.dds"
     ],
     "Gravitic Drive (Warp Prism)": [
       "assets\\textures\\btn-upgrade-protoss-graviticdrive.dds"
@@ -2042,6 +2084,24 @@
     ],
     "Enduring Sight (Havoc)": [
       "assets\\textures\\btn-ability-hornerhan-raven-analyzetarget.dds"
+    ],
+    "Plasma Surge (High Templar)": [
+      "assets\\textures\\btn-upgrade-artanis-healingpsionicstorm.dds"
+    ],
+    "Indomitable Will (Dark Archon)": [
+      "assets\\textures\\btn-ability-zeratul-topbar-serdathlegion.dds"
+    ],
+    "Rapid-Fire Cannon (Vanguard)": [
+      "assets\\textures\\btn-upgrade-mengsk-engineeringbay-orbitaldrop.dds"
+    ],
+    "Fusion Mortars (Vanguard)": [
+      "assets\\textures\\btn-upgrade-protoss-vanguard-increasedarmordamage.dds"
+    ],
+    "Peer Contempt (Skirmisher)": [
+      "assets\\textures\\btn-upgrade-protoss-alarak-combatmastery.dds"
+    ],
+    "Reforged Bloodshard Core (Destroyer)": [
+      "assets\\textures\\btn-amonshardsarmor.dds"
     ],
     "Chrono Surge (Spear of Adun Calldown)": [
       "assets\\textures\\btn-ability-spearofadun-chronosurge.dds"

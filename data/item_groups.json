@@ -55,6 +55,10 @@
     "Avenger",
     "Blood Hunter"
   ],
+  "HotS Buildings": [
+    "Spine Crawler",
+    "Spore Crawler"
+  ],
   "HotS Global Upgrades": [
     "Zergling Reconstitution (Zerg)",
     "Improved Overlords (Overlord)",
@@ -200,6 +204,28 @@
     "Impaler Aspect (Hydralisk)",
     "Viper Aspect (Mutalisk/Corruptor)",
     "Brood Lord Aspect (Mutalisk/Corruptor)"
+  ],
+  "Infested Terran Items": [
+    "Infested Marine",
+    "Infested Bunker",
+    "Sustained Cultivation Ventricles (InfSCV Build Charges)",
+    "Plagued Munitions (Infested Marine)",
+    "Retinal Augmentation (Infested Marine)",
+    "Calcified Armor (Infested Bunker)",
+    "Regenerative Plating (Infested Bunker)",
+    "Engorged Bunkers (Infested Bunker)"
+  ],
+  "Infested Terran Units": [
+    "Infested Marine",
+    "Infested Bunker"
+  ],
+  "Infested Terran Upgrades": [
+    "Sustained Cultivation Ventricles (InfSCV Build Charges)",
+    "Plagued Munitions (Infested Marine)",
+    "Retinal Augmentation (Infested Marine)",
+    "Calcified Armor (Infested Bunker)",
+    "Regenerative Plating (Infested Bunker)",
+    "Engorged Bunkers (Infested Bunker)"
   ],
   "Kerrigan Abilities": [
     "Kinetic Blast (Kerrigan Ability)",
@@ -780,8 +806,8 @@
     "Tectonic Destabilizers (Tempest)",
     "Quantic Reactor (Tempest)",
     "Gravity Sling (Tempest)",
-    "Ionic Wavelength Flux (Phoenix/Mirage)",
-    "Anion Pulse-Crystals (Phoenix/Mirage)",
+    "Ionic Wavelength Flux (Phoenix/Mirage/Skirmisher)",
+    "Anion Pulse-Crystals (Phoenix/Mirage/Skirmisher)",
     "Stealth Drive (Corsair)",
     "Argus Jewel (Corsair)",
     "Sustaining Disruption (Corsair)",
@@ -797,7 +823,7 @@
     "Graviton Catapult (Carrier/Skylord/Purger)",
     "Hull of Past Glories (Carrier/Skylord/Purger)",
     "Flux Vanes (Void Ray/Destroyer/Warp Ray/Dawnbringer)",
-    "Reforged Bloodshard Core (Destroyer)",
+    "Resource Efficiency (Destroyer)",
     "Gravitic Drive (Warp Prism)",
     "Phase Blaster (Warp Prism)",
     "War Configuration (Warp Prism)",
@@ -857,6 +883,12 @@
     "Double Shield Recharge (Sentry)",
     "Mobile Chrono Beam (Energizer)",
     "Enduring Sight (Havoc)",
+    "Plasma Surge (High Templar)",
+    "Indomitable Will (Dark Archon)",
+    "Rapid-Fire Cannon (Vanguard)",
+    "Fusion Mortars (Vanguard)",
+    "Peer Contempt (Skirmisher)",
+    "Reforged Bloodshard Core (Destroyer)",
     "Chrono Surge (Spear of Adun Calldown)",
     "Progressive Proxy Pylon (Spear of Adun Calldown)",
     "Pylon Overcharge (Spear of Adun Calldown)",
@@ -945,7 +977,13 @@
     "Brutal Efficiency (Blood Hunter)",
     "Double Shield Recharge (Sentry)",
     "Mobile Chrono Beam (Energizer)",
-    "Enduring Sight (Havoc)"
+    "Enduring Sight (Havoc)",
+    "Plasma Surge (High Templar)",
+    "Indomitable Will (Dark Archon)",
+    "Rapid-Fire Cannon (Vanguard)",
+    "Fusion Mortars (Vanguard)",
+    "Peer Contempt (Skirmisher)",
+    "Reforged Bloodshard Core (Destroyer)"
   ],
   "Purifier": [
     "Sentinel",
@@ -1917,7 +1955,8 @@
   ],
   "Zerg Buildings": [
     "Spine Crawler",
-    "Spore Crawler"
+    "Spore Crawler",
+    "Infested Bunker"
   ],
   "Zerg Generic Upgrades": [
     "Progressive Zerg Melee Attack",
@@ -1948,6 +1987,8 @@
     "Scourge",
     "Brood Queen",
     "Defiler",
+    "Infested Marine",
+    "Infested Bunker",
     "Progressive Zerg Melee Attack",
     "Progressive Zerg Missile Attack",
     "Progressive Zerg Ground Carapace",
@@ -2050,6 +2091,12 @@
     "Resource Efficiency (Corruptor)",
     "Concentrated Fire (Primal Igniter)",
     "Primal Tenacity (Primal Igniter)",
+    "Sustained Cultivation Ventricles (InfSCV Build Charges)",
+    "Plagued Munitions (Infested Marine)",
+    "Retinal Augmentation (Infested Marine)",
+    "Calcified Armor (Infested Bunker)",
+    "Regenerative Plating (Infested Bunker)",
+    "Engorged Bunkers (Infested Bunker)",
     "Raptor Strain (Zergling)",
     "Swarmling Strain (Zergling)",
     "Vile Strain (Roach)",
@@ -2064,6 +2111,10 @@
     "Creeper Strain (Swarm Host)",
     "Noxious Strain (Ultralisk)",
     "Torrasque Strain (Ultralisk)",
+    "Tyrant's Protection (Tyrannozor)",
+    "Barrage of Spikes (Tyrannozor)",
+    "Impaling Strike (Ultralisk/Tyrannozor)",
+    "Healing Adaptation (Ultralisk/Tyrannozor)",
     "Kinetic Blast (Kerrigan Ability)",
     "Heroic Fortitude (Kerrigan Passive)",
     "Leaping Strike (Kerrigan Ability)",
@@ -2111,7 +2162,8 @@
     "Devourer Aspect (Mutalisk/Corruptor)",
     "Ravager Aspect (Roach)",
     "Overseer Aspect (Overlord)",
-    "Primal Igniter Aspect (Roach)"
+    "Primal Igniter Aspect (Roach)",
+    "Tyrannozor Aspect (Ultralisk)"
   ],
   "Zerg Mercenaries": [
     "Infested Medics",
@@ -2128,7 +2180,8 @@
     "Devourer Aspect (Mutalisk/Corruptor)",
     "Ravager Aspect (Roach)",
     "Overseer Aspect (Overlord)",
-    "Primal Igniter Aspect (Roach)"
+    "Primal Igniter Aspect (Roach)",
+    "Tyrannozor Aspect (Ultralisk)"
   ],
   "Zerg Units": [
     "Zergling",
@@ -2145,6 +2198,7 @@
     "Scourge",
     "Brood Queen",
     "Defiler",
+    "Infested Marine",
     "Impaler Aspect (Hydralisk)",
     "Lurker Aspect (Hydralisk)",
     "Brood Lord Aspect (Mutalisk/Corruptor)",
@@ -2156,6 +2210,7 @@
     "Devourer Aspect (Mutalisk/Corruptor)",
     "Ravager Aspect (Roach)",
     "Overseer Aspect (Overlord)",
-    "Primal Igniter Aspect (Roach)"
+    "Primal Igniter Aspect (Roach)",
+    "Tyrannozor Aspect (Ultralisk)"
   ]
 }

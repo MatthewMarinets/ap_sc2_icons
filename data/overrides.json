@@ -40,6 +40,7 @@
         "Bunker": ["btn-building-terran-bunkerneosteel"],
         "Fortified Bunker (Bunker)": ["btn-building-terran-bunker"],
         "Nyx-Class Cloaking Module (Spectre)": ["btn-techupgrade-terran-nyxcloakingclassmodule", "btn-ability-terran-cloak-color"],
+        "Jet Pack Overdrive (Reaper)": ["btn-techupgrade-terran-kineticfoam"],
         "Crius Suit (Ghost)": ["btn-techupgrade-terran-criussuit", "btn-ability-terran-cloak-color"],
         "Automated Refinery (Terran)": ["btn-building-terran-refinery"],
         "Annihilator": ["ui_void_armyupgrade_factionnerazim_categoryicon"],

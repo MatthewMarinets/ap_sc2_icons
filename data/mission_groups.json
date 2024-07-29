@@ -6,7 +6,7 @@
     "Evacuation (Terran)",
     "Outbreak (Terran)",
     "Safe Haven",
-    "Haven's Fall",
+    "Haven's Fall (Terran)",
     "Smash and Grab (Terran)",
     "The Dig",
     "The Moebius Factor",
@@ -91,6 +91,8 @@
     "Evacuation (Protoss)",
     "Outbreak (Zerg)",
     "Outbreak (Protoss)",
+    "Haven's Fall (Zerg)",
+    "Haven's Fall (Protoss)",
     "Smash and Grab (Zerg)",
     "Smash and Grab (Protoss)"
   ],
@@ -429,6 +431,7 @@
     "Zero Hour (Protoss)",
     "Evacuation (Protoss)",
     "Outbreak (Protoss)",
+    "Haven's Fall (Protoss)",
     "Smash and Grab (Protoss)"
   ],
   "Raceswap Missions": [
@@ -440,6 +443,8 @@
     "Evacuation (Protoss)",
     "Outbreak (Zerg)",
     "Outbreak (Protoss)",
+    "Haven's Fall (Zerg)",
+    "Haven's Fall (Protoss)",
     "Smash and Grab (Zerg)",
     "Smash and Grab (Protoss)"
   ],
@@ -450,7 +455,7 @@
     "Evacuation (Terran)",
     "Outbreak (Terran)",
     "Safe Haven",
-    "Haven's Fall",
+    "Haven's Fall (Terran)",
     "Smash and Grab (Terran)",
     "The Dig",
     "The Moebius Factor",
@@ -577,7 +582,7 @@
     "Zero Hour (Terran)",
     "Evacuation (Terran)",
     "Outbreak (Terran)",
-    "Haven's Fall",
+    "Haven's Fall (Terran)",
     "Smash and Grab (Terran)",
     "The Moebius Factor",
     "Devil's Playground",
@@ -619,6 +624,8 @@
     "Evacuation (Protoss)",
     "Outbreak (Zerg)",
     "Outbreak (Protoss)",
+    "Haven's Fall (Zerg)",
+    "Haven's Fall (Protoss)",
     "Smash and Grab (Zerg)",
     "Smash and Grab (Protoss)"
   ],
@@ -641,11 +648,13 @@
     "Evacuation (Terran)",
     "Outbreak (Terran)",
     "Safe Haven",
-    "Haven's Fall",
+    "Haven's Fall (Terran)",
     "Evacuation (Zerg)",
     "Evacuation (Protoss)",
     "Outbreak (Zerg)",
-    "Outbreak (Protoss)"
+    "Outbreak (Protoss)",
+    "Haven's Fall (Zerg)",
+    "Haven's Fall (Protoss)"
   ],
   "WoL Covert": [
     "Devil's Playground",
@@ -669,7 +678,7 @@
     "Evacuation (Terran)",
     "Outbreak (Terran)",
     "Safe Haven",
-    "Haven's Fall",
+    "Haven's Fall (Terran)",
     "Smash and Grab (Terran)",
     "The Dig",
     "The Moebius Factor",
@@ -696,6 +705,8 @@
     "Evacuation (Protoss)",
     "Outbreak (Zerg)",
     "Outbreak (Protoss)",
+    "Haven's Fall (Zerg)",
+    "Haven's Fall (Protoss)",
     "Smash and Grab (Zerg)",
     "Smash and Grab (Protoss)"
   ],
@@ -731,6 +742,7 @@
     "Zero Hour (Zerg)",
     "Evacuation (Zerg)",
     "Outbreak (Zerg)",
+    "Haven's Fall (Zerg)",
     "Smash and Grab (Zerg)"
   ]
 }
