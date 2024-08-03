@@ -90,6 +90,9 @@
  "Advanced Targeting Optics (Banshee)": [
   "icons/blizzard/btn-ability-terran-detectionconedebuff.png"
  ],
+ "Aerial Tracking (Annihilator)": [
+  "icons/blizzard/btn-progression-protoss-fenix-12-immortalandscoutchampions-research.png"
+ ],
  "Aerodynamic Glaive Shape (Mutalisk)": [
   "icons/blizzard/btn-ability-dehaka-airbonusdamage.png"
  ],
@@ -748,6 +751,9 @@
  "Impaling Strike (Ultralisk/Tyrannozor)": [
   "icons/blizzard/btn-ability-zerg-dehaka-ultralisk-impalingstrike.png"
  ],
+ "Improved Barrier (Immortal)": [
+  "icons/blizzard/btn-ability-protoss-barrier-upgraded.png"
+ ],
  "Improved Nano-Repair (Science Vessel)": [
   "icons/blizzard/btn-upgrade-swann-improvednanorepair.png"
  ],
@@ -861,7 +867,7 @@
   "icons/blizzard/btn-upgrade-raynor-juggernautplating.png"
  ],
  "Jump Jets (Goliath)": [
-  "icons/blizzard/btn-ability-terran-jetpack-color.png"
+  "icons/original/btn-ability-terran-goliath-jetpack.png"
  ],
  "Jump Jets (Hellion)": [
   "icons/blizzard/btn-upgrade-terran-jumpjets.png"
@@ -874,6 +880,9 @@
  ],
  "Khalai Ingenuity (Protoss)": [
   "icons/blizzard/btn-upgrade-karax-pylonwarpininstantly.png"
+ ],
+ "Khalai Replicators (Reaver)": [
+  "icons/blizzard/btn-ability-protoss-entomb.png"
  ],
  "Khaydarin Amulet (High Templar/Signifier)": [
   "icons/blizzard/btn-upgrade-protoss-khaydarinamulet.png"
@@ -1731,19 +1740,19 @@
   "icons/blizzard/btn-techupgrade-terran-shapedblast.png"
  ],
  "Shaped Hull (Banshee)": [
-  "icons/blizzard/btn-techupgrade-terran-shapedhull.png"
+  "icons/original/btn-techupgrade-terran-shapedhull-colored.png"
  ],
  "Shaped Hull (Diamondback)": [
-  "icons/blizzard/btn-techupgrade-terran-shapedhull.png"
+  "icons/original/btn-techupgrade-terran-shapedhull-colored.png"
  ],
  "Shaped Hull (Goliath)": [
-  "icons/blizzard/btn-techupgrade-terran-shapedhull.png"
+  "icons/original/btn-techupgrade-terran-shapedhull-colored.png"
  ],
  "Shaped Hull (Siege Tank)": [
-  "icons/blizzard/btn-techupgrade-terran-shapedhull.png"
+  "icons/original/btn-techupgrade-terran-shapedhull-colored.png"
  ],
  "Shaped Hull (Valkyrie)": [
-  "icons/blizzard/btn-techupgrade-terran-shapedhull.png"
+  "icons/original/btn-techupgrade-terran-shapedhull-colored.png"
  ],
  "Shield Battery": [
   "icons/blizzard/btn-building-protoss-shieldbattery.png"

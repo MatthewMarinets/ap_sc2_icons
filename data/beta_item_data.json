@@ -5894,6 +5894,15 @@
     "parent_item": null,
     "description": "Dark Archon War Council upgrade. Casting Mind Control will no longer deplete the Dark Archon's shields."
   },
+  "Improved Barrier (Immortal)": {
+    "type": "War Council",
+    "number": 19,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Immortal",
+    "description": "Immortal War Council upgrade. The Immortal's Barrier ability absorbs an additional +100 damage."
+  },
   "Rapid-Fire Cannon (Vanguard)": {
     "type": "War Council",
     "number": 20,
@@ -5911,6 +5920,24 @@
     "quantity": 1,
     "parent_item": "Vanguard",
     "description": "Vanguard War Council upgrade. Vanguards deal +7 damage to armored targets per attack."
+  },
+  "Aerial Tracking (Annihilator)": {
+    "type": "War Council",
+    "number": 22,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Annihilator",
+    "description": "Annihilator War Council upgrade. The Annihilator's Shadow Cannon ability can now target air units."
+  },
+  "Khalai Replicators (Reaver)": {
+    "type": "War Council",
+    "number": 26,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Reaver",
+    "description": "Reaver War Council upgrade. Reaver Scarabs no longer cost minerals."
   },
   "Peer Contempt (Skirmisher)": {
     "type": "War Council 2",

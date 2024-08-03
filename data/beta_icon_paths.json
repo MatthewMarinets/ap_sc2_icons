@@ -1,8 +1,8 @@
 {
   "meta": {
-    "timestamp": "2024-07-29",
-    "items": 684,
-    "located": 651
+    "timestamp": "2024-08-02",
+    "items": 687,
+    "located": 654
   },
   "locations": {
     "Marine": [
@@ -256,7 +256,7 @@
       "assets\\textures\\ui_tipicon_campaign_space01-repair.dds"
     ],
     "Shaped Hull (Goliath)": [
-      "assets\\textures\\btn-techupgrade-terran-shapedhull.dds"
+      "ap\\assets\\textures\\btn-techupgrade-terran-shapedhull-colored.dds"
     ],
     "Resource Efficiency (Goliath)": [
       "btn-ability-hornerhan-salvagebonus.dds"
@@ -265,7 +265,7 @@
       "btn-upgrade-terran-internalizedtechmodule.dds"
     ],
     "Shaped Hull (Siege Tank)": [
-      "assets\\textures\\btn-techupgrade-terran-shapedhull.dds"
+      "ap\\assets\\textures\\btn-techupgrade-terran-shapedhull-colored.dds"
     ],
     "Resource Efficiency (Siege Tank)": [
       "btn-ability-hornerhan-salvagebonus.dds"
@@ -324,7 +324,7 @@
       "ap\\assets\\textures\\btn-ability-terran-spidermine.dds"
     ],
     "Jump Jets (Goliath)": [
-      "assets\\textures\\btn-ability-terran-jetpack-color.dds"
+      "ap\\assets\\textures\\btn-ability-terran-goliath-jetpack.dds"
     ],
     "Optimized Logistics (Goliath)": [
       "btn-upgrade-terran-optimizedlogistics.dds"
@@ -458,7 +458,7 @@
       "ap\\assets\\custom\\textures\\btn-upgrade-terran-tungsten-spikes.dds"
     ],
     "Shaped Hull (Diamondback)": [
-      "assets\\textures\\btn-techupgrade-terran-shapedhull.dds"
+      "ap\\assets\\textures\\btn-techupgrade-terran-shapedhull-colored.dds"
     ],
     "Maelstrom Rounds (Siege Tank)": [
       "assets\\textures\\btn-upgrade-raynor-maelstromrounds.dds"
@@ -552,7 +552,7 @@
       "assets\\textures\\btn-ability-hornerhan-viking-missileupgrade.dds"
     ],
     "Shaped Hull (Banshee)": [
-      "assets\\textures\\btn-techupgrade-terran-shapedhull.dds"
+      "ap\\assets\\textures\\btn-techupgrade-terran-shapedhull-colored.dds"
     ],
     "Advanced Targeting Optics (Banshee)": [
       "assets\\textures\\btn-ability-terran-detectionconedebuff.dds"
@@ -686,7 +686,7 @@
       "assets\\textures\\btn-ability-stetmann-corruptormissilebarrage.dds"
     ],
     "Shaped Hull (Valkyrie)": [
-      "assets\\textures\\btn-techupgrade-terran-shapedhull.dds"
+      "ap\\assets\\textures\\btn-techupgrade-terran-shapedhull-colored.dds"
     ],
     "Flechette Missiles (Valkyrie)": [
       "assets\\textures\\btn-ability-hornerhan-viking-missileupgrade.dds"
@@ -2091,11 +2091,20 @@
     "Indomitable Will (Dark Archon)": [
       "assets\\textures\\btn-ability-zeratul-topbar-serdathlegion.dds"
     ],
+    "Improved Barrier (Immortal)": [
+      "assets\\textures\\btn-ability-protoss-barrier-upgraded.dds"
+    ],
     "Rapid-Fire Cannon (Vanguard)": [
       "assets\\textures\\btn-upgrade-mengsk-engineeringbay-orbitaldrop.dds"
     ],
     "Fusion Mortars (Vanguard)": [
       "assets\\textures\\btn-upgrade-protoss-vanguard-increasedarmordamage.dds"
+    ],
+    "Aerial Tracking (Annihilator)": [
+      "assets\\textures\\btn-progression-protoss-fenix-12-immortalandscoutchampions-research.dds"
+    ],
+    "Khalai Replicators (Reaver)": [
+      "assets\\textures\\btn-ability-protoss-entomb.dds"
     ],
     "Peer Contempt (Skirmisher)": [
       "assets\\textures\\btn-upgrade-protoss-alarak-combatmastery.dds"

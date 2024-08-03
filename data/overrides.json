@@ -43,6 +43,7 @@
         "Jet Pack Overdrive (Reaper)": ["btn-techupgrade-terran-kineticfoam"],
         "Crius Suit (Ghost)": ["btn-techupgrade-terran-criussuit", "btn-ability-terran-cloak-color"],
         "Automated Refinery (Terran)": ["btn-building-terran-refinery"],
+        "Shaped Hull (Siege Tank)": ["btn-techupgrade-terran-shapedhull"],
         "Annihilator": ["ui_void_armyupgrade_factionnerazim_categoryicon"],
         "Ultralisk": ["btn-building-zerg-ultraliskcavern"],
         "Roach": ["btn-building-zerg-roachwarren"],
@@ -54,6 +55,7 @@
         "Phase Reactor (Stalker)": ["btn-ability-protoss-blink-color"],
         "Double Shield Recharge (Sentry)": ["btn-ability-protoss-shieldrecharge"],
         "Enduring Sight (Havoc)": ["btn-ability-protoss-squadsight"],
+        "Aerial Tracking (Annihilator)": ["btn-ability-protoss-shadowcannon"],
         "": []
     },
     "pattern_add": {
