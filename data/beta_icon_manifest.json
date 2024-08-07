@@ -93,6 +93,9 @@
  "Aerial Tracking (Annihilator)": [
   "icons/blizzard/btn-progression-protoss-fenix-12-immortalandscoutchampions-research.png"
  ],
+ "Aerial Tracking (Wrathwalker)": [
+  "icons/blizzard/btn-upgrade-protoss-wrathwalker-cantargetairunits.png"
+ ],
  "Aerodynamic Glaive Shape (Mutalisk)": [
   "icons/blizzard/btn-ability-dehaka-airbonusdamage.png"
  ],
@@ -467,6 +470,9 @@
  "Domination (Nova Ability)": [
   "icons/blizzard/btn-ability-nova-domination.png"
  ],
+ "Double Graviton Beam (Phoenix)": [
+  "icons/blizzard/btn-ability-protoss-dualgravitonbeam.png"
+ ],
  "Double Shield Recharge (Sentry)": [
   "icons/blizzard/btn-ability-protoss-doubleshieldrecharge.png"
  ],
@@ -481,6 +487,9 @@
  ],
  "Dual-Fusion Welders (SCV)": [
   "icons/blizzard/btn-upgrade-swann-scvdoublerepair.png"
+ ],
+ "Duality Charge (Stalwart)": [
+  "icons/blizzard/btn-upgrade-protoss-fenix-disruptorpurificationecho.png"
  ],
  "Durable Materials (Raven)": [
   "icons/blizzard/btn-upgrade-terran-durablematerials.png"
@@ -617,6 +626,9 @@
  ],
  "Gravitic Thrusters (Scout)": [
   "icons/blizzard/btn-upgrade-protoss-graviticbooster.png"
+ ],
+ "Graviton Beam (Mirage)": [
+  "icons/blizzard/btn-ability-protoss-gravitonbeam-color.png"
  ],
  "Graviton Catapult (Carrier/Skylord/Purger)": [
   "icons/blizzard/btn-upgrade-protoss-gravitoncatapult.png"
@@ -852,6 +864,10 @@
  ],
  "Jet Pack Overdrive (Reaper)": [
   "icons/blizzard/btn-ability-hornerhan-reaper-flightmode.png"
+ ],
+ "Jormungandr Strain (Nydus Worm/Omega Worm)": [
+  "icons/blizzard/btn-ability-zerg-dehaka-root-color.png",
+  "icons/blizzard/btn-upgrade-zerg-enduringcorruption.png"
  ],
  "Jotun": [
   "icons/blizzard/btn-unit-terran-thormengsk.png"
@@ -1090,6 +1106,9 @@
   "icons/blizzard/btn-ability-zerg-poisonnova.png",
   "icons/blizzard/btn-unit-zerg-ultralisk-noxious.png"
  ],
+ "Nydus Worm": [
+  "icons/blizzard/btn-building-zerg-nydusworm.png"
+ ],
  "Nyx-Class Cloaking Module (Spectre)": [
   "icons/original/btn-permacloak-spectre.png"
  ],
@@ -1098,6 +1117,9 @@
  ],
  "Ocular Implants (Ghost)": [
   "icons/blizzard/btn-techupgrade-terran-ocularimplants.png"
+ ],
+ "Omega Worm": [
+  "icons/blizzard/talent-kerrigan-level08-greaternydusworm.png"
  ],
  "Optical Flare (Medic)": [
   "icons/blizzard/btn-upgrade-protoss-fenix-dragoonsolariteflare.png"
@@ -1152,6 +1174,9 @@
  ],
  "Organic Carapace (Ultralisk)": [
   "icons/blizzard/btn-upgrade-zerg-organiccarapace.png"
+ ],
+ "Ouroboros Strain (Omega Worm)": [
+  "icons/blizzard/talent-zagara-level12-unlockswarmling.png"
  ],
  "Overseer Aspect (Overlord)": [
   "icons/blizzard/btn-unit-zerg-overseer.png"
@@ -1531,6 +1556,9 @@
  "Raven": [
   "icons/blizzard/btn-unit-terran-raven.png"
  ],
+ "Ravenous Appetite (Nydus Worm)": [
+  "icons/blizzard/ui_tipicon_evolution_hydralisk-waves.png"
+ ],
  "Reaper": [
   "icons/blizzard/btn-unit-terran-reaper.png"
  ],
@@ -1617,6 +1645,9 @@
   "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
  "Resource Efficiency (Missile Turret)": [
+  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
+ ],
+ "Resource Efficiency (Nydus Worm/Omega Worm)": [
   "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
  "Resource Efficiency (Predator)": [
@@ -1903,6 +1934,9 @@
  "Structure Armor (Terran)": [
   "icons/blizzard/btn-upgrade-terran-buildingarmor.png"
  ],
+ "Subterranean Scales (Nydus Worm/Omega Worm)": [
+  "icons/blizzard/btn-upgrade-zerg-buildingarmor.png"
+ ],
  "Sundering Glaive (Mutalisk)": [
   "icons/blizzard/btn-upgrade-zerg-explosiveglaive.png"
  ],
@@ -2146,7 +2180,7 @@
   "icons/blizzard/btn-unit-protoss-colossus-taldarim.png"
  ],
  "Zealot": [
-  "icons/blizzard/btn-unit-protoss-zealot-aiur.png"
+  "icons/blizzard/btn-unit-protoss-zealot.png"
  ],
  "Zergling": [
   "icons/blizzard/btn-unit-zerg-zergling-raptor.png",

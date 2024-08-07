@@ -1,8 +1,8 @@
 {
   "meta": {
-    "timestamp": "2024-08-02",
-    "items": 687,
-    "located": 654
+    "timestamp": "2024-08-06",
+    "items": 698,
+    "located": 665
   },
   "locations": {
     "Marine": [
@@ -914,7 +914,7 @@
     "Fast Delivery (Terran/Zerg)": [],
     "Rapid Reinforcement (Terran/Zerg)": [],
     "Zealot": [
-      "assets\\textures\\btn-unit-protoss-zealot-aiur.dds"
+      "assets\\textures\\btn-unit-protoss-zealot.dds"
     ],
     "Stalker": [
       "assets\\textures\\btn-unit-protoss-stalker.dds"
@@ -1088,6 +1088,12 @@
     ],
     "Infested Bunker": [
       "assets\\textures\\btn-building-stukov-infestedbunker.dds"
+    ],
+    "Nydus Worm": [
+      "assets\\textures\\btn-building-zerg-nydusworm.dds"
+    ],
+    "Omega Worm": [
+      "assets\\textures\\talent-kerrigan-level08-greaternydusworm.dds"
     ],
     "Progressive Zerg Melee Attack": [
       "ap\\assets\\custom\\textures\\btn-upgrade-zerg-meleeattacks-level4.dds",
@@ -1506,6 +1512,22 @@
     ],
     "Healing Adaptation (Ultralisk/Tyrannozor)": [
       "assets\\textures\\btn-ability-zerg-dehaka-ultralisk-healingadaptation.dds"
+    ],
+    "Subterranean Scales (Nydus Worm/Omega Worm)": [
+      "assets\\textures\\btn-upgrade-zerg-buildingarmor.dds"
+    ],
+    "Jormungandr Strain (Nydus Worm/Omega Worm)": [
+      "assets\\textures\\btn-ability-zerg-dehaka-root-color.dds",
+      "assets\\textures\\btn-upgrade-zerg-enduringcorruption.dds"
+    ],
+    "Resource Efficiency (Nydus Worm/Omega Worm)": [
+      "btn-ability-hornerhan-salvagebonus.dds"
+    ],
+    "Ouroboros Strain (Omega Worm)": [
+      "talent-zagara-level12-unlockswarmling.dds"
+    ],
+    "Ravenous Appetite (Nydus Worm)": [
+      "assets\\textures\\ui_tipicon_evolution_hydralisk-waves.dds"
     ],
     "Kinetic Blast (Kerrigan Ability)": [
       "assets\\textures\\btn-ability-kerrigan-kineticblast.dds"
@@ -2103,8 +2125,20 @@
     "Aerial Tracking (Annihilator)": [
       "assets\\textures\\btn-progression-protoss-fenix-12-immortalandscoutchampions-research.dds"
     ],
+    "Duality Charge (Stalwart)": [
+      "assets\\textures\\btn-upgrade-protoss-fenix-disruptorpurificationecho.dds"
+    ],
+    "Aerial Tracking (Wrathwalker)": [
+      "assets\\textures\\btn-upgrade-protoss-wrathwalker-cantargetairunits.dds"
+    ],
     "Khalai Replicators (Reaver)": [
       "assets\\textures\\btn-ability-protoss-entomb.dds"
+    ],
+    "Double Graviton Beam (Phoenix)": [
+      "assets\\textures\\btn-ability-protoss-dualgravitonbeam.dds"
+    ],
+    "Graviton Beam (Mirage)": [
+      "assets\\textures\\btn-ability-protoss-gravitonbeam-color.dds"
     ],
     "Peer Contempt (Skirmisher)": [
       "assets\\textures\\btn-upgrade-protoss-alarak-combatmastery.dds"

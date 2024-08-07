@@ -2996,6 +2996,24 @@
     "parent_item": null,
     "description": "Defensive structure. Periodically spawns Infested infantry that fight from inside. Acts as a mobile ground transport while uprooted."
   },
+  "Nydus Worm": {
+    "type": "Unit",
+    "number": 17,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Long-range transport network. Nydus Worms and Nydus Networks can load friendly ground units to be unloaded to any other Nydus structure on the map."
+  },
+  "Omega Worm": {
+    "type": "Unit",
+    "number": 18,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Long-range deployable base. Can't load and unload units, but can generate creep and Creep Tumors. Can also serve as a dropoff point for resources, like a Hatchery."
+  },
   "Progressive Zerg Melee Attack": {
     "type": "Upgrade",
     "number": 0,
@@ -4129,6 +4147,51 @@
     "quantity": 1,
     "parent_item": "Tyrannozor Aspect (Ultralisk)",
     "description": "Ultralisks and Tyrannozors regenerate life quickly when out of combat."
+  },
+  "Subterranean Scales (Nydus Worm/Omega Worm)": {
+    "type": "Mutation 4",
+    "number": 12,
+    "race": "ZERG",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Increases Nydus Worm and Omega Worm maximum health by 250 and armor by 1."
+  },
+  "Jormungandr Strain (Nydus Worm/Omega Worm)": {
+    "type": "Mutation 4",
+    "number": 13,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Removes emerge time for Nydus Worm and Omega Worm, and allows them to be salvaged, returning the cost spent on them."
+  },
+  "Resource Efficiency (Nydus Worm/Omega Worm)": {
+    "type": "Mutation 4",
+    "number": 14,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Reduces Nydus Worm and Omega Worm cost by 75 minerals and 75 gas."
+  },
+  "Ouroboros Strain (Omega Worm)": {
+    "type": "Mutation 4",
+    "number": 15,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Omega Worm",
+    "description": "Allows Omega Worms to train a limited assortment of combat units (Zerglings, Roachs, Hydralisks, and Aberrations) at a reduced time and cost."
+  },
+  "Ravenous Appetite (Nydus Worm)": {
+    "type": "Mutation 4",
+    "number": 16,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Nydus Worm",
+    "description": "Allows Nydus Worms to unload and load units nearly instantly."
   },
   "Kinetic Blast (Kerrigan Ability)": {
     "type": "Ability",
@@ -5930,6 +5993,24 @@
     "parent_item": "Annihilator",
     "description": "Annihilator War Council upgrade. The Annihilator's Shadow Cannon ability can now target air units."
   },
+  "Duality Charge (Stalwart)": {
+    "type": "War Council",
+    "number": 23,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": "Stalwart",
+    "description": "Stalwart War Council upgrade. Stalwarts gain +4 range."
+  },
+  "Aerial Tracking (Wrathwalker)": {
+    "type": "War Council",
+    "number": 25,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": "Wrathwalker",
+    "description": "Wrathwalker War Council upgrade. Wrathwalkers can now target air units."
+  },
   "Khalai Replicators (Reaver)": {
     "type": "War Council",
     "number": 26,
@@ -5938,6 +6019,24 @@
     "quantity": 1,
     "parent_item": "Reaver",
     "description": "Reaver War Council upgrade. Reaver Scarabs no longer cost minerals."
+  },
+  "Double Graviton Beam (Phoenix)": {
+    "type": "War Council 2",
+    "number": 0,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Phoenix",
+    "description": "Phoenix War Council upgrade. Phoenixes can now use Graviton Beam to lift two targets at once."
+  },
+  "Graviton Beam (Mirage)": {
+    "type": "War Council 2",
+    "number": 2,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Mirage",
+    "description": "Mirage War Council upgrade. Allows Mirages to use Graviton Beam."
   },
   "Peer Contempt (Skirmisher)": {
     "type": "War Council 2",

@@ -19,7 +19,7 @@
     "faction": "Terran",
     "campaign": "wol"
   },
-  "Safe Haven": {
+  "Safe Haven (Terran)": {
     "faction": "Terran",
     "campaign": "wol"
   },
@@ -360,6 +360,14 @@
     "campaign": "wol"
   },
   "Outbreak (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "wol"
+  },
+  "Safe Haven (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "wol"
+  },
+  "Safe Haven (Protoss)": {
     "faction": "Protoss",
     "campaign": "wol"
   },

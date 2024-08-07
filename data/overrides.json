@@ -1,7 +1,8 @@
 {
     "set": {
         "Hallucination (Sentry)": ["btn-ability-protoss-hallucination-color.dds"],
-        "Orbital Depots (Terran)": ["btn-research-terran-orbitaldepots.dds"]
+        "Orbital Depots (Terran)": ["btn-research-terran-orbitaldepots.dds"],
+        "Ouroboros Strain (Omega Worm)": ["talent-zagara-level12-unlockswarmling.dds"]
     },
     "add": {
         "Additional Starting Minerals": ["ui_aicommand_build_open_economicfocus.dds", "icon-mineral-nobg.dds"],

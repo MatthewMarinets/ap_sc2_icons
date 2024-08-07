@@ -5,7 +5,7 @@
     "Zero Hour (Terran)",
     "Evacuation (Terran)",
     "Outbreak (Terran)",
-    "Safe Haven",
+    "Safe Haven (Terran)",
     "Haven's Fall (Terran)",
     "Smash and Grab (Terran)",
     "The Dig",
@@ -91,6 +91,8 @@
     "Evacuation (Protoss)",
     "Outbreak (Zerg)",
     "Outbreak (Protoss)",
+    "Safe Haven (Zerg)",
+    "Safe Haven (Protoss)",
     "Haven's Fall (Zerg)",
     "Haven's Fall (Protoss)",
     "Smash and Grab (Zerg)",
@@ -138,7 +140,7 @@
     "The Essence of Eternity"
   ],
   "Countdown Missions": [
-    "Safe Haven",
+    "Safe Haven (Terran)",
     "Smash and Grab (Terran)",
     "The Moebius Factor",
     "Supernova",
@@ -153,6 +155,8 @@
     "Forbidden Weapon",
     "Harbinger of Oblivion",
     "Trouble In Paradise",
+    "Safe Haven (Zerg)",
+    "Safe Haven (Protoss)",
     "Smash and Grab (Zerg)",
     "Smash and Grab (Protoss)"
   ],
@@ -431,6 +435,7 @@
     "Zero Hour (Protoss)",
     "Evacuation (Protoss)",
     "Outbreak (Protoss)",
+    "Safe Haven (Protoss)",
     "Haven's Fall (Protoss)",
     "Smash and Grab (Protoss)"
   ],
@@ -443,6 +448,8 @@
     "Evacuation (Protoss)",
     "Outbreak (Zerg)",
     "Outbreak (Protoss)",
+    "Safe Haven (Zerg)",
+    "Safe Haven (Protoss)",
     "Haven's Fall (Zerg)",
     "Haven's Fall (Protoss)",
     "Smash and Grab (Zerg)",
@@ -454,7 +461,7 @@
     "Zero Hour (Terran)",
     "Evacuation (Terran)",
     "Outbreak (Terran)",
-    "Safe Haven",
+    "Safe Haven (Terran)",
     "Haven's Fall (Terran)",
     "Smash and Grab (Terran)",
     "The Dig",
@@ -505,7 +512,7 @@
     "Into the Void"
   ],
   "Vs Protoss Missions": [
-    "Safe Haven",
+    "Safe Haven (Terran)",
     "Smash and Grab (Terran)",
     "The Dig",
     "Supernova",
@@ -536,6 +543,8 @@
     "Trouble In Paradise",
     "Night Terrors",
     "Dark Skies",
+    "Safe Haven (Zerg)",
+    "Safe Haven (Protoss)",
     "Smash and Grab (Zerg)",
     "Smash and Grab (Protoss)"
   ],
@@ -647,12 +656,14 @@
   "WoL Colonist": [
     "Evacuation (Terran)",
     "Outbreak (Terran)",
-    "Safe Haven",
+    "Safe Haven (Terran)",
     "Haven's Fall (Terran)",
     "Evacuation (Zerg)",
     "Evacuation (Protoss)",
     "Outbreak (Zerg)",
     "Outbreak (Protoss)",
+    "Safe Haven (Zerg)",
+    "Safe Haven (Protoss)",
     "Haven's Fall (Zerg)",
     "Haven's Fall (Protoss)"
   ],
@@ -677,7 +688,7 @@
     "Zero Hour (Terran)",
     "Evacuation (Terran)",
     "Outbreak (Terran)",
-    "Safe Haven",
+    "Safe Haven (Terran)",
     "Haven's Fall (Terran)",
     "Smash and Grab (Terran)",
     "The Dig",
@@ -705,6 +716,8 @@
     "Evacuation (Protoss)",
     "Outbreak (Zerg)",
     "Outbreak (Protoss)",
+    "Safe Haven (Zerg)",
+    "Safe Haven (Protoss)",
     "Haven's Fall (Zerg)",
     "Haven's Fall (Protoss)",
     "Smash and Grab (Zerg)",
@@ -742,6 +755,7 @@
     "Zero Hour (Zerg)",
     "Evacuation (Zerg)",
     "Outbreak (Zerg)",
+    "Safe Haven (Zerg)",
     "Haven's Fall (Zerg)",
     "Smash and Grab (Zerg)"
   ]
