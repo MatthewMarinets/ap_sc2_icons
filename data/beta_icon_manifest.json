@@ -9,6 +9,12 @@
  "Aberration": [
   "icons/blizzard/btn-unit-zerg-aberration.png"
  ],
+ "Ability Efficiency (Arbiter)": [
+  "icons/blizzard/btn-ability-stetmann-stetelliteoverloadenergy.png"
+ ],
+ "Ability Efficiency (Ascendant)": [
+  "icons/blizzard/btn-ability-stetmann-stetelliteoverloadenergy.png"
+ ],
  "Ability Efficiency (Kerrigan Passive)": [
   "icons/blizzard/btn-ability-kerrigan-abilityefficiency.png"
  ],
@@ -322,11 +328,14 @@
  "Cloak (Predator)": [
   "icons/blizzard/btn-ability-terran-cloak-color.png"
  ],
+ "Cloaking Module (Disruptor)": [
+  "icons/blizzard/btn-upgrade-protoss-fenix-disruptorpermanentcloak.png"
+ ],
  "Cloaking Module (Sentry/Energizer/Havoc)": [
   "icons/blizzard/btn-upgrade-protoss-alarak-permanentcloak.png"
  ],
  "Colossus": [
-  "icons/blizzard/btn-unit-protoss-colossus-purifier.png"
+  "icons/blizzard/btn-unit-protoss-colossus.png"
  ],
  "Combat Drugs (Reaper)": [
   "icons/blizzard/btn-upgrade-terran-reapercombatdrugs.png"
@@ -452,6 +461,9 @@
  "Disintegrating Particles (Stalker/Instigator/Slayer)": [
   "icons/blizzard/btn-ability-protoss-phasedisruptor.png"
  ],
+ "Disintegration (Tempest)": [
+  "icons/blizzard/btn-ability-protoss-disintegration.png"
+ ],
  "Displacement Field (Wraith)": [
   "icons/blizzard/btn-upgrade-swann-displacementfield.png"
  ],
@@ -459,7 +471,7 @@
   "icons/blizzard/btn-ability-protoss-adept-spiritform.png"
  ],
  "Disruptor": [
-  "icons/blizzard/btn-unit-protoss-disruptor.png"
+  "icons/blizzard/btn-unit-collection-purifier-disruptor.png"
  ],
  "Disruptor Dispersion (Immortal/Annihilator/Stalwart)": [
   "icons/blizzard/btn-upgrade-protoss-vanguard-aoeradiusincreased.png"
@@ -556,6 +568,12 @@
  ],
  "Feedback (Dark Archon)": [
   "icons/blizzard/btn-ability-protoss-feedback-color.png"
+ ],
+ "Feedback (Signifier)": [
+  "icons/blizzard/btn-ability-protoss-feedback-color.png"
+ ],
+ "Fire Lance (Colossus)": [
+  "icons/blizzard/btn-ability-protoss-firebeam.png"
  ],
  "Firebat": [
   "icons/blizzard/btn-unit-terran-firebat.png"
@@ -750,6 +768,9 @@
  "Hyperfluxor (Diamondback)": [
   "icons/blizzard/btn-upgrade-mengsk-engineeringbay-orbitaldrop.png"
  ],
+ "Hyperjump (Skylord)": [
+  "icons/blizzard/btn-ability-hornerhan-fleethyperjump.png"
+ ],
  "Immortal": [
   "icons/blizzard/btn-unit-protoss-immortal.png"
  ],
@@ -846,6 +867,9 @@
  ],
  "Internal Tech Module (Wraith)": [
   "icons/blizzard/btn-upgrade-terran-internalizedtechmodule.png"
+ ],
+ "Interplanetary Range (Tempest)": [
+  "icons/blizzard/ui_aicommand_build_open_aggressivepush.png"
  ],
  "Ion Thrusters (Diamondback)": [
   "icons/blizzard/btn-ability-terran-emergencythrusters.png"
@@ -1089,6 +1113,9 @@
   "icons/original/btn-techupgrade-terran-neosteelbunker.png",
   "icons/blizzard/btn-upgrade-terran-neosteelframe.png"
  ],
+ "Network Disruption (Corsair)": [
+  "icons/blizzard/btn-ability-protoss-disruptionblast.png"
+ ],
  "Neutron Shields (Corsair)": [
   "icons/blizzard/btn-upgrade-protoss-adeptshieldupgrade.png",
   "icons/blizzard/btn-upgrade-protoss-shieldslevel1.png"
@@ -1119,7 +1146,7 @@
   "icons/blizzard/btn-techupgrade-terran-ocularimplants.png"
  ],
  "Omega Worm": [
-  "icons/blizzard/talent-kerrigan-level08-greaternydusworm.png"
+  "icons/blizzard/btn-unit-zerg-nydusdragon.png"
  ],
  "Optical Flare (Medic)": [
   "icons/blizzard/btn-upgrade-protoss-fenix-dragoonsolariteflare.png"
@@ -1205,6 +1232,9 @@
  "Perdition Turret": [
   "icons/blizzard/btn-unit-terran-perditionturret.png"
  ],
+ "Perfected Power (Disruptor)": [
+  "icons/blizzard/btn-ability-spearofadun-purifierbeam.png"
+ ],
  "Phalanx Suit (Dragoon)": [
   "icons/blizzard/btn-upgrade-protoss-fenix-zealotsuit-armorplate.png"
  ],
@@ -1282,6 +1312,9 @@
  ],
  "Primal Tenacity (Primal Igniter)": [
   "icons/blizzard/btn-ability-zerg-genemutation-thornsaura.png"
+ ],
+ "Prismatic Range (Void Ray)": [
+  "icons/blizzard/btn-ability-protoss-prismaticrange.png"
  ],
  "Progressive Augmented Thrusters (Planetary Fortress)": [
   "icons/blizzard/btn-ability-mengsk-siegetank-flyingtankarmament.png",
@@ -1702,6 +1735,13 @@
  "Restoration (Medic)": [
   "icons/original/btn-ability-terran-restoration@scbw.png"
  ],
+ "Restrained Destruction (Disruptor)": [
+  "icons/blizzard/btn-upgrade-stetmann-banelingmanashieldefficiency.png"
+ ],
+ "Restructured Thrusters (Disruptor)": [
+  "icons/blizzard/btn-ability-protoss-blinkcharges.png",
+  "icons/blizzard/btn-upgrade-protoss-alarak-stalkerphasingarmor.png"
+ ],
  "Retinal Augmentation (Infested Marine)": [
   "icons/blizzard/btn-upgrade-zerg-stukov-infestedmarinerangeupgrade.png"
  ],
@@ -1870,7 +1910,7 @@
   "icons/blizzard/btn-upgrade-protoss-alarak-supplicantextrashields.png"
  ],
  "Spacetime Anchor (Arbiter)": [
-  "icons/blizzard/btn-ability-protoss-stasisfield.png"
+  "icons/blizzard/btn-upgrade-protoss-fenix-stasisfield.png"
  ],
  "Spartan Company": [
   "icons/original/btn-unit-terran-goliathmercenary.png"
@@ -2131,7 +2171,7 @@
   "icons/blizzard/btn-upgrade-zagara-scourgesplashdamage.png"
  ],
  "Void Ray": [
-  "icons/blizzard/btn-unit-protoss-voidray-nerazim.png"
+  "icons/blizzard/btn-unit-protoss-warpray.png"
  ],
  "Vulture": [
   "icons/blizzard/btn-unit-terran-vulture.png"

@@ -3012,7 +3012,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "description": "Long-range deployable base. Can't load and unload units, but can generate creep and Creep Tumors. Can also serve as a dropoff point for resources, like a Hatchery."
+    "description": "Long-range deployable base. Unable to load and unload units, but can generate Creep and Creep Tumors. Can also serve as a dropoff point for resources and can create Drones."
   },
   "Progressive Zerg Melee Attack": {
     "type": "Upgrade",
@@ -4173,7 +4173,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "description": "Reduces Nydus Worm and Omega Worm cost by 75 minerals and 75 gas."
+    "description": "Reduces Nydus Worm and Omega Worm cost by 50 minerals and 75 gas."
   },
   "Ouroboros Strain (Omega Worm)": {
     "type": "Mutation 4",
@@ -4632,7 +4632,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "description": "Heavy assault beast. Has a ground-area attack, and powerful anti-air attack.  Morphed by merging two Ultralisks."
+    "description": "Heavy assault beast. Has a ground-area attack, and powerful anti-air attack. Morphed by merging two Ultralisks."
   },
   "Observer": {
     "type": "Unit",
@@ -4812,7 +4812,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "description": "Battle strider with a powerful single target attack.  Can walk up and down cliffs."
+    "description": "Battle strider with a powerful single target attack. Can walk up and down cliffs."
   },
   "Reaver": {
     "type": "Unit",
@@ -5244,7 +5244,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Tempest",
-    "description": "Tempests gain +8 range against air targets."
+    "description": "Tempests gain +8 range against air targets and +8 cast range."
   },
   "Ionic Wavelength Flux (Phoenix/Mirage/Skirmisher)": {
     "type": "Forge 1",
@@ -5352,7 +5352,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Arbiter",
-    "description": "Arbiter Stasis Field lasts 50 seconds longer."
+    "description": "Allows Arbiters to use an alternate version of Stasis Field which lasts 50 seconds longer."
   },
   "Resource Efficiency (Arbiter)": {
     "type": "Forge 2",
@@ -5804,6 +5804,42 @@
     "parent_item": null,
     "description": "Immortals, Annihilators, and Stalwarts deal minor splash damage."
   },
+  "Cloaking Module (Disruptor)": {
+    "type": "Forge 3",
+    "number": 21,
+    "race": "PROTOSS",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Disruptors are permanently cloaked."
+  },
+  "Perfected Power (Disruptor)": {
+    "type": "Forge 3",
+    "number": 22,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Allows Purification Nova to hit air units. Bonus damage to shields is now baseline for enemies (friendly damage unaffected)."
+  },
+  "Restrained Destruction (Disruptor)": {
+    "type": "Forge 3",
+    "number": 23,
+    "race": "PROTOSS",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Purification Nova does 50% reduced damage to friendly units and structures."
+  },
+  "Interplanetary Range (Tempest)": {
+    "type": "Forge 3",
+    "number": 24,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Tempest",
+    "description": "Tempests gain +8 weapon range against all targets."
+  },
   "Whirlwind (Zealot)": {
     "type": "War Council",
     "number": 0,
@@ -5948,6 +5984,24 @@
     "parent_item": "High Templar",
     "description": "High Templar War Council upgrade. High Templar Psionic Storm will heal fiendly protoss shields under it."
   },
+  "Feedback (Signifier)": {
+    "type": "War Council",
+    "number": 16,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Signifier",
+    "description": "Signifier War Council upgrade. Signifiers gain the Feedback ability, \nwhich drains all energy from a target and deals 1 damage per point of energy drained."
+  },
+  "Ability Efficiency (Ascendant)": {
+    "type": "War Council",
+    "number": 17,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Ascendant",
+    "description": "Ascendant War Council upgrade. Ascendant spells cost -25 energy."
+  },
   "Indomitable Will (Dark Archon)": {
     "type": "War Council",
     "number": 18,
@@ -6002,6 +6056,15 @@
     "parent_item": "Stalwart",
     "description": "Stalwart War Council upgrade. Stalwarts gain +4 range."
   },
+  "Fire Lance (Colossus)": {
+    "type": "War Council",
+    "number": 24,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": "Colossus",
+    "description": "Colossus War Council upgrade. Colossi set the ground on fire with their attacks, dealing damage to enemies over time."
+  },
   "Aerial Tracking (Wrathwalker)": {
     "type": "War Council",
     "number": 25,
@@ -6020,6 +6083,15 @@
     "parent_item": "Reaver",
     "description": "Reaver War Council upgrade. Reaver Scarabs no longer cost minerals."
   },
+  "Restructured Thrusters (Disruptor)": {
+    "type": "War Council",
+    "number": 27,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Disruptor",
+    "description": "Disruptor War Council upgrade. Allows the Disruptor to move while casting Purification Nova. Also allows the Disruptor to Blink."
+  },
   "Double Graviton Beam (Phoenix)": {
     "type": "War Council 2",
     "number": 0,
@@ -6028,6 +6100,15 @@
     "quantity": 1,
     "parent_item": "Phoenix",
     "description": "Phoenix War Council upgrade. Phoenixes can now use Graviton Beam to lift two targets at once."
+  },
+  "Network Disruption (Corsair)": {
+    "type": "War Council 2",
+    "number": 1,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Corsair",
+    "description": "Corsair War Council upgrade. Triples the radius of Disruption Web."
   },
   "Graviton Beam (Mirage)": {
     "type": "War Council 2",
@@ -6047,6 +6128,15 @@
     "parent_item": "Skirmisher",
     "description": "Skirmisher War Council upgrade. Allows Skirmishers to target air units."
   },
+  "Prismatic Range (Void Ray)": {
+    "type": "War Council 2",
+    "number": 4,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Void Ray",
+    "description": "Void Ray War Council upgrade. Void Rays gain increased range as they charge their beam."
+  },
   "Reforged Bloodshard Core (Destroyer)": {
     "type": "War Council 2",
     "number": 5,
@@ -6055,6 +6145,33 @@
     "quantity": 1,
     "parent_item": "Destroyer",
     "description": "Destroyer War Council upgrade. When fully charged, the Destroyer's Destruction Beam weapon does full damage to secondary targets."
+  },
+  "Hyperjump (Skylord)": {
+    "type": "War Council 2",
+    "number": 9,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Skylord",
+    "description": "Skylord War Council upgrade. Skylords gain the Hyperjump ability, \nwhich teleports the skylord to any location on the map.."
+  },
+  "Disintegration (Tempest)": {
+    "type": "War Council 2",
+    "number": 11,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Tempest",
+    "description": "Tempest War Council upgrade. Tempests gain the Disintegration ability, \nwhich deals 500 damage to a target unit or structure over 20 seconds."
+  },
+  "Ability Efficiency (Arbiter)": {
+    "type": "War Council 2",
+    "number": 13,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Arbiter",
+    "description": "Arbiter War Council upgrade. Reduces the energy cost of Recall by 50 and Stasis Field by 100."
   },
   "Chrono Surge (Spear of Adun Calldown)": {
     "type": "Spear Of Adun",

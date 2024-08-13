@@ -1,8 +1,8 @@
 {
   "meta": {
-    "timestamp": "2024-08-06",
-    "items": 698,
-    "located": 665
+    "timestamp": "2024-08-12",
+    "items": 711,
+    "located": 678
   },
   "locations": {
     "Marine": [
@@ -929,13 +929,13 @@
       "assets\\textures\\btn-unit-protoss-immortal.dds"
     ],
     "Colossus": [
-      "assets\\textures\\btn-unit-protoss-colossus-purifier.dds"
+      "assets\\textures\\btn-unit-protoss-colossus.dds"
     ],
     "Phoenix": [
       "assets\\textures\\btn-unit-protoss-phoenix.dds"
     ],
     "Void Ray": [
-      "assets\\textures\\btn-unit-protoss-voidray-nerazim.dds"
+      "assets\\textures\\btn-unit-protoss-warpray.dds"
     ],
     "Carrier": [
       "assets\\textures\\btn-unit-protoss-carrier.dds"
@@ -1093,7 +1093,7 @@
       "assets\\textures\\btn-building-zerg-nydusworm.dds"
     ],
     "Omega Worm": [
-      "assets\\textures\\talent-kerrigan-level08-greaternydusworm.dds"
+      "assets\\textures\\btn-unit-zerg-nydusdragon.dds"
     ],
     "Progressive Zerg Melee Attack": [
       "ap\\assets\\custom\\textures\\btn-upgrade-zerg-meleeattacks-level4.dds",
@@ -1718,7 +1718,7 @@
       "assets\\textures\\btn-unit-protoss-reaver.dds"
     ],
     "Disruptor": [
-      "assets\\textures\\btn-unit-protoss-disruptor.dds"
+      "assets\\textures\\btn-unit-collection-purifier-disruptor.dds"
     ],
     "Mirage": [
       "assets\\textures\\btn-unit-protoss-phoenix-purifier.dds"
@@ -1905,7 +1905,7 @@
       "assets\\textures\\btn-upgrade-protoss-adeptshieldupgrade.dds"
     ],
     "Spacetime Anchor (Arbiter)": [
-      "assets\\textures\\btn-ability-protoss-stasisfield.dds"
+      "assets\\textures\\btn-upgrade-protoss-fenix-stasisfield.dds"
     ],
     "Resource Efficiency (Arbiter)": [
       "btn-ability-hornerhan-salvagebonus.dds"
@@ -2062,6 +2062,18 @@
     "Disruptor Dispersion (Immortal/Annihilator/Stalwart)": [
       "assets\\textures\\btn-upgrade-protoss-vanguard-aoeradiusincreased.dds"
     ],
+    "Cloaking Module (Disruptor)": [
+      "assets\\textures\\btn-upgrade-protoss-fenix-disruptorpermanentcloak.dds"
+    ],
+    "Perfected Power (Disruptor)": [
+      "assets\\textures\\btn-ability-spearofadun-purifierbeam.dds"
+    ],
+    "Restrained Destruction (Disruptor)": [
+      "assets\\textures\\btn-upgrade-stetmann-banelingmanashieldefficiency.dds"
+    ],
+    "Interplanetary Range (Tempest)": [
+      "assets\\textures\\ui_aicommand_build_open_aggressivepush.dds"
+    ],
     "Whirlwind (Zealot)": [
       "assets\\textures\\btn-ability-protoss-whirlwind.dds"
     ],
@@ -2110,6 +2122,12 @@
     "Plasma Surge (High Templar)": [
       "assets\\textures\\btn-upgrade-artanis-healingpsionicstorm.dds"
     ],
+    "Feedback (Signifier)": [
+      "assets\\textures\\btn-ability-protoss-feedback-color.dds"
+    ],
+    "Ability Efficiency (Ascendant)": [
+      "assets\\textures\\btn-ability-stetmann-stetelliteoverloadenergy.dds"
+    ],
     "Indomitable Will (Dark Archon)": [
       "assets\\textures\\btn-ability-zeratul-topbar-serdathlegion.dds"
     ],
@@ -2128,14 +2146,24 @@
     "Duality Charge (Stalwart)": [
       "assets\\textures\\btn-upgrade-protoss-fenix-disruptorpurificationecho.dds"
     ],
+    "Fire Lance (Colossus)": [
+      "assets\\textures\\btn-ability-protoss-firebeam.dds"
+    ],
     "Aerial Tracking (Wrathwalker)": [
       "assets\\textures\\btn-upgrade-protoss-wrathwalker-cantargetairunits.dds"
     ],
     "Khalai Replicators (Reaver)": [
       "assets\\textures\\btn-ability-protoss-entomb.dds"
     ],
+    "Restructured Thrusters (Disruptor)": [
+      "assets\\textures\\btn-ability-protoss-blinkcharges.dds",
+      "assets\\textures\\btn-upgrade-protoss-alarak-stalkerphasingarmor.dds"
+    ],
     "Double Graviton Beam (Phoenix)": [
       "assets\\textures\\btn-ability-protoss-dualgravitonbeam.dds"
+    ],
+    "Network Disruption (Corsair)": [
+      "assets\\textures\\btn-ability-protoss-disruptionblast.dds"
     ],
     "Graviton Beam (Mirage)": [
       "assets\\textures\\btn-ability-protoss-gravitonbeam-color.dds"
@@ -2143,8 +2171,20 @@
     "Peer Contempt (Skirmisher)": [
       "assets\\textures\\btn-upgrade-protoss-alarak-combatmastery.dds"
     ],
+    "Prismatic Range (Void Ray)": [
+      "assets\\textures\\btn-ability-protoss-prismaticrange.dds"
+    ],
     "Reforged Bloodshard Core (Destroyer)": [
       "assets\\textures\\btn-amonshardsarmor.dds"
+    ],
+    "Hyperjump (Skylord)": [
+      "assets\\textures\\btn-ability-hornerhan-fleethyperjump.dds"
+    ],
+    "Disintegration (Tempest)": [
+      "assets\\textures\\btn-ability-protoss-disintegration.dds"
+    ],
+    "Ability Efficiency (Arbiter)": [
+      "assets\\textures\\btn-ability-stetmann-stetelliteoverloadenergy.dds"
     ],
     "Chrono Surge (Spear of Adun Calldown)": [
       "assets\\textures\\btn-ability-spearofadun-chronosurge.dds"
