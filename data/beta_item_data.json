@@ -3066,9 +3066,9 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "description": "Siege tank. Can uproot itself to provide mobile tank support. Can use the Deep Tunnel ability."
+    "description": "Siege tank. Can uproot itself to provide mobile tank support."
   },
-  "Infested Diamonback": {
+  "Infested Diamondback": {
     "type": "Unit",
     "number": 20,
     "race": "ZERG",
@@ -4307,7 +4307,7 @@
     "race": "ZERG",
     "classification": "useful",
     "quantity": 1,
-    "parent_item": "Infested Diamonback",
+    "parent_item": "Infested Diamondback",
     "description": "Infested Diamondbacks leave behind a trail of acid when moving that deals 20 damage per second to enemy units."
   },
   "Caustic Mucus (Infested Diamondback)": {
@@ -4316,7 +4316,7 @@
     "race": "ZERG",
     "classification": "useful",
     "quantity": 1,
-    "parent_item": "Infested Diamonback",
+    "parent_item": "Infested Diamondback",
     "description": "Reduces the cooldown of the Infested Diamondback's Fungal Snare by 15 seconds."
   },
   "Braced Exoskeleton (Infested Banshee)": {
