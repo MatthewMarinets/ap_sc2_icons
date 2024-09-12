@@ -32,6 +32,7 @@ class ItemId(NamedTuple):
 class GalaxyItem(NamedTuple):
     galaxy_type: Literal['unit', 'upgrade', 'ability']
     name: str
+    index: int | None = None
 
 def get_item_data(paths: Paths) -> dict[str, dict]:
     with open(paths.item_data, 'r') as fp:
@@ -67,7 +68,7 @@ def parse_galaxy_file(galaxy_path: str) -> Dict[ItemId, List[GalaxyItem]]:
     unlock_function_pattern = re.compile(r'libABFE498B_gf_AP_Triggers_unlock(Zerg|Terran|Protoss)(.*)')
     unlock_unit_pattern = re.compile(r'^\s*TechTreeUnitAllow\(lp_player,\s*"(AP_[^"]+)",\s*true\)')
     unlock_upgrade_pattern = re.compile(r'^\s*libNtve_gf_SetUpgradeLevelForPlayer\(lp_player,\s*"(AP_[^"]+)"')
-    unlock_ability_pattern = re.compile(r'^\s*TechTreeAbilityAllow\(lp_player,\s*AbilityCommand\("(AP_[^"]+)",\s*\d+\),\s*true')
+    unlock_ability_pattern = re.compile(r'^\s*TechTreeAbilityAllow\(lp_player,\s*AbilityCommand\("(AP_[^"]+)",\s*(\d+)\),\s*true')
     UNLOCK_ARRAY_START = 'processBitsInBitArray'
     UNLOCK_PROGRESSIVE_ARRAY_START = 'ap_triggers_processUpgrades'
     UNLOCK_WA_UPGRADES_START = 'ap_triggers_processWeaponArmorUpgrades'
@@ -129,24 +130,25 @@ def parse_galaxy_file(galaxy_path: str) -> Dict[ItemId, List[GalaxyItem]]:
             assert current_function
             if 'DefaultTech' in current_function: continue
             function_unlocks.setdefault(current_function, []).append(GalaxyItem('unit', match.group(1)))
-            unlocked_times.setdefault(match.group(1), 0)
-            unlocked_times[match.group(1)] += 1
+            unlocked_times.setdefault((match.group(1), None), 0)
+            unlocked_times[match.group(1), None] += 1
         elif match := re.match(unlock_upgrade_pattern, line):
             assert current_function
             if 'DefaultTech' in current_function: continue
             function_unlocks.setdefault(current_function, []).append(GalaxyItem('upgrade', match.group(1)))
-            unlocked_times.setdefault(match.group(1), 0)
-            unlocked_times[match.group(1)] += 1
+            unlocked_times.setdefault((match.group(1), None), 0)
+            unlocked_times[match.group(1), None] += 1
         elif match := re.match(unlock_ability_pattern, line):
             assert current_function
             if 'DefaultTech' in current_function: continue
-            function_unlocks.setdefault(current_function, []).append(GalaxyItem('ability', match.group(1)))
-            unlocked_times.setdefault(match.group(1), 0)
-            unlocked_times[match.group(1)] += 1
+            abil_index = int(match.group(2))
+            function_unlocks.setdefault(current_function, []).append(GalaxyItem('ability', match.group(1), abil_index))
+            unlocked_times.setdefault((match.group(1), abil_index), 0)
+            unlocked_times[match.group(1), abil_index] += 1
     result = {}
     for function, category in function_to_category.items():
         unlocks = function_unlocks[function]
-        unlocks = [u for u in unlocks if unlocked_times[u.name] == 1]
+        unlocks = [u for u in unlocks if unlocked_times[u.name, u.index] == 1]
         assert len(unlocks), f'function {function} has no unique items'
         result[category] = unlocks
     return result
@@ -207,18 +209,34 @@ def parse_unit_data(unit_data_path: str) -> tuple[dict[str, list[str]], dict[str
     abilcmd_pattern = re.compile(r'^\s*<AbilCmd value="(AP_[^"]+)"/>')
     requirements_pattern = re.compile(r'\s*<Requirements\s*value="(AP_[^"]+)"/>')
     passive_pattern = re.compile(r'^\s*<LayoutButtons .*Face="([^"]+)".*Requirements="(AP_[^"]+)"')
+
+    def register_ability(ability_to_button: dict[str, list[str]], ability: str, face: str) -> None:
+        ability_to_button.setdefault(ability, [])
+        if face not in ability_to_button[ability]:
+            ability_to_button[ability].append(face)
+        if ',' in ability:
+            ability, abil_index = ability.split(',', 1)
+            ability_to_button.setdefault(ability, [])
+            if face not in ability_to_button[ability]:
+                ability_to_button[ability].append(face)
+            if abil_index.startswith('Train') or abil_index.startswith('Build'):
+                abil_index = int(abil_index[len('Train'):]) - 1
+                abil_identifier = f'{ability},{abil_index}'
+                ability_to_button.setdefault(abil_identifier, [])
+                if face not in ability_to_button[abil_identifier]:
+                    ability_to_button[abil_identifier].append(face)
+            elif abil_index == 'Execute':
+                abil_index = 0
+                abil_identifier = f'{ability},{abil_index}'
+                ability_to_button.setdefault(abil_identifier, [])
+                if face not in ability_to_button[abil_identifier]:
+                    ability_to_button[abil_identifier].append(face)
+
     for line in lines:
         if match := re.match(command_card_pattern, line):
             face = match.group(1)
             ability = match.group(2)
-            ability_to_button.setdefault(ability, [])
-            if face not in ability_to_button[ability]:
-                ability_to_button[ability].append(face)
-            if ',' in ability:
-                ability = ability.split(',', 1)[0]
-                ability_to_button.setdefault(ability, [])
-                if face not in ability_to_button[ability]:
-                    ability_to_button[ability].append(face)
+            register_ability(ability_to_button, ability, face)
         elif match := re.match(face_pattern, line):
             last_face = match.group(1)
         elif match := re.match(requirements_pattern, line):
@@ -230,14 +248,7 @@ def parse_unit_data(unit_data_path: str) -> tuple[dict[str, list[str]], dict[str
             if not last_face:
                 continue
             ability = match.group(1)
-            ability_to_button.setdefault(ability, [])
-            if last_face not in ability_to_button[ability]:
-                ability_to_button[ability].append(last_face)
-            if ',' in ability:
-                ability = ability.split(',', 1)[0]
-                ability_to_button.setdefault(ability, [])
-                if last_face not in ability_to_button[ability]:
-                    ability_to_button[ability].append(last_face)
+            register_ability(ability_to_button, ability, last_face)
         elif '</LayoutButtons>' in line:
             last_face = ''
     return (ability_to_button, requirement_to_button)
@@ -543,7 +554,10 @@ def resolve_item_icon(
                         result.add(icon.lower())
                     ability_to_button
         elif unlock.galaxy_type == 'ability':
-            buttons = ability_to_button.get(unlock.name, [])
+            buttons = ability_to_button.get(f'{unlock.name},{unlock.index}', [])
+            if not buttons:
+                buttons = ability_to_button.get(unlock.name, [])
+                print(f'Backup: {unlock.name}')
 
             for button in buttons:
                 icon = button_to_icon.get(button)
