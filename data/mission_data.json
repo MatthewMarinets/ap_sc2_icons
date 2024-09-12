@@ -63,11 +63,11 @@
     "faction": "Terran",
     "campaign": "wol"
   },
-  "The Great Train Robbery": {
+  "The Great Train Robbery (Terran)": {
     "faction": "Terran",
     "campaign": "wol"
   },
-  "Cutthroat": {
+  "Cutthroat (Terran)": {
     "faction": "Terran",
     "campaign": "wol"
   },
@@ -384,6 +384,22 @@
     "campaign": "wol"
   },
   "Smash and Grab (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "wol"
+  },
+  "The Great Train Robbery (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "wol"
+  },
+  "The Great Train Robbery (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "wol"
+  },
+  "Cutthroat (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "wol"
+  },
+  "Cutthroat (Protoss)": {
     "faction": "Protoss",
     "campaign": "wol"
   }

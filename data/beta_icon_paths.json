@@ -1,8 +1,8 @@
 {
   "meta": {
-    "timestamp": "2024-08-12",
-    "items": 711,
-    "located": 678
+    "timestamp": "2024-09-12",
+    "items": 739,
+    "located": 705
   },
   "locations": {
     "Marine": [
@@ -76,6 +76,12 @@
     ],
     "Warhound": [
       "assets\\textures\\btn-unit-terran-warhound.dds"
+    ],
+    "Pride of Augustgrad": [
+      "assets\\textures\\btn-unit-terran-battlecruisermengsk.dds"
+    ],
+    "Sky Fury": [
+      "assets\\textures\\btn-unit-terran-vikingmengskfighter.dds"
     ],
     "Progressive Terran Infantry Weapon": [
       "ap\\assets\\custom\\textures\\btn-upgrade-terran-infantryweaponslevel4.dds",
@@ -270,11 +276,11 @@
     "Resource Efficiency (Siege Tank)": [
       "btn-ability-hornerhan-salvagebonus.dds"
     ],
-    "Cloak (Predator)": [
+    "Phase Cloak (Predator)": [
       "assets\\textures\\btn-ability-terran-cloak-color.dds"
     ],
-    "Charge (Predator)": [
-      "assets\\textures\\btn-ability-protoss-charge-color.dds"
+    "Concussive Charge (Predator)": [
+      "assets\\textures\\btn-ability-stetmann-stetelliteoverloadspeed.dds"
     ],
     "Scatter Veil (Medivac)": [
       "assets\\textures\\btn-upgrade-swann-defensivematrix.dds"
@@ -722,8 +728,8 @@
     "Resource Efficiency (Valkyrie)": [
       "btn-ability-hornerhan-salvagebonus.dds"
     ],
-    "Predator's Fury (Predator)": [
-      "assets\\textures\\btn-ability-protoss-shadowfury.dds"
+    "Vespene Synthesis (Predator)": [
+      "assets\\textures\\btn-tips-sellzergbiosamples.dds"
     ],
     "Behemoth Plating (Battlecruiser)": [
       "ap\\assets\\textures\\btn-research-zerg-fortifiedbunker.dds"
@@ -946,6 +952,15 @@
     "Compressed Rocket Fuel (Liberator)": [
       "assets\\textures\\btn-upgrade-terran-magfieldaccelerator.dds"
     ],
+    "Field-Assist Target System (Battlecruiser)": [
+      "assets\\textures\\btn-ability-mengsk-battlecruiser-decksights.dds"
+    ],
+    "Adaptive Defenses (Predator)": [
+      "assets\\textures\\btn-ability-stetmann-banelingmanashield.dds"
+    ],
+    "Aesir Turbines (Viking)": [
+      "assets\\textures\\btn-ability-mengsk-viking-speed.dds"
+    ],
     "Additional Starting Minerals": [
       "icon-mineral-nobg.dds",
       "ui_aicommand_build_open_economicfocus.dds"
@@ -1094,6 +1109,18 @@
     ],
     "Omega Worm": [
       "assets\\textures\\btn-unit-zerg-nydusdragon.dds"
+    ],
+    "Infested Siege Tank": [
+      "assets\\textures\\btn-unit-zerg-infestedsiegetank.dds"
+    ],
+    "Infested Diamonback": [
+      "assets\\textures\\btn-unit-zerg-infesteddiamondback.dds"
+    ],
+    "Infested Banshee": [
+      "assets\\textures\\btn-unit-zerg-infestedbanshee.dds"
+    ],
+    "Infested Liberator": [
+      "assets\\textures\\btn-unit-zerg-infestedliberator.dds"
     ],
     "Progressive Zerg Melee Attack": [
       "ap\\assets\\custom\\textures\\btn-upgrade-zerg-meleeattacks-level4.dds",
@@ -1529,6 +1556,36 @@
     "Ravenous Appetite (Nydus Worm)": [
       "assets\\textures\\ui_tipicon_evolution_hydralisk-waves.dds"
     ],
+    "Progressive Automated Mitosis (Infested Siege Tank)": [
+      "assets\\textures\\btn-upgrade-zerg-stukov-siegetankammoregen.dds"
+    ],
+    "Acidic Enzymes (Infested Siege Tank)": [
+      "assets\\textures\\btn-upgrade-zerg-stukov-siegetankbonusdamage.dds"
+    ],
+    "Deep Tunnel (Infested Siege Tank)": [
+      "assets\\textures\\btn-ability-zerg-deeptunnel.dds"
+    ],
+    "Saturated Cultures (Infested Diamondback)": [
+      "assets\\textures\\btn-ability-zerg-stukov-ensnarecdr.dds"
+    ],
+    "Caustic Mucus (Infested Diamondback)": [
+      "assets\\textures\\btn-upgrade-zerg-stukov-diamondbacksnailtrail.dds"
+    ],
+    "Braced Exoskeleton (Infested Banshee)": [
+      "assets\\textures\\btn-upgrade-zerg-stukov-bansheemorelife.dds"
+    ],
+    "Rapid Hibernation (Infested Banshee)": [
+      "assets\\textures\\btn-ability-zerg-burrow-color.dds",
+      "assets\\textures\\btn-upgrade-zerg-stukov-bansheeburrowregeneration.dds"
+    ],
+    "Cloud Dispersal (Infested Liberator)": [
+      "assets\\textures\\btn-ability-zerg-parasiticbomb.dds",
+      "assets\\textures\\btn-upgrade-zagara-scourgegasreduction.dds",
+      "assets\\textures\\btn-upgrade-zerg-stukov-infestedliberatorswarmcloud.dds"
+    ],
+    "Viral Contamination (Infested Liberator)": [
+      "assets\\textures\\btn-upgrade-zerg-stukov-infestedliberatoraoe.dds"
+    ],
     "Kinetic Blast (Kerrigan Ability)": [
       "assets\\textures\\btn-ability-kerrigan-kineticblast.dds"
     ],
@@ -1617,11 +1674,24 @@
     "Infested Medics": [
       "assets\\textures\\btn-unit-terran-medicelite.dds"
     ],
-    "Infested Siege Tanks": [
+    "Infested Siege Breakers": [
       "ap\\assets\\textures\\btn-unit-terran-siegetankmercenary-tank.dds"
     ],
-    "Infested Banshees": [
+    "Infested Dusk Wings": [
       "ap\\assets\\textures\\btn-unit-terran-bansheemercenary.dds"
+    ],
+    "Devouring Ones": [
+      "ap\\assets\\textures\\btn-unit-zerg-zergling-scr.dds"
+    ],
+    "Hunter Killers": [
+      "assets\\textures\\btn-unit-zerg-hydralisk-remastered.dds"
+    ],
+    "Torrasque": [
+      "assets\\textures\\btn-unit-zerg-ultralisk-remastered.dds"
+    ],
+    "Hunterling": [
+      "ap\\assets\\custom\\textures\\btn-unit-hunterling.dds",
+      "assets\\textures\\btn-building-zerg-roachwarren.dds"
     ],
     "Ventral Sacs (Overlord)": [
       "assets\\textures\\btn-ability-terran-load.dds",
@@ -1636,6 +1706,7 @@
     "Pneumatized Carapace (Overlord)": [
       "assets\\textures\\btn-upgrade-zerg-pneumatizedcarapace.dds"
     ],
+    "Frightful Fleshwelder (Zerg)": [],
     "Guardian Aspect (Mutalisk/Corruptor)": [
       "assets\\textures\\btn-unit-zerg-primalguardian.dds"
     ],
@@ -1756,7 +1827,7 @@
     "Skylord": [
       "assets\\textures\\btn-unit-collection-taldarim-carrier.dds"
     ],
-    "Purger": [
+    "Trireme": [
       "assets\\textures\\btn-unit-collection-purifier-carrier.dds"
     ],
     "Skirmisher": [
@@ -1913,10 +1984,10 @@
     "Enhanced Cloak Field (Arbiter)": [
       "assets\\textures\\btn-ability-stetmann-stetzonegenerator-speed.dds"
     ],
-    "Graviton Catapult (Carrier/Skylord/Purger)": [
+    "Graviton Catapult (Carrier/Trireme)": [
       "assets\\textures\\btn-upgrade-protoss-gravitoncatapult.dds"
     ],
-    "Hull of Past Glories (Carrier/Skylord/Purger)": [
+    "Hull of Past Glories (Carrier/Skylord/Trireme)": [
       "assets\\textures\\btn-progression-protoss-fenix-14-colossusandcarrierchampionsresearch.dds"
     ],
     "Flux Vanes (Void Ray/Destroyer/Warp Ray/Dawnbringer)": [
@@ -2074,6 +2145,12 @@
     "Interplanetary Range (Tempest)": [
       "assets\\textures\\ui_aicommand_build_open_aggressivepush.dds"
     ],
+    "Anti-Surface Countermeasures (Dawnbringer)": [
+      "assets\\textures\\btn-upgrade-protoss-fenix-scoutchampionrange.dds"
+    ],
+    "Enhanced Shield Generator (Dawnbringer)": [
+      "assets\\textures\\btn-upgrade-protoss-fenix-disruptorpurificationecho.dds"
+    ],
     "Whirlwind (Zealot)": [
       "assets\\textures\\btn-ability-protoss-whirlwind.dds"
     ],
@@ -2159,6 +2236,12 @@
       "assets\\textures\\btn-ability-protoss-blinkcharges.dds",
       "assets\\textures\\btn-upgrade-protoss-alarak-stalkerphasingarmor.dds"
     ],
+    "Warp Refraction (Warp Prism)": [
+      "assets\\textures\\btn-ability-zeratul-warpprism-infinitevoid.dds"
+    ],
+    "Induce Scopophobia (Observer)": [
+      "assets\\textures\\btn-upgrade-afaidofthedark.dds"
+    ],
     "Double Graviton Beam (Phoenix)": [
       "assets\\textures\\btn-ability-protoss-dualgravitonbeam.dds"
     ],
@@ -2176,6 +2259,9 @@
     ],
     "Reforged Bloodshard Core (Destroyer)": [
       "assets\\textures\\btn-amonshardsarmor.dds"
+    ],
+    "Solarite Lens (Dawnbringer)": [
+      "assets\\textures\\btn-upgrade-protoss-extendedthermallance.dds"
     ],
     "Hyperjump (Skylord)": [
       "assets\\textures\\btn-ability-hornerhan-fleethyperjump.dds"

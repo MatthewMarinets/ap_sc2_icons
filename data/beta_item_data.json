@@ -215,6 +215,24 @@
     "parent_item": null,
     "description": "Anti-vehicle mech. Haywire missiles do bonus damage to mechanical units."
   },
+  "Pride of Augustgrad": {
+    "type": "Unit",
+    "number": 28,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Powerful Royal Guard Warship."
+  },
+  "Sky Fury": {
+    "type": "Unit",
+    "number": 29,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Durable Royal Guard support flyer. Loaded with strong anti-capital air missiles. \nCan switch into Assault Mode to attack ground units."
+  },
   "Progressive Terran Infantry Weapon": {
     "type": "Upgrade",
     "number": 0,
@@ -746,23 +764,23 @@
     "parent_item": "Siege Tank",
     "description": "Reduces Siege Tank cost by 25 gas and 1 supply."
   },
-  "Cloak (Predator)": {
+  "Phase Cloak (Predator)": {
     "type": "Armory 2",
     "number": 14,
     "race": "TERRAN",
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Predator",
-    "description": "Allows Predators to use the Cloak ability."
+    "description": "Allows Predators to briefly cloak. Predators ignore unit collision while cloaked."
   },
-  "Charge (Predator)": {
+  "Concussive Charge (Predator)": {
     "type": "Armory 2",
     "number": 15,
     "race": "TERRAN",
     "classification": "filler",
     "quantity": 1,
     "parent_item": "Predator",
-    "description": "Allows Predators to intercept enemy ground units."
+    "description": "Allows Predators to intercept enemy ground units, and applies an AoE slow on arrival."
   },
   "Scatter Veil (Medivac)": {
     "type": "Armory 2",
@@ -2042,14 +2060,14 @@
     "parent_item": "Valkyrie",
     "description": "Reduces Valkyrie cost by 100 minerals, 25 gas, and 1 supply."
   },
-  "Predator's Fury (Predator)": {
+  "Vespene Synthesis (Predator)": {
     "type": "Armory 6",
     "number": 10,
     "race": "TERRAN",
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Predator",
-    "description": "Predators can use an attack that jumps between targets."
+    "description": "Gives 1 free Vespene per target hit with Lightning Field."
   },
   "Behemoth Plating (Battlecruiser)": {
     "type": "Armory 6",
@@ -2627,6 +2645,33 @@
     "parent_item": "Liberator",
     "description": "Increases Liberator attack range in Fighter mode by 4."
   },
+  "Field-Assist Target System (Battlecruiser)": {
+    "type": "Armory 7",
+    "number": 6,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Battlecruiser",
+    "description": "Battlecruisers increase the attack range of nearby friendly ground units by 1."
+  },
+  "Adaptive Defenses (Predator)": {
+    "type": "Armory 7",
+    "number": 7,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Predator",
+    "description": "Predators gain a shield that halves incoming ranged and splash damage while active."
+  },
+  "Aesir Turbines (Viking)": {
+    "type": "Armory 7",
+    "number": 8,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Viking",
+    "description": "Increases Viking movement speed by 55%."
+  },
   "Additional Starting Minerals": {
     "type": "Minerals",
     "number": -1,
@@ -3014,6 +3059,42 @@
     "parent_item": null,
     "description": "Long-range deployable base. Unable to load and unload units, but can generate Creep and Creep Tumors. Can also serve as a dropoff point for resources and can create Drones."
   },
+  "Infested Siege Tank": {
+    "type": "Unit",
+    "number": 19,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Siege tank. Can uproot itself to provide mobile tank support. Can use the Deep Tunnel ability."
+  },
+  "Infested Diamonback": {
+    "type": "Unit",
+    "number": 20,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Fast, high-damage attacker. Can attack while moving and can bring flying units to the ground."
+  },
+  "Infested Banshee": {
+    "type": "Unit",
+    "number": 21,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Tactical-strike aircraft. Can cloak and can be upgraded to burrow."
+  },
+  "Infested Liberator": {
+    "type": "Unit",
+    "number": 22,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Anti-Air flying attacker.  Attacks deal high area-damage."
+  },
   "Progressive Zerg Melee Attack": {
     "type": "Upgrade",
     "number": 0,
@@ -3189,7 +3270,7 @@
     "type": "Mutation 1",
     "number": 9,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Baneling Aspect (Zergling)",
     "description": "Increases the damage banelings deal to their primary target. Splash damage remains the same."
@@ -3351,7 +3432,7 @@
     "type": "Mutation 1",
     "number": 27,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Roach",
     "description": "Increases Roach movement speed."
@@ -3414,7 +3495,7 @@
     "type": "Mutation 2",
     "number": 4,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Mutalisk",
     "description": "Mutalisk bounce attacks will deal full damage."
@@ -4193,6 +4274,87 @@
     "parent_item": "Nydus Worm",
     "description": "Allows Nydus Worms to unload and load units nearly instantly."
   },
+  "Progressive Automated Mitosis (Infested Siege Tank)": {
+    "type": "Progressive",
+    "number": 0,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 2,
+    "parent_item": "Infested Siege Tank",
+    "description": "Level 1: Infested Siege Tanks generate 1 Volatile Biomass every 30 seconds.\nLevel 2: Infested Siege Tanks generate 1 Volatile Biomass every 10 seconds."
+  },
+  "Acidic Enzymes (Infested Siege Tank)": {
+    "type": "Mutation 4",
+    "number": 17,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Infested Siege Tank",
+    "description": "Infested Siege Tanks deal an additional 15 damage to armored units and structures in both modes."
+  },
+  "Deep Tunnel (Infested Siege Tank)": {
+    "type": "Mutation 4",
+    "number": 18,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Infested Siege Tank",
+    "description": "Infested Siege Tanks gain the Deep Tunnel ability, \nwhich allows them to burrow to any visible location on the map covered in creep."
+  },
+  "Saturated Cultures (Infested Diamondback)": {
+    "type": "Mutation 4",
+    "number": 19,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Infested Diamonback",
+    "description": "Infested Diamondbacks leave behind a trail of acid when moving that deals 20 damage per second to enemy units."
+  },
+  "Caustic Mucus (Infested Diamondback)": {
+    "type": "Mutation 4",
+    "number": 20,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Infested Diamonback",
+    "description": "Reduces the cooldown of the Infested Diamondback's Fungal Snare by 15 seconds."
+  },
+  "Braced Exoskeleton (Infested Banshee)": {
+    "type": "Mutation 4",
+    "number": 21,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Infested Banshee",
+    "description": "Infested Banshees gain +100 life."
+  },
+  "Rapid Hibernation (Infested Banshee)": {
+    "type": "Mutation 4",
+    "number": 22,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Infested Banshee",
+    "description": "Infested Banshees regenerate 20 life and energy per second while burrowed."
+  },
+  "Cloud Dispersal (Infested Liberator)": {
+    "type": "Mutation 4",
+    "number": 23,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Infested Liberator",
+    "description": "Infested Liberators instantly transform into a cloud of microscopic organisms while attacking, reducing the damage they take by 85%."
+  },
+  "Viral Contamination (Infested Liberator)": {
+    "type": "Mutation 4",
+    "number": 24,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Infested Liberator",
+    "description": "Increases the damage Infested Liberators deal to their primary target by 100%."
+  },
   "Kinetic Blast (Kerrigan Ability)": {
     "type": "Ability",
     "number": 0,
@@ -4524,25 +4686,61 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "description": "Mercenary infested Medics that may be called in from the Hatchery."
+    "description": "Mercenary infested Medics that may be called in from the Predator Nest."
   },
-  "Infested Siege Tanks": {
+  "Infested Siege Breakers": {
     "type": "Mercenary",
     "number": 1,
     "race": "ZERG",
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "description": "Mercenary infested Siege Tanks that may be called in from the Hatchery."
+    "description": "Mercenary infested Siege Breakers that may be called in from the Predator Nest."
   },
-  "Infested Banshees": {
+  "Infested Dusk Wings": {
     "type": "Mercenary",
     "number": 2,
     "race": "ZERG",
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "description": "Mercenary infested Banshees that may be called in from the Hatchery."
+    "description": "Mercenary infested Dusk Wings that may be called in from the Predator Nest."
+  },
+  "Devouring Ones": {
+    "type": "Mercenary",
+    "number": 3,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Mercenary Zerglings."
+  },
+  "Hunter Killers": {
+    "type": "Mercenary",
+    "number": 4,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Elite Hydralisks that may be called in from the Predator Nest."
+  },
+  "Torrasque": {
+    "type": "Mercenary",
+    "number": 5,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Torrasque Mercenary."
+  },
+  "Hunterling": {
+    "type": "Mercenary",
+    "number": 6,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Hunterling Mercenary."
   },
   "Ventral Sacs (Overlord)": {
     "type": "Evolution Pit",
@@ -4579,6 +4777,15 @@
     "quantity": 1,
     "parent_item": null,
     "description": "Increases Overlord movement speed."
+  },
+  "Frightful Fleshwelder (Zerg)": {
+    "type": "Evolution Pit",
+    "number": 11,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Reduces infested mechnical unit resource cost by 30%."
   },
   "Guardian Aspect (Mutalisk/Corruptor)": {
     "type": "Morph",
@@ -4940,14 +5147,14 @@
     "parent_item": null,
     "description": "Capital ship. Fires a powerful laser that deals damage in a line. Can use Tactical Jump ability."
   },
-  "Purger": {
+  "Trireme": {
     "type": "Unit 2",
     "number": 13,
     "race": "PROTOSS",
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "description": "Capital ship. Builds and launches Interceptors that attack enemy targets. Has Solar Beam weapon."
+    "description": "Capital ship. Builds and launches Bombers that attack enemy targets."
   },
   "Skirmisher": {
     "type": "Unit 2",
@@ -5372,23 +5579,23 @@
     "parent_item": "Arbiter",
     "description": "Increases Arbiter Cloaking Field range."
   },
-  "Graviton Catapult (Carrier/Skylord/Purger)": {
+  "Graviton Catapult (Carrier/Trireme)": {
     "type": "Forge 2",
     "number": 3,
     "race": "PROTOSS",
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "description": "Carriers can launch Interceptors more quickly."
+    "description": "Carriers and Triremes can launch Interceptors and Bombers more quickly."
   },
-  "Hull of Past Glories (Carrier/Skylord/Purger)": {
+  "Hull of Past Glories (Carrier/Skylord/Trireme)": {
     "type": "Forge 2",
     "number": 4,
     "race": "PROTOSS",
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "description": "Carriers gain +2 armour."
+    "description": "Carrier-class ships gain +2 armour."
   },
   "Flux Vanes (Void Ray/Destroyer/Warp Ray/Dawnbringer)": {
     "type": "Forge 2",
@@ -5529,7 +5736,7 @@
     "type": "Forge 2",
     "number": 20,
     "race": "PROTOSS",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Colossus",
     "description": "Increases Colossus attack speed."
@@ -5538,7 +5745,7 @@
     "type": "Forge 2",
     "number": 21,
     "race": "PROTOSS",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Wrathwalker",
     "description": "Reduces the charging time and increases attack speed of the Wrathwalker's Charged Blast."
@@ -5840,11 +6047,29 @@
     "parent_item": "Tempest",
     "description": "Tempests gain +8 weapon range against all targets."
   },
+  "Anti-Surface Countermeasures (Dawnbringer)": {
+    "type": "Forge 3",
+    "number": 25,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Dawnbringer",
+    "description": "Dawnbringers take reduced damage from non-spell ground sources."
+  },
+  "Enhanced Shield Generator (Dawnbringer)": {
+    "type": "Forge 3",
+    "number": 26,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Dawnbringer",
+    "description": "Increases Dawnbringer maximum shields by +50."
+  },
   "Whirlwind (Zealot)": {
     "type": "War Council",
     "number": 0,
     "race": "PROTOSS",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Zealot",
     "description": "Zealot War Council upgrade. Gives Zealots the whirlwind ability, dealing damage in an area over 3 seconds."
@@ -5907,7 +6132,7 @@
     "type": "War Council",
     "number": 7,
     "race": "PROTOSS",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Slayer",
     "description": "Slayer War Council upgrade. Slayers can now blink. After blinking, the Slayer's next attack within 8 seconds deals double damage."
@@ -5961,7 +6186,7 @@
     "type": "War Council",
     "number": 13,
     "race": "PROTOSS",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Energizer",
     "description": "Energizer War Council upgrade. Allows Energizers to use Chrono Beam in Mobile Mode."
@@ -6024,7 +6249,7 @@
     "type": "War Council",
     "number": 20,
     "race": "PROTOSS",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Vanguard",
     "description": "Vanguard War Council upgrade. Vanguards attack 38% faster."
@@ -6092,6 +6317,24 @@
     "parent_item": "Disruptor",
     "description": "Disruptor War Council upgrade. Allows the Disruptor to move while casting Purification Nova. Also allows the Disruptor to Blink."
   },
+  "Warp Refraction (Warp Prism)": {
+    "type": "War Council",
+    "number": 28,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Warp Prism",
+    "description": "Warp Prism War Council upgrade. Warp Prisms gain +5 pickup range and unload units 10 times faster."
+  },
+  "Induce Scopophobia (Observer)": {
+    "type": "War Council",
+    "number": 29,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Observer",
+    "description": "Observer War Council upgrade. Observers gain the Induce Scopophobia ability, \nwhich reduces the attack and movement speed of an enemy by 20%."
+  },
   "Double Graviton Beam (Phoenix)": {
     "type": "War Council 2",
     "number": 0,
@@ -6141,10 +6384,19 @@
     "type": "War Council 2",
     "number": 5,
     "race": "PROTOSS",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Destroyer",
     "description": "Destroyer War Council upgrade. When fully charged, the Destroyer's Destruction Beam weapon does full damage to secondary targets."
+  },
+  "Solarite Lens (Dawnbringer)": {
+    "type": "War Council 2",
+    "number": 7,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": "Dawnbringer",
+    "description": "Dawnbringer War Council upgrade. Dawnbringers gain +2 range."
   },
   "Hyperjump (Skylord)": {
     "type": "War Council 2",

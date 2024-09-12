@@ -16,8 +16,8 @@
     "Welcome to the Jungle",
     "Breakout",
     "Ghost of a Chance",
-    "The Great Train Robbery",
-    "Cutthroat",
+    "The Great Train Robbery (Terran)",
+    "Cutthroat (Terran)",
     "Engine of Destruction",
     "Media Blitz",
     "Piercing the Shroud",
@@ -96,13 +96,17 @@
     "Haven's Fall (Zerg)",
     "Haven's Fall (Protoss)",
     "Smash and Grab (Zerg)",
-    "Smash and Grab (Protoss)"
+    "Smash and Grab (Protoss)",
+    "The Great Train Robbery (Zerg)",
+    "The Great Train Robbery (Protoss)",
+    "Cutthroat (Zerg)",
+    "Cutthroat (Protoss)"
   ],
   "Auto-Scroller Missions": [
     "Zero Hour (Terran)",
     "Evacuation (Terran)",
     "The Dig",
-    "The Great Train Robbery",
+    "The Great Train Robbery (Terran)",
     "Engine of Destruction",
     "All-In",
     "In Utter Darkness",
@@ -120,7 +124,9 @@
     "Zero Hour (Zerg)",
     "Zero Hour (Protoss)",
     "Evacuation (Zerg)",
-    "Evacuation (Protoss)"
+    "Evacuation (Protoss)",
+    "The Great Train Robbery (Zerg)",
+    "The Great Train Robbery (Protoss)"
   ],
   "Controllable Protoss Ally Missions": [
     "Salvation",
@@ -144,7 +150,7 @@
     "Smash and Grab (Terran)",
     "The Moebius Factor",
     "Supernova",
-    "Cutthroat",
+    "Cutthroat (Terran)",
     "Shoot the Messenger",
     "Domination",
     "Fire in the Sky",
@@ -158,7 +164,9 @@
     "Safe Haven (Zerg)",
     "Safe Haven (Protoss)",
     "Smash and Grab (Zerg)",
-    "Smash and Grab (Protoss)"
+    "Smash and Grab (Protoss)",
+    "Cutthroat (Zerg)",
+    "Cutthroat (Protoss)"
   ],
   "Defense Missions": [
     "Zero Hour (Terran)",
@@ -437,7 +445,9 @@
     "Outbreak (Protoss)",
     "Safe Haven (Protoss)",
     "Haven's Fall (Protoss)",
-    "Smash and Grab (Protoss)"
+    "Smash and Grab (Protoss)",
+    "The Great Train Robbery (Protoss)",
+    "Cutthroat (Protoss)"
   ],
   "Raceswap Missions": [
     "The Outlaws (Zerg)",
@@ -453,7 +463,11 @@
     "Haven's Fall (Zerg)",
     "Haven's Fall (Protoss)",
     "Smash and Grab (Zerg)",
-    "Smash and Grab (Protoss)"
+    "Smash and Grab (Protoss)",
+    "The Great Train Robbery (Zerg)",
+    "The Great Train Robbery (Protoss)",
+    "Cutthroat (Zerg)",
+    "Cutthroat (Protoss)"
   ],
   "Terran Missions": [
     "Liberation Day",
@@ -472,8 +486,8 @@
     "Welcome to the Jungle",
     "Breakout",
     "Ghost of a Chance",
-    "The Great Train Robbery",
-    "Cutthroat",
+    "The Great Train Robbery (Terran)",
+    "Cutthroat (Terran)",
     "Engine of Destruction",
     "Media Blitz",
     "Piercing the Shroud",
@@ -553,8 +567,8 @@
     "The Outlaws (Terran)",
     "Breakout",
     "Ghost of a Chance",
-    "The Great Train Robbery",
-    "Cutthroat",
+    "The Great Train Robbery (Terran)",
+    "Cutthroat (Terran)",
     "Engine of Destruction",
     "Media Blitz",
     "Piercing the Shroud",
@@ -585,7 +599,11 @@
     "In the Enemy's Shadow",
     "End Game",
     "The Outlaws (Zerg)",
-    "The Outlaws (Protoss)"
+    "The Outlaws (Protoss)",
+    "The Great Train Robbery (Zerg)",
+    "The Great Train Robbery (Protoss)",
+    "Cutthroat (Zerg)",
+    "Cutthroat (Protoss)"
   ],
   "Vs Zerg Missions": [
     "Zero Hour (Terran)",
@@ -699,8 +717,8 @@
     "Welcome to the Jungle",
     "Breakout",
     "Ghost of a Chance",
-    "The Great Train Robbery",
-    "Cutthroat",
+    "The Great Train Robbery (Terran)",
+    "Cutthroat (Terran)",
     "Engine of Destruction",
     "Media Blitz",
     "Piercing the Shroud",
@@ -721,14 +739,22 @@
     "Haven's Fall (Zerg)",
     "Haven's Fall (Protoss)",
     "Smash and Grab (Zerg)",
-    "Smash and Grab (Protoss)"
+    "Smash and Grab (Protoss)",
+    "The Great Train Robbery (Zerg)",
+    "The Great Train Robbery (Protoss)",
+    "Cutthroat (Zerg)",
+    "Cutthroat (Protoss)"
   ],
   "WoL Rebellion": [
-    "The Great Train Robbery",
-    "Cutthroat",
+    "The Great Train Robbery (Terran)",
+    "Cutthroat (Terran)",
     "Engine of Destruction",
     "Media Blitz",
-    "Piercing the Shroud"
+    "Piercing the Shroud",
+    "The Great Train Robbery (Zerg)",
+    "The Great Train Robbery (Protoss)",
+    "Cutthroat (Zerg)",
+    "Cutthroat (Protoss)"
   ],
   "Zerg Missions": [
     "Lab Rat",
@@ -757,6 +783,8 @@
     "Outbreak (Zerg)",
     "Safe Haven (Zerg)",
     "Haven's Fall (Zerg)",
-    "Smash and Grab (Zerg)"
+    "Smash and Grab (Zerg)",
+    "The Great Train Robbery (Zerg)",
+    "Cutthroat (Zerg)"
   ]
 }
