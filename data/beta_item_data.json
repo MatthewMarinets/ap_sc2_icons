@@ -233,6 +233,15 @@
     "parent_item": null,
     "description": "Durable Royal Guard support flyer. Loaded with strong anti-capital air missiles. \nCan switch into Assault Mode to attack ground units."
   },
+  "Shock Division": {
+    "type": "Unit 2",
+    "number": 0,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Royal Guard Heavy tank. Long-range artillery in Siege Mode."
+  },
   "Progressive Terran Infantry Weapon": {
     "type": "Upgrade",
     "number": 0,
@@ -1608,7 +1617,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Ghost",
-    "description": "Reduces Ghost cost by 125 minerals, 75 gas, and 1 supply."
+    "description": "Reduces Ghost cost by 25 minerals, 25 gas, and 1 supply."
   },
   "Resource Efficiency (Spectre)": {
     "type": "Armory 4",
@@ -1617,7 +1626,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Spectre",
-    "description": "Reduces Spectre cost by 125 minerals, 75 gas, and 1 supply."
+    "description": "Reduces Spectre cost by 25 minerals, 25 gas, and 1 supply."
   },
   "Button With a Skull on It (Thor)": {
     "type": "Armory 4",
@@ -2544,7 +2553,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "description": "Halves cooldowns of mercenary calldowns."
+    "description": "Reduces cooldowns of mercenary calldowns by 60s."
   },
   "Zealot": {
     "type": "Unit",
@@ -3198,7 +3207,7 @@
     "type": "Mutation 1",
     "number": 1,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Zergling",
     "description": "Increases Zergling attack speed."
@@ -3216,7 +3225,7 @@
     "type": "Mutation 1",
     "number": 3,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Roach",
     "description": "Roaches deal +8 damage to light targets."
@@ -3243,7 +3252,7 @@
     "type": "Mutation 1",
     "number": 6,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Hydralisk",
     "description": "Allows Hydralisks to use the Frenzy ability, which increases their attack speed by 50%."
@@ -3828,7 +3837,7 @@
     "type": "Mutation 3",
     "number": 11,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Swarm Queen",
     "description": "Swarm Queen Burst Heal heals an additional +10 life and can now target mechanical units."
@@ -5979,7 +5988,7 @@
     "type": "Forge 3",
     "number": 17,
     "race": "PROTOSS",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": null,
     "description": "Zealots, Sentinels, and Centurions gain +30 maximum shields."
@@ -6177,7 +6186,7 @@
     "type": "War Council",
     "number": 12,
     "race": "PROTOSS",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Sentry",
     "description": "Sentry War Council upgrade. Sentries can heal the shields of two targets at once."
@@ -6398,6 +6407,15 @@
     "parent_item": "Dawnbringer",
     "description": "Dawnbringer War Council upgrade. Dawnbringers gain +2 range."
   },
+  "Repair Drones (Carrier)": {
+    "type": "War Council 2",
+    "number": 8,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": "Carrier",
+    "description": "Carrier War Council upgrade. Carriers gain 2 repair drones which heal nearby mechanical units."
+  },
   "Hyperjump (Skylord)": {
     "type": "War Council 2",
     "number": 9,
@@ -6406,6 +6424,15 @@
     "quantity": 1,
     "parent_item": "Skylord",
     "description": "Skylord War Council upgrade. Skylords gain the Hyperjump ability, \nwhich teleports the skylord to any location on the map.."
+  },
+  "Solar Beam (Trieme)": {
+    "type": "War Council 2",
+    "number": 10,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": "Trireme",
+    "description": "Trireme War Council upgrade. Triremes gain an anti-air laser attack that deals more damage over time."
   },
   "Disintegration (Tempest)": {
     "type": "War Council 2",

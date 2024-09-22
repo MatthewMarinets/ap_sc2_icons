@@ -32,7 +32,8 @@
     "Predator",
     "Widow Mine",
     "Cyclone",
-    "Warhound"
+    "Warhound",
+    "Shock Division"
   ],
   "Gateway Units": [
     "Zealot",
@@ -390,7 +391,8 @@
   ],
   "Mengsk Units": [
     "Pride of Augustgrad",
-    "Sky Fury"
+    "Sky Fury",
+    "Shock Division"
   ],
   "NCO +Items": [
     "Laser Targeting System (Marine)",
@@ -685,6 +687,22 @@
     "Improved Overlords (Overlord)",
     "Overseer Aspect (Overlord)"
   ],
+  "Overpowered Items": [
+    "Graduating Range (Siege Tank)",
+    "Resource Efficiency (Siege Tank)",
+    "ATX Laser Battery (Battlecruiser)",
+    "Progressive Regenerative Bio-Steel (Terran)",
+    "Mechanical Know-how (Terran)",
+    "Mercenary Munitions (Terran)",
+    "Apocalypse (Kerrigan Ability)",
+    "Drop-Pods (Kerrigan Ability)",
+    "Spawn Leviathan (Kerrigan Ability)",
+    "Resource Efficiency (Reaver)",
+    "Time Stop (Spear of Adun Calldown)",
+    "Solar Lance (Spear of Adun Calldown)",
+    "Solar Bombardment (Spear of Adun Calldown)",
+    "Mothership"
+  ],
   "Prophecy Buildings": [
     "Photon Cannon"
   ],
@@ -915,7 +933,9 @@
     "Prismatic Range (Void Ray)",
     "Reforged Bloodshard Core (Destroyer)",
     "Solarite Lens (Dawnbringer)",
+    "Repair Drones (Carrier)",
     "Hyperjump (Skylord)",
+    "Solar Beam (Trieme)",
     "Disintegration (Tempest)",
     "Ability Efficiency (Arbiter)",
     "Chrono Surge (Spear of Adun Calldown)",
@@ -1029,7 +1049,9 @@
     "Prismatic Range (Void Ray)",
     "Reforged Bloodshard Core (Destroyer)",
     "Solarite Lens (Dawnbringer)",
+    "Repair Drones (Carrier)",
     "Hyperjump (Skylord)",
+    "Solar Beam (Trieme)",
     "Disintegration (Tempest)",
     "Ability Efficiency (Arbiter)"
   ],
@@ -1168,6 +1190,7 @@
     "Warhound",
     "Pride of Augustgrad",
     "Sky Fury",
+    "Shock Division",
     "Progressive Terran Infantry Weapon",
     "Progressive Terran Infantry Armor",
     "Progressive Terran Vehicle Weapon",
@@ -1532,6 +1555,7 @@
     "Warhound",
     "Pride of Augustgrad",
     "Sky Fury",
+    "Shock Division",
     "War Pigs",
     "Devil Dogs",
     "Hammer Securities",

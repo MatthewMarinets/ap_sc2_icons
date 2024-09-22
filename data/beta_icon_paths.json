@@ -1,8 +1,8 @@
 {
   "meta": {
-    "timestamp": "2024-09-12",
-    "items": 739,
-    "located": 705
+    "timestamp": "2024-09-21",
+    "items": 742,
+    "located": 708
   },
   "locations": {
     "Marine": [
@@ -82,6 +82,10 @@
     ],
     "Sky Fury": [
       "assets\\textures\\btn-unit-terran-vikingmengskfighter.dds"
+    ],
+    "Shock Division": [
+      "assets\\textures\\btn-building-terran-factorymengsk.dds",
+      "assets\\textures\\btn-unit-terran-siegetankmengsk.dds"
     ],
     "Progressive Terran Infantry Weapon": [
       "ap\\assets\\custom\\textures\\btn-upgrade-terran-infantryweaponslevel4.dds",
@@ -345,6 +349,7 @@
       "btn-ability-hornerhan-salvagebonus.dds"
     ],
     "Jump Jets (Siege Tank)": [
+      "assets\\textures\\btn-ability-protoss-blink-color.dds",
       "assets\\textures\\btn-upgrade-terran-jumpjets.dds"
     ],
     "Spider Mines (Siege Tank)": [
@@ -2263,8 +2268,14 @@
     "Solarite Lens (Dawnbringer)": [
       "assets\\textures\\btn-upgrade-protoss-extendedthermallance.dds"
     ],
+    "Repair Drones (Carrier)": [
+      "assets\\textures\\btn-ability-protoss-carrierrepairdrones.dds"
+    ],
     "Hyperjump (Skylord)": [
       "assets\\textures\\btn-ability-hornerhan-fleethyperjump.dds"
+    ],
+    "Solar Beam (Trieme)": [
+      "assets\\textures\\btn-upgrade-protoss-fenix-carrier-solarbeam.dds"
     ],
     "Disintegration (Tempest)": [
       "assets\\textures\\btn-ability-protoss-disintegration.dds"

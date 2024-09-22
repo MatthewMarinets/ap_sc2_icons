@@ -71,11 +71,11 @@
     "faction": "Terran",
     "campaign": "wol"
   },
-  "Engine of Destruction": {
+  "Engine of Destruction (Terran)": {
     "faction": "Terran",
     "campaign": "wol"
   },
-  "Media Blitz": {
+  "Media Blitz (Terran)": {
     "faction": "Terran",
     "campaign": "wol"
   },
@@ -400,6 +400,22 @@
     "campaign": "wol"
   },
   "Cutthroat (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "wol"
+  },
+  "Engine of Destruction (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "wol"
+  },
+  "Engine of Destruction (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "wol"
+  },
+  "Media Blitz (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "wol"
+  },
+  "Media Blitz (Protoss)": {
     "faction": "Protoss",
     "campaign": "wol"
   }

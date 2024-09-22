@@ -75,7 +75,7 @@ def write_end(fp: io.FileIO) -> None:
 def item_sort_func(item_name: str) -> tuple:
     if ' (' in item_name:
         parts = item_name.split(' (')
-        assert len(parts) == 2
+        assert len(parts) == 2, f'item "{item_name}" has multiple parens'
         if parts[1] in ('Zerg)', 'Terran)', 'Protoss)', 'Terran/Zerg)'):
             return ('(' + parts[1], parts[0])
         return (parts[1], parts[0])

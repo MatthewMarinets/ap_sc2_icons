@@ -27,6 +27,7 @@ if __name__ == '__main__':
             "description": item_descriptions.item_descriptions[item_name],
         }
         for item_name, item in items.item_table.items()
+        if item_name not in items.key_item_table
     }
     item_groups = {
         item_group_name: item_groups.item_name_groups[item_group_name]

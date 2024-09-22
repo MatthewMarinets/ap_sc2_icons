@@ -967,6 +967,7 @@
   "icons/blizzard/btn-upgrade-terran-jumpjets.png"
  ],
  "Jump Jets (Siege Tank)": [
+  "icons/blizzard/btn-ability-protoss-blink-color.png",
   "icons/blizzard/btn-upgrade-terran-jumpjets.png"
  ],
  "Jump Suit Module (Nova Suit Module)": [
@@ -1681,6 +1682,9 @@
  "Reinforced Plating (Warhound)": [
   "icons/original/btn-research-zerg-fortifiedbunker.png"
  ],
+ "Repair Drones (Carrier)": [
+  "icons/blizzard/btn-ability-protoss-carrierrepairdrones.png"
+ ],
  "Resonating Glaives (Adept)": [
   "icons/blizzard/btn-upgrade-protoss-resonatingglaives.png"
  ],
@@ -1901,6 +1905,10 @@
  "Shield Regeneration (Supplicant)": [
   "icons/blizzard/btn-ability-protoss-voidarmor.png"
  ],
+ "Shock Division": [
+  "icons/blizzard/btn-building-terran-factorymengsk.png",
+  "icons/blizzard/btn-unit-terran-siegetankmengsk.png"
+ ],
  "Shockwave (Adept)": [
   "icons/blizzard/btn-upgrade-protoss-fenix-adept-recochetglaiveupgraded.png"
  ],
@@ -1960,6 +1968,9 @@
  ],
  "Smart Servos (Viking)": [
   "icons/blizzard/btn-upgrade-terran-transformationservos.png"
+ ],
+ "Solar Beam (Trieme)": [
+  "icons/blizzard/btn-upgrade-protoss-fenix-carrier-solarbeam.png"
  ],
  "Solar Bombardment (Spear of Adun Calldown)": [
   "icons/blizzard/btn-ability-spearofadun-solarbombardment.png"

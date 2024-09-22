@@ -18,8 +18,8 @@
     "Ghost of a Chance",
     "The Great Train Robbery (Terran)",
     "Cutthroat (Terran)",
-    "Engine of Destruction",
-    "Media Blitz",
+    "Engine of Destruction (Terran)",
+    "Media Blitz (Terran)",
     "Piercing the Shroud",
     "Gates of Hell",
     "Belly of the Beast",
@@ -100,14 +100,18 @@
     "The Great Train Robbery (Zerg)",
     "The Great Train Robbery (Protoss)",
     "Cutthroat (Zerg)",
-    "Cutthroat (Protoss)"
+    "Cutthroat (Protoss)",
+    "Engine of Destruction (Zerg)",
+    "Engine of Destruction (Protoss)",
+    "Media Blitz (Zerg)",
+    "Media Blitz (Protoss)"
   ],
   "Auto-Scroller Missions": [
     "Zero Hour (Terran)",
     "Evacuation (Terran)",
     "The Dig",
     "The Great Train Robbery (Terran)",
-    "Engine of Destruction",
+    "Engine of Destruction (Terran)",
     "All-In",
     "In Utter Darkness",
     "Rendezvous",
@@ -126,7 +130,9 @@
     "Evacuation (Zerg)",
     "Evacuation (Protoss)",
     "The Great Train Robbery (Zerg)",
-    "The Great Train Robbery (Protoss)"
+    "The Great Train Robbery (Protoss)",
+    "Engine of Destruction (Zerg)",
+    "Engine of Destruction (Protoss)"
   ],
   "Controllable Protoss Ally Missions": [
     "Salvation",
@@ -388,7 +394,7 @@
     "Old Soldiers"
   ],
   "Planet Korhal": [
-    "Media Blitz",
+    "Media Blitz (Terran)",
     "Planetfall",
     "Death From Above",
     "The Reckoning",
@@ -447,7 +453,9 @@
     "Haven's Fall (Protoss)",
     "Smash and Grab (Protoss)",
     "The Great Train Robbery (Protoss)",
-    "Cutthroat (Protoss)"
+    "Cutthroat (Protoss)",
+    "Engine of Destruction (Protoss)",
+    "Media Blitz (Protoss)"
   ],
   "Raceswap Missions": [
     "The Outlaws (Zerg)",
@@ -467,7 +475,11 @@
     "The Great Train Robbery (Zerg)",
     "The Great Train Robbery (Protoss)",
     "Cutthroat (Zerg)",
-    "Cutthroat (Protoss)"
+    "Cutthroat (Protoss)",
+    "Engine of Destruction (Zerg)",
+    "Engine of Destruction (Protoss)",
+    "Media Blitz (Zerg)",
+    "Media Blitz (Protoss)"
   ],
   "Terran Missions": [
     "Liberation Day",
@@ -488,8 +500,8 @@
     "Ghost of a Chance",
     "The Great Train Robbery (Terran)",
     "Cutthroat (Terran)",
-    "Engine of Destruction",
-    "Media Blitz",
+    "Engine of Destruction (Terran)",
+    "Media Blitz (Terran)",
     "Piercing the Shroud",
     "Gates of Hell",
     "Belly of the Beast",
@@ -569,8 +581,8 @@
     "Ghost of a Chance",
     "The Great Train Robbery (Terran)",
     "Cutthroat (Terran)",
-    "Engine of Destruction",
-    "Media Blitz",
+    "Engine of Destruction (Terran)",
+    "Media Blitz (Terran)",
     "Piercing the Shroud",
     "Lab Rat",
     "Back in the Saddle",
@@ -603,7 +615,11 @@
     "The Great Train Robbery (Zerg)",
     "The Great Train Robbery (Protoss)",
     "Cutthroat (Zerg)",
-    "Cutthroat (Protoss)"
+    "Cutthroat (Protoss)",
+    "Engine of Destruction (Zerg)",
+    "Engine of Destruction (Protoss)",
+    "Media Blitz (Zerg)",
+    "Media Blitz (Protoss)"
   ],
   "Vs Zerg Missions": [
     "Zero Hour (Terran)",
@@ -719,8 +735,8 @@
     "Ghost of a Chance",
     "The Great Train Robbery (Terran)",
     "Cutthroat (Terran)",
-    "Engine of Destruction",
-    "Media Blitz",
+    "Engine of Destruction (Terran)",
+    "Media Blitz (Terran)",
     "Piercing the Shroud",
     "Gates of Hell",
     "Belly of the Beast",
@@ -743,18 +759,26 @@
     "The Great Train Robbery (Zerg)",
     "The Great Train Robbery (Protoss)",
     "Cutthroat (Zerg)",
-    "Cutthroat (Protoss)"
+    "Cutthroat (Protoss)",
+    "Engine of Destruction (Zerg)",
+    "Engine of Destruction (Protoss)",
+    "Media Blitz (Zerg)",
+    "Media Blitz (Protoss)"
   ],
   "WoL Rebellion": [
     "The Great Train Robbery (Terran)",
     "Cutthroat (Terran)",
-    "Engine of Destruction",
-    "Media Blitz",
+    "Engine of Destruction (Terran)",
+    "Media Blitz (Terran)",
     "Piercing the Shroud",
     "The Great Train Robbery (Zerg)",
     "The Great Train Robbery (Protoss)",
     "Cutthroat (Zerg)",
-    "Cutthroat (Protoss)"
+    "Cutthroat (Protoss)",
+    "Engine of Destruction (Zerg)",
+    "Engine of Destruction (Protoss)",
+    "Media Blitz (Zerg)",
+    "Media Blitz (Protoss)"
   ],
   "Zerg Missions": [
     "Lab Rat",
@@ -785,6 +809,8 @@
     "Haven's Fall (Zerg)",
     "Smash and Grab (Zerg)",
     "The Great Train Robbery (Zerg)",
-    "Cutthroat (Zerg)"
+    "Cutthroat (Zerg)",
+    "Engine of Destruction (Zerg)",
+    "Media Blitz (Zerg)"
   ]
 }
