@@ -15,6 +15,10 @@ if __name__ == '__main__':
         item_groups_path = 'data/item_groups.json'
     else:
         item_groups_path = sys.argv[2]
+    if len(sys.argv) < 4:
+        key_data_path = 'data/key_data.json'
+    else:
+        key_data_path = sys.argv[3]
 
     data = {
         item_name: {
@@ -29,6 +33,8 @@ if __name__ == '__main__':
         for item_name, item in items.item_table.items()
         if item_name not in items.key_item_table
     }
+    key_data = list(items.key_item_table)
+    
     item_groups = {
         item_group_name: item_groups.item_name_groups[item_group_name]
         for item_group_name in sorted(item_groups.ItemGroupNames.get_all_group_names())
@@ -37,3 +43,5 @@ if __name__ == '__main__':
         json.dump(data, fp, indent=2)
     with open(item_groups_path, 'w') as fp:
         json.dump(item_groups, fp, indent=2)
+    with open(key_data_path, 'w') as fp:
+        json.dump(key_data, fp, indent=2)
