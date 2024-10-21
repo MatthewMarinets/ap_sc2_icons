@@ -1327,9 +1327,7 @@
   "icons/blizzard/btn-research-terran-orbitaldepots.png"
  ],
  "Orbital Module (Planetary Fortress)": [
-  "icons/blizzard/btn-ability-terran-calldownextrasupplies-color.png",
-  "icons/blizzard/btn-ability-terran-scannersweep-color.png",
-  "icons/blizzard/btn-unit-terran-mule.png"
+  "icons/original/btn-orbital-fortress.png"
  ],
  "Orbital Strike (Spear of Adun Calldown)": [
   "icons/blizzard/btn-ability-spearofadun-orbitalstrike.png"

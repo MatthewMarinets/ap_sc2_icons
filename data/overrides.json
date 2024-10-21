@@ -2,6 +2,7 @@
     "set": {
         "Hallucination (Sentry)": ["btn-ability-protoss-hallucination-color.dds"],
         "Orbital Depots (Terran)": ["btn-research-terran-orbitaldepots.dds"],
+        "Orbital Module (Planetary Fortress)": ["ap/assets/textures/btn-orbital-fortress.dds"],
         "Ouroboros Strain (Omega Worm)": ["talent-zagara-level12-unlockswarmling.dds"]
     },
     "add": {
@@ -30,7 +31,6 @@
         "Khalai Ingenuity (Protoss)": ["btn-upgrade-karax-pylonwarpininstantly.dds"],
         "Quatro (Protoss)": ["btn-progression-protoss-fenix-6-forgeresearch.dds"],
         "Overwatch (Spear of Adun Auto-Cast)": ["btn-ability-zeratul-chargedcrystal-psionicwinds.dds"],
-        "Progressive Orbital Command": ["ap/assets/textures/btn-orbital-fortress.dds"],
         "Progressive Proxy Pylon (Spear of Adun Calldown)": ["btn-ability-spearofadun-deploypylon.dds"],
         "Fast Delivery (Terran/Zerg)": ["talent-tychus-level02-additionaloutlaw.dds"],
         "Rapid Reinforcement (Terran/Zerg)": ["btn-progression-hornerhan-6-mirabuildtime.dds"],

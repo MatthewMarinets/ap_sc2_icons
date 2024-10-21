@@ -776,9 +776,7 @@
       "assets\\textures\\btn-ability-terran-emergencythrusters.dds"
     ],
     "Orbital Module (Planetary Fortress)": [
-      "assets\\textures\\btn-ability-terran-calldownextrasupplies-color.dds",
-      "assets\\textures\\btn-ability-terran-scannersweep-color.dds",
-      "assets\\textures\\btn-unit-terran-mule.dds"
+      "ap/assets/textures/btn-orbital-fortress.dds"
     ],
     "Concussive Grenades (Devastator Turret)": [
       "assets\\textures\\btn-ability-terran-punishergrenade-color.dds"
