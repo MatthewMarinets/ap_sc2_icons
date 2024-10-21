@@ -12,7 +12,7 @@
     "The Moebius Factor",
     "Supernova",
     "Maw of the Void",
-    "Devil's Playground",
+    "Devil's Playground (Terran)",
     "Welcome to the Jungle",
     "Breakout",
     "Ghost of a Chance",
@@ -23,8 +23,8 @@
     "Piercing the Shroud",
     "Gates of Hell",
     "Belly of the Beast",
-    "Shatter the Sky",
-    "All-In",
+    "Shatter the Sky (Terran)",
+    "All-In (Terran)",
     "Whispers of Doom",
     "A Sinister Turn",
     "Echoes of the Future",
@@ -97,6 +97,8 @@
     "Haven's Fall (Protoss)",
     "Smash and Grab (Zerg)",
     "Smash and Grab (Protoss)",
+    "Devil's Playground (Zerg)",
+    "Devil's Playground (Protoss)",
     "The Great Train Robbery (Zerg)",
     "The Great Train Robbery (Protoss)",
     "Cutthroat (Zerg)",
@@ -104,7 +106,11 @@
     "Engine of Destruction (Zerg)",
     "Engine of Destruction (Protoss)",
     "Media Blitz (Zerg)",
-    "Media Blitz (Protoss)"
+    "Media Blitz (Protoss)",
+    "Shatter the Sky (Zerg)",
+    "Shatter the Sky (Protoss)",
+    "All-In (Zerg)",
+    "All-In (Protoss)"
   ],
   "Auto-Scroller Missions": [
     "Zero Hour (Terran)",
@@ -112,7 +118,7 @@
     "The Dig",
     "The Great Train Robbery (Terran)",
     "Engine of Destruction (Terran)",
-    "All-In",
+    "All-In (Terran)",
     "In Utter Darkness",
     "Rendezvous",
     "Shoot the Messenger",
@@ -132,7 +138,9 @@
     "The Great Train Robbery (Zerg)",
     "The Great Train Robbery (Protoss)",
     "Engine of Destruction (Zerg)",
-    "Engine of Destruction (Protoss)"
+    "Engine of Destruction (Protoss)",
+    "All-In (Zerg)",
+    "All-In (Protoss)"
   ],
   "Controllable Protoss Ally Missions": [
     "Salvation",
@@ -178,7 +186,7 @@
     "Zero Hour (Terran)",
     "Outbreak (Terran)",
     "The Dig",
-    "All-In",
+    "All-In (Terran)",
     "In Utter Darkness",
     "Shoot the Messenger",
     "The Crucible",
@@ -192,7 +200,9 @@
     "Zero Hour (Zerg)",
     "Zero Hour (Protoss)",
     "Outbreak (Zerg)",
-    "Outbreak (Protoss)"
+    "Outbreak (Protoss)",
+    "All-In (Zerg)",
+    "All-In (Protoss)"
   ],
   "Epilogue Missions": [
     "Into the Void",
@@ -387,8 +397,8 @@
   "Planet Char": [
     "Gates of Hell",
     "Belly of the Beast",
-    "Shatter the Sky",
-    "All-In",
+    "Shatter the Sky (Terran)",
+    "All-In (Terran)",
     "Domination",
     "Fire in the Sky",
     "Old Soldiers"
@@ -452,10 +462,13 @@
     "Safe Haven (Protoss)",
     "Haven's Fall (Protoss)",
     "Smash and Grab (Protoss)",
+    "Devil's Playground (Protoss)",
     "The Great Train Robbery (Protoss)",
     "Cutthroat (Protoss)",
     "Engine of Destruction (Protoss)",
-    "Media Blitz (Protoss)"
+    "Media Blitz (Protoss)",
+    "Shatter the Sky (Protoss)",
+    "All-In (Protoss)"
   ],
   "Raceswap Missions": [
     "The Outlaws (Zerg)",
@@ -472,6 +485,8 @@
     "Haven's Fall (Protoss)",
     "Smash and Grab (Zerg)",
     "Smash and Grab (Protoss)",
+    "Devil's Playground (Zerg)",
+    "Devil's Playground (Protoss)",
     "The Great Train Robbery (Zerg)",
     "The Great Train Robbery (Protoss)",
     "Cutthroat (Zerg)",
@@ -479,7 +494,11 @@
     "Engine of Destruction (Zerg)",
     "Engine of Destruction (Protoss)",
     "Media Blitz (Zerg)",
-    "Media Blitz (Protoss)"
+    "Media Blitz (Protoss)",
+    "Shatter the Sky (Zerg)",
+    "Shatter the Sky (Protoss)",
+    "All-In (Zerg)",
+    "All-In (Protoss)"
   ],
   "Terran Missions": [
     "Liberation Day",
@@ -494,7 +513,7 @@
     "The Moebius Factor",
     "Supernova",
     "Maw of the Void",
-    "Devil's Playground",
+    "Devil's Playground (Terran)",
     "Welcome to the Jungle",
     "Breakout",
     "Ghost of a Chance",
@@ -505,8 +524,8 @@
     "Piercing the Shroud",
     "Gates of Hell",
     "Belly of the Beast",
-    "Shatter the Sky",
-    "All-In",
+    "Shatter the Sky (Terran)",
+    "All-In (Terran)",
     "With Friends Like These",
     "The Essence of Eternity",
     "The Escape",
@@ -628,12 +647,12 @@
     "Haven's Fall (Terran)",
     "Smash and Grab (Terran)",
     "The Moebius Factor",
-    "Devil's Playground",
+    "Devil's Playground (Terran)",
     "Piercing the Shroud",
     "Gates of Hell",
     "Belly of the Beast",
-    "Shatter the Sky",
-    "All-In",
+    "Shatter the Sky (Terran)",
+    "All-In (Terran)",
     "Whispers of Doom",
     "Echoes of the Future",
     "In Utter Darkness",
@@ -670,7 +689,13 @@
     "Haven's Fall (Zerg)",
     "Haven's Fall (Protoss)",
     "Smash and Grab (Zerg)",
-    "Smash and Grab (Protoss)"
+    "Smash and Grab (Protoss)",
+    "Devil's Playground (Zerg)",
+    "Devil's Playground (Protoss)",
+    "Shatter the Sky (Zerg)",
+    "Shatter the Sky (Protoss)",
+    "All-In (Zerg)",
+    "All-In (Protoss)"
   ],
   "WoL Artifact": [
     "Smash and Grab (Terran)",
@@ -684,8 +709,12 @@
   "WoL Char": [
     "Gates of Hell",
     "Belly of the Beast",
-    "Shatter the Sky",
-    "All-In"
+    "Shatter the Sky (Terran)",
+    "All-In (Terran)",
+    "Shatter the Sky (Zerg)",
+    "Shatter the Sky (Protoss)",
+    "All-In (Zerg)",
+    "All-In (Protoss)"
   ],
   "WoL Colonist": [
     "Evacuation (Terran)",
@@ -702,10 +731,12 @@
     "Haven's Fall (Protoss)"
   ],
   "WoL Covert": [
-    "Devil's Playground",
+    "Devil's Playground (Terran)",
     "Welcome to the Jungle",
     "Breakout",
-    "Ghost of a Chance"
+    "Ghost of a Chance",
+    "Devil's Playground (Zerg)",
+    "Devil's Playground (Protoss)"
   ],
   "WoL Mar Sara": [
     "Liberation Day",
@@ -729,7 +760,7 @@
     "The Moebius Factor",
     "Supernova",
     "Maw of the Void",
-    "Devil's Playground",
+    "Devil's Playground (Terran)",
     "Welcome to the Jungle",
     "Breakout",
     "Ghost of a Chance",
@@ -740,8 +771,8 @@
     "Piercing the Shroud",
     "Gates of Hell",
     "Belly of the Beast",
-    "Shatter the Sky",
-    "All-In",
+    "Shatter the Sky (Terran)",
+    "All-In (Terran)",
     "The Outlaws (Zerg)",
     "The Outlaws (Protoss)",
     "Zero Hour (Zerg)",
@@ -756,6 +787,8 @@
     "Haven's Fall (Protoss)",
     "Smash and Grab (Zerg)",
     "Smash and Grab (Protoss)",
+    "Devil's Playground (Zerg)",
+    "Devil's Playground (Protoss)",
     "The Great Train Robbery (Zerg)",
     "The Great Train Robbery (Protoss)",
     "Cutthroat (Zerg)",
@@ -763,7 +796,11 @@
     "Engine of Destruction (Zerg)",
     "Engine of Destruction (Protoss)",
     "Media Blitz (Zerg)",
-    "Media Blitz (Protoss)"
+    "Media Blitz (Protoss)",
+    "Shatter the Sky (Zerg)",
+    "Shatter the Sky (Protoss)",
+    "All-In (Zerg)",
+    "All-In (Protoss)"
   ],
   "WoL Rebellion": [
     "The Great Train Robbery (Terran)",
@@ -808,9 +845,12 @@
     "Safe Haven (Zerg)",
     "Haven's Fall (Zerg)",
     "Smash and Grab (Zerg)",
+    "Devil's Playground (Zerg)",
     "The Great Train Robbery (Zerg)",
     "Cutthroat (Zerg)",
     "Engine of Destruction (Zerg)",
-    "Media Blitz (Zerg)"
+    "Media Blitz (Zerg)",
+    "Shatter the Sky (Zerg)",
+    "All-In (Zerg)"
   ]
 }

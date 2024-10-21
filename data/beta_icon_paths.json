@@ -1,8 +1,8 @@
 {
   "meta": {
-    "timestamp": "2024-09-21",
-    "items": 742,
-    "located": 708
+    "timestamp": "2024-10-21",
+    "items": 779,
+    "located": 748
   },
   "locations": {
     "Marine": [
@@ -77,6 +77,9 @@
     "Warhound": [
       "assets\\textures\\btn-unit-terran-warhound.dds"
     ],
+    "Dominion Trooper": [
+      "assets\\textures\\btn-unit-terran-troopermengsk.dds"
+    ],
     "Pride of Augustgrad": [
       "assets\\textures\\btn-unit-terran-battlecruisermengsk.dds"
     ],
@@ -84,8 +87,34 @@
       "assets\\textures\\btn-unit-terran-vikingmengskfighter.dds"
     ],
     "Shock Division": [
-      "assets\\textures\\btn-building-terran-factorymengsk.dds",
       "assets\\textures\\btn-unit-terran-siegetankmengsk.dds"
+    ],
+    "Blackhammer": [
+      "assets\\textures\\btn-unit-terran-thormengsk.dds"
+    ],
+    "Aegis Guard": [
+      "assets\\textures\\btn-unit-terran-maraudermengsk.dds"
+    ],
+    "Emperor's Shadow": [
+      "assets\\textures\\btn-unit-terran-ghostmengsk.dds"
+    ],
+    "Son Of Korhal": [
+      "ap\\assets\\textures\\btn-unit-terran-marine-mengsk.dds"
+    ],
+    "Bulwark Company": [
+      "ap\\assets\\textures\\btn-unit-terran-goliath-mengsk.dds"
+    ],
+    "Field Response Theta": [
+      "ap\\assets\\textures\\btn-unit-terran-medic-mengsk.dds"
+    ],
+    "Emperor's Guardian": [
+      "ap\\assets\\textures\\btn-royalliberator.dds"
+    ],
+    "Night Hawk": [
+      "ap\\assets\\textures\\btn-unit-terran-wraith-mengsk.dds"
+    ],
+    "Night Wolf": [
+      "ap\\assets\\textures\\btn-unit-terran-banshee-mengsk.dds"
     ],
     "Progressive Terran Infantry Weapon": [
       "ap\\assets\\custom\\textures\\btn-upgrade-terran-infantryweaponslevel4.dds",
@@ -179,6 +208,7 @@
       "assets\\textures\\btn-upgrade-raynor-juggernautplating.dds"
     ],
     "Concussive Shells (Marauder)": [
+      "assets\\textures\\btn-ability-mengsk-marauder-superconcussiveshells.dds",
       "assets\\textures\\btn-ability-terran-punishergrenade-color.dds"
     ],
     "Kinetic Foam (Marauder)": [
@@ -334,7 +364,8 @@
       "ap\\assets\\textures\\btn-ability-terran-spidermine.dds"
     ],
     "Jump Jets (Goliath)": [
-      "ap\\assets\\textures\\btn-ability-terran-goliath-jetpack.dds"
+      "ap\\assets\\textures\\btn-ability-terran-goliath-jetpack.dds",
+      "assets\\textures\\btn-ability-protoss-blink-color.dds"
     ],
     "Optimized Logistics (Goliath)": [
       "btn-upgrade-terran-optimizedlogistics.dds"
@@ -529,6 +560,7 @@
       "assets\\textures\\btn-ability-terran-bombardmentstrike-color.dds"
     ],
     "Progressive Immortality Protocol (Thor)": [
+      "assets\\textures\\btn-ability-mengsk-thor-bigboycover.dds",
       "assets\\textures\\btn-techupgrade-terran-immortalityprotocol.dds"
     ],
     "Advanced Ballistics (Liberator)": [
@@ -632,6 +664,7 @@
       "btn-upgrade-terran-internalizedtechmodule.dds"
     ],
     "EMP Rounds (Ghost)": [
+      "assets\\textures\\btn-ability-mengsk-ghost-staticempblast.dds",
       "assets\\textures\\btn-ability-terran-emp-color.dds"
     ],
     "Lockdown (Ghost)": [
@@ -811,7 +844,7 @@
       "assets\\textures\\btn-unit-collection-vikingfighter-covertops.dds"
     ],
     "Jotun": [
-      "assets\\textures\\btn-unit-terran-thormengsk.dds"
+      "assets\\textures\\btn-unit-terran-merc-thor.dds"
     ],
     "Ultra-Capacitors (Terran)": [
       "ap\\assets\\custom\\textures\\btn-upgrade-terran-infantryweaponslevel4.dds",
@@ -922,8 +955,15 @@
     "Mercenary Munitions (Terran)": [
       "assets\\textures\\talent-raynor-level14-infantryattackspeed.dds"
     ],
-    "Fast Delivery (Terran/Zerg)": [],
-    "Rapid Reinforcement (Terran/Zerg)": [],
+    "Fast Delivery (Terran/Zerg)": [
+      "talent-tychus-level02-additionaloutlaw.dds"
+    ],
+    "Rapid Reinforcement (Terran/Zerg)": [
+      "btn-progression-hornerhan-6-mirabuildtime.dds"
+    ],
+    "Fusion Reactor (Fusion Core)": [
+      "assets\\textures\\btn-tips-terran-energynova.dds"
+    ],
     "Zealot": [
       "assets\\textures\\btn-unit-protoss-zealot.dds"
     ],
@@ -965,6 +1005,35 @@
     ],
     "Aesir Turbines (Viking)": [
       "assets\\textures\\btn-ability-mengsk-viking-speed.dds"
+    ],
+    "Resource Efficiency (Medivac)": [
+      "btn-ability-hornerhan-salvagebonus.dds"
+    ],
+    "Sovereign Tactical Missiles (Emperor's Shadow)": [
+      "assets\\textures\\btn-upgrade-mengsk-ghostacademy-guidedtacticalstrike.dds"
+    ],
+    "B-2 High-Cal LMG (Dominion Trooper)": [
+      "assets\\textures\\btn-upgrade-mengsk-trooper-plasmarifle.dds"
+    ],
+    "Hailstorm Launcher (Dominion Trooper)": [
+      "assets\\textures\\btn-upgrade-mengsk-trooper-missilelauncher.dds"
+    ],
+    "CPO-7 Salamander Flamethrower (Dominion Trooper)": [
+      "assets\\textures\\btn-upgrade-mengsk-trooper-flamethrower.dds"
+    ],
+    "Advanced Alloys (Dominion Trooper)": [
+      "assets\\textures\\btn-upgrade-mengsk-engineeringbay-dominionweaponslevel0.dds"
+    ],
+    "Optimized Logistics (Dominion Trooper)": [
+      "btn-upgrade-terran-optimizedlogistics.dds"
+    ],
+    "Construction Jump Jets (SCV)": [
+      "assets\\textures\\btn-ability-terran-jetpack-color.dds"
+    ],
+    "Demolition Armaments (Widow Mine)": [
+      "ap\\assets\\custom\\textures\\btn-ability-terran-widow-mine-building.dds",
+      "assets\\textures\\btn-ability-terran-ignorearmor.dds",
+      "assets\\textures\\btn-ability-zerg-yagdra-aoe.dds"
     ],
     "Additional Starting Minerals": [
       "icon-mineral-nobg.dds",
@@ -1477,6 +1546,7 @@
       "assets\\textures\\btn-upgrade-zerg-swarmfrenzy.dds"
     ],
     "Swarmling Strain (Zergling)": [
+      "ap\\assets\\textures\\btn-unit-zerg-zergling-scr.dds",
       "assets\\textures\\btn-unit-zerg-zergling-swarmling.dds",
       "assets\\textures\\btn-upgrade-zerg-rapidgenesis.dds"
     ],
@@ -1570,11 +1640,11 @@
     "Deep Tunnel (Infested Siege Tank)": [
       "assets\\textures\\btn-ability-zerg-deeptunnel.dds"
     ],
-    "Saturated Cultures (Infested Diamondback)": [
-      "assets\\textures\\btn-ability-zerg-stukov-ensnarecdr.dds"
-    ],
     "Caustic Mucus (Infested Diamondback)": [
       "assets\\textures\\btn-upgrade-zerg-stukov-diamondbacksnailtrail.dds"
+    ],
+    "Violent Enzymes (Infested Diamondback)": [
+      "assets\\textures\\btn-ability-mengsk-ghost-pyrokineticimmolation_orange.dds"
     ],
     "Braced Exoskeleton (Infested Banshee)": [
       "assets\\textures\\btn-upgrade-zerg-stukov-bansheemorelife.dds"
@@ -1590,6 +1660,43 @@
     ],
     "Viral Contamination (Infested Liberator)": [
       "assets\\textures\\btn-upgrade-zerg-stukov-infestedliberatoraoe.dds"
+    ],
+    "Propellant Sacs (Guardian)": [
+      "assets\\textures\\btn-upgrade-zerg-pneumatizedcarapace.dds"
+    ],
+    "Explosive Spores (Guardian)": [
+      "assets\\textures\\btn-ability-zerg-dehaka-guardian-explosivespores.dds"
+    ],
+    "Primordial Fury (Guardian)": [
+      "assets\\textures\\btn-ability-zerg-dehaka-guardian-primordialfury.dds"
+    ],
+    "Seismic Sonar (Infested Siege Tank)": [
+      "assets\\textures\\btn-upgrade-zerg-peristalsis.dds"
+    ],
+    "Advanced Targeting Optics (Infested Banshee)": [
+      "assets\\textures\\btn-ability-terran-detectionconedebuff.dds"
+    ],
+    "Balanced Roots (Infested Siege Tank)": [
+      "assets\\textures\\btn-ability-zerg-creepteleport.dds"
+    ],
+    "Progressive Fungal Snare (Infested Diamondback)": [
+      "assets\\textures\\btn-ability-zerg-stukov-ensnare.dds",
+      "assets\\textures\\btn-ability-zerg-stukov-ensnarecdr.dds"
+    ],
+    "Concentrated Spew (Infested Diamondback)": [
+      "ap\\assets\\custom\\textures\\btn-upgrade-zerg-concentrated-spew.dds"
+    ],
+    "Frightful Fleshwelder (Infested Siege Tank)": [
+      "btn-ability-hornerhan-salvagebonus.dds"
+    ],
+    "Frightful Fleshwelder (Infested Diamondback)": [
+      "btn-ability-hornerhan-salvagebonus.dds"
+    ],
+    "Frightful Fleshwelder (Infested Banshee)": [
+      "btn-ability-hornerhan-salvagebonus.dds"
+    ],
+    "Frightful Fleshwelder (Infested Liberator)": [
+      "btn-ability-hornerhan-salvagebonus.dds"
     ],
     "Kinetic Blast (Kerrigan Ability)": [
       "assets\\textures\\btn-ability-kerrigan-kineticblast.dds"
@@ -1711,7 +1818,9 @@
     "Pneumatized Carapace (Overlord)": [
       "assets\\textures\\btn-upgrade-zerg-pneumatizedcarapace.dds"
     ],
-    "Frightful Fleshwelder (Zerg)": [],
+    "Excavating Claws (Zerg)": [
+      "assets\\textures\\btn-upgrade-zerg-anabolicsynthesis.dds"
+    ],
     "Guardian Aspect (Mutalisk/Corruptor)": [
       "assets\\textures\\btn-unit-zerg-primalguardian.dds"
     ],
@@ -2034,10 +2143,10 @@
     "Matter Dispersion (Vanguard)": [
       "assets\\textures\\btn-upgrade-protoss-vanguard-aoeradiusincreased.dds"
     ],
-    "Singularity Charge (Immortal/Annihilator/Stalwart)": [
+    "Singularity Charge (Immortal/Annihilator)": [
       "assets\\textures\\btn-upgrade-artanis-singularitycharge.dds"
     ],
-    "Advanced Targeting Mechanics (Immortal/Annihilator/Stalwart)": [
+    "Advanced Targeting Mechanics (Immortal/Annihilator)": [
       "assets\\textures\\btn-ability-terran-detectionconedebuff.dds"
     ],
     "Pacification Protocol (Colossus)": [
@@ -2135,7 +2244,7 @@
     "Resource Efficiency (Scout)": [
       "btn-ability-hornerhan-salvagebonus.dds"
     ],
-    "Disruptor Dispersion (Immortal/Annihilator/Stalwart)": [
+    "Disruptor Dispersion (Immortal/Annihilator)": [
       "assets\\textures\\btn-upgrade-protoss-vanguard-aoeradiusincreased.dds"
     ],
     "Cloaking Module (Disruptor)": [
@@ -2155,6 +2264,18 @@
     ],
     "Enhanced Shield Generator (Dawnbringer)": [
       "assets\\textures\\btn-upgrade-protoss-fenix-disruptorpurificationecho.dds"
+    ],
+    "High Voltage Capacitors (Stalwart)": [
+      "assets\\textures\\btn-tips-sellprotossartifacts.dds"
+    ],
+    "Strut Enhancements (Stalwart)": [
+      "assets\\textures\\btn-ability-protoss-charge-color.dds"
+    ],
+    "Stabilized Electrodes (Stalwart)": [
+      "ap\\assets\\custom\\textures\\btn-upgrade-protoss-stabilized-electrodes.dds"
+    ],
+    "Latticed Shielding (Stalwart)": [
+      "assets\\textures\\btn-ability-protoss-barrier-upgraded.dds"
     ],
     "Whirlwind (Zealot)": [
       "assets\\textures\\btn-ability-protoss-whirlwind.dds"
@@ -2225,8 +2346,8 @@
     "Aerial Tracking (Annihilator)": [
       "assets\\textures\\btn-progression-protoss-fenix-12-immortalandscoutchampions-research.dds"
     ],
-    "Duality Charge (Stalwart)": [
-      "assets\\textures\\btn-upgrade-protoss-fenix-disruptorpurificationecho.dds"
+    "Arc Inducers (Stalwart)": [
+      "ap\\assets\\custom\\textures\\btn-upgrade-protoss-arc-inducers.dds"
     ],
     "Fire Lance (Colossus)": [
       "assets\\textures\\btn-ability-protoss-firebeam.dds"
@@ -2365,6 +2486,9 @@
     ],
     "Amplified Assimilators (Protoss)": [
       "ap\\assets\\textures\\btn-research-terran-microfiltering.dds"
+    ],
+    "Progressive Warp Relocate (Protoss)": [
+      "assets\\textures\\btn-ability-protoss-massrecall.dds"
     ]
   }
 }

@@ -47,7 +47,7 @@
     "faction": "Terran",
     "campaign": "wol"
   },
-  "Devil's Playground": {
+  "Devil's Playground (Terran)": {
     "faction": "Terran",
     "campaign": "wol"
   },
@@ -91,11 +91,11 @@
     "faction": "Terran",
     "campaign": "wol"
   },
-  "Shatter the Sky": {
+  "Shatter the Sky (Terran)": {
     "faction": "Terran",
     "campaign": "wol"
   },
-  "All-In": {
+  "All-In (Terran)": {
     "faction": "Terran",
     "campaign": "wol"
   },
@@ -387,6 +387,14 @@
     "faction": "Protoss",
     "campaign": "wol"
   },
+  "Devil's Playground (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "wol"
+  },
+  "Devil's Playground (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "wol"
+  },
   "The Great Train Robbery (Zerg)": {
     "faction": "Zerg",
     "campaign": "wol"
@@ -416,6 +424,22 @@
     "campaign": "wol"
   },
   "Media Blitz (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "wol"
+  },
+  "Shatter the Sky (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "wol"
+  },
+  "Shatter the Sky (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "wol"
+  },
+  "All-In (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "wol"
+  },
+  "All-In (Protoss)": {
     "faction": "Protoss",
     "campaign": "wol"
   }

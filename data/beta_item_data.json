@@ -215,6 +215,15 @@
     "parent_item": null,
     "description": "Anti-vehicle mech. Haywire missiles do bonus damage to mechanical units."
   },
+  "Dominion Trooper": {
+    "type": "Unit 2",
+    "number": 4,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "General-purpose infantry. Can be outfitted with weapons for different combat situations."
+  },
   "Pride of Augustgrad": {
     "type": "Unit",
     "number": 28,
@@ -222,7 +231,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "description": "Powerful Royal Guard Warship."
+    "description": "Powerful Royal Guard warship."
   },
   "Sky Fury": {
     "type": "Unit",
@@ -240,7 +249,88 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "description": "Royal Guard Heavy tank. Long-range artillery in Siege Mode."
+    "description": "Royal Guard heavy tank. Long-range artillery in Siege Mode."
+  },
+  "Blackhammer": {
+    "type": "Unit 2",
+    "number": 1,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Royal Guard heavy assault mech."
+  },
+  "Aegis Guard": {
+    "type": "Unit 2",
+    "number": 2,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Royal Guard heavy assault infantry."
+  },
+  "Emperor's Shadow": {
+    "type": "Unit 2",
+    "number": 3,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Royal Guard specialist. Can use Pyrokinetic Immolation and EMP Blast abilities. Can call down Tactical missiles."
+  },
+  "Son Of Korhal": {
+    "type": "Unit 2",
+    "number": 5,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Royal Guard general-purpose indantry."
+  },
+  "Bulwark Company": {
+    "type": "Unit 2",
+    "number": 6,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Royal Guard heavy-fire support unit."
+  },
+  "Field Response Theta": {
+    "type": "Unit 2",
+    "number": 7,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Royal Guard support trooper. Heals nearby biological units."
+  },
+  "Emperor's Guardian": {
+    "type": "Unit 2",
+    "number": 8,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Royal Guard artillery fighter. Loaded with missiles that deal area damage to enemy air targets. \nCan switch into Defender Mode to provide siege support."
+  },
+  "Night Hawk": {
+    "type": "Unit 2",
+    "number": 9,
+    "race": "TERRAN",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Royal Guard highly mobile flying unit. Excellent at surgical strikes."
+  },
+  "Night Wolf": {
+    "type": "Unit 2",
+    "number": 10,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Royal Guard tactical-strike aircraft."
   },
   "Progressive Terran Infantry Weapon": {
     "type": "Upgrade",
@@ -969,7 +1059,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent_item": "Siege Tank",
-    "description": "Repositions Siege Tank to a target location. \nCan be used in either mode and to jump up and down cliffs. "
+    "description": "Repositions Siege Tank to a target location. \nCan be used in either mode and to jump up and down cliffs. \nShock Divisions get Blink ability instead to reposition themselves."
   },
   "Spider Mines (Siege Tank)": {
     "type": "Armory 3",
@@ -1428,7 +1518,7 @@
     "classification": "useful",
     "quantity": 2,
     "parent_item": "Battlecruiser",
-    "description": "Level 1: Spell. For 20 seconds the Battlecruiser gains a shield that can absorb up to 200 damage.\nLevel 2: Passive. Battlecruiser gets 200 shields."
+    "description": "Level 1: Spell. For 20 seconds the Battlecruiser gains a shield that can absorb up to 200 damage.\nLevel 2: Passive. Battlecruiser gets 200 shields. Can spend energy to fully recharge shields."
   },
   "Ocular Implants (Ghost)": {
     "type": "Armory 4",
@@ -1482,7 +1572,7 @@
     "classification": "filler",
     "quantity": 2,
     "parent_item": "Thor",
-    "description": "Level 1: Allows destroyed Thors to be reconstructed on the field. Costs Vespene Gas.\nLevel 2: Thors are automatically reconstructed after falling for free."
+    "description": "Level 1: Allows destroyed Thors to be reconstructed on the field. Costs Vespene Gas.\n         Blackhammers get Bulwark Field instead: Other nearby friendly ground units get +3 armor.\nLevel 2: Thors are automatically reconstructed after falling for free.\n         Improves Bulwark Field to provide 2 additional armor."
   },
   "Advanced Ballistics (Liberator)": {
     "type": "Armory 4",
@@ -2555,6 +2645,15 @@
     "parent_item": null,
     "description": "Reduces cooldowns of mercenary calldowns by 60s."
   },
+  "Fusion Reactor (Fusion Core)": {
+    "type": "Laboratory",
+    "number": 17,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Fusion Cores increase the energy regeneration of nearby units by +1 energy per second."
+  },
   "Zealot": {
     "type": "Unit",
     "number": 0,
@@ -2680,6 +2779,87 @@
     "quantity": 1,
     "parent_item": "Viking",
     "description": "Increases Viking movement speed by 55%."
+  },
+  "Resource Efficiency (Medivac)": {
+    "type": "Armory 7",
+    "number": 9,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Medivac",
+    "description": "Reduces Medivac cost by 50 gas."
+  },
+  "Sovereign Tactical Missiles (Emperor's Shadow)": {
+    "type": "Armory 7",
+    "number": 10,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Emperor's Shadow",
+    "description": "Tactical Missile Strikes no longer need to be channeled."
+  },
+  "B-2 High-Cal LMG (Dominion Trooper)": {
+    "type": "Armory 7",
+    "number": 11,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Dominion Trooper",
+    "description": "Allows the Troopers to arm with a more powerful weapon, effective against all unit types."
+  },
+  "Hailstorm Launcher (Dominion Trooper)": {
+    "type": "Armory 7",
+    "number": 12,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Dominion Trooper",
+    "description": "Allows the Troopers to arm with a more powerful weapon, especially effective against armored air units."
+  },
+  "CPO-7 Salamander Flamethrower (Dominion Trooper)": {
+    "type": "Armory 7",
+    "number": 13,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Dominion Trooper",
+    "description": "Allows the Troopers to arm with a more powerful weapon, especially effective against light ground units."
+  },
+  "Advanced Alloys (Dominion Trooper)": {
+    "type": "Armory 7",
+    "number": 14,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Dominion Trooper",
+    "description": "Dominion Trooper advanced weapons are dropped on ground on death to be able to be picked up by an another Dominion Trooper."
+  },
+  "Optimized Logistics (Dominion Trooper)": {
+    "type": "Armory 7",
+    "number": 15,
+    "race": "TERRAN",
+    "classification": "filler",
+    "quantity": 1,
+    "parent_item": "Dominion Trooper",
+    "description": "Increases Dominion Trooper training speed."
+  },
+  "Construction Jump Jets (SCV)": {
+    "type": "Armory 7",
+    "number": 16,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Allows SCVs to jump up and down cliffs."
+  },
+  "Demolition Armaments (Widow Mine)": {
+    "type": "Armory 7",
+    "number": 17,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Widow Mine",
+    "description": "Allows Widow Mines to attack and damage structures."
   },
   "Additional Starting Minerals": {
     "type": "Minerals",
@@ -3090,7 +3270,7 @@
     "type": "Unit",
     "number": 21,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": null,
     "description": "Tactical-strike aircraft. Can cloak and can be upgraded to burrow."
@@ -3102,7 +3282,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "description": "Anti-Air flying attacker.  Attacks deal high area-damage."
+    "description": "Anti-Air flying attacker. Attacks deal high area-damage."
   },
   "Progressive Zerg Melee Attack": {
     "type": "Upgrade",
@@ -3549,7 +3729,7 @@
     "type": "Mutation 2",
     "number": 9,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Swarm Host",
     "description": "Reduces Swarm Host cost by 100 minerals and 25 gas."
@@ -4310,23 +4490,23 @@
     "parent_item": "Infested Siege Tank",
     "description": "Infested Siege Tanks gain the Deep Tunnel ability, \nwhich allows them to burrow to any visible location on the map covered in creep."
   },
-  "Saturated Cultures (Infested Diamondback)": {
+  "Caustic Mucus (Infested Diamondback)": {
     "type": "Mutation 4",
     "number": 19,
     "race": "ZERG",
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Infested Diamondback",
-    "description": "Infested Diamondbacks leave behind a trail of acid when moving that deals 20 damage per second to enemy units."
+    "description": "Infested Diamondbacks leave behind a trail of acid when moving that deals 12 damage per second to enemy units."
   },
-  "Caustic Mucus (Infested Diamondback)": {
+  "Violent Enzymes (Infested Diamondback)": {
     "type": "Mutation 4",
     "number": 20,
     "race": "ZERG",
     "classification": "useful",
     "quantity": 1,
     "parent_item": "Infested Diamondback",
-    "description": "Reduces the cooldown of the Infested Diamondback's Fungal Snare by 15 seconds."
+    "description": "Infested Diamondbacks deal an additional +8 damage."
   },
   "Braced Exoskeleton (Infested Banshee)": {
     "type": "Mutation 4",
@@ -4363,6 +4543,114 @@
     "quantity": 1,
     "parent_item": "Infested Liberator",
     "description": "Increases the damage Infested Liberators deal to their primary target by 100%."
+  },
+  "Propellant Sacs (Guardian)": {
+    "type": "Mutation 4",
+    "number": 25,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Guardian Aspect (Mutalisk/Corruptor)",
+    "description": "Guardians gain increased movement speed."
+  },
+  "Explosive Spores (Guardian)": {
+    "type": "Mutation 4",
+    "number": 26,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Guardian Aspect (Mutalisk/Corruptor)",
+    "description": "Allows Guardians to launch an explosive spore at ground targets, dealing damage and knocking them back in an area."
+  },
+  "Primordial Fury (Guardian)": {
+    "type": "Mutation 4",
+    "number": 27,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Guardian Aspect (Mutalisk/Corruptor)",
+    "description": "Guardians gain increasing attack speed as they attack."
+  },
+  "Seismic Sonar (Infested Siege Tank)": {
+    "type": "Mutation 4",
+    "number": 28,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Infested Siege Tank",
+    "description": "Infested Siege Tank Tentacle weapon gains +1 range. Volatile Burst weapon gains +3 range."
+  },
+  "Advanced Targeting Optics (Infested Banshee)": {
+    "type": "Mutation 4",
+    "number": 29,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Infested Banshee",
+    "description": "Infested Banshees gain +2 range while cloacked."
+  },
+  "Balanced Roots (Infested Siege Tank)": {
+    "type": "Mutation 5",
+    "number": 0,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Infested Siege Tank",
+    "description": "Allows Infested Siege Tank to attack while moving with its Tentacle weapon."
+  },
+  "Progressive Fungal Snare (Infested Diamondback)": {
+    "type": "Progressive",
+    "number": 2,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 2,
+    "parent_item": "Infested Diamondback",
+    "description": "Level 1: Infested Diamondbacks gain the Fungal Snare ability, allowing them to temporary ground flying units.\nLevel 2: Infested Diamondback Fungal Snare ability cooldown reduced by 15 seconds."
+  },
+  "Concentrated Spew (Infested Diamondback)": {
+    "type": "Mutation 5",
+    "number": 1,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Infested Diamondback",
+    "description": "Infested Diamondbacks gain +2 weapon range. Fungal Snare gains +2 range."
+  },
+  "Frightful Fleshwelder (Infested Siege Tank)": {
+    "type": "Mutation 5",
+    "number": 2,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Infested Siege Tank",
+    "description": "Reduces Infested Siege Tank cost by 25 gas."
+  },
+  "Frightful Fleshwelder (Infested Diamondback)": {
+    "type": "Mutation 5",
+    "number": 3,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Infested Diamondback",
+    "description": "Reduces Infested Diamondback cost by 50 minerals."
+  },
+  "Frightful Fleshwelder (Infested Banshee)": {
+    "type": "Mutation 5",
+    "number": 4,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Infested Banshee",
+    "description": "Reduces Infested Banshee cost by 25 minerals."
+  },
+  "Frightful Fleshwelder (Infested Liberator)": {
+    "type": "Mutation 5",
+    "number": 5,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Infested Liberator",
+    "description": "Reduces Infested Liberator cost by 25 gas."
   },
   "Kinetic Blast (Kerrigan Ability)": {
     "type": "Ability",
@@ -4710,7 +4998,7 @@
     "type": "Mercenary",
     "number": 2,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": null,
     "description": "Mercenary infested Dusk Wings that may be called in from the Predator Nest."
@@ -4746,7 +5034,7 @@
     "type": "Mercenary",
     "number": 6,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": null,
     "description": "Hunterling Mercenary."
@@ -4787,14 +5075,14 @@
     "parent_item": null,
     "description": "Increases Overlord movement speed."
   },
-  "Frightful Fleshwelder (Zerg)": {
+  "Excavating Claws (Zerg)": {
     "type": "Evolution Pit",
     "number": 11,
     "race": "ZERG",
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "description": "Reduces infested mechnical unit resource cost by 30%."
+    "description": "Increases movement speed of Spore and Spine Crawlers, especially off creep. Also increases root speed."
   },
   "Guardian Aspect (Mutalisk/Corruptor)": {
     "type": "Morph",
@@ -5723,23 +6011,23 @@
     "parent_item": "Vanguard",
     "description": "Increases Vanguard attack area."
   },
-  "Singularity Charge (Immortal/Annihilator/Stalwart)": {
+  "Singularity Charge (Immortal/Annihilator)": {
     "type": "Forge 2",
     "number": 18,
     "race": "PROTOSS",
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "description": "Increases Immortal, Annihilator, and Stalwart attack range by +2."
+    "description": "Increases Immortal and Annihilator attack range by +2."
   },
-  "Advanced Targeting Mechanics (Immortal/Annihilator/Stalwart)": {
+  "Advanced Targeting Mechanics (Immortal/Annihilator)": {
     "type": "Forge 2",
     "number": 19,
     "race": "PROTOSS",
     "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "description": "Immortals, Annihilators, and Stalwarts can attack air units."
+    "description": "Immortals and Annihilators can attack air units."
   },
   "Pacification Protocol (Colossus)": {
     "type": "Forge 2",
@@ -5808,7 +6096,7 @@
     "type": "Forge 2",
     "number": 27,
     "race": "PROTOSS",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Dark Templar",
     "description": "Allows 2 Dark Templar to meld into a Dark Archon."
@@ -5844,7 +6132,7 @@
     "type": "Forge 3",
     "number": 1,
     "race": "PROTOSS",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": null,
     "description": "Archons can use High Templar abilities."
@@ -5853,7 +6141,7 @@
     "type": "Forge 3",
     "number": 2,
     "race": "PROTOSS",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": null,
     "description": "Dark Archons gain the Feedback ability, \nwhich drains all energy from a target and deals 1 damage per point of energy drained."
@@ -6011,14 +6299,14 @@
     "parent_item": "Scout",
     "description": "Reduces Scout cost by 125 minerals, 25 gas, and 1 supply."
   },
-  "Disruptor Dispersion (Immortal/Annihilator/Stalwart)": {
+  "Disruptor Dispersion (Immortal/Annihilator)": {
     "type": "Forge 3",
     "number": 20,
     "race": "PROTOSS",
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "description": "Immortals, Annihilators, and Stalwarts deal minor splash damage."
+    "description": "Immortals and Annihilators deal minor splash damage."
   },
   "Cloaking Module (Disruptor)": {
     "type": "Forge 3",
@@ -6026,7 +6314,7 @@
     "race": "PROTOSS",
     "classification": "filler",
     "quantity": 1,
-    "parent_item": null,
+    "parent_item": "Disruptor",
     "description": "Disruptors are permanently cloaked."
   },
   "Perfected Power (Disruptor)": {
@@ -6035,7 +6323,7 @@
     "race": "PROTOSS",
     "classification": "useful",
     "quantity": 1,
-    "parent_item": null,
+    "parent_item": "Disruptor",
     "description": "Allows Purification Nova to hit air units. Bonus damage to shields is now baseline for enemies (friendly damage unaffected)."
   },
   "Restrained Destruction (Disruptor)": {
@@ -6044,7 +6332,7 @@
     "race": "PROTOSS",
     "classification": "filler",
     "quantity": 1,
-    "parent_item": null,
+    "parent_item": "Disruptor",
     "description": "Purification Nova does 50% reduced damage to friendly units and structures."
   },
   "Interplanetary Range (Tempest)": {
@@ -6073,6 +6361,42 @@
     "quantity": 1,
     "parent_item": "Dawnbringer",
     "description": "Increases Dawnbringer maximum shields by +50."
+  },
+  "High Voltage Capacitors (Stalwart)": {
+    "type": "Forge 3",
+    "number": 27,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Stalwart",
+    "description": "Increases Stalwart attack bounce range by +1."
+  },
+  "Strut Enhancements (Stalwart)": {
+    "type": "Forge 3",
+    "number": 28,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Stalwart",
+    "description": "Increases the movement speed of Stalwarts."
+  },
+  "Stabilized Electrodes (Stalwart)": {
+    "type": "Forge 3",
+    "number": 29,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Stalwart",
+    "description": "Allows Stalwarts to attack while moving, and increases attack range by +1."
+  },
+  "Latticed Shielding (Stalwart)": {
+    "type": "Forge 4",
+    "number": 0,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Stalwart",
+    "description": "Increases Stalwart max shields by +50."
   },
   "Whirlwind (Zealot)": {
     "type": "War Council",
@@ -6222,7 +6546,7 @@
     "type": "War Council",
     "number": 16,
     "race": "PROTOSS",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Signifier",
     "description": "Signifier War Council upgrade. Signifiers gain the Feedback ability, \nwhich drains all energy from a target and deals 1 damage per point of energy drained."
@@ -6281,14 +6605,14 @@
     "parent_item": "Annihilator",
     "description": "Annihilator War Council upgrade. The Annihilator's Shadow Cannon ability can now target air units."
   },
-  "Duality Charge (Stalwart)": {
+  "Arc Inducers (Stalwart)": {
     "type": "War Council",
     "number": 23,
     "race": "PROTOSS",
-    "classification": "progression",
+    "classification": "useful",
     "quantity": 1,
     "parent_item": "Stalwart",
-    "description": "Stalwart War Council upgrade. Stalwarts gain +4 range."
+    "description": "Stalwart War Council upgrade. Stalwarts damage up to 3 additional units when attacking."
   },
   "Fire Lance (Colossus)": {
     "type": "War Council",
@@ -6676,5 +7000,14 @@
     "quantity": 1,
     "parent_item": null,
     "description": "Assimilators produce Vespene gas 25% faster."
+  },
+  "Progressive Warp Relocate (Protoss)": {
+    "type": "Progressive",
+    "number": 2,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 2,
+    "parent_item": null,
+    "description": "Level 1: Protoss structures can be moved anywhere within pylon power after a brief delay. Max 3 charges, shared globally.\nLevel 2: No longer consumes or requires charges."
   }
 }

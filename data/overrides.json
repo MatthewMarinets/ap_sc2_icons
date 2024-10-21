@@ -32,11 +32,14 @@
         "Overwatch (Spear of Adun Auto-Cast)": ["btn-ability-zeratul-chargedcrystal-psionicwinds.dds"],
         "Progressive Orbital Command": ["ap/assets/textures/btn-orbital-fortress.dds"],
         "Progressive Proxy Pylon (Spear of Adun Calldown)": ["btn-ability-spearofadun-deploypylon.dds"],
+        "Fast Delivery (Terran/Zerg)": ["talent-tychus-level02-additionaloutlaw.dds"],
+        "Rapid Reinforcement (Terran/Zerg)": ["btn-progression-hornerhan-6-mirabuildtime.dds"],
         "": [],
         "Nothing": ["btn-command-cancel.dds"]
     },
     "remove": {
         "Viking": ["btn-upgrade-terran-weaponrefit"],
+        "Emperor's Shadow": ["btn-building-terran-ghostacademy", "btn-ability-mengsk-ghostacademy-armsilowithtacticalmissile"],
         "Planetary Fortress": ["btn-command-cancel"],
         "Bunker": ["btn-building-terran-bunkerneosteel"],
         "Fortified Bunker (Bunker)": ["btn-building-terran-bunker"],
@@ -49,6 +52,9 @@
         "Ultralisk": ["btn-building-zerg-ultraliskcavern"],
         "Roach": ["btn-building-zerg-roachwarren"],
         "Dark Archon": ["btn-unit-protoss-hightemplar-nerazim"],
+        "Photon Cannon": ["btn-ability-protoss-massrecall"],
+        "Shield Battery": ["btn-ability-protoss-massrecall"],
+        "Khaydarin Monolith": ["btn-ability-protoss-massrecall"],
         "Baneling Aspect (Zergling)": ["btn-building-zerg-banelingnest"],
         "Impaler Aspect (Hydralisk)": ["btn-building-zerg-lurkerden"],
         "Lurker Aspect (Hydralisk)": ["btn-building-zerg-lurkerden"],
@@ -61,6 +67,7 @@
     },
     "pattern_add": {
         "Resource Efficiency.*": ["btn-ability-hornerhan-salvagebonus.dds"],
+        "Frightful Fleshwelder .*": ["btn-ability-hornerhan-salvagebonus.dds"],
         "Optimized Logistics.*": ["btn-upgrade-terran-optimizedlogistics.dds"],
         "Rapid Metamorph (Baneling)": ["btn-upgrade-terran-optimizedlogistics.dds"],
         "Internal Tech Module.*": ["btn-upgrade-terran-internalizedtechmodule.dds"]
@@ -72,7 +79,8 @@
             "btn-command-stop",
             "aoe_splatterran1c",
             "btn-ability-terran-cloak",
-            "btn-ability-terran-decloak-color"
+            "btn-ability-terran-decloak-color",
+            "btn-building-terran-factorymengsk.dds"
         ],
         "Progressive.*": ["btn-ability-terran-cloak-color"],
         ".*\\(Mutalisk/Corruptor\\)": ["btn-building-zerg-greaterspire"]
