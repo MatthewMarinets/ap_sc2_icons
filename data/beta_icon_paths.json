@@ -1,8 +1,8 @@
 {
   "meta": {
-    "timestamp": "2024-10-21",
-    "items": 779,
-    "located": 748
+    "timestamp": "2024-11-11",
+    "items": 787,
+    "located": 755
   },
   "locations": {
     "Marine": [
@@ -98,7 +98,7 @@
     "Emperor's Shadow": [
       "assets\\textures\\btn-unit-terran-ghostmengsk.dds"
     ],
-    "Son Of Korhal": [
+    "Son of Korhal": [
       "ap\\assets\\textures\\btn-unit-terran-marine-mengsk.dds"
     ],
     "Bulwark Company": [
@@ -1194,6 +1194,9 @@
     "Infested Liberator": [
       "assets\\textures\\btn-unit-zerg-infestedliberator.dds"
     ],
+    "Infested Missile Turret": [
+      "assets\\textures\\btn-building-stukov-infestedturret.dds"
+    ],
     "Progressive Zerg Melee Attack": [
       "ap\\assets\\custom\\textures\\btn-upgrade-zerg-meleeattacks-level4.dds",
       "ap\\assets\\custom\\textures\\btn-upgrade-zerg-meleeattacks-level5.dds",
@@ -1538,6 +1541,12 @@
     "Engorged Bunkers (Infested Bunker)": [
       "assets\\textures\\btn-upgrade-zerg-stukov-bunkerupgradeii_14.dds"
     ],
+    "Bioelectric Payload (Infested Missile Turret)": [
+      "assets\\textures\\btn-ability-zeratul-immortal-forcecannon.dds"
+    ],
+    "Acid Spore Vents (Infested Missile Turret)": [
+      "assets\\textures\\btn-ability-zerg-acidspores.dds"
+    ],
     "Raptor Strain (Zergling)": [
       "assets\\textures\\btn-ability-zerg-cliffjump-zergling.dds",
       "assets\\textures\\btn-unit-zerg-zergling-raptor.dds",
@@ -1765,8 +1774,11 @@
       "btn-unit-zerg-kerriganghost.dds",
       "btn-unit-zerg-kerriganinfested.dds"
     ],
-    "Creep Stomach (Zerg)": [
-      "assets\\textures\\btn-ability-zerg-creepspread.dds"
+    "Assimilation Aura (Kerrigan Ability)": [
+      "assets\\textures\\btn-upgrade-kerrigan-assimilationaura.dds"
+    ],
+    "Immobilization Wave (Kerrigan Ability)": [
+      "assets\\textures\\btn-upgrade-kerrigan-crushinggripwave.dds"
     ],
     "10 Kerrigan Levels": [],
     "9 Kerrigan Levels": [],
@@ -1803,6 +1815,9 @@
       "ap\\assets\\custom\\textures\\btn-unit-hunterling.dds",
       "assets\\textures\\btn-building-zerg-roachwarren.dds"
     ],
+    "Yggdrasil": [
+      "assets\\textures\\btn-unit-collection-overlord-mutant.dds"
+    ],
     "Ventral Sacs (Overlord)": [
       "assets\\textures\\btn-ability-terran-load.dds",
       "assets\\textures\\btn-upgrade-zerg-ventralsacs.dds"
@@ -1818,6 +1833,13 @@
     ],
     "Excavating Claws (Zerg)": [
       "assets\\textures\\btn-upgrade-zerg-anabolicsynthesis.dds"
+    ],
+    "Creep Stomach (Zerg)": [
+      "assets\\textures\\btn-ability-zerg-creepspread.dds"
+    ],
+    "Hive Cluster Maturation (Zerg)": [],
+    "Macroscopic Recuperation (Zerg)": [
+      "assets\\textures\\btn-upgrade-zerg-abathur-improvedmend.dds"
     ],
     "Guardian Aspect (Mutalisk/Corruptor)": [
       "assets\\textures\\btn-unit-zerg-primalguardian.dds"

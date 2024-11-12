@@ -18,6 +18,9 @@
  "Ability Efficiency (Kerrigan Passive)": [
   "icons/blizzard/btn-ability-kerrigan-abilityefficiency.png"
  ],
+ "Acid Spore Vents (Infested Missile Turret)": [
+  "icons/blizzard/btn-ability-zerg-acidspores.png"
+ ],
  "Acidic Enzymes (Infested Siege Tank)": [
   "icons/blizzard/btn-upgrade-zerg-stukov-siegetankbonusdamage.png"
  ],
@@ -190,6 +193,9 @@
  "Ascendant": [
   "icons/blizzard/btn-unit-protoss-hightemplar-taldarim.png"
  ],
+ "Assimilation Aura (Kerrigan Ability)": [
+  "icons/blizzard/btn-upgrade-kerrigan-assimilationaura.png"
+ ],
  "Auto Launchers (Vulture)": [
   "icons/blizzard/btn-upgrade-terran-jotunboosters.png"
  ],
@@ -239,6 +245,9 @@
  "Bio-Mechanical Transfusion (Swarm Queen)": [
   "icons/blizzard/btn-ability-zerg-transfusion-color.png",
   "icons/blizzard/btn-upgrade-zerg-abathur-biomechanicaltransfusion.png"
+ ],
+ "Bioelectric Payload (Infested Missile Turret)": [
+  "icons/blizzard/btn-ability-zeratul-immortal-forcecannon.png"
  ],
  "Black Market Launchers (Widow Mine)": [
   "icons/blizzard/btn-ability-hornerhan-widowmine-attackrange.png"
@@ -889,6 +898,9 @@
  "Hyperjump (Skylord)": [
   "icons/blizzard/btn-ability-hornerhan-fleethyperjump.png"
  ],
+ "Immobilization Wave (Kerrigan Ability)": [
+  "icons/blizzard/btn-upgrade-kerrigan-crushinggripwave.png"
+ ],
  "Immortal": [
   "icons/blizzard/btn-unit-protoss-immortal.png"
  ],
@@ -955,6 +967,9 @@
  ],
  "Infested Medics": [
   "icons/blizzard/btn-unit-terran-medicelite.png"
+ ],
+ "Infested Missile Turret": [
+  "icons/blizzard/btn-building-stukov-infestedturret.png"
  ],
  "Infested Siege Breakers": [
   "icons/original/btn-unit-terran-siegetankmercenary-tank.png"
@@ -1141,6 +1156,9 @@
  ],
  "MULE (Command Center)": [
   "icons/blizzard/btn-unit-terran-mule.png"
+ ],
+ "Macroscopic Recuperation (Zerg)": [
+  "icons/blizzard/btn-upgrade-zerg-abathur-improvedmend.png"
  ],
  "Maelstrom (Dark Archon)": [
   "icons/blizzard/btn-ability-protoss-voidstasis.png"
@@ -2093,7 +2111,7 @@
  "Solarite Payload (Reaver)": [
   "icons/blizzard/btn-upgrade-artanis-scarabsplashradius.png"
  ],
- "Son Of Korhal": [
+ "Son of Korhal": [
   "icons/original/btn-unit-terran-marine-mengsk.png"
  ],
  "Soronan Acid (Guardian)": [
@@ -2439,6 +2457,9 @@
  ],
  "Wrathwalker": [
   "icons/blizzard/btn-unit-protoss-colossus-taldarim.png"
+ ],
+ "Yggdrasil": [
+  "icons/blizzard/btn-unit-collection-overlord-mutant.png"
  ],
  "Zealot": [
   "icons/blizzard/btn-unit-protoss-zealot.png"

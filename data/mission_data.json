@@ -51,7 +51,7 @@
     "faction": "Terran",
     "campaign": "wol"
   },
-  "Welcome to the Jungle": {
+  "Welcome to the Jungle (Terran)": {
     "faction": "Terran",
     "campaign": "wol"
   },
@@ -115,7 +115,7 @@
     "faction": "Protoss",
     "campaign": "prophecy"
   },
-  "Lab Rat": {
+  "Lab Rat (Zerg)": {
     "faction": "Zerg",
     "campaign": "hots"
   },
@@ -123,15 +123,15 @@
     "faction": "Zerg",
     "campaign": "hots"
   },
-  "Rendezvous": {
+  "Rendezvous (Zerg)": {
     "faction": "Zerg",
     "campaign": "hots"
   },
-  "Harvest of Screams": {
+  "Harvest of Screams (Zerg)": {
     "faction": "Zerg",
     "campaign": "hots"
   },
-  "Shoot the Messenger": {
+  "Shoot the Messenger (Zerg)": {
     "faction": "Zerg",
     "campaign": "hots"
   },
@@ -139,23 +139,23 @@
     "faction": "Zerg",
     "campaign": "hots"
   },
-  "Domination": {
+  "Domination (Zerg)": {
     "faction": "Zerg",
     "campaign": "hots"
   },
-  "Fire in the Sky": {
+  "Fire in the Sky (Zerg)": {
     "faction": "Zerg",
     "campaign": "hots"
   },
-  "Old Soldiers": {
+  "Old Soldiers (Zerg)": {
     "faction": "Zerg",
     "campaign": "hots"
   },
-  "Waking the Ancient": {
+  "Waking the Ancient (Zerg)": {
     "faction": "Zerg",
     "campaign": "hots"
   },
-  "The Crucible": {
+  "The Crucible (Zerg)": {
     "faction": "Zerg",
     "campaign": "hots"
   },
@@ -163,11 +163,11 @@
     "faction": "Zerg",
     "campaign": "hots"
   },
-  "Infested": {
+  "Infested (Zerg)": {
     "faction": "Zerg",
     "campaign": "hots"
   },
-  "Hand of Darkness": {
+  "Hand of Darkness (Zerg)": {
     "faction": "Zerg",
     "campaign": "hots"
   },
@@ -395,6 +395,14 @@
     "faction": "Protoss",
     "campaign": "wol"
   },
+  "Welcome to the Jungle (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "wol"
+  },
+  "Welcome to the Jungle (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "wol"
+  },
   "The Great Train Robbery (Zerg)": {
     "faction": "Zerg",
     "campaign": "wol"
@@ -442,5 +450,93 @@
   "All-In (Protoss)": {
     "faction": "Protoss",
     "campaign": "wol"
+  },
+  "Lab Rat (Terran)": {
+    "faction": "Terran",
+    "campaign": "hots"
+  },
+  "Lab Rat (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "hots"
+  },
+  "Rendezvous (Terran)": {
+    "faction": "Terran",
+    "campaign": "hots"
+  },
+  "Rendezvous (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "hots"
+  },
+  "Harvest of Screams (Terran)": {
+    "faction": "Terran",
+    "campaign": "hots"
+  },
+  "Harvest of Screams (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "hots"
+  },
+  "Shoot the Messenger (Terran)": {
+    "faction": "Terran",
+    "campaign": "hots"
+  },
+  "Shoot the Messenger (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "hots"
+  },
+  "Domination (Terran)": {
+    "faction": "Terran",
+    "campaign": "hots"
+  },
+  "Domination (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "hots"
+  },
+  "Fire in the Sky (Terran)": {
+    "faction": "Terran",
+    "campaign": "hots"
+  },
+  "Fire in the Sky (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "hots"
+  },
+  "Old Soldiers (Terran)": {
+    "faction": "Terran",
+    "campaign": "hots"
+  },
+  "Old Soldiers (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "hots"
+  },
+  "Waking the Ancient (Terran)": {
+    "faction": "Terran",
+    "campaign": "hots"
+  },
+  "Waking the Ancient (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "hots"
+  },
+  "The Crucible (Terran)": {
+    "faction": "Terran",
+    "campaign": "hots"
+  },
+  "The Crucible (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "hots"
+  },
+  "Infested (Terran)": {
+    "faction": "Terran",
+    "campaign": "hots"
+  },
+  "Infested (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "hots"
+  },
+  "Hand of Darkness (Terran)": {
+    "faction": "Terran",
+    "campaign": "hots"
+  },
+  "Hand of Darkness (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "hots"
   }
 }

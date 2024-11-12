@@ -2,7 +2,7 @@
 Add Archipelago to the path for this to import data and print locally
 """
 
-from worlds.sc2 import item_descriptions, item_groups, items
+from worlds.sc2.item import item_descriptions, item_groups, item_tables
 
 if __name__ == '__main__':
     import json
@@ -30,10 +30,10 @@ if __name__ == '__main__':
             "parent_item": item.parent_item,
             "description": item_descriptions.item_descriptions[item_name],
         }
-        for item_name, item in items.item_table.items()
-        if item_name not in items.key_item_table
+        for item_name, item in item_tables.item_table.items()
+        if item_name not in item_tables.key_item_table
     }
-    key_data = list(items.key_item_table)
+    key_data = list(item_tables.key_item_table)
     
     item_groups = {
         item_group_name: item_groups.item_name_groups[item_group_name]
