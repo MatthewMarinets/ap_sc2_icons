@@ -327,7 +327,7 @@
     "type": "Unit 2",
     "number": 10,
     "race": "TERRAN",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": null,
     "description": "Royal Guard tactical-strike aircraft."
@@ -2064,7 +2064,7 @@
     "type": "Armory 6",
     "number": 0,
     "race": "TERRAN",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Valkyrie",
     "description": "Equips Valkyries with Air-to-Surface missiles to attack ground units."
@@ -2307,7 +2307,7 @@
     "type": "Mercenary",
     "number": 4,
     "race": "TERRAN",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": null,
     "description": "Mercenary Siege Tanks."
@@ -2325,7 +2325,7 @@
     "type": "Mercenary",
     "number": 6,
     "race": "TERRAN",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": null,
     "description": "Mercenary Banshees."
@@ -2334,7 +2334,7 @@
     "type": "Mercenary",
     "number": 7,
     "race": "TERRAN",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": null,
     "description": "Mercenary Battlecruiser."
@@ -2370,7 +2370,7 @@
     "type": "Mercenary",
     "number": 11,
     "race": "TERRAN",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": null,
     "description": "Mercenary Liberators."
@@ -3239,11 +3239,11 @@
     "parent_item": null,
     "description": "Long-range transport network. Nydus Worms and Nydus Networks can load friendly ground units to be unloaded to any other Nydus structure on the map."
   },
-  "Omega Worm": {
+  "Echidna Worm": {
     "type": "Unit",
     "number": 18,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": null,
     "description": "Long-range deployable base. Unable to load and unload units, but can generate Creep and Creep Tumors. Can also serve as a dropoff point for resources and can create Drones."
@@ -3279,7 +3279,7 @@
     "type": "Unit",
     "number": 22,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": null,
     "description": "Anti-Air flying attacker. Attacks deal high area-damage."
@@ -3657,7 +3657,7 @@
     "type": "Mutation 2",
     "number": 0,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Hydralisk",
     "description": "Reduces Hydralisk cost by 25 minerals, 25 gas, and 1 supply."
@@ -3810,7 +3810,7 @@
     "type": "Mutation 2",
     "number": 17,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Devourer Aspect (Mutalisk/Corruptor)",
     "description": "Allows Devourers to attack ground targets."
@@ -3828,7 +3828,7 @@
     "type": "Mutation 2",
     "number": 19,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Guardian Aspect (Mutalisk/Corruptor)",
     "description": "Allows Guardians to attack air units with a decreased attack damage."
@@ -4035,7 +4035,7 @@
     "type": "Mutation 3",
     "number": 12,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Swarm Queen",
     "description": "Reduces Swarm Queen cost by 50 gas."
@@ -4445,41 +4445,41 @@
     "parent_item": "Tyrannozor Aspect (Ultralisk)",
     "description": "Ultralisks and Tyrannozors regenerate life quickly when out of combat."
   },
-  "Subterranean Scales (Nydus Worm/Omega Worm)": {
+  "Subterranean Scales (Nydus Worm/Echidna Worm)": {
     "type": "Mutation 4",
     "number": 12,
     "race": "ZERG",
     "classification": "filler",
     "quantity": 1,
     "parent_item": null,
-    "description": "Increases Nydus Worm and Omega Worm maximum health by 250 and armor by 1."
+    "description": "Increases Nydus Worm and Echidna Worm maximum health by 250 and armor by 1."
   },
-  "Jormungandr Strain (Nydus Worm/Omega Worm)": {
+  "Jormungandr Strain (Nydus Worm/Echidna Worm)": {
     "type": "Mutation 4",
     "number": 13,
     "race": "ZERG",
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "description": "Removes emerge time for Nydus Worm and Omega Worm, and allows them to be salvaged, returning the cost spent on them."
+    "description": "Removes emerge time for Nydus Worm and Echidna Worm, and allows them to be salvaged, returning the cost spent on them."
   },
-  "Resource Efficiency (Nydus Worm/Omega Worm)": {
+  "Resource Efficiency (Nydus Worm/Echidna Worm)": {
     "type": "Mutation 4",
     "number": 14,
     "race": "ZERG",
     "classification": "useful",
     "quantity": 1,
     "parent_item": null,
-    "description": "Reduces Nydus Worm and Omega Worm cost by 50 minerals and 75 gas."
+    "description": "Reduces Nydus Worm and Echidna Worm cost by 50 minerals and 75 gas."
   },
-  "Ouroboros Strain (Omega Worm)": {
+  "Ouroboros Strain (Echidna Worm)": {
     "type": "Mutation 4",
     "number": 15,
     "race": "ZERG",
     "classification": "useful",
     "quantity": 1,
-    "parent_item": "Omega Worm",
-    "description": "Allows Omega Worms to train a limited assortment of combat units (Zerglings, Roachs, Hydralisks, and Aberrations) at a reduced time and cost."
+    "parent_item": "Echidna Worm",
+    "description": "Allows Echidna Worms to train a limited assortment of combat units (Zerglings, Roachs, Hydralisks, and Aberrations) at a reduced time and cost."
   },
   "Ravenous Appetite (Nydus Worm)": {
     "type": "Mutation 4",
@@ -4629,7 +4629,7 @@
     "type": "Progressive",
     "number": 2,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 2,
     "parent_item": "Infested Diamondback",
     "description": "Level 1: Infested Diamondbacks gain the Fungal Snare ability, allowing them to temporary ground flying units.\nLevel 2: Infested Diamondback Fungal Snare ability cooldown reduced by 15 seconds."
@@ -5079,10 +5079,10 @@
     "type": "Mercenary",
     "number": 7,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": null,
-    "description": "Mercenary Overlord that has the ability to transport buildings."
+    "description": "Mercenary Overlord that has the ability to transport buildings and ground units."
   },
   "Ventral Sacs (Overlord)": {
     "type": "Evolution Pit",
@@ -5155,6 +5155,24 @@
     "quantity": 1,
     "parent_item": null,
     "description": "Zerg structures regenerate health rapidly while on creep and out of combat. Does not apply to uprooted structures, or structures with the Mechanical tag."
+  },
+  "Bio-Mechanical Stockpiling (Zerg)": {
+    "type": "Evolution Pit",
+    "number": 14,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Infested Factories and Starports can store 3 additional unit charges."
+  },
+  "Broodling Packing (Zerg)": {
+    "type": "Evolution Pit",
+    "number": 15,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Zerg buildings release twice as many broodlings on death. Zerg defensive structures release 4 broodlings on death."
   },
   "Guardian Aspect (Mutalisk/Corruptor)": {
     "type": "Morph",

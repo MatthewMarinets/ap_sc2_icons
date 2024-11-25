@@ -242,6 +242,9 @@
  "Bio Mechanical Repair Drone (Raven)": [
   "icons/blizzard/btn-unit-biomechanicaldrone.png"
  ],
+ "Bio-Mechanical Stockpiling (Zerg)": [
+  "icons/blizzard/btn-upgrade-zerg-stukov-queenenergyregen.png"
+ ],
  "Bio-Mechanical Transfusion (Swarm Queen)": [
   "icons/blizzard/btn-ability-zerg-transfusion-color.png",
   "icons/blizzard/btn-upgrade-zerg-abathur-biomechanicaltransfusion.png"
@@ -291,6 +294,9 @@
  ],
  "Brood Queen": [
   "icons/blizzard/btn-unit-zerg-classicqueen.png"
+ ],
+ "Broodling Packing (Zerg)": [
+  "icons/blizzard/btn-ability-kerrigan-broodlingnest.png"
  ],
  "Brutal Efficiency (Blood Hunter)": [
   "icons/blizzard/btn-upgrade-protoss-alarak-melleeweapon.png"
@@ -589,6 +595,9 @@
  ],
  "EMP Shockwave (Science Vessel)": [
   "icons/blizzard/btn-ability-mengsk-ghost-staticempblast.png"
+ ],
+ "Echidna Worm": [
+  "icons/blizzard/btn-unit-zerg-nydusdragon.png"
  ],
  "Emperor's Guardian": [
   "icons/original/btn-royalliberator.png"
@@ -1037,7 +1046,7 @@
  "Jet Pack Overdrive (Reaper)": [
   "icons/blizzard/btn-ability-hornerhan-reaper-flightmode.png"
  ],
- "Jormungandr Strain (Nydus Worm/Omega Worm)": [
+ "Jormungandr Strain (Nydus Worm/Echidna Worm)": [
   "icons/blizzard/btn-ability-zerg-dehaka-root-color.png",
   "icons/blizzard/btn-upgrade-zerg-enduringcorruption.png"
  ],
@@ -1307,9 +1316,6 @@
  "Ocular Implants (Ghost)": [
   "icons/blizzard/btn-techupgrade-terran-ocularimplants.png"
  ],
- "Omega Worm": [
-  "icons/blizzard/btn-unit-zerg-nydusdragon.png"
- ],
  "Optical Flare (Medic)": [
   "icons/blizzard/btn-upgrade-protoss-fenix-dragoonsolariteflare.png"
  ],
@@ -1365,7 +1371,7 @@
  "Organic Carapace (Ultralisk)": [
   "icons/blizzard/btn-upgrade-zerg-organiccarapace.png"
  ],
- "Ouroboros Strain (Omega Worm)": [
+ "Ouroboros Strain (Echidna Worm)": [
   "icons/blizzard/talent-zagara-level12-unlockswarmling.png"
  ],
  "Overseer Aspect (Overlord)": [
@@ -1873,7 +1879,7 @@
  "Resource Efficiency (Missile Turret)": [
   "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
- "Resource Efficiency (Nydus Worm/Omega Worm)": [
+ "Resource Efficiency (Nydus Worm/Echidna Worm)": [
   "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
  "Resource Efficiency (Predator)": [
@@ -2194,7 +2200,7 @@
  "Strut Enhancements (Stalwart)": [
   "icons/blizzard/btn-ability-protoss-charge-color.png"
  ],
- "Subterranean Scales (Nydus Worm/Omega Worm)": [
+ "Subterranean Scales (Nydus Worm/Echidna Worm)": [
   "icons/blizzard/btn-upgrade-zerg-buildingarmor.png"
  ],
  "Sundering Glaive (Mutalisk)": [

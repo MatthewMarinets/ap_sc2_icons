@@ -1,8 +1,8 @@
 {
   "meta": {
-    "timestamp": "2024-11-11",
-    "items": 787,
-    "located": 755
+    "timestamp": "2024-11-25",
+    "items": 789,
+    "located": 757
   },
   "locations": {
     "Marine": [
@@ -1179,7 +1179,7 @@
     "Nydus Worm": [
       "assets\\textures\\btn-building-zerg-nydusworm.dds"
     ],
-    "Omega Worm": [
+    "Echidna Worm": [
       "assets\\textures\\btn-unit-zerg-nydusdragon.dds"
     ],
     "Infested Siege Tank": [
@@ -1622,17 +1622,17 @@
     "Healing Adaptation (Ultralisk/Tyrannozor)": [
       "assets\\textures\\btn-ability-zerg-dehaka-ultralisk-healingadaptation.dds"
     ],
-    "Subterranean Scales (Nydus Worm/Omega Worm)": [
+    "Subterranean Scales (Nydus Worm/Echidna Worm)": [
       "assets\\textures\\btn-upgrade-zerg-buildingarmor.dds"
     ],
-    "Jormungandr Strain (Nydus Worm/Omega Worm)": [
+    "Jormungandr Strain (Nydus Worm/Echidna Worm)": [
       "assets\\textures\\btn-ability-zerg-dehaka-root-color.dds",
       "assets\\textures\\btn-upgrade-zerg-enduringcorruption.dds"
     ],
-    "Resource Efficiency (Nydus Worm/Omega Worm)": [
+    "Resource Efficiency (Nydus Worm/Echidna Worm)": [
       "btn-ability-hornerhan-salvagebonus.dds"
     ],
-    "Ouroboros Strain (Omega Worm)": [
+    "Ouroboros Strain (Echidna Worm)": [
       "talent-zagara-level12-unlockswarmling.dds"
     ],
     "Ravenous Appetite (Nydus Worm)": [
@@ -1840,6 +1840,12 @@
     "Hive Cluster Maturation (Zerg)": [],
     "Macroscopic Recuperation (Zerg)": [
       "assets\\textures\\btn-upgrade-zerg-abathur-improvedmend.dds"
+    ],
+    "Bio-Mechanical Stockpiling (Zerg)": [
+      "assets\\textures\\btn-upgrade-zerg-stukov-queenenergyregen.dds"
+    ],
+    "Broodling Packing (Zerg)": [
+      "assets\\textures\\btn-ability-kerrigan-broodlingnest.dds"
     ],
     "Guardian Aspect (Mutalisk/Corruptor)": [
       "assets\\textures\\btn-unit-zerg-primalguardian.dds"

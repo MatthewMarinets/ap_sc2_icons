@@ -39,11 +39,11 @@
     "faction": "Terran",
     "campaign": "wol"
   },
-  "Supernova": {
+  "Supernova (Terran)": {
     "faction": "Terran",
     "campaign": "wol"
   },
-  "Maw of the Void": {
+  "Maw of the Void (Terran)": {
     "faction": "Terran",
     "campaign": "wol"
   },
@@ -171,7 +171,7 @@
     "faction": "Zerg",
     "campaign": "hots"
   },
-  "Phantoms of the Void": {
+  "Phantoms of the Void (Zerg)": {
     "faction": "Zerg",
     "campaign": "hots"
   },
@@ -183,23 +183,23 @@
     "faction": "Zerg",
     "campaign": "hots"
   },
-  "Planetfall": {
+  "Planetfall (Zerg)": {
     "faction": "Zerg",
     "campaign": "hots"
   },
-  "Death From Above": {
+  "Death From Above (Zerg)": {
     "faction": "Zerg",
     "campaign": "hots"
   },
-  "The Reckoning": {
+  "The Reckoning (Zerg)": {
     "faction": "Zerg",
     "campaign": "hots"
   },
-  "Dark Whispers": {
+  "Dark Whispers (Protoss)": {
     "faction": "Protoss",
     "campaign": "prologue"
   },
-  "Ghosts in the Fog": {
+  "Ghosts in the Fog (Protoss)": {
     "faction": "Protoss",
     "campaign": "prologue"
   },
@@ -211,19 +211,19 @@
     "faction": "Protoss",
     "campaign": "lotv"
   },
-  "The Growing Shadow": {
+  "The Growing Shadow (Protoss)": {
     "faction": "Protoss",
     "campaign": "lotv"
   },
-  "The Spear of Adun": {
+  "The Spear of Adun (Protoss)": {
     "faction": "Protoss",
     "campaign": "lotv"
   },
-  "Sky Shield": {
+  "Sky Shield (Protoss)": {
     "faction": "Protoss",
     "campaign": "lotv"
   },
-  "Brothers in Arms": {
+  "Brothers in Arms (Protoss)": {
     "faction": "Protoss",
     "campaign": "lotv"
   },
@@ -387,6 +387,22 @@
     "faction": "Protoss",
     "campaign": "wol"
   },
+  "Supernova (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "wol"
+  },
+  "Supernova (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "wol"
+  },
+  "Maw of the Void (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "wol"
+  },
+  "Maw of the Void (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "wol"
+  },
   "Devil's Playground (Zerg)": {
     "faction": "Zerg",
     "campaign": "wol"
@@ -538,5 +554,85 @@
   "Hand of Darkness (Protoss)": {
     "faction": "Protoss",
     "campaign": "hots"
+  },
+  "Phantoms of the Void (Terran)": {
+    "faction": "Terran",
+    "campaign": "hots"
+  },
+  "Phantoms of the Void (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "hots"
+  },
+  "Planetfall (Terran)": {
+    "faction": "Terran",
+    "campaign": "hots"
+  },
+  "Planetfall (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "hots"
+  },
+  "Death From Above (Terran)": {
+    "faction": "Terran",
+    "campaign": "hots"
+  },
+  "Death From Above (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "hots"
+  },
+  "The Reckoning (Terran)": {
+    "faction": "Terran",
+    "campaign": "hots"
+  },
+  "The Reckoning (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "hots"
+  },
+  "Dark Whispers (Terran)": {
+    "faction": "Terran",
+    "campaign": "prologue"
+  },
+  "Dark Whispers (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "prologue"
+  },
+  "Ghosts in the Fog (Terran)": {
+    "faction": "Terran",
+    "campaign": "prologue"
+  },
+  "Ghosts in the Fog (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "prologue"
+  },
+  "The Growing Shadow (Terran)": {
+    "faction": "Terran",
+    "campaign": "lotv"
+  },
+  "The Growing Shadow (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "lotv"
+  },
+  "The Spear of Adun (Terran)": {
+    "faction": "Terran",
+    "campaign": "lotv"
+  },
+  "The Spear of Adun (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "lotv"
+  },
+  "Sky Shield (Terran)": {
+    "faction": "Terran",
+    "campaign": "lotv"
+  },
+  "Sky Shield (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "lotv"
+  },
+  "Brothers in Arms (Terran)": {
+    "faction": "Terran",
+    "campaign": "lotv"
+  },
+  "Brothers in Arms (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "lotv"
   }
 }
