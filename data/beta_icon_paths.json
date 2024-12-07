@@ -1,8 +1,8 @@
 {
   "meta": {
-    "timestamp": "2024-11-25",
-    "items": 789,
-    "located": 757
+    "timestamp": "2024-12-06",
+    "items": 795,
+    "located": 763
   },
   "locations": {
     "Marine": [
@@ -1197,6 +1197,9 @@
     "Infested Missile Turret": [
       "assets\\textures\\btn-building-stukov-infestedturret.dds"
     ],
+    "Pygalisk": [
+      "assets\\textures\\btn-unit-collection-primal-ultralisk.dds"
+    ],
     "Progressive Zerg Melee Attack": [
       "ap\\assets\\custom\\textures\\btn-upgrade-zerg-meleeattacks-level4.dds",
       "ap\\assets\\custom\\textures\\btn-upgrade-zerg-meleeattacks-level5.dds",
@@ -1704,6 +1707,22 @@
     ],
     "Frightful Fleshwelder (Infested Liberator)": [
       "btn-ability-hornerhan-salvagebonus.dds"
+    ],
+    "Defender Mode (Infested Liberator)": [
+      "talent-raynor-level06-unlockliberator.dds"
+    ],
+    "Progressive Baneling Launch (Aberration)": [
+      "assets\\textures\\abilityicon_spawnbanelings_square.dds",
+      "assets\\textures\\ui_emoticons_baneling.dds"
+    ],
+    "Stimpack (Pygalisk)": [
+      "assets\\textures\\btn-ability-terran-stimpack-color.dds"
+    ],
+    "Ducal Blades (Pygalisk)": [
+      "assets\\textures\\btn-ability-zerg-dehaka-ultralisk-brutalcharge.dds"
+    ],
+    "Combat Carapace (Pygalisk)": [
+      "assets\\textures\\btn-upgrade-stetmann-mechachitinousplating.dds"
     ],
     "Kinetic Blast (Kerrigan Ability)": [
       "assets\\textures\\btn-ability-kerrigan-kineticblast.dds"

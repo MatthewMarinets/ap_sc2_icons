@@ -1074,7 +1074,7 @@
     "type": "Armory 3",
     "number": 5,
     "race": "TERRAN",
-    "classification": "filler",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Siege Tank",
     "description": "Increases transformation speed between modes."
@@ -1515,7 +1515,7 @@
     "type": "Progressive",
     "number": 20,
     "race": "TERRAN",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 2,
     "parent_item": "Battlecruiser",
     "description": "Level 1: Spell. For 20 seconds the Battlecruiser gains a shield that can absorb up to 200 damage.\nLevel 2: Passive. Battlecruiser gets 200 shields. Can spend energy to fully recharge shields."
@@ -1695,7 +1695,7 @@
     "type": "Armory 4",
     "number": 20,
     "race": "TERRAN",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Banshee",
     "description": "Banshees gain the Rocket Barrage ability, \nwhich deals 75 damage to enemy ground units in the target area."
@@ -2091,7 +2091,7 @@
     "type": "Armory 6",
     "number": 3,
     "race": "TERRAN",
-    "classification": "filler",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Liberator",
     "description": "Increases transformation speed between modes."
@@ -2181,7 +2181,7 @@
     "type": "Armory 6",
     "number": 12,
     "race": "TERRAN",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Battlecruiser",
     "description": "Increases Battlecruiser movement speed."
@@ -3293,6 +3293,15 @@
     "parent_item": null,
     "description": "Anti-air defensive structure. Detects cloaked units and can uproot."
   },
+  "Pygalisk": {
+    "type": "Unit",
+    "number": 24,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": null,
+    "description": "Miniature melee attacker."
+  },
   "Progressive Zerg Melee Attack": {
     "type": "Upgrade",
     "number": 0,
@@ -3495,7 +3504,7 @@
     "type": "Mutation 1",
     "number": 12,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Mutalisk",
     "description": "Mutalisks attacks will bounce an additional 3 times."
@@ -3513,7 +3522,7 @@
     "type": "Mutation 1",
     "number": 14,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Mutalisk",
     "description": "Mutalisks deal increased damage to their primary target."
@@ -3567,7 +3576,7 @@
     "type": "Mutation 1",
     "number": 20,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Ultralisk",
     "description": "Ultralisks gain increased splash damage."
@@ -3702,7 +3711,7 @@
     "type": "Mutation 2",
     "number": 5,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Mutalisk",
     "description": "Increases the attack range of Mutalisks by 2."
@@ -4557,7 +4566,7 @@
     "type": "Mutation 4",
     "number": 23,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": "Infested Liberator",
     "description": "Infested Liberators instantly transform into a cloud of microscopic organisms while attacking, reducing the damage they take by 85%."
@@ -4678,6 +4687,51 @@
     "quantity": 1,
     "parent_item": "Infested Liberator",
     "description": "Reduces Infested Liberator cost by 25 gas."
+  },
+  "Defender Mode (Infested Liberator)": {
+    "type": "Mutation 5",
+    "number": 8,
+    "race": "ZERG",
+    "classification": "progression",
+    "quantity": 1,
+    "parent_item": "Infested Liberator",
+    "description": "Allows Infested Liberators to deploy into Defender Mode to attack ground units."
+  },
+  "Progressive Baneling Launch (Aberration)": {
+    "type": "Progressive",
+    "number": 4,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 2,
+    "parent_item": "Aberration",
+    "description": "Level 1: Allows Aberrations to periodically throw generated Banelings at air targets.\nLevel 2: Can store up to 3 Banelings. Can consume Banelings to recharge faster. Thrown Banelings benefit from Baneling upgrades. "
+  },
+  "Stimpack (Pygalisk)": {
+    "type": "Mutation 5",
+    "number": 9,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Pygalisk",
+    "description": "Pygalisks gain the Stimpack ability, \nwhich temporarily increases movement and attack speed at the cost of 10 health."
+  },
+  "Ducal Blades (Pygalisk)": {
+    "type": "Mutation 5",
+    "number": 10,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Pygalisk",
+    "description": "Pygalisks do splash damage."
+  },
+  "Combat Carapace (Pygalisk)": {
+    "type": "Mutation 5",
+    "number": 11,
+    "race": "ZERG",
+    "classification": "useful",
+    "quantity": 1,
+    "parent_item": "Pygalisk",
+    "description": "Increases Pygalisk health by +25."
   },
   "Kinetic Blast (Kerrigan Ability)": {
     "type": "Ability",
@@ -5232,7 +5286,7 @@
     "type": "Unit",
     "number": 9,
     "race": "PROTOSS",
-    "classification": "filler",
+    "classification": "progression",
     "quantity": 1,
     "parent_item": null,
     "description": "Flying spy. Cloak renders the unit invisible to enemies without detection."

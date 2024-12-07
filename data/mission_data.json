@@ -31,11 +31,11 @@
     "faction": "Terran",
     "campaign": "wol"
   },
-  "The Dig": {
+  "The Dig (Terran)": {
     "faction": "Terran",
     "campaign": "wol"
   },
-  "The Moebius Factor": {
+  "The Moebius Factor (Terran)": {
     "faction": "Terran",
     "campaign": "wol"
   },
@@ -83,7 +83,7 @@
     "faction": "Terran",
     "campaign": "wol"
   },
-  "Gates of Hell": {
+  "Gates of Hell (Terran)": {
     "faction": "Terran",
     "campaign": "wol"
   },
@@ -227,19 +227,19 @@
     "faction": "Protoss",
     "campaign": "lotv"
   },
-  "Amon's Reach": {
+  "Amon's Reach (Protoss)": {
     "faction": "Protoss",
     "campaign": "lotv"
   },
-  "Last Stand": {
+  "Last Stand (Protoss)": {
     "faction": "Protoss",
     "campaign": "lotv"
   },
-  "Forbidden Weapon": {
+  "Forbidden Weapon (Protoss)": {
     "faction": "Protoss",
     "campaign": "lotv"
   },
-  "Temple of Unification": {
+  "Temple of Unification (Protoss)": {
     "faction": "Protoss",
     "campaign": "lotv"
   },
@@ -247,27 +247,27 @@
     "faction": "Protoss",
     "campaign": "lotv"
   },
-  "Harbinger of Oblivion": {
+  "Harbinger of Oblivion (Protoss)": {
     "faction": "Protoss",
     "campaign": "lotv"
   },
-  "Unsealing the Past": {
+  "Unsealing the Past (Protoss)": {
     "faction": "Protoss",
     "campaign": "lotv"
   },
-  "Purification": {
+  "Purification (Protoss)": {
     "faction": "Protoss",
     "campaign": "lotv"
   },
-  "Steps of the Rite": {
+  "Steps of the Rite (Protoss)": {
     "faction": "Protoss",
     "campaign": "lotv"
   },
-  "Rak'Shir": {
+  "Rak'Shir (Protoss)": {
     "faction": "Protoss",
     "campaign": "lotv"
   },
-  "Templar's Charge": {
+  "Templar's Charge (Protoss)": {
     "faction": "Protoss",
     "campaign": "lotv"
   },
@@ -275,11 +275,11 @@
     "faction": "Protoss",
     "campaign": "lotv"
   },
-  "The Host": {
+  "The Host (Protoss)": {
     "faction": "Protoss",
     "campaign": "lotv"
   },
-  "Salvation": {
+  "Salvation (Protoss)": {
     "faction": "Protoss",
     "campaign": "lotv"
   },
@@ -387,6 +387,22 @@
     "faction": "Protoss",
     "campaign": "wol"
   },
+  "The Dig (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "wol"
+  },
+  "The Dig (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "wol"
+  },
+  "The Moebius Factor (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "wol"
+  },
+  "The Moebius Factor (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "wol"
+  },
   "Supernova (Zerg)": {
     "faction": "Zerg",
     "campaign": "wol"
@@ -448,6 +464,14 @@
     "campaign": "wol"
   },
   "Media Blitz (Protoss)": {
+    "faction": "Protoss",
+    "campaign": "wol"
+  },
+  "Gates of Hell (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "wol"
+  },
+  "Gates of Hell (Protoss)": {
     "faction": "Protoss",
     "campaign": "wol"
   },
@@ -632,6 +656,102 @@
     "campaign": "lotv"
   },
   "Brothers in Arms (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "lotv"
+  },
+  "Amon's Reach (Terran)": {
+    "faction": "Terran",
+    "campaign": "lotv"
+  },
+  "Amon's Reach (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "lotv"
+  },
+  "Last Stand (Terran)": {
+    "faction": "Terran",
+    "campaign": "lotv"
+  },
+  "Last Stand (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "lotv"
+  },
+  "Forbidden Weapon (Terran)": {
+    "faction": "Terran",
+    "campaign": "lotv"
+  },
+  "Forbidden Weapon (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "lotv"
+  },
+  "Temple of Unification (Terran)": {
+    "faction": "Terran",
+    "campaign": "lotv"
+  },
+  "Temple of Unification (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "lotv"
+  },
+  "Harbinger of Oblivion (Terran)": {
+    "faction": "Terran",
+    "campaign": "lotv"
+  },
+  "Harbinger of Oblivion (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "lotv"
+  },
+  "Unsealing the Past (Terran)": {
+    "faction": "Terran",
+    "campaign": "lotv"
+  },
+  "Unsealing the Past (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "lotv"
+  },
+  "Purification (Terran)": {
+    "faction": "Terran",
+    "campaign": "lotv"
+  },
+  "Purification (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "lotv"
+  },
+  "Steps of the Rite (Terran)": {
+    "faction": "Terran",
+    "campaign": "lotv"
+  },
+  "Steps of the Rite (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "lotv"
+  },
+  "Rak'Shir (Terran)": {
+    "faction": "Terran",
+    "campaign": "lotv"
+  },
+  "Rak'Shir (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "lotv"
+  },
+  "Templar's Charge (Terran)": {
+    "faction": "Terran",
+    "campaign": "lotv"
+  },
+  "Templar's Charge (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "lotv"
+  },
+  "The Host (Terran)": {
+    "faction": "Terran",
+    "campaign": "lotv"
+  },
+  "The Host (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "lotv"
+  },
+  "Salvation (Terran)": {
+    "faction": "Terran",
+    "campaign": "lotv"
+  },
+  "Salvation (Zerg)": {
     "faction": "Zerg",
     "campaign": "lotv"
   }

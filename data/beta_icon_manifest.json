@@ -396,6 +396,9 @@
  "Colossus": [
   "icons/blizzard/btn-unit-protoss-colossus.png"
  ],
+ "Combat Carapace (Pygalisk)": [
+  "icons/blizzard/btn-upgrade-stetmann-mechachitinousplating.png"
+ ],
  "Combat Drugs (Reaper)": [
   "icons/blizzard/btn-upgrade-terran-reapercombatdrugs.png"
  ],
@@ -503,6 +506,9 @@
  "Deep Tunnel (Swarm Queen)": [
   "icons/blizzard/btn-ability-zerg-deeptunnel.png"
  ],
+ "Defender Mode (Infested Liberator)": [
+  "icons/blizzard/talent-raynor-level06-unlockliberator.png"
+ ],
  "Defensive Matrix (Science Vessel)": [
   "icons/blizzard/btn-upgrade-swann-defensivematrix.png"
  ],
@@ -582,6 +588,9 @@
  ],
  "Dual-Fusion Welders (SCV)": [
   "icons/blizzard/btn-upgrade-swann-scvdoublerepair.png"
+ ],
+ "Ducal Blades (Pygalisk)": [
+  "icons/blizzard/btn-ability-zerg-dehaka-ultralisk-brutalcharge.png"
  ],
  "Durable Materials (Raven)": [
   "icons/blizzard/btn-upgrade-terran-durablematerials.png"
@@ -1498,6 +1507,9 @@
  "Progressive Automated Mitosis (Infested Siege Tank)": [
   "icons/blizzard/btn-upgrade-zerg-stukov-siegetankammoregen.png"
  ],
+ "Progressive Baneling Launch (Aberration)": [
+  "icons/blizzard/abilityicon_spawnbanelings_square.png"
+ ],
  "Progressive Cross-Spectrum Dampeners (Banshee)": [
   "icons/original/btn-permacloak-banshee.png",
   "icons/original/btn-banshee-cross-spectrum-dampeners.png"
@@ -1714,6 +1726,9 @@
  ],
  "Purifier Beam (Spear of Adun Calldown)": [
   "icons/blizzard/btn-ability-spearofadun-purifierbeam.png"
+ ],
+ "Pygalisk": [
+  "icons/blizzard/btn-unit-collection-primal-ultralisk.png"
  ],
  "Pylon Overcharge (Spear of Adun Calldown)": [
   "icons/blizzard/btn-ability-protoss-purify.png"
@@ -2192,6 +2207,9 @@
   "icons/blizzard/btn-upgrade-vorazun-oraclepermanentlycloaked.png"
  ],
  "Stim Infusion (Nova Gadget)": [
+  "icons/blizzard/btn-ability-terran-stimpack-color.png"
+ ],
+ "Stimpack (Pygalisk)": [
   "icons/blizzard/btn-ability-terran-stimpack-color.png"
  ],
  "Structure Armor (Terran)": [
