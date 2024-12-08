@@ -1,6 +1,6 @@
 {
   "meta": {
-    "timestamp": "2024-12-06",
+    "timestamp": "2024-12-08",
     "items": 795,
     "located": 763
   },
@@ -195,7 +195,6 @@
       "assets\\textures\\btn-techupgrade-terran-combatshield-color.dds"
     ],
     "Advanced Medic Facilities (Medic)": [
-      "btn-techupgrade-terran-nano-botinjectors.dds",
       "btn-upgrade-terran-internalizedtechmodule.dds"
     ],
     "Stabilizer Medpacks (Medic)": [
@@ -208,7 +207,6 @@
       "assets\\textures\\btn-upgrade-raynor-juggernautplating.dds"
     ],
     "Concussive Shells (Marauder)": [
-      "assets\\textures\\btn-ability-mengsk-marauder-superconcussiveshells.dds",
       "assets\\textures\\btn-ability-terran-punishergrenade-color.dds"
     ],
     "Kinetic Foam (Marauder)": [
@@ -327,18 +325,15 @@
       "assets\\textures\\btn-upgrade-terran-lazertargetingsystem.dds"
     ],
     "Advanced Cloaking Field (Reaper)": [
-      "ap\\assets\\custom\\textures\\btn-permacloak-reaper.dds",
-      "assets\\textures\\btn-ability-terran-cloak-color.dds"
+      "ap\\assets\\custom\\textures\\btn-permacloak-reaper.dds"
     ],
     "Spider Mines (Reaper)": [
-      "ap\\assets\\textures\\btn-ability-terran-spidermine.dds",
-      "assets\\textures\\btn-upgrade-raynor-replenishablemagazine.dds"
+      "ap\\assets\\textures\\btn-ability-terran-spidermine.dds"
     ],
     "Combat Drugs (Reaper)": [
       "assets\\textures\\btn-upgrade-terran-reapercombatdrugs.dds"
     ],
     "Hellbat Aspect (Hellion)": [
-      "assets\\textures\\btn-unit-terran-hellion.dds",
       "assets\\textures\\btn-unit-terran-hellionbattlemode.dds"
     ],
     "Smart Servos (Hellion)": [
@@ -364,8 +359,7 @@
       "ap\\assets\\textures\\btn-ability-terran-spidermine.dds"
     ],
     "Jump Jets (Goliath)": [
-      "ap\\assets\\textures\\btn-ability-terran-goliath-jetpack.dds",
-      "assets\\textures\\btn-ability-protoss-blink-color.dds"
+      "ap\\assets\\textures\\btn-ability-terran-goliath-jetpack.dds"
     ],
     "Optimized Logistics (Goliath)": [
       "btn-upgrade-terran-optimizedlogistics.dds"
@@ -380,7 +374,6 @@
       "btn-ability-hornerhan-salvagebonus.dds"
     ],
     "Jump Jets (Siege Tank)": [
-      "assets\\textures\\btn-ability-protoss-blink-color.dds",
       "assets\\textures\\btn-upgrade-terran-jumpjets.dds"
     ],
     "Spider Mines (Siege Tank)": [
@@ -512,8 +505,7 @@
       "assets\\textures\\btn-techupgrade-terran-rapiddeployment.dds"
     ],
     "Advanced Healing AI (Medivac)": [
-      "assets\\textures\\btn-ability-mengsk-medivac-doublehealbeam.dds",
-      "assets\\textures\\btn-ability-terran-heal-color.dds"
+      "assets\\textures\\btn-ability-mengsk-medivac-doublehealbeam.dds"
     ],
     "Progressive Tomahawk Power Cells (Wraith)": [
       "ap\\assets\\custom\\textures\\btn-permacloak-wraith.dds",
@@ -549,15 +541,13 @@
       "ap\\assets\\custom\\textures\\btn-permacloak-ghost.dds"
     ],
     "Psionic Lash (Spectre)": [
-      "ap\\assets\\textures\\btn-ability-terran-ultrasonicpulse.dds",
       "assets\\textures\\btn-techupgrade-terran-psioniclash.dds"
     ],
     "Nyx-Class Cloaking Module (Spectre)": [
       "ap\\assets\\custom\\textures\\btn-permacloak-spectre.dds"
     ],
     "330mm Barrage Cannon (Thor)": [
-      "ap\\assets\\custom\\textures\\btn-ability-thor-330mm.dds",
-      "assets\\textures\\btn-ability-terran-bombardmentstrike-color.dds"
+      "ap\\assets\\custom\\textures\\btn-ability-thor-330mm.dds"
     ],
     "Progressive Immortality Protocol (Thor)": [
       "assets\\textures\\btn-ability-mengsk-thor-bigboycover.dds",
@@ -567,7 +557,6 @@
       "assets\\textures\\btn-upgrade-terran-advanceballistics.dds"
     ],
     "Raid Artillery (Liberator)": [
-      "assets\\textures\\btn-upgrade-raynor-maelstromrounds.dds",
       "assets\\textures\\btn-upgrade-terran-nova-terrandefendermodestructureattack.dds"
     ],
     "Drilling Claws (Widow Mine)": [
@@ -613,14 +602,12 @@
       "btn-ability-hornerhan-salvagebonus.dds"
     ],
     "Button With a Skull on It (Thor)": [
-      "assets\\textures\\btn-ability-terran-nuclearstrike-color.dds",
-      "btn-ability-tychus-odin-bigredbutton.dds"
+      "assets\\textures\\btn-ability-terran-nuclearstrike-color.dds"
     ],
     "Laser Targeting System (Thor)": [
       "assets\\textures\\btn-upgrade-terran-lazertargetingsystem.dds"
     ],
     "Large Scale Field Construction (Thor)": [
-      "assets\\textures\\btn-unit-terran-thor.dds",
       "talent-swann-level12-immortalityprotocol.dds"
     ],
     "Resource Efficiency (Raven)": [
@@ -633,8 +620,7 @@
       "assets\\textures\\btn-upgrade-swann-improvednanorepair.dds"
     ],
     "Advanced AI Systems (Science Vessel)": [
-      "assets\\textures\\btn-ability-mengsk-medivac-doublehealbeam.dds",
-      "assets\\textures\\btn-ability-terran-heal-color.dds"
+      "assets\\textures\\btn-ability-mengsk-medivac-doublehealbeam.dds"
     ],
     "Resource Efficiency (Cyclone)": [
       "btn-ability-hornerhan-salvagebonus.dds"
@@ -664,7 +650,6 @@
       "btn-upgrade-terran-internalizedtechmodule.dds"
     ],
     "EMP Rounds (Ghost)": [
-      "assets\\textures\\btn-ability-mengsk-ghost-staticempblast.dds",
       "assets\\textures\\btn-ability-terran-emp-color.dds"
     ],
     "Lockdown (Ghost)": [
@@ -705,8 +690,7 @@
       "Assets\\Textures\\btn-upgrade-swann-defensivematrix.dds"
     ],
     "Targeting Optics (Cyclone)": [
-      "assets\\textures\\btn-upgrade-swann-targetingoptics.dds",
-      "assets\\textures\\btn-upgrade-terran-durablematerials.dds"
+      "assets\\textures\\btn-upgrade-swann-targetingoptics.dds"
     ],
     "Rapid Fire Launchers (Cyclone)": [
       "assets\\textures\\btn-upgrade-raynor-ripwavemissiles.dds"
@@ -845,39 +829,9 @@
       "assets\\textures\\btn-unit-terran-merc-thor.dds"
     ],
     "Ultra-Capacitors (Terran)": [
-      "ap\\assets\\custom\\textures\\btn-upgrade-terran-infantryweaponslevel4.dds",
-      "ap\\assets\\custom\\textures\\btn-upgrade-terran-infantryweaponslevel5.dds",
-      "ap\\assets\\custom\\textures\\btn-upgrade-terran-shipweaponslevel4.dds",
-      "ap\\assets\\custom\\textures\\btn-upgrade-terran-shipweaponslevel5.dds",
-      "ap\\assets\\custom\\textures\\btn-upgrade-terran-vehicleweaponslevel4.dds",
-      "ap\\assets\\custom\\textures\\btn-upgrade-terran-vehicleweaponslevel5.dds",
-      "assets\\textures\\btn-upgrade-terran-infantryweaponslevel1.dds",
-      "assets\\textures\\btn-upgrade-terran-infantryweaponslevel2.dds",
-      "assets\\textures\\btn-upgrade-terran-infantryweaponslevel3.dds",
-      "assets\\textures\\btn-upgrade-terran-shipweaponslevel1.dds",
-      "assets\\textures\\btn-upgrade-terran-shipweaponslevel2.dds",
-      "assets\\textures\\btn-upgrade-terran-shipweaponslevel3.dds",
-      "assets\\textures\\btn-upgrade-terran-vehicleweaponslevel1.dds",
-      "assets\\textures\\btn-upgrade-terran-vehicleweaponslevel2.dds",
-      "assets\\textures\\btn-upgrade-terran-vehicleweaponslevel3.dds",
       "btn-research-terran-ultracapacitors.dds"
     ],
     "Vanadium Plating (Terran)": [
-      "ap\\assets\\custom\\textures\\btn-upgrade-terran-infantryarmorlevel4.dds",
-      "ap\\assets\\custom\\textures\\btn-upgrade-terran-infantryarmorlevel5.dds",
-      "ap\\assets\\custom\\textures\\btn-upgrade-terran-shipplatinglevel4.dds",
-      "ap\\assets\\custom\\textures\\btn-upgrade-terran-shipplatinglevel5.dds",
-      "ap\\assets\\custom\\textures\\btn-upgrade-terran-vehicleplatinglevel4.dds",
-      "ap\\assets\\custom\\textures\\btn-upgrade-terran-vehicleplatinglevel5.dds",
-      "assets\\textures\\btn-upgrade-terran-infantryarmorlevel1.dds",
-      "assets\\textures\\btn-upgrade-terran-infantryarmorlevel2.dds",
-      "assets\\textures\\btn-upgrade-terran-infantryarmorlevel3.dds",
-      "assets\\textures\\btn-upgrade-terran-shipplatinglevel1.dds",
-      "assets\\textures\\btn-upgrade-terran-shipplatinglevel2.dds",
-      "assets\\textures\\btn-upgrade-terran-shipplatinglevel3.dds",
-      "assets\\textures\\btn-upgrade-terran-vehicleplatinglevel1.dds",
-      "assets\\textures\\btn-upgrade-terran-vehicleplatinglevel2.dds",
-      "assets\\textures\\btn-upgrade-terran-vehicleplatinglevel3.dds",
       "btn-research-terran-vanadiumplating.dds"
     ],
     "Orbital Depots (Terran)": [
@@ -1034,12 +988,9 @@
       "assets\\textures\\btn-ability-zerg-yagdra-aoe.dds"
     ],
     "Additional Starting Minerals": [
-      "icon-mineral-nobg.dds",
-      "ui_aicommand_build_open_economicfocus.dds"
+      "icon-mineral-nobg.dds"
     ],
     "Additional Starting Vespene": [
-      "btn-ability-spearofadun-orbitalassimilator.dds",
-      "btn-tips-resourcecaches.dds",
       "icon-gas-terran-nobg.dds"
     ],
     "Additional Starting Supply": [
@@ -1085,8 +1036,7 @@
       "assets\\textures\\btn-upgrade-nova-equipment-plasmagun.dds"
     ],
     "Monomolecular Blade (Nova Weapon)": [
-      "assets\\textures\\btn-upgrade-nova-equipment-monomolecularblade.dds",
-      "assets\\textures\\btn-upgrade-nova-monomolecularblade.dds"
+      "assets\\textures\\btn-upgrade-nova-equipment-monomolecularblade.dds"
     ],
     "Blazefire Gunblade (Nova Weapon)": [
       "assets\\textures\\btn-upgrade-nova-equipment-gunblade_sword.dds"
@@ -1107,25 +1057,18 @@
       "assets\\textures\\btn-upgrade-nova-holographicdecoy.dds"
     ],
     "Tac Nuke Strike (Nova Ability)": [
-      "assets\\textures\\btn-ability-terran-armnuke.dds",
       "assets\\textures\\btn-ability-terran-nuclearstrike-color.dds"
     ],
     "Zergling": [
-      "assets\\textures\\btn-unit-zerg-zergling-raptor.dds",
-      "assets\\textures\\btn-unit-zerg-zergling-swarmling.dds",
       "assets\\textures\\btn-unit-zerg-zergling.dds"
     ],
     "Swarm Queen": [
       "assets\\textures\\btn-unit-zerg-broodqueen.dds"
     ],
     "Roach": [
-      "assets\\textures\\btn-unit-zerg-roach-corpser.dds",
-      "assets\\textures\\btn-unit-zerg-roach-vile.dds",
       "assets\\textures\\btn-unit-zerg-roach.dds"
     ],
     "Hydralisk": [
-      "assets\\textures\\btn-unit-zerg-hydralisk-impaler.dds",
-      "assets\\textures\\btn-unit-zerg-hydralisk-lurker.dds",
       "assets\\textures\\btn-unit-zerg-hydralisk.dds"
     ],
     "Baneling Aspect (Zergling)": [
@@ -1135,21 +1078,15 @@
       "assets\\textures\\btn-unit-zerg-aberration.dds"
     ],
     "Mutalisk": [
-      "assets\\textures\\btn-unit-zerg-mutalisk-broodlord.dds",
-      "assets\\textures\\btn-unit-zerg-mutalisk-viper.dds",
       "assets\\textures\\btn-unit-zerg-mutalisk.dds"
     ],
     "Swarm Host": [
-      "assets\\textures\\btn-unit-zerg-swarmhost-carrion.dds",
-      "assets\\textures\\btn-unit-zerg-swarmhost-creeper.dds",
       "assets\\textures\\btn-unit-zerg-swarmhost.dds"
     ],
     "Infestor": [
       "assets\\textures\\btn-unit-zerg-infestor.dds"
     ],
     "Ultralisk": [
-      "assets\\textures\\btn-unit-zerg-ultralisk-noxious.dds",
-      "assets\\textures\\btn-unit-zerg-ultralisk-torrasque.dds",
       "assets\\textures\\btn-unit-zerg-ultralisk.dds"
     ],
     "Spore Crawler": [
@@ -1274,7 +1211,6 @@
       "assets\\textures\\btn-upgrade-zerg-rupture.dds"
     ],
     "Regenerative Acid (Baneling)": [
-      "assets\\textures\\btn-ability-zerg-explode-color.dds",
       "assets\\textures\\btn-upgrade-zerg-regenerativebile.dds"
     ],
     "Vicious Glaive (Mutalisk)": [
@@ -1287,9 +1223,7 @@
       "assets\\textures\\btn-upgrade-zerg-explosiveglaive.dds"
     ],
     "Burrow (Swarm Host)": [
-      "assets\\textures\\btn-ability-zerg-burrow-color.dds",
-      "assets\\textures\\btn-ability-zerg-swarmhost_root.dds",
-      "assets\\textures\\btn-upgrade-zerg-swarmhostburrow.dds"
+      "assets\\textures\\btn-ability-zerg-burrow-color.dds"
     ],
     "Rapid Incubation (Swarm Host)": [
       "assets\\textures\\btn-upgrade-zerg-rapidincubation.dds"
@@ -1313,11 +1247,9 @@
       "assets\\textures\\btn-ability-zerg-corruption-color.dds"
     ],
     "Virulent Spores (Scourge)": [
-      "assets\\textures\\btn-ability-zerg-explode-color.dds",
       "assets\\textures\\btn-upgrade-zagara-scourgesplashdamage.dds"
     ],
     "Resource Efficiency (Scourge)": [
-      "assets\\textures\\btn-upgrade-zagara-scourgegasreduction.dds",
       "btn-ability-hornerhan-salvagebonus.dds"
     ],
     "Swarm Scourge (Scourge)": [
@@ -1459,7 +1391,6 @@
       "assets\\textures\\btn-upgrade-zerg-organiccarapace.dds"
     ],
     "Bio-Mechanical Transfusion (Swarm Queen)": [
-      "assets\\textures\\btn-ability-zerg-transfusion-color.dds",
       "assets\\textures\\btn-upgrade-zerg-abathur-biomechanicaltransfusion.dds"
     ],
     "Resource Efficiency (Swarm Queen)": [
@@ -1481,13 +1412,9 @@
       "assets\\textures\\btn-upgrade-zagara-increasebilelauncherrange.dds"
     ],
     "Trapdoor Adaptation (Defiler)": [
-      "assets\\textures\\btn-ability-zerg-consume.dds",
-      "assets\\textures\\btn-ability-zerg-darkswarm.dds",
-      "assets\\textures\\btn-ability-zerg-defilerplague.dds",
       "assets\\textures\\btn-upgrade-zerg-burrowmove.dds"
     ],
     "Predatory Consumption (Defiler)": [
-      "assets\\textures\\btn-ability-zerg-consume.dds",
       "assets\\textures\\btn-progression-zerg-dehaka-15-genemutation.dds"
     ],
     "Comorbidity (Defiler)": [
@@ -1551,66 +1478,45 @@
       "assets\\textures\\btn-ability-zerg-acidspores.dds"
     ],
     "Raptor Strain (Zergling)": [
-      "assets\\textures\\btn-ability-zerg-cliffjump-zergling.dds",
-      "assets\\textures\\btn-unit-zerg-zergling-raptor.dds",
-      "assets\\textures\\btn-upgrade-zerg-swarmfrenzy.dds"
+      "assets\\textures\\btn-unit-zerg-zergling-raptor.dds"
     ],
     "Swarmling Strain (Zergling)": [
-      "ap\\assets\\textures\\btn-unit-zerg-zergling-scr.dds",
-      "assets\\textures\\btn-unit-zerg-zergling-swarmling.dds",
-      "assets\\textures\\btn-upgrade-zerg-rapidgenesis.dds"
+      "assets\\textures\\btn-unit-zerg-zergling-swarmling.dds"
     ],
     "Vile Strain (Roach)": [
-      "assets\\textures\\btn-ability-zerg-debilitatingbile.dds",
       "assets\\textures\\btn-unit-zerg-roach-vile.dds"
     ],
     "Corpser Strain (Roach)": [
-      "assets\\textures\\btn-unit-zerg-roach-corpser.dds",
-      "assets\\textures\\btn-unit-zerg-roachlings.dds"
+      "assets\\textures\\btn-unit-zerg-roach-corpser.dds"
     ],
     "Impaler Aspect (Hydralisk)": [
-      "assets\\textures\\btn-unit-zerg-hydralisk-impaler.dds",
       "assets\\textures\\btn-unit-zerg-impaler.dds"
     ],
     "Lurker Aspect (Hydralisk)": [
-      "assets\\textures\\btn-unit-zerg-hydralisk-lurker.dds",
       "assets\\textures\\btn-unit-zerg-lurker.dds"
     ],
     "Splitter Strain (Baneling)": [
-      "assets\\textures\\btn-unit-zerg-splitterling.dds",
       "talent-zagara-level14-unlocksplitterling.dds"
     ],
     "Hunter Strain (Baneling)": [
-      "assets\\textures\\btn-ability-zerg-cliffjump-baneling.dds",
       "assets\\textures\\btn-unit-zerg-baneling-hunter.dds"
     ],
     "Brood Lord Aspect (Mutalisk/Corruptor)": [
-      "assets\\textures\\btn-unit-zerg-broodlord.dds",
-      "assets\\textures\\btn-unit-zerg-mutalisk-broodlord.dds"
+      "assets\\textures\\btn-unit-zerg-broodlord.dds"
     ],
     "Viper Aspect (Mutalisk/Corruptor)": [
-      "assets\\textures\\btn-unit-zerg-mutalisk-viper.dds",
-      "assets\\textures\\btn-unit-zerg-viper.dds"
+      "assets\\textures\\btn-unit-zerg-mutalisk-viper.dds"
     ],
     "Carrion Strain (Swarm Host)": [
-      "assets\\textures\\btn-unit-zerg-locust.dds",
-      "assets\\textures\\btn-unit-zerg-locustflyer.dds",
-      "assets\\textures\\btn-unit-zerg-swarmhost-carrion.dds",
-      "assets\\textures\\btn-unit-zerg-swarmhost.dds"
+      "assets\\textures\\btn-unit-zerg-swarmhost-carrion.dds"
     ],
     "Creeper Strain (Swarm Host)": [
-      "assets\\textures\\btn-ability-zerg-creepspread.dds",
-      "assets\\textures\\btn-ability-zerg-deeptunnel.dds",
-      "assets\\textures\\btn-unit-zerg-swarmhost-creeper.dds",
-      "assets\\textures\\btn-unit-zerg-swarmhost.dds"
+      "assets\\textures\\btn-unit-zerg-swarmhost-creeper.dds"
     ],
     "Noxious Strain (Ultralisk)": [
-      "assets\\textures\\btn-ability-zerg-noxiouscloud.dds",
-      "assets\\textures\\btn-ability-zerg-poisonnova.dds",
       "assets\\textures\\btn-unit-zerg-ultralisk-noxious.dds"
     ],
     "Torrasque Strain (Ultralisk)": [
-      "assets\\textures\\btn-ability-zerg-ultralisk-revive.dds",
       "assets\\textures\\btn-unit-zerg-ultralisk-torrasque.dds"
     ],
     "Tyrant's Protection (Tyrannozor)": [
@@ -1660,7 +1566,6 @@
       "assets\\textures\\btn-upgrade-zerg-stukov-bansheemorelife.dds"
     ],
     "Rapid Hibernation (Infested Banshee)": [
-      "assets\\textures\\btn-ability-zerg-burrow-color.dds",
       "assets\\textures\\btn-upgrade-zerg-stukov-bansheeburrowregeneration.dds"
     ],
     "Cloud Dispersal (Infested Liberator)": [
@@ -1712,8 +1617,7 @@
       "talent-raynor-level06-unlockliberator.dds"
     ],
     "Progressive Baneling Launch (Aberration)": [
-      "assets\\textures\\abilityicon_spawnbanelings_square.dds",
-      "assets\\textures\\ui_emoticons_baneling.dds"
+      "assets\\textures\\abilityicon_spawnbanelings_square.dds"
     ],
     "Stimpack (Pygalisk)": [
       "assets\\textures\\btn-ability-terran-stimpack-color.dds"
@@ -1749,8 +1653,7 @@
       "assets\\textures\\btn-ability-kerrigan-improvedoverlords.dds"
     ],
     "Automated Extractors (Zerg)": [
-      "assets\\textures\\btn-ability-kerrigan-automatedextractors.dds",
-      "assets\\textures\\btn-building-zerg-extractor.dds"
+      "assets\\textures\\btn-ability-kerrigan-automatedextractors.dds"
     ],
     "Wild Mutation (Kerrigan Ability)": [
       "assets\\textures\\btn-ability-kerrigan-wildmutation.dds"
@@ -1831,14 +1734,12 @@
       "assets\\textures\\btn-unit-zerg-ultralisk-remastered.dds"
     ],
     "Hunterling": [
-      "ap\\assets\\custom\\textures\\btn-unit-hunterling.dds",
-      "assets\\textures\\btn-building-zerg-roachwarren.dds"
+      "ap\\assets\\custom\\textures\\btn-unit-hunterling.dds"
     ],
     "Yggdrasil": [
       "assets\\textures\\btn-unit-collection-overlord-mutant.dds"
     ],
     "Ventral Sacs (Overlord)": [
-      "assets\\textures\\btn-ability-terran-load.dds",
       "assets\\textures\\btn-upgrade-zerg-ventralsacs.dds"
     ],
     "Generate Creep (Overlord)": [
@@ -2108,14 +2009,12 @@
       "assets\\textures\\btn-upgrade-vorazun-corsairpermanentlycloaked.dds"
     ],
     "Argus Jewel (Corsair)": [
-      "assets\\textures\\btn-ability-protoss-disruptionweb.dds",
       "assets\\textures\\btn-ability-protoss-stasistrap.dds"
     ],
     "Sustaining Disruption (Corsair)": [
       "assets\\textures\\btn-ability-protoss-disruptionweb.dds"
     ],
     "Neutron Shields (Corsair)": [
-      "assets\\textures\\btn-upgrade-protoss-adeptshieldupgrade.dds",
       "assets\\textures\\btn-upgrade-protoss-shieldslevel1.dds"
     ],
     "Stealth Drive (Oracle)": [
@@ -2125,7 +2024,6 @@
       "assets\\textures\\btn-ability-protoss-oracle-stasiscalibration.dds"
     ],
     "Temporal Acceleration Beam (Oracle)": [
-      "assets\\textures\\btn-ability-protoss-oraclepulsarcannonoff.dds",
       "assets\\textures\\btn-ability-protoss-oraclepulsarcannonon.dds"
     ],
     "Chronostatic Reinforcement (Arbiter)": [
@@ -2222,8 +2120,7 @@
       "assets\\textures\\btn-ability-protoss-psistorm.dds"
     ],
     "Hallucination (High Templar/Signifier)": [
-      "assets\\textures\\btn-ability-protoss-hallucination-color.dds",
-      "assets\\textures\\btn-unit-protoss-hightemplar.dds"
+      "assets\\textures\\btn-ability-protoss-hallucination-color.dds"
     ],
     "Khaydarin Amulet (High Templar/Signifier)": [
       "assets\\textures\\btn-upgrade-protoss-khaydarinamulet.dds"
@@ -2404,7 +2301,6 @@
       "assets\\textures\\btn-ability-protoss-entomb.dds"
     ],
     "Restructured Thrusters (Disruptor)": [
-      "assets\\textures\\btn-ability-protoss-blinkcharges.dds",
       "assets\\textures\\btn-upgrade-protoss-alarak-stalkerphasingarmor.dds"
     ],
     "Warp Refraction (Warp Prism)": [
@@ -2493,20 +2389,13 @@
       "btn-progression-protoss-fenix-6-forgeresearch.dds"
     ],
     "Nexus Overcharge (Protoss)": [
-      "assets\\textures\\btn-ability-spearofadun-nexusovercharge.dds",
-      "assets\\textures\\btn-upgrade-karax-turretattackspeed.dds",
-      "assets\\textures\\btn-upgrade-karax-turretrange.dds"
+      "assets\\textures\\btn-ability-spearofadun-nexusovercharge.dds"
     ],
     "Orbital Assimilators (Protoss)": [
-      "assets\\textures\\btn-ability-spearofadun-orbitalassimilator.dds",
-      "assets\\textures\\btn-building-protoss-assimilator.dds"
+      "assets\\textures\\btn-ability-spearofadun-orbitalassimilator.dds"
     ],
     "Warp Harmonization (Protoss)": [
-      "assets\\textures\\btn-ability-spearofadun-warpharmonization.dds",
-      "assets\\textures\\btn-building-protoss-roboticsfacility.dds",
-      "assets\\textures\\btn-building-protoss-roboticswarpfacility.dds",
-      "assets\\textures\\btn-building-protoss-stargate.dds",
-      "assets\\textures\\btn-building-protoss-starwarpgate.dds"
+      "assets\\textures\\btn-ability-spearofadun-warpharmonization.dds"
     ],
     "Guardian Shell (Spear of Adun Auto-Cast)": [
       "assets\\textures\\btn-ability-spearofadun-guardianshell.dds"
