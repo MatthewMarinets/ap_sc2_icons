@@ -1,8 +1,8 @@
 {
   "meta": {
-    "timestamp": "2024-12-08",
-    "items": 795,
-    "located": 763
+    "timestamp": "2024-12-14",
+    "items": 808,
+    "located": 776
   },
   "locations": {
     "Marine": [
@@ -1001,6 +1001,15 @@
     "Nothing": [
       "btn-command-cancel.dds"
     ],
+    "Additional Maximum Supply": [
+      "icon-health-nobg.dds"
+    ],
+    "Increased Shield Regeneration": [
+      "icon-shields.dds"
+    ],
+    "Increased Building Construction Speed": [
+      "icon-time-protoss.dds"
+    ],
     "Ghost Visor (Nova Equipment)": [
       "assets\\textures\\btn-upgrade-nova-equipment-ghostvisor.dds"
     ],
@@ -1135,7 +1144,10 @@
       "assets\\textures\\btn-building-stukov-infestedturret.dds"
     ],
     "Pygalisk": [
-      "assets\\textures\\btn-unit-collection-primal-ultralisk.dds"
+      "assets\\textures\\btn-unit-zerg-ultralisk-rcz.dds"
+    ],
+    "Bile Launcher": [
+      "assets\\textures\\btn-building-zerg-sporecannon.dds"
     ],
     "Progressive Zerg Melee Attack": [
       "ap\\assets\\custom\\textures\\btn-upgrade-zerg-meleeattacks-level4.dds",
@@ -1628,6 +1640,12 @@
     "Combat Carapace (Pygalisk)": [
       "assets\\textures\\btn-upgrade-stetmann-mechachitinousplating.dds"
     ],
+    "Artillery Ducts (Bile Launcher)": [
+      "assets\\textures\\btn-upgrade-zagara-increasebilelauncherrange.dds"
+    ],
+    "Rapid Bombardment (Bile Launcher)": [
+      "assets\\textures\\btn-upgrade-zerg-demolition.dds"
+    ],
     "Kinetic Blast (Kerrigan Ability)": [
       "assets\\textures\\btn-ability-kerrigan-kineticblast.dds"
     ],
@@ -1738,6 +1756,9 @@
     ],
     "Yggdrasil": [
       "assets\\textures\\btn-unit-collection-overlord-mutant.dds"
+    ],
+    "Thornshells": [
+      "assets\\textures\\btn-unit-collection-webby-roach.dds"
     ],
     "Ventral Sacs (Overlord)": [
       "assets\\textures\\btn-upgrade-zerg-ventralsacs.dds"
@@ -2219,6 +2240,21 @@
     "Latticed Shielding (Stalwart)": [
       "assets\\textures\\btn-ability-protoss-barrier-upgraded.dds"
     ],
+    "Transcendence (Archon)": [
+      "assets\\textures\\btn-ability-protoss-astralwind.dds"
+    ],
+    "Power Siphon (Archon)": [
+      "assets\\textures\\btn-ability-protoss-shieldrecharge.dds"
+    ],
+    "Eradicate (Archon)": [
+      "assets\\textures\\btn-ability-protoss-recallondeath.dds"
+    ],
+    "Obliterate (Archon)": [
+      "assets\\textures\\btn-ability-spearofadun-chronomancy.dds"
+    ],
+    "Zenith Pitch (Supplicant)": [
+      "assets\\textures\\btn-upgrade-protoss-alarak-rangeweapon.dds"
+    ],
     "Whirlwind (Zealot)": [
       "assets\\textures\\btn-ability-protoss-whirlwind.dds"
     ],
@@ -2344,6 +2380,9 @@
     ],
     "Ability Efficiency (Arbiter)": [
       "assets\\textures\\btn-ability-stetmann-stetelliteoverloadenergy.dds"
+    ],
+    "Integrated Power (Mothership)": [
+      "assets\\textures\\btn-ability-stetmann-garypersonalstetzone-energy.dds"
     ],
     "Chrono Surge (Spear of Adun Calldown)": [
       "assets\\textures\\btn-ability-spearofadun-chronosurge.dds"

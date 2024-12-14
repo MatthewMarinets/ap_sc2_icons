@@ -38,6 +38,9 @@
  "Adaptive Talons (Impaler)": [
   "icons/blizzard/btn-upgrade-zerg-adaptivetalons.png"
  ],
+ "Additional Maximum Supply": [
+  "icons/blizzard/icon-health-nobg.png"
+ ],
  "Additional Starting Minerals": [
   "icons/blizzard/icon-mineral-nobg.png"
  ],
@@ -181,6 +184,9 @@
  "Armored Suit Module (Nova Suit Module)": [
   "icons/blizzard/btn-upgrade-nova-equipment-blinksuit.png"
  ],
+ "Artillery Ducts (Bile Launcher)": [
+  "icons/blizzard/btn-upgrade-zagara-increasebilelauncherrange.png"
+ ],
  "Ascendant": [
   "icons/blizzard/btn-unit-protoss-hightemplar-taldarim.png"
  ],
@@ -228,6 +234,9 @@
  ],
  "Behemoth Reactor (Battlecruiser)": [
   "icons/blizzard/btn-upgrade-terran-behemothreactor.png"
+ ],
+ "Bile Launcher": [
+  "icons/blizzard/btn-building-zerg-sporecannon.png"
  ],
  "Bio Mechanical Repair Drone (Raven)": [
   "icons/blizzard/btn-unit-biomechanicaldrone.png"
@@ -629,6 +638,9 @@
  "Ensnare (Brood Queen)": [
   "icons/blizzard/btn-ability-zerg-fungalgrowth-color.png"
  ],
+ "Eradicate (Archon)": [
+  "icons/blizzard/btn-ability-protoss-recallondeath.png"
+ ],
  "Evolved Carapace (Brood Lord)": [
   "icons/blizzard/btn-upgrade-zerg-chitinousplating.png"
  ],
@@ -916,6 +928,12 @@
  "Incinerator Gauntlets (Firebat)": [
   "icons/blizzard/btn-upgrade-raynor-incineratorgauntlets.png"
  ],
+ "Increased Building Construction Speed": [
+  "icons/blizzard/icon-time-protoss.png"
+ ],
+ "Increased Shield Regeneration": [
+  "icons/blizzard/icon-shields.png"
+ ],
  "Incubator Chamber (Swarm Queen)": [
   "icons/blizzard/btn-upgrade-zerg-abathur-incubationchamber.png"
  ],
@@ -972,6 +990,9 @@
  ],
  "Instigator": [
   "icons/blizzard/btn-unit-protoss-stalker-purifier.png"
+ ],
+ "Integrated Power (Mothership)": [
+  "icons/blizzard/btn-ability-stetmann-garypersonalstetzone-energy.png"
  ],
  "Interference Matrix (Raven)": [
   "icons/blizzard/btn-upgrade-terran-interferencematrix.png"
@@ -1276,6 +1297,9 @@
  "Nyx-Class Cloaking Module (Spectre)": [
   "icons/original/btn-permacloak-spectre.png"
  ],
+ "Obliterate (Archon)": [
+  "icons/blizzard/btn-ability-spearofadun-chronomancy.png"
+ ],
  "Observer": [
   "icons/blizzard/btn-unit-protoss-observer.png"
  ],
@@ -1419,6 +1443,9 @@
  ],
  "Power Overwhelming (Ascendant)": [
   "icons/blizzard/btn-upgrade-protoss-alarak-ascendantspermanentlybetter.png"
+ ],
+ "Power Siphon (Archon)": [
+  "icons/blizzard/btn-ability-protoss-shieldrecharge.png"
  ],
  "Predator": [
   "icons/original/btn-unit-terran-predator.png"
@@ -1682,7 +1709,7 @@
   "icons/blizzard/btn-ability-spearofadun-purifierbeam.png"
  ],
  "Pygalisk": [
-  "icons/blizzard/btn-unit-collection-primal-ultralisk.png"
+  "icons/blizzard/btn-unit-zerg-ultralisk-rcz.png"
  ],
  "Pylon Overcharge (Spear of Adun Calldown)": [
   "icons/blizzard/btn-ability-protoss-purify.png"
@@ -1701,6 +1728,9 @@
  ],
  "Rangefinder Oculus (Nova Equipment)": [
   "icons/blizzard/btn-upgrade-nova-equipment-rangefinderoculus.png"
+ ],
+ "Rapid Bombardment (Bile Launcher)": [
+  "icons/blizzard/btn-upgrade-zerg-demolition.png"
  ],
  "Rapid Deployment Tube (Medivac)": [
   "icons/blizzard/btn-techupgrade-terran-rapiddeployment.png"
@@ -2227,6 +2257,9 @@
  "Thor": [
   "icons/blizzard/btn-unit-terran-thor.png"
  ],
+ "Thornshells": [
+  "icons/blizzard/btn-unit-collection-webby-roach.png"
+ ],
  "Time Stop (Spear of Adun Calldown)": [
   "icons/blizzard/btn-ability-spearofadun-timestop.png"
  ],
@@ -2241,6 +2274,9 @@
  ],
  "Torrasque Strain (Ultralisk)": [
   "icons/blizzard/btn-unit-zerg-ultralisk-torrasque.png"
+ ],
+ "Transcendence (Archon)": [
+  "icons/blizzard/btn-ability-protoss-astralwind.png"
  ],
  "Trapdoor Adaptation (Defiler)": [
   "icons/blizzard/btn-upgrade-zerg-burrowmove.png"
@@ -2379,6 +2415,9 @@
  ],
  "Zealot": [
   "icons/blizzard/btn-unit-protoss-zealot.png"
+ ],
+ "Zenith Pitch (Supplicant)": [
+  "icons/blizzard/btn-upgrade-protoss-alarak-rangeweapon.png"
  ],
  "Zergling": [
   "icons/blizzard/btn-unit-zerg-zergling.png"

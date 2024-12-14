@@ -216,16 +216,43 @@
   "Infested Terran Items": [
     "Infested Marine",
     "Infested Bunker",
+    "Infested Diamondback",
+    "Infested Siege Tank",
+    "Infested Liberator",
+    "Infested Banshee",
     "Sustained Cultivation Ventricles (InfSCV Build Charges)",
     "Plagued Munitions (Infested Marine)",
     "Retinal Augmentation (Infested Marine)",
     "Calcified Armor (Infested Bunker)",
     "Regenerative Plating (Infested Bunker)",
-    "Engorged Bunkers (Infested Bunker)"
+    "Engorged Bunkers (Infested Bunker)",
+    "Caustic Mucus (Infested Diamondback)",
+    "Concentrated Spew (Infested Diamondback)",
+    "Progressive Fungal Snare (Infested Diamondback)",
+    "Violent Enzymes (Infested Diamondback)",
+    "Acidic Enzymes (Infested Siege Tank)",
+    "Balanced Roots (Infested Siege Tank)",
+    "Deep Tunnel (Infested Siege Tank)",
+    "Progressive Automated Mitosis (Infested Siege Tank)",
+    "Seismic Sonar (Infested Siege Tank)",
+    "Cloud Dispersal (Infested Liberator)",
+    "Defender Mode (Infested Liberator)",
+    "Viral Contamination (Infested Liberator)",
+    "Advanced Targeting Optics (Infested Banshee)",
+    "Braced Exoskeleton (Infested Banshee)",
+    "Rapid Hibernation (Infested Banshee)",
+    "Frightful Fleshwelder (Infested Diamondback)",
+    "Frightful Fleshwelder (Infested Siege Tank)",
+    "Frightful Fleshwelder (Infested Liberator)",
+    "Frightful Fleshwelder (Infested Banshee)"
   ],
   "Infested Terran Units": [
     "Infested Marine",
-    "Infested Bunker"
+    "Infested Bunker",
+    "Infested Diamondback",
+    "Infested Siege Tank",
+    "Infested Liberator",
+    "Infested Banshee"
   ],
   "Infested Terran Upgrades": [
     "Sustained Cultivation Ventricles (InfSCV Build Charges)",
@@ -233,7 +260,26 @@
     "Retinal Augmentation (Infested Marine)",
     "Calcified Armor (Infested Bunker)",
     "Regenerative Plating (Infested Bunker)",
-    "Engorged Bunkers (Infested Bunker)"
+    "Engorged Bunkers (Infested Bunker)",
+    "Caustic Mucus (Infested Diamondback)",
+    "Concentrated Spew (Infested Diamondback)",
+    "Progressive Fungal Snare (Infested Diamondback)",
+    "Violent Enzymes (Infested Diamondback)",
+    "Acidic Enzymes (Infested Siege Tank)",
+    "Balanced Roots (Infested Siege Tank)",
+    "Deep Tunnel (Infested Siege Tank)",
+    "Progressive Automated Mitosis (Infested Siege Tank)",
+    "Seismic Sonar (Infested Siege Tank)",
+    "Cloud Dispersal (Infested Liberator)",
+    "Defender Mode (Infested Liberator)",
+    "Viral Contamination (Infested Liberator)",
+    "Advanced Targeting Optics (Infested Banshee)",
+    "Braced Exoskeleton (Infested Banshee)",
+    "Rapid Hibernation (Infested Banshee)",
+    "Frightful Fleshwelder (Infested Diamondback)",
+    "Frightful Fleshwelder (Infested Siege Tank)",
+    "Frightful Fleshwelder (Infested Liberator)",
+    "Frightful Fleshwelder (Infested Banshee)"
   ],
   "Kerrigan Abilities": [
     "Kinetic Blast (Kerrigan Ability)",
@@ -709,6 +755,11 @@
     "Tac Nuke Strike (Nova Ability)",
     "Progressive Stealth Suit Module (Nova Suit Module)"
   ],
+  "Orbital Command Abilities": [
+    "Scanner Sweep (Command Center)",
+    "MULE (Command Center)",
+    "Extra Supplies (Command Center)"
+  ],
   "Overlord Upgrades": [
     "Antennae (Overlord)",
     "Ventral Sacs (Overlord)",
@@ -731,7 +782,7 @@
     "Time Stop (Spear of Adun Calldown)",
     "Solar Lance (Spear of Adun Calldown)",
     "Solar Bombardment (Spear of Adun Calldown)",
-    "Mothership"
+    "Integrated Power (Mothership)"
   ],
   "Prophecy Buildings": [
     "Photon Cannon"
@@ -789,6 +840,7 @@
     "Phoenix",
     "Void Ray",
     "Carrier",
+    "Increased Shield Regeneration",
     "Observer",
     "Centurion",
     "Sentinel",
@@ -929,6 +981,11 @@
     "Strut Enhancements (Stalwart)",
     "Stabilized Electrodes (Stalwart)",
     "Latticed Shielding (Stalwart)",
+    "Transcendence (Archon)",
+    "Power Siphon (Archon)",
+    "Eradicate (Archon)",
+    "Obliterate (Archon)",
+    "Zenith Pitch (Supplicant)",
     "Whirlwind (Zealot)",
     "Resource Efficiency (Centurion)",
     "Resource Efficiency (Sentinel)",
@@ -971,6 +1028,7 @@
     "Solar Beam (Trieme)",
     "Disintegration (Tempest)",
     "Ability Efficiency (Arbiter)",
+    "Integrated Power (Mothership)",
     "Chrono Surge (Spear of Adun Calldown)",
     "Progressive Proxy Pylon (Spear of Adun Calldown)",
     "Pylon Overcharge (Spear of Adun Calldown)",
@@ -1087,7 +1145,8 @@
     "Hyperjump (Skylord)",
     "Solar Beam (Trieme)",
     "Disintegration (Tempest)",
-    "Ability Efficiency (Arbiter)"
+    "Ability Efficiency (Arbiter)",
+    "Integrated Power (Mothership)"
   ],
   "Purifier": [
     "Sentinel",
@@ -2118,7 +2177,9 @@
   "Zerg Buildings": [
     "Spine Crawler",
     "Spore Crawler",
+    "Bile Launcher",
     "Infested Bunker",
+    "Infested Missile Turret",
     "Nydus Worm",
     "Echidna Worm"
   ],
@@ -2161,6 +2222,7 @@
     "Infested Liberator",
     "Infested Missile Turret",
     "Pygalisk",
+    "Bile Launcher",
     "Progressive Zerg Melee Attack",
     "Progressive Zerg Missile Attack",
     "Progressive Zerg Ground Carapace",
@@ -2320,6 +2382,8 @@
     "Stimpack (Pygalisk)",
     "Ducal Blades (Pygalisk)",
     "Combat Carapace (Pygalisk)",
+    "Artillery Ducts (Bile Launcher)",
+    "Rapid Bombardment (Bile Launcher)",
     "Kinetic Blast (Kerrigan Ability)",
     "Heroic Fortitude (Kerrigan Passive)",
     "Leaping Strike (Kerrigan Ability)",
@@ -2365,6 +2429,7 @@
     "Torrasque",
     "Hunterling",
     "Yggdrasil",
+    "Thornshells",
     "Ventral Sacs (Overlord)",
     "Generate Creep (Overlord)",
     "Antennae (Overlord)",
@@ -2390,7 +2455,8 @@
     "Hunter Killers",
     "Torrasque",
     "Hunterling",
-    "Yggdrasil"
+    "Yggdrasil",
+    "Thornshells"
   ],
   "Zerg Morphs": [
     "Baneling Aspect (Zergling)",
@@ -2425,7 +2491,6 @@
     "Infested Diamondback",
     "Infested Banshee",
     "Infested Liberator",
-    "Infested Missile Turret",
     "Pygalisk",
     "Impaler Aspect (Hydralisk)",
     "Lurker Aspect (Hydralisk)",
@@ -2439,6 +2504,7 @@
     "Torrasque",
     "Hunterling",
     "Yggdrasil",
+    "Thornshells",
     "Guardian Aspect (Mutalisk/Corruptor)",
     "Devourer Aspect (Mutalisk/Corruptor)",
     "Ravager Aspect (Roach)",

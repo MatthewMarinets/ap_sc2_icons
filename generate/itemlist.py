@@ -57,7 +57,7 @@ def write_item(fp: io.FileIO, item_name: str, item_info: str, icon_locations: li
         <li>Faction: {item_info["race"]}</li>
         <li>Classification: {item_info["classification"]}</li>
         {f'<li>Description: {item_info["description"]}</li>' if item_info["description"] else ''}
-        {f'<li>Parent: {item_info["parent_item"]}</li>' if item_info["parent_item"] else ''}
+        {f'<li>Parent: {item_info["parent"]}</li>' if item_info["parent"] else ''}
         {locations_list_items}
         </ul>
     </div>

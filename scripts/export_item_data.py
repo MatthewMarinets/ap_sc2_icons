@@ -27,7 +27,7 @@ if __name__ == '__main__':
             "race": item.race.name,
             "classification": item.classification.name,
             "quantity": item.quantity,
-            "parent_item": item.parent_item,
+            "parent": item.parent,
             "description": item_descriptions.item_descriptions[item_name],
         }
         for item_name, item in item_tables.item_table.items()
