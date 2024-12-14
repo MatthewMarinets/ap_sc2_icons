@@ -5,7 +5,8 @@
         "Orbital Module (Planetary Fortress)": ["ap/assets/textures/btn-orbital-fortress.dds"],
         "Ouroboros Strain (Echidna Worm)": ["talent-zagara-level12-unlockswarmling.dds"],
         "Ultra-Capacitors (Terran)": ["btn-research-terran-ultracapacitors.dds"],
-        "Vanadium Plating (Terran)": ["btn-research-terran-vanadiumplating.dds"]
+        "Vanadium Plating (Terran)": ["btn-research-terran-vanadiumplating.dds"],
+        "High Archon (Archon)": ["btn-unit-protoss-archon-upgraded.dds"]
     },
     "add": {
         "Additional Starting Minerals": ["icon-mineral-nobg.dds"],
@@ -22,6 +23,7 @@
         "Vanadium Plating (Terran)": ["btn-research-terran-vanadiumplating.dds"],
         "Ultra-Capacitors (Terran)": ["btn-research-terran-ultracapacitors.dds"],
         "Rogue Forces (Terran/Zerg)": ["btn-unit-terran-tosh.dds"],
+        "Hive Cluster Maturation (Zerg)": ["btn-building-zerg-hive.dds"],
         "Internal Fusion Module (Hercules)": ["btn-upgrade-terran-internalizedtechmodule.dds"],
         "Defensive Matrix (Science Vessel)": ["Assets\\Textures\\btn-upgrade-swann-defensivematrix.dds"],
         "Rapid Metamorph (Baneling)": ["btn-upgrade-terran-optimizedlogistics.dds"],
@@ -85,8 +87,10 @@
         "Aerial Tracking (Annihilator)": ["btn-ability-protoss-shadowcannon"],
         "Bio-Mechanical Transfusion (Swarm Queen)": ["btn-ability-zerg-transfusion-color"],
         "Burrow (Swarm Host)": ["btn-ability-zerg-swarmhost_root", "btn-upgrade-zerg-swarmhostburrow"],
+        "Cloud Dispersal (Infested Liberator)": ["btn-ability-zerg-parasiticbomb", "btn-upgrade-zagara-scourgegasreduction"],
         "Concussive Shells (Marauder)": ["btn-ability-mengsk-marauder-superconcussiveshells"],
         "Crius Suit (Ghost)": ["btn-techupgrade-terran-criussuit", "btn-ability-terran-cloak-color"],
+        "Demolition Armaments (Widow Mine)": ["btn-ability-terran-widow-mine-building", "btn-ability-zerg-yagdra-aoe"],
         "Double Shield Recharge (Sentry)": ["btn-ability-protoss-shieldrecharge"],
         "EMP Rounds (Ghost)": ["btn-ability-mengsk-ghost-staticempblast"],
         "Enduring Sight (Havoc)": ["btn-ability-protoss-squadsight"],
@@ -94,6 +98,7 @@
         "Hallucination (High Templar/Signifier)": ["btn-unit-protoss-hightemplar"],
         "Hellbat Aspect (Hellion)": ["btn-unit-terran-hellion"],
         "Jet Pack Overdrive (Reaper)": ["btn-techupgrade-terran-kineticfoam"],
+        "Jormungandr Strain (Nydus Worm/Echidna Worm)": ["btn-ability-zerg-dehaka-root-color"],
         "Large Scale Field Construction (Thor)": ["btn-unit-terran-thor"],
         "Monomolecular Blade (Nova Weapon)": ["btn-upgrade-nova-monomolecularblade"],
         "Neutron Shields (Corsair)": ["btn-upgrade-protoss-adeptshieldupgrade"],

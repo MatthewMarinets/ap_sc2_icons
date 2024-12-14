@@ -380,8 +380,6 @@
   "icons/blizzard/btn-upgrade-protoss-alarak-permanentcloak.png"
  ],
  "Cloud Dispersal (Infested Liberator)": [
-  "icons/blizzard/btn-ability-zerg-parasiticbomb.png",
-  "icons/blizzard/btn-upgrade-zagara-scourgegasreduction.png",
   "icons/blizzard/btn-upgrade-zerg-stukov-infestedliberatorswarmcloud.png"
  ],
  "Colossus": [
@@ -502,9 +500,7 @@
   "icons/original/btn-unit-zerg-defiler@scbw.png"
  ],
  "Demolition Armaments (Widow Mine)": [
-  "icons/original/btn-ability-terran-widow-mine-building.png",
-  "icons/blizzard/btn-ability-terran-ignorearmor.png",
-  "icons/blizzard/btn-ability-zerg-yagdra-aoe.png"
+  "icons/blizzard/btn-ability-terran-ignorearmor.png"
  ],
  "Deploy Fenix (Spear of Adun Calldown)": [
   "icons/blizzard/btn-unit-protoss-fenix.png"
@@ -841,11 +837,7 @@
   "icons/blizzard/btn-upgrade-terran-hisecautotracking.png"
  ],
  "High Archon (Archon)": [
-  "icons/blizzard/btn-ability-protoss-feedback-color.png",
-  "icons/blizzard/btn-ability-protoss-hallucination-color.png",
-  "icons/blizzard/btn-ability-protoss-psistorm-color.png",
-  "icons/blizzard/btn-ability-protoss-psistorm.png",
-  "icons/blizzard/btn-upgrade-artanis-healingpsionicstorm.png"
+  "icons/blizzard/btn-unit-protoss-archon-upgraded.png"
  ],
  "High Explosive Munition (Spider Mine)": [
   "icons/original/btn-ability-terran-spidermine.png"
@@ -858,6 +850,9 @@
  ],
  "High Voltage Capacitors (Stalwart)": [
   "icons/blizzard/btn-tips-sellprotossartifacts.png"
+ ],
+ "Hive Cluster Maturation (Zerg)": [
+  "icons/blizzard/btn-building-zerg-hive.png"
  ],
  "Hive Mind Emulator": [
   "icons/original/btn-building-terran-hivemindemulator.png"
@@ -1046,7 +1041,6 @@
   "icons/blizzard/btn-ability-hornerhan-reaper-flightmode.png"
  ],
  "Jormungandr Strain (Nydus Worm/Echidna Worm)": [
-  "icons/blizzard/btn-ability-zerg-dehaka-root-color.png",
   "icons/blizzard/btn-upgrade-zerg-enduringcorruption.png"
  ],
  "Jotun": [

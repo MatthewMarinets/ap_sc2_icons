@@ -2,7 +2,7 @@
   "meta": {
     "timestamp": "2024-12-14",
     "items": 808,
-    "located": 776
+    "located": 777
   },
   "locations": {
     "Marine": [
@@ -983,9 +983,7 @@
       "assets\\textures\\btn-ability-terran-jetpack-color.dds"
     ],
     "Demolition Armaments (Widow Mine)": [
-      "ap\\assets\\custom\\textures\\btn-ability-terran-widow-mine-building.dds",
-      "assets\\textures\\btn-ability-terran-ignorearmor.dds",
-      "assets\\textures\\btn-ability-zerg-yagdra-aoe.dds"
+      "assets\\textures\\btn-ability-terran-ignorearmor.dds"
     ],
     "Additional Starting Minerals": [
       "icon-mineral-nobg.dds"
@@ -1547,7 +1545,6 @@
       "assets\\textures\\btn-upgrade-zerg-buildingarmor.dds"
     ],
     "Jormungandr Strain (Nydus Worm/Echidna Worm)": [
-      "assets\\textures\\btn-ability-zerg-dehaka-root-color.dds",
       "assets\\textures\\btn-upgrade-zerg-enduringcorruption.dds"
     ],
     "Resource Efficiency (Nydus Worm/Echidna Worm)": [
@@ -1581,8 +1578,6 @@
       "assets\\textures\\btn-upgrade-zerg-stukov-bansheeburrowregeneration.dds"
     ],
     "Cloud Dispersal (Infested Liberator)": [
-      "assets\\textures\\btn-ability-zerg-parasiticbomb.dds",
-      "assets\\textures\\btn-upgrade-zagara-scourgegasreduction.dds",
       "assets\\textures\\btn-upgrade-zerg-stukov-infestedliberatorswarmcloud.dds"
     ],
     "Viral Contamination (Infested Liberator)": [
@@ -1778,7 +1773,9 @@
     "Creep Stomach (Zerg)": [
       "assets\\textures\\btn-ability-zerg-creepspread.dds"
     ],
-    "Hive Cluster Maturation (Zerg)": [],
+    "Hive Cluster Maturation (Zerg)": [
+      "btn-building-zerg-hive.dds"
+    ],
     "Macroscopic Recuperation (Zerg)": [
       "assets\\textures\\btn-upgrade-zerg-abathur-improvedmend.dds"
     ],
@@ -2147,11 +2144,7 @@
       "assets\\textures\\btn-upgrade-protoss-khaydarinamulet.dds"
     ],
     "High Archon (Archon)": [
-      "assets\\textures\\btn-ability-protoss-feedback-color.dds",
-      "assets\\textures\\btn-ability-protoss-hallucination-color.dds",
-      "assets\\textures\\btn-ability-protoss-psistorm-color.dds",
-      "assets\\textures\\btn-ability-protoss-psistorm.dds",
-      "assets\\textures\\btn-upgrade-artanis-healingpsionicstorm.dds"
+      "btn-unit-protoss-archon-upgraded.dds"
     ],
     "Feedback (Dark Archon)": [
       "assets\\textures\\btn-ability-protoss-feedback-color.dds"
