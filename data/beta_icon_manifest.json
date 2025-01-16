@@ -88,7 +88,7 @@
  "Advanced Optics (Terran)": [
   "icons/blizzard/btn-upgrade-swann-vehiclerangeincrease.png"
  ],
- "Advanced Photon Blasters (Scout)": [
+ "Advanced Photon Blasters (Scout/Oppressor/Mist Wing)": [
   "icons/blizzard/btn-upgrade-protoss-airweaponslevel3.png"
  ],
  "Advanced Siege Tech (Siege Tank)": [
@@ -181,6 +181,9 @@
  "Argus Talisman (Dark Archon)": [
   "icons/original/btn-upgrade-protoss-argustalisman@scbw.png"
  ],
+ "Armor Melting Blasters (Oppressor)": [
+  "icons/blizzard/btn-ability-zerg-extinction.png"
+ ],
  "Armored Suit Module (Nova Suit Module)": [
   "icons/blizzard/btn-upgrade-nova-equipment-blinksuit.png"
  ],
@@ -192,6 +195,9 @@
  ],
  "Assimilation Aura (Kerrigan Ability)": [
   "icons/blizzard/btn-upgrade-kerrigan-assimilationaura.png"
+ ],
+ "Assistive Targeting (Sensor Tower)": [
+  "icons/blizzard/btn-ability-hornerhan-raven-analyzetarget.png"
  ],
  "Auto Launchers (Vulture)": [
   "icons/blizzard/btn-upgrade-terran-jotunboosters.png"
@@ -325,6 +331,9 @@
  "CPO-7 Salamander Flamethrower (Dominion Trooper)": [
   "icons/blizzard/btn-upgrade-mengsk-trooper-flamethrower.png"
  ],
+ "Caladrius": [
+  "icons/original/btn-unit-protoss-scoutpurifier.png"
+ ],
  "Calcified Armor (Infested Bunker)": [
   "icons/blizzard/btn-upgrade-zerg-stukov-infestedbunkermorelife.png"
  ],
@@ -364,6 +373,9 @@
  "Chrono Surge (Spear of Adun Calldown)": [
   "icons/blizzard/btn-ability-spearofadun-chronosurge.png"
  ],
+ "Chronoclysm (Intercessor)": [
+  "icons/blizzard/btn-ability-zeratul-avatarofform-psionicblast.png"
+ ],
  "Chronostatic Reinforcement (Arbiter)": [
   "icons/blizzard/btn-upgrade-protoss-airarmorlevel2.png"
  ],
@@ -391,7 +403,7 @@
  "Combat Drugs (Reaper)": [
   "icons/blizzard/btn-upgrade-terran-reapercombatdrugs.png"
  ],
- "Combat Sensor Array (Scout)": [
+ "Combat Sensor Array (Scout/Oppressor/Caladrius/Mist Wing)": [
   "icons/blizzard/btn-upgrade-protoss-fenix-scoutchampionrange.png"
  ],
  "Combat Shield (Marine)": [
@@ -429,6 +441,9 @@
  ],
  "Construction Jump Jets (SCV)": [
   "icons/blizzard/btn-ability-terran-jetpack-color.png"
+ ],
+ "Corona Beam (Caladrius)": [
+  "icons/blizzard/btn-ability-mengsk-battlecruiser-yamatocannon.png"
  ],
  "Corpser Strain (Roach)": [
   "icons/blizzard/btn-unit-zerg-roach-corpser.png"
@@ -480,6 +495,9 @@
  ],
  "Death Heads": [
   "icons/blizzard/btn-unit-terran-deathhead.png"
+ ],
+ "Decreased Maximum Supply": [
+  "icons/blizzard/ui_btn_generic_exclemation_red.png"
  ],
  "Deep Tunnel (Infested Siege Tank)": [
   "icons/blizzard/btn-ability-zerg-deeptunnel.png"
@@ -631,8 +649,14 @@
  "Enhanced Targeting (Protoss)": [
   "icons/blizzard/btn-upgrade-karax-turretrange.png"
  ],
+ "Enhanced Vision (Sensor Tower)": [
+  "icons/blizzard/btn-tips-laserdrillantiair.png"
+ ],
  "Ensnare (Brood Queen)": [
   "icons/blizzard/btn-ability-zerg-fungalgrowth-color.png"
+ ],
+ "Entropic Reversal (Intercessor)": [
+  "icons/blizzard/btn-ability-protoss-stasistrap.png"
  ],
  "Eradicate (Archon)": [
   "icons/blizzard/btn-ability-protoss-recallondeath.png"
@@ -648,6 +672,9 @@
  ],
  "Expanded Hull (Medivac)": [
   "icons/blizzard/btn-upgrade-mengsk-engineeringbay-neosteelfortifiedarmor.png"
+ ],
+ "Expeditionary Hull (Scout)": [
+  "icons/blizzard/btn-upgrade-stetmann-zerglinghardenedshield.png"
  ],
  "Explosive Spores (Guardian)": [
   "icons/blizzard/btn-ability-zerg-dehaka-guardian-explosivespores.png"
@@ -685,7 +712,7 @@
  "Flechette Missiles (Valkyrie)": [
   "icons/blizzard/btn-ability-hornerhan-viking-missileupgrade.png"
  ],
- "Flux Vanes (Void Ray/Destroyer/Warp Ray/Dawnbringer)": [
+ "Flux Vanes (Void Ray/Destroyer/Intercessor/Dawnbringer)": [
   "icons/blizzard/btn-upgrade-protoss-fluxvanes.png"
  ],
  "Force Field (Sentry)": [
@@ -758,7 +785,7 @@
  "Gravitic Drive (Warp Prism)": [
   "icons/blizzard/btn-upgrade-protoss-graviticdrive.png"
  ],
- "Gravitic Thrusters (Scout)": [
+ "Gravitic Thrusters (Scout/Oppressor/Caladrius/Mist Wing)": [
   "icons/blizzard/btn-upgrade-protoss-graviticbooster.png"
  ],
  "Graviton Beam (Mirage)": [
@@ -989,6 +1016,9 @@
  "Integrated Power (Mothership)": [
   "icons/blizzard/btn-ability-stetmann-garypersonalstetzone-energy.png"
  ],
+ "Intercessor": [
+  "icons/original/btn-unit-voidray-aiur.png"
+ ],
  "Interference Matrix (Raven)": [
   "icons/blizzard/btn-upgrade-terran-interferencematrix.png"
  ],
@@ -1143,6 +1173,9 @@
  "Liberator": [
   "icons/blizzard/btn-unit-terran-liberator.png"
  ],
+ "Liminal Magnifiers (Intercessor)": [
+  "icons/blizzard/btn-ability-spearofadun-chronomancy.png"
+ ],
  "Lockdown (Ghost)": [
   "icons/original/btn-abilty-terran-lockdown@scbw.png"
  ],
@@ -1227,8 +1260,14 @@
  "Missile Turret": [
   "icons/blizzard/btn-building-terran-missileturret.png"
  ],
+ "Mist Wing": [
+  "icons/original/btn-unit-protoss-scoutnerazim.png"
+ ],
  "Mobile Chrono Beam (Energizer)": [
   "icons/blizzard/btn-ability-protoss-chronobeam.png"
+ ],
+ "Modernized Servos (Instigator)": [
+  "icons/blizzard/btn-upgrade-mengsk-armory-smartservos.png"
  ],
  "Monarch Blades (Ultralisk)": [
   "icons/blizzard/btn-upgrade-zerg-monarchblades.png"
@@ -1300,6 +1339,9 @@
  "Ocular Implants (Ghost)": [
   "icons/blizzard/btn-techupgrade-terran-ocularimplants.png"
  ],
+ "Oppressor": [
+  "icons/original/btn-unit-protoss-scouttaldarim.png"
+ ],
  "Optical Flare (Medic)": [
   "icons/blizzard/btn-upgrade-protoss-fenix-dragoonsolariteflare.png"
  ],
@@ -1319,6 +1361,9 @@
   "icons/blizzard/btn-upgrade-terran-optimizedlogistics.png"
  ],
  "Optimized Logistics (Marine)": [
+  "icons/blizzard/btn-upgrade-terran-optimizedlogistics.png"
+ ],
+ "Optimized Logistics (Oppressor)": [
   "icons/blizzard/btn-upgrade-terran-optimizedlogistics.png"
  ],
  "Optimized Ordnance (Protoss)": [
@@ -1390,6 +1435,9 @@
  "Phalanx Suit (Dragoon)": [
   "icons/blizzard/btn-upgrade-protoss-fenix-zealotsuit-armorplate.png"
  ],
+ "Phantom Dash (Mist Wing)": [
+  "icons/blizzard/btn-ability-protoss-prismaticrange.png"
+ ],
  "Phase Blaster (Warp Prism)": [
   "icons/blizzard/btn-upgrade-protoss-airweaponslevel0.png"
  ],
@@ -1413,6 +1461,10 @@
  ],
  "Photon Cannon": [
   "icons/blizzard/btn-building-protoss-photoncannon.png"
+ ],
+ "Pilot (Mist Wing)": [
+  "icons/blizzard/btn-ability-protoss-veilofshadowsvorazun.png",
+  "icons/blizzard/btn-ability-terran-unloadall.png"
  ],
  "Plagued Munitions (Infested Marine)": [
   "icons/blizzard/btn-ability-stukov-plaugedmunitions.png"
@@ -1505,7 +1557,6 @@
   "icons/blizzard/btn-upgrade-terran-transformationservos.png"
  ],
  "Progressive Immortality Protocol (Thor)": [
-  "icons/blizzard/btn-ability-mengsk-thor-bigboycover.png",
   "icons/blizzard/btn-techupgrade-terran-immortalityprotocol.png"
  ],
  "Progressive Missile Pods (Battlecruiser)": [
@@ -1852,9 +1903,6 @@
  "Resource Efficiency (Hydralisk)": [
   "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
- "Resource Efficiency (Instigator)": [
-  "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
- ],
  "Resource Efficiency (Liberator)": [
   "icons/blizzard/btn-ability-hornerhan-salvagebonus.png"
  ],
@@ -2044,6 +2092,9 @@
  "Shroud of Adun (Dark Templar/Avenger/Blood Hunter)": [
   "icons/blizzard/talent-vorazun-level01-shadowstalk.png"
  ],
+ "Side Missiles (Caladrius)": [
+  "icons/blizzard/btn-ability-stetmann-corruptormissilebarrage.png"
+ ],
  "Siege Breakers": [
   "icons/original/btn-unit-terran-siegetankmercenary-tank.png"
  ],
@@ -2086,7 +2137,7 @@
  "Smart Servos (Viking)": [
   "icons/blizzard/btn-upgrade-terran-transformationservos.png"
  ],
- "Solar Beam (Trieme)": [
+ "Solar Beam (Trireme)": [
   "icons/blizzard/btn-upgrade-protoss-fenix-carrier-solarbeam.png"
  ],
  "Solar Bombardment (Spear of Adun Calldown)": [
@@ -2100,6 +2151,9 @@
  ],
  "Solarite Payload (Reaver)": [
   "icons/blizzard/btn-upgrade-artanis-scarabsplashradius.png"
+ ],
+ "Solarite Reactor (Caladrius)": [
+  "icons/blizzard/btn-ability-zeratul-darkarchon-maelstrom.png"
  ],
  "Son of Korhal": [
   "icons/original/btn-unit-terran-marine-mengsk.png"
@@ -2181,6 +2235,9 @@
  ],
  "Structure Armor (Terran)": [
   "icons/blizzard/btn-upgrade-terran-buildingarmor.png"
+ ],
+ "Structure Targeting (Caladrius)": [
+  "icons/blizzard/btn-ability-stetmann-hydraliskmissilepoweron.png"
  ],
  "Strut Enhancements (Stalwart)": [
   "icons/blizzard/btn-ability-protoss-charge-color.png"
@@ -2359,6 +2416,9 @@
  "Void Ray": [
   "icons/blizzard/btn-unit-protoss-warpray.png"
  ],
+ "Vulcan Blaster (Oppressor)": [
+  "icons/blizzard/btn-ability-concentratedbeam.png"
+ ],
  "Vulture": [
   "icons/blizzard/btn-unit-terran-vulture.png"
  ],
@@ -2379,9 +2439,6 @@
  ],
  "Warp Prism": [
   "icons/blizzard/btn-unit-protoss-warpprism.png"
- ],
- "Warp Ray": [
-  "icons/original/btn-unit-voidray-aiur.png"
  ],
  "Warp Refraction (Warp Prism)": [
   "icons/blizzard/btn-ability-zeratul-warpprism-infinitevoid.png"

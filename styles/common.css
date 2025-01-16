@@ -87,10 +87,6 @@ i {
     user-select: none;
 }
 
-.no-select {
-    user-select: none;
-}
-
 code {
     color: #3b9;
     background-color: black;

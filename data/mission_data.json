@@ -103,15 +103,15 @@
     "faction": "Protoss",
     "campaign": "prophecy"
   },
-  "A Sinister Turn": {
+  "A Sinister Turn (Protoss)": {
     "faction": "Protoss",
     "campaign": "prophecy"
   },
-  "Echoes of the Future": {
+  "Echoes of the Future (Protoss)": {
     "faction": "Protoss",
     "campaign": "prophecy"
   },
-  "In Utter Darkness": {
+  "In Utter Darkness (Protoss)": {
     "faction": "Protoss",
     "campaign": "prophecy"
   },
@@ -466,6 +466,30 @@
   "Media Blitz (Protoss)": {
     "faction": "Protoss",
     "campaign": "wol"
+  },
+  "A Sinister Turn (Terran)": {
+    "faction": "Terran",
+    "campaign": "prophecy"
+  },
+  "A Sinister Turn (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "prophecy"
+  },
+  "Echoes of the Future (Terran)": {
+    "faction": "Terran",
+    "campaign": "prophecy"
+  },
+  "Echoes of the Future (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "prophecy"
+  },
+  "In Utter Darkness (Terran)": {
+    "faction": "Terran",
+    "campaign": "prophecy"
+  },
+  "In Utter Darkness (Zerg)": {
+    "faction": "Zerg",
+    "campaign": "prophecy"
   },
   "Gates of Hell (Zerg)": {
     "faction": "Zerg",

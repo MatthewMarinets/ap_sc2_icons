@@ -1,8 +1,8 @@
 {
   "meta": {
-    "timestamp": "2024-12-14",
-    "items": 808,
-    "located": 777
+    "timestamp": "2025-01-16",
+    "items": 828,
+    "located": 796
   },
   "locations": {
     "Marine": [
@@ -550,7 +550,6 @@
       "ap\\assets\\custom\\textures\\btn-ability-thor-330mm.dds"
     ],
     "Progressive Immortality Protocol (Thor)": [
-      "assets\\textures\\btn-ability-mengsk-thor-bigboycover.dds",
       "assets\\textures\\btn-techupgrade-terran-immortalityprotocol.dds"
     ],
     "Advanced Ballistics (Liberator)": [
@@ -985,6 +984,12 @@
     "Demolition Armaments (Widow Mine)": [
       "assets\\textures\\btn-ability-terran-ignorearmor.dds"
     ],
+    "Assistive Targeting (Sensor Tower)": [
+      "assets\\textures\\btn-ability-hornerhan-raven-analyzetarget.dds"
+    ],
+    "Enhanced Vision (Sensor Tower)": [
+      "assets\\textures\\btn-tips-laserdrillantiair.dds"
+    ],
     "Additional Starting Minerals": [
       "icon-mineral-nobg.dds"
     ],
@@ -1007,6 +1012,9 @@
     ],
     "Increased Building Construction Speed": [
       "icon-time-protoss.dds"
+    ],
+    "Decreased Maximum Supply": [
+      "ui_btn_generic_exclemation_red.dds"
     ],
     "Ghost Visor (Nova Equipment)": [
       "assets\\textures\\btn-upgrade-nova-equipment-ghostvisor.dds"
@@ -1896,7 +1904,7 @@
     "Stalwart": [
       "assets\\textures\\btn-unit-collection-purifier-immortal.dds"
     ],
-    "Warp Ray": [
+    "Intercessor": [
       "ap\\assets\\custom\\textures\\btn-unit-voidray-aiur.dds"
     ],
     "Dawnbringer": [
@@ -1910,6 +1918,15 @@
     ],
     "Skirmisher": [
       "assets\\textures\\btn-unit-collection-taldarim-phoenix.dds"
+    ],
+    "Oppressor": [
+      "ap\\assets\\textures\\btn-unit-protoss-scouttaldarim.dds"
+    ],
+    "Caladrius": [
+      "ap\\assets\\textures\\btn-unit-protoss-scoutpurifier.dds"
+    ],
+    "Mist Wing": [
+      "ap\\assets\\textures\\btn-unit-protoss-scoutnerazim.dds"
     ],
     "Progressive Protoss Ground Weapon": [
       "ap\\assets\\custom\\textures\\btn-upgrade-protoss-groundweaponslevel4.dds",
@@ -1996,16 +2013,16 @@
     "Enhanced Strider Servos (Dragoon)": [
       "assets\\textures\\btn-upgrade-terran-transformationservos.dds"
     ],
-    "Combat Sensor Array (Scout)": [
+    "Combat Sensor Array (Scout/Oppressor/Caladrius/Mist Wing)": [
       "assets\\textures\\btn-upgrade-protoss-fenix-scoutchampionrange.dds"
     ],
     "Apial Sensors (Scout)": [
       "assets\\textures\\btn-upgrade-tychus-detection.dds"
     ],
-    "Gravitic Thrusters (Scout)": [
+    "Gravitic Thrusters (Scout/Oppressor/Caladrius/Mist Wing)": [
       "assets\\textures\\btn-upgrade-protoss-graviticbooster.dds"
     ],
-    "Advanced Photon Blasters (Scout)": [
+    "Advanced Photon Blasters (Scout/Oppressor/Mist Wing)": [
       "assets\\textures\\btn-upgrade-protoss-airweaponslevel3.dds"
     ],
     "Tectonic Destabilizers (Tempest)": [
@@ -2065,7 +2082,7 @@
     "Hull of Past Glories (Carrier/Skylord/Trireme)": [
       "assets\\textures\\btn-progression-protoss-fenix-14-colossusandcarrierchampionsresearch.dds"
     ],
-    "Flux Vanes (Void Ray/Destroyer/Warp Ray/Dawnbringer)": [
+    "Flux Vanes (Void Ray/Destroyer/Intercessor/Dawnbringer)": [
       "assets\\textures\\btn-upgrade-protoss-fluxvanes.dds"
     ],
     "Resource Efficiency (Destroyer)": [
@@ -2248,6 +2265,32 @@
     "Zenith Pitch (Supplicant)": [
       "assets\\textures\\btn-upgrade-protoss-alarak-rangeweapon.dds"
     ],
+    "Chronoclysm (Intercessor)": [
+      "assets\\textures\\btn-ability-zeratul-avatarofform-psionicblast.dds"
+    ],
+    "Entropic Reversal (Intercessor)": [
+      "assets\\textures\\btn-ability-protoss-stasistrap.dds"
+    ],
+    "Optimized Logistics (Oppressor)": [
+      "btn-upgrade-terran-optimizedlogistics.dds"
+    ],
+    "Armor Melting Blasters (Oppressor)": [
+      "assets\\textures\\btn-ability-zerg-extinction.dds"
+    ],
+    "Side Missiles (Caladrius)": [
+      "assets\\textures\\btn-ability-stetmann-corruptormissilebarrage.dds"
+    ],
+    "Structure Targeting (Caladrius)": [
+      "assets\\textures\\btn-ability-stetmann-hydraliskmissilepoweron.dds"
+    ],
+    "Solarite Reactor (Caladrius)": [
+      "assets\\textures\\btn-ability-zeratul-darkarchon-maelstrom.dds"
+    ],
+    "Null Shroud (Mist Wing)": [],
+    "Pilot (Mist Wing)": [
+      "assets\\textures\\btn-ability-protoss-veilofshadowsvorazun.dds",
+      "assets\\textures\\btn-ability-terran-unloadall.dds"
+    ],
     "Whirlwind (Zealot)": [
       "assets\\textures\\btn-ability-protoss-whirlwind.dds"
     ],
@@ -2263,8 +2306,8 @@
     "Phalanx Suit (Dragoon)": [
       "assets\\textures\\btn-upgrade-protoss-fenix-zealotsuit-armorplate.dds"
     ],
-    "Resource Efficiency (Instigator)": [
-      "btn-ability-hornerhan-salvagebonus.dds"
+    "Modernized Servos (Instigator)": [
+      "assets\\textures\\btn-upgrade-mengsk-armory-smartservos.dds"
     ],
     "Disruptive Transfer (Adept)": [
       "assets\\textures\\btn-ability-protoss-adept-spiritform.dds"
@@ -2356,6 +2399,9 @@
     "Reforged Bloodshard Core (Destroyer)": [
       "assets\\textures\\btn-amonshardsarmor.dds"
     ],
+    "Liminal Magnifiers (Intercessor)": [
+      "assets\\textures\\btn-ability-spearofadun-chronomancy.dds"
+    ],
     "Solarite Lens (Dawnbringer)": [
       "assets\\textures\\btn-upgrade-protoss-extendedthermallance.dds"
     ],
@@ -2365,17 +2411,29 @@
     "Hyperjump (Skylord)": [
       "assets\\textures\\btn-ability-hornerhan-fleethyperjump.dds"
     ],
-    "Solar Beam (Trieme)": [
+    "Solar Beam (Trireme)": [
       "assets\\textures\\btn-upgrade-protoss-fenix-carrier-solarbeam.dds"
     ],
     "Disintegration (Tempest)": [
       "assets\\textures\\btn-ability-protoss-disintegration.dds"
+    ],
+    "Expeditionary Hull (Scout)": [
+      "assets\\textures\\btn-upgrade-stetmann-zerglinghardenedshield.dds"
     ],
     "Ability Efficiency (Arbiter)": [
       "assets\\textures\\btn-ability-stetmann-stetelliteoverloadenergy.dds"
     ],
     "Integrated Power (Mothership)": [
       "assets\\textures\\btn-ability-stetmann-garypersonalstetzone-energy.dds"
+    ],
+    "Vulcan Blaster (Oppressor)": [
+      "assets\\textures\\btn-ability-concentratedbeam.dds"
+    ],
+    "Corona Beam (Caladrius)": [
+      "assets\\textures\\btn-ability-mengsk-battlecruiser-yamatocannon.dds"
+    ],
+    "Phantom Dash (Mist Wing)": [
+      "assets\\textures\\btn-ability-protoss-prismaticrange.dds"
     ],
     "Chrono Surge (Spear of Adun Calldown)": [
       "assets\\textures\\btn-ability-spearofadun-chronosurge.dds"

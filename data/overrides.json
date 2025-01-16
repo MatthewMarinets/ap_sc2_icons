@@ -6,7 +6,9 @@
         "Ouroboros Strain (Echidna Worm)": ["talent-zagara-level12-unlockswarmling.dds"],
         "Ultra-Capacitors (Terran)": ["btn-research-terran-ultracapacitors.dds"],
         "Vanadium Plating (Terran)": ["btn-research-terran-vanadiumplating.dds"],
-        "High Archon (Archon)": ["btn-unit-protoss-archon-upgraded.dds"]
+        "High Archon (Archon)": ["btn-unit-protoss-archon-upgraded.dds"],
+        "Resource Efficiency (Sentinel)": ["btn-ability-hornerhan-salvagebonus.dds"],
+        "Resource Efficiency (Centurion)": ["btn-ability-hornerhan-salvagebonus.dds"]
     },
     "add": {
         "Additional Starting Minerals": ["icon-mineral-nobg.dds"],
