@@ -2,7 +2,7 @@
   "meta": {
     "timestamp": "2025-01-16",
     "items": 828,
-    "located": 796
+    "located": 797
   },
   "locations": {
     "Marine": [
@@ -842,7 +842,9 @@
     "Automated Refinery (Terran)": [
       "ap\\assets\\textures\\btn-building-terran-refineryautomated.dds"
     ],
-    "Command Center Reactor (Command Center)": [],
+    "Command Center Reactor (Command Center)": [
+      "btn-research-terran-commandcenterreactor.dds"
+    ],
     "Raven": [
       "assets\\textures\\btn-unit-terran-raven.dds"
     ],

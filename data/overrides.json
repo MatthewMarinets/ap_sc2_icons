@@ -21,7 +21,7 @@
         "Cellular Reactor (Terran)": ["btn-research-zerg-cellularreactor.dds"],
         "Progressive Regenerative Bio-Steel (Terran)": ["btn-research-zerg-regenerativebio-steel.dds", "ap/assets/textures/btn-regenerativebiosteel-green.dds", "ap/assets/textures/btn-regenerativebiosteel-blue.dds"],
         "Orbital Strike (Terran)": ["btn-research-terran-orbitalstrikerally.dds"],
-        "Command Center Reactor (Terran)": ["btn-research-terran-commandcenterreactor.dds"],
+        "Command Center Reactor (Command Center)": ["btn-research-terran-commandcenterreactor.dds"],
         "Vanadium Plating (Terran)": ["btn-research-terran-vanadiumplating.dds"],
         "Ultra-Capacitors (Terran)": ["btn-research-terran-ultracapacitors.dds"],
         "Rogue Forces (Terran/Zerg)": ["btn-unit-terran-tosh.dds"],

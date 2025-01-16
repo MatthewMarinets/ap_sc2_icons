@@ -409,6 +409,9 @@
  "Combat Shield (Marine)": [
   "icons/blizzard/btn-techupgrade-terran-combatshield-color.png"
  ],
+ "Command Center Reactor (Command Center)": [
+  "icons/blizzard/btn-research-terran-commandcenterreactor.png"
+ ],
  "Comorbidity (Defiler)": [
   "icons/blizzard/btn-upgrade-zerg-dehaka-tenderize.png"
  ],
