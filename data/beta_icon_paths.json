@@ -1,8 +1,8 @@
 {
   "meta": {
-    "timestamp": "2025-01-16",
-    "items": 828,
-    "located": 797
+    "timestamp": "2025-02-11",
+    "items": 839,
+    "located": 809
   },
   "locations": {
     "Marine": [
@@ -888,7 +888,8 @@
       "ap\\assets\\textures\\btn-building-terran-hivemindemulator.dds"
     ],
     "Psi Disrupter": [
-      "ap\\assets\\textures\\btn-building-terran-sigmaprojector.dds"
+      "btn-building-terran-sigmaprojector.dds",
+      "btn-ability-terran-psidisruption.dds"
     ],
     "Structure Armor (Terran)": [
       "assets\\textures\\btn-upgrade-terran-buildingarmor.dds"
@@ -917,32 +918,17 @@
     "Fusion Reactor (Fusion Core)": [
       "assets\\textures\\btn-tips-terran-energynova.dds"
     ],
-    "Zealot": [
-      "assets\\textures\\btn-unit-protoss-zealot.dds"
+    "Sonic Disrupter (Psi Disrupter)": [
+      "btn-ability-protoss-mindblast.dds"
     ],
-    "Stalker": [
-      "assets\\textures\\btn-unit-protoss-stalker.dds"
+    "Khalai Disrupter (Psi Disrupter)": [
+      "btn-progression-protoss-fenix-1-zealotsuit.dds"
     ],
-    "High Templar": [
-      "assets\\textures\\btn-unit-protoss-hightemplar.dds"
+    "Khalai Takeover (Hive Mind Emulator)": [
+      "ap\\assets\\textures\\btn-building-terran-hivemindemulator.dds"
     ],
-    "Dark Templar": [
-      "assets\\textures\\btn-unit-protoss-darktemplar.dds"
-    ],
-    "Immortal": [
-      "assets\\textures\\btn-unit-protoss-immortal.dds"
-    ],
-    "Colossus": [
-      "assets\\textures\\btn-unit-protoss-colossus.dds"
-    ],
-    "Phoenix": [
-      "assets\\textures\\btn-unit-protoss-phoenix.dds"
-    ],
-    "Void Ray": [
-      "assets\\textures\\btn-unit-protoss-warpray.dds"
-    ],
-    "Carrier": [
-      "assets\\textures\\btn-unit-protoss-carrier.dds"
+    "Brainwashing (Hive Mind Emulator)": [
+      "ap\\assets\\textures\\btn-building-terran-hivemindemulator.dds"
     ],
     "Tactical Jump (Science Vessel)": [
       "assets\\textures\\btn-ability-hornerhan-fleethyperjump.dds"
@@ -991,6 +977,9 @@
     ],
     "Enhanced Vision (Sensor Tower)": [
       "assets\\textures\\btn-tips-laserdrillantiair.dds"
+    ],
+    "Deploy Turret (Warhound)": [
+      "assets\\textures\\btn-building-terran-autoturret.dds"
     ],
     "Additional Starting Minerals": [
       "icon-mineral-nobg.dds"
@@ -1813,6 +1802,33 @@
     "Tyrannozor Aspect (Ultralisk)": [
       "assets\\textures\\btn-unit-collection-primal-tyrannozor.dds"
     ],
+    "Zealot": [
+      "assets\\textures\\btn-unit-protoss-zealot.dds"
+    ],
+    "Stalker": [
+      "assets\\textures\\btn-unit-protoss-stalker.dds"
+    ],
+    "High Templar": [
+      "assets\\textures\\btn-unit-protoss-hightemplar.dds"
+    ],
+    "Dark Templar": [
+      "assets\\textures\\btn-unit-protoss-darktemplar.dds"
+    ],
+    "Immortal": [
+      "assets\\textures\\btn-unit-protoss-immortal.dds"
+    ],
+    "Colossus": [
+      "assets\\textures\\btn-unit-protoss-colossus.dds"
+    ],
+    "Phoenix": [
+      "assets\\textures\\btn-unit-protoss-phoenix.dds"
+    ],
+    "Void Ray": [
+      "assets\\textures\\btn-unit-protoss-warpray.dds"
+    ],
+    "Carrier": [
+      "assets\\textures\\btn-unit-protoss-carrier.dds"
+    ],
     "Observer": [
       "assets\\textures\\btn-unit-protoss-observer.dds"
     ],
@@ -2057,8 +2073,8 @@
     "Stealth Drive (Oracle)": [
       "assets\\textures\\btn-upgrade-vorazun-oraclepermanentlycloaked.dds"
     ],
-    "Stasis Calibration (Oracle)": [
-      "assets\\textures\\btn-ability-protoss-oracle-stasiscalibration.dds"
+    "Stasis Expansion (Oracle)": [
+      "assets\\textures\\btn-ability-protoss-arcshield.dds"
     ],
     "Temporal Acceleration Beam (Oracle)": [
       "assets\\textures\\btn-ability-protoss-oraclepulsarcannonon.dds"
@@ -2288,10 +2304,18 @@
     "Solarite Reactor (Caladrius)": [
       "assets\\textures\\btn-ability-zeratul-darkarchon-maelstrom.dds"
     ],
-    "Null Shroud (Mist Wing)": [],
+    "Null Shroud (Mist Wing)": [
+      "assets\\textures\\btn-ability-hornerhan-wraith-permanentcloak.dds"
+    ],
     "Pilot (Mist Wing)": [
       "assets\\textures\\btn-ability-protoss-veilofshadowsvorazun.dds",
       "assets\\textures\\btn-ability-terran-unloadall.dds"
+    ],
+    "Blink Overdrive (Instigator)": [
+      "assets\\textures\\btn-ability-zeratul-darkarchon-maelstrom.dds"
+    ],
+    "Reconstruction (Instigator)": [
+      "ap\\assets\\textures\\btn-upgrade-protoss-stalkerpurifier-reconstruction.dds"
     ],
     "Whirlwind (Zealot)": [
       "assets\\textures\\btn-ability-protoss-whirlwind.dds"
@@ -2410,8 +2434,8 @@
     "Repair Drones (Carrier)": [
       "assets\\textures\\btn-ability-protoss-carrierrepairdrones.dds"
     ],
-    "Hyperjump (Skylord)": [
-      "assets\\textures\\btn-ability-hornerhan-fleethyperjump.dds"
+    "Jump (Skylord)": [
+      "assets\\textures\\btn-ability-protoss-blink-color.dds"
     ],
     "Solar Beam (Trireme)": [
       "assets\\textures\\btn-upgrade-protoss-fenix-carrier-solarbeam.dds"
@@ -2425,6 +2449,9 @@
     "Ability Efficiency (Arbiter)": [
       "assets\\textures\\btn-ability-stetmann-stetelliteoverloadenergy.dds"
     ],
+    "Stasis Calibration (Oracle)": [
+      "assets\\textures\\btn-ability-protoss-oracle-stasiscalibration.dds"
+    ],
     "Integrated Power (Mothership)": [
       "assets\\textures\\btn-ability-stetmann-garypersonalstetzone-energy.dds"
     ],
@@ -2436,6 +2463,10 @@
     ],
     "Phantom Dash (Mist Wing)": [
       "assets\\textures\\btn-ability-protoss-prismaticrange.dds"
+    ],
+    "Sacrifice (Supplicant)": [
+      "ap\\assets\\textures\\btn-ability-protoss-supplicant-sacrificeoff.dds",
+      "ap\\assets\\textures\\btn-ability-protoss-supplicant-sacrificeon.dds"
     ],
     "Chrono Surge (Spear of Adun Calldown)": [
       "assets\\textures\\btn-ability-spearofadun-chronosurge.dds"
@@ -2515,6 +2546,13 @@
     ],
     "Progressive Warp Relocate (Protoss)": [
       "assets\\textures\\btn-ability-protoss-massrecall.dds"
+    ],
+    "Probe Warpin (Protoss)": [
+      "ap\\assets\\textures\\btn-unit-protoss-probe-warpin.dds",
+      "assets\\textures\\btn-unit-protoss-probe.dds"
+    ],
+    "Elder Probes (Protoss)": [
+      "assets\\textures\\btn-unit-collection-probe-remastered.dds"
     ]
   }
 }

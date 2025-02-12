@@ -146,6 +146,9 @@ def parse_galaxy_file(galaxy_path: str) -> Dict[ItemId, List[GalaxyItem]]:
             unlocked_times.setdefault((match.group(1), abil_index), 0)
             unlocked_times[match.group(1), abil_index] += 1
     result = {}
+    # Multi-unlock overrides
+    unlocked_times["AP_HiveMindEmulator", None] = 1
+    unlocked_times["AP_PsiDisruptor", None] = 1
     for function, category in function_to_category.items():
         unlocks = function_unlocks[function]
         unlocks = [u for u in unlocks if unlocked_times[u.name, u.index] == 1]

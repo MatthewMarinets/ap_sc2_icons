@@ -229,7 +229,7 @@
     "number": 28,
     "race": "TERRAN",
     "classification": "progression",
-    "quantity": 1,
+    "quantity": 0,
     "parent": null,
     "description": "Powerful Royal Guard warship."
   },
@@ -238,7 +238,7 @@
     "number": 29,
     "race": "TERRAN",
     "classification": "progression",
-    "quantity": 1,
+    "quantity": 0,
     "parent": null,
     "description": "Durable Royal Guard support flyer. Loaded with strong anti-capital air missiles. \nCan switch into Assault Mode to attack ground units."
   },
@@ -247,7 +247,7 @@
     "number": 0,
     "race": "TERRAN",
     "classification": "progression",
-    "quantity": 1,
+    "quantity": 0,
     "parent": null,
     "description": "Royal Guard heavy tank. Long-range artillery in Siege Mode."
   },
@@ -256,7 +256,7 @@
     "number": 1,
     "race": "TERRAN",
     "classification": "progression",
-    "quantity": 1,
+    "quantity": 0,
     "parent": null,
     "description": "Royal Guard heavy assault mech."
   },
@@ -264,8 +264,8 @@
     "type": "Unit 2",
     "number": 2,
     "race": "TERRAN",
-    "classification": "useful",
-    "quantity": 1,
+    "classification": "progression",
+    "quantity": 0,
     "parent": null,
     "description": "Royal Guard heavy assault infantry."
   },
@@ -274,7 +274,7 @@
     "number": 3,
     "race": "TERRAN",
     "classification": "progression",
-    "quantity": 1,
+    "quantity": 0,
     "parent": null,
     "description": "Royal Guard specialist. Can use Pyrokinetic Immolation and EMP Blast abilities. Can call down Tactical missiles."
   },
@@ -283,7 +283,7 @@
     "number": 5,
     "race": "TERRAN",
     "classification": "progression",
-    "quantity": 1,
+    "quantity": 0,
     "parent": null,
     "description": "Royal Guard general-purpose indantry."
   },
@@ -292,7 +292,7 @@
     "number": 6,
     "race": "TERRAN",
     "classification": "progression",
-    "quantity": 1,
+    "quantity": 0,
     "parent": null,
     "description": "Royal Guard heavy-fire support unit."
   },
@@ -301,7 +301,7 @@
     "number": 7,
     "race": "TERRAN",
     "classification": "progression",
-    "quantity": 1,
+    "quantity": 0,
     "parent": null,
     "description": "Royal Guard support trooper. Heals nearby biological units."
   },
@@ -310,7 +310,7 @@
     "number": 8,
     "race": "TERRAN",
     "classification": "progression",
-    "quantity": 1,
+    "quantity": 0,
     "parent": null,
     "description": "Royal Guard artillery fighter. Loaded with missiles that deal area damage to enemy air targets. \nCan switch into Defender Mode to provide siege support."
   },
@@ -319,7 +319,7 @@
     "number": 9,
     "race": "TERRAN",
     "classification": "progression",
-    "quantity": 1,
+    "quantity": 0,
     "parent": null,
     "description": "Royal Guard highly mobile flying unit. Excellent at surgical strikes."
   },
@@ -328,7 +328,7 @@
     "number": 10,
     "race": "TERRAN",
     "classification": "progression",
-    "quantity": 1,
+    "quantity": 0,
     "parent": null,
     "description": "Royal Guard tactical-strike aircraft."
   },
@@ -795,7 +795,7 @@
     "type": "Armory 2",
     "number": 6,
     "race": "TERRAN",
-    "classification": "useful",
+    "classification": "progression_skip_balancing",
     "quantity": 1,
     "parent": "Reaper",
     "description": "Allows the Reaper to fly for 10 seconds.\nWhile flying, the Reaper can attack air units."
@@ -2136,7 +2136,7 @@
     "type": "Armory 6",
     "number": 7,
     "race": "TERRAN",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent": "Planetary Fortress",
     "description": "Planetary Fortress can attack air units."
@@ -2253,7 +2253,7 @@
     "type": "Building",
     "number": 2,
     "race": "TERRAN",
-    "classification": "useful",
+    "classification": "progression_skip_balancing",
     "quantity": 1,
     "parent": null,
     "description": "Reveals locations of enemy units at long range."
@@ -2280,7 +2280,7 @@
     "type": "Mercenary",
     "number": 1,
     "race": "TERRAN",
-    "classification": "filler",
+    "classification": "progression_skip_balancing",
     "quantity": 1,
     "parent": null,
     "description": "Mercenary Firebats."
@@ -2289,7 +2289,7 @@
     "type": "Mercenary",
     "number": 2,
     "race": "TERRAN",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent": null,
     "description": "Mercenary Marauders."
@@ -2343,7 +2343,7 @@
     "type": "Mercenary",
     "number": 8,
     "race": "TERRAN",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent": null,
     "description": "Mercenary Medics."
@@ -2352,7 +2352,7 @@
     "type": "Mercenary",
     "number": 9,
     "race": "TERRAN",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent": null,
     "description": "Mercenary Reapers."
@@ -2523,7 +2523,7 @@
     "type": "Unit",
     "number": 24,
     "race": "TERRAN",
-    "classification": "filler",
+    "classification": "progression",
     "quantity": 1,
     "parent": null,
     "description": "Anti-infantry specialist that deals area damage with each attack."
@@ -2556,22 +2556,22 @@
     "description": "Allows Terran mechanical units to regenerate health while not in combat.\nEach level increases life regeneration speed."
   },
   "Hive Mind Emulator": {
-    "type": "Building",
-    "number": 5,
+    "type": "Laboratory",
+    "number": 21,
     "race": "TERRAN",
     "classification": "progression",
     "quantity": 1,
     "parent": null,
-    "description": "Defensive structure. Can permanently Mind Control Zerg units."
+    "description": "Unlocks the Hive Mind Emulator defensive structure, and allows it to permanently Mind Control Zerg units."
   },
   "Psi Disrupter": {
-    "type": "Building",
-    "number": 6,
+    "type": "Laboratory",
+    "number": 18,
     "race": "TERRAN",
     "classification": "progression",
     "quantity": 1,
     "parent": null,
-    "description": "Defensive structure. Slows the attack and movement speeds of all nearby Zerg units."
+    "description": "Unlocks the Psi Disrupter defensive structure, and allows it to slow the attack and movement speeds of all nearby Zerg units."
   },
   "Structure Armor (Terran)": {
     "type": "Laboratory",
@@ -2654,86 +2654,41 @@
     "parent": null,
     "description": "Fusion Cores increase the energy regeneration of nearby units by +1 energy per second."
   },
-  "Zealot": {
-    "type": "Unit",
-    "number": 0,
-    "race": "PROTOSS",
+  "Sonic Disrupter (Psi Disrupter)": {
+    "type": "Laboratory",
+    "number": 19,
+    "race": "TERRAN",
     "classification": "progression",
     "quantity": 1,
     "parent": null,
-    "description": "Powerful melee warrior. Can use the charge ability."
+    "description": "Unlocks the Psi Disrupter defensive structure, and allows it to slow the attack and movement speeds of all nearby Terran units."
   },
-  "Stalker": {
-    "type": "Unit",
-    "number": 1,
-    "race": "PROTOSS",
+  "Khalai Disrupter (Psi Disrupter)": {
+    "type": "Laboratory",
+    "number": 20,
+    "race": "TERRAN",
     "classification": "progression",
     "quantity": 1,
     "parent": null,
-    "description": "Ranged attack strider. Can use the Blink ability."
+    "description": "Unlocks the Psi Disrupter defensive structure, and allows it to slow the attack and movement speeds of all nearby Protoss units."
   },
-  "High Templar": {
-    "type": "Unit",
-    "number": 2,
-    "race": "PROTOSS",
+  "Khalai Takeover (Hive Mind Emulator)": {
+    "type": "Laboratory",
+    "number": 22,
+    "race": "TERRAN",
     "classification": "progression",
     "quantity": 1,
     "parent": null,
-    "description": "Potent psionic master. Can use the Feedback and Psionic Storm abilities. Can merge into an Archon."
+    "description": "Unlocks the Hive Mind Emulator defensive structure, and allows it to permanently Mind Control Protoss units."
   },
-  "Dark Templar": {
-    "type": "Unit",
-    "number": 3,
-    "race": "PROTOSS",
+  "Brainwashing (Hive Mind Emulator)": {
+    "type": "Laboratory",
+    "number": 23,
+    "race": "TERRAN",
     "classification": "progression",
     "quantity": 1,
     "parent": null,
-    "description": "Deadly warrior-assassin. Permanently cloaked. Can use the Shadow Fury ability."
-  },
-  "Immortal": {
-    "type": "Unit",
-    "number": 4,
-    "race": "PROTOSS",
-    "classification": "progression",
-    "quantity": 1,
-    "parent": null,
-    "description": "Assault strider. Can use Barrier to absorb damage."
-  },
-  "Colossus": {
-    "type": "Unit",
-    "number": 5,
-    "race": "PROTOSS",
-    "classification": "progression",
-    "quantity": 1,
-    "parent": null,
-    "description": "Battle strider with a powerful area attack. Can walk up and down cliffs. Attacks set fire to the ground, dealing extra damage to enemies over time."
-  },
-  "Phoenix": {
-    "type": "Unit",
-    "number": 6,
-    "race": "PROTOSS",
-    "classification": "progression",
-    "quantity": 1,
-    "parent": null,
-    "description": "Air superiority starfighter. Can use Graviton Beam and Phasing Armor abilities."
-  },
-  "Void Ray": {
-    "type": "Unit",
-    "number": 7,
-    "race": "PROTOSS",
-    "classification": "progression",
-    "quantity": 1,
-    "parent": null,
-    "description": "Surgical strike craft. Has the Prismatic Alignment and Prismatic Range abilities."
-  },
-  "Carrier": {
-    "type": "Unit",
-    "number": 8,
-    "race": "PROTOSS",
-    "classification": "progression",
-    "quantity": 1,
-    "parent": null,
-    "description": "Capital ship. Builds and launches Interceptors that attack enemy targets. Repair Drones heal nearby mechanical units."
+    "description": "Unlocks the Hive Mind Emulator defensive structure, and allows it to permanently Mind Control Terran units."
   },
   "Tactical Jump (Science Vessel)": {
     "type": "Armory 7",
@@ -2794,7 +2749,7 @@
     "number": 10,
     "race": "TERRAN",
     "classification": "useful",
-    "quantity": 1,
+    "quantity": 0,
     "parent": "Emperor's Shadow",
     "description": "Tactical Missile Strikes no longer need to be channeled."
   },
@@ -2856,7 +2811,7 @@
     "type": "Armory 7",
     "number": 17,
     "race": "TERRAN",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent": "Widow Mine",
     "description": "Allows Widow Mines to attack and damage structures."
@@ -2878,6 +2833,15 @@
     "quantity": 1,
     "parent": "Sensor Tower",
     "description": "Sensor Towers gain +10 sight range and +5 radar range."
+  },
+  "Deploy Turret (Warhound)": {
+    "type": "Armory 7",
+    "number": 20,
+    "race": "TERRAN",
+    "classification": "useful",
+    "quantity": 1,
+    "parent": "Warhound",
+    "description": "Each Warhound can deploy a single-use Auto-Turret."
   },
   "Additional Starting Minerals": {
     "type": "Minerals",
@@ -4758,13 +4722,13 @@
     "classification": "progression",
     "quantity": 1,
     "parent": "Infested Liberator",
-    "description": "Allows Infested Liberators to deploy into Defender Mode to attack ground units."
+    "description": "Allows Infested Liberators to deploy into Defender Mode to attack ground units. Weapon knocks back the attack target and damages units behind it."
   },
   "Progressive Baneling Launch (Aberration)": {
     "type": "Progressive",
     "number": 4,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 2,
     "parent": "Aberration",
     "description": "Level 1: Allows Aberrations to periodically throw generated Banelings at air targets.\nLevel 2: Can store up to 3 Banelings. Can consume Banelings to recharge faster. Thrown Banelings benefit from Baneling upgrades. "
@@ -5151,7 +5115,7 @@
     "type": "Mercenary",
     "number": 0,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent": null,
     "description": "Mercenary infested Medics that may be called in from the Predator Nest."
@@ -5178,7 +5142,7 @@
     "type": "Mercenary",
     "number": 3,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent": null,
     "description": "Elite Zergling strain. Summoned at the Predator Nest."
@@ -5187,7 +5151,7 @@
     "type": "Mercenary",
     "number": 4,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent": null,
     "description": "Elite Hydralisk strain. Summoned at the Predator Nest."
@@ -5196,7 +5160,7 @@
     "type": "Mercenary",
     "number": 5,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent": null,
     "description": "Elite Ultralisk strain. Summoned at the Predator Nest."
@@ -5223,7 +5187,7 @@
     "type": "Mercenary",
     "number": 8,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent": null,
     "description": "Elite Roach Strain that has the ability to attack air units. Summoned at the Predator Nest."
@@ -5372,6 +5336,87 @@
     "parent": "Ultralisk Morph Source",
     "description": "Heavy assault beast. Has a ground-area attack, and powerful anti-air attack. Morphed by merging two Ultralisks."
   },
+  "Zealot": {
+    "type": "Unit",
+    "number": 0,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent": null,
+    "description": "Powerful melee warrior. Can use the charge ability."
+  },
+  "Stalker": {
+    "type": "Unit",
+    "number": 1,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent": null,
+    "description": "Ranged attack strider. Can use the Blink ability."
+  },
+  "High Templar": {
+    "type": "Unit",
+    "number": 2,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent": null,
+    "description": "Potent psionic master. Can use the Feedback and Psionic Storm abilities. Can merge into an Archon."
+  },
+  "Dark Templar": {
+    "type": "Unit",
+    "number": 3,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent": null,
+    "description": "Deadly warrior-assassin. Permanently cloaked. Can use the Shadow Fury ability."
+  },
+  "Immortal": {
+    "type": "Unit",
+    "number": 4,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent": null,
+    "description": "Assault strider. Can use Barrier to absorb damage."
+  },
+  "Colossus": {
+    "type": "Unit",
+    "number": 5,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent": null,
+    "description": "Battle strider with a powerful area attack. Can walk up and down cliffs. Attacks set fire to the ground, dealing extra damage to enemies over time."
+  },
+  "Phoenix": {
+    "type": "Unit",
+    "number": 6,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent": null,
+    "description": "Air superiority starfighter. Can use Graviton Beam and Phasing Armor abilities."
+  },
+  "Void Ray": {
+    "type": "Unit",
+    "number": 7,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent": null,
+    "description": "Surgical strike craft. Has the Prismatic Alignment and Prismatic Range abilities."
+  },
+  "Carrier": {
+    "type": "Unit",
+    "number": 8,
+    "race": "PROTOSS",
+    "classification": "progression",
+    "quantity": 1,
+    "parent": null,
+    "description": "Capital ship. Builds and launches Interceptors that attack enemy targets. Repair Drones heal nearby mechanical units."
+  },
   "Observer": {
     "type": "Unit",
     "number": 9,
@@ -5448,7 +5493,7 @@
     "type": "Unit",
     "number": 17,
     "race": "PROTOSS",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent": null,
     "description": "Robotic support unit. Can use the Target Lock and Force Field abilities and increases the range of nearby Protoss units."
@@ -6074,14 +6119,14 @@
     "parent": "Oracle",
     "description": "Oracles become permanently cloaked."
   },
-  "Stasis Calibration (Oracle)": {
+  "Stasis Expansion (Oracle)": {
     "type": "Forge 1",
     "number": 26,
     "race": "PROTOSS",
     "classification": "useful",
     "quantity": 1,
     "parent": "Oracle",
-    "description": "Enemies caught by the Oracle's Stasis Ward may now be attacked."
+    "description": "The Oracle's Stasis Ward can affect air units."
   },
   "Temporal Acceleration Beam (Oracle)": {
     "type": "Forge 1",
@@ -6252,7 +6297,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent": "Reaver",
-    "description": "Reduces Reaver cost by 100 minerals, 100 gas, and 2 supply."
+    "description": "Reduces Reaver cost by 50 minerals, 25 gas, and 1 supply."
   },
   "Agony Launchers (Vanguard)": {
     "type": "Forge 2",
@@ -6783,7 +6828,25 @@
     "classification": "useful",
     "quantity": 1,
     "parent": "Mist Wing",
-    "description": "Mistwings gain the Pilot ability, \nwhich The Mist Wing can transport one unit as an additional pilot. A pilot grants a small bonus to damage and armor.."
+    "description": "Mistwings gain the Pilot ability, \nwhich can transport one unit as an additional pilot. A pilot grants a small bonus to damage and armor."
+  },
+  "Blink Overdrive (Instigator)": {
+    "type": "Forge 4",
+    "number": 25,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent": "Instigator",
+    "description": "Instigators gain +2 maximum blink charges and +1 blink range."
+  },
+  "Reconstruction (Instigator)": {
+    "type": "Forge 4",
+    "number": 26,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent": "Instigator",
+    "description": "Instigators gain the Reconstruction ability, allowing them to be reconstructed on death with a 240 seconds cooldown. Using Blink reduces the cooldown."
   },
   "Whirlwind (Zealot)": {
     "type": "War Council",
@@ -6837,7 +6900,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent": "Instigator",
-    "description": "Instigator War Council upgrade. Instigators move 20% faster."
+    "description": "Instigator War Council upgrade. Instigators move 28% faster."
   },
   "Disruptive Transfer (Adept)": {
     "type": "War Council",
@@ -6891,7 +6954,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent": "Blood Hunter",
-    "description": "Blood Hunter War Council upgrade. Blood Hunters attack over twice as quickly."
+    "description": "Blood Hunter War Council upgrade. Blood Hunters attack twice as quickly."
   },
   "Double Shield Recharge (Sentry)": {
     "type": "War Council",
@@ -6972,7 +7035,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent": "Vanguard",
-    "description": "Vanguard War Council upgrade. Vanguards attack 38% faster."
+    "description": "Vanguard War Council upgrade. Vanguards attack 60% faster."
   },
   "Fusion Mortars (Vanguard)": {
     "type": "War Council",
@@ -7107,7 +7170,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent": "Destroyer",
-    "description": "Destroyer War Council upgrade. When fully charged, the Destroyer's Destruction Beam weapon does full damage to secondary targets."
+    "description": "Destroyer War Council upgrade. Increases the Destroyer's bounce attack damage to 3 (+2 vs armored) at all charge levels, and allows the bounces to benefit from protoss air weapon upgrades."
   },
   "Liminal Magnifiers (Intercessor)": {
     "type": "War Council 2",
@@ -7136,14 +7199,14 @@
     "parent": "Carrier",
     "description": "Carrier War Council upgrade. Carriers gain 2 repair drones which heal nearby mechanical units."
   },
-  "Hyperjump (Skylord)": {
+  "Jump (Skylord)": {
     "type": "War Council 2",
     "number": 9,
     "race": "PROTOSS",
     "classification": "useful",
     "quantity": 1,
     "parent": "Skylord",
-    "description": "Skylord War Council upgrade. Skylords gain the Hyperjump ability, \nwhich teleports the skylord to any location on the map."
+    "description": "Skylord War Council upgrade. Skylords gain the Jump ability, \nwhich instantly teleports the Skylord a short distance."
   },
   "Solar Beam (Trireme)": {
     "type": "War Council 2",
@@ -7181,6 +7244,15 @@
     "parent": "Arbiter",
     "description": "Arbiter War Council upgrade. Reduces the energy cost of Recall by 50 and Stasis Field by 100."
   },
+  "Stasis Calibration (Oracle)": {
+    "type": "War Council 2",
+    "number": 14,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent": "Oracle",
+    "description": "Oracle War Council upgrade. Enemies caught by the Oracle's Stasis Ward may now be attacked."
+  },
   "Integrated Power (Mothership)": {
     "type": "War Council 2",
     "number": 15,
@@ -7197,16 +7269,16 @@
     "classification": "useful",
     "quantity": 1,
     "parent": "Oppressor",
-    "description": "Oppressor War Council upgrade. Oppressors gain the Vulcan Blaster ability, \nwhich Activates a powerful short range anti-ground weapon for a limited time. Greatly reduces movement and turning speed, and disables other weapons while active.."
+    "description": "Oppressor War Council upgrade. Oppressors gain the Vulcan Blaster ability, \nwhich activates a powerful short range anti-ground weapon for a limited time. Greatly reduces movement and turning speed, and disables other weapons while active."
   },
   "Corona Beam (Caladrius)": {
     "type": "War Council 2",
     "number": 21,
     "race": "PROTOSS",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent": "Caladrius",
-    "description": "Caladrius War Council upgrade. Caladrius gain the Corona Beam ability, \nwhich A channeling beam that drains up to 100 of your shield to deal up to 200 damage over time to a single target.."
+    "description": "Caladrius War Council upgrade. Caladrius gain the Corona Beam ability, \nwhich channels a beam that drains up to 100 of the Caladrius' shields to deal up to 200 damage over time to a single target."
   },
   "Phantom Dash (Mist Wing)": {
     "type": "War Council 2",
@@ -7215,7 +7287,16 @@
     "classification": "useful",
     "quantity": 1,
     "parent": "Mist Wing",
-    "description": "Mist Wing War Council upgrade. Mist Wings gain the Phantom Dash ability, \nwhich Dash forward to cover some distance quickly. Deals damage in a line if the Mist Wing is cloaked.."
+    "description": "Mist Wing War Council upgrade. Mist Wings gain the Phantom Dash ability, \nwhich dashes forward to cover some distance quickly. Deals damage in a line if the Mist Wing is cloaked."
+  },
+  "Sacrifice (Supplicant)": {
+    "type": "War Council 2",
+    "number": 23,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent": "Supplicant",
+    "description": "Allows Supplicants to sacrifice themselves to save nearby units from death."
   },
   "Chrono Surge (Spear of Adun Calldown)": {
     "type": "Spear Of Adun",
@@ -7428,7 +7509,7 @@
     "type": "Solarite Core",
     "number": 11,
     "race": "PROTOSS",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent": null,
     "description": "Pylons, Photon Cannons, Monoliths, and Shield Batteries warp in near-instantly."
@@ -7450,5 +7531,23 @@
     "quantity": 2,
     "parent": null,
     "description": "Level 1: Protoss structures can be moved anywhere within pylon power after a brief delay. Max 3 charges, shared globally.\nLevel 2: No longer consumes or requires charges."
+  },
+  "Probe Warpin (Protoss)": {
+    "type": "Solarite Core",
+    "number": 13,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent": null,
+    "description": "You can warp in additonal Probes from your Nexus to any visible location within a Pylon's power field. Has a 30 second cooldown and can store up to 2 charges."
+  },
+  "Elder Probes (Protoss)": {
+    "type": "Solarite Core",
+    "number": 14,
+    "race": "PROTOSS",
+    "classification": "useful",
+    "quantity": 1,
+    "parent": null,
+    "description": "You can warp in a group of 5 Elder Probes, tougher builders from the Brood War. Can only be used once."
   }
 }

@@ -11,13 +11,13 @@ def clean() -> None:
             continue
         if os.path.splitext(world)[1] == '.py':
             continue
-        print(f'Removing {world}')
+        print(f'Removing {world} ({world.replace("worlds", "_worlds")})')
         shutil.move(world, world.replace('worlds', '_worlds'))
 
 def restore() -> None:
     worlds = glob.glob('_worlds/*')
     for world in worlds:
-        print(f'Restoring {world}')
+        print(f'Restoring {world} ({world.replace("_worlds", "worlds")})')
         shutil.move(world, world.replace('_worlds', 'worlds'))
 
 if __name__ == '__main__':

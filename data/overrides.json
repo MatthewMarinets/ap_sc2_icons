@@ -8,7 +8,10 @@
         "Vanadium Plating (Terran)": ["btn-research-terran-vanadiumplating.dds"],
         "High Archon (Archon)": ["btn-unit-protoss-archon-upgraded.dds"],
         "Resource Efficiency (Sentinel)": ["btn-ability-hornerhan-salvagebonus.dds"],
-        "Resource Efficiency (Centurion)": ["btn-ability-hornerhan-salvagebonus.dds"]
+        "Resource Efficiency (Centurion)": ["btn-ability-hornerhan-salvagebonus.dds"],
+        "Psi Disrupter": ["btn-building-terran-sigmaprojector.dds", "btn-ability-terran-psidisruption.dds"],
+        "Sonic Disrupter (Psi Disrupter)": ["btn-ability-protoss-mindblast.dds"],
+        "Khalai Disrupter (Psi Disrupter)": ["btn-progression-protoss-fenix-1-zealotsuit.dds"]
     },
     "add": {
         "Additional Starting Minerals": ["icon-mineral-nobg.dds"],
@@ -25,6 +28,10 @@
         "Vanadium Plating (Terran)": ["btn-research-terran-vanadiumplating.dds"],
         "Ultra-Capacitors (Terran)": ["btn-research-terran-ultracapacitors.dds"],
         "Rogue Forces (Terran/Zerg)": ["btn-unit-terran-tosh.dds"],
+        "Unrestricted Mutation (Zerg)": ["btn-upgrade-zerg-swarmfrenzy.dds"],
+        "Cell Division (Zerg)": ["btn-ability-zerg-rapidregeneration-color.dds"],
+        "Progressive Evolutionary Leap (Zerg)": ["ui_glues_help_armyicon_zerg.dds", "ui_tipicon_story-archives.dds"],
+        "Self Sufficient (Zerg)": ["btn-progression-zerg-dehaka-7-newdehakaabilities.dds"],
         "Hive Cluster Maturation (Zerg)": ["btn-building-zerg-hive.dds"],
         "Internal Fusion Module (Hercules)": ["btn-upgrade-terran-internalizedtechmodule.dds"],
         "Defensive Matrix (Science Vessel)": ["Assets\\Textures\\btn-upgrade-swann-defensivematrix.dds"],
@@ -142,6 +149,12 @@
             "btn-ability-terran-decloak-color",
             "btn-building-terran-factorymengsk.dds",
             "btn-ability-terran-load"
+        ],
+        ".*Hive Mind Emulator\\)?": [
+            "btn-ability-protoss-mindcontrol",
+            "btn-unit-protoss-zealot",
+            "btn-unit-terran-marine",
+            "btn-unit-zerg-zergling"
         ],
         "Jump Jets.*": ["btn-ability-protoss-blink-color"],
         "Progressive.*": ["btn-ability-terran-cloak-color"],
