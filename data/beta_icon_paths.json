@@ -1,119 +1,119 @@
 {
   "meta": {
-    "timestamp": "2025-03-10",
-    "items": 853,
-    "located": 821
+    "timestamp": "2025-06-01",
+    "items": 859,
+    "located": 826
   },
   "locations": {
-    "Marine (Barracks)": [
+    "Marine": [
       "assets\\textures\\btn-unit-terran-marine.dds"
     ],
-    "Medic (Barracks)": [
+    "Medic": [
       "assets\\textures\\btn-unit-terran-medic.dds"
     ],
-    "Firebat (Barracks)": [
+    "Firebat": [
       "assets\\textures\\btn-unit-terran-firebat.dds"
     ],
-    "Marauder (Barracks)": [
+    "Marauder": [
       "assets\\textures\\btn-unit-terran-marauder.dds"
     ],
-    "Reaper (Barracks)": [
+    "Reaper": [
       "assets\\textures\\btn-unit-terran-reaper.dds"
     ],
-    "Hellion (Factory)": [
+    "Hellion": [
       "assets\\textures\\btn-unit-terran-hellion.dds"
     ],
-    "Vulture (Factory)": [
+    "Vulture": [
       "assets\\textures\\btn-unit-terran-vulture.dds"
     ],
-    "Goliath (Factory)": [
+    "Goliath": [
       "assets\\textures\\btn-unit-terran-goliath.dds"
     ],
-    "Diamondback (Factory)": [
+    "Diamondback": [
       "assets\\textures\\btn-unit-terran-cobra.dds"
     ],
-    "Siege Tank (Factory)": [
+    "Siege Tank": [
       "assets\\textures\\btn-unit-terran-siegetank.dds"
     ],
-    "Medivac (Starport)": [
+    "Medivac": [
       "assets\\textures\\btn-unit-terran-medivac.dds"
     ],
-    "Wraith (Starport)": [
+    "Wraith": [
       "assets\\textures\\btn-unit-terran-wraith.dds"
     ],
-    "Viking (Starport)": [
+    "Viking": [
       "assets\\textures\\btn-unit-terran-vikingfighter.dds"
     ],
-    "Banshee (Starport)": [
+    "Banshee": [
       "assets\\textures\\btn-unit-terran-banshee.dds"
     ],
-    "Battlecruiser (Starport)": [
+    "Battlecruiser": [
       "assets\\textures\\btn-unit-terran-battlecruiser.dds"
     ],
-    "Ghost (Barracks)": [
+    "Ghost": [
       "assets\\textures\\btn-unit-terran-ghost.dds"
     ],
-    "Spectre (Barracks)": [
+    "Spectre": [
       "ap\\assets\\textures\\btn-unit-terran-spectre.dds"
     ],
-    "Thor (Factory)": [
+    "Thor": [
       "assets\\textures\\btn-unit-terran-thor.dds"
     ],
-    "Liberator (Starport)": [
+    "Liberator": [
       "assets\\textures\\btn-unit-terran-liberator.dds"
     ],
-    "Valkyrie (Starport)": [
+    "Valkyrie": [
       "ap\\assets\\textures\\btn-unit-terran-valkyrie@scbw.dds"
     ],
-    "Widow Mine (Factory)": [
+    "Widow Mine": [
       "assets\\textures\\btn-unit-terran-widowmine.dds"
     ],
-    "Cyclone (Factory)": [
+    "Cyclone": [
       "assets\\textures\\btn-unit-terran-cyclone.dds"
     ],
-    "HERC (Barracks)": [
+    "HERC": [
       "assets\\textures\\btn-unit-terran-herc.dds"
     ],
-    "Warhound (Factory)": [
+    "Warhound": [
       "assets\\textures\\btn-unit-terran-warhound.dds"
     ],
-    "Dominion Trooper (Barracks)": [
+    "Dominion Trooper": [
       "assets\\textures\\btn-unit-terran-troopermengsk.dds"
     ],
-    "Pride of Augustgrad (Elite Starport)": [
+    "Pride of Augustgrad": [
       "assets\\textures\\btn-unit-terran-battlecruisermengsk.dds"
     ],
-    "Sky Fury (Elite Starport)": [
+    "Sky Fury": [
       "assets\\textures\\btn-unit-terran-vikingmengskfighter.dds"
     ],
-    "Shock Division (Factory)": [
+    "Shock Division": [
       "assets\\textures\\btn-unit-terran-siegetankmengsk.dds"
     ],
-    "Blackhammer (Factory)": [
+    "Blackhammer": [
       "assets\\textures\\btn-unit-terran-thormengsk.dds"
     ],
-    "Aegis Guard (Elite Barracks)": [
+    "Aegis Guard": [
       "assets\\textures\\btn-unit-terran-maraudermengsk.dds"
     ],
-    "Emperor's Shadow (Elite Barracks)": [
+    "Emperor's Shadow": [
       "assets\\textures\\btn-unit-terran-ghostmengsk.dds"
     ],
-    "Son of Korhal (Elite Barracks)": [
+    "Son of Korhal": [
       "ap\\assets\\textures\\btn-unit-terran-marine-mengsk.dds"
     ],
-    "Bulwark Company (Factory)": [
+    "Bulwark Company": [
       "ap\\assets\\textures\\btn-unit-terran-goliath-mengsk.dds"
     ],
-    "Field Response Theta (Elite Barracks)": [
+    "Field Response Theta": [
       "ap\\assets\\textures\\btn-unit-terran-medic-mengsk.dds"
     ],
-    "Emperor's Guardian (Elite Starport)": [
+    "Emperor's Guardian": [
       "ap\\assets\\textures\\btn-royalliberator.dds"
     ],
-    "Night Hawk (Elite Starport)": [
+    "Night Hawk": [
       "ap\\assets\\textures\\btn-unit-terran-wraith-mengsk.dds"
     ],
-    "Night Wolf (Elite Starport)": [
+    "Night Wolf": [
       "ap\\assets\\textures\\btn-unit-terran-banshee-mengsk.dds"
     ],
     "Progressive Terran Infantry Weapon": [
@@ -785,46 +785,46 @@
     "Devastator Turret": [
       "assets\\textures\\btn-tips-flamingbetty.dds"
     ],
-    "War Pigs (Mercenary)": [
+    "War Pigs": [
       "ap\\assets\\textures\\btn-unit-terran-marinemercenary.dds"
     ],
-    "Devil Dogs (Mercenary)": [
+    "Devil Dogs": [
       "ap\\assets\\textures\\btn-unit-terran-firebatmercenary.dds"
     ],
-    "Hammer Securities (Mercenary)": [
+    "Hammer Securities": [
       "ap\\assets\\textures\\btn-unit-terran-maraudermercenary.dds"
     ],
-    "Spartan Company (Mercenary)": [
+    "Spartan Company": [
       "ap\\assets\\textures\\btn-unit-terran-goliathmercenary.dds"
     ],
-    "Siege Breakers (Mercenary)": [
+    "Siege Breakers": [
       "ap\\assets\\textures\\btn-unit-terran-siegetankmercenary-tank.dds"
     ],
-    "Hel's Angels (Mercenary)": [
+    "Hel's Angels": [
       "ap\\assets\\textures\\btn-unit-terran-vikingmercenary-fighter.dds"
     ],
-    "Dusk Wings (Mercenary)": [
+    "Dusk Wings": [
       "ap\\assets\\textures\\btn-unit-terran-bansheemercenary.dds"
     ],
-    "Jackson's Revenge (Mercenary)": [
+    "Jackson's Revenge": [
       "ap\\assets\\textures\\btn-unit-terran-battlecruiserloki.dds"
     ],
-    "Skibi's Angels (Mercenary)": [
+    "Skibi's Angels": [
       "assets\\textures\\btn-unit-terran-medicelite.dds"
     ],
-    "Death Heads (Mercenary)": [
+    "Death Heads": [
       "assets\\textures\\btn-unit-terran-deathhead.dds"
     ],
-    "Winged Nightmares (Mercenary)": [
+    "Winged Nightmares": [
       "assets\\textures\\btn-unit-collection-wraith-junker.dds"
     ],
-    "Midnight Riders (Mercenary)": [
+    "Midnight Riders": [
       "assets\\textures\\btn-unit-terran-liberatorblackops.dds"
     ],
-    "Brynhilds (Mercenary)": [
+    "Brynhilds": [
       "assets\\textures\\btn-unit-collection-vikingfighter-covertops.dds"
     ],
-    "Jotun (Mercenary)": [
+    "Jotun": [
       "assets\\textures\\btn-unit-terran-merc-thor.dds"
     ],
     "Ultra-Capacitors (Terran)": [
@@ -845,16 +845,16 @@
     "Command Center Reactor (Command Center)": [
       "btn-research-terran-commandcenterreactor.dds"
     ],
-    "Raven (Starport)": [
+    "Raven": [
       "assets\\textures\\btn-unit-terran-raven.dds"
     ],
-    "Science Vessel (Starport)": [
+    "Science Vessel": [
       "assets\\textures\\btn-unit-terran-sciencevessel.dds"
     ],
     "Tech Reactor (Terran)": [
       "ap\\assets\\textures\\btn-building-terran-techreactor.dds"
     ],
-    "Orbital Strike (Terran)": [
+    "Orbital Strike (Barracks)": [
       "btn-research-terran-orbitalstrikerally.dds"
     ],
     "Shrike Turret (Bunker)": [
@@ -870,10 +870,10 @@
     "Perdition Turret": [
       "assets\\textures\\btn-unit-terran-perditionturret.dds"
     ],
-    "Predator (Factory)": [
+    "Predator": [
       "ap\\assets\\textures\\btn-unit-terran-predator.dds"
     ],
-    "Hercules (Starport)": [
+    "Hercules": [
       "assets\\textures\\btn-unit-terran-hercules.dds"
     ],
     "Cellular Reactor (Terran)": [
@@ -885,7 +885,7 @@
       "btn-research-zerg-regenerativebio-steel.dds"
     ],
     "Hive Mind Emulator": [
-      "ap\\assets\\textures\\btn-building-terran-hivemindemulator.dds"
+      "btn-building-terran-hivemindemulator.dds"
     ],
     "Psi Disrupter": [
       "btn-building-terran-sigmaprojector.dds",
@@ -925,10 +925,10 @@
       "btn-progression-protoss-fenix-1-zealotsuit.dds"
     ],
     "Khalai Takeover (Hive Mind Emulator)": [
-      "ap\\assets\\textures\\btn-building-terran-hivemindemulator.dds"
+      "btn-building-terran-hivemindemulator.dds"
     ],
     "Brainwashing (Hive Mind Emulator)": [
-      "ap\\assets\\textures\\btn-building-terran-hivemindemulator.dds"
+      "btn-building-terran-hivemindemulator.dds"
     ],
     "Signal Beacon (Terran)": [
       "talent-raynor-level08-orbitaldroppods.dds"
@@ -983,6 +983,12 @@
     ],
     "Deploy Turret (Warhound)": [
       "assets\\textures\\btn-building-terran-autoturret.dds"
+    ],
+    "Bargain Bin Prices (Ghost)": [
+      "naptime_coop.dds"
+    ],
+    "Bargain Bin Prices (Spectre)": [
+      "naptime_coop.dds"
     ],
     "Additional Starting Minerals": [
       "icon-mineral-nobg.dds"
@@ -1070,34 +1076,35 @@
     "Tac Nuke Strike (Nova Ability)": [
       "assets\\textures\\btn-ability-terran-nuclearstrike-color.dds"
     ],
-    "Zergling (Larva)": [
+    "Zergling": [
       "assets\\textures\\btn-unit-zerg-zergling.dds"
     ],
-    "Swarm Queen (Hatchery)": [
+    "Swarm Queen": [
       "assets\\textures\\btn-unit-zerg-broodqueen.dds"
     ],
-    "Roach (Larva)": [
+    "Roach": [
       "assets\\textures\\btn-unit-zerg-roach.dds"
     ],
-    "Hydralisk (Larva)": [
+    "Hydralisk": [
       "assets\\textures\\btn-unit-zerg-hydralisk.dds"
     ],
-    "Baneling (Zergling Morph)": [
+    "Baneling": [
+      "assets\\textures\\btn-building-zerg-banelingnest.dds",
       "assets\\textures\\btn-unit-zerg-baneling.dds"
     ],
-    "Aberration (Larva)": [
+    "Aberration": [
       "assets\\textures\\btn-unit-zerg-aberration.dds"
     ],
-    "Mutalisk (Larva)": [
+    "Mutalisk": [
       "assets\\textures\\btn-unit-zerg-mutalisk.dds"
     ],
-    "Swarm Host (Larva)": [
+    "Swarm Host": [
       "assets\\textures\\btn-unit-zerg-swarmhost.dds"
     ],
-    "Infestor (Larva)": [
+    "Infestor": [
       "assets\\textures\\btn-unit-zerg-infestor.dds"
     ],
-    "Ultralisk (Larva)": [
+    "Ultralisk": [
       "assets\\textures\\btn-unit-zerg-ultralisk.dds"
     ],
     "Spore Crawler": [
@@ -1106,52 +1113,52 @@
     "Spine Crawler": [
       "assets\\textures\\btn-building-zerg-spinecrawler.dds"
     ],
-    "Corruptor (Larva)": [
+    "Corruptor": [
       "assets\\textures\\btn-unit-zerg-corruptor.dds"
     ],
-    "Scourge (Larva)": [
+    "Scourge": [
       "assets\\textures\\btn-unit-zerg-scourge.dds"
     ],
-    "Brood Queen (Larva)": [
+    "Brood Queen": [
       "assets\\textures\\btn-unit-zerg-classicqueen.dds"
     ],
-    "Defiler (Larva)": [
+    "Defiler": [
       "ap\\assets\\textures\\btn-unit-zerg-defiler@scbw.dds"
     ],
-    "Infested Marine (Infested Barracks)": [
+    "Infested Marine": [
       "assets\\textures\\btn-unit-zerg-infestedmarine.dds"
     ],
     "Infested Bunker": [
       "assets\\textures\\btn-building-stukov-infestedbunker.dds"
     ],
-    "Nydus Worm (Nydus Network)": [
+    "Nydus Worm": [
       "assets\\textures\\btn-building-zerg-nydusworm.dds"
     ],
-    "Echidna Worm (Nydus Network)": [
+    "Echidna Worm": [
       "assets\\textures\\btn-unit-zerg-nydusdragon.dds"
     ],
-    "Infested Siege Tank (Infested Factory)": [
+    "Infested Siege Tank": [
       "assets\\textures\\btn-unit-zerg-infestedsiegetank.dds"
     ],
-    "Infested Diamondback (Infested Factory)": [
+    "Infested Diamondback": [
       "assets\\textures\\btn-unit-zerg-infesteddiamondback.dds"
     ],
-    "Infested Banshee (Infested Starport)": [
+    "Infested Banshee": [
       "assets\\textures\\btn-unit-zerg-infestedbanshee.dds"
     ],
-    "Infested Liberator (Infested Starport)": [
+    "Infested Liberator": [
       "assets\\textures\\btn-unit-zerg-infestedliberator.dds"
     ],
     "Infested Missile Turret": [
       "assets\\textures\\btn-building-stukov-infestedturret.dds"
     ],
-    "Pygalisk (Larva)": [
+    "Pygalisk": [
       "assets\\textures\\btn-unit-zerg-ultralisk-rcz.dds"
     ],
     "Bile Launcher": [
       "assets\\textures\\btn-building-zerg-sporecannon.dds"
     ],
-    "Bullfrog (Infested Factory)": [
+    "Bullfrog": [
       "ap\\assets\\textures\\btn-unit-zerg-bullfrog.dds"
     ],
     "Progressive Zerg Melee Attack": [
@@ -1470,7 +1477,7 @@
     "Primal Tenacity (Primal Igniter)": [
       "assets\\textures\\btn-ability-zerg-genemutation-thornsaura.dds"
     ],
-    "Sustained Cultivation Ventricles (InfSCV Build Charges)": [
+    "Sustained Cultivation Ventricles (Infested SCV)": [
       "assets\\textures\\btn-upgrade-swann-scvdoublerepair.dds"
     ],
     "Plagued Munitions (Infested Marine)": [
@@ -1506,10 +1513,10 @@
     "Corpser Strain (Roach)": [
       "assets\\textures\\btn-unit-zerg-roach-corpser.dds"
     ],
-    "Impaler (Hydralisk Morph)": [
+    "Impaler": [
       "assets\\textures\\btn-unit-zerg-impaler.dds"
     ],
-    "Lurker (Hydralisk Morph)": [
+    "Lurker": [
       "assets\\textures\\btn-unit-zerg-lurker.dds"
     ],
     "Splitter Strain (Baneling)": [
@@ -1518,10 +1525,10 @@
     "Hunter Strain (Baneling)": [
       "assets\\textures\\btn-unit-zerg-baneling-hunter.dds"
     ],
-    "Brood Lord (Mutalisk/Corruptor Morph)": [
+    "Brood Lord": [
       "assets\\textures\\btn-unit-zerg-broodlord.dds"
     ],
-    "Viper (Mutalisk/Corruptor Morph)": [
+    "Viper": [
       "assets\\textures\\btn-unit-zerg-mutalisk-viper.dds"
     ],
     "Carrion Strain (Swarm Host)": [
@@ -1660,6 +1667,9 @@
     "Catalytic Boosters (Bullfrog)": [
       "assets\\textures\\btn-ability-mengsk-medivac-igniteafterburners.dds"
     ],
+    "Bio Bonus (Spore Crawler)": [
+      "assets\\textures\\btn-ability-zerg-acidspores.dds"
+    ],
     "Kinetic Blast (Kerrigan Ability)": [
       "assets\\textures\\btn-ability-kerrigan-kineticblast.dds"
     ],
@@ -1747,31 +1757,31 @@
     "14 Kerrigan Levels": [],
     "35 Kerrigan Levels": [],
     "70 Kerrigan Levels": [],
-    "Infested Medics (Mercenary)": [
+    "Infested Medics": [
       "assets\\textures\\btn-unit-terran-medicelite.dds"
     ],
-    "Infested Siege Breakers (Mercenary)": [
+    "Infested Siege Breakers": [
       "ap\\assets\\textures\\btn-unit-terran-siegetankmercenary-tank.dds"
     ],
-    "Infested Dusk Wings (Mercenary)": [
+    "Infested Dusk Wings": [
       "ap\\assets\\textures\\btn-unit-terran-bansheemercenary.dds"
     ],
-    "Devouring Ones (Mercenary)": [
+    "Devouring Ones": [
       "ap\\assets\\textures\\btn-unit-zerg-zergling-scr.dds"
     ],
-    "Hunter Killers (Mercenary)": [
+    "Hunter Killers": [
       "assets\\textures\\btn-unit-zerg-hydralisk-remastered.dds"
     ],
-    "Wise Old Torrasque (Mercenary)": [
+    "Wise Old Torrasque": [
       "assets\\textures\\btn-unit-zerg-ultralisk-remastered.dds"
     ],
-    "Hunterling (Mercenary)": [
+    "Hunterling": [
       "ap\\assets\\custom\\textures\\btn-unit-hunterling.dds"
     ],
-    "Yggdrasil (Mercenary)": [
+    "Yggdrasil": [
       "assets\\textures\\btn-unit-collection-overlord-mutant.dds"
     ],
-    "Thornshells (Mercenary)": [
+    "Caustic Horrors": [
       "assets\\textures\\btn-unit-collection-webby-roach.dds"
     ],
     "Ventral Sacs (Overlord)": [
@@ -1817,166 +1827,166 @@
     "Evolutionary Leap (Zerg)": [
       "evolution_coop.dds"
     ],
-    "Guardian (Mutalisk/Corruptor Morph)": [
+    "Guardian": [
       "assets\\textures\\btn-unit-zerg-primalguardian.dds"
     ],
-    "Devourer (Mutalisk/Corruptor Morph)": [
+    "Devourer": [
       "assets\\textures\\btn-unit-zerg-devourerex3.dds"
     ],
-    "Ravager (Roach Morph)": [
+    "Ravager": [
       "assets\\textures\\btn-unit-zerg-ravager.dds"
     ],
-    "Overseer (Overlord Morph)": [
+    "Overseer": [
       "assets\\textures\\btn-unit-zerg-overseer.dds"
     ],
-    "Primal Igniter (Roach Morph)": [
+    "Primal Igniter": [
       "assets\\textures\\btn-unit-collection-primal-roachupgrade.dds"
     ],
-    "Tyrannozor (Ultralisk Morph)": [
+    "Tyrannozor": [
       "assets\\textures\\btn-unit-collection-primal-tyrannozor.dds"
     ],
-    "Zealot (Gateway, Aiur)": [
+    "Zealot": [
       "assets\\textures\\btn-unit-protoss-zealot.dds"
     ],
-    "Stalker (Gateway, Nerazim)": [
+    "Stalker": [
       "assets\\textures\\btn-unit-protoss-stalker.dds"
     ],
-    "High Templar (Gateway, Aiur)": [
+    "High Templar": [
       "assets\\textures\\btn-unit-protoss-hightemplar.dds"
     ],
-    "Dark Templar (Gateway, Nerazim)": [
+    "Dark Templar": [
       "assets\\textures\\btn-unit-protoss-darktemplar.dds"
     ],
-    "Immortal (Robotics Facility, Aiur)": [
+    "Immortal": [
       "assets\\textures\\btn-unit-protoss-immortal.dds"
     ],
-    "Colossus (Robotics Facility, Purifier)": [
+    "Colossus": [
       "assets\\textures\\btn-unit-protoss-colossus.dds"
     ],
-    "Phoenix (Stargate, Aiur)": [
+    "Phoenix": [
       "assets\\textures\\btn-unit-protoss-phoenix.dds"
     ],
-    "Void Ray (Stargate, Nerazim)": [
+    "Void Ray": [
       "assets\\textures\\btn-unit-protoss-warpray.dds"
     ],
-    "Carrier (Stargate, Aiur)": [
+    "Carrier": [
       "assets\\textures\\btn-unit-protoss-carrier.dds"
     ],
-    "Observer (Robotics Facility)": [
+    "Observer": [
       "assets\\textures\\btn-unit-protoss-observer.dds"
     ],
-    "Centurion (Gateway, Nerazim)": [
+    "Centurion": [
       "assets\\textures\\btn-unit-protoss-zealot-nerazim.dds"
     ],
-    "Sentinel (Gateway, Purifier)": [
+    "Sentinel": [
       "assets\\textures\\btn-unit-protoss-zealot-purifier.dds"
     ],
-    "Supplicant (Gateway, Tal'darim)": [
+    "Supplicant": [
       "assets\\textures\\btn-unit-protoss-alarak-taldarim-supplicant.dds"
     ],
-    "Instigator (Gateway, Purifier)": [
+    "Instigator": [
       "assets\\textures\\btn-unit-protoss-stalker-purifier.dds"
     ],
-    "Slayer (Gateway, Tal'darim)": [
+    "Slayer": [
       "assets\\textures\\btn-unit-protoss-alarak-taldarim-stalker-collection.dds"
     ],
-    "Sentry (Gateway, Aiur)": [
+    "Sentry": [
       "assets\\textures\\btn-unit-protoss-sentry.dds"
     ],
-    "Energizer (Gateway, Purifier)": [
+    "Energizer": [
       "assets\\textures\\btn-unit-protoss-sentry-purifier.dds"
     ],
-    "Havoc (Gateway, Tal'darim)": [
+    "Havoc": [
       "assets\\textures\\btn-unit-protoss-sentry-taldarim.dds"
     ],
-    "Signifier (Gateway, Nerazim)": [
+    "Signifier": [
       "ap\\assets\\textures\\btn-unit-protoss-hightemplar-nerazim.dds"
     ],
-    "Ascendant (Gateway, Tal'darim)": [
+    "Ascendant": [
       "assets\\textures\\btn-unit-protoss-hightemplar-taldarim.dds"
     ],
-    "Avenger (Gateway, Aiur)": [
+    "Avenger": [
       "assets\\textures\\btn-unit-protoss-darktemplar-aiur.dds"
     ],
-    "Blood Hunter (Gateway, Tal'darim)": [
+    "Blood Hunter": [
       "assets\\textures\\btn-unit-protoss-darktemplar-taldarim.dds"
     ],
-    "Dragoon (Gateway, Aiur)": [
+    "Dragoon": [
       "assets\\textures\\btn-unit-protoss-dragoon-void.dds"
     ],
-    "Dark Archon (Gateway, Nerazim)": [
+    "Dark Archon": [
       "assets\\textures\\talent-vorazun-level05-unlockdarkarchon.dds"
     ],
-    "Adept (Gateway, Purifier)": [
+    "Adept": [
       "assets\\textures\\btn-unit-protoss-adept-purifier.dds"
     ],
-    "Warp Prism (Robotics Facility)": [
+    "Warp Prism": [
       "assets\\textures\\btn-unit-protoss-warpprism.dds"
     ],
-    "Annihilator (Robotics Facility, Nerazim)": [
+    "Annihilator": [
       "assets\\textures\\btn-unit-protoss-immortal-nerazim.dds"
     ],
-    "Vanguard (Robotics Facility, Tal'darim)": [
+    "Vanguard": [
       "assets\\textures\\btn-unit-protoss-immortal-taldarim.dds"
     ],
-    "Wrathwalker (Robotics Facility, Tal'darim)": [
+    "Wrathwalker": [
       "assets\\textures\\btn-unit-protoss-colossus-taldarim.dds"
     ],
-    "Reaver (Robotics Facility, Aiur)": [
+    "Reaver": [
       "assets\\textures\\btn-unit-protoss-reaver.dds"
     ],
-    "Disruptor (Robotics Facility, Purifier)": [
+    "Disruptor": [
       "assets\\textures\\btn-unit-collection-purifier-disruptor.dds"
     ],
-    "Mirage (Stargate, Purifier)": [
+    "Mirage": [
       "assets\\textures\\btn-unit-protoss-phoenix-purifier.dds"
     ],
-    "Corsair (Stargate, Nerazim)": [
+    "Corsair": [
       "assets\\textures\\btn-unit-protoss-corsair.dds"
     ],
-    "Destroyer (Stargate, Tal'darim)": [
+    "Destroyer": [
       "assets\\textures\\btn-unit-protoss-voidray-taldarim.dds"
     ],
-    "Scout (Stargate, Aiur)": [
+    "Scout": [
       "ap\\assets\\textures\\btn-unit-protoss-scout.dds"
     ],
-    "Tempest (Stargate, Purifier)": [
+    "Tempest": [
       "assets\\textures\\btn-unit-protoss-tempest-purifier.dds"
     ],
-    "Mothership (Stargate, Tal'darim)": [
+    "Mothership": [
       "assets\\textures\\btn-unit-protoss-mothership-taldarim.dds"
     ],
-    "Arbiter (Stargate, Aiur)": [
+    "Arbiter": [
       "assets\\textures\\btn-unit-protoss-arbiter.dds"
     ],
-    "Oracle (Stargate, Nerazim)": [
+    "Oracle": [
       "assets\\textures\\btn-unit-protoss-oracle.dds"
     ],
-    "Stalwart (Robotics Facility, Purifier)": [
+    "Stalwart": [
       "assets\\textures\\btn-unit-collection-purifier-immortal.dds"
     ],
-    "Intercessor (Stargate, Aiur)": [
+    "Intercessor": [
       "ap\\assets\\custom\\textures\\btn-unit-voidray-aiur.dds"
     ],
-    "Dawnbringer (Stargate, Purifier)": [
+    "Dawnbringer": [
       "assets\\textures\\btn-unit-collection-purifier-voidray.dds"
     ],
-    "Skylord (Stargate, Tal'darim)": [
+    "Skylord": [
       "assets\\textures\\btn-unit-collection-taldarim-carrier.dds"
     ],
-    "Trireme (Stargate, Purifier)": [
+    "Trireme": [
       "assets\\textures\\btn-unit-collection-purifier-carrier.dds"
     ],
-    "Skirmisher (Stargate, Tal'darim)": [
+    "Skirmisher": [
       "assets\\textures\\btn-unit-collection-taldarim-phoenix.dds"
     ],
-    "Oppressor (Stargate, Tal'darim)": [
+    "Oppressor": [
       "ap\\assets\\textures\\btn-unit-protoss-scouttaldarim.dds"
     ],
-    "Caladrius (Stargate, Purifier)": [
+    "Caladrius": [
       "ap\\assets\\textures\\btn-unit-protoss-scoutpurifier.dds"
     ],
-    "Mist Wing (Stargate, Nerazim)": [
+    "Mist Wing": [
       "ap\\assets\\textures\\btn-unit-protoss-scoutnerazim.dds"
     ],
     "Progressive Protoss Ground Weapon": [
@@ -2356,6 +2366,12 @@
     "Archon Merge (Ascendant)": [
       "assets\\textures\\btn-unit-protoss-archon.dds"
     ],
+    "Supply Efficiency (Scout)": [
+      "talent-artanis-level14-startingmaxsupply.dds"
+    ],
+    "Bargain Bin Prices (Reaver)": [
+      "naptime_coop.dds"
+    ],
     "Whirlwind (Zealot)": [
       "assets\\textures\\btn-ability-protoss-whirlwind.dds"
     ],
@@ -2422,7 +2438,7 @@
     "Fusion Mortars (Vanguard)": [
       "assets\\textures\\btn-upgrade-protoss-vanguard-increasedarmordamage.dds"
     ],
-    "Aerial Tracking (Annihilator)": [
+    "Twilight Chassis (Annihilator)": [
       "assets\\textures\\btn-progression-protoss-fenix-12-immortalandscoutchampions-research.dds"
     ],
     "Arc Inducers (Stalwart)": [
@@ -2507,41 +2523,42 @@
       "ap\\assets\\textures\\btn-ability-protoss-supplicant-sacrificeoff.dds",
       "ap\\assets\\textures\\btn-ability-protoss-supplicant-sacrificeon.dds"
     ],
-    "Chrono Surge (Spear of Adun Calldown)": [
+    "Removed item": [],
+    "Chrono Surge (Spear of Adun)": [
       "assets\\textures\\btn-ability-spearofadun-chronosurge.dds"
     ],
-    "Progressive Proxy Pylon (Spear of Adun Calldown)": [
+    "Progressive Proxy Pylon (Spear of Adun)": [
       "assets\\textures\\btn-ability-spearofadun-warpinreinforcements.dds",
       "btn-ability-spearofadun-deploypylon.dds"
     ],
-    "Pylon Overcharge (Spear of Adun Calldown)": [
+    "Pylon Overcharge (Spear of Adun)": [
       "assets\\textures\\btn-ability-protoss-purify.dds"
     ],
-    "Orbital Strike (Spear of Adun Calldown)": [
+    "Orbital Strike (Spear of Adun)": [
       "assets\\textures\\btn-ability-spearofadun-orbitalstrike.dds"
     ],
-    "Temporal Field (Spear of Adun Calldown)": [
+    "Temporal Field (Spear of Adun)": [
       "assets\\textures\\btn-ability-spearofadun-temporalfield.dds"
     ],
-    "Solar Lance (Spear of Adun Calldown)": [
+    "Solar Lance (Spear of Adun)": [
       "assets\\textures\\btn-ability-spearofadun-solarlance.dds"
     ],
-    "Mass Recall (Spear of Adun Calldown)": [
+    "Mass Recall (Spear of Adun)": [
       "assets\\textures\\btn-ability-spearofadun-massrecall.dds"
     ],
-    "Shield Overcharge (Spear of Adun Calldown)": [
+    "Shield Overcharge (Spear of Adun)": [
       "assets\\textures\\btn-ability-spearofadun-shieldovercharge.dds"
     ],
-    "Deploy Fenix (Spear of Adun Calldown)": [
+    "Deploy Fenix (Spear of Adun)": [
       "assets\\textures\\btn-unit-protoss-fenix.dds"
     ],
-    "Purifier Beam (Spear of Adun Calldown)": [
+    "Purifier Beam (Spear of Adun)": [
       "assets\\textures\\btn-ability-spearofadun-purifierbeam.dds"
     ],
-    "Time Stop (Spear of Adun Calldown)": [
+    "Time Stop (Spear of Adun)": [
       "assets\\textures\\btn-ability-spearofadun-timestop.dds"
     ],
-    "Solar Bombardment (Spear of Adun Calldown)": [
+    "Solar Bombardment (Spear of Adun)": [
       "assets\\textures\\btn-ability-spearofadun-solarbombardment.dds"
     ],
     "Matrix Overload (Protoss)": [
@@ -2559,13 +2576,13 @@
     "Warp Harmonization (Protoss)": [
       "assets\\textures\\btn-ability-spearofadun-warpharmonization.dds"
     ],
-    "Guardian Shell (Spear of Adun Auto-Cast)": [
+    "Guardian Shell (Spear of Adun)": [
       "assets\\textures\\btn-ability-spearofadun-guardianshell.dds"
     ],
-    "Reconstruction Beam (Spear of Adun Auto-Cast)": [
+    "Reconstruction Beam (Spear of Adun)": [
       "assets\\textures\\btn-ability-spearofadun-reconstructionbeam.dds"
     ],
-    "Overwatch (Spear of Adun Auto-Cast)": [
+    "Overwatch (Spear of Adun)": [
       "btn-ability-zeratul-chargedcrystal-psionicwinds.dds"
     ],
     "Superior Warp Gates (Protoss)": [
@@ -2586,7 +2603,7 @@
     "Progressive Warp Relocate (Protoss)": [
       "assets\\textures\\btn-ability-protoss-massrecall.dds"
     ],
-    "Probe Warpin (Protoss)": [
+    "Probe Warp-In (Protoss)": [
       "ap\\assets\\textures\\btn-unit-protoss-probe-warpin.dds",
       "assets\\textures\\btn-unit-protoss-probe.dds"
     ],
