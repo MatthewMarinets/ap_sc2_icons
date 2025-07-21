@@ -809,7 +809,7 @@
     "parent": "Hellion",
     "description": "Increases Hellion and Hellbat armor by 2."
   },
-  "Auto-Repair (Vulture)": {
+  "Jerry-Rigged Patchup (Vulture)": {
     "type": "Armory 2",
     "number": 8,
     "race": "TERRAN",
@@ -1169,7 +1169,7 @@
     "parent": "Viking",
     "description": "Increases Viking damage to mechanical units while in Assault Mode."
   },
-  "Ion Thrusters (Diamondback)": {
+  "Maglev Propulsion (Diamondback)": {
     "type": "Armory 3",
     "number": 21,
     "race": "TERRAN",
@@ -1187,7 +1187,7 @@
     "parent": "Warhound",
     "description": "Reduces Warhound cost by 75 minerals."
   },
-  "Reinforced Plating (Warhound)": {
+  "Axiom Plating (Warhound)": {
     "type": "Armory 6",
     "number": 14,
     "race": "TERRAN",
@@ -1232,7 +1232,7 @@
     "parent": "Reaper",
     "description": "Reduces Reaper cost by 50 gas."
   },
-  "Kinetic Foam (Reaper)": {
+  "Ballistic Flightsuit (Reaper)": {
     "type": "Armory 6",
     "number": 19,
     "race": "TERRAN",
@@ -1250,7 +1250,7 @@
     "parent": "Siege Tank + Transport",
     "description": "Level 1: Allows Siege Tanks to be transported in Siege Mode.\nLevel 2: Siege Tanks in Siege Mode can attack air units while transported by a Medivac."
   },
-  "Enhanced Combustion Engines (Siege Tank)": {
+  "All-Terrain Treads (Siege Tank)": {
     "type": "Armory 6",
     "number": 20,
     "race": "TERRAN",
@@ -1772,7 +1772,7 @@
     "parent": "Science Vessel",
     "description": "Nano-Repair no longer requires energy to use."
   },
-  "Advanced AI Systems (Science Vessel)": {
+  "Magellan Computation Systems (Science Vessel)": {
     "type": "Armory 4",
     "number": 29,
     "race": "TERRAN",
@@ -2132,7 +2132,7 @@
     "parent": "Planetary Fortress",
     "description": "Level 1: Lift Off - Planetary Fortress can lift off.\nLevel 2: Armament Stabilizers - Planetary Fortress can attack while lifted off."
   },
-  "Advanced Targeting (Planetary Fortress)": {
+  "Ibiks Tracking Scanners (Planetary Fortress)": {
     "type": "Armory 6",
     "number": 7,
     "race": "TERRAN",
@@ -2177,7 +2177,7 @@
     "parent": "Battlecruiser",
     "description": "Increases Battlecruiser armor by 2."
   },
-  "Covert Ops Engines (Battlecruiser)": {
+  "Moirai Impulse Drive (Battlecruiser)": {
     "type": "Armory 6",
     "number": 12,
     "race": "TERRAN",
@@ -2663,7 +2663,7 @@
     "parent": null,
     "description": "Unlocks the Psi Disrupter defensive structure, and allows it to slow the attack and movement speeds of all nearby Terran units."
   },
-  "Khalai Disrupter (Psi Disrupter)": {
+  "Psi Screen (Psi Disrupter)": {
     "type": "Laboratory",
     "number": 20,
     "race": "TERRAN",
@@ -2672,7 +2672,7 @@
     "parent": null,
     "description": "Unlocks the Psi Disrupter defensive structure, and allows it to slow the attack and movement speeds of all nearby Protoss units."
   },
-  "Khalai Takeover (Hive Mind Emulator)": {
+  "Argus Amplifier (Hive Mind Emulator)": {
     "type": "Laboratory",
     "number": 22,
     "race": "TERRAN",
@@ -2681,7 +2681,7 @@
     "parent": null,
     "description": "Unlocks the Hive Mind Emulator defensive structure, and allows it to permanently Mind Control Protoss units."
   },
-  "Brainwashing (Hive Mind Emulator)": {
+  "Psi Indoctrinator (Hive Mind Emulator)": {
     "type": "Laboratory",
     "number": 23,
     "race": "TERRAN",
@@ -2708,7 +2708,7 @@
     "parent": "Science Vessel",
     "description": "Allows Science Vessels to warp to a target location anywhere on the map."
   },
-  "Compressed Rocket Fuel (Liberator)": {
+  "UED Missile Technology (Liberator)": {
     "type": "Armory 7",
     "number": 5,
     "race": "TERRAN",
@@ -2816,7 +2816,7 @@
     "parent": null,
     "description": "Allows SCVs to jump up and down cliffs."
   },
-  "Demolition Armaments (Widow Mine)": {
+  "Demolition Payload (Widow Mine)": {
     "type": "Armory 7",
     "number": 17,
     "race": "TERRAN",
@@ -2834,7 +2834,7 @@
     "parent": "Sensor Tower",
     "description": "Sensor Towers increase the attack range of defensive buildings in their direct sight range."
   },
-  "Enhanced Vision (Sensor Tower)": {
+  "Multispectrum Doppler (Sensor Tower)": {
     "type": "Armory 7",
     "number": 19,
     "race": "TERRAN",
@@ -3776,7 +3776,7 @@
     "race": "ZERG",
     "classification": "useful",
     "quantity": 1,
-    "parent": "Zergling Morph Source",
+    "parent": "Baneling",
     "description": "Banelings morph faster."
   },
   "Severing Glaive (Mutalisk)": {
@@ -3950,7 +3950,7 @@
     "parent": "Impaler",
     "description": "Impalers generate creep while standing still or burrowed."
   },
-  "Hardened Tentacle Spines (Impaler)": {
+  "Sunken Spines (Impaler)": {
     "type": "Mutation 2",
     "number": 23,
     "race": "ZERG",
@@ -4040,7 +4040,7 @@
     "parent": "Brood Lord",
     "description": "Brood Lords gain increased movement speed."
   },
-  "Evolved Carapace (Brood Lord)": {
+  "Behemoth Stellarskin (Brood Lord)": {
     "type": "Mutation 3",
     "number": 3,
     "race": "ZERG",
@@ -4517,23 +4517,23 @@
     "parent": "Tyrannozor",
     "description": "Tyrannozors gain the Barrage of Spikes ability, \nwhich deals 60 damage to enemy ground units around the Tyrannozor."
   },
-  "Impaling Strike (Ultralisk/Tyrannozor)": {
+  "Impaling Strike (Tyrannozor)": {
     "type": "Mutation 4",
     "number": 10,
     "race": "ZERG",
     "classification": "useful",
     "quantity": 1,
     "parent": "Tyrannozor",
-    "description": "Ultralisk and Tyrannozor melee attacks have a 20% chance to stun for 2 seconds."
+    "description": "Tyrannozor melee attacks have a 20% chance to stun for 2 seconds."
   },
-  "Healing Adaptation (Ultralisk/Tyrannozor)": {
+  "Healing Adaptation (Tyrannozor)": {
     "type": "Mutation 4",
     "number": 11,
     "race": "ZERG",
     "classification": "progression",
     "quantity": 1,
     "parent": "Tyrannozor",
-    "description": "Ultralisks and Tyrannozors regenerate life quickly when out of combat."
+    "description": "Tyrannozors regenerate life quickly when out of combat."
   },
   "Subterranean Scales (Nydus Worm/Echidna Worm)": {
     "type": "Mutation 4",
@@ -4697,7 +4697,7 @@
     "parent": "Infested Siege Tank",
     "description": "Infested Siege Tank Tentacle weapon gains +1 range. Volatile Burst weapon gains +3 range."
   },
-  "Advanced Targeting Optics (Infested Banshee)": {
+  "Fleshfused Targeting Optics (Infested Banshee)": {
     "type": "Mutation 4",
     "number": 29,
     "race": "ZERG",
@@ -4868,7 +4868,7 @@
     "parent": "Bullfrog",
     "description": "Bullfrog leap gains +4 range, and unload-leap gains +6 range."
   },
-  "Bio Bonus (Spore Crawler)": {
+  "Caustic Enzymes (Spore Crawler)": {
     "type": "Mutation 5",
     "number": 18,
     "race": "ZERG",
@@ -4937,7 +4937,7 @@
     "race": "ZERG",
     "classification": "useful",
     "quantity": 1,
-    "parent": null,
+    "parent": "Zergling",
     "description": "Killed Zerglings respawn from your primary Hatchery at no cost."
   },
   "Improved Overlords (Overlord)": {
@@ -5372,7 +5372,7 @@
     "parent": null,
     "description": "Infested Factories and Starports can store 3 additional unit charges."
   },
-  "Broodling Packing (Zerg)": {
+  "Broodling Spore Saturation (Zerg)": {
     "type": "Evolution Pit",
     "number": 15,
     "race": "ZERG",
@@ -5831,7 +5831,7 @@
     "parent": null,
     "description": "Assault strider. Has shields that deflect high-damage attacks."
   },
-  "Intercessor": {
+  "Pulsar": {
     "type": "Unit 2",
     "number": 10,
     "race": "PROTOSS",
@@ -6038,7 +6038,7 @@
     "parent": "Supplicant",
     "description": "Increases Supplicant max shields by +25."
   },
-  "Shield Regeneration (Supplicant)": {
+  "Endless Servitude (Supplicant)": {
     "type": "Forge 1",
     "number": 2,
     "race": "PROTOSS",
@@ -6092,7 +6092,7 @@
     "parent": "Stalker Class",
     "description": "Attacks fired by Stalkers, Instigators, and Slayers have a chance to bounce to additional targets for reduced damage."
   },
-  "High Impact Phase Disruptor (Dragoon)": {
+  "Concentrated Antimatter (Dragoon)": {
     "type": "Forge 1",
     "number": 8,
     "race": "PROTOSS",
@@ -6254,7 +6254,7 @@
     "parent": "Oracle",
     "description": "Oracles become permanently cloaked."
   },
-  "Stasis Expansion (Oracle)": {
+  "Skyward Chronoanomaly (Oracle)": {
     "type": "Forge 1",
     "number": 26,
     "race": "PROTOSS",
@@ -6308,7 +6308,7 @@
     "parent": "Arbiter",
     "description": "Reduces Arbiter cost by 50 minerals."
   },
-  "Enhanced Cloak Field (Arbiter)": {
+  "Judicator's Veil (Arbiter)": {
     "type": "Forge 2",
     "number": 2,
     "race": "PROTOSS",
@@ -6335,7 +6335,7 @@
     "parent": "Carrier Class",
     "description": "Carrier-class ships gain +2 armour."
   },
-  "Flux Vanes (Void Ray/Destroyer/Intercessor/Dawnbringer)": {
+  "Flux Vanes (Void Ray/Destroyer/Pulsar/Dawnbringer)": {
     "type": "Forge 2",
     "number": 5,
     "race": "PROTOSS",
@@ -6461,7 +6461,7 @@
     "parent": "Immortal | Annihilator",
     "description": "Increases Immortal and Annihilator attack range by +2."
   },
-  "Advanced Targeting Mechanics (Immortal/Annihilator)": {
+  "Advanced Targeting (Immortal/Annihilator)": {
     "type": "Forge 2",
     "number": 19,
     "race": "PROTOSS",
@@ -6812,7 +6812,7 @@
     "parent": "Stalwart",
     "description": "Increases Stalwart attack bounce range by +1."
   },
-  "Strut Enhancements (Stalwart)": {
+  "Reintegrated Framework (Stalwart)": {
     "type": "Forge 3",
     "number": 28,
     "race": "PROTOSS",
@@ -6884,25 +6884,25 @@
     "parent": "Supplicant",
     "description": "Allows Supplicants to attack air units."
   },
-  "Chronoclysm (Intercessor)": {
+  "Chronoclysm (Pulsar)": {
     "type": "Forge 4",
     "number": 6,
     "race": "PROTOSS",
     "classification": "useful",
     "quantity": 1,
-    "parent": "Intercessor",
-    "description": "Intercessor slow effect is also applied in an area around the primary target."
+    "parent": "Pulsar",
+    "description": "Pulsar slow effect is also applied in an area around the primary target."
   },
-  "Entropic Reversal (Intercessor)": {
+  "Entropic Reversal (Pulsar)": {
     "type": "Forge 4",
     "number": 7,
     "race": "PROTOSS",
     "classification": "useful",
     "quantity": 1,
-    "parent": "Intercessor",
-    "description": "Intercessors recover life as well as shields."
+    "parent": "Pulsar",
+    "description": "Pulsars now regenerate life when out of combat."
   },
-  "Optimized Logistics (Oppressor)": {
+  "Accelerated Warp (Oppressor)": {
     "type": "Forge 4",
     "number": 18,
     "race": "PROTOSS",
@@ -6963,7 +6963,7 @@
     "classification": "progression_skip_balancing",
     "quantity": 1,
     "parent": "Mist Wing",
-    "description": "Mistwings gain the Pilot ability, \nwhich can transport one unit as an additional pilot. A pilot grants a small bonus to damage and armor."
+    "description": "Mistwings gain the Pilot ability, \nwhich can transport one unit as an additional co-pilot. A pilot grants a small bonus to damage and armor."
   },
   "Blink Overdrive (Instigator)": {
     "type": "Forge 4",
@@ -7172,7 +7172,7 @@
     "parent": "Signifier",
     "description": "Signifier War Council upgrade. Signifiers gain the Feedback ability, \nwhich drains all energy from a target and deals 1 damage per point of energy drained."
   },
-  "Ability Efficiency (Ascendant)": {
+  "Breath of Creation (Ascendant War Council)": {
     "type": "War Council",
     "number": 17,
     "race": "PROTOSS",
@@ -7262,7 +7262,7 @@
     "parent": "Reaver",
     "description": "Reaver War Council upgrade. Reaver Scarabs no longer cost minerals."
   },
-  "Restructured Thrusters (Disruptor)": {
+  "Mobility Protocols (Disruptor War Council)": {
     "type": "War Council",
     "number": 27,
     "race": "PROTOSS",
@@ -7343,14 +7343,14 @@
     "parent": "Destroyer",
     "description": "Destroyer War Council upgrade. Increases the Destroyer's bounce attack damage to 3 (+2 vs armored) at all charge levels, and allows the bounces to benefit from protoss air weapon upgrades."
   },
-  "Chrono Shear (Intercessor)": {
+  "Chrono Shear (Pulsar)": {
     "type": "War Council 2",
     "number": 6,
     "race": "PROTOSS",
     "classification": "useful",
     "quantity": 1,
-    "parent": "Intercessor",
-    "description": "Intercessor War Council upgrade. Fully-stacked slow on non-heroic targets also applies a defense debuff."
+    "parent": "Pulsar",
+    "description": "Pulsar War Council upgrade. Fully-stacked slow on non-heroic targets also applies a defense debuff."
   },
   "Solarite Lens (Dawnbringer)": {
     "type": "War Council 2",
@@ -7406,7 +7406,7 @@
     "parent": "Scout",
     "description": "Scout War Council upgrade. Scouts gain +25 shields, +50 health, +1 shield armor, and reduced shield regeneration delay."
   },
-  "Ability Efficiency (Arbiter)": {
+  "Vessel of the Conclave (Arbiter War Council)": {
     "type": "War Council 2",
     "number": 13,
     "race": "PROTOSS",
@@ -7468,15 +7468,6 @@
     "quantity": 1,
     "parent": "Supplicant",
     "description": "Allows Supplicants to sacrifice themselves to save nearby units from death."
-  },
-  "Removed item": {
-    "type": "Deprecated",
-    "number": -1,
-    "race": "PROTOSS",
-    "classification": "useful",
-    "quantity": 0,
-    "parent": null,
-    "description": "This item was from generation."
   },
   "Chrono Surge (Spear of Adun)": {
     "type": "Spear Of Adun",
