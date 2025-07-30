@@ -1,6 +1,6 @@
 {
   "meta": {
-    "timestamp": "2025-07-29",
+    "timestamp": "2025-07-30",
     "items": 858,
     "located": 826
   },
@@ -183,7 +183,8 @@
       "assets\\textures\\btn-upgrade-swann-scvdoublerepair.dds"
     ],
     "Progressive Fire-Suppression System (Terran)": [
-      "btn-upgrade-swann-firesuppressionsystem.dds"
+      "btn-upgrade-swann-firesuppressionsystem.dds",
+      "ui_tipicon_campaign_korhal02-psidestroyer.dds"
     ],
     "Progressive Orbital Command (Deprecated)": [],
     "Progressive Stimpack (Marine)": [
@@ -551,7 +552,8 @@
       "ap\\assets\\custom\\textures\\btn-ability-thor-330mm.dds"
     ],
     "Progressive Immortality Protocol (Thor)": [
-      "ap\\assets\\textures\\btn-techupgrade-terran-immortalityprotocol-color.dds"
+      "ap\\assets\\textures\\btn-techupgrade-terran-immortalityprotocol-color.dds",
+      "talent-swann-level12-immortalityprotocol.dds"
     ],
     "Advanced Ballistics (Liberator)": [
       "assets\\textures\\btn-upgrade-terran-advanceballistics.dds"
@@ -608,7 +610,7 @@
       "assets\\textures\\btn-upgrade-terran-lazertargetingsystem.dds"
     ],
     "Large Scale Field Construction (Thor)": [
-      "talent-swann-level12-immortalityprotocol.dds"
+      "btn-tips-armory.dds"
     ],
     "Resource Efficiency (Raven)": [
       "btn-ability-hornerhan-salvagebonus.dds"
@@ -911,7 +913,8 @@
       "assets\\textures\\talent-raynor-level14-infantryattackspeed.dds"
     ],
     "Progressive Fast Delivery (Terran)": [
-      "assets\\textures\\talent-tychus-level02-additionaloutlaw.dds"
+      "assets\\textures\\talent-tychus-level02-additionaloutlaw.dds",
+      "talent-tychus-level07-firstdiscount.dds"
     ],
     "Rapid Reinforcement (Terran)": [
       "btn-progression-hornerhan-6-mirabuildtime.dds"
@@ -1639,7 +1642,8 @@
       "ap\\assets\\textures\\btn-infested-liberator-ag.dds"
     ],
     "Progressive Baneling Launch (Aberration)": [
-      "assets\\textures\\abilityicon_spawnbanelings_square.dds"
+      "assets\\textures\\abilityicon_spawnbanelings_square.dds",
+      "talent-zagara-level14-unlocksplitterling.dds"
     ],
     "Stimpack (Pygalisk)": [
       "assets\\textures\\btn-ability-terran-stimpack-color.dds"

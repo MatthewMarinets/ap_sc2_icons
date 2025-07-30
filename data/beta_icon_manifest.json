@@ -1163,7 +1163,7 @@
   "icons/original/btn-kryhas-cloak.png"
  ],
  "Large Scale Field Construction (Thor)": [
-  "icons/blizzard/talent-swann-level12-immortalityprotocol.png"
+  "icons/blizzard/btn-tips-armory.png"
  ],
  "Laser Targeting System (Banshee)": [
   "icons/blizzard/btn-upgrade-terran-lazertargetingsystem.png"
@@ -1589,7 +1589,8 @@
   "icons/blizzard/btn-upgrade-zerg-stukov-siegetankammoregen.png"
  ],
  "Progressive Baneling Launch (Aberration)": [
-  "icons/blizzard/abilityicon_spawnbanelings_square.png"
+  "icons/blizzard/abilityicon_spawnbanelings_square.png",
+  "icons/blizzard/talent-zagara-level14-unlocksplitterling.png"
  ],
  "Progressive Cross-Spectrum Dampeners (Banshee)": [
   "icons/original/btn-permacloak-banshee.png",
@@ -1600,10 +1601,12 @@
   "icons/blizzard/btn-upgrade-swann-defensivematrix.png"
  ],
  "Progressive Fast Delivery (Terran)": [
-  "icons/blizzard/talent-tychus-level02-additionaloutlaw.png"
+  "icons/blizzard/talent-tychus-level02-additionaloutlaw.png",
+  "icons/blizzard/talent-tychus-level07-firstdiscount.png"
  ],
  "Progressive Fire-Suppression System (Terran)": [
-  "icons/blizzard/btn-upgrade-swann-firesuppressionsystem.png"
+  "icons/blizzard/btn-upgrade-swann-firesuppressionsystem.png",
+  "icons/blizzard/ui_tipicon_campaign_korhal02-psidestroyer.png"
  ],
  "Progressive Fungal Snare (Infested Diamondback)": [
   "icons/blizzard/btn-ability-zerg-stukov-ensnare.png",
@@ -1614,7 +1617,8 @@
   "icons/blizzard/btn-upgrade-terran-transformationservos.png"
  ],
  "Progressive Immortality Protocol (Thor)": [
-  "icons/original/btn-techupgrade-terran-immortalityprotocol-color.png"
+  "icons/original/btn-techupgrade-terran-immortalityprotocol-color.png",
+  "icons/blizzard/talent-swann-level12-immortalityprotocol.png"
  ],
  "Progressive Missile Pods (Battlecruiser)": [
   "icons/original/btn-techupgrade-terran-missilepods-color-level1.png",
