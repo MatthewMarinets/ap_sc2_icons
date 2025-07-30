@@ -1,6 +1,6 @@
 {
   "meta": {
-    "timestamp": "2025-07-20",
+    "timestamp": "2025-07-29",
     "items": 858,
     "located": 826
   },
@@ -2424,7 +2424,7 @@
     "Feedback (Signifier)": [
       "assets\\textures\\btn-ability-protoss-feedback-color.dds"
     ],
-    "Breath of Creation (Ascendant War Council)": [
+    "Breath of Creation (Ascendant)": [
       "assets\\textures\\tip_terrazinefog.dds"
     ],
     "Indomitable Will (Dark Archon)": [
@@ -2454,7 +2454,7 @@
     "Khalai Replicators (Reaver)": [
       "assets\\textures\\btn-ability-protoss-entomb.dds"
     ],
-    "Mobility Protocols (Disruptor War Council)": [
+    "Mobility Protocols (Disruptor)": [
       "ap\\assets\\textures\\btn-mobility-protocols.dds"
     ],
     "Warp Refraction (Warp Prism)": [
@@ -2502,7 +2502,7 @@
     "Expeditionary Hull (Scout)": [
       "assets\\textures\\btn-upgrade-stetmann-zerglinghardenedshield.dds"
     ],
-    "Vessel of the Conclave (Arbiter War Council)": [
+    "Vessel of the Conclave (Arbiter)": [
       "assets\\textures\\btn-ability-protoss-forceofwill.dds"
     ],
     "Stasis Calibration (Oracle)": [

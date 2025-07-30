@@ -285,7 +285,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent": null,
-    "description": "Royal Guard general-purpose indantry."
+    "description": "Royal Guard general-purpose infantry."
   },
   "Bulwark Company": {
     "type": "Unit 2",
@@ -3021,7 +3021,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent": null,
-    "description": "Increases Nova's health by 100 and armour by 1. Nova also regenerates life quickly out of combat."
+    "description": "Increases Nova's health by 100 and armor by 1. Nova also regenerates life quickly out of combat."
   },
   "Jump Suit Module (Nova Suit Module)": {
     "type": "Nova Gear",
@@ -3516,7 +3516,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent": "Roach",
-    "description": "Roaches gain +3 armour when their life is below 50%."
+    "description": "Roaches gain +3 armor when their life is below 50%."
   },
   "Tunneling Claws (Roach)": {
     "type": "Mutation 1",
@@ -3714,7 +3714,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent": "Zergling",
-    "description": "Zergling attacks will temporarily reduce their target's armour to 0."
+    "description": "Zergling attacks will temporarily reduce their target's armor to 0."
   },
   "Glial Reconstitution (Roach)": {
     "type": "Mutation 1",
@@ -5055,7 +5055,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent": null,
-    "description": "Kerrigan summons a mightly flying Leviathan with timed life. Deals massive damage and has energy-based abilities."
+    "description": "Kerrigan summons a mighty flying Leviathan with timed life. Deals massive damage and has energy-based abilities."
   },
   "Drop-Pods (Kerrigan Ability)": {
     "type": "Ability",
@@ -5784,7 +5784,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent": null,
-    "description": "Versatile high-speed fighter. Has a powerful anti-armoured air attack and a weaker anti-ground attack."
+    "description": "Versatile high-speed fighter. Has a powerful anti-armored air attack and a weaker anti-ground attack."
   },
   "Tempest": {
     "type": "Unit 2",
@@ -6333,7 +6333,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent": "Carrier Class",
-    "description": "Carrier-class ships gain +2 armour."
+    "description": "Carrier-class ships gain +2 armor."
   },
   "Flux Vanes (Void Ray/Destroyer/Pulsar/Dawnbringer)": {
     "type": "Forge 2",
@@ -7026,7 +7026,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent": "Zealot",
-    "description": "Zealot War Council upgrade. Gives Zealots the whirlwind ability, dealing damage in an area over 3 seconds."
+    "description": "Zealot War Council ability.\nGives Zealots the whirlwind ability, dealing damage in an area over 3 seconds."
   },
   "Resource Efficiency (Centurion)": {
     "type": "War Council",
@@ -7035,7 +7035,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent": "Centurion",
-    "description": "Centurion War Council upgrade. Reduces Centurion cost by 40 gas."
+    "description": "Centurion War Council upgrade.\nReduces Centurion cost by 40 gas."
   },
   "Resource Efficiency (Sentinel)": {
     "type": "War Council",
@@ -7044,7 +7044,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent": "Sentinel",
-    "description": "Sentinel War Council upgrade. Reduces Sentinel cost by 60 minerals and 1 supply."
+    "description": "Sentinel War Council upgrade.\nReduces Sentinel cost by 60 minerals and 1 supply."
   },
   "Phase Reactor (Stalker)": {
     "type": "War Council",
@@ -7053,7 +7053,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent": "Stalker",
-    "description": "Stalker War Council upgrade. Stalkers restore 80 shields over 5 seconds after they Blink."
+    "description": "Stalker War Council upgrade.\nStalkers restore 80 shields over 5 seconds after they Blink."
   },
   "Phalanx Suit (Dragoon)": {
     "type": "War Council",
@@ -7062,7 +7062,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent": "Dragoon",
-    "description": "Dragoon War Council upgrade. Dragoons gain +1 range, move slightly faster, and can form tighter formations."
+    "description": "Dragoon War Council upgrade.\nDragoons gain +1 range, move slightly faster, and can form tighter formations."
   },
   "Modernized Servos (Instigator)": {
     "type": "War Council",
@@ -7071,7 +7071,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent": "Instigator",
-    "description": "Instigator War Council upgrade. Instigators move 28% faster."
+    "description": "Instigator War Council upgrade.\nInstigators move 28% faster."
   },
   "Disruptive Transfer (Adept)": {
     "type": "War Council",
@@ -7080,7 +7080,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent": "Adept",
-    "description": "Adept War Council upgrade. Adept shades apply a debuff to enemies they touch, increasing damage taken by +5."
+    "description": "Adept War Council upgrade.\nAdept shades apply a debuff to enemies they touch, increasing damage taken by +5."
   },
   "Phase Blink (Slayer)": {
     "type": "War Council",
@@ -7089,7 +7089,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent": "Slayer",
-    "description": "Slayer War Council upgrade. Slayers can now blink. After blinking, the Slayer's next attack within 8 seconds deals double damage."
+    "description": "Slayer War Council ability.\nSlayers can now blink. After blinking, the Slayer's next attack within 8 seconds deals double damage."
   },
   "Kryhas Cloak (Avenger)": {
     "type": "War Council",
@@ -7098,7 +7098,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent": "Avenger",
-    "description": "Avenger War Council upgrade. Avengers are now permanently cloaked."
+    "description": "Avenger War Council upgrade.\nAvengers are now permanently cloaked."
   },
   "Lesser Shadow Fury (Dark Templar)": {
     "type": "War Council",
@@ -7107,7 +7107,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent": "Dark Templar",
-    "description": "Dark Templar War Council upgrade. Dark Templar gain two strikes of their Shadow Fury ability."
+    "description": "Dark Templar War Council ability.\nDark Templar gain two strikes of their Shadow Fury ability."
   },
   "Greater Shadow Fury (Dark Templar)": {
     "type": "War Council",
@@ -7116,7 +7116,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent": "Dark Templar",
-    "description": "Dark Templar War Council upgrade. Dark Templar gain three strikes of their Shadow Fury ability."
+    "description": "Dark Templar War Council ability.\nDark Templar gain three strikes of their Shadow Fury ability."
   },
   "Brutal Efficiency (Blood Hunter)": {
     "type": "War Council",
@@ -7125,7 +7125,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent": "Blood Hunter",
-    "description": "Blood Hunter War Council upgrade. Blood Hunters attack twice as quickly."
+    "description": "Blood Hunter War Council upgrade.\nBlood Hunters attack twice as quickly."
   },
   "Double Shield Recharge (Sentry)": {
     "type": "War Council",
@@ -7134,7 +7134,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent": "Sentry",
-    "description": "Sentry War Council upgrade. Sentries can heal the shields of two targets at once."
+    "description": "Sentry War Council upgrade.\nSentries can heal the shields of two targets at once."
   },
   "Mobile Chrono Beam (Energizer)": {
     "type": "War Council",
@@ -7143,7 +7143,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent": "Energizer",
-    "description": "Energizer War Council upgrade. Allows Energizers to use Chrono Beam in Mobile Mode."
+    "description": "Energizer War Council upgrade.\nAllows Energizers to use Chrono Beam in Mobile Mode."
   },
   "Enduring Sight (Havoc)": {
     "type": "War Council",
@@ -7152,7 +7152,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent": "Havoc",
-    "description": "Havoc War Council upgrade. Havoc Squad Sight stays up indefinitely and no longer takes energy."
+    "description": "Havoc War Council upgrade.\nHavoc Squad Sight stays up indefinitely and no longer takes energy."
   },
   "Plasma Surge (High Templar)": {
     "type": "War Council",
@@ -7161,7 +7161,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent": "High Templar",
-    "description": "High Templar War Council upgrade. High Templar Psionic Storm will heal fiendly protoss shields under it."
+    "description": "High Templar War Council upgrade.\nHigh Templar Psionic Storm will heal fiendly protoss shields under it."
   },
   "Feedback (Signifier)": {
     "type": "War Council",
@@ -7170,16 +7170,16 @@
     "classification": "progression",
     "quantity": 1,
     "parent": "Signifier",
-    "description": "Signifier War Council upgrade. Signifiers gain the Feedback ability, \nwhich drains all energy from a target and deals 1 damage per point of energy drained."
+    "description": "Signifier War Council ability.\nSignifiers gain the Feedback ability, \nwhich drains all energy from a target and deals 1 damage per point of energy drained."
   },
-  "Breath of Creation (Ascendant War Council)": {
+  "Breath of Creation (Ascendant)": {
     "type": "War Council",
     "number": 17,
     "race": "PROTOSS",
     "classification": "useful",
     "quantity": 1,
     "parent": "Ascendant",
-    "description": "Ascendant War Council upgrade. Ascendant spells cost -25 energy."
+    "description": "Ascendant War Council upgrade.\nAscendant spells cost -25 energy."
   },
   "Indomitable Will (Dark Archon)": {
     "type": "War Council",
@@ -7188,7 +7188,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent": "Dark Archon Source",
-    "description": "Dark Archon War Council upgrade. Casting Mind Control will no longer deplete the Dark Archon's shields."
+    "description": "Dark Archon War Council upgrade.\nCasting Mind Control will no longer deplete the Dark Archon's shields."
   },
   "Improved Barrier (Immortal)": {
     "type": "War Council",
@@ -7197,7 +7197,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent": "Immortal",
-    "description": "Immortal War Council upgrade. The Immortal's Barrier ability absorbs an additional +100 damage."
+    "description": "Immortal War Council upgrade.\nThe Immortal's Barrier ability absorbs an additional +100 damage."
   },
   "Rapid-Fire Cannon (Vanguard)": {
     "type": "War Council",
@@ -7206,7 +7206,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent": "Vanguard",
-    "description": "Vanguard War Council upgrade. Vanguards attack 60% faster."
+    "description": "Vanguard War Council upgrade.\nVanguards attack 60% faster."
   },
   "Fusion Mortars (Vanguard)": {
     "type": "War Council",
@@ -7215,7 +7215,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent": "Vanguard",
-    "description": "Vanguard War Council upgrade. Vanguards deal +7 damage to armored targets per attack."
+    "description": "Vanguard War Council upgrade.\nVanguards deal +7 damage to armored targets per attack."
   },
   "Twilight Chassis (Annihilator)": {
     "type": "War Council",
@@ -7224,7 +7224,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent": "Annihilator",
-    "description": "Annihilator War Council upgrade. The Annihilator gains +100 maximum life."
+    "description": "Annihilator War Council upgrade.\nThe Annihilator gains +100 maximum life."
   },
   "Arc Inducers (Stalwart)": {
     "type": "War Council",
@@ -7233,7 +7233,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent": "Stalwart",
-    "description": "Stalwart War Council upgrade. Stalwarts damage up to 3 additional units when attacking."
+    "description": "Stalwart War Council upgrade.\nStalwarts damage up to 3 additional units when attacking."
   },
   "Fire Lance (Colossus)": {
     "type": "War Council",
@@ -7242,7 +7242,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent": "Colossus",
-    "description": "Colossus War Council upgrade. Colossi set the ground on fire with their attacks, dealing damage to enemies over time."
+    "description": "Colossus War Council upgrade.\nColossi set the ground on fire with their attacks, dealing damage to enemies over time."
   },
   "Aerial Tracking (Wrathwalker)": {
     "type": "War Council",
@@ -7251,7 +7251,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent": "Wrathwalker",
-    "description": "Wrathwalker War Council upgrade. Wrathwalkers can now target air units."
+    "description": "Wrathwalker War Council upgrade.\nWrathwalkers can now target air units."
   },
   "Khalai Replicators (Reaver)": {
     "type": "War Council",
@@ -7260,16 +7260,16 @@
     "classification": "progression",
     "quantity": 1,
     "parent": "Reaver",
-    "description": "Reaver War Council upgrade. Reaver Scarabs no longer cost minerals."
+    "description": "Reaver War Council upgrade.\nReaver Scarabs no longer cost minerals."
   },
-  "Mobility Protocols (Disruptor War Council)": {
+  "Mobility Protocols (Disruptor)": {
     "type": "War Council",
     "number": 27,
     "race": "PROTOSS",
     "classification": "useful",
     "quantity": 1,
     "parent": "Disruptor",
-    "description": "Disruptor War Council upgrade. Allows the Disruptor to move while casting Purification Nova. Also allows the Disruptor to Blink."
+    "description": "Disruptor War Council upgrade.\nAllows the Disruptor to move while casting Purification Nova. Also allows the Disruptor to Blink."
   },
   "Warp Refraction (Warp Prism)": {
     "type": "War Council",
@@ -7278,7 +7278,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent": "Warp Prism",
-    "description": "Warp Prism War Council upgrade. Warp Prisms gain +5 pickup range and unload units 10 times faster."
+    "description": "Warp Prism War Council upgrade.\nWarp Prisms gain +5 pickup range and unload units 10 times faster."
   },
   "Induce Scopophobia (Observer)": {
     "type": "War Council",
@@ -7287,7 +7287,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent": "Observer",
-    "description": "Observer War Council upgrade. Observers gain the Induce Scopophobia ability, \nwhich reduces the attack and movement speed of an enemy by 20%."
+    "description": "Observer War Council ability.\nObservers gain the Induce Scopophobia ability, \nwhich reduces the attack and movement speed of an enemy by 20%."
   },
   "Double Graviton Beam (Phoenix)": {
     "type": "War Council 2",
@@ -7296,7 +7296,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent": "Phoenix",
-    "description": "Phoenix War Council upgrade. Phoenixes can now use Graviton Beam to lift two targets at once."
+    "description": "Phoenix War Council upgrade.\nPhoenixes can now use Graviton Beam to lift two targets at once."
   },
   "Network Disruption (Corsair)": {
     "type": "War Council 2",
@@ -7305,7 +7305,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent": "Corsair",
-    "description": "Corsair War Council upgrade. Triples the radius of Disruption Web."
+    "description": "Corsair War Council upgrade.\nTriples the radius of Disruption Web."
   },
   "Graviton Beam (Mirage)": {
     "type": "War Council 2",
@@ -7314,7 +7314,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent": "Mirage",
-    "description": "Mirage War Council upgrade. Allows Mirages to use Graviton Beam."
+    "description": "Mirage War Council ability.\nAllows Mirages to use Graviton Beam."
   },
   "Peer Contempt (Skirmisher)": {
     "type": "War Council 2",
@@ -7323,7 +7323,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent": "Skirmisher",
-    "description": "Skirmisher War Council upgrade. Allows Skirmishers to target air units."
+    "description": "Skirmisher War Council upgrade.\nAllows Skirmishers to target air units."
   },
   "Prismatic Range (Void Ray)": {
     "type": "War Council 2",
@@ -7332,7 +7332,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent": "Void Ray",
-    "description": "Void Ray War Council upgrade. Void Rays gain increased range as they charge their beam."
+    "description": "Void Ray War Council upgrade.\nVoid Rays gain increased range as they charge their beam."
   },
   "Reforged Bloodshard Core (Destroyer)": {
     "type": "War Council 2",
@@ -7341,7 +7341,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent": "Destroyer",
-    "description": "Destroyer War Council upgrade. Increases the Destroyer's bounce attack damage to 3 (+2 vs armored) at all charge levels, and allows the bounces to benefit from protoss air weapon upgrades."
+    "description": "Destroyer War Council upgrade.\nIncreases the Destroyer's bounce attack damage to 3 (+2 vs armored) at all charge levels, and allows the bounces to benefit from protoss air weapon upgrades."
   },
   "Chrono Shear (Pulsar)": {
     "type": "War Council 2",
@@ -7350,7 +7350,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent": "Pulsar",
-    "description": "Pulsar War Council upgrade. Fully-stacked slow on non-heroic targets also applies a defense debuff."
+    "description": "Pulsar War Council upgrade.\nFully-stacked slow on non-heroic targets also applies a defense debuff."
   },
   "Solarite Lens (Dawnbringer)": {
     "type": "War Council 2",
@@ -7359,7 +7359,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent": "Dawnbringer",
-    "description": "Dawnbringer War Council upgrade. Dawnbringers gain +2 range."
+    "description": "Dawnbringer War Council upgrade.\nDawnbringers gain +2 range."
   },
   "Repair Drones (Carrier)": {
     "type": "War Council 2",
@@ -7368,7 +7368,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent": "Carrier",
-    "description": "Carrier War Council upgrade. Carriers gain 2 repair drones which heal nearby mechanical units."
+    "description": "Carrier War Council upgrade.\nCarriers gain 2 repair drones which heal nearby mechanical units."
   },
   "Jump (Skylord)": {
     "type": "War Council 2",
@@ -7377,7 +7377,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent": "Skylord",
-    "description": "Skylord War Council upgrade. Skylords gain the Jump ability, \nwhich instantly teleports the Skylord a short distance."
+    "description": "Skylord War Council ability.\nSkylords gain the Jump ability, \nwhich instantly teleports the Skylord a short distance."
   },
   "Solar Beam (Trireme)": {
     "type": "War Council 2",
@@ -7386,7 +7386,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent": "Trireme",
-    "description": "Trireme War Council upgrade. Triremes gain an anti-air laser attack that deals more damage over time."
+    "description": "Trireme War Council weapon.\nTriremes gain an anti-air laser attack that deals more damage over time."
   },
   "Disintegration (Tempest)": {
     "type": "War Council 2",
@@ -7395,7 +7395,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent": "Tempest",
-    "description": "Tempest War Council upgrade. Tempests gain the Disintegration ability, \nwhich deals 500 damage to a target unit or structure over 20 seconds."
+    "description": "Tempest War Council ability.\nTempests gain the Disintegration ability, \nwhich deals 500 damage to a target unit or structure over 20 seconds."
   },
   "Expeditionary Hull (Scout)": {
     "type": "War Council 2",
@@ -7404,16 +7404,16 @@
     "classification": "useful",
     "quantity": 1,
     "parent": "Scout",
-    "description": "Scout War Council upgrade. Scouts gain +25 shields, +50 health, +1 shield armor, and reduced shield regeneration delay."
+    "description": "Scout War Council upgrade.\nScouts gain +25 shields, +50 health, +1 shield armor, and reduced shield regeneration delay."
   },
-  "Vessel of the Conclave (Arbiter War Council)": {
+  "Vessel of the Conclave (Arbiter)": {
     "type": "War Council 2",
     "number": 13,
     "race": "PROTOSS",
     "classification": "useful",
     "quantity": 1,
     "parent": "Arbiter",
-    "description": "Arbiter War Council upgrade. Reduces the energy cost of Recall by 50 and Stasis Field by 100."
+    "description": "Arbiter War Council upgrade.\nReduces the energy cost of Recall by 50 and Stasis Field by 100."
   },
   "Stasis Calibration (Oracle)": {
     "type": "War Council 2",
@@ -7422,7 +7422,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent": "Oracle",
-    "description": "Oracle War Council upgrade. Enemies caught by the Oracle's Stasis Ward may now be attacked for the first 5 seconds of stasis."
+    "description": "Oracle War Council upgrade.\nEnemies caught by the Oracle's Stasis Ward may now be attacked for the first 5 seconds of stasis."
   },
   "Integrated Power (Mothership)": {
     "type": "War Council 2",
@@ -7431,7 +7431,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent": "Mothership",
-    "description": "Mothership War Council upgrade. Allows Motherships to move at full speed outside pylon power."
+    "description": "Mothership War Council upgrade.\nAllows Motherships to move at full speed outside pylon power."
   },
   "Vulcan Blaster (Oppressor)": {
     "type": "War Council 2",
@@ -7440,7 +7440,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent": "Oppressor",
-    "description": "Oppressor War Council upgrade. Oppressors gain the Vulcan Blaster ability, \nwhich activates a powerful short range anti-ground weapon for a limited time. Greatly reduces movement and turning speed, and disables other weapons while active."
+    "description": "Oppressor War Council ability.\nOppressors gain the Vulcan Blaster ability, \nwhich activates a powerful short range anti-ground weapon for a limited time. Greatly reduces movement and turning speed, and disables other weapons while active."
   },
   "Corona Beam (Caladrius)": {
     "type": "War Council 2",
@@ -7449,7 +7449,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent": "Caladrius",
-    "description": "Caladrius War Council upgrade. Caladrius gain the Corona Beam ability, \nwhich channels a beam that drains up to 100 of the Caladrius' shields to deal up to 200 damage over time to a single target."
+    "description": "Caladrius War Council ability.\nCaladrius gain the Corona Beam ability, \nwhich channels a beam that drains up to 100 of the Caladrius' shields to deal up to 200 damage over time to a single target."
   },
   "Phantom Dash (Mist Wing)": {
     "type": "War Council 2",
@@ -7458,7 +7458,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent": "Mist Wing",
-    "description": "Mist Wing War Council upgrade. Mist Wings gain the Phantom Dash ability, \nwhich dashes forward to cover some distance quickly. Deals damage in a line if the Mist Wing is cloaked."
+    "description": "Mist Wing War Council ability.\nMist Wings gain the Phantom Dash ability, \nwhich dashes forward to cover some distance quickly. Deals damage in a line if the Mist Wing is cloaked."
   },
   "Sacrifice (Supplicant)": {
     "type": "War Council 2",
@@ -7593,7 +7593,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent": null,
-    "description": "All friendly Protoss units gain the equivalent of their +1 armour, attack, and shield upgrades."
+    "description": "All friendly Protoss units gain the equivalent of their +1 armor, attack, and shield upgrades."
   },
   "Nexus Overcharge (Protoss)": {
     "type": "Solarite Core",
