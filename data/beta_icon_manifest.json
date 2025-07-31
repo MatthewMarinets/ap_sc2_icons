@@ -856,7 +856,7 @@
   "icons/blizzard/btn-ability-tychus-herc-heavyimpact.png"
  ],
  "Gravitic Boosters (Observer)": [
-  "icons/original/btn-gravitic-thrusters.png"
+  "icons/blizzard/btn-upgrade-protoss-graviticbooster.png"
  ],
  "Gravitic Drive (Warp Prism)": [
   "icons/blizzard/btn-upgrade-protoss-graviticdrive.png"
@@ -1025,6 +1025,9 @@
  ],
  "Increased Shield Regeneration": [
   "icons/blizzard/icon-shields.png"
+ ],
+ "Increased Upgrade Research Speed": [
+  "icons/original/btn-upgrade-increasedupgraderesearchspeed.png"
  ],
  "Incubator Chamber (Swarm Queen)": [
   "icons/blizzard/btn-upgrade-zerg-abathur-incubationchamber.png"
@@ -1953,6 +1956,9 @@
  ],
  "Reconstruction Beam (Spear of Adun)": [
   "icons/blizzard/btn-ability-spearofadun-reconstructionbeam.png"
+ ],
+ "Reduced Upgrade Research Cost": [
+  "icons/original/btn-upgrade-reducedupgraderesearchcost.png"
  ],
  "Reforged Bloodshard Core (Destroyer)": [
   "icons/blizzard/btn-amonshardsarmor.png"

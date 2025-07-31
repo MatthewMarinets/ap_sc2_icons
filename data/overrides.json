@@ -14,7 +14,9 @@
         "Psi Screen (Psi Disrupter)": ["btn-progression-protoss-fenix-1-zealotsuit.dds"],
         "Hive Mind Emulator": ["btn-building-terran-hivemindemulator.dds"],
         "Psi Indoctrinator (Hive Mind Emulator)": ["btn-building-terran-hivemindemulator.dds"],
-        "Argus Amplifier (Hive Mind Emulator)": ["btn-building-terran-hivemindemulator.dds"]
+        "Argus Amplifier (Hive Mind Emulator)": ["btn-building-terran-hivemindemulator.dds"],
+        "Increased Upgrade Research Speed": ["ap/assets/textures/btn-upgrade-increasedupgraderesearchspeed.dds"],
+        "Reduced Upgrade Research Cost": ["ap/assets/textures/btn-upgrade-reducedupgraderesearchcost.dds"]
     },
     "add": {
         "Additional Starting Minerals": ["icon-mineral-nobg.dds"],

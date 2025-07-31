@@ -73,7 +73,7 @@ def parse_galaxy_file(galaxy_path: str) -> Dict[ItemId, List[GalaxyItem]]:
     UNLOCK_PROGRESSIVE_ARRAY_START = 'ap_triggers_processUpgrades'
     UNLOCK_WA_UPGRADES_START = 'ap_triggers_processWeaponArmorUpgrades'
     array_type = ArrayType.Basic
-    for line in lines:
+    for line_number, line in enumerate(lines, start=1):
         if match := re.match(function_name_pattern, line):
             current_function = match.group(1)
         elif UNLOCK_ARRAY_START in line:
@@ -133,13 +133,14 @@ def parse_galaxy_file(galaxy_path: str) -> Dict[ItemId, List[GalaxyItem]]:
             unlocked_times.setdefault((match.group(1), None), 0)
             unlocked_times[match.group(1), None] += 1
         elif match := re.match(unlock_upgrade_pattern, line):
-            assert current_function
+            if not current_function:
+                continue
             if 'DefaultTech' in current_function: continue
             function_unlocks.setdefault(current_function, []).append(GalaxyItem('upgrade', match.group(1)))
             unlocked_times.setdefault((match.group(1), None), 0)
             unlocked_times[match.group(1), None] += 1
         elif match := re.match(unlock_ability_pattern, line):
-            assert current_function
+            assert current_function, f".galaxy line {line_number}"
             if 'DefaultTech' in current_function: continue
             abil_index = int(match.group(2))
             function_unlocks.setdefault(current_function, []).append(GalaxyItem('ability', match.group(1), abil_index))

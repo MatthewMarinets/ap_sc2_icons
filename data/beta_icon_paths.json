@@ -1,8 +1,8 @@
 {
   "meta": {
-    "timestamp": "2025-07-30",
+    "timestamp": "2025-07-31",
     "items": 858,
-    "located": 839
+    "located": 841
   },
   "locations": {
     "Marine": [
@@ -1017,8 +1017,12 @@
     "Increased Building Construction Speed": [
       "icon-time-protoss.dds"
     ],
-    "Increased Upgrade Research Speed": [],
-    "Reduced Upgrade Research Cost": [],
+    "Increased Upgrade Research Speed": [
+      "ap/assets/textures/btn-upgrade-increasedupgraderesearchspeed.dds"
+    ],
+    "Reduced Upgrade Research Cost": [
+      "ap/assets/textures/btn-upgrade-reducedupgraderesearchcost.dds"
+    ],
     "Decreased Maximum Supply": [
       "ui_btn_generic_exclemation_red.dds"
     ],
@@ -2190,7 +2194,7 @@
       "assets\\textures\\btn-upgrade-protoss-alarak-graviticdrive.dds"
     ],
     "Gravitic Boosters (Observer)": [
-      "ap\\assets\\textures\\btn-gravitic-thrusters.dds"
+      "assets\\textures\\btn-upgrade-protoss-graviticbooster.dds"
     ],
     "Sensor Array (Observer)": [
       "assets\\textures\\btn-ability-zeratul-observer-sensorarray.dds"
