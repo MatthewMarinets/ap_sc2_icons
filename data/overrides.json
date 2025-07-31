@@ -78,7 +78,7 @@
         "Lurker": ["btn-building-zerg-lurkerden", "btn-unit-zerg-hydralisk-lurker"],
         "Mutalisk": ["btn-unit-zerg-mutalisk-broodlord", "btn-unit-zerg-mutalisk-viper"],
         "Brood Lord": ["btn-unit-zerg-mutalisk-broodlord", "btn-building-zerg-greaterspire"],
-        "Viper": ["btn-unit-zerg-viper", "btn-building-zerg-greaterspire"],
+        "Viper": ["btn-unit-zerg-mutalisk-viper", "btn-building-zerg-greaterspire"],
         "Guardian": ["btn-building-zerg-greaterspire"],
         "Devourer": ["btn-building-zerg-greaterspire"],
         "Swarm Host": ["btn-unit-zerg-swarmhost-carrion", "btn-unit-zerg-swarmhost-creeper"],
