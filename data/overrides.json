@@ -145,7 +145,8 @@
         "Frightful Fleshwelder .*": ["btn-ability-hornerhan-salvagebonus.dds"],
         "Optimized Logistics.*": ["btn-upgrade-terran-optimizedlogistics.dds"],
         "Rapid Metamorph (Baneling)": ["btn-upgrade-terran-optimizedlogistics.dds"],
-        "Internal Tech Module.*": ["btn-upgrade-terran-internalizedtechmodule.dds"]
+        "Internal Tech Module.*": ["btn-upgrade-terran-internalizedtechmodule.dds"],
+        "\\d+ Kerrigan Levels?": ["btn-ability-kerrigan-revive.dds"]
     },
     "pattern_remove": {
         "[^(]+\\([^)]+\\)": ["btn-command-cancel"],

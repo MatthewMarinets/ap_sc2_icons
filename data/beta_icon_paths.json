@@ -2,7 +2,7 @@
   "meta": {
     "timestamp": "2025-07-30",
     "items": 858,
-    "located": 826
+    "located": 839
   },
   "locations": {
     "Marine": [
@@ -1749,19 +1749,45 @@
     "Immobilization Wave (Kerrigan Ability)": [
       "assets\\textures\\btn-upgrade-kerrigan-crushinggripwave.dds"
     ],
-    "10 Kerrigan Levels": [],
-    "9 Kerrigan Levels": [],
-    "8 Kerrigan Levels": [],
-    "7 Kerrigan Levels": [],
-    "6 Kerrigan Levels": [],
-    "5 Kerrigan Levels": [],
-    "4 Kerrigan Levels": [],
-    "3 Kerrigan Levels": [],
-    "2 Kerrigan Levels": [],
-    "1 Kerrigan Level": [],
-    "14 Kerrigan Levels": [],
-    "35 Kerrigan Levels": [],
-    "70 Kerrigan Levels": [],
+    "10 Kerrigan Levels": [
+      "btn-ability-kerrigan-revive.dds"
+    ],
+    "9 Kerrigan Levels": [
+      "btn-ability-kerrigan-revive.dds"
+    ],
+    "8 Kerrigan Levels": [
+      "btn-ability-kerrigan-revive.dds"
+    ],
+    "7 Kerrigan Levels": [
+      "btn-ability-kerrigan-revive.dds"
+    ],
+    "6 Kerrigan Levels": [
+      "btn-ability-kerrigan-revive.dds"
+    ],
+    "5 Kerrigan Levels": [
+      "btn-ability-kerrigan-revive.dds"
+    ],
+    "4 Kerrigan Levels": [
+      "btn-ability-kerrigan-revive.dds"
+    ],
+    "3 Kerrigan Levels": [
+      "btn-ability-kerrigan-revive.dds"
+    ],
+    "2 Kerrigan Levels": [
+      "btn-ability-kerrigan-revive.dds"
+    ],
+    "1 Kerrigan Level": [
+      "btn-ability-kerrigan-revive.dds"
+    ],
+    "14 Kerrigan Levels": [
+      "btn-ability-kerrigan-revive.dds"
+    ],
+    "35 Kerrigan Levels": [
+      "btn-ability-kerrigan-revive.dds"
+    ],
+    "70 Kerrigan Levels": [
+      "btn-ability-kerrigan-revive.dds"
+    ],
     "Infested Medics": [
       "ap\\assets\\textures\\btn-unit-infested-infestedmedic.dds"
     ],
