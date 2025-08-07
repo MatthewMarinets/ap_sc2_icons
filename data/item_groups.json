@@ -216,6 +216,7 @@
   "Infested Terran Items": [
     "Infested Marine",
     "Infested Bunker",
+    "Bullfrog",
     "Infested Diamondback",
     "Infested Siege Tank",
     "Infested Liberator",
@@ -226,6 +227,10 @@
     "Calcified Armor (Infested Bunker)",
     "Regenerative Plating (Infested Bunker)",
     "Engorged Bunkers (Infested Bunker)",
+    "Mutagen Vents (Bullfrog)",
+    "Suffused With Vermin (Bullfrog)",
+    "Lethal Impact (Bullfrog)",
+    "Catalytic Boosters (Bullfrog)",
     "Caustic Mucus (Infested Diamondback)",
     "Concentrated Spew (Infested Diamondback)",
     "Progressive Fungal Snare (Infested Diamondback)",
@@ -244,11 +249,15 @@
     "Frightful Fleshwelder (Infested Diamondback)",
     "Frightful Fleshwelder (Infested Siege Tank)",
     "Frightful Fleshwelder (Infested Liberator)",
-    "Frightful Fleshwelder (Infested Banshee)"
+    "Frightful Fleshwelder (Infested Banshee)",
+    "Bioelectric Payload (Infested Missile Turret)",
+    "Acid Spore Vents (Infested Missile Turret)",
+    "Infested Missile Turret"
   ],
   "Infested Terran Units": [
     "Infested Marine",
     "Infested Bunker",
+    "Bullfrog",
     "Infested Diamondback",
     "Infested Siege Tank",
     "Infested Liberator",
@@ -261,6 +270,10 @@
     "Calcified Armor (Infested Bunker)",
     "Regenerative Plating (Infested Bunker)",
     "Engorged Bunkers (Infested Bunker)",
+    "Mutagen Vents (Bullfrog)",
+    "Suffused With Vermin (Bullfrog)",
+    "Lethal Impact (Bullfrog)",
+    "Catalytic Boosters (Bullfrog)",
     "Caustic Mucus (Infested Diamondback)",
     "Concentrated Spew (Infested Diamondback)",
     "Progressive Fungal Snare (Infested Diamondback)",
@@ -279,7 +292,9 @@
     "Frightful Fleshwelder (Infested Diamondback)",
     "Frightful Fleshwelder (Infested Siege Tank)",
     "Frightful Fleshwelder (Infested Liberator)",
-    "Frightful Fleshwelder (Infested Banshee)"
+    "Frightful Fleshwelder (Infested Banshee)",
+    "Bioelectric Payload (Infested Missile Turret)",
+    "Acid Spore Vents (Infested Missile Turret)"
   ],
   "Kerrigan Abilities": [
     "Kinetic Blast (Kerrigan Ability)",

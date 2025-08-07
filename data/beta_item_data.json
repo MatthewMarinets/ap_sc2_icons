@@ -5369,7 +5369,7 @@
     "race": "ZERG",
     "classification": "useful",
     "quantity": 1,
-    "parent": null,
+    "parent": "Infested Factory or Starport",
     "description": "Infested Factories and Starports can store 3 additional unit charges."
   },
   "Broodling Spore Saturation (Zerg)": {
@@ -7467,7 +7467,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent": "Supplicant",
-    "description": "Allows Supplicants to sacrifice themselves to save nearby units from death."
+    "description": "Supplicant War Council ability.\nAllows Supplicants to sacrifice themselves to save nearby units from death."
   },
   "Chrono Surge (Spear of Adun)": {
     "type": "Spear Of Adun",

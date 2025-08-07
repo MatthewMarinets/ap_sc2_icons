@@ -1,6 +1,6 @@
 {
   "meta": {
-    "timestamp": "2025-07-31",
+    "timestamp": "2025-08-07",
     "items": 858,
     "located": 841
   },
@@ -183,8 +183,8 @@
       "assets\\textures\\btn-upgrade-swann-scvdoublerepair.dds"
     ],
     "Progressive Fire-Suppression System (Terran)": [
-      "btn-upgrade-swann-firesuppressionsystem.dds",
-      "ui_tipicon_campaign_korhal02-psidestroyer.dds"
+      "ap/Assets/Textures/btn-fire-syuppression-system-lvl2.dds",
+      "btn-upgrade-swann-firesuppressionsystem.dds"
     ],
     "Progressive Orbital Command (Deprecated)": [],
     "Progressive Stimpack (Marine)": [
@@ -536,7 +536,7 @@
       "assets\\textures\\btn-upgrade-swann-defensivematrix.dds"
     ],
     "Ocular Implants (Ghost)": [
-      "assets\\textures\\btn-techupgrade-terran-ocularimplants.dds"
+      "ap\\assets\\textures\\btn-techupgrade-terran-ocularimplants.dds"
     ],
     "Crius Suit (Ghost)": [
       "ap\\assets\\custom\\textures\\btn-permacloak-ghost.dds"
@@ -658,7 +658,7 @@
       "ap\\assets\\textures\\btn-abilty-terran-lockdown@scbw.dds"
     ],
     "Impaler Rounds (Spectre)": [
-      "assets\\textures\\btn-techupgrade-terran-impalerrounds.dds"
+      "ap\\assets\\textures\\btn-techupgrade-terran-impalerrounds-color.dds"
     ],
     "Progressive High Impact Payload (Thor)": [
       "assets\\textures\\btn-unit-terran-thorsiegemode.dds",
@@ -904,7 +904,7 @@
       "assets\\textures\\btn-upgrade-swann-vehiclerangeincrease.dds"
     ],
     "Rogue Forces (Terran)": [
-      "btn-unit-terran-tosh.dds"
+      "ap/Assets/Textures/btn-rogue-forces.dds"
     ],
     "Mechanical Know-how (Terran)": [
       "assets\\textures\\talent-swann-level14-vehiclehealthincrease.dds"
@@ -1308,7 +1308,7 @@
       "assets\\textures\\btn-upgrade-zerg-tunnelingjaws.dds"
     ],
     "Rapid Metamorph (Baneling)": [
-      "btn-upgrade-terran-optimizedlogistics.dds"
+      "ap/Assets/Textures/btn-rapid-metamorph.dds"
     ],
     "Severing Glaive (Mutalisk)": [
       "assets\\textures\\btn-upgrade-zerg-explosiveglaive.dds"
@@ -2368,7 +2368,7 @@
       "assets\\textures\\btn-ability-protoss-stasistrap.dds"
     ],
     "Accelerated Warp (Oppressor)": [
-      "btn-upgrade-terran-optimizedlogistics.dds"
+      "ap/Assets/Textures/btn-accelerated-warp.dds"
     ],
     "Armor Melting Blasters (Oppressor)": [
       "ap\\assets\\textures\\btn-armor-metling-blasters.dds"
@@ -2435,7 +2435,7 @@
       "ap\\assets\\textures\\btn-kryhas-cloak.dds"
     ],
     "Lesser Shadow Fury (Dark Templar)": [
-      "assets\\textures\\btn-ability-protoss-shadowfury.dds"
+      "ap/Assets/Textures/btn-lesser-shadow-fury.dds"
     ],
     "Greater Shadow Fury (Dark Templar)": [
       "assets\\textures\\btn-ability-protoss-shadowfury.dds"
@@ -2555,7 +2555,6 @@
       "ap\\assets\\textures\\btn-ability-protoss-phantomdash.dds"
     ],
     "Sacrifice (Supplicant)": [
-      "ap\\assets\\textures\\btn-ability-protoss-supplicant-sacrificeoff.dds",
       "ap\\assets\\textures\\btn-ability-protoss-supplicant-sacrificeon.dds"
     ],
     "Chrono Surge (Spear of Adun)": [

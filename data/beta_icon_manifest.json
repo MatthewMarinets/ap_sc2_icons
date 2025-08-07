@@ -51,7 +51,7 @@
   "icons/blizzard/btn-ability-kerrigan-abilityefficiency.png"
  ],
  "Accelerated Warp (Oppressor)": [
-  "icons/blizzard/btn-upgrade-terran-optimizedlogistics.png"
+  "icons/original/btn-accelerated-warp.png"
  ],
  "Acid Spore Vents (Infested Missile Turret)": [
   "icons/blizzard/btn-ability-zerg-acidspores.png"
@@ -1000,7 +1000,7 @@
   "icons/blizzard/btn-unit-zerg-impaler.png"
  ],
  "Impaler Rounds (Spectre)": [
-  "icons/blizzard/btn-techupgrade-terran-impalerrounds.png"
+  "icons/original/btn-techupgrade-terran-impalerrounds-color.png"
  ],
  "Impaling Strike (Tyrannozor)": [
   "icons/blizzard/btn-ability-zerg-dehaka-ultralisk-impalingstrike.png"
@@ -1241,7 +1241,7 @@
   "icons/blizzard/btn-ability-protoss-lightningdash.png"
  ],
  "Lesser Shadow Fury (Dark Templar)": [
-  "icons/blizzard/btn-ability-protoss-shadowfury.png"
+  "icons/original/btn-lesser-shadow-fury.png"
  ],
  "Lethal Impact (Bullfrog)": [
   "icons/blizzard/btn-ability-mengsk-ghost-tacticalmissilestrike.png"
@@ -1430,7 +1430,7 @@
   "icons/blizzard/btn-unit-protoss-observer.png"
  ],
  "Ocular Implants (Ghost)": [
-  "icons/blizzard/btn-techupgrade-terran-ocularimplants.png"
+  "icons/original/btn-techupgrade-terran-ocularimplants.png"
  ],
  "Oppressor": [
   "icons/original/btn-unit-protoss-scouttaldarim.png"
@@ -1647,8 +1647,8 @@
   "icons/blizzard/talent-tychus-level07-firstdiscount.png"
  ],
  "Progressive Fire-Suppression System (Terran)": [
-  "icons/blizzard/btn-upgrade-swann-firesuppressionsystem.png",
-  "icons/blizzard/ui_tipicon_campaign_korhal02-psidestroyer.png"
+  "icons/original/btn-fire-syuppression-system-lvl2.png",
+  "icons/blizzard/btn-upgrade-swann-firesuppressionsystem.png"
  ],
  "Progressive Fungal Snare (Infested Diamondback)": [
   "icons/blizzard/btn-ability-zerg-stukov-ensnare.png",
@@ -1904,7 +1904,7 @@
   "icons/blizzard/btn-upgrade-zerg-rapidincubation.png"
  ],
  "Rapid Metamorph (Baneling)": [
-  "icons/blizzard/btn-upgrade-terran-optimizedlogistics.png"
+  "icons/original/btn-rapid-metamorph.png"
  ],
  "Rapid Power Cycling (Wrathwalker)": [
   "icons/blizzard/btn-upgrade-protoss-wrathwalker-chargetimeimproved.png"
@@ -2105,13 +2105,12 @@
   "icons/blizzard/btn-upgrade-terran-nova-bansheemissilestrik.png"
  ],
  "Rogue Forces (Terran)": [
-  "icons/blizzard/btn-unit-terran-tosh.png"
+  "icons/original/btn-rogue-forces.png"
  ],
  "Rupture (Baneling)": [
   "icons/blizzard/btn-upgrade-zerg-rupture.png"
  ],
  "Sacrifice (Supplicant)": [
-  "icons/original/btn-ability-protoss-supplicant-sacrificeoff.png",
   "icons/original/btn-ability-protoss-supplicant-sacrificeon.png"
  ],
  "Scanner Sweep (Command Center)": [
