@@ -209,7 +209,7 @@
   "icons/blizzard/btn-upgrade-swann-aresclasstargetingsystem.png"
  ],
  "Argus Amplifier (Hive Mind Emulator)": [
-  "icons/blizzard/btn-building-terran-hivemindemulator.png"
+  "icons/original/btn-argus-talisman.png"
  ],
  "Argus Jewel (Corsair)": [
   "icons/blizzard/btn-ability-protoss-stasistrap.png"
@@ -1848,7 +1848,7 @@
   "icons/blizzard/btn-ability-terran-psidisruption.png"
  ],
  "Psi Indoctrinator (Hive Mind Emulator)": [
-  "icons/blizzard/btn-building-terran-hivemindemulator.png"
+  "icons/original/btn-upgrade-psi-indoctrinator.png"
  ],
  "Psi Screen (Psi Disrupter)": [
   "icons/blizzard/btn-progression-protoss-fenix-1-zealotsuit.png"

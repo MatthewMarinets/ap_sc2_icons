@@ -930,10 +930,10 @@
       "btn-progression-protoss-fenix-1-zealotsuit.dds"
     ],
     "Argus Amplifier (Hive Mind Emulator)": [
-      "btn-building-terran-hivemindemulator.dds"
+      "ap/Assets/Textures/btn-argus-talisman.dds"
     ],
     "Psi Indoctrinator (Hive Mind Emulator)": [
-      "btn-building-terran-hivemindemulator.dds"
+      "ap/Assets/Textures/btn-upgrade-psi-indoctrinator.dds"
     ],
     "Signal Beacon (Terran)": [
       "talent-raynor-level08-orbitaldroppods.dds"
