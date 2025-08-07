@@ -43,6 +43,7 @@
         "Large Scale Field Construction (Thor)": ["btn-tips-armory.dds"],
         "Progressive Immortality Protocol (Thor)": ["talent-swann-level12-immortalityprotocol.dds"],
         "Primal Form (Kerrigan)": ["btn-unit-zerg-kerriganghost.dds", "btn-unit-zerg-kerriganinfested.dds", "btn-unit-zerg-kerriganascended.dds"],
+        "Progressive Replenishable Magazine (Vulture)": ["ap/assets/textures/btn-upgrade-terran-replenishablemagazinelvl2.dds"],
         "Progressive Stealth Suit Module (Nova Suit Module)": ["btn-upgrade-nova-equipment-stealthsuit.dds"],
         "Energy Suit Module (Nova Suit Module)": ["btn-upgrade-nova-equipment-apolloinfantrysuit.dds"],
         "Armored Suit Module (Nova Suit Module)": ["btn-upgrade-nova-equipment-blinksuit.dds"],
@@ -59,6 +60,7 @@
         "Quatro (Protoss)": ["btn-progression-protoss-fenix-6-forgeresearch.dds"],
         "Overwatch (Spear of Adun)": ["btn-ability-zeratul-chargedcrystal-psionicwinds.dds"],
         "Progressive Proxy Pylon (Spear of Adun)": ["btn-ability-spearofadun-deploypylon.dds"],
+        "Progressive Warp Relocate (Protoss)": ["ap/Assets/Textures/btn-ability-protoss-warprelocatelvl2.dds"],
         "Supply Efficiency (Scout)": ["talent-artanis-level14-startingmaxsupply.dds"],
         "": [],
         "Nothing": ["btn-command-cancel.dds"]
@@ -146,7 +148,7 @@
     },
     "pattern_add": {
         "Resource Efficiency.*": ["btn-ability-hornerhan-salvagebonus.dds"],
-        "Bargain Bin Prices.*": ["naptime_coop.dds"],
+        "Bargain Bin Prices.*": ["ap/assets/textures/icon-bargain-bin-prices.dds"],
         "Frightful Fleshwelder .*": ["btn-ability-hornerhan-salvagebonus.dds"],
         "Optimized Logistics.*": ["btn-upgrade-terran-optimizedlogistics.dds"],
         "Rapid Metamorph (Baneling)": ["btn-upgrade-terran-optimizedlogistics.dds"],

@@ -480,6 +480,7 @@
       "assets\\textures\\btn-upgrade-raynor-cerberusmines.dds"
     ],
     "Progressive Replenishable Magazine (Vulture)": [
+      "ap/assets/textures/btn-upgrade-terran-replenishablemagazinelvl2.dds",
       "assets\\textures\\btn-upgrade-raynor-replenishablemagazine.dds"
     ],
     "Multi-Lock Weapons System (Goliath)": [
@@ -989,10 +990,10 @@
       "assets\\textures\\btn-building-terran-autoturret.dds"
     ],
     "Bargain Bin Prices (Ghost)": [
-      "naptime_coop.dds"
+      "ap/assets/textures/icon-bargain-bin-prices.dds"
     ],
     "Bargain Bin Prices (Spectre)": [
-      "naptime_coop.dds"
+      "ap/assets/textures/icon-bargain-bin-prices.dds"
     ],
     "Additional Starting Minerals": [
       "icon-mineral-nobg.dds"
@@ -2405,7 +2406,7 @@
       "talent-artanis-level14-startingmaxsupply.dds"
     ],
     "Bargain Bin Prices (Reaver)": [
-      "naptime_coop.dds"
+      "ap/assets/textures/icon-bargain-bin-prices.dds"
     ],
     "Whirlwind (Zealot)": [
       "assets\\textures\\btn-ability-protoss-whirlwind.dds"
@@ -2634,6 +2635,7 @@
       "ap\\assets\\textures\\btn-research-terran-microfiltering.dds"
     ],
     "Progressive Warp Relocate (Protoss)": [
+      "ap/Assets/Textures/btn-ability-protoss-warprelocatelvl2.dds",
       "assets\\textures\\btn-ability-protoss-massrecall.dds"
     ],
     "Probe Warp-In (Protoss)": [

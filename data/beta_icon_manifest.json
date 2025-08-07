@@ -269,13 +269,13 @@
   "icons/blizzard/btn-unit-terran-banshee.png"
  ],
  "Bargain Bin Prices (Ghost)": [
-  "icons/blizzard/naptime_coop.png"
+  "icons/original/icon-bargain-bin-prices.png"
  ],
  "Bargain Bin Prices (Reaver)": [
-  "icons/blizzard/naptime_coop.png"
+  "icons/original/icon-bargain-bin-prices.png"
  ],
  "Bargain Bin Prices (Spectre)": [
-  "icons/blizzard/naptime_coop.png"
+  "icons/original/icon-bargain-bin-prices.png"
  ],
  "Barrage of Spikes (Tyrannozor)": [
   "icons/blizzard/btn-ability-zerg-dehaka-tyrannozor-barrageofspikes.png"
@@ -1711,6 +1711,7 @@
   "icons/blizzard/btn-research-zerg-regenerativebio-steel.png"
  ],
  "Progressive Replenishable Magazine (Vulture)": [
+  "icons/original/btn-upgrade-terran-replenishablemagazinelvl2.png",
   "icons/blizzard/btn-upgrade-raynor-replenishablemagazine.png"
  ],
  "Progressive Stealth Suit Module (Nova Suit Module)": [
@@ -1792,6 +1793,7 @@
   "icons/original/btn-upgrade-terran-tungsten-spikes.png"
  ],
  "Progressive Warp Relocate (Protoss)": [
+  "icons/original/btn-ability-protoss-warprelocatelvl2.png",
   "icons/blizzard/btn-ability-protoss-massrecall.png"
  ],
  "Progressive Zerg Flyer Attack": [
