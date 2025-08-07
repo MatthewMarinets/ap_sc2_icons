@@ -11,6 +11,7 @@
         "Vanadium Plating (Terran)": ["btn-research-terran-vanadiumplating.dds"],
         "Resource Efficiency (Sentinel)": ["btn-ability-hornerhan-salvagebonus.dds"],
         "Resource Efficiency (Centurion)": ["btn-ability-hornerhan-salvagebonus.dds"],
+        "Stim Infusion (Nova Gadget)": ["btn-upgrade-terran-superstimppack.dds"],
         "Psi Disrupter": ["btn-building-terran-sigmaprojector.dds", "btn-ability-terran-psidisruption.dds"],
         "Sonic Disrupter (Psi Disrupter)": ["btn-ability-protoss-mindblast.dds"],
         "Psi Screen (Psi Disrupter)": ["btn-progression-protoss-fenix-1-zealotsuit.dds"],
