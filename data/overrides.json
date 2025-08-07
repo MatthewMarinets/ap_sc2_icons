@@ -39,7 +39,7 @@
         "Internal Fusion Module (Hercules)": ["btn-upgrade-terran-internalizedtechmodule.dds"],
         "Defensive Matrix (Science Vessel)": ["Assets\\Textures\\btn-upgrade-swann-defensivematrix.dds"],
         "Advanced Medic Facilities (Medic)": ["btn-techupgrade-terran-nano-botinjectors.dds", "btn-upgrade-terran-internalizedtechmodule.dds"],
-        "Progressive Fire-Suppression System (Terran)": ["btn-upgrade-swann-firesuppressionsystem.dds", "ap/Assets/Textures/btn-fire-syuppression-system-lvl2.dds"],
+        "Progressive Fire-Suppression System (Terran)": ["btn-upgrade-swann-firesuppressionsystem.dds", "ap/Assets/Textures/btn-fire-suppression-system-lvl2.dds"],
         "Large Scale Field Construction (Thor)": ["btn-tips-armory.dds"],
         "Progressive Immortality Protocol (Thor)": ["talent-swann-level12-immortalityprotocol.dds"],
         "Primal Form (Kerrigan)": ["btn-unit-zerg-kerriganghost.dds", "btn-unit-zerg-kerriganinfested.dds", "btn-unit-zerg-kerriganascended.dds"],
