@@ -2604,7 +2604,7 @@
     "type": "Laboratory",
     "number": 12,
     "race": "TERRAN",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent": "Terran Mercenaries",
     "description": "Terran Mercenary calldowns are no longer limited by charges."
@@ -2631,7 +2631,7 @@
     "type": "Progressive 2",
     "number": 8,
     "race": "TERRAN",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 2,
     "parent": "Terran Mercenaries",
     "description": "At level 1, you can request one Mercenary unit immediately at the start of a mission. Level 2 allows you to calldown 3 Mercenary units immediately."
@@ -2640,7 +2640,7 @@
     "type": "Laboratory",
     "number": 16,
     "race": "TERRAN",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent": "Terran Mercenaries",
     "description": "Reduces cooldowns of all Terran Mercenary calldowns by 60s."
@@ -3009,7 +3009,7 @@
     "type": "Nova Gear",
     "number": 4,
     "race": "TERRAN",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent": null,
     "description": "Increases Nova's maximum energy and energy regeneration rate."
@@ -3777,7 +3777,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent": "Baneling",
-    "description": "Banelings morph faster."
+    "description": "Banelings morph faster and no longer cost vespene gas to morph."
   },
   "Severing Glaive (Mutalisk)": {
     "type": "Mutation 2",
@@ -5385,7 +5385,7 @@
     "type": "Evolution Pit",
     "number": 16,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent": "Zerg Mercenaries",
     "description": "Adds additional units to Zerg Mercenary calldowns."
@@ -5394,7 +5394,7 @@
     "type": "Evolution Pit",
     "number": 17,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent": "Zerg Mercenaries",
     "description": "Zerg Mercenaries no longer use supply."
@@ -5403,7 +5403,7 @@
     "type": "Evolution Pit",
     "number": 18,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent": "Zerg Mercenaries",
     "description": "Zerg Mercenary units are no longer limited by charges."
@@ -5412,7 +5412,7 @@
     "type": "Evolution Pit",
     "number": 19,
     "race": "ZERG",
-    "classification": "useful",
+    "classification": "progression",
     "quantity": 1,
     "parent": "Zerg Mercenaries",
     "description": "Halves the initial cooldown for all Zerg Mercenaries."
@@ -7016,7 +7016,7 @@
     "race": "PROTOSS",
     "classification": "useful",
     "quantity": 1,
-    "parent": "Scout",
+    "parent": "Reaver",
     "description": "Reduces Reaver cost by 50 minerals, 75 gas, and 1 supply."
   },
   "Whirlwind (Zealot)": {
