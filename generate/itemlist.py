@@ -33,9 +33,12 @@ def write_start(fp: io.FileIO) -> None:
     """))
 
 
-def write_title(fp: 'io.FileIO') -> None:
+def write_title(fp: 'io.FileIO', is_beta: bool) -> None:
     fp.write('<h1>Items</h1>')
-    fp.write('<p style="text-align: center">A list of items with icons and descriptions.<br>Note this is beta content.</p>')
+    fp.write('<p style="text-align: center">A list of items with icons and descriptions.')
+    if is_beta:
+        fp.write('<br>Note this is beta content.')
+    fp.write('</p>')
 
 
 def write_item(fp: io.FileIO, item_name: str, item_info: str, icon_locations: list[str]) -> None:
@@ -91,7 +94,7 @@ def main(paths: Paths) -> None:
         write_start(fp)
         write_topbar_nav(fp, paths)
         write_table_of_contents(fp, item_data, sort_func=item_sort_func)
-        write_title(fp)
+        write_title(fp, paths.is_beta)
         for item in item_data:
             write_item(fp, item, item_data[item], icon_manifest.get(item, []))
         write_end(fp)

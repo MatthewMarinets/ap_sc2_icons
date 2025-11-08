@@ -35,9 +35,12 @@ def write_start(fp: 'io.FileIO') -> None:
     """))
 
 
-def write_title(fp: 'io.FileIO') -> None:
+def write_title(fp: 'io.FileIO', is_beta: bool) -> None:
     fp.write('<h1>Mission Groups</h1>')
-    fp.write('<p style="text-align: center">A list of mission groups and what they expand to.<br>Note this is beta content.</p>')
+    fp.write('<p style="text-align: center">A list of mission groups and what they expand to.')
+    if is_beta:
+        fp.write('<br>Note this is beta content.')
+    fp.write('</p>')
 
 
 def write_group(
@@ -92,7 +95,7 @@ def main(paths: Paths) -> None:
         write_start(fp)
         write_topbar_nav(fp, paths)
         write_table_of_contents(fp, mission_groups)
-        write_title(fp)
+        write_title(fp, paths.is_beta)
         for group_name, group_contents in mission_groups.items():
             write_group(fp, group_name, group_contents, mission_data, icons)
         write_end(fp)

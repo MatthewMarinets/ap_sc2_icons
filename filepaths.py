@@ -2,6 +2,7 @@ from dataclasses import dataclass
 
 @dataclass
 class Paths:
+    is_beta = False
     workspace: str = 'workspace.json'
 
     overrides: str = 'data/overrides.json'
