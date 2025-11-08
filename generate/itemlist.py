@@ -9,23 +9,23 @@ from filepaths import Paths
 from generate.html_common import brief_name, write_table_of_contents, write_topbar_nav
 
 
-def write_start(fp: io.FileIO) -> None:
-    fp.write(inspect.cleandoc("""
+def write_start(fp: io.FileIO, is_beta: bool) -> None:
+    fp.write(inspect.cleandoc(f"""
     <!doctype html>
     <html>
     <head>
-        <title>Starcraft 2 Icon Repository</title>
+        <title>APSC2{" Beta" if is_beta else ""} Item Docs</title>
         <meta name="description" content="A repository of Starcraft 2 icons used in Archipelago"/>
         <meta name="keywords" content="Archipelago Starcraft 2"/>
         <link rel="stylesheet" href="styles/common.css"/>
         <link rel="icon" type="image/png" href="favicon.png"/>
         <style>
-        img {
+        img {{
             display: inline-block;
             margin: auto;
             max-width: 96px;
             height: auto;
-        }
+        }}
         </style>
     </head>
     <body style="background-color: black; color: #ebb">
@@ -91,7 +91,7 @@ def main(paths: Paths) -> None:
     with open(paths.icon_manifest, 'r') as fp:
         icon_manifest = json.load(fp)
     with open(paths.items_html, 'w', encoding='utf-8') as fp:
-        write_start(fp)
+        write_start(fp, paths.is_beta)
         write_topbar_nav(fp, paths)
         write_table_of_contents(fp, item_data, sort_func=item_sort_func)
         write_title(fp, paths.is_beta)
