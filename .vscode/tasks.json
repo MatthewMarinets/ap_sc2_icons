@@ -6,7 +6,7 @@
         {
             "label": "Scan and generate all",
             "type": "shell",
-            "command": "python run_all.py",
+            "command": "python3 run_all.py",
             "group": {
                 "kind": "build",
                 "isDefault": true
@@ -16,7 +16,7 @@
         {
             "label": "Clean icons",
             "type": "shell",
-            "command": "python clean_icons.py",
+            "command": "python3 clean_icons.py",
             "group": {
                 "kind": "build",
                 "isDefault": false

@@ -3,7 +3,7 @@ import os
 import glob
 import shutil
 
-def clean() -> None:
+def clean(verbose: bool = True) -> None:
     shutil.rmtree('_worlds/__pycache__', ignore_errors=True)
     worlds = glob.glob('worlds/*')
     for world in worlds:
@@ -11,14 +11,20 @@ def clean() -> None:
             continue
         if os.path.splitext(world)[1] == '.py':
             continue
-        print(f'Removing {world} ({world.replace("worlds", "_worlds")})')
-        shutil.move(world, world.replace('worlds', '_worlds'))
+        if verbose:
+            print(f'Removing {world}')
+        os.rename(world, world.replace('worlds', '_worlds'))
 
-def restore() -> None:
+def restore(verbose: bool = True) -> None:
     worlds = glob.glob('_worlds/*')
+    print("Restoring all worlds")
     for world in worlds:
-        print(f'Restoring {world} ({world.replace("_worlds", "worlds")})')
-        shutil.move(world, world.replace('_worlds', 'worlds'))
+        if os.path.basename(world) == '__pycache__':
+            shutil.rmtree(world)
+            continue
+        if verbose:
+            print(f'Restoring {world}')
+        os.rename(world, world.replace('_worlds', 'worlds'))
 
 if __name__ == '__main__':
     import sys

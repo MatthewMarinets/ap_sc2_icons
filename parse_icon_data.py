@@ -574,7 +574,7 @@ def resolve_item_icon(
     return [
         x.replace('&apos;', "'")
         for x in sorted(result)
-        if os.path.splitext(os.path.basename(x))[0] not in removals
+        if os.path.splitext(os.path.basename(x.replace('\\', '/')))[0] not in removals
     ]
 
 
@@ -592,7 +592,7 @@ def main(paths: Paths):
     upgrade_to_icon = parse_upgrade_data(os.path.join(game_data, 'UpgradeData.xml'))
     button_to_icon = parse_button_data(os.path.join(game_data, 'ButtonData.xml'))
     if liberty_game_data:
-        vanilla_button_icons = parse_button_data(os.path.join(liberty_game_data, 'ButtonData.xml'))
+        vanilla_button_icons = parse_button_data(os.path.join(liberty_game_data, 'buttondata.xml'))
         button_to_icon.update(vanilla_button_icons)
     id_to_unlocks = parse_galaxy_file(os.path.join(config['mod_files'], 'Mods/ArchipelagoTriggers.SC2Mod/Base.SC2Data/LibABFE498B.galaxy'))
     unit_to_ability, requirement_to_ability_button, requirement_to_ability = parse_abil_data(os.path.join(game_data, 'AbilData.xml'))

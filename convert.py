@@ -4,6 +4,7 @@ Convert .dds icons to .png under the `icons/` folder using magick.
 
 from typing import *
 import json
+from pathlib import Path
 import os
 import subprocess
 
@@ -33,6 +34,8 @@ def main(paths: Paths, fast: bool = True) -> None:
     no_information = 0
     parsed_locations: dict[str, list[str]] = location_info['locations']
     parsed_locations.update(extras)
+    for key in parsed_locations:
+        parsed_locations[key] = [x.replace('\\', '/') for x in parsed_locations[key]]
     info = {}
     items = sorted(parsed_locations)
     if not os.path.exists(ORIGINAL_DIR):
@@ -50,13 +53,16 @@ def main(paths: Paths, fast: bool = True) -> None:
         filenames = [os.path.basename(x) for x in locations]
         stems = [os.path.splitext(x)[0] for x in filenames]
         for location, filename, stem in zip(locations, filenames, stems):
-            if location.startswith('ap'):
+            if location.lower().startswith('ap'):
                 target_dir = ORIGINAL_DIR
-                source_path = os.path.join(mod_dir, 'Mods/ArchipelagoPlayer.SC2Mod/Base.SC2Assets', location)
+                assets_dir = f'{mod_dir}/Mods/ArchipelagoPlayer.SC2Mod/Base.SC2Assets'
+                source_path = f'{assets_dir}/{location}'
+                source_cased_path = list(Path(assets_dir).glob(location, case_sensitive=False))
             else:
                 target_dir = BLIZZARD_DIR
                 source_path = os.path.join(dds_dir, filename)
-            if not os.path.exists(source_path):
+                source_cased_path = list(Path(dds_dir).glob(filename, case_sensitive=False))
+            if not source_cased_path:
                 print(f'Failure: {source_path} does not exist')
                 failures += 1
                 continue
@@ -65,7 +71,7 @@ def main(paths: Paths, fast: bool = True) -> None:
                 skipped += 1
                 if verbose: print(f'Skipping {target_path} as it is already converted')
             else:
-                retval = subprocess.call(f'magick convert "{source_path}" -define png:exclude-chunk=date,time {target_path}', shell=True)
+                retval = subprocess.call(f'convert "{source_cased_path[0]}" -define png:exclude-chunk=date,time {target_path}', shell=True)
                 if retval:
                     failures += 1
                     print(f'magick returned non-zero value {retval} trying to convert {source_path}')
