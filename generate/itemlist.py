@@ -9,6 +9,22 @@ from filepaths import Paths
 from generate.html_common import brief_name, write_table_of_contents, write_topbar_nav
 
 
+EXTRA_NOTES = {
+    "Son of Korhal": "<span style=\"color: red\">Note</span>: This item is unreleased, inaccessible by default, and subject to change.",
+    "Aegis Guard": "<span style=\"color: red\">Note</span>: This item is unreleased, inaccessible by default, and subject to change.",
+    "Field Response Theta": "<span style=\"color: red\">Note</span>: This item is unreleased, inaccessible by default, and subject to change.",
+    "Emperor's Shadow": "<span style=\"color: red\">Note</span>: This item is unreleased, inaccessible by default, and subject to change.",
+    "Bulwark Company": "<span style=\"color: red\">Note</span>: This item is unreleased, inaccessible by default, and subject to change.",
+    "Shock Division": "<span style=\"color: red\">Note</span>: This item is unreleased, inaccessible by default, and subject to change.",
+    "Blackhammer": "<span style=\"color: red\">Note</span>: This item is unreleased, inaccessible by default, and subject to change.",
+    "Sky Fury": "<span style=\"color: red\">Note</span>: This item is unreleased, inaccessible by default, and subject to change.",
+    "Night Hawk": "<span style=\"color: red\">Note</span>: This item is unreleased, inaccessible by default, and subject to change.",
+    "Night Wolf": "<span style=\"color: red\">Note</span>: This item is unreleased, inaccessible by default, and subject to change.",
+    "Emperor's Guardian": "<span style=\"color: red\">Note</span>: This item is unreleased, inaccessible by default, and subject to change.",
+    "Pride of Augustgrad": "<span style=\"color: red\">Note</span>: This item is unreleased, inaccessible by default, and subject to change.",
+}
+
+
 def write_start(fp: io.FileIO, is_beta: bool) -> None:
     fp.write(inspect.cleandoc(f"""
     <!doctype html>
@@ -50,18 +66,18 @@ def write_item(fp: io.FileIO, item_name: str, item_info: str, icon_locations: li
     icon_locations = sorted(icon_locations, key=os.path.basename)
     if not icon_locations:
         fp.write('<p class="error">Icon unavailable</p>')
-    locations_list_items = ''
     for location in icon_locations:
         fp.write(f'<img src="{location}"/>')
-    #     locations_list_items += f'<li>Icon path: <code>{location}</code></li>'
+    note = EXTRA_NOTES.get(item_name, "")
+    if note:
+        note = f"\n        <li>{note}</li>"
     fp.write(inspect.cleandoc(f"""
         </div>
-        <ul>
+        <ul>{note}
         <li>Faction: {item_info["race"]}</li>
         <li>Classification: {item_info["classification"]}</li>
         {f'<li>Description: {item_info["description"]}</li>' if item_info["description"] else ''}
         {f'<li>Parent: {item_info["parent"]}</li>' if item_info["parent"] else ''}
-        {locations_list_items}
         </ul>
     </div>
     """))
