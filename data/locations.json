@@ -1,6 +1,6 @@
 {
   "meta": {
-    "timestamp": "2025-11-09",
+    "timestamp": "2025-12-10",
     "items": 858,
     "located": 841
   },
@@ -177,7 +177,7 @@
       "ap\\assets\\textures\\btn-techupgrade-terran-hellstormbatteries-color.dds"
     ],
     "Advanced Construction (SCV)": [
-      "ap\\assets\\textures\\btn-advanced-construction.dds"
+      "assets\\textures\\btn-ability-mengsk-trooper-advancedconstruction.dds"
     ],
     "Dual-Fusion Welders (SCV)": [
       "assets\\textures\\btn-upgrade-swann-scvdoublerepair.dds"

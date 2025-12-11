@@ -1353,6 +1353,8 @@
     "Time Stop (Spear of Adun)",
     "Solar Bombardment (Spear of Adun)",
     "Progressive Proxy Pylon (Spear of Adun)",
+    "Reconstruction Beam (Spear of Adun)",
+    "Guardian Shell (Spear of Adun)",
     "Nexus Overcharge (Protoss)",
     "Orbital Assimilators (Protoss)",
     "Warp Harmonization (Protoss)",
@@ -2084,6 +2086,44 @@
     "Probe Warp-In (Protoss)",
     "Elder Probes (Protoss)"
   ],
+  "Protoss Ladder Units": [
+    "Zealot",
+    "Stalker",
+    "Sentry",
+    "Adept",
+    "High Templar",
+    "Dark Templar",
+    "Archon Merge (Dark Templar)",
+    "Observer",
+    "Warp Prism",
+    "Immortal",
+    "Colossus",
+    "Disruptor",
+    "Phoenix",
+    "Void Ray",
+    "Oracle",
+    "Carrier",
+    "Tempest",
+    "Mothership"
+  ],
+  "Protoss SC1 Buildings": [
+    "Photon Cannon",
+    "Shield Battery"
+  ],
+  "Protoss SC1 Units": [
+    "Zealot",
+    "Dragoon",
+    "High Templar",
+    "Dark Templar",
+    "Dark Archon",
+    "Dark Archon Meld (Dark Templar)",
+    "Reaver",
+    "Observer",
+    "Scout",
+    "Carrier",
+    "Arbiter",
+    "Corsair"
+  ],
   "Protoss Units": [
     "Zealot",
     "Stalker",
@@ -2224,7 +2264,15 @@
     "Purifier Beam (Spear of Adun)",
     "Time Stop (Spear of Adun)",
     "Solar Bombardment (Spear of Adun)",
-    "Progressive Proxy Pylon (Spear of Adun)"
+    "Progressive Proxy Pylon (Spear of Adun)",
+    "Reconstruction Beam (Spear of Adun)",
+    "Overwatch (Spear of Adun)",
+    "Guardian Shell (Spear of Adun)"
+  ],
+  "SOA Passive Abilities": [
+    "Reconstruction Beam (Spear of Adun)",
+    "Overwatch (Spear of Adun)",
+    "Guardian Shell (Spear of Adun)"
   ],
   "Stargate Units": [
     "Phoenix",
@@ -2286,7 +2334,11 @@
     "Planetary Fortress",
     "Perdition Turret",
     "Hive Mind Emulator",
-    "Psi Disrupter"
+    "Psi Disrupter",
+    "Psi Screen (Psi Disrupter)",
+    "Sonic Disrupter (Psi Disrupter)",
+    "Psi Indoctrinator (Hive Mind Emulator)",
+    "Argus Amplifier (Hive Mind Emulator)"
   ],
   "Terran Generic Upgrades": [
     "Progressive Terran Infantry Weapon",
@@ -2642,6 +2694,23 @@
     "Holo Decoy (Nova Gadget)",
     "Tac Nuke Strike (Nova Ability)"
   ],
+  "Terran Ladder Units": [
+    "Marine",
+    "Marauder",
+    "Reaper",
+    "Ghost",
+    "Hellion",
+    "Widow Mine",
+    "Siege Tank",
+    "Thor",
+    "Cyclone",
+    "Viking",
+    "Medivac",
+    "Liberator",
+    "Raven",
+    "Banshee",
+    "Battlecruiser"
+  ],
   "Terran Mercenaries": [
     "War Pigs",
     "Devil Dogs",
@@ -2690,6 +2759,23 @@
     "Progressive Regenerative Bio-Steel (Terran)",
     "Progressive Fast Delivery (Terran)",
     "Progressive Stealth Suit Module (Nova Suit Module)"
+  ],
+  "Terran SC1 Buildings": [
+    "Bunker",
+    "Missile Turret"
+  ],
+  "Terran SC1 Units": [
+    "Marine",
+    "Firebat",
+    "Ghost",
+    "Medic",
+    "Vulture",
+    "Siege Tank",
+    "Goliath",
+    "Wraith",
+    "Science Vessel",
+    "Battlecruiser",
+    "Valkyrie"
   ],
   "Terran Stimpacks": [
     "Progressive Stimpack (Marine)",
@@ -3016,6 +3102,8 @@
     "Time Stop (Spear of Adun)",
     "Solar Bombardment (Spear of Adun)",
     "Progressive Proxy Pylon (Spear of Adun)",
+    "Reconstruction Beam (Spear of Adun)",
+    "Guardian Shell (Spear of Adun)",
     "Nexus Overcharge (Protoss)",
     "Orbital Assimilators (Protoss)",
     "Warp Harmonization (Protoss)",
@@ -3563,6 +3651,23 @@
     "Primal Igniter",
     "Tyrannozor"
   ],
+  "Zerg Ladder Units": [
+    "Zergling",
+    "Swarm Queen",
+    "Baneling",
+    "Roach",
+    "Ravager",
+    "Overseer",
+    "Hydralisk",
+    "Lurker",
+    "Mutalisk",
+    "Corruptor",
+    "Viper",
+    "Brood Lord",
+    "Infestor",
+    "Swarm Host",
+    "Ultralisk"
+  ],
   "Zerg Mercenaries": [
     "Infested Medics",
     "Infested Siege Breakers",
@@ -3617,6 +3722,21 @@
     "Hunterling",
     "Yggdrasil",
     "Caustic Horrors"
+  ],
+  "Zerg SC1 Units": [
+    "Zergling",
+    "Hydralisk",
+    "Mutalisk",
+    "Scourge",
+    "Brood Queen",
+    "Defiler",
+    "Ultralisk",
+    "Lurker",
+    "Devourer",
+    "Guardian",
+    "Devouring Ones",
+    "Hunter Killers",
+    "Wise Old Torrasque"
   ],
   "Zerg Units": [
     "Zergling",

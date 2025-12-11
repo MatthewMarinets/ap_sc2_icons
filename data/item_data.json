@@ -4641,7 +4641,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent": "Infested Banshee",
-    "description": "Infested Banshees regenerate 20 life and energy per second while burrowed."
+    "description": "Allows Infested Banshees to Burrow. Infested Banshees regenerate 20 life and energy per second while burrowed."
   },
   "Cloud Dispersal (Infested Liberator)": {
     "type": "Mutation 4",
@@ -6207,7 +6207,7 @@
     "classification": "useful",
     "quantity": 1,
     "parent": "Phoenix Class",
-    "description": "Increases Phoenix, Mirage, and Skirmiser range by +2."
+    "description": "Increases Phoenix, Mirage, and Skirmisher range by +2."
   },
   "Stealth Drive (Corsair)": {
     "type": "Forge 1",
@@ -6270,7 +6270,7 @@
     "classification": "progression",
     "quantity": 1,
     "parent": "Oracle",
-    "description": "Oracles no longer need to to spend energy to attack."
+    "description": "Oracles no longer need to spend energy to attack."
   },
   "Chronostatic Reinforcement (Arbiter)": {
     "type": "Forge 1",
